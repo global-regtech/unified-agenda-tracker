@@ -172,4 +172,31 @@
   </main>
 
 </body>
+
+  <script>
+    // Calculate how many days overdue the Fall 2025 Unified Agenda is.
+    // The Fall 2025 edition was due by December 31, 2025.
+
+    const dueDate = new Date('2025-12-31');
+    const today = new Date();
+    const msPerDay = 1000 * 60 * 60 * 24;
+    const daysOverdue = Math.floor((today - dueDate) / msPerDay);
+
+    // Find the <span class="count"> element and replace its number.
+    const countElement = document.querySelector('.count');
+    countElement.textContent = daysOverdue;
+
+    // Also update the page title (what shows in the browser tab).
+    document.title = 'The Fall 2025 Unified Agenda is ' + daysOverdue + ' days overdue';
+
+    // And update the "Last updated" line in the footer.
+    const todayFormatted = today.toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    });
+    const footerParagraph = document.querySelector('footer p');
+    footerParagraph.textContent = 'Last updated: ' + todayFormatted + '.';
+  </script>
+  
 </html>
