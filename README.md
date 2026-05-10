@@ -1,5 +1,3 @@
-# unified-agenda-tracker
-
 # Unified Agenda Lateness Tracker
 
 A public counter tracking how late the U.S. federal Unified Agenda is.
