@@ -27,7 +27,7 @@ jobs:
         run: pip install requests
 
       - name: Run the fetch script
-        run: python fetch_all_agendas.py
+        run: python fetch-all-agendas.py
 
       - name: Commit and push if data changed
         run: |
