@@ -187,39 +187,72 @@
     const response = await fetch('/data/agenda_history.json');
     const editions = await response.json();
 
-    // Skip the 2005 "Correction" outlier; start at 2010.
+    // Skip the 2005 "Correction" outlier; start the timeline at 2010.
     const valid = editions.filter(e => e.type !== 'Correction');
 
-    // Build a list of gaps between consecutive editions.
+    // Derive a friendly edition name (Spring 2024 / Fall 2023 / etc.) from
+    // the publication date. Convention used here:
+    //   - Published Jan-Mar  → Fall edition of (year - 1)
+    //   - Published Apr-Sep  → Spring edition of (year)
+    //   - Published Oct-Dec  → Fall edition of (year)
+    function editionName(dateStr) {
+      const d = new Date(dateStr);
+      const month = d.getMonth() + 1;
+      const year = d.getFullYear();
+      if (month <= 3) return `Fall ${year - 1}`;
+      if (month <= 9) return `Spring ${year}`;
+      return `Fall ${year}`;
+    }
+
+    // Compute gap (in days) between each edition and the one before it.
     const bars = [];
     for (let i = 1; i < valid.length; i++) {
       const prev = new Date(valid[i - 1].publication_date);
       const curr = new Date(valid[i].publication_date);
       const days = Math.round((curr - prev) / (1000 * 60 * 60 * 24));
-      bars.push({ label: valid[i].publication_date, days, pending: false });
+      bars.push({
+        label: editionName(valid[i].publication_date),
+        days,
+        pending: false,
+      });
     }
 
-    // Append the pending bar: today minus last published edition.
+    // Append the pending bar: today minus the date of the last published edition.
     const last = new Date(valid[valid.length - 1].publication_date);
     const today = new Date();
     const pendingDays = Math.round((today - last) / (1000 * 60 * 60 * 24));
-    bars.push({ label: 'Pending (Fall 2025)', days: pendingDays, pending: true });
+    bars.push({ label: 'Fall 2025 (pending)', days: pendingDays, pending: true });
 
     const ctx = document.getElementById('cadence-chart').getContext('2d');
     new Chart(ctx, {
       type: 'bar',
       data: {
         labels: bars.map(b => b.label),
-        datasets: [{
-          label: 'Days since previous edition',
-          data: bars.map(b => b.days),
-          backgroundColor: bars.map(b => b.pending ? '#dc2626' : '#3b82f6'),
-        }],
+        datasets: [
+          {
+            type: 'bar',
+            label: 'Days since previous edition',
+            data: bars.map(b => b.days),
+            backgroundColor: bars.map(b => b.pending ? '#dc2626' : '#3b82f6'),
+            order: 2,
+          },
+          {
+            type: 'line',
+            label: 'Expected cadence (180 days)',
+            data: bars.map(() => 180),
+            borderColor: '#dc2626',
+            borderDash: [6, 4],
+            borderWidth: 1.5,
+            pointRadius: 0,
+            fill: false,
+            order: 1,
+          },
+        ],
       },
       options: {
         responsive: true,
         plugins: {
-          legend: { display: false },
+          legend: { display: true, position: 'top' },
           tooltip: {
             callbacks: { label: ctx => `${ctx.parsed.y} days` },
           },
@@ -231,6 +264,7 @@
           },
           x: {
             ticks: { maxRotation: 70, minRotation: 70, autoSkip: false, font: { size: 10 } },
+            title: { display: true, text: 'Edition' },
           },
         },
       },
