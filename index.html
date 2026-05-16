@@ -150,6 +150,17 @@
       </p>
     </section>
 
+<section class="chart-section" style="margin: 4rem auto; max-width: 900px; padding: 0 1rem;">
+  <h2 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Publication cadence, 2010–today</h2>
+  <p style="color: #555; line-height: 1.5; margin-bottom: 1.5rem;">
+    Each bar shows how many days passed between consecutive Unified Agenda editions.
+    The legally implied cadence is twice a year — roughly 180 days. The final red bar
+    is the time elapsed since the most recent edition (Spring 2025, published
+    September 22, 2025), and it's still growing.
+  </p>
+  <canvas id="cadence-chart"></canvas>
+</section>
+
     <section>
       <h2>About this tracker</h2>
       <p>
@@ -170,6 +181,64 @@
     </footer>
 
   </main>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script>
+  async function renderCadenceChart() {
+    const response = await fetch('/data/agenda_history.json');
+    const editions = await response.json();
+
+    // Skip the 2005 "Correction" outlier; start at 2010.
+    const valid = editions.filter(e => e.type !== 'Correction');
+
+    // Build a list of gaps between consecutive editions.
+    const bars = [];
+    for (let i = 1; i < valid.length; i++) {
+      const prev = new Date(valid[i - 1].publication_date);
+      const curr = new Date(valid[i].publication_date);
+      const days = Math.round((curr - prev) / (1000 * 60 * 60 * 24));
+      bars.push({ label: valid[i].publication_date, days, pending: false });
+    }
+
+    // Append the pending bar: today minus last published edition.
+    const last = new Date(valid[valid.length - 1].publication_date);
+    const today = new Date();
+    const pendingDays = Math.round((today - last) / (1000 * 60 * 60 * 24));
+    bars.push({ label: 'Pending (Fall 2025)', days: pendingDays, pending: true });
+
+    const ctx = document.getElementById('cadence-chart').getContext('2d');
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: bars.map(b => b.label),
+        datasets: [{
+          label: 'Days since previous edition',
+          data: bars.map(b => b.days),
+          backgroundColor: bars.map(b => b.pending ? '#dc2626' : '#3b82f6'),
+        }],
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: { label: ctx => `${ctx.parsed.y} days` },
+          },
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+            title: { display: true, text: 'Days since previous edition' },
+          },
+          x: {
+            ticks: { maxRotation: 70, minRotation: 70, autoSkip: false, font: { size: 10 } },
+          },
+        },
+      },
+    });
+  }
+
+  renderCadenceChart();
+</script>
 
 </body>
 
