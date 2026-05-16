@@ -123,14 +123,13 @@
 
     <p class="eyebrow">Regulatory Transparency Tracker</p>
 
-    <h1>The Fall 2025 Unified Agenda is <span class="count">130</span> days overdue.</h1>
+<h1>The <span class="edition-name">Fall 2025</span> Unified Agenda is <span class="count">130</span> days overdue.</h1>
 
-    <p class="lede">
-      The federal government is legally required to publish the Unified Agenda
-      of regulatory actions twice a year. The Fall 2025 edition was due by
-      December 31, 2025. It has not been published.
-    </p>
-
+<p class="lede">
+  The federal government is legally required to publish the Unified Agenda
+  of regulatory actions twice a year. The <span class="edition-name">Fall 2025</span> edition was due by
+  <span class="deadline-date">December 31, 2025</span>. It has not been published.
+</p>
     <section>
       <h2>Why this matters</h2>
       <p>
@@ -277,29 +276,63 @@
 </body>
 
 <script>
-    // Calculate how many days overdue the Fall 2025 Unified Agenda is.
-    // The Fall 2025 edition was due by December 31, 2025.
+  async function updateHeadlineCounter() {
+    // The Unified Agenda's typical historical cadence is ~180 days between
+    // editions. "Overdue" is time elapsed beyond that since the last publication.
+    const EXPECTED_CADENCE_DAYS = 180;
 
-    const dueDate = new Date('2025-12-31');
+    // Derive an edition name (e.g. "Spring 2024", "Fall 2023") from a date.
+    function editionName(dateStr) {
+      const d = new Date(dateStr);
+      const month = d.getMonth() + 1;
+      const year = d.getFullYear();
+      if (month <= 3) return `Fall ${year - 1}`;
+      if (month <= 9) return `Spring ${year}`;
+      return `Fall ${year}`;
+    }
+
+    // Given an edition name like "Spring 2025", return the next one due.
+    function nextEditionAfter(name) {
+      const [season, yearStr] = name.split(' ');
+      const year = parseInt(yearStr, 10);
+      return season === 'Spring' ? `Fall ${year}` : `Spring ${year + 1}`;
+    }
+
+    const response = await fetch('/data/agenda_history.json');
+    const editions = await response.json();
+    const valid = editions.filter(e => e.type !== 'Correction');
+    const lastEdition = valid[valid.length - 1];
+
+    // Expected deadline = last publication + typical cadence.
+    const lastDate = new Date(lastEdition.publication_date);
+    const deadline = new Date(lastDate);
+    deadline.setDate(deadline.getDate() + EXPECTED_CADENCE_DAYS);
+
     const today = new Date();
     const msPerDay = 1000 * 60 * 60 * 24;
-    const daysOverdue = Math.floor((today - dueDate) / msPerDay);
+    const daysOverdue = Math.floor((today - deadline) / msPerDay);
 
-    // Find the <span class="count"> element and replace its number.
+    const lastName = editionName(lastEdition.publication_date);
+    const nextName = nextEditionAfter(lastName);
+
+    // Update the headline number.
     const countElement = document.querySelector('.count');
-    countElement.textContent = daysOverdue;
+    if (countElement) countElement.textContent = daysOverdue;
 
-    // Also update the page title (what shows in the browser tab).
-    document.title = 'The Fall 2025 Unified Agenda is ' + daysOverdue + ' days overdue';
+    // Update the page title.
+    document.title = `The ${nextName} Unified Agenda is ${daysOverdue} days overdue`;
 
-    // And update the "Last updated" line in the footer.
+    // Update the "Last updated" footer line.
     const todayFormatted = today.toLocaleDateString('en-US', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric'
+      year: 'numeric', month: 'long', day: 'numeric'
     });
     const footerParagraph = document.querySelector('footer p');
-    footerParagraph.textContent = 'Last updated: ' + todayFormatted + '.';
-  </script>
+    if (footerParagraph) {
+      footerParagraph.textContent = 'Last updated: ' + todayFormatted + '.';
+    }
+  }
+
+  updateHeadlineCounter();
+</script>
   
 </html>
