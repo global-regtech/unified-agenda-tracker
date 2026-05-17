@@ -162,6 +162,32 @@
     color: #666;
     margin-top: 1.5em;
 }
+
+.oira-search-container {
+    margin: 0.75em 0;
+}
+
+.oira-search-input {
+    width: 100%;
+    max-width: 420px;
+    padding: 0.55em 0.75em;
+    font-size: 1em;
+    font-family: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.oira-search-input:focus {
+    outline: none;
+    border-color: #4a90d9;
+}
+
+.oira-no-results {
+    text-align: center;
+    color: #666;
+    padding: 1.5em 0;
+}
   </style>
 </head>
 <body>
@@ -225,7 +251,16 @@
         <canvas id="oira-distribution-chart"></canvas>
     </div>
 
-    <h3>The ten rules longest under review</h3>
+    <h3 id="oira-table-heading">The ten rules longest under review</h3>
+<div class="oira-search-container">
+    <input
+        type="search"
+        id="oira-search"
+        class="oira-search-input"
+        placeholder="Search by rule title, RIN, or agency…"
+        autocomplete="off"
+    >
+</div>
     <table id="oira-top-table" class="oira-data-table">
         <thead>
             <tr>
@@ -391,7 +426,8 @@ function renderOiraSection(data) {
         `have been pending more than a year.`;
 
     renderOiraDistributionChart(reviews);
-    renderOiraTopLaggards(reviews);
+    renderOiraTable(reviews, 10);
+setupOiraSearch(reviews);
 
     if (data.generated_at) {
         const fetched = new Date(data.generated_at);
@@ -441,16 +477,22 @@ function renderOiraDistributionChart(reviews) {
     });
 }
 
-function renderOiraTopLaggards(reviews) {
-    const top = [...reviews]
-        .sort((a, b) => b.daysAtOira - a.daysAtOira)
-        .slice(0, 10);
+function renderOiraTable(reviews, limit) {
+    const sorted = [...reviews].sort((a, b) => b.daysAtOira - a.daysAtOira);
+    const toRender = limit ? sorted.slice(0, limit) : sorted;
 
     const fmt = iso => new Date(iso).toLocaleDateString('en-US', {
         month: 'short', day: 'numeric', year: 'numeric'
     });
 
-    document.querySelector('#oira-top-table tbody').innerHTML = top.map(r => `
+    const tbody = document.querySelector('#oira-top-table tbody');
+
+    if (toRender.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="5" class="oira-no-results">No rules match your search.</td></tr>`;
+        return;
+    }
+
+    tbody.innerHTML = toRender.map(r => `
         <tr>
             <td class="oira-days ${r.daysAtOira > 90 ? 'over-90' : ''}">${r.daysAtOira}</td>
             <td>${r.rin}</td>
@@ -461,6 +503,36 @@ function renderOiraTopLaggards(reviews) {
     `).join('');
 }
 
+function setupOiraSearch(allReviews) {
+    const input = document.getElementById('oira-search');
+    const heading = document.getElementById('oira-table-heading');
+
+    input.addEventListener('input', () => {
+        const query = input.value.trim().toLowerCase();
+
+        if (query === '') {
+            renderOiraTable(allReviews, 10);
+            heading.textContent = 'The ten rules longest under review';
+            return;
+        }
+
+        const matches = allReviews.filter(r =>
+            r.title.toLowerCase().includes(query) ||
+            r.rin.toLowerCase().includes(query) ||
+            r.agency.toLowerCase().includes(query)
+        );
+        renderOiraTable(matches, null);
+
+        const escaped = escapeHtml(input.value);
+        if (matches.length === 0) {
+            heading.textContent = `No rules match "${input.value}"`;
+        } else if (matches.length === 1) {
+            heading.textContent = `1 rule matching "${input.value}"`;
+        } else {
+            heading.textContent = `${matches.length} rules matching "${input.value}"`;
+        }
+    });
+}
 function escapeHtml(s) {
     return s.replace(/[&<>"']/g, ch => ({
         '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
