@@ -27,8 +27,4 @@ updates daily based on the visitor's date.
 
 ## Built by
 
-Abdullah. Feedback, corrections, or collaboration welcome —
-abulix@gmail.com.
-
-
-Status update: Local Git setup complete. On to bigger things!
+Imtesal & Abdullah. Feedback, corrections, or collaboration welcome
