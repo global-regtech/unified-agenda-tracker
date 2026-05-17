@@ -115,6 +115,53 @@
         padding: 1.5rem 1rem;
       }
     }
+    .oira-chart-container {
+    position: relative;
+    height: 240px;
+    max-width: 720px;
+    margin: 1em 0;
+}
+
+.oira-data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+    font-size: 0.95em;
+}
+
+.oira-data-table th,
+.oira-data-table td {
+    text-align: left;
+    padding: 0.5em 0.75em;
+    border-bottom: 1px solid #e5e5e5;
+    vertical-align: top;
+}
+
+.oira-data-table th {
+    font-weight: 600;
+    border-bottom: 2px solid #333;
+}
+
+.oira-data-table .oira-col-days,
+.oira-data-table .oira-days {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+.oira-data-table .oira-days {
+    font-weight: 600;
+}
+
+.oira-data-table .oira-days.over-90 {
+    color: #b3261e;
+}
+
+.oira-source-note {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 1.5em;
+}
   </style>
 </head>
 <body>
@@ -158,6 +205,44 @@
     September 22, 2025), and it's still growing.
   </p>
   <canvas id="cadence-chart"></canvas>
+</section>
+
+<section id="oira-section">
+    <h2>Rules currently under OIRA review</h2>
+
+    <p id="oira-summary"><!-- filled by JS --></p>
+
+    <p>
+        While Executive Order 12866 gives OIRA up to 120 days (90 days plus a 30 day extension) 
+        to review regulations, many rules blow past this deadline. When that happens, they are 
+        either undergoing extended review, quietly shelved, or trapped in a loop between 
+        the agency and OIRA. Unfortunately, reginfo.gov doesn't differentiate between these
+         situations because they all just show up as "Pending Review."
+    </p>
+
+    <h3>Distribution of time at OIRA</h3>
+    <div class="oira-chart-container">
+        <canvas id="oira-distribution-chart"></canvas>
+    </div>
+
+    <h3>The ten rules longest under review</h3>
+    <table id="oira-top-table" class="oira-data-table">
+        <thead>
+            <tr>
+                <th class="oira-col-days">Days</th>
+                <th>RIN</th>
+                <th>Agency</th>
+                <th>Rule</th>
+                <th>Received</th>
+            </tr>
+        </thead>
+        <tbody><!-- filled by JS --></tbody>
+    </table>
+
+    <p class="oira-source-note">
+        Source: reginfo.gov OIRA Regulatory Review database.
+        <span id="oira-fetched-at"></span>
+    </p>
 </section>
 
     <section>
@@ -272,7 +357,118 @@
 
   renderCadenceChart();
 </script>
+<script>
+async function loadOiraData() {
+    try {
+        const response = await fetch('data/oira_reviews.json');
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+        renderOiraSection(data);
+    } catch (err) {
+        console.error('Failed to load OIRA data:', err);
+        document.getElementById('oira-summary').textContent =
+            'OIRA review data is currently unavailable.';
+    }
+}
 
+function renderOiraSection(data) {
+    const today = new Date();
+
+    const reviews = data.reviews.map(r => {
+        const received = new Date(r.received_date);
+        const days = Math.floor((today - received) / (1000 * 60 * 60 * 24));
+        return { ...r, daysAtOira: days };
+    });
+
+    const total = reviews.length;
+    const over90 = reviews.filter(r => r.daysAtOira > 90).length;
+    const over365 = reviews.filter(r => r.daysAtOira > 365).length;
+
+    document.getElementById('oira-summary').innerHTML =
+        `<strong>${total} rules are currently under OIRA review.</strong> ` +
+        `${over90} have been pending more than 90 days &mdash; the standard ` +
+        `review window set by Executive Order 12866 &mdash; and ${over365} ` +
+        `have been pending more than a year.`;
+
+    renderOiraDistributionChart(reviews);
+    renderOiraTopLaggards(reviews);
+
+    if (data.generated_at) {
+        const fetched = new Date(data.generated_at);
+        document.getElementById('oira-fetched-at').textContent =
+            `Data refreshed ${fetched.toLocaleDateString('en-US', {
+                month: 'long', day: 'numeric', year: 'numeric'
+            })}.`;
+    }
+}
+
+function renderOiraDistributionChart(reviews) {
+    const buckets = [
+        { label: '0–90 days',    min: 0,   max: 90,       color: '#4a90d9' },
+        { label: '90–180 days',  min: 90,  max: 180,      color: '#e9b949' },
+        { label: '180–365 days', min: 180, max: 365,      color: '#d97e4a' },
+        { label: '365+ days',    min: 365, max: Infinity, color: '#b3261e' }
+    ];
+    buckets.forEach(b => {
+        b.count = reviews.filter(r => r.daysAtOira >= b.min && r.daysAtOira < b.max).length;
+    });
+
+    const ctx = document.getElementById('oira-distribution-chart').getContext('2d');
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: buckets.map(b => b.label),
+            datasets: [{
+                data: buckets.map(b => b.count),
+                backgroundColor: buckets.map(b => b.color),
+                borderWidth: 0
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { display: false },
+                tooltip: { callbacks: { label: ctx => `${ctx.parsed.y} rules` } }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    title: { display: true, text: 'Number of rules' }
+                }
+            }
+        }
+    });
+}
+
+function renderOiraTopLaggards(reviews) {
+    const top = [...reviews]
+        .sort((a, b) => b.daysAtOira - a.daysAtOira)
+        .slice(0, 10);
+
+    const fmt = iso => new Date(iso).toLocaleDateString('en-US', {
+        month: 'short', day: 'numeric', year: 'numeric'
+    });
+
+    document.querySelector('#oira-top-table tbody').innerHTML = top.map(r => `
+        <tr>
+            <td class="oira-days ${r.daysAtOira > 90 ? 'over-90' : ''}">${r.daysAtOira}</td>
+            <td>${r.rin}</td>
+            <td>${r.agency}</td>
+            <td><a href="${r.detail_url}" target="_blank" rel="noopener">${escapeHtml(r.title)}</a></td>
+            <td>${fmt(r.received_date)}</td>
+        </tr>
+    `).join('');
+}
+
+function escapeHtml(s) {
+    return s.replace(/[&<>"']/g, ch => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    }[ch]));
+}
+
+loadOiraData();
+</script>
 </body>
 
 <script>
