@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-05-19T01:31:45Z",
-  "count": 153,
+  "generated_at": "2026-05-19T18:29:46Z",
+  "count": 158,
   "reviews": [
+    {
+      "rin": "1615-AD06",
+      "agency_code": "1615",
+      "agency": "DHS/USCIS",
+      "title": "Public Charge Ground of Inadmissibility",
+      "received_date": "2026-05-18",
+      "rrid": "1382315",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1382315"
+    },
+    {
+      "rin": "1557-AF55",
+      "agency_code": "1557",
+      "agency": "TREAS/OCC",
+      "title": "Permitted Payment Stablecoin Issuer Anti-Money Laundering/Countering the Financing of Terrorism and Sanctions Compliance Risk Management",
+      "received_date": "2026-05-18",
+      "rrid": "1387165",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387165"
+    },
+    {
+      "rin": "2700-AE89",
+      "agency_code": "2700",
+      "agency": "NASA",
+      "title": "Nondiscrimination in Federally-Assisted Programs of NASA - Effectuation of Title VI of the Civils Rights Act of 1964",
+      "received_date": "2026-05-18",
+      "rrid": "1387163",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387163"
+    },
+    {
+      "rin": "3150-AL53",
+      "agency_code": "3150",
+      "agency": "NRC",
+      "title": "Modernizing Security Requirements [NRC-2025-1303]",
+      "received_date": "2026-05-18",
+      "rrid": "1379866",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1379866"
+    },
+    {
+      "rin": "3133-AG11",
+      "agency_code": "3133",
+      "agency": "NCUA",
+      "title": "PREEMPTION \u2013 Federal Credit Union Non-Interest Charges and Fees",
+      "received_date": "2026-05-18",
+      "rrid": "1387162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387162"
+    },
     {
       "rin": "0560-AI88",
       "agency_code": "0560",
