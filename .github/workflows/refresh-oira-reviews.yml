@@ -1,0 +1,42 @@
+name: Refresh OIRA Review Data
+
+on:
+  schedule:
+    - cron: '30 12 * * *'   # Daily at 12:30 UTC (30 min after the agenda refresh)
+  workflow_dispatch:         # Allow manual triggering from the Actions tab
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write        # Required so the bot can commit data changes back
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Fetch OIRA pending reviews from reginfo.gov
+        run: python fetch_oira_reviews.py
+
+      - name: Parse fetched HTML into structured JSON
+        run: python parse_oira_reviews.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/oira_reviews.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Auto-refresh OIRA pending reviews data"
+            git push
+          fi
