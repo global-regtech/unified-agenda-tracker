@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-05-19T18:29:46Z",
-  "count": 158,
+  "generated_at": "2026-05-20T20:33:10Z",
+  "count": 159,
   "reviews": [
+    {
+      "rin": "1140-AA63",
+      "agency_code": "1140",
+      "agency": "DOJ/ATF",
+      "title": "Fingerprint and Photograph Requirements for Applications",
+      "received_date": "2026-05-19",
+      "rrid": "1387164",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387164"
+    },
+    {
+      "rin": "3206-AO89",
+      "agency_code": "3206",
+      "agency": "OPM",
+      "title": "Ensuring Consistent and Rigorous Standards for the Senior Executive Service Candidate Development Programs",
+      "received_date": "2026-05-19",
+      "rrid": "1387168",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387168"
+    },
+    {
+      "rin": "3206-AP06",
+      "agency_code": "3206",
+      "agency": "OPM",
+      "title": "Performance Management Systems for General Schedule, Prevailing Rate, and Certain Other Employees",
+      "received_date": "2026-05-19",
+      "rrid": "1387167",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387167"
+    },
+    {
+      "rin": "1615-AD19",
+      "agency_code": "1615",
+      "agency": "DHS/USCIS",
+      "title": "Mandatory Electronic Filing (e-Filing)",
+      "received_date": "2026-05-19",
+      "rrid": "1382316",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1382316"
+    },
     {
       "rin": "1615-AD06",
       "agency_code": "1615",
@@ -163,15 +199,6 @@
       "received_date": "2026-05-12",
       "rrid": "1379863",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1379863"
-    },
-    {
-      "rin": "0910-ZD07",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Oncology Pharmaceuticals: Streamlined Nonclinical Safety Studies for Biologics and Conjugated Products",
-      "received_date": "2026-05-12",
-      "rrid": "1379665",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1379665"
     },
     {
       "rin": "1245-AA10",
@@ -496,15 +523,6 @@
       "received_date": "2026-04-22",
       "rrid": "1357314",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1357314"
-    },
-    {
-      "rin": "2900-ZB18",
-      "agency_code": "2900",
-      "agency": "VA",
-      "title": "VA Partial Claim Policy",
-      "received_date": "2026-04-22",
-      "rrid": "1357166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1357166"
     },
     {
       "rin": "3060-AM39",
@@ -1054,15 +1072,6 @@
       "received_date": "2026-03-01",
       "rrid": "1289712",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1289712"
-    },
-    {
-      "rin": "0938-AV69",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "Medicaid Managed Care State Directed Payments and Medicaid Fee-For-Service Targeted Medicaid Practitioner Payments (CMS-2449)",
-      "received_date": "2026-02-27",
-      "rrid": "1294512",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1294512"
     },
     {
       "rin": "0938-AV90",
