@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-05-20T20:33:10Z",
-  "count": 159,
+  "generated_at": "2026-05-21T19:28:42Z",
+  "count": 161,
   "reviews": [
+    {
+      "rin": "3150-AL47",
+      "agency_code": "3150",
+      "agency": "NRC",
+      "title": "Reforming and Modernizing the NRC's Radiation Protection Framework [NRC-2025-1140]",
+      "received_date": "2026-05-20",
+      "rrid": "1392164",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1392164"
+    },
+    {
+      "rin": "3150-AL44",
+      "agency_code": "3150",
+      "agency": "NRC",
+      "title": "Modernizing Reactor Licensing, Safety Oversight, and Siting Practices [NRC-2025-0975]",
+      "received_date": "2026-05-20",
+      "rrid": "1369716",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1369716"
+    },
+    {
+      "rin": "3045-AA95",
+      "agency_code": "3045",
+      "agency": "CNCS",
+      "title": "Rescinding Portions of AmeriCorps Title VI Regulations To Conform More Closely With the Statutory Text and To Implement Executive Order 14281",
+      "received_date": "2026-05-20",
+      "rrid": "1392163",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1392163"
+    },
+    {
+      "rin": "2060-AV67",
+      "agency_code": "2060",
+      "agency": "EPA/OAR",
+      "title": "Revisions to the Public Participation Requirements in Minor New Source Review Permitting Program",
+      "received_date": "2026-05-20",
+      "rrid": "1389812",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1389812"
+    },
     {
       "rin": "1140-AA63",
       "agency_code": "1140",
@@ -568,15 +604,6 @@
       "received_date": "2026-04-20",
       "rrid": "1354562",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1354562"
-    },
-    {
-      "rin": "2060-AW39",
-      "agency_code": "2060",
-      "agency": "EPA/OAR",
-      "title": "Phasedown of Hydrofluorocarbons: Reconsideration of Certain Regulatory Requirements Under the Technology Transitions Provisions of the American Innovation and Manufacturing Act of 2020",
-      "received_date": "2026-04-17",
-      "rrid": "1354566",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1354566"
     },
     {
       "rin": "0910-ZC89",
@@ -1234,15 +1261,6 @@
       "received_date": "2025-12-31",
       "rrid": "1232112",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1232112"
-    },
-    {
-      "rin": "3060-AM34",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Accelerating Network Modernization \u2013 High Cost Legacy Program Reforms, WCB Docket No. 25-208",
-      "received_date": "2025-12-31",
-      "rrid": "1189513",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1189513"
     },
     {
       "rin": "0970-AD18",
