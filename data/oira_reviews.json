@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-05-22T18:25:32Z",
-  "count": 158,
+  "generated_at": "2026-05-23T16:11:43Z",
+  "count": 161,
   "reviews": [
+    {
+      "rin": "0970-AD30",
+      "agency_code": "0970",
+      "agency": "HHS/ACF",
+      "title": "Modernize the Head Start Program by Reducing Requirements and Enhancing Alignment with State and Local Systems",
+      "received_date": "2026-05-22",
+      "rrid": "1397164",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397164"
+    },
+    {
+      "rin": "3245-AI75",
+      "agency_code": "3245",
+      "agency": "SBA",
+      "title": "Reforms to 13 CFR 124.103 to Remove SBA's 8(a) Program's Rebuttable Presumption of Social Disadvantage for Individually Owned Firms Only. Reforms do not Impact Entity-owned Firms",
+      "received_date": "2026-05-22",
+      "rrid": "1397162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397162"
+    },
+    {
+      "rin": "0910-ZD09",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Action Levels for Cadmium in Processed Food Intended for Babies and Young Children; Draft Guidance for Industry",
+      "received_date": "2026-05-22",
+      "rrid": "1387166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387166"
+    },
     {
       "rin": "0581-AE54",
       "agency_code": "0581",
