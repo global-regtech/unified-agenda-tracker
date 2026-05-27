@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-05-26T19:49:54Z",
-  "count": 161,
+  "generated_at": "2026-05-27T20:31:06Z",
+  "count": 166,
   "reviews": [
+    {
+      "rin": "3170-ZA17",
+      "agency_code": "3170",
+      "agency": "CFPB",
+      "title": "Statement on Ability to Repay and Immigration Status",
+      "received_date": "2026-05-26",
+      "rrid": "1394663",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1394663"
+    },
+    {
+      "rin": "3038-AF65",
+      "agency_code": "3038",
+      "agency": "CFTC",
+      "title": "Prediction Markets",
+      "received_date": "2026-05-26",
+      "rrid": "1362015",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1362015"
+    },
+    {
+      "rin": "1904-ZA06",
+      "agency_code": "1904",
+      "agency": "DOE/EE",
+      "title": "Distribution Transformers",
+      "received_date": "2026-05-26",
+      "rrid": "1397163",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397163"
+    },
+    {
+      "rin": "3060-AL23",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Protecting Against National Security Threats to the Communications Supply Chain Through the Equipment Authorization and Competitive Bidding Programs; ET Docket No. 21-232, EA Docket No. 21-233",
+      "received_date": "2026-05-26",
+      "rrid": "1397168",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397168"
+    },
+    {
+      "rin": "3060-AM20",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Upper C-band (3.98\u20134.2 GHz) (GN Docket No. 25-59)",
+      "received_date": "2026-05-26",
+      "rrid": "1392166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1392166"
+    },
     {
       "rin": "0970-AD30",
       "agency_code": "0970",
