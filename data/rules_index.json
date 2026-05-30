@@ -19060,11 +19060,11 @@
     "parent_agency_name": "Department of Health and Human Services",
     "parent_agency_acronym": "HHS",
     "reginfo_url": "https://www.reginfo.gov/public/do/eAgendaViewRule?pubId=202504&RIN=0938-AV65",
-    "at_oira": true,
-    "oira_received": "2026-04-11",
-    "oira_days": 49,
-    "oira_rrid": "1344515",
-    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1344515"
+    "at_oira": false,
+    "oira_received": null,
+    "oira_days": null,
+    "oira_rrid": null,
+    "oira_url": null
   },
   {
     "rin": "0938-AV66",
@@ -19106,11 +19106,11 @@
     "parent_agency_name": "Department of Health and Human Services",
     "parent_agency_acronym": "HHS",
     "reginfo_url": "https://www.reginfo.gov/public/do/eAgendaViewRule?pubId=202504&RIN=0938-AV69",
-    "at_oira": true,
-    "oira_received": "2026-02-27",
-    "oira_days": 92,
-    "oira_rrid": "1294512",
-    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1294512"
+    "at_oira": false,
+    "oira_received": null,
+    "oira_days": null,
+    "oira_rrid": null,
+    "oira_url": null
   },
   {
     "rin": "0938-AV70",
@@ -19221,11 +19221,11 @@
     "parent_agency_name": "Department of Health and Human Services",
     "parent_agency_acronym": "HHS",
     "reginfo_url": "https://www.reginfo.gov/public/do/eAgendaViewRule?pubId=202504&RIN=0938-AV15",
-    "at_oira": true,
-    "oira_received": "2026-01-29",
-    "oira_days": 121,
-    "oira_rrid": "1259515",
-    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1259515"
+    "at_oira": false,
+    "oira_received": null,
+    "oira_days": null,
+    "oira_rrid": null,
+    "oira_url": null
   },
   {
     "rin": "0938-AV40",
@@ -28375,11 +28375,11 @@
     "parent_agency_name": "Department of the Interior",
     "parent_agency_acronym": "DOI",
     "reginfo_url": "https://www.reginfo.gov/public/do/eAgendaViewRule?pubId=202504&RIN=1018-BH72",
-    "at_oira": true,
-    "oira_received": "2026-02-23",
-    "oira_days": 96,
-    "oira_rrid": "1287013",
-    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1287013"
+    "at_oira": false,
+    "oira_received": null,
+    "oira_days": null,
+    "oira_rrid": null,
+    "oira_url": null
   },
   {
     "rin": "1018-BH73",
@@ -64738,11 +64738,11 @@
     "parent_agency_name": "Environmental Protection Agency",
     "parent_agency_acronym": "EPA",
     "reginfo_url": "https://www.reginfo.gov/public/do/eAgendaViewRule?pubId=202504&RIN=2060-AW39",
-    "at_oira": true,
-    "oira_received": "2026-04-17",
-    "oira_days": 43,
-    "oira_rrid": "1354566",
-    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1354566"
+    "at_oira": false,
+    "oira_received": null,
+    "oira_days": null,
+    "oira_rrid": null,
+    "oira_url": null
   },
   {
     "rin": "2060-AW42",
@@ -65152,11 +65152,11 @@
     "parent_agency_name": "Environmental Protection Agency",
     "parent_agency_acronym": "EPA",
     "reginfo_url": "https://www.reginfo.gov/public/do/eAgendaViewRule?pubId=202504&RIN=2060-AW81",
-    "at_oira": true,
-    "oira_received": "2026-04-16",
-    "oira_days": 44,
-    "oira_rrid": "1352014",
-    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1352014"
+    "at_oira": false,
+    "oira_received": null,
+    "oira_days": null,
+    "oira_rrid": null,
+    "oira_url": null
   },
   {
     "rin": "2060-AW82",
@@ -65359,11 +65359,11 @@
     "parent_agency_name": "Environmental Protection Agency",
     "parent_agency_acronym": "EPA",
     "reginfo_url": "https://www.reginfo.gov/public/do/eAgendaViewRule?pubId=202504&RIN=2060-AV67",
-    "at_oira": false,
-    "oira_received": null,
-    "oira_days": null,
-    "oira_rrid": null,
-    "oira_url": null
+    "at_oira": true,
+    "oira_received": "2026-05-20",
+    "oira_days": 10,
+    "oira_rrid": "1389812",
+    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1389812"
   },
   {
     "rin": "2060-AV81",
@@ -66555,11 +66555,11 @@
     "parent_agency_name": "Environmental Protection Agency",
     "parent_agency_acronym": "EPA",
     "reginfo_url": "https://www.reginfo.gov/public/do/eAgendaViewRule?pubId=202504&RIN=2060-AW83",
-    "at_oira": false,
-    "oira_received": null,
-    "oira_days": null,
-    "oira_rrid": null,
-    "oira_url": null
+    "at_oira": true,
+    "oira_received": "2026-05-20",
+    "oira_days": 10,
+    "oira_rrid": "1392162",
+    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1392162"
   },
   {
     "rin": "2060-AS35",
@@ -68326,11 +68326,11 @@
     "parent_agency_name": "",
     "parent_agency_acronym": "",
     "reginfo_url": "https://www.reginfo.gov/public/do/eAgendaViewRule?pubId=202504&RIN=2700-AE80",
-    "at_oira": true,
-    "oira_received": "2026-03-23",
-    "oira_days": 68,
-    "oira_rrid": "1317567",
-    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1317567"
+    "at_oira": false,
+    "oira_received": null,
+    "oira_days": null,
+    "oira_rrid": null,
+    "oira_url": null
   },
   {
     "rin": "2700-AE76",
@@ -73248,11 +73248,11 @@
     "parent_agency_name": "",
     "parent_agency_acronym": "",
     "reginfo_url": "https://www.reginfo.gov/public/do/eAgendaViewRule?pubId=202504&RIN=3060-AL23",
-    "at_oira": false,
-    "oira_received": null,
-    "oira_days": null,
-    "oira_rrid": null,
-    "oira_url": null
+    "at_oira": true,
+    "oira_received": "2026-05-26",
+    "oira_days": 4,
+    "oira_rrid": "1397168",
+    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397168"
   },
   {
     "rin": "3060-AL44",
@@ -76721,11 +76721,11 @@
     "parent_agency_name": "",
     "parent_agency_acronym": "",
     "reginfo_url": "https://www.reginfo.gov/public/do/eAgendaViewRule?pubId=202504&RIN=2590-AB23",
-    "at_oira": true,
-    "oira_received": "2026-03-26",
-    "oira_days": 65,
-    "oira_rrid": "1322014",
-    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1322014"
+    "at_oira": false,
+    "oira_received": null,
+    "oira_days": null,
+    "oira_rrid": null,
+    "oira_url": null
   },
   {
     "rin": "2590-AB24",
@@ -83092,11 +83092,11 @@
     "parent_agency_name": "",
     "parent_agency_acronym": "",
     "reginfo_url": "https://www.reginfo.gov/public/do/eAgendaViewRule?pubId=202504&RIN=3206-AO89",
-    "at_oira": false,
-    "oira_received": null,
-    "oira_days": null,
-    "oira_rrid": null,
-    "oira_url": null
+    "at_oira": true,
+    "oira_received": "2026-05-19",
+    "oira_days": 11,
+    "oira_rrid": "1387168",
+    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387168"
   },
   {
     "rin": "3206-AO91",
