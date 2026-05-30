@@ -13,10 +13,10 @@ jobs:
 
     steps:
       - name: Check out repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
@@ -24,10 +24,10 @@ jobs:
         run: pip install requests beautifulsoup4
 
       - name: Fetch OIRA pending reviews from reginfo.gov
-        run: python fetch-oira-reviews.py
+        run: python fetch_oira_reviews.py
 
       - name: Parse fetched HTML into structured JSON
-        run: python parse-oira-reviews.py
+        run: python parse_oira_reviews.py
 
       - name: Commit and push if changed
         run: |

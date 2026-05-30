@@ -1,0 +1,3056 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+
+    <head>
+        <title>Search of Regulatory Review</title>
+        <script type='text/javascript' src='/public/Javascript/jquery.min-c9771cc3e90e18f5336eedbd0fffb2cf.js' ></script>
+ 		<SCRIPT LANGUAGE="JavaScript">
+
+			function refreshPage()
+			{
+				document.forms['eoAdvancedSearchForm'].action = "/public/do/eoAdvancedSearchRefresh";
+				document.forms['eoAdvancedSearchForm'].submit();
+			}
+			function checkForm(form)
+			{
+				if (form.rin.value == "" && form.terms.value == "" && form.agencyCode.value == "")
+				{
+					alert("Please enter one of the fileds(RIN, Terms or Agency)");
+					form.rin.focus();
+					return false;
+				}
+				form.submit() ;
+				return false;
+			}
+			function reFocus()
+			{
+				if (document.forms['eoAdvancedSearchForm'].autoRefresh.value== "0")
+				{
+					document.forms['eoAdvancedSearchForm'].autoRefresh.value = "1";
+					return;
+				}
+				if ( document.forms['eoAdvancedSearchForm'].agencyCode.selectedIndex >0 )
+					document.forms['eoAdvancedSearchForm'].subAgencyCode.focus();
+			}
+
+			function toggleExpeditedFlag(){
+                if ($("#tcjaYes").is(':checked') && !$("#tcjaNo").is(':checked') && !$("#tcjaUncollected").is(':checked')) {
+                    $("#expeditedFlag").show();
+                } else {
+                    $("#expeditedFlagYes").prop('checked', false);
+                    $("#expeditedFlagNo").prop('checked', false);
+                    $("#expeditedFlag").hide();
+                }
+            }
+
+			$(document).ready(function() {
+
+                toggleExpeditedFlag();
+
+				$("#tcjaYes, #tcjaNo, #tcjaUncollected").on("change", toggleExpeditedFlag);
+				
+				$('#eoAdvancedSearchForm').on('keyup keypress', function(e) {
+					  var keyCode = e.keyCode || e.which;
+					  if (keyCode === 13) { 
+					    e.preventDefault();
+					    return false;
+					  }
+				});
+				
+			});
+		</SCRIPT>
+
+	<NOSCRIPT>
+		This script performs the following functions: check and submit the form, refresh the form, and refocus
+	</NOSCRIPT>
+
+	<SCRIPT LANGUAGE="JavaScript" type="text/javascript">
+
+		function agency ( code, name ) {
+			this.code = code;
+			this.name = name;
+		}
+
+		//declaration of sub agency list var:
+		
+			 var sub_agency_0500_list = new Array(42) ;
+			 
+				 sub_agency_0500_list[0] = new agency( "0537","Agricultural Cooperative Service" ) ;
+			 
+				 sub_agency_0500_list[1] = new agency( "0581","Agricultural Marketing Service" ) ;
+			 
+				 sub_agency_0500_list[2] = new agency( "0518","Agricultural Research Service" ) ;
+			 
+				 sub_agency_0500_list[3] = new agency( "0579","Animal and Plant Health Inspection Service" ) ;
+			 
+				 sub_agency_0500_list[4] = new agency( "0517","Client Technology Services" ) ;
+			 
+				 sub_agency_0500_list[5] = new agency( "0566","Commodity Credit Corporation" ) ;
+			 
+				 sub_agency_0500_list[6] = new agency( "0536","Economic Research Service" ) ;
+			 
+				 sub_agency_0500_list[7] = new agency( "0527","Extension Service" ) ;
+			 
+				 sub_agency_0500_list[8] = new agency( "0565","Farm Production and Conservation Business Center" ) ;
+			 
+				 sub_agency_0500_list[9] = new agency( "0560","Farm Service Agency" ) ;
+			 
+				 sub_agency_0500_list[10] = new agency( "0563","Federal Crop Insurance Corporation" ) ;
+			 
+				 sub_agency_0500_list[11] = new agency( "0583","Food Safety and Inspection Service" ) ;
+			 
+				 sub_agency_0500_list[12] = new agency( "0584","Food and Nutrition Service" ) ;
+			 
+				 sub_agency_0500_list[13] = new agency( "0551","Foreign Agricultural Service" ) ;
+			 
+				 sub_agency_0500_list[14] = new agency( "0557","Foreign Assistance Programs" ) ;
+			 
+				 sub_agency_0500_list[15] = new agency( "0596","Forest Service" ) ;
+			 
+				 sub_agency_0500_list[16] = new agency( "0580","Grain Inspection, Packers and Stockyards Administration" ) ;
+			 
+				 sub_agency_0500_list[17] = new agency( "0586","Human Nutrition Information Service" ) ;
+			 
+				 sub_agency_0500_list[18] = new agency( "0530","National Agricultural Library" ) ;
+			 
+				 sub_agency_0500_list[19] = new agency( "0535","National Agricultural Statistical Service" ) ;
+			 
+				 sub_agency_0500_list[20] = new agency( "0524","National Institute of Food and Agriculture" ) ;
+			 
+				 sub_agency_0500_list[21] = new agency( "0578","Natural Resources Conservation Service" ) ;
+			 
+				 sub_agency_0500_list[22] = new agency( "0505","Office of Chief Financial Officer" ) ;
+			 
+				 sub_agency_0500_list[23] = new agency( "0508","Office of Civil Rights" ) ;
+			 
+				 sub_agency_0500_list[24] = new agency( "0506","Office of Communications" ) ;
+			 
+				 sub_agency_0500_list[25] = new agency( "0599","Office of Contracting and Procurement" ) ;
+			 
+				 sub_agency_0500_list[26] = new agency( "0598","Office of Energy" ) ;
+			 
+				 sub_agency_0500_list[27] = new agency( "0525","Office of Grants and Program Systems" ) ;
+			 
+				 sub_agency_0500_list[28] = new agency( "0509","Office of Homeland Security" ) ;
+			 
+				 sub_agency_0500_list[29] = new agency( "0504","Office of Inspector General" ) ;
+			 
+				 sub_agency_0500_list[30] = new agency( "0577","Office of International Cooperation & Development" ) ;
+			 
+				 sub_agency_0500_list[31] = new agency( "0576","Office of Rural Development Policy" ) ;
+			 
+				 sub_agency_0500_list[32] = new agency( "0507","Office of Transportation" ) ;
+			 
+				 sub_agency_0500_list[33] = new agency( "0510","Office of the General Counsel" ) ;
+			 
+				 sub_agency_0500_list[34] = new agency( "0503","Office of the Secretary" ) ;
+			 
+				 sub_agency_0500_list[35] = new agency( "0590","Packers and Stockyards Administration" ) ;
+			 
+				 sub_agency_0500_list[36] = new agency( "0513","Policy, E-Government and Fair Information Practices" ) ;
+			 
+				 sub_agency_0500_list[37] = new agency( "0570","Rural Business-Cooperative Service" ) ;
+			 
+				 sub_agency_0500_list[38] = new agency( "0575","Rural Housing Service" ) ;
+			 
+				 sub_agency_0500_list[39] = new agency( "0572","Rural Utilities Service" ) ;
+			 
+				 sub_agency_0500_list[40] = new agency( "0531","Science and Education" ) ;
+			 
+				 sub_agency_0500_list[41] = new agency( "0550","World Agricultural Outlook Board" ) ;
+			 
+		
+			 var sub_agency_0600_list = new Array(16) ;
+			 
+				 sub_agency_0600_list[0] = new agency( "0691","Bureau of Economic Analysis" ) ;
+			 
+				 sub_agency_0600_list[1] = new agency( "0694","Bureau of Industry and Security" ) ;
+			 
+				 sub_agency_0600_list[2] = new agency( "0607","Bureau of the Census" ) ;
+			 
+				 sub_agency_0600_list[3] = new agency( "0610","Economic Development Administration" ) ;
+			 
+				 sub_agency_0600_list[4] = new agency( "0608","Economic and Statistical Analysis" ) ;
+			 
+				 sub_agency_0600_list[5] = new agency( "0605","General Administration" ) ;
+			 
+				 sub_agency_0600_list[6] = new agency( "0625","International Trade Administration" ) ;
+			 
+				 sub_agency_0600_list[7] = new agency( "0640","Minority Business Development Agency" ) ;
+			 
+				 sub_agency_0600_list[8] = new agency( "0693","National Institute of Standards and Technology" ) ;
+			 
+				 sub_agency_0600_list[9] = new agency( "0648","National Oceanic and Atmospheric Administration" ) ;
+			 
+				 sub_agency_0600_list[10] = new agency( "0692","National Technical Information Service" ) ;
+			 
+				 sub_agency_0600_list[11] = new agency( "0660","National Telecommunications and Information Administration" ) ;
+			 
+				 sub_agency_0600_list[12] = new agency( "0690","Office of the Secretary" ) ;
+			 
+				 sub_agency_0600_list[13] = new agency( "0651","Patent and Trademark Office" ) ;
+			 
+				 sub_agency_0600_list[14] = new agency( "0652","Science and Technical Research" ) ;
+			 
+				 sub_agency_0600_list[15] = new agency( "0644","United States Travel and Tourism Administration" ) ;
+			 
+		
+			 var sub_agency_0700_list = new Array(12) ;
+			 
+				 sub_agency_0700_list[0] = new agency( "0750","Defense Acquisition Regulations Council" ) ;
+			 
+				 sub_agency_0700_list[1] = new agency( "0730","Defense Finance and Accounting Service" ) ;
+			 
+				 sub_agency_0700_list[2] = new agency( "0701","Department of the Air Force" ) ;
+			 
+				 sub_agency_0700_list[3] = new agency( "0702","Department of the Army" ) ;
+			 
+				 sub_agency_0700_list[4] = new agency( "0703","Department of the Navy" ) ;
+			 
+				 sub_agency_0700_list[5] = new agency( "0704","Departmental and Others" ) ;
+			 
+				 sub_agency_0700_list[6] = new agency( "0720","Office of Assistant Secretary for Health Affairs" ) ;
+			 
+				 sub_agency_0700_list[7] = new agency( "0790","Office of the Secretary" ) ;
+			 
+				 sub_agency_0700_list[8] = new agency( "0705","Office of the Under Secretary of Defense for Intelligence" ) ;
+			 
+				 sub_agency_0700_list[9] = new agency( "0715","Space Force" ) ;
+			 
+				 sub_agency_0700_list[10] = new agency( "0710","U.S. Army Corps of Engineers" ) ;
+			 
+				 sub_agency_0700_list[11] = new agency( "0712","US Marine Corps" ) ;
+			 
+		
+			 var sub_agency_1800_list = new Array(20) ;
+			 
+				 sub_agency_1800_list[0] = new agency( "1850","Institute of Education Sciences" ) ;
+			 
+				 sub_agency_1800_list[1] = new agency( "1893","National Institute for Literacy" ) ;
+			 
+				 sub_agency_1800_list[2] = new agency( "1870","Office for Civil Rights" ) ;
+			 
+				 sub_agency_1800_list[3] = new agency( "1830","Office of Career, Technical, and Adult Education" ) ;
+			 
+				 sub_agency_1800_list[4] = new agency( "1860","Office of Communications and Outreach" ) ;
+			 
+				 sub_agency_1800_list[5] = new agency( "1810","Office of Elementary and Secondary Education" ) ;
+			 
+				 sub_agency_1800_list[6] = new agency( "1885","Office of English Language Acquistion" ) ;
+			 
+				 sub_agency_1800_list[7] = new agency( "1845","Office of Federal Student Aid" ) ;
+			 
+				 sub_agency_1800_list[8] = new agency( "1855","Office of Innovation and Improvement" ) ;
+			 
+				 sub_agency_1800_list[9] = new agency( "1892","Office of Inspector General" ) ;
+			 
+				 sub_agency_1800_list[10] = new agency( "1880","Office of Management" ) ;
+			 
+				 sub_agency_1800_list[11] = new agency( "1875","Office of Planning, Evaluation and Policy Development" ) ;
+			 
+				 sub_agency_1800_list[12] = new agency( "1840","Office of Postsecondary Education" ) ;
+			 
+				 sub_agency_1800_list[13] = new agency( "1865","Office of Safe and Drug-Free Schools" ) ;
+			 
+				 sub_agency_1800_list[14] = new agency( "1820","Office of Special Education and Rehabilitative Services" ) ;
+			 
+				 sub_agency_1800_list[15] = new agency( "1890","Office of the Chief Financial Officer" ) ;
+			 
+				 sub_agency_1800_list[16] = new agency( "1891","Office of the Chief Information Officer" ) ;
+			 
+				 sub_agency_1800_list[17] = new agency( "1801","Office of the General Counsel" ) ;
+			 
+				 sub_agency_1800_list[18] = new agency( "1894","Office of the Secretary" ) ;
+			 
+				 sub_agency_1800_list[19] = new agency( "1895","Office of the Under Secretary" ) ;
+			 
+		
+			 var sub_agency_1900_list = new Array(12) ;
+			 
+				 sub_agency_1900_list[0] = new agency( "1992","Defense and Security Affairs" ) ;
+			 
+				 sub_agency_1900_list[1] = new agency( "1901","Departmental and Others" ) ;
+			 
+				 sub_agency_1900_list[2] = new agency( "1903","Economic Regulatory Administration" ) ;
+			 
+				 sub_agency_1900_list[3] = new agency( "1904","Energy Efficiency and Renewable Energy" ) ;
+			 
+				 sub_agency_1900_list[4] = new agency( "1905","Energy Information Administration" ) ;
+			 
+				 sub_agency_1900_list[5] = new agency( "1994","National Nuclear Security Administration" ) ;
+			 
+				 sub_agency_1900_list[6] = new agency( "1991","Office of Acquisition Management" ) ;
+			 
+				 sub_agency_1900_list[7] = new agency( "1910","Office of Administration" ) ;
+			 
+				 sub_agency_1900_list[8] = new agency( "1990","Office of General Counsel" ) ;
+			 
+				 sub_agency_1900_list[9] = new agency( "1930","Office of State and Community Energy Programs" ) ;
+			 
+				 sub_agency_1900_list[10] = new agency( "1920","Office of the Chief Financial Officer" ) ;
+			 
+				 sub_agency_1900_list[11] = new agency( "1993","Policy, Safety, and Environment" ) ;
+			 
+		
+			 var sub_agency_0900_list = new Array(26) ;
+			 
+				 sub_agency_0900_list[0] = new agency( "0970","Administration for Children and Families" ) ;
+			 
+				 sub_agency_0900_list[1] = new agency( "0985","Administration for Community Living" ) ;
+			 
+				 sub_agency_0900_list[2] = new agency( "0908","Administration for Strategic Preparedness and Response" ) ;
+			 
+				 sub_agency_0900_list[3] = new agency( "0919","Agency for Healthcare Research and Quality" ) ;
+			 
+				 sub_agency_0900_list[4] = new agency( "0935","Agency for Healthcare Research and Quality" ) ;
+			 
+				 sub_agency_0900_list[5] = new agency( "0923","Agency for Toxic Substances and Disease Registry" ) ;
+			 
+				 sub_agency_0900_list[6] = new agency( "0920","Centers for Disease Control and Prevention" ) ;
+			 
+				 sub_agency_0900_list[7] = new agency( "0938","Centers for Medicare & Medicaid Services" ) ;
+			 
+				 sub_agency_0900_list[8] = new agency( "0990","Departmental Management" ) ;
+			 
+				 sub_agency_0900_list[9] = new agency( "0910","Food and Drug Administration" ) ;
+			 
+				 sub_agency_0900_list[10] = new agency( "0906","Health Resources and Services Administration" ) ;
+			 
+				 sub_agency_0900_list[11] = new agency( "0915","Health Services Administration" ) ;
+			 
+				 sub_agency_0900_list[12] = new agency( "0917","Indian Health Service" ) ;
+			 
+				 sub_agency_0900_list[13] = new agency( "0925","National Institutes of Health" ) ;
+			 
+				 sub_agency_0900_list[14] = new agency( "0945","Office for Civil Rights" ) ;
+			 
+				 sub_agency_0900_list[15] = new agency( "0937","Office of Assistant Secretary for Health" ) ;
+			 
+				 sub_agency_0900_list[16] = new agency( "0950","Office of Consumer Information and Insurance Oversight" ) ;
+			 
+				 sub_agency_0900_list[17] = new agency( "0992","Office of Family Assistance" ) ;
+			 
+				 sub_agency_0900_list[18] = new agency( "0980","Office of Human Development Services" ) ;
+			 
+				 sub_agency_0900_list[19] = new agency( "0940","Office of Public Health and Science" ) ;
+			 
+				 sub_agency_0900_list[20] = new agency( "0936","Office of the Inspector General" ) ;
+			 
+				 sub_agency_0900_list[21] = new agency( "0955","Office of the National Coordinator for Health Information Technology" ) ;
+			 
+				 sub_agency_0900_list[22] = new agency( "0991","Office of the Secretary" ) ;
+			 
+				 sub_agency_0900_list[23] = new agency( "0907","Program Support Center" ) ;
+			 
+				 sub_agency_0900_list[24] = new agency( "0905","Public Health Service" ) ;
+			 
+				 sub_agency_0900_list[25] = new agency( "0930","Substance Abuse and Mental Health Services Administration" ) ;
+			 
+		
+			 var sub_agency_1600_list = new Array(17) ;
+			 
+				 sub_agency_1600_list[0] = new agency( "1685","Customs Revenue Functions" ) ;
+			 
+				 sub_agency_1600_list[1] = new agency( "1670","Cybersecurity and Infrastructure Security Agency" ) ;
+			 
+				 sub_agency_1600_list[2] = new agency( "1650","Directorate of Border and Transportation Security" ) ;
+			 
+				 sub_agency_1600_list[3] = new agency( "1630","Directorate of Information and Analysis and Infrastructure Protection" ) ;
+			 
+				 sub_agency_1600_list[4] = new agency( "1640","Directorate of Science and Technology" ) ;
+			 
+				 sub_agency_1600_list[5] = new agency( "1660","Federal Emergency Management Agency" ) ;
+			 
+				 sub_agency_1600_list[6] = new agency( "1641","Homeland Security Advanced Research Projects Agency" ) ;
+			 
+				 sub_agency_1600_list[7] = new agency( "1610","Office of Civil Rights" ) ;
+			 
+				 sub_agency_1600_list[8] = new agency( "1690","Office of the Inspector General" ) ;
+			 
+				 sub_agency_1600_list[9] = new agency( "1601","Office of the Secretary" ) ;
+			 
+				 sub_agency_1600_list[10] = new agency( "1680","Office of the Undersecretary for Management" ) ;
+			 
+				 sub_agency_1600_list[11] = new agency( "1652","Transportation Security Administration" ) ;
+			 
+				 sub_agency_1600_list[12] = new agency( "1615","U.S. Citizenship and Immigration Services" ) ;
+			 
+				 sub_agency_1600_list[13] = new agency( "1625","U.S. Coast Guard" ) ;
+			 
+				 sub_agency_1600_list[14] = new agency( "1651","U.S. Customs and Border Protection" ) ;
+			 
+				 sub_agency_1600_list[15] = new agency( "1653","U.S. Immigration and Customs Enforcement" ) ;
+			 
+				 sub_agency_1600_list[16] = new agency( "1620","U.S. Secret Service" ) ;
+			 
+		
+			 var sub_agency_2500_list = new Array(18) ;
+			 
+				 sub_agency_2500_list[0] = new agency( "2509","Enforcement Center" ) ;
+			 
+				 sub_agency_2500_list[1] = new agency( "2503","Government National Mortgage Association" ) ;
+			 
+				 sub_agency_2500_list[2] = new agency( "2512","New Communities Development Corporation" ) ;
+			 
+				 sub_agency_2500_list[3] = new agency( "2535","Office of Administration" ) ;
+			 
+				 sub_agency_2500_list[4] = new agency( "2513","Office of Chief Information Officer" ) ;
+			 
+				 sub_agency_2500_list[5] = new agency( "2506","Office of Community Planning and Development" ) ;
+			 
+				 sub_agency_2500_list[6] = new agency( "2529","Office of Fair Housing and Equal Opportunity" ) ;
+			 
+				 sub_agency_2500_list[7] = new agency( "2502","Office of Housing" ) ;
+			 
+				 sub_agency_2500_list[8] = new agency( "2539","Office of Lead-Based Paint and Poison Prevention" ) ;
+			 
+				 sub_agency_2500_list[9] = new agency( "2505","Office of Multifamily Assistance Restructuring" ) ;
+			 
+				 sub_agency_2500_list[10] = new agency( "2577","Office of Public and Indian Housing" ) ;
+			 
+				 sub_agency_2500_list[11] = new agency( "2511","Office of the Chief Financial Officer" ) ;
+			 
+				 sub_agency_2500_list[12] = new agency( "2510","Office of the General Counsel" ) ;
+			 
+				 sub_agency_2500_list[13] = new agency( "2508","Office of the Inspector General" ) ;
+			 
+				 sub_agency_2500_list[14] = new agency( "2501","Office of the Secretary" ) ;
+			 
+				 sub_agency_2500_list[15] = new agency( "2528","Policy Development and Research" ) ;
+			 
+				 sub_agency_2500_list[16] = new agency( "2507","Real Estate Assessment Center" ) ;
+			 
+				 sub_agency_2500_list[17] = new agency( "2504","Solar Energy and Energy Conservation Bank" ) ;
+			 
+		
+			 var sub_agency_1000_list = new Array(24) ;
+			 
+				 sub_agency_1000_list[0] = new agency( "1082","Assistant Secretary for Land and Minerals Management" ) ;
+			 
+				 sub_agency_1000_list[1] = new agency( "1090","Assistant Secretary for Policy, Management and Budget" ) ;
+			 
+				 sub_agency_1000_list[2] = new agency( "1076","Bureau of Indian Affairs" ) ;
+			 
+				 sub_agency_1000_list[3] = new agency( "1004","Bureau of Land Management" ) ;
+			 
+				 sub_agency_1000_list[4] = new agency( "1032","Bureau of Mines" ) ;
+			 
+				 sub_agency_1000_list[5] = new agency( "1010","Bureau of Ocean Energy Management" ) ;
+			 
+				 sub_agency_1000_list[6] = new agency( "1006","Bureau of Reclamation" ) ;
+			 
+				 sub_agency_1000_list[7] = new agency( "1014","Bureau of Safety and Environmental Enforcement" ) ;
+			 
+				 sub_agency_1000_list[8] = new agency( "1035","Bureau of Trust Funds Administration" ) ;
+			 
+				 sub_agency_1000_list[9] = new agency( "1028","Geological Survey" ) ;
+			 
+				 sub_agency_1000_list[10] = new agency( "1085","Indian Arts and Crafts Board" ) ;
+			 
+				 sub_agency_1000_list[11] = new agency( "1089","National Biological Service" ) ;
+			 
+				 sub_agency_1000_list[12] = new agency( "1024","National Park Service" ) ;
+			 
+				 sub_agency_1000_list[13] = new agency( "1091","Office for Equal Opportunity" ) ;
+			 
+				 sub_agency_1000_list[14] = new agency( "1084","Office of Acquisition and Property Management" ) ;
+			 
+				 sub_agency_1000_list[15] = new agency( "1094","Office of Hearings and Appeals" ) ;
+			 
+				 sub_agency_1000_list[16] = new agency( "1012","Office of Natural Resources Revenue" ) ;
+			 
+				 sub_agency_1000_list[17] = new agency( "1040","Office of Planning and Performance Management" ) ;
+			 
+				 sub_agency_1000_list[18] = new agency( "1029","Office of Surface Mining Reclamation and Enforcement" ) ;
+			 
+				 sub_agency_1000_list[19] = new agency( "1008","Office of Water Policy" ) ;
+			 
+				 sub_agency_1000_list[20] = new agency( "1095","Office of the Inspector General" ) ;
+			 
+				 sub_agency_1000_list[21] = new agency( "1093","Office of the Secretary" ) ;
+			 
+				 sub_agency_1000_list[22] = new agency( "1092","Office of the Solicitor" ) ;
+			 
+				 sub_agency_1000_list[23] = new agency( "1018","United States Fish and Wildlife Service" ) ;
+			 
+		
+			 var sub_agency_1100_list = new Array(14) ;
+			 
+				 sub_agency_1100_list[0] = new agency( "1140","Bureau of Alcohol, Tobacco, Firearms, and Explosives" ) ;
+			 
+				 sub_agency_1100_list[1] = new agency( "1120","Bureau of Prisons" ) ;
+			 
+				 sub_agency_1100_list[2] = new agency( "1190","Civil Rights Division" ) ;
+			 
+				 sub_agency_1100_list[3] = new agency( "1123","Criminal Division" ) ;
+			 
+				 sub_agency_1100_list[4] = new agency( "1117","Drug Enforcement Administration" ) ;
+			 
+				 sub_agency_1100_list[5] = new agency( "1125","Executive Office for Immigration Review" ) ;
+			 
+				 sub_agency_1100_list[6] = new agency( "1110","Federal Bureau of Investigation" ) ;
+			 
+				 sub_agency_1100_list[7] = new agency( "1103","General Administration" ) ;
+			 
+				 sub_agency_1100_list[8] = new agency( "1115","Immigration and Naturalization Service" ) ;
+			 
+				 sub_agency_1100_list[9] = new agency( "1105","Legal Activities" ) ;
+			 
+				 sub_agency_1100_list[10] = new agency( "1124","National Security Division" ) ;
+			 
+				 sub_agency_1100_list[11] = new agency( "1122","Office of  Violence Against Women" ) ;
+			 
+				 sub_agency_1100_list[12] = new agency( "1121","Office of Justice Programs" ) ;
+			 
+				 sub_agency_1100_list[13] = new agency( "1104","United States Parole Commission" ) ;
+			 
+		
+			 var sub_agency_1200_list = new Array(18) ;
+			 
+				 sub_agency_1200_list[0] = new agency( "1220","Bureau of Labor Statistics" ) ;
+			 
+				 sub_agency_1200_list[1] = new agency( "1225","Departmental Management" ) ;
+			 
+				 sub_agency_1200_list[2] = new agency( "1210","Employee Benefits Security Administration" ) ;
+			 
+				 sub_agency_1200_list[3] = new agency( "1215","Employment Standards Administration" ) ;
+			 
+				 sub_agency_1200_list[4] = new agency( "1205","Employment and Training Administration" ) ;
+			 
+				 sub_agency_1200_list[5] = new agency( "1219","Mine Safety and Health Administration" ) ;
+			 
+				 sub_agency_1200_list[6] = new agency( "1218","Occupational Safety and Health Administration" ) ;
+			 
+				 sub_agency_1200_list[7] = new agency( "1230","Office of Disability Employment Policy" ) ;
+			 
+				 sub_agency_1200_list[8] = new agency( "1250","Office of Federal Contract Compliance Programs" ) ;
+			 
+				 sub_agency_1200_list[9] = new agency( "1245","Office of Labor-Management Standards" ) ;
+			 
+				 sub_agency_1200_list[10] = new agency( "1240","Office of Workers' Compensation Programs" ) ;
+			 
+				 sub_agency_1200_list[11] = new agency( "1294","Office of the American Workplace" ) ;
+			 
+				 sub_agency_1200_list[12] = new agency( "1214","Office of the American Workplace/Office of Labor Management Standards" ) ;
+			 
+				 sub_agency_1200_list[13] = new agency( "1291","Office of the Assistant Secretary for Administration and Management" ) ;
+			 
+				 sub_agency_1200_list[14] = new agency( "1293","Office of the Assistant Secretary for Veterans' Employment and Training" ) ;
+			 
+				 sub_agency_1200_list[15] = new agency( "1292","Office of the Inspector General" ) ;
+			 
+				 sub_agency_1200_list[16] = new agency( "1290","Office of the Secretary" ) ;
+			 
+				 sub_agency_1200_list[17] = new agency( "1235","Wage and Hour Division" ) ;
+			 
+		
+			 var sub_agency_1400_list = new Array(1) ;
+			 
+				 sub_agency_1400_list[0] = new agency( "1405","Administration of Foreign Affairs" ) ;
+			 
+		
+			 var sub_agency_2100_list = new Array(17) ;
+			 
+				 sub_agency_2100_list[0] = new agency( "2138","Bureau of Transportation Statistics - Aviation" ) ;
+			 
+				 sub_agency_2100_list[1] = new agency( "2120","Federal Aviation Administration" ) ;
+			 
+				 sub_agency_2100_list[2] = new agency( "2125","Federal Highway Administration" ) ;
+			 
+				 sub_agency_2100_list[3] = new agency( "2126","Federal Motor Carrier Safety Administration" ) ;
+			 
+				 sub_agency_2100_list[4] = new agency( "2130","Federal Railroad Administration" ) ;
+			 
+				 sub_agency_2100_list[5] = new agency( "2132","Federal Transit Administration" ) ;
+			 
+				 sub_agency_2100_list[6] = new agency( "2133","Maritime Administration" ) ;
+			 
+				 sub_agency_2100_list[7] = new agency( "2127","National Highway Traffic Safety Administration" ) ;
+			 
+				 sub_agency_2100_list[8] = new agency( "2105","Office of the Secretary" ) ;
+			 
+				 sub_agency_2100_list[9] = new agency( "2106","Office of the Secretary - Aviation" ) ;
+			 
+				 sub_agency_2100_list[10] = new agency( "2137","Pipeline and Hazardous Materials Safety Administration" ) ;
+			 
+				 sub_agency_2100_list[11] = new agency( "2145","Pipeline and Hazardous Materials Safety Administration" ) ;
+			 
+				 sub_agency_2100_list[12] = new agency( "2139","Research and Innovative Technologies Administration" ) ;
+			 
+				 sub_agency_2100_list[13] = new agency( "2150","Research and Innovative Technologies Administration (Old)" ) ;
+			 
+				 sub_agency_2100_list[14] = new agency( "2135","Saint Lawrence Seaway Development Corporation" ) ;
+			 
+				 sub_agency_2100_list[15] = new agency( "2110","Transportation Security Administration" ) ;
+			 
+				 sub_agency_2100_list[16] = new agency( "2115","U.S. Coast Guard" ) ;
+			 
+		
+			 var sub_agency_1500_list = new Array(19) ;
+			 
+				 sub_agency_1500_list[0] = new agency( "1513","Alcohol and Tobacco Tax and Trade Bureau" ) ;
+			 
+				 sub_agency_1500_list[1] = new agency( "1512","Bureau of Alcohol, Tobacco and Firearms" ) ;
+			 
+				 sub_agency_1500_list[2] = new agency( "1520","Bureau of Engraving and Printing" ) ;
+			 
+				 sub_agency_1500_list[3] = new agency( "1530","Bureau of the Fiscal Service" ) ;
+			 
+				 sub_agency_1500_list[4] = new agency( "1535","Bureau of the Public Debt" ) ;
+			 
+				 sub_agency_1500_list[5] = new agency( "1559","Community Development Financial Institutions Fund" ) ;
+			 
+				 sub_agency_1500_list[6] = new agency( "1557","Comptroller of the Currency" ) ;
+			 
+				 sub_agency_1500_list[7] = new agency( "1515","Customs Revenue Function" ) ;
+			 
+				 sub_agency_1500_list[8] = new agency( "1505","Departmental Offices" ) ;
+			 
+				 sub_agency_1500_list[9] = new agency( "1506","Financial Crimes Enforcement Network" ) ;
+			 
+				 sub_agency_1500_list[10] = new agency( "1510","Financial Management Service" ) ;
+			 
+				 sub_agency_1500_list[11] = new agency( "1545","Internal Revenue Service" ) ;
+			 
+				 sub_agency_1500_list[12] = new agency( "1507","Office of Revenue Sharing" ) ;
+			 
+				 sub_agency_1500_list[13] = new agency( "1550","Office of Thrift Supervision" ) ;
+			 
+				 sub_agency_1500_list[14] = new agency( "1590","Office of the General Counsel" ) ;
+			 
+				 sub_agency_1500_list[15] = new agency( "1551","Thrift Depositor Protection Oversight Board [TRANSFERRED TO 1505 in 1996]" ) ;
+			 
+				 sub_agency_1500_list[16] = new agency( "1591","Treasury Inspector General for Tax Administration" ) ;
+			 
+				 sub_agency_1500_list[17] = new agency( "1525","United States Mint" ) ;
+			 
+				 sub_agency_1500_list[18] = new agency( "1555","United States Secret Service" ) ;
+			 
+		
+			 var sub_agency_2900_list = new Array(0) ;
+			 
+		
+			 var sub_agency_2000_list = new Array(25) ;
+			 
+				 sub_agency_2000_list[0] = new agency( "2060","Office of Air and Radiation" ) ;
+			 
+				 sub_agency_2000_list[1] = new agency( "2070","Office of Chemical Safety and Pollution Prevention" ) ;
+			 
+				 sub_agency_2000_list[2] = new agency( "2020","Office of Enforcement and Compliance Assurance" ) ;
+			 
+				 sub_agency_2000_list[3] = new agency( "2025","Office of Environmental Information" ) ;
+			 
+				 sub_agency_2000_list[4] = new agency( "2035","Office of Environmental Justice and External Civil Rights" ) ;
+			 
+				 sub_agency_2000_list[5] = new agency( "2015","Office of General Counsel" ) ;
+			 
+				 sub_agency_2000_list[6] = new agency( "2065","Office of Inspector General" ) ;
+			 
+				 sub_agency_2000_list[7] = new agency( "2045","Office of International and Tribal Affairs" ) ;
+			 
+				 sub_agency_2000_list[8] = new agency( "2050","Office of Land and Emergency Management" ) ;
+			 
+				 sub_agency_2000_list[9] = new agency( "2030","Office of Mission Support" ) ;
+			 
+				 sub_agency_2000_list[10] = new agency( "2010","Office of Policy" ) ;
+			 
+				 sub_agency_2000_list[11] = new agency( "2080","Office of Research and Development" ) ;
+			 
+				 sub_agency_2000_list[12] = new agency( "2040","Office of Water" ) ;
+			 
+				 sub_agency_2000_list[13] = new agency( "2090","Office of the Administrator" ) ;
+			 
+				 sub_agency_2000_list[14] = new agency( "2055","Office of the Chief Financial Officer" ) ;
+			 
+				 sub_agency_2000_list[15] = new agency( "2004","Regional Office Atlanta" ) ;
+			 
+				 sub_agency_2000_list[16] = new agency( "2001","Regional Office Boston" ) ;
+			 
+				 sub_agency_2000_list[17] = new agency( "2005","Regional Office Chicago" ) ;
+			 
+				 sub_agency_2000_list[18] = new agency( "2006","Regional Office Dallas" ) ;
+			 
+				 sub_agency_2000_list[19] = new agency( "2008","Regional Office Denver" ) ;
+			 
+				 sub_agency_2000_list[20] = new agency( "2007","Regional Office Kansas City" ) ;
+			 
+				 sub_agency_2000_list[21] = new agency( "2002","Regional Office New York" ) ;
+			 
+				 sub_agency_2000_list[22] = new agency( "2003","Regional Office Philadelphia" ) ;
+			 
+				 sub_agency_2000_list[23] = new agency( "2009","Regional Office San Francisco" ) ;
+			 
+				 sub_agency_2000_list[24] = new agency( "2012","Regional Office Seattle" ) ;
+			 
+		
+			 var sub_agency_2700_list = new Array(1) ;
+			 
+				 sub_agency_2700_list[0] = new agency( "2730","Kennedy Space Center" ) ;
+			 
+		
+			 var sub_agency_3001_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3010_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3005_list = new Array(0) ;
+			 
+		
+			 var sub_agency_0412_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3139_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3014_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3019_list = new Array(0) ;
+			 
+		
+			 var sub_agency_2580_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3024_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3037_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3038_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3039_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3170_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3041_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3045_list = new Array(0) ;
+			 
+		
+			 var sub_agency_0331_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3225_list = new Array(0) ;
+			 
+		
+			 var sub_agency_9000_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3003_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3004_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3046_list = new Array(0) ;
+			 
+		
+			 var sub_agency_0300_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3048_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3053_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3060_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3064_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3067_list = new Array(0) ;
+			 
+		
+			 var sub_agency_1902_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3068_list = new Array(0) ;
+			 
+		
+			 var sub_agency_2590_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3072_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3076_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3121_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3084_list = new Array(0) ;
+			 
+		
+			 var sub_agency_4030_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3090_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3137_list = new Array(0) ;
+			 
+		
+			 var sub_agency_0417_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3120_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3020_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3124_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3095_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3125_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3133_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3135_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3136_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3141_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3145_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3150_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3440_list = new Array(0) ;
+			 
+		
+			 var sub_agency_2550_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3209_list = new Array(0) ;
+			 
+		
+			 var sub_agency_0348_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3201_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3148_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3206_list = new Array(0) ;
+			 
+		
+			 var sub_agency_0349_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3255_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3204_list = new Array(0) ;
+			 
+		
+			 var sub_agency_0350_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3200_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3312_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3420_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3207_list = new Array(0) ;
+			 
+		
+			 var sub_agency_0420_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3208_list = new Array(0) ;
+			 
+		
+			 var sub_agency_1212_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3220_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3205_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3235_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3240_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3245_list = new Array(0) ;
+			 
+		
+			 var sub_agency_0960_list = new Array(0) ;
+			 
+		
+			 var sub_agency_2140_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3316_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3203_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3035_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3035_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3116_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3327_list = new Array(0) ;
+			 
+		
+			 var sub_agency_3210_list = new Array(1) ;
+			 
+				 sub_agency_3210_list[0] = new agency( "3213","United States Postal Inspection Service" ) ;
+			 
+		
+			 var sub_agency_3335_list = new Array(0) ;
+			 
+		
+
+		function populateSubAgencyList(f)
+		{
+
+			if (f == null) {
+				f=document.forms['eoAdvancedSearchForm'];
+			}
+
+		   var index = f.agencyCode.selectedIndex ;
+		   if ( index <= 0 ) {
+			 f.subAgencyCode.length = 0 ;
+			 f.subAgencyCode[1] = new Option( "", "" );
+			 return ;
+		   } else {
+			 parentAgencyCode = f.agencyCode.options[index].value ;
+		   }
+
+		   var subAgencyList = eval( "sub_agency_" + parentAgencyCode + "_list" ) ;
+		   f.subAgencyCode.length = subAgencyList.length + 1 ;
+		   f.subAgencyCode[1] = new Option( "", "" );
+		   for( var i=0 ; i < subAgencyList.length ; i++ ) {
+				f.subAgencyCode[i+1] = new Option( subAgencyList[i].name, subAgencyList[i].code );		
+		   }
+		  
+		   var existingSubCode = '';
+		   if (existingSubCode != ''){
+			   var subAgency = document.getElementById("subAgency");
+			   for (var i = 0; i < subAgency.options.length; i++) {
+				   if (subAgency.options[i].value == existingSubCode ){
+				   		subAgency.options[i].defaultSelected = true;
+				   }
+				}
+		   }
+	
+		}
+
+		function showConcludedDataDiv() {
+			Element = document.getElementById("concludedDataDiv");
+			if (document.forms['eoAdvancedSearchForm'].eoStatusCode[1].checked) {
+				Element.style.display = "block";
+			} else {
+				Element.style.display = "none";
+
+				//unselect dropdown boxes:
+				var dropdownCollection = Element.getElementsByTagName('SELECT');
+				for (var x=0; x<dropdownCollection.length; x++) {
+					dropdownCollection[x].selectedIndex = 0;
+				}
+				//uncheck all checkbox and set all text fields empty:
+				var collection = Element.getElementsByTagName('INPUT');
+			    for (var x=0; x<collection.length; x++) {
+			        if (collection[x].type.toUpperCase()=='CHECKBOX')
+			            collection[x].checked = false;
+			        if (collection[x].type.toUpperCase()=='TEXT')
+			            collection[x].value="";
+			    }
+			}
+		}
+
+		function popup (sel)
+		{
+		if(sel.value.toLowerCase()=='1000')
+			document.getElementById('agencymsg').style.display = 'block';
+		 else {
+			document.getElementById('agencymsg').style.display = 'none';
+		  }
+		}
+
+		function showAgencyMsg()
+		{
+			if (document.forms['eoAdvancedSearchForm'].agencyCode.value=='1000')
+				document.getElementById('agencymsg').style.display = 'block';
+			 else {
+				document.getElementById('agencymsg').style.display = 'none';
+			  }
+
+		}
+
+	</SCRIPT>
+
+	<NOSCRIPT>
+		This script populates the sub-agency list based on the selected parent agency.
+	</NOSCRIPT>
+
+   	<link href="/public/CSS/main-7279e21c741f0b3d16c4cfbcf7c22184.css"  type="text/css" rel="stylesheet">
+    <link href="/public/CSS/header-16af04d382fdd4014aabe59fd5b713ce.css"  type="text/css" rel="stylesheet">
+
+
+<!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET-->
+<script type='text/javascript'>
+(function(){var g=function(e,h,f,g){
+this.get=function(a){for(var a=a+"=",c=document.cookie.split(";"),b=0,e=c.length;b<e;b++){for(var d=c[b];" "==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null};
+this.set=function(a,c){var b="",b=new Date;b.setTime(b.getTime()+6048E5);b="; expires="+b.toGMTString();document.cookie=a+"="+c+b+"; path=/; "};
+this.check=function(){var a=this.get(f);if(a)a=a.split(":");else if(100!=e)"v"==h&&(e=Math.random()>=e/100?0:100),a=[h,e,0],this.set(f,a.join(":"));else return!0;var c=a[1];if(100==c)return!0;switch(a[0]){case "v":return!1;case "r":return c=a[2]%Math.floor(100/c),a[2]++,this.set(f,a.join(":")),!c}return!0};
+this.go=function(){if(this.check()){var a=document.createElement("script");a.type="text/javascript";a.src=g;document.body&&document.body.appendChild(a)}};
+this.start=function(){var t=this;"complete"!==document.readyState?window.addEventListener?window.addEventListener("load",function(){t.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){t.go()}):t.go()};};
+try{(new g(100,"r","QSI_S_ZN_7VXp9sa4xRgDkZj","https://zn7vxp9sa4xrgdkzj-cemgsa.gov1.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_7VXp9sa4xRgDkZj")).start()}catch(i){}})();
+</script><div id='ZN_7VXp9sa4xRgDkZj'><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+<!--END WEBSITE FEEDBACK SNIPPET-->
+
+<script type='text/javascript' src='/public/Javascript/jquery.min-c9771cc3e90e18f5336eedbd0fffb2cf.js' ></script>
+
+<script async type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA&subagency=OGP"></script>
+
+<meta http-equiv="cache-control" content="no-store" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta name="csrf_header" content="B99CF77C9DF89242080222ECD197E7C0BB1949B45D420551375167A94CCEAE966B0FF64B1A749F0B61CBFFF54B03D324F96E"/>
+
+
+<style type="text/css">
+
+/*---------- bubble tooltip -----------*/
+span.tt, a.tt{
+    position:relative;
+    z-index:24;
+    /*color:#3CA3FF;
+	font-weight:bold;*/
+    text-decoration:none;
+}
+span.tt span, a.tt span{ display: none; }
+
+/*background:; ie hack, something must be changed in a for ie to execute it*/
+span.tt:focus-within, span.tt:hover, a.tt:focus-within, a.tt:hover { z-index:25; color: #aaaaff; background:;}
+span.tt:focus-within span.tooltip, span.tt:hover span.tooltip, a.tt:focus-within span.tooltip, a.tt:hover span.tooltip {
+    display:block;
+    position:absolute;
+    top:0px; left:0;
+	padding: 15px 0 0 0;
+	width:500px;
+	color: #33339F;
+    text-align: left;
+	filter: alpha(opacity:100);
+	KHTMLOpacity: 1.0;
+	MozOpacity: 1.0;
+	opacity: 1.0;
+}
+span.tt:focus-within span.top, span.tt:hover span.top, a.tt:focus-within span.top, a.tt:hover span.top {
+	display: block;
+	padding: 30px 8px 0;
+    background: url(/public/img/bubble.gif) no-repeat top;
+}
+span.tt:focus-within span.middle, span.tt:hover span.middle, a.tt:focus-within span.middle, a.tt:hover span.middle { /* different middle bg for stretch */
+	display: block;
+	padding: 6px 8px;
+	color: #33339F;
+	background-color:#ece9d8;
+	background: url(/public/img/bubble_filler.gif) repeat bottom;
+}
+
+span.middle li{
+    color: #33339F;
+    font-weight:bold;
+}
+span.middle i{
+    color: #33339F;
+    font-weight:bold;
+}
+span.tt:hover span.bottom, span.tt:focus-within span.bottom {
+	display: block;
+	padding:3px 8px 10px;
+	color: #548912;
+    background: url(/public/img/bubble.gif) no-repeat bottom;
+}
+</style>
+    </head>
+
+
+    <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad='javascript:reFocus();showConcludedDataDiv();populateSubAgencyList();showAgencyMsg();'>
+
+	<div align="center" valign="top">
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+<link href="/public/CSS/global-802342bf270033d75fa29d5d060fd62f.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+
+focusMethod = function getFocus() {           
+	  document.getElementById("main").focus();
+	}
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+	
+  var i,x,a=document.MM_sr;
+  for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) {
+	  x.src = x.oSrc;
+	  console.log(x.oSrc);
+  }
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3)
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+
+}
+
+function onMenuTabFocus(imgId){
+   let img = document.getElementById(imgId);
+   img.setAttribute('aria-expanded', 'true');
+}
+
+function onMenuTabBlur(imgId){
+   let img = document.getElementById(imgId);
+   img.setAttribute('aria-expanded', 'false');
+}
+
+function collapseMenu(imgId, parentId, keyCode, args) {
+    let img = document.getElementById(imgId);
+    MM_showHideLayers(...args);
+    img.setAttribute('aria-expanded', 'false');
+    if (keyCode !== 9) {
+        let parentDiv = document.getElementById(parentId);
+        parentDiv.focus();
+    }
+}
+
+function navigateMenu(div, imgId){
+	var divId = div;
+	let img = document.getElementById(imgId);
+	if(event.keyCode==13 ) {
+		MM_showHideLayers(divId, '', 'show');
+        img.setAttribute('aria-expanded', 'true');
+        let mainMenuTab = document.getElementById(divId);
+        let firstMenuItem = mainMenuTab.querySelector('a');
+        if (firstMenuItem) {
+            firstMenuItem.focus();}
+	}else if((event.shiftKey && event.keyCode == 9) || event.keyCode == 27){
+		MM_showHideLayers(divId, '', 'hide');
+		img.setAttribute('aria-expanded', 'false');
+		event.currentTarget.focus();
+	}else{
+		return false;
+	}
+}
+
+function change_dashboard_main(main_index) {
+	var main_cat = document.getElementById('main_cat_id');
+	if ( main_cat ) {
+		main_cat.selectedIndex = main_index;
+		change_main_cat();
+	}
+	else {
+		window.location = "/public/jsp/EO/eoDashboard.myjsp?main_index=" + main_index + "&sub_index=0";
+	}
+}
+function change_dashboard_sub(main_index, sub_index) {
+	var main_cat = document.getElementById('main_cat_id');
+	if ( main_cat ) {
+		main_cat.selectedIndex = main_index;
+		change_main_cat_only();
+		var sub_cat = document.getElementById('sub_cat_id');
+		sub_cat.selectedIndex = sub_index;
+		change_sub_cat();
+	}
+	else {
+		window.location = "/public/jsp/EO/eoDashboard.myjsp?main_index=" + main_index + "&sub_index=" + sub_index;
+	}
+}
+//-->
+</script>
+
+<style type="text/css">
+
+.skip-main {
+  	border-color: transparent;
+    background-color: transparent;
+    left: 250px;
+    top:75px;
+    width:1px;
+    height:1px;
+	color:black;
+    overflow:hidden;
+    z-index:-999;
+}
+.skip-main:focus, .skip-main:active {
+    font-weight: bold;
+    color: #AD1700;
+    width: 60%;
+    height: 100%;
+    float: right;
+    margin-right: 6px;
+    /* padding:0.5px; */
+    overflow: auto;
+    text-align:center;
+    text-decoration: none;
+    z-index:999;
+}
+@supports (-moz-appearance:none) {
+	#Image7, #Image8{
+		margin-bottom:-5px; 
+	}
+}
+
+.screen-reader-text { 
+   border:0;   
+   clip: rect(1px, 1px, 1px, 1px); 
+   clip-path: inset(50%);
+   height: 1px; 
+   margin: -1px;
+   width: 1px; 
+   overflow: hidden; 
+   position: absolute !important;
+   word-wrap:normal !important;
+}
+
+#ri_header_id {
+	position:absolute;
+	z-index:103;
+	width:1002px;
+	height:140px;
+	margin-left: 6px;
+	margin-top:2px;
+	background-image:url(/public/img/main/reginfo_header.gif);
+	background-repeat:no-repeat;
+}
+
+
+#below_header_id {
+	position:absolute;
+	width:1002px;
+	margin-top:155px;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+#rih_menu_id {
+	position:absolute;
+	left:4px;
+	top:107px;
+	z-index:130;
+}
+
+#rih_search_id {
+	position:absolute;
+	left:740px;
+	top:65px;
+}
+
+#search_label_id {
+	margin-left: 0px;
+	font-size: 11px;
+	color:white;
+}
+
+#resDiv1 {
+	position:absolute;
+	width:219px;
+	height:64px;
+	z-index:101;
+	/* margin-top:30px; */
+	visibility: hidden;
+	background-color:#e9e9e9;
+}
+
+#apDiv2 {
+	position:absolute;
+	width:235px;
+	height:133px;
+	z-index:101;
+	/* margin-top:30px; */
+	visibility: hidden;
+	background-color:#e9e9e9;
+}
+
+#id1 {
+	position:absolute;
+	width:235px;
+	height:258px;
+	z-index:101;
+	/* margin-top:30px; */
+	visibility: hidden;
+	background-color:#e9e9e9;
+}
+#id2 {
+	position:absolute;
+	width:307px;
+	height:147px;
+	z-index:102;
+	margin-top:257px;
+	margin-left:100%;
+	visibility: hidden;
+}
+#id3 {
+	position:absolute;
+	width:314px;
+	height:185px;
+	z-index:103;
+	/* margin-top:30px; */
+	visibility: hidden;
+	background-color:#e9e9e9;
+}
+#id4 {
+	position:absolute;
+	width:215px;
+	height:107px;
+	z-index:104;
+	margin-top:30px;
+	margin-left:222px;
+	visibility: hidden;
+}
+#id5 {
+	position:absolute;
+	width:215px;
+	height:106px;
+	z-index:105;
+	margin-left:222px;
+	margin-top:60px;
+	visibility: hidden;
+}
+#id6 {
+	position:absolute;
+	width:215px;
+	height:106px;
+	z-index:106;
+	margin-left:222px;
+	margin-top:90px;
+	visibility: hidden;
+}
+#id7 {
+	position:absolute;
+	width:215px;
+	height:106px;
+	z-index:107;
+	visibility: hidden;
+	margin-left:222px;
+	margin-top:120px;
+}
+#id8 {
+	position: absolute;
+	width: 215px;
+	height: 106px;
+	z-index: 108;
+	margin-left: 222px;
+	margin-top: 150px;
+	visibility: hidden;
+}
+ a.banner_tooltip, a.banner_tooltip:hover {
+	text-decoration:none;
+	position:relative;
+	color: black;
+	font-size:12px;
+	font-family: Arial, sans-serif !important;
+
+}
+
+.banner_tooltip span {
+	display:none;
+	cursor:default;
+	border-radius:6px;
+	color:black;
+	background:white;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1000;
+	width:450px;
+	min-width:450px;
+	min-height:115px;
+	border:1px solid black;
+	margin-top:12px;
+	margin-left:32px;
+	overflow:hidden;
+	padding:8px;
+	font-size:12px;
+	font-family: Arial, sans-serif !important;
+	box-sizing: border-box;
+	
+}
+.banner_tooltip span img {
+	float:left;
+	margin:0px 8px 8px 0;
+}
+#flag_img{
+	vertical-align: middle;
+}
+.banner_tooltip:hover span {
+	display:block;
+
+}
+
+
+
+</style>
+<script type="text/javascript">
+	$( document ).ready(function() {
+
+		$('.banner_tooltip').focus(function(){
+			$(this).find("span").show();
+		})  .hover(
+
+				function () {
+					$(this).find("span").show();
+				},
+
+				function () {
+					$(this).find("span").hide();
+				}
+		).focusout(function() {
+
+			$(this).find("span").hide();
+		}) .blur(function() {
+			$(this).find("span").hide();
+		})
+				.click(function(e) {
+					return false;
+				});
+
+
+		$('[role="menuitem"]').each(function (){
+			$(this).mouseout(function(e){
+				//e.stopPropagation();
+				var img=$(this).children('img');
+				if(img &&img.attr('src') )
+				{
+					src=img.attr('src').replace("_b.gif", "_g.gif").replace("_b.jpg", "_g.jpg");
+					img.attr('src',src);
+				}
+			});
+		});
+		
+	});
+</script>
+
+<table width="1002" border="0" align="center" valign="top" cellpadding="0" cellspacing="0" role="presentation">
+<tr><td>
+<div style="height: 20px;  width: 100%; margin-top:5px;">
+	<div style="float:right;  width: 50%;  font-family: Arial,sans-serif; font-size: 12px;"><button class="skip-main"  onkeydown="javascript:return event.keyCode!= 13||focusMethod(); return false; ">Skip to main content</button></div>
+	<div class="usa-banner__inner" >
+		<div style="margin-left: 10px; width: 100%;">
+			<a class="banner_tooltip" href="">
+				<img src="/public/img/main/headerline/us_flag_small.png" alt="U.S. flag" id="flag_img">&nbsp;&nbsp;An official website of the United States government
+				<span>
+				<div style="vertical-align: middle; font-size: 12px; font-weight: bold">
+				<img src="/public/img/main/headerline/icon-dot-gov.svg">	
+			        The .gov means it's official.
+				</div>		
+				Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you're on a federal government site.
+				<br>	<br>
+					<div style="vertical-align: middle; font-size: 12px; font-weight: bold">
+			   <img src="/public/img/main/headerline/icon-https.svg">The site is secure.
+					</div>
+						The https:// ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+						<br>	<br>
+			   </span>
+			</a>
+		</div>
+	</div>
+</div>
+<div id='ri_header_id'>
+	
+	<div id='rih_omb_id' style="left:4px;top:2px;">
+	                <a href="https://www.whitehouse.gov/omb/" aria-label="OMB Website">
+						<img alt="Office of Management and Budget Logo" src="/public/img/transp.gif" style="margin-top:0px;" border="0" width="92" height="92" />
+					</a></div>
+	<div id='rih_gsa_id' style="position:absolute;left:932px;top:0px;">
+	                <a href="https://www.gsa.gov/" aria-label="GSA Website">
+						<img alt="General Services Administration Logo" src="/public/img/transp.gif" style="margin-top:0px;" border="0" width="45" height="45" />
+					</a></div>
+	
+	<div id='rih_menu_id' role="navigation">
+	      <div style="width:750px;">
+				<div style="width: 70px; height: 30px; float: left; clear: none;">
+					<a href="/public/jsp/Utilities/index.myjsp"
+						aria-label="Home" onblur="MM_swapImgRestore()"
+						onfocus="MM_swapImage('Image5','','/public/img/menu/top/home_b.gif',1)"
+						onmouseout="MM_swapImgRestore()"
+						onmouseover="MM_swapImage('Image5','','/public/img/menu/top/home_b.gif',1)"><img
+						alt="Menu Item - Home"
+						src="/public/img/menu/top/home_g.gif"
+						name="Image5" width="70" height="30" border="0" id="Image5" /></a>
+				</div>
+<!-- Start of Unified Agenda menu -->
+			<div style="width:110px; float: left; clear: none;" >
+				<div href="#"
+				    id = "ua-tab"
+				    aria-label="Unified Agenda"
+				    role="menu"
+					tabindex="0"
+					onkeydown="navigateMenu('id3', 'Image6');"
+					onblur="MM_swapImgRestore()"
+					onfocus="MM_swapImage('Image6','','/public/img/menu/top/unified_agenda_b.gif',1)"
+					onmouseout="MM_swapImgRestore()"
+					onmouseover="MM_swapImage('Image6','','/public/img/menu/top/unified_agenda_b.gif',1)">
+					<img
+						alt="Main Menu - Unified Agenda"
+						role="button"
+					    aria-expanded="false"
+                        aria-controls="id3"
+                        aria-haspop="true"
+						src="/public/img/menu/top/unified_agenda_g.gif"
+						name="Image6" width="110" height="30" border="0" id="Image6"
+						onmouseover="MM_showHideLayers('id3', '', 'show'); event.currentTarget.setAttribute('aria-expanded', 'true')"
+						onmouseout="MM_showHideLayers('id3', '', 'hide'); event.currentTarget.setAttribute('aria-expanded', 'false')"/>
+					<div id="id3"
+					     onmouseover="MM_showHideLayers('id3','','show'); onMenuTabFocus('Image6')"
+						 onmouseout="MM_showHideLayers('id3','','hide'); MM_showHideLayers('id4','','hide','id5','','hide','id6','','hide','id7','','hide','id8','','hide'); onMenuTabBlur('Image6')" >
+						<!-- unified agenda sub menus -->
+						<div>
+							<a href="/public/do/eAgendaMain"
+									aria-label="Unified Agenda - Menu item"
+									role="menuitem"
+									onkeydown="javascript:return !(event.shiftKey && event.keyCode == 9)||collapseMenu('Image6', 'ua-tab', event.keyCode, ['id3','','hide']); return false;"
+									onblur="MM_swapImgRestore()"
+									onfocus="MM_swapImage('Image48','','/public/img/menu/unified_agenda/current_b.gif',1)"
+									
+									onmouseover="MM_swapImage('Image48','','/public/img/menu/unified_agenda/current_b.gif',1)">
+								<img alt="Menu Item - Agenda Main page"
+									 src="/public/img/menu/unified_agenda/current_g.gif"
+									 name="Image48" width="314" height="32" border="0" id="Image48" />
+							</a>
+						</div>
+						<div>
+							<a href="/public/do/eAgendaHistory"
+									aria-label="Historical Agenda - Menu item"
+									role="menuitem"
+									onblur="MM_swapImgRestore()"
+									onfocus="MM_swapImage('Image49','','/public/img/menu/unified_agenda/historical_b.gif',1)"
+									
+									onmouseover="MM_swapImage('Image49','','/public/img/menu/unified_agenda/historical_b.gif',1)"><img
+									alt="Menu Item - Historical Agenda"
+									src="/public/img/menu/unified_agenda/historical_g.gif"
+									name="Image49" width="314" height="27" border="0" id="Image49" /></a>
+						</div>
+						<div>
+							<a
+									href="/public/do/eAgendaHistory?showStage=completed"
+									role="menuitem"
+									aria-label="Completed Action - Menu item"
+									onblur="MM_swapImgRestore()"
+									onfocus="MM_swapImage('Image50','','/public/img/menu/unified_agenda/completed_b.gif',1)"
+									
+									onmouseover="MM_swapImage('Image50','','/public/img/menu/unified_agenda/completed_b.gif',1)"><img
+									alt="Menu Item - Completed Action"
+									src="/public/img/menu/unified_agenda/completed_g.gif"
+									name="Image50" width="314" height="27" border="0" id="Image50" /></a>
+						</div>
+						<div>
+							<a href="/public/do/eAgendaInactive"
+									aria-label="Inactive Actions - Menu item"
+									role="menuitem"
+									onblur="MM_swapImgRestore()"
+									onfocus="MM_swapImage('Image53','','/public/img/menu/unified_agenda/inactive_b.gif',1)"
+									
+									onmouseover="MM_swapImage('Image53','','/public/img/menu/unified_agenda/inactive_b.gif',1)"><img
+									alt="Menu Item - Inactive Actions"
+									src="/public/img/menu/unified_agenda/inactive_g.gif"
+									name="Image53" width="314" height="27" border="0" id="Image53" /></a>
+						</div>
+						<div>
+							<a href="/public/do/eAgendaEO14192"
+									aria-label="Regulatory Reform Status Report: Ten-For-One - Menu item"
+									role="menuitem"
+									onblur="MM_swapImgRestore()"
+									onfocus="MM_swapImage('Image54','','/public/img/menu/unified_agenda/eo14192_revised_b.gif',1)"
+
+									onmouseover="MM_swapImage('Image54','','/public/img/menu/unified_agenda/eo14192_revised_b.gif',1)"><img
+									alt="Menu Item - Inactive Actions"
+									src="/public/img/menu/unified_agenda/eo14192_revised_g.gif"
+									name="Image54" width="314" height="56" border="0" id="Image54" /></a>
+						</div>
+						<div>
+							<a href="/public/do/eAgendaSimpleSearch"
+									aria-label="Agenda Search - Menu item"
+									role="menuitem"
+									onblur="MM_swapImgRestore()"
+									onfocus="MM_swapImage('Image51','','/public/img/menu/unified_agenda/search_b.gif',1)"
+									
+									onmouseover="MM_swapImage('Image51','','/public/img/menu/unified_agenda/search_b.gif',1)"><img
+									alt="Menu Item - Agenda Search"
+									src="/public/img/menu/unified_agenda/search_g.gif"
+									name="Image51" width="314" height="27" border="0" id="Image51" /></a>
+						</div>
+						<div>
+							<a href="/public/do/eAgendaXmlReport"
+									aria-label="Agenda XML Reports - Menu item"
+									role="menuitem"
+									onkeydown="javascript:return event.shiftKey||collapseMenu('Image6', 'ua-tab', event.keyCode, ['id3', '', 'hide']); return false;"
+									onblur="MM_swapImgRestore()"
+									onfocus="MM_swapImage('Image52','','/public/img/menu/unified_agenda/xml_reports_b.gif',1)"
+									
+									onmouseover="MM_swapImage('Image52','','/public/img/menu/unified_agenda/xml_reports_b.gif',1)"><img
+									alt="Menu Item - Agenda XML Reports"
+									src="/public/img/menu/unified_agenda/xml_reports_g.gif"
+									name="Image52" width="314" height="51" border="0" id="Image52" /></a>
+						</div>
+					</div>
+				</div> 
+		  <!--id3-->
+				
+			</div>
+<!-- end of Unified Agenda menu -->
+            <div style=" width:142px; float: left; clear: none;" >
+              <div href="#"
+                    id="reg-review-tab"
+                    aria-label="Regulatory Review"
+                    role="menu"
+					tabindex="0"
+					onkeydown="navigateMenu('id1', 'Image7');"
+					onblur="MM_swapImgRestore()"
+					onfocus="MM_swapImage('Image7','','/public/img/menu/top/reg_review_b.gif',1)"
+					  onmouseout="MM_swapImgRestore()"
+					onmouseover="MM_swapImage('Image7','','/public/img/menu/top/reg_review_b.gif',1)">
+						<img alt="Main Menu - Regulatory Review"
+						src="/public/img/menu/top/reg_review_g.gif"
+						role="button"
+                        aria-expanded="false"
+                        aria-controls="id1"
+                        aria-haspop="true"
+						name="Image7" width="142" height="30" border="0" id="Image7"
+						onmouseover="MM_showHideLayers('id1','','show'); event.currentTarget.setAttribute('aria-expanded', 'true')"
+						onmouseout="MM_showHideLayers('id1','','hide'); event.currentTarget.setAttribute('aria-expanded', 'false')"/>
+				  <!--sub1-->
+				  <div
+				        id="id1"
+				        onmouseover="MM_showHideLayers('id1','','show'); onMenuTabFocus('Image7')"
+						onmouseout="MM_showHideLayers('id1','','hide','id2','','hide'); onMenuTabBlur('Image7')" >
+					  <div>
+						  <a
+								  href="/public/jsp/EO/eoDashboard.myjsp"
+								  role="menuitem"
+								  aria-label="EO Dashboard - Menu item"
+								  onkeydown="javascript:return !(event.shiftKey && event.keyCode == 9)||collapseMenu('Image7', 'reg-review-tab', event.keyCode, ['id1','','hide','id2','','hide']); return false;"
+								  onblur="MM_swapImgRestore()"
+								  onfocus="MM_swapImage('Image11','','/public/img/menu/reg_review/dashboard_b.gif',1)"
+								  
+								  onmouseover="MM_swapImage('Image11','','/public/img/menu/reg_review/dashboard_b.gif',1)"><img
+								  alt="Menu Item - EO Dashboard"
+								  src="/public/img/menu/reg_review/dashboard_g.gif"
+								  name="Image11" width="235" height="32" border="0" id="Image11" /></a>
+					  </div>
+					  <div>
+						  <a href="/public/do/eoPackageMain"
+								  aria-label="EO Regulatory Review - Menu item"
+								  role="menuitem"
+								  onblur="MM_swapImgRestore()"
+								  onfocus="MM_swapImage('Image13','','/public/img/menu/reg_review/eo_12866_b.gif',1)"
+								  
+								  onmouseover="MM_swapImage('Image13','','/public/img/menu/reg_review/eo_12866_b.gif',1)"><img
+								  alt="Menu Item - EO Regulatory Review"
+								  src="/public/img/menu/reg_review/eo_12866_g.gif"
+								  name="Image13" width="235" height="27" border="0" id="Image13" /></a>
+					  </div>
+					  <div>
+						  <a href="/public/do/eoAdvancedSearchMain"
+								  aria-label="EO Search - Menu item"
+								  role="menuitem"
+								  onblur="MM_swapImgRestore()"
+								  onfocus="MM_swapImage('Image14','','/public/img/menu/reg_review/search_b.gif',1)"
+								  
+								  onmouseover="MM_swapImage('Image14','','/public/img/menu/reg_review/search_b.gif',1)"><img
+								  alt="Menu Item - EO Search"
+								  src="/public/img/menu/reg_review/search_g.gif"
+								  name="Image14" width="235" height="27" border="0" id="Image14" /></a>
+					  </div>
+					  <div>
+						  <a href="/public/do/eoHistoricReport"
+								  aria-label="Historical Reports - Menu item"
+								  role="menuitem"
+								  onblur="MM_swapImgRestore()"
+								  onfocus="MM_swapImage('Image15','','/public/img/menu/reg_review/historical_b.gif',1)"
+								  
+								  onmouseover="MM_swapImage('Image15','','/public/img/menu/reg_review/historical_b.gif',1)"><img
+								  alt="Menu Item - EO Historical Reports"
+								  src="/public/img/menu/reg_review/historical_g.gif"
+								  name="Image15" width="235" height="27" border="0" id="Image15" /></a>
+					  </div>
+					  <div>
+						  <a
+								  href="/public/do/eoCountsSearchInit?action=init"
+								  role="menuitem"
+								  aria-label="Review Counts - Menu item"
+								  onblur="MM_swapImgRestore()"
+								  onfocus="MM_swapImage('Image16','','/public/img/menu/reg_review/review_count_b.gif',1)"
+								  
+								  onmouseover="MM_swapImage('Image16','','/public/img/menu/reg_review/review_count_b.gif',1)"><img
+								  alt="Menu Item - Review Counts"
+								  src="/public/img/menu/reg_review/review_count_g.gif"
+								  name="Image16" width="235" height="27" border="0" id="Image16" /></a>
+					  </div>
+					  <div>
+						  <a href="/public/jsp/EO/letters.myjsp"
+						          role="menuitem"
+								  aria-label="OIRA Letters - Menu item"
+								  onblur="MM_swapImgRestore()"
+								  onfocus="MM_swapImage('Image17','','/public/img/menu/reg_review/oira_letter_b.gif',1)"
+								  
+								  onmouseover="MM_swapImage('Image17','','/public/img/menu/reg_review/oira_letter_b.gif',1)"><img
+								  alt="Menu Item - OIRA Letters"
+								  src="/public/img/menu/reg_review/oira_letter_g.gif"
+								  name="Image17" width="235" height="29" border="0" id="Image17" /></a>
+					  </div>
+					  <div>
+						  <a href="/public/do/eom12866Search"
+						          role="menuitem"
+								  aria-label="EO 12866 Search - Menu item"
+								  onblur="MM_swapImgRestore()"
+								  onfocus="MM_swapImage('Image100','','/public/img/menu/reg_review/eo_meetings_b.jpg',1)"
+								  
+								  onmouseover="MM_swapImage('Image100','','/public/img/menu/reg_review/eo_meetings_b.jpg',1)"><img
+								  alt="Menu Item - EO 12866 Search"
+								  src="/public/img/menu/reg_review/eo_meetings_g.jpg"
+								  name="Image100" width="235" height="29" border="0"
+								  id="Image100" /></a>
+					  </div>
+					  <div>
+						  <a href="/public/do/XMLReportList"
+						          role="menuitem"
+								  aria-label="EO XML Reports - Menu item"
+								  onkeydown="javascript:return event.shiftKey|| collapseMenu('Image7', 'reg-review-tab', event.keyCode, ['id1','','hide','id2','','hide']); return false;"
+								  onblur="MM_swapImgRestore()"
+								  onfocus="MM_swapImage('Image18','','/public/img/menu/reg_review/xml_report_b.gif',1)"
+								  
+								  onmouseover="MM_swapImage('Image18','','/public/img/menu/reg_review/xml_report_b.gif',1)"><img
+								  alt="Menu Item - EO XML Reports"
+								  src="/public/img/menu/reg_review/xml_report_g.gif"
+								  name="Image18" width="235" height="44" border="0" id="Image18" /></a>
+					  </div>
+				  </div>
+				</div>
+
+		</div>	
+<!--sub3-->
+<!-- end of EO -->
+<!-- Start ICR menu -->
+            <div style=" width:199px; float: left; clear: none;" >
+               	<div href="#"
+               	        id="icr-tab"
+						aria-label="Information Collection Review"
+						role="menu"
+						tabindex="0"
+							onkeydown="navigateMenu('apDiv2', 'Image8');"
+							onblur="MM_swapImgRestore()"
+							onfocus="MM_swapImage('Image8','','/public/img/menu/top/icr_b.gif',1)"
+						onmouseout="MM_swapImgRestore()"
+							onmouseover="MM_swapImage('Image8','','/public/img/menu/top/icr_b.gif',1)">
+								<img alt="Main Menu - Information Collection Review"
+								     src="/public/img/menu/top/icr_g.gif"
+								     role="button"
+                                	 aria-expanded="false"
+                                     aria-controls="apDiv2"
+                                     aria-haspop="true"
+								name="Image8" width="199" height="30" border="0" id="Image8"
+								onmouseover="MM_showHideLayers('apDiv2','','show'); event.currentTarget.setAttribute('aria-expanded', 'true')"
+                                onmouseout="MM_showHideLayers('apDiv2','','hide'); event.currentTarget.setAttribute('aria-expanded', 'false')"/>
+					<div id="apDiv2"
+							onmouseover="MM_showHideLayers('apDiv2','','show'); onMenuTabFocus('Image8')"
+							onmouseout="MM_showHideLayers('apDiv2','','hide'); onMenuTabBlur('Image8')">
+						<div>
+							<a
+									href="/public/jsp/PRA/praDashboard.myjsp"
+									aria-label="ICR Dashboard - Menu item"
+									role="menuitem"
+									onkeydown="javascript:return !(event.shiftKey && event.keyCode == 9)||collapseMenu('Image8', 'icr-tab', event.keyCode, ['apDiv2','','hide']); return false;"
+									onblur="MM_swapImgRestore()"
+									onfocus="MM_swapImage('Image23','','/public/img/menu/icr/icr_dashboard_b.gif',1)"
+									
+									onmouseover="MM_swapImage('Image23','','/public/img/menu/icr/icr_dashboard_b.gif',1)"><img
+									alt="Menu Item - ICR Dashboard page"
+									src="/public/img/menu/icr/icr_dashboard_g.gif"
+									name="Image23" width="235" height="32" border="0" id="Image23" /></a>
+						</div>
+						<div>
+							<a href="/public/do/PRAMain"
+									aria-label="Information Collection Review - Menu item"
+									role="menuitem"
+									onblur="MM_swapImgRestore()"
+									onfocus="MM_swapImage('Image24','','/public/img/menu/icr/icr_b.gif',1)"
+									
+									onmouseover="MM_swapImage('Image24','','/public/img/menu/icr/icr_b.gif',1)"><img
+									alt="Menu Item - ICR Main page"
+									src="/public/img/menu/icr/icr_g.gif"
+									name="Image24" width="235" height="32" border="0" id="Image24" /></a>
+						</div>
+						<div>
+							<a href="/public/do/PRASearch"
+									aria-label="ICR Search - Menu item"
+									role="menuitem"
+									onblur="MM_swapImgRestore()"
+									onfocus="MM_swapImage('Image25','','/public/img/menu/icr/search_b.gif',1)"
+									
+									onmouseover="MM_swapImage('Image25','','/public/img/menu/icr/search_b.gif',1)"><img
+									alt="Menu Item - ICR Search"
+									src="/public/img/menu/icr/search_g.gif"
+									name="Image25" width="235" height="27" border="0" id="Image25" /></a>
+						</div>
+						<div>
+							<a href="/public/do/PRAXML"
+									aria-label="ICR XML Reports - Menu item"
+									role="menuitem"
+									onkeydown="javascript:return event.shiftKey||collapseMenu('Image8', 'icr-tab', event.keyCode, ['apDiv2','','hide']); return false;"
+									onblur="MM_swapImgRestore()"
+									onfocus="MM_swapImage('Image26','','/public/img/menu/icr/xml_report_b.gif',1)"
+									
+									onmouseover="MM_swapImage('Image26','','/public/img/menu/icr/xml_report_b.gif',1)"><img
+									alt="Menu Item - ICR XML Reports"
+									src="/public/img/menu/icr/xml_report_g.gif"
+									name="Image26" width="235" height="52" border="0" id="Image26" /></a>
+						</div>
+					</div>
+				</div>
+
+			
+			</div>
+<!-- end of ICR menu -->
+            <div style=" width:128px; float: left; clear: none;" >
+<!-- start of additional resources -->
+				<div href="#" aria-label="FAQ/Resources"
+				        id="faq-res-tab"
+				        role="menu"
+						tabindex="0"
+							onkeydown="navigateMenu('resDiv1', 'Image9');"
+							onblur="MM_swapImgRestore()"
+							onfocus="MM_swapImage('Image9','','/public/img/menu/top/faq_b.gif',1)"
+						onmouseout="MM_swapImgRestore()"
+							onmouseover="MM_swapImage('Image9','','/public/img/menu/top/faq_b.gif',1)">
+							<img
+								alt="Menu Item - FAQ/Resources"
+								src="/public/img/menu/top/faq_g.gif"
+								role="button"
+                                aria-expanded="false"
+                                aria-controls="resDiv1"
+                                aria-haspop="true"
+								name="Image9" width="128" height="30" border="0" id="Image9"
+								onmouseover="MM_showHideLayers('resDiv1','','show'); event.currentTarget.setAttribute('aria-expanded', 'true')"
+                                onmouseout="MM_showHideLayers('resDiv1','','hide'); event.currentTarget.setAttribute('aria-expanded', 'false')"
+								/>
+					<div
+					    id="resDiv1"
+					    onmouseover="MM_showHideLayers('resDiv1','','show'); onMenuTabFocus('Image9')"
+					    onmouseout="MM_showHideLayers('resDiv1','','hide'); onMenuTabBlur('Image9')" >
+						<div>
+							<a href="/public/jsp/Utilities/faq.myjsp"
+									aria-label="FAQ - Menu item" role="menuitem"
+									onkeydown="javascript:return !(event.shiftKey && event.keyCode == 9)||collapseMenu('Image9', 'faq-res-tab', event.keyCode, ['resDiv1','','hide']); return false;"
+									onblur="MM_swapImgRestore()"
+									onfocus="MM_swapImage('Image31','','/public/img/menu/faq/faq_b.gif',1)"
+									onmouseover="MM_swapImage('Image31','','/public/img/menu/faq/faq_b.gif',1)"><img
+									alt="Menu Item - FAQ"
+									src="/public/img/menu/faq/faq_g.gif"
+									name="Image31" width="219" height="32" border="0" id="Image31" /></a>
+						</div>
+						<div>
+							<a  href="/public/jsp/Utilities/additionalResources.myjsp"
+									aria-label="Additional Resources - Menu item" role="menuitem"
+									onkeydown="javascript:return event.shiftKey||collapseMenu('Image9','faq-res-tab', event.keyCode, ['resDiv1','','hide']); return false;"
+									onblur="MM_swapImgRestore()"
+									onfocus="MM_swapImage('Image32','','/public/img/menu/faq/related_res_b.gif',1)"
+									
+									onmouseover="MM_swapImage('Image32','','/public/img/menu/faq/related_res_b.gif',1)"><img
+									alt="Additional Resources"
+									src="/public/img/menu/faq/related_res_g.gif"
+									name="Image32" width="219" height="39" border="0" id="Image32" /></a>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+<!-- end of additional resources -->
+			<div style="width: 92px; float: left; clear: none;">
+				<a 	href="/public/jsp/Utilities/contactUs.myjsp"
+					aria-label="Contact Us" onblur="MM_swapImgRestore()"
+					onfocus="MM_swapImage('Image10','','/public/img/menu/top/contact_us_b.gif',1)"
+						onmouseout="MM_swapImgRestore()"
+					onmouseover="MM_swapImage('Image10','','/public/img/menu/top/contact_us_b.gif',1)"><img
+					alt="Contact Us"
+					src="/public/img/menu/top/contact_us_g.gif"
+					name="Image10" width="92" height="30" border="0" id="Image10" /></a>
+			</div>
+		</div>
+	</div> <!-- rih_menu_id-->
+	<div id='rih_search_id'>
+        <form id="form1" name="form1" method="GET" action="/public/Forward">
+
+		  
+		  <table border="0" width="210" cellspacing="0" cellpadding="0" style="margin-top: 0px;" role="presentation">
+			<tr>
+				<td id="search_label_idxxx" nowrap="Y" colspan="3" style="margin-left: 0px;font-size: 12px;color:white; vertical-align: middle;" >
+				<label style="color:white; font-weight: 200">Search:</label>
+				<input type="radio" name="SearchTarget" value="Agenda" id="agenda"  /><label for="agenda" style="color:white; font-weight: 200" >Agenda</label>
+				<input type="radio" name="SearchTarget" value="RegReview" id="RegReview" checked /><label for="RegReview" style="color:white; font-weight: 200">Reg Review</label>
+				<input type="radio" name="SearchTarget" value="PRA"  id="PRA" /><label for="PRA" style="color:white; font-weight: 200">ICR</label>
+				</td>
+			</tr>
+            <tr>
+                <td width="100%" height="8" colspan="3" ></td>
+            </tr>
+            <tr>
+            	<td width="20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td height="23" width="150" align="left" valign="middle" style="background-image:url(/public/img/search.gif);background-repeat:no-repeat;">
+	                          <input type="text" title="Enter search parameter"  style="height:15px; width:142px;margin-top:-2px;margin-left:30px;" name="textfield" id="textfield" class="search" value=""/>
+
+	            </td>
+	            <td align="right" width="40">
+					<input type="image" onclick="javascript:document.form1.submit()" src="/public/Images/Go_grey.gif" style="margin-top:0px;" name="Image61"  border="0" width="33" height="22" alt="Search" id="Image61"   onmouseover="MM_swapImage('Image61','','/public/Images/Go_blue.gif',1)"/>
+				</td>
+              </tr>
+		  </table>
+		</form>
+	</div> <!-- rih_search_id-->
+</div> <!-- ri_header_id-->
+</td>
+</tr>
+</table>
+<a id="main" role="link" title="anchor" tabindex="0"></a>
+
+
+	<!-- This table lays out the content of the page which includes main content, pagination links and legal links -->
+	  <table width="1002" id='below_header_idxxx' border="0" cellspacing="0" cellpadding="0" style="margin-top:145px;z-index:1;" align="center" valign="top" role="presentation">
+		<tr>
+		  <td bgcolor="#FFFFFF">
+			<!-- This table lays out the main content of the page. -->
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+				<tr>
+					<td class="info" bgcolor="#FFFFFF">
+
+
+
+
+    <div class="maincontent" role="main">
+
+
+
+
+
+
+
+<style>
+div.error {
+	text-align: left;
+	font-style: italic;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+div.error li {
+/*	color: red;   */
+}
+</style>
+
+
+	
+		
+	
+	
+    
+    
+    
+    
+    
+	  <div id="messageBox" class="error">
+	  <ul>
+    	
+    		<li><div role="alert">Your search returned 48683 results. The allowed maximum number of results is 1000. Please narrow down your search criteria and try your search again.</div></li>    		
+    	
+	  </ul>
+    	</div>
+    
+  
+
+
+<fieldset>	
+		<h1>Search of Regulatory Review</h1>
+		
+        <form id="eoAdvancedSearchForm" action="/public/do/eoAdvancedSearch" method="post">
+		
+
+          <input type='hidden' name='autoRefresh' value='1'>
+
+            <table border="0" summary="This table contains the search criteria fields to search Executive Order Review records." width="95%" cellpadding="5">
+                <tr>
+                    <td>
+                        <p>
+                            <label class="generalTxt" for="rin"><span class="tt" ariadescribedby="rin-tt" tabindex="0">RIN
+                            <span class="tooltip" id="rin-tt"><span class="top"></span><span class="middle">A Regulatory Information Number (RIN) must be requested for each new regulation under development.  RISC uses this number to track regulations in the Unified Agenda.  The same RIN is used at every stage of the rulemaking proceeding.<br><br>
+                        <i>Tip</i>: Enter a full or partial RIN.  RINs are formatted NNNN-AANN, where the NNNN is the agency/subagency code, and AANN is a combination of letters and numbers uniquely identifying the RIN within the agency/subagency's rulemakings.</span><span class="bottom"></span></span></span>
+                            </label><br>
+                            <input type="text" name="rin" id="rin" value="" size="9" maxlength="9"/>
+                        </p>
+                    </td>
+                 	<td>
+                 		<p>
+                 			<label class="generalTxt" for="Review Status" >Review Status<br></label>
+                 			<label style="font-weight:100"><input id="eoStatusCode1" name="eoStatusCode" onclick="javascript:showConcludedDataDiv();" type="radio" value="PR"/>Pending Review</label>
+                 			&nbsp;&nbsp;
+                 			<label style="font-weight:100"><input id="eoStatusCode2" name="eoStatusCode" onclick="javascript:showConcludedDataDiv();" type="radio" value="CD"/>Concluded</label>
+                 		</p>
+                 	</td>
+                 </tr>
+
+				<tr>
+					<td colspan="2">
+						<p>
+							<label class="generalTxt" for="agency">Agency</label><br>
+							<select name="agencyCode" id='agency' onchange="javascript:populateSubAgencyList(this.form);popup(this);">
+								<option value="0000" selected>All</option>
+
+								
+									<option value="0500"   >
+										Department of Agriculture
+									</option>
+								
+									<option value="0600"   >
+										Department of Commerce
+									</option>
+								
+									<option value="0700"   >
+										Department of Defense
+									</option>
+								
+									<option value="1800"   >
+										Department of Education
+									</option>
+								
+									<option value="1900"   >
+										Department of Energy
+									</option>
+								
+									<option value="0900"   >
+										Department of Health and Human Services
+									</option>
+								
+									<option value="1600"   >
+										Department of Homeland Security
+									</option>
+								
+									<option value="2500"   >
+										Department of Housing and Urban Development
+									</option>
+								
+									<option value="1000"   >
+										Department of the Interior
+									</option>
+								
+									<option value="1100"   >
+										Department of Justice
+									</option>
+								
+									<option value="1200"   >
+										Department of Labor
+									</option>
+								
+									<option value="1400"   >
+										Department of State
+									</option>
+								
+									<option value="2100"   >
+										Department of Transportation
+									</option>
+								
+									<option value="1500"   >
+										Department of the Treasury
+									</option>
+								
+									<option value="2900"   >
+										Department of Veterans Affairs
+									</option>
+								
+									<option value="2000"   >
+										Environmental Protection Agency
+									</option>
+								
+									<option value="2700"   >
+										National Aeronautics and Space Administration
+									</option>
+								
+									<option value="3001"   >
+										ACTION
+									</option>
+								
+									<option value="3010"   >
+										Advisory Council on Historic Preservation
+									</option>
+								
+									<option value="3005"   >
+										African Development Foundation
+									</option>
+								
+									<option value="0412"   >
+										Agency for International Development
+									</option>
+								
+									<option value="3139"   >
+										Appraisal Subcommittee of the FFIEC
+									</option>
+								
+									<option value="3014"   >
+										Architectural and Transportation Barriers Compliance Board
+									</option>
+								
+									<option value="3019"   >
+										Barry M. Goldwater Scholarship and Excellence in Education Foundation
+									</option>
+								
+									<option value="2580"   >
+										Board of Directors of the HOPE for Homeowners Program
+									</option>
+								
+									<option value="3024"   >
+										Civil Aeronautics Board
+									</option>
+								
+									<option value="3037"   >
+										Committee for Purchase From People Who Are Blind or Severely Disabled
+									</option>
+								
+									<option value="3038"   >
+										Commodity Futures Trading Commission
+									</option>
+								
+									<option value="3039"   >
+										Community Services Administration [INACTIVATED 1981]
+									</option>
+								
+									<option value="3170"   >
+										Consumer Financial Protection Bureau
+									</option>
+								
+									<option value="3041"   >
+										Consumer Product Safety Commission
+									</option>
+								
+									<option value="3045"   >
+										Corporation for National and Community Service
+									</option>
+								
+									<option value="0331"   >
+										Council on Environmental Quality
+									</option>
+								
+									<option value="3225"   >
+										Court Services and Offender Supervision Agency for the District of Columbia
+									</option>
+								
+									<option value="9000"   >
+										DOD/GSA/NASA (FAR)
+									</option>
+								
+									<option value="3003"   >
+										Emergency Oil and Gas Guaranteed Loan Board
+									</option>
+								
+									<option value="3004"   >
+										Emergency Steel Guarantee Loan Board
+									</option>
+								
+									<option value="3046"   >
+										Equal Employment Opportunity Commission
+									</option>
+								
+									<option value="0300"   >
+										Executive Office of the President
+									</option>
+								
+									<option value="3048"   >
+										Export-Import Bank of the United States
+									</option>
+								
+									<option value="3053"   >
+										Farm Credit System Assistance Board
+									</option>
+								
+									<option value="3060"   >
+										Federal Communications Commission
+									</option>
+								
+									<option value="3064"   >
+										Federal Deposit Insurance Corporation
+									</option>
+								
+									<option value="3067"   >
+										Federal Emergency Management Agency
+									</option>
+								
+									<option value="1902"   >
+										Federal Energy Regulatory Commission
+									</option>
+								
+									<option value="3068"   >
+										Federal Home Loan Bank Board
+									</option>
+								
+									<option value="2590"   >
+										Federal Housing Finance Agency
+									</option>
+								
+									<option value="3072"   >
+										Federal Maritime Commission
+									</option>
+								
+									<option value="3076"   >
+										Federal Mediation and Conciliation Service
+									</option>
+								
+									<option value="3121"   >
+										Federal Permitting Improvement Steering Council
+									</option>
+								
+									<option value="3084"   >
+										Federal Trade Commission
+									</option>
+								
+									<option value="4030"   >
+										Financial Stability Oversight Council
+									</option>
+								
+									<option value="3090"   >
+										General Services Administration
+									</option>
+								
+									<option value="3137"   >
+										Institute of Museum and Library Services
+									</option>
+								
+									<option value="0417"   >
+										Inter-American Foundation
+									</option>
+								
+									<option value="3120"   >
+										Interstate Commerce Commission
+									</option>
+								
+									<option value="3020"   >
+										James Madison Memorial Fellowship Foundation
+									</option>
+								
+									<option value="3124"   >
+										Merit Systems Protection Board
+									</option>
+								
+									<option value="3095"   >
+										National Archives and Records Administration
+									</option>
+								
+									<option value="3125"   >
+										National Capital Planning Commission
+									</option>
+								
+									<option value="3133"   >
+										National Credit Union Administration
+									</option>
+								
+									<option value="3135"   >
+										National Endowment for the Arts
+									</option>
+								
+									<option value="3136"   >
+										National Endowment for the Humanities
+									</option>
+								
+									<option value="3141"   >
+										National Indian Gaming Commission
+									</option>
+								
+									<option value="3145"   >
+										National Science Foundation
+									</option>
+								
+									<option value="3150"   >
+										Nuclear Regulatory Commission
+									</option>
+								
+									<option value="3440"   >
+										Office of Director of National Intelligence
+									</option>
+								
+									<option value="2550"   >
+										Office of Federal Housing Enterprise Oversight
+									</option>
+								
+									<option value="3209"   >
+										Office of Government Ethics
+									</option>
+								
+									<option value="0348"   >
+										Office of Management and Budget
+									</option>
+								
+									<option value="3201"   >
+										Office of National Drug Control Policy
+									</option>
+								
+									<option value="3148"   >
+										Office of Navajo and Hopi Indian Relocation
+									</option>
+								
+									<option value="3206"   >
+										Office of Personnel Management
+									</option>
+								
+									<option value="0349"   >
+										Office of Science and Technology Policy
+									</option>
+								
+									<option value="3255"   >
+										Office of Special Counsel
+									</option>
+								
+									<option value="3204"   >
+										Office of the Federal Inspector, Alaska Natural Gas Transportation System
+									</option>
+								
+									<option value="0350"   >
+										Office of the United States Trade Representative
+									</option>
+								
+									<option value="3200"   >
+										Other Independent Agencies
+									</option>
+								
+									<option value="3312"   >
+										Other Temporary Commissions
+									</option>
+								
+									<option value="3420"   >
+										Overseas Private Investment Corporation
+									</option>
+								
+									<option value="3207"   >
+										Panama Canal Commission
+									</option>
+								
+									<option value="0420"   >
+										Peace Corps
+									</option>
+								
+									<option value="3208"   >
+										Pennsylvania Avenue Development Corporation
+									</option>
+								
+									<option value="1212"   >
+										Pension Benefit Guaranty Corporation
+									</option>
+								
+									<option value="3220"   >
+										Railroad Retirement Board
+									</option>
+								
+									<option value="3205"   >
+										Resolution Trust Corporation
+									</option>
+								
+									<option value="3235"   >
+										Securities and Exchange Commission
+									</option>
+								
+									<option value="3240"   >
+										Selective Service System
+									</option>
+								
+									<option value="3245"   >
+										Small Business Administration
+									</option>
+								
+									<option value="0960"   >
+										Social Security Administration
+									</option>
+								
+									<option value="2140"   >
+										Surface Transportation Board
+									</option>
+								
+									<option value="3316"   >
+										Tennessee Valley Authority
+									</option>
+								
+									<option value="3203"   >
+										Thrift Depositor Protection Oversight Board
+									</option>
+								
+									<option value="3035"   >
+										U.S. Commission on Civil Rights
+									</option>
+								
+									<option value="3035"   >
+										Commission on Civil Rights
+									</option>
+								
+									<option value="3116"   >
+										United States Information Agency
+									</option>
+								
+									<option value="3327"   >
+										United States Metric Board
+									</option>
+								
+									<option value="3210"   >
+										United States Postal Service
+									</option>
+								
+									<option value="3335"   >
+										Water Resources Council [INACTIVATED 1982]
+									</option>
+								
+							</select>
+						</p>
+					</td>
+				  <tr>
+				  <tr>
+					<td width="50%">
+						<p width="100%">
+							<label class="generalTxt" for="subAgency">Sub Agency</label><br>
+							<select id="subAgency" name="subAgencyCode">
+							</select>
+
+						</p>
+					</td>
+                    <td align="left" width="50%">
+                        <p>
+                            <label class="generalTxt" for="Economically Significant"><span class="tt" tabindex="0" ariadescribedby="econ-sig-tt">Economically Significant
+                            <span class="tooltip" id="econ-sig-tt"><span class="top"></span><span class="middle">
+						This term refers to a regulatory action, as determined under Section 3(f)(1) of E.O. 12866, that will have an annual effect on the economy of $100 million or more or will adversely affect in a material way the economy, a sector of the economy, productivity, competition, jobs, the environment, public health or safety, or State, local, or tribal governments or communities.</li>
+
+						</span><span class="bottom"></span></span></span>
+                            </label><br>
+							<label for="econSigYes" style="font-weight:100">
+							<input id="econSigYes" name="econSigs" type="checkbox" value="Yes"/><input type="hidden" name="_econSigs" value="on"/>Yes </label>&nbsp;&nbsp;
+							<label for="econSigNo" style="font-weight:100">
+							<input id="econSigNo" name="econSigs" type="checkbox" value="No"/><input type="hidden" name="_econSigs" value="on"/>No</label>
+                        </p>
+                    </td>
+				</tr>
+
+				<tr id="agencymsg" style="display:none;" ><td colspan="2">Minerals Management Service (MMS) has now become Bureau of Ocean Energy Management, Regulation, and Enforcement (BOEM).</td></tr>
+
+                 <tr>
+                    <td width="50%">
+                        <p>
+                            <label class="generalTxt" for="terms(title_and_abstract)">Terms (Title and Abstract)</label><br>
+                            <input type="text" name="terms" value="" size="55" maxlength="200" id='terms(title_and_abstract)'/>
+                        </p>
+                    </td>
+ 					<td style= "width: 50%; text-align: left">
+ 					    <p>
+ 					        <label class="generalTxt" for="Section 3(f)(1) Significant"><span class="tt" tabindex="0" aria-ariadescribedby="3f1-tt">Section 3(f)(1) Significant
+ 					        <span class="tooltip" id="3f1-tt">
+ 					        <span class="top"></span>
+ 					        <span class="middle">
+ 					        This term was used between April 6, 2023 and January 20, 2025, while E.O. 14094 was in effect. It refers to a regulatory action that is likely to have an annual effect on the economy of $200 million or more or adversely affect in a material way the economy, a sector of the economy, productivity, competition, jobs, the environment, public health or safety, or State, local, territorial, or tribal governments or communities.
+                             </span>
+                             <span class="bottom"></span></span></span>
+                             </label><br>
+                             <label for="s3f1Yes" style="font-weight:100">
+                             <input id="s3f1Yes" name="s3f1Sigs" type="checkbox" value="Yes"/><input type="hidden" name="_s3f1Sigs" value="on"/> Yes </label>&nbsp;&nbsp;
+                             <label for="s3f1No" style="font-weight:100">
+                             <input id="s3f1No" name="s3f1Sigs" type="checkbox" value="No"/><input type="hidden" name="_s3f1Sigs" value="on"/> No </label>
+
+ 					    </p>
+
+ 					</td>
+                 </tr>
+
+                <tr>
+                	<td width="50%">
+    					<p>
+                			<label class="generalTxt" for="legalDeadlines"><span class="tt" tabindex="0" ariadescribedby="legal-dl-tt">Legal Deadline
+                			<span class="tooltip" id="legal-dl-tt"><span class="top"></span><span class="middle">
+                       Whether the action is subject to a statutory or judicial deadline.
+						</span><span class="bottom"></span></span></span>
+                			</label><br>
+							<label for="legalDeadlineJudicial" style="font-weight:100">
+							<input id="legalDeadlineJudicial" name="legalDeadlines" type="checkbox" value="Judicial"/><input type="hidden" name="_legalDeadlines" value="on"/>Judicial </label>&nbsp;&nbsp;
+							<label for="legalDeadlineStatutory"style="font-weight:100">
+							<input id="legalDeadlineStatutory" name="legalDeadlines" type="checkbox" value="Statutory"/><input type="hidden" name="_legalDeadlines" value="on"/>Statutory </label>&nbsp;&nbsp;
+							<label for="legalDeadlineNone" style="font-weight:100">
+							<input id="legalDeadlineNone" name="legalDeadlines" type="checkbox" value="None"/><input type="hidden" name="_legalDeadlines" value="on"/>None</label>
+						</p>
+					</td>
+					<td align="left" width="50%">
+                        <table cellpadding="0" cellspacing="0" summary="Layout table for Received Date range of the search criteria.">
+                            <tr>
+                                <td><label class="generalTxt" >Received Date Range</td><td><p class="formatnote">(MM/DD/YYYY)</label></p></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><label class="generalTxt" >From&nbsp;<input type="text" name="receivedStartDate" value="" size="10" maxlength="10" id="dateRangeFrom"/></label>
+
+                                &nbsp;&nbsp;<label class="generalTxt" >To&nbsp;
+                                <input type="text" name="receivedEndDate" value="" size="10" maxlength="10" id="dateRangeTo"/></label>
+                                </td>
+                            </tr>
+                        </table>
+					</td>
+				</tr>
+
+				<tr>
+					<td width="50%">
+						<p>
+                            <label class="generalTxt" for="ruleStages"><span class="tt" tabindex="0" ariadescribedby="rm-stage-tt">Stage of Rulemaking
+                            <span class="tooltip" id="rm-stage-tt"><span class="top"></span><span class="middle">There are five Agenda stages of rulemaking (i.e., Prerule, Proposed Rule, Final Rule, Long-Term Actions, Completed Actions).
+						<table><tr><td>
+						<ol>
+						<li>	Prerule Stage -- actions agencies will undertake to determine whether or how to initiate rulemaking. Such actions occur prior to a Notice of Proposed Rulemaking (NPRM) and may include an Advance Notice of Proposed Rulemaking (ANPRM) or a review of existing regulations.
+						<li>	Proposed Rule Stage -- actions for which agencies plan to publish a Notice of Proposed Rulemaking as the next step in their rulemaking process or for which the closing date of the NPRM Comment Period is the next step.
+						<li>	Final Rule Stage -- actions for which agencies plan to publish a final rule or an interim final rule or to take other final action as the next step.
+						<li>	Long-Term Actions -- items under development but for which the agency does not expect to have a regulatory action within the 12 months after publication of this edition of the Unified Agenda.
+						<li>	Completed Actions -- actions or reviews the agency has completed or withdrawn since publishing its last agenda.<br>
+						</ol>
+						</td></tr></table>
+						</span><span class="bottom"></span></span></span>
+                            </label><br>
+							<label for="ruleStagePrerule" style="font-weight:100">
+							<input id="ruleStagePrerule" name="ruleStages" type="checkbox" value="1"/><input type="hidden" name="_ruleStages" value="on"/>Prerule </label>&nbsp;&nbsp;
+							<label for="ruleStageProposed" style="font-weight:100">
+							<input id="ruleStageProposed" name="ruleStages" type="checkbox" value="2"/><input type="hidden" name="_ruleStages" value="on"/>Proposed Rule </label>&nbsp;&nbsp;
+							<label for="ruleStageInterimFinal" style="font-weight:100">
+							<input id="ruleStageInterimFinal" name="ruleStages" type="checkbox" value="3"/><input type="hidden" name="_ruleStages" value="on"/>Interim Final Rule </label><br>
+							<label for="ruleStageFinal" style="font-weight:100">
+							<input id="ruleStageFinal" name="ruleStages" type="checkbox" value="4"/><input type="hidden" name="_ruleStages" value="on"/>Final Rule	</label>&nbsp;&nbsp;
+							<label for="ruleStageFinalNoMaterialChange" style="font-weight:100">
+							<input id="ruleStageFinalNoMaterialChange" name="ruleStages" type="checkbox" value="5"/><input type="hidden" name="_ruleStages" value="on"/>Final Rule No Material Change </label>&nbsp;&nbsp;
+							<label for="ruleStageNotice" style="font-weight:100">
+							<input id="ruleStageNotice" name="ruleStages" type="checkbox" value="6"/><input type="hidden" name="_ruleStages" value="on"/>Notice</label>
+						</p>
+					</td>
+					<td width="50%">
+						<label class="generalTxt">Affordable Care Act [Pub. L. 111-148 & 111-152]</label><br>
+						<label style="font-weight:100"><input id="healthcareFlag1" name="healthcareFlag" type="checkbox" value="Y"/><input type="hidden" name="_healthcareFlag" value="on"/>Yes</label>&nbsp;&nbsp;
+						<label style="font-weight:100"><input id="healthcareFlag2" name="healthcareFlag" type="checkbox" value="N"/><input type="hidden" name="_healthcareFlag" value="on"/>No</label>&nbsp;&nbsp;
+						<label style="font-weight:100"><input id="healthcareFlag3" name="healthcareFlag" type="checkbox" value="U"/><input type="hidden" name="_healthcareFlag" value="on"/>Uncollected</label>&nbsp;&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td width="50%">
+					    <label class="generalTxt" for="internationalInterests"><span class="tt" tabindex="0" ariadescribedby="int-impacts-tt">International Impacts
+                			<span class="tooltip" id="int-impacts-tt"><span class="top"></span><span class="middle">
+                         Whether the regulation is expected to have international trade and investment effects, or otherwise may be of interest to our international trading partners.
+						</span><span class="bottom"></span></span></span></label><br>
+						<label style="font-weight:100"><input id="internationalFlag1" name="internationalFlag" type="checkbox" value="Y"/><input type="hidden" name="_internationalFlag" value="on"/>Yes</label>&nbsp;&nbsp;
+						<label style="font-weight:100"><input id="internationalFlag2" name="internationalFlag" type="checkbox" value="N"/><input type="hidden" name="_internationalFlag" value="on"/>No</label>&nbsp;&nbsp;
+						<label style="font-weight:100"><input id="internationalFlag3" name="internationalFlag" type="checkbox" value="X"/><input type="hidden" name="_internationalFlag" value="on"/>Uncollected</label>&nbsp;&nbsp;
+					</td>
+					<td width="50%">
+						<label class="generalTxt">Dodd-Frank Wall Street Reform and Consumer Protection Act, [Pub. L. 111-203]</label><br>
+						<label style="font-weight:100"><input id="doddFrankFlag1" name="doddFrankFlag" type="checkbox" value="Y"/><input type="hidden" name="_doddFrankFlag" value="on"/>Yes</label>&nbsp;&nbsp;
+						<label style="font-weight:100"><input id="doddFrankFlag2" name="doddFrankFlag" type="checkbox" value="N"/><input type="hidden" name="_doddFrankFlag" value="on"/>No</label>&nbsp;&nbsp;
+						<label style="font-weight:100"><input id="doddFrankFlag3" name="doddFrankFlag" type="checkbox" value="U"/><input type="hidden" name="_doddFrankFlag" value="on"/>Uncollected</label>&nbsp;&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td width="50%">
+						<label class="generalTxt">Tax Cuts and Jobs Act [Pub. L. 115-97]</label><br>
+						<label style="font-weight:100"><input id="tcjaYes" name="tcjaFlag" type="checkbox" value="Y"/><input type="hidden" name="_tcjaFlag" value="on"/>Yes</label>&nbsp;&nbsp;
+						<label style="font-weight:100"><input id="tcjaNo" name="tcjaFlag" type="checkbox" value="N"/><input type="hidden" name="_tcjaFlag" value="on"/>No</label>&nbsp;&nbsp;
+						<label style="font-weight:100"><input id="tcjaUncollected" name="tcjaFlag" type="checkbox" value="X"/><input type="hidden" name="_tcjaFlag" value="on"/>Uncollected</label>&nbsp;&nbsp;
+					</td>
+					<td width="50%" id="expeditedFlag" valign="top">
+						<label class="generalTxt">Expedited Review</label><br>
+						<label style="font-weight:100"><input id="expeditedFlagYes" name="expeditedFlag" type="checkbox" value="Y"/><input type="hidden" name="_expeditedFlag" value="on"/>Yes</label>&nbsp;&nbsp;
+						<label style="font-weight:100"><input id="expeditedFlagNo" name="expeditedFlag" type="checkbox" value="N"/><input type="hidden" name="_expeditedFlag" value="on"/>No</label>&nbsp;&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td width="50%">
+						<label class="generalTxt">Pandemic Response</label><br>
+						<label style="font-weight:100"><input id="covid19Yes" name="covid19Flag" type="checkbox" value="Y"/><input type="hidden" name="_covid19Flag" value="on"/>Yes</label>&nbsp;&nbsp;
+						<label style="font-weight:100"><input id="covid19No" name="covid19Flag" type="checkbox" value="N"/><input type="hidden" name="_covid19Flag" value="on"/>No</label>&nbsp;&nbsp;
+						<label style="font-weight:100"><input id="covid19Uncollected" name="covid19Flag" type="checkbox" value="U"/><input type="hidden" name="_covid19Flag" value="on"/>Uncollected</label>&nbsp;&nbsp;
+					</td>
+					<td width="50%">&nbsp;
+					</td>
+				</tr>
+            </table>
+
+<!-- concluded rule criteria -->
+		<div id="concludedDataDiv" style="display:none">
+			<table border="0" summary="This table contains the additional search criteria fields for concluded Executive Order Reviews." width="95%" cellpadding="5">
+
+                 <tr>
+                    <td width="50%">
+                        <p>
+                            <label class="generalTxt" for="concludedActionCode">Concluded Action</label><br>
+							<select id="concludedActionCode" name="concludedActionCode">
+								<option value="" selected="selected"></option><option value="CC">Consistent with Change</option><option value="CW">Consistent without Change</option><option value="EM">Emergency</option><option value="EX">Exempt from Executive Order</option><option value="IS">Improperly Submitted</option><option value="RR">Returned for Reconsideration</option><option value="SJ">Statutory or Judicial Deadline</option><option value="SR">Suspended Review</option><option value="WD">Withdrawn</option>
+							</select>
+                        </p>
+                    </td>
+                    <td align="left" width="50%">
+                        <table cellpadding="0" cellspacing="0" summary="Layout table for Concluded Date range of the search criteria.">
+	                        <tr>
+	                            <td> <label class="generalTxt" >Concluded Date Range</label></td><td><p class="formatnote">(MM/DD/YYYY)</p></td>
+	                        </tr>
+	                        <tr> <td colspan="2">
+	                            <label class="generalTxt" >From&nbsp;
+	                            <input id="dateRangeFromConclusion" type="text" name="conclusionStartDate" value="" size="10" maxlength="10" id="dateRangeFrom"/></label>
+	                            &nbsp;&nbsp;
+	                            <label class="generalTxt" >To&nbsp;
+	                            <input type="text" name="conclusionEndDate" value="" size="10" maxlength="10" id="dateRangeTo1"/></label>
+	                            </td>
+	                        </tr>
+                        </table>
+                    </td>
+                 </tr>
+
+                 <tr>
+                    <td width="50%">
+						<p>
+                			<label class="generalTxt" for="majors"><a class="tt">Major
+                			<span class="tooltip"><span class="top"></span><span class="middle">ROCIS allows you to search for rules considered "Major" under 5 U.S.C. 801 (Pub. L. 104-121).
+<table><tr><td>
+<ul style="list-style-type: none; list-style-image: none; ">
+<li>Select "Yes" to include rules considered Major.</li>
+<li>Select "No" for rules that are not Major.</li>
+</ul>
+</td></tr></table>
+</span><span class="bottom"></span></span></a>
+                			</label><br>
+							<label for="majorYes" style="font-weight:100">
+							<input id="majorYes" name="majors" type="checkbox" value="Y"/><input type="hidden" name="_majors" value="on"/>Yes </label>&nbsp;&nbsp;
+							<label for="majorNo" style="font-weight:100">
+							<input id="majorNo" name="majors" type="checkbox" value="N"/><input type="hidden" name="_majors" value="on"/>No </label>&nbsp;&nbsp;
+						</p>
+                    </td>
+                    <td align="left" width="50%">
+                        <table cellpadding="0" cellspacing="0" summary="Layout table for Published Date range of the search criteria.">
+	                        <tr>
+	                            <td> <label class="generalTxt" for="dateRangeFrom">Published Date Range</label></td><td><p class="formatnote">(MM/DD/YYYY)</p></td>
+	                        </tr>
+	                        <tr> <td colspan="2">
+	                            <label class="generalTxt" for="publishedDateRangeFrom">From</label>&nbsp;
+	                            <input id="publishedDateRangeFrom" name="publishedStartDate" type="text" value="" size="10" maxlength="10"/>
+	                            &nbsp;&nbsp;
+	                            <label class="generalTxt" for="publishedDateRangeTo">To</label>&nbsp;
+	                            <input id="publishedDateRangeTo" name="publishedEndDate" type="text" value="" size="10" maxlength="10"/>
+	                            </td>
+	                        </tr>
+                        </table>
+                    </td>
+                 </tr>
+
+                 <tr>
+                    <td width="50%">
+						<p>
+                			<label class="generalTxt" for="Federalism Implications"><a class="tt">Federalism Implications
+                			<span class="tooltip"><span class="top"></span><span class="middle">
+						This term refers to actions "that have substantial direct effects on the States, on the relationship between the national government and the States, or on the distribution of power and responsibilities among the various levels of government."  The selection "Undetermined" is permissible if the action is at the prerule or proposed rule stage.  By the final rule stage, the agency should have made a determination.  If the agency is reporting that it has completed an entry by taking some regulatory action (i.e., not withdrawing it), then a determination must be indicated.  (Historically independent regulatory agencies are not required to answer this question.)
+						</span><span class="bottom"></span></span></a>
+                			</label><br>
+							<label for="federalismYes" style="font-weight:100">
+							<input id="federalismYes" name="federalisms" type="checkbox" value="Y"/><input type="hidden" name="_federalisms" value="on"/>Yes </label>&nbsp;&nbsp;
+							<label for="federalismNo" style="font-weight:100">
+							<input id="federalismNo" name="federalisms" type="checkbox" value="N"/><input type="hidden" name="_federalisms" value="on"/>No </label>&nbsp;&nbsp;
+							<label for="federalismUndetermined" style="font-weight:100">
+							<input id="federalismUndetermined" name="federalisms" type="checkbox" value="U"/><input type="hidden" name="_federalisms" value="on"/>Undetermined</label>
+						</p>
+                    </td>
+                    <td align="left" width="50%">
+						<p>
+                			<label class="generalTxt" for="Related To Homeland Security">Related To Homeland Security</label><br>
+							<label for="homelandSecurityYes" style="font-weight:100">
+							<input id="homelandSecurityYes" name="homelandSecurities" type="checkbox" value="Y"/><input type="hidden" name="_homelandSecurities" value="on"/>Yes </label>&nbsp;&nbsp;
+							<label for="homelandSecurityNo" style="font-weight:100">
+							<input id="homelandSecurityNo" name="homelandSecurities" type="checkbox" value="N"/><input type="hidden" name="_homelandSecurities" value="on"/>No </label>&nbsp;&nbsp;
+							<label for="homelandSecurityUndetermined" style="font-weight:100">
+							<input id="homelandSecurityUndetermined" name="homelandSecurities" type="checkbox" value="U"/><input type="hidden" name="_homelandSecurities" value="on"/>Undetermined</label>
+						</p>
+                    </td>
+                 </tr>
+
+				 <tr>
+				 	<td width="50%">
+				 		<p>
+                			<label class="generalTxt" for="Small Entities Affected"><a class="tt">Small Entities Affected
+                			<span class="tooltip"><span class="top"></span><span class="middle">
+						These are the types of small entities (businesses, governmental jurisdictions, or organizations) on which the rulemaking action is likely to have an impact as defined by the Regulatory Flexibility Act.  Agencies have the option of indicating likely effects on small entities even though they believe that a Regulatory Flexibility Analysis will not be required.
+						</span><span class="bottom"></span></span></a>
+                			</label><br>
+				 			<label for="smallEntityGov" style="font-weight:100">
+							<input id="smallEntityGov" name="smallEntities" type="checkbox" value="G"/><input type="hidden" name="_smallEntities" value="on"/>Governmental Jurisdictions </label>&nbsp;&nbsp;
+				 			<label for="smallEntityBusiness" style="font-weight:100">
+							<input id="smallEntityBusiness" name="smallEntities" type="checkbox" value="B"/><input type="hidden" name="_smallEntities" value="on"/>Businesses </label><br>
+				 			<label for="smallEntityOrg" style="font-weight:100">
+							<input id="smallEntityOrg" name="smallEntities" type="checkbox" value="O"/><input type="hidden" name="_smallEntities" value="on"/>Organizations </label>&nbsp;&nbsp;
+				 			<label for="smallEntityNo" style="font-weight:100">
+							<input id="smallEntityNo" name="smallEntities" type="checkbox" value="N"/><input type="hidden" name="_smallEntities" value="on"/>No </label>&nbsp;&nbsp;
+				 			<label for="smallEntityUndetermined" style="font-weight:100">
+							<input id="smallEntityUndetermined" name="smallEntities" type="checkbox" value="U"/><input type="hidden" name="_smallEntities" value="on"/>Undetermined</label>
+				 		</p>
+				 	</td>
+				 	<td align="left" width="50%">
+                			<label class="generalTxt" for="Unfunded Mandates"><a class="tt">Unfunded Mandates
+                			<span class="tooltip"><span class="top"></span><span class="middle">
+						Whether the rule is covered by section 202 of the Unfunded Mandates Reform Act of 1995 (Pub. L. 104-4). The Act requires that, before issuing an NPRM likely to result in a mandate that may result in expenditures by State, local, and tribal governments, in the aggregate, or by the private sector of more than $100 million in one year, agencies, other than historically independent regulatory agencies, shall prepare a written statement containing an assessment of the anticipated costs and benefits of the Federal mandate. If the agency believes the entry is not subject to the Act, this data element will not be printed.
+						</span><span class="bottom"></span></span></a>
+                			</label><br>
+				 			<label for="ufmGov" style="font-weight:100">
+							<input id="ufmGov" name="unfundedMandates" type="checkbox" value="G"/><input type="hidden" name="_unfundedMandates" value="on"/>State, local, or tribal governments </label><br>
+				 			<label for="ufmPrivate" style="font-weight:100">
+							<input id="ufmPrivate" name="unfundedMandates" type="checkbox" value="P"/><input type="hidden" name="_unfundedMandates" value="on"/>Private Sector </label>&nbsp;&nbsp;
+				 			<label for="ufmNo" style="font-weight:100">
+							<input id="ufmNo" name="unfundedMandates" type="checkbox" value="N"/><input type="hidden" name="_unfundedMandates" value="on"/>No </label>&nbsp;&nbsp;
+				 			<label for="ufmUndetermined" style="font-weight:100">
+							<input id="ufmUndetermined" name="unfundedMandates" type="checkbox" value="U"/><input type="hidden" name="_unfundedMandates" value="on"/>Undetermined</label>
+				 	</td>
+				 </tr>
+
+				 <tr>
+				 	<td width="50%">
+				 		<p>
+                			<label class="generalTxt" for="Regulatory Flexibility Analysis Required">Regulatory Flexibility Analysis Required</label><br>
+				 			<label for="rfaGov" style="font-weight:100">
+							<input id="rfaGov" name="rfaRequires" type="checkbox" value="G"/><input type="hidden" name="_rfaRequires" value="on"/>Governmental Jurisdictions </label>&nbsp;&nbsp;
+				 			<label for="rfaBusinesses" style="font-weight:100">
+							<input id="rfaBusinesses" name="rfaRequires" type="checkbox" value="B"/><input type="hidden" name="_rfaRequires" value="on"/>Businesses </label><br>
+				 			<label for="rfaOrg" style="font-weight:100">
+							<input id="rfaOrg" name="rfaRequires" type="checkbox" value="O"/><input type="hidden" name="_rfaRequires" value="on"/>Organizations </label>&nbsp;&nbsp;
+				 			<label for="rfaNo" style="font-weight:100">
+							<input id="rfaNo" name="rfaRequires" type="checkbox" value="N"/><input type="hidden" name="_rfaRequires" value="on"/>No </label>&nbsp;&nbsp;
+				 			<label for="rfaUndetermined" style="font-weight:100">
+							<input id="rfaUndetermined" name="rfaRequires" type="checkbox" value="U"/><input type="hidden" name="_rfaRequires" value="on"/>Undetermined</label>
+				 		</p>
+				 	</td>
+				 	<td align="left" width="50%">
+						&nbsp;
+				 	</td>
+				 </tr>
+
+			</table>
+		</div>
+
+<!------->
+
+			<table border="0" summary="This table contains the additional search criteria fields for concluded Executive Order Reviews." width="95%" cellpadding="5">
+               <tr>
+                    <td colspan="2" align="center">
+                        <p class="formbuttons">
+						   <label for="searchButton"></label>
+
+                            <input type="image" src="/public/Images/Search_grey.gif" property="Search" value="Search" title="Check form and perform search." onclick="return checkForm(this.form);" onkeypress="return checkForm(this.form);" name="Image55" border="0" id="Image55"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image55','','/public/Images/Search_blue.gif',1)"/>
+
+                        </p>
+                    </td>
+                </tr>
+            </table>
+
+            <input type="hidden" name="sortBy" value="DESC"/>
+            <input type="hidden" name="orderBy" value="OIRA_RECEIVED_DT"/>
+
+</fieldset>
+
+     <div>
+<input type="hidden" name="csrf_token" value="B99CF77C9DF89242080222ECD197E7C0BB1949B45D420551375167A94CCEAE966B0FF64B1A749F0B61CBFFF54B03D324F96E" />
+</div></form>
+
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+    <link href="/public/CSS/fancybox/jquery.fancybox.min-d7b336b9735d553126c374715bd6dd41.css" type="text/css" rel="stylesheet">
+    <link href="/public/CSS/uswds_style-e60b862ccee8a7d5464d3cf11ba44cae.css" type="text/css" rel="stylesheet">
+    <style>
+        #inline {
+            background: url("/public/img/mobile_popup.png") top left no-repeat;
+            background-size: 900px 450px;
+            background-repeat: no-repeat;
+            width: 900px;
+            height: 450px;
+            
+        }
+        .identifier_text
+        {
+        text-decoration: none; 
+        font-family: Arial; 
+            font-size: 10px;
+            color:#2E2E2E;
+        }
+        .usa-identifier{
+            background-color: lightgrey;
+            width: 1002px;
+            margin: auto;
+        }
+
+       .usa-identifier__usagov-description, .usa-identifier__identity-disclaimer, .usa-identifier__identity-domain,.usa-link
+        {
+            color: black !important;
+        }
+        .usa-link
+        {
+            font-weight: 400 !important;
+        }
+
+        .usa-link--external::after {
+            background: url("/public/img/main/external-link.svg") no-repeat 0 0;
+            background-size: 100%;
+            content: '';
+            display: inline-block;
+            height: 0.65em;
+            margin-bottom: -1px;
+            margin-left: 4px;
+            width: 0.65em;
+        }
+        
+    </style>
+
+
+
+    <script type='text/javascript' src='/public/Javascript/jquery.fancybox.min-23a45699a99d0e0670481c912fbccf69.js' ></script>
+    <script type="text/javascript" src="/public/Javascript/TCJA-8b0806765a3e99de0d2b82474b7011ba.js?v=1" ></script>
+
+       <script type="text/javascript">
+        <!--
+        function addElement() {
+            var ni = getElementByClass('maincontent');
+            if (typeof ni == 'undefined') {
+                ni = getElementByClass('chartcontent');
+            }
+            if (typeof ni == 'undefined') {
+                return;
+            }
+            var newdiv1 = document.createElement('div');
+            newdiv1.setAttribute('class', 'maincontent_tl');
+            newdiv1.setAttribute("className", "maincontent_tl");
+            newdiv1.innerHTML = '';
+            var newdiv2 = document.createElement('div');
+            newdiv2.setAttribute('class', 'maincontent_tr');
+            newdiv2.setAttribute("className", "maincontent_tr");
+            newdiv2.innerHTML = '';
+            var newdiv3 = document.createElement('div');
+            newdiv3.setAttribute('class', 'maincontent_bl');
+            newdiv3.setAttribute("className", "maincontent_bl");
+            newdiv3.innerHTML = '';
+            var newdiv4 = document.createElement('div');
+            newdiv4.setAttribute('class', 'maincontent_br');
+            newdiv4.setAttribute("className", "maincontent_br");
+            newdiv4.innerHTML = '';
+            ni.appendChild(newdiv1);
+            ni.appendChild(newdiv2);
+            ni.appendChild(newdiv3);
+            ni.appendChild(newdiv4);
+        }
+
+
+
+        function getElementByClass(theClass) {
+
+            //Create Array of All HTML Tags
+            var allHTMLTags = document.getElementsByTagName('DIV');
+
+            //Loop through all tags using a for loop
+            for (i = 0; i < allHTMLTags.length; i++) {
+
+                //Get all tags with the specified class name.
+                if (allHTMLTags[i].className == theClass) {
+
+                    return allHTMLTags[i];
+
+                }
+            }
+        }
+
+        //-->
+
+        jQuery(window).on("load",function() {
+            if (sessionStorage.getItem('dontLoad') == null) {
+                // code to show popup
+
+                function openFancybox() {
+                    setTimeout(function() {
+                    	jQuery('#tbl_popup').show();
+                        jQuery('#popuplink').trigger('click');
+                    }, 500);
+                };
+                sessionStorage.setItem('dontLoad', 'true');
+                openFancybox();
+                jQuery("#popuplink").fancybox({
+
+                    closeBtn: true,
+                    afterClose: function() {
+                    	jQuery('#tbl_popup').hide();
+                    },
+                    overlay: {
+                        closeClick: true
+                    }
+                });
+            }
+        });
+
+        $( document ).ready(function() {
+            $('a[href*="leaveregs.myjsp"]').addClass('usa-link--external');
+            $('#footerContent').appendTo('body');
+            if($('#footerContent').offset().top<500)
+            {
+                $('#footerContent').css({'bottom': '0px',position: 'relative'});
+            }
+        });
+    </script>
+	<!-- summary="Layout table for links of legal and contact information of this site." -->
+	<!-- summary="Layout table for links to mobal versions of this site." -->
+  <div id="footerContent" style="padding-top: 20px;">
+
+<div role = "contentinfo" class="usa-identifier cUswdsIdentifier cUswdsTheme" data-aura-rendered-by="416:0" data-aura-class="cUswdsIdentifier cUswdsTheme">
+    <section class="usa-identifier__section usa-identifier__section--masthead" aria-label="Agency Identifier" data-aura-rendered-by="417:0">
+        <div class="usa-identifier__container" data-aura-rendered-by="418:0">
+            <div class="usa-identifier__logos" data-aura-rendered-by="420:0">
+                <a href="https://www.whitehouse.gov/omb/" aria-label="OMB Website"  class="usa-identifier__logo logo-one" data-aura-rendered-by="421:0"><img role="img" src="/public/img/OMB.png" alt="Office of Management and Budget Logo" class="usa-identifier__logo-img" data-aura-rendered-by="422:0"></a>
+                <a href="https://www.gsa.gov/" aria-label="GSA Website" class="usa-identifier__logo logo-one" data-aura-rendered-by="421:0"><img role="img" src="/public/img/footer-logo.png" alt="US General Services Administration Logo" class="usa-identifier__logo-img" data-aura-rendered-by="422:0"></a>
+                <!--render facet: 423:0--></div>
+            <div class="usa-identifier__identity" aria-label="Agency Description" data-aura-rendered-by="424:0">
+                <p class="usa-identifier__identity-domain" data-aura-rendered-by="425:0">Reginfo.gov</p>
+                <p class="usa-identifier__identity-disclaimer" data-aura-rendered-by="427:0">An official website of the   <a href="https://www.gsa.gov/" class="usa-link usa-link--external" data-aura-rendered-by="428:0">U.S. General Services Administration </a> and the <a href="https://www.whitehouse.gov/omb/" class="usa-link usa-link--external" data-aura-rendered-by="428:0"> Office of Management and Budget </a></p></div>
+        </div>
+    </section>
+    <nav class="usa-identifier__section usa-identifier__section--required-links" aria-label="Important Links" data-aura-rendered-by="429:0">
+        <div class="usa-identifier__container" data-aura-rendered-by="430:0">
+            <ul class="usa-identifier__required-links-list" style="column-count:9" data-aura-rendered-by="431:0">
+                <li class="usa-identifier__required-links-item" data-aura-rendered-by="1:96;a">
+                    <a data-menu-item-id="1" class="usa-identifier__required-link usa-link" data-aura-rendered-by="2:96;a" href="/public/jsp/Utilities/aboutUs.myjsp">About Us</a>
+                </li>
+
+                <li class="usa-identifier__required-links-item" data-aura-rendered-by="1:96;a">
+                    <a data-menu-item-id="1" class="usa-identifier__required-link usa-link usa-link--external" data-aura-rendered-by="2:96;a" href="https://www.gsa.gov/about-us">About GSA</a>
+                </li>
+                <li class="usa-identifier__required-links-item" data-aura-rendered-by="1:96;a">
+                    <a data-menu-item-id="1" class="usa-identifier__required-link usa-link usa-link--external" data-aura-rendered-by="2:96;a" href="https://www.whitehouse.gov/omb/information-regulatory-affairs/"> About OIRA</a>
+                </li>
+                <li class="usa-identifier__required-links-item" data-aura-rendered-by="1:96;a">
+                    <a data-menu-item-id="1" class="usa-identifier__required-link usa-link" data-aura-rendered-by="2:96;a" href="/public/jsp/Utilities/additionalResources.myjsp">Related Resources</a>
+                </li>
+                <li class="usa-identifier__required-links-item" data-aura-rendered-by="1:96;a">
+                    <a data-menu-item-id="1" class="usa-identifier__required-link usa-link" data-aura-rendered-by="2:96;a" href="/public/jsp/Utilities/disclaimer.myjsp">Disclosure</a>
+                </li>
+                <li class="usa-identifier__required-links-item" data-aura-rendered-by="1:96;a">
+                    <a data-menu-item-id="1" class="usa-identifier__required-link usa-link usa-link--external" data-aura-rendered-by="2:96;a" href="https://www.gsa.gov/website-information/accessibility-statement">Accessibility</a>
+                </li>
+                <li class="usa-identifier__required-links-item" data-aura-rendered-by="4:96;a">
+                    <a data-menu-item-id="2" class="usa-identifier__required-link usa-link usa-link--external" data-aura-rendered-by="5:96;a" href="https://www.whitehouse.gov/omb/freedom-of-information-act-foia/">FOIA</a>
+                </li>
+                <li class="usa-identifier__required-links-item" data-aura-rendered-by="7:96;a">
+                    <a data-menu-item-id="3" class="usa-identifier__required-link usa-link" data-aura-rendered-by="8:96;a" href="/public/jsp/Utilities/privacy.myjsp">Privacy Policy</a>
+                </li>
+                <li class="usa-identifier__required-links-item" data-aura-rendered-by="10:96;a">
+                    <a data-menu-item-id="4" class="usa-identifier__required-link usa-link" data-aura-rendered-by="11:96;a" href="/public/jsp/Utilities/contactUs.myjsp">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="usa-identifier__section usa-identifier__section--usagov" aria-label="U.S. Government information and services" data-aura-rendered-by="433:0">
+        <div class="usa-identifier__container" data-aura-rendered-by="434:0">
+            <div class="usa-identifier__usagov-description" data-aura-rendered-by="435:0">Looking for U.S. government
+                information and services?
+            </div>
+            &nbsp;
+            <a href="https://www.usa.gov/" class="usa-link usa-link--external" data-aura-rendered-by="438:0">Visit USA.gov</a></div>
+    </section>
+</div>
+
+  </div>
+
+	</td></tr></table></td></tr></table></td></tr></table><!-- closes the tags opened in the menu -->
+
+    </div>
+    </body>
+
+</html>
+

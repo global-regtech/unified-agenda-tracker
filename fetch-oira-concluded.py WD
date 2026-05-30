@@ -1,0 +1,166 @@
+"""
+Fetches concluded OIRA reviews filtered by Concluded Action code.
+
+Two-step JSP form pattern: GET the form to capture CSRF token + JSESSIONID,
+then POST the filter form with browser-realistic headers.
+
+Usage:
+    python fetch_oira_concluded.py WD    # Withdrawn
+    python fetch_oira_concluded.py RR    # Returned for Reconsideration
+"""
+
+import sys
+import time
+from pathlib import Path
+import requests
+from bs4 import BeautifulSoup
+
+PROJECT_URL = "https://github.com/abulix/unified-agenda-tracker"
+USER_AGENT = f"unified-agenda-tracker/0.7 (+{PROJECT_URL})"
+
+FORM_URL = "https://www.reginfo.gov/public/do/eoAdvancedSearchMain"
+SEARCH_URL = "https://www.reginfo.gov/public/do/eoAdvancedSearch?viewall=y"
+SEARCH_REFERER = "https://www.reginfo.gov/public/Forward?SearchTarget=RegReview"
+
+# 1993 (pre-EO 12866) to 2030 — wide enough to capture all concluded reviews ever
+CONCLUSION_START_DATE = "01/01/1993"
+CONCLUSION_END_DATE = "12/31/2030"
+
+ACTION_LABELS = {
+    "WD": "withdrawn",
+    "RR": "returned",
+}
+
+
+def fetch_concluded(action_code: str) -> str:
+    session = requests.Session()
+    session.headers.update({
+        "User-Agent": USER_AGENT,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+    })
+
+    # Step 1: GET the form for CSRF token + JSESSIONID
+    print(f"GET {FORM_URL}")
+    form_response = session.get(FORM_URL)
+    form_response.raise_for_status()
+
+    soup = BeautifulSoup(form_response.text, "html.parser")
+    csrf_input = soup.find("input", {"name": "csrf_token"})
+    if not csrf_input or not csrf_input.get("value"):
+        raise RuntimeError("Could not find csrf_token in form page")
+    csrf_token = csrf_input["value"]
+    print(f"  Captured CSRF token ({len(csrf_token)} chars)")
+
+    time.sleep(1)  # politeness
+
+    # Step 2: POST the search. Field order mirrors the DevTools capture exactly
+    # — JSP order-sensitivity is real on this site, don't rearrange.
+    payload = [
+        ("autoRefresh", "1"),
+        ("rin", ""),
+        ("eoStatusCode", "CD"),
+        ("agencyCode", "0000"),
+        ("subAgencyCode", ""),
+        # Economically Significant: Yes/No
+        ("_econSigs", "on"), ("_econSigs", "on"),
+        ("terms", ""),
+        # Section 3(f)(1) Significant: Yes/No
+        ("_s3f1Sigs", "on"), ("_s3f1Sigs", "on"),
+        # Legal Deadline: Judicial/Statutory/None
+        ("_legalDeadlines", "on"), ("_legalDeadlines", "on"), ("_legalDeadlines", "on"),
+        ("receivedStartDate", ""),
+        ("receivedEndDate", ""),
+        # Stage of Rulemaking: 6 stages
+        ("_ruleStages", "on"), ("_ruleStages", "on"), ("_ruleStages", "on"),
+        ("_ruleStages", "on"), ("_ruleStages", "on"), ("_ruleStages", "on"),
+        # Affordable Care Act: Yes/No/Uncollected
+        ("_healthcareFlag", "on"), ("_healthcareFlag", "on"), ("_healthcareFlag", "on"),
+        # International Impacts: Yes/No/Uncollected
+        ("_internationalFlag", "on"), ("_internationalFlag", "on"), ("_internationalFlag", "on"),
+        # Dodd-Frank: Yes/No/Uncollected
+        ("_doddFrankFlag", "on"), ("_doddFrankFlag", "on"), ("_doddFrankFlag", "on"),
+        # TCJA: Yes/No/Uncollected
+        ("_tcjaFlag", "on"), ("_tcjaFlag", "on"), ("_tcjaFlag", "on"),
+        # Expedited Review: Yes/No
+        ("_expeditedFlag", "on"), ("_expeditedFlag", "on"),
+        # COVID-19/Pandemic: Yes/No/Uncollected
+        ("_covid19Flag", "on"), ("_covid19Flag", "on"), ("_covid19Flag", "on"),
+        ("concludedActionCode", action_code),
+        ("conclusionStartDate", CONCLUSION_START_DATE),
+        ("conclusionEndDate", CONCLUSION_END_DATE),
+        # Major: Yes/No
+        ("_majors", "on"), ("_majors", "on"),
+        ("publishedStartDate", ""),
+        ("publishedEndDate", ""),
+        # Federalism Implications: Yes/No/Undetermined
+        ("_federalisms", "on"), ("_federalisms", "on"), ("_federalisms", "on"),
+        # Related to Homeland Security: Yes/No/Undetermined
+        ("_homelandSecurities", "on"), ("_homelandSecurities", "on"), ("_homelandSecurities", "on"),
+        # Small Entities Affected: 5 options
+        ("_smallEntities", "on"), ("_smallEntities", "on"), ("_smallEntities", "on"),
+        ("_smallEntities", "on"), ("_smallEntities", "on"),
+        # Unfunded Mandates: 4 options
+        ("_unfundedMandates", "on"), ("_unfundedMandates", "on"),
+        ("_unfundedMandates", "on"), ("_unfundedMandates", "on"),
+        # RFA Required: 5 options
+        ("_rfaRequires", "on"), ("_rfaRequires", "on"), ("_rfaRequires", "on"),
+        ("_rfaRequires", "on"), ("_rfaRequires", "on"),
+        ("sortBy", "DESC"),
+        ("orderBy", "OIRA_RECEIVED_DT"),
+        ("csrf_token", csrf_token),
+    ]
+
+    post_headers = {
+        "Referer": SEARCH_REFERER,
+        "Origin": "https://www.reginfo.gov",
+    }
+
+    print(f"POST {SEARCH_URL} (concludedActionCode={action_code})")
+    response = session.post(SEARCH_URL, data=payload, headers=post_headers)
+    response.raise_for_status()
+    return response.text
+
+
+def sanity_check(html: str) -> None:
+    soup = BeautifulSoup(html, "html.parser")
+    table = soup.find("table", {"class": "datatable"})
+    if table:
+        rows = table.find_all("tr")
+        print(f"  Found datatable with {len(rows) - 1} data rows (excluding header)")
+        return
+
+    body_text = soup.get_text()
+    if "narrow down" in body_text or "maximum number of results" in body_text:
+        # Try to surface the actual count
+        for line in body_text.splitlines():
+            if "returned" in line and "results" in line:
+                print(f"  WARNING: {line.strip()}")
+                return
+        print("  WARNING: Result set exceeded server cap (1000). Need to chunk by date.")
+    else:
+        print("  WARNING: No datatable found. Inspect the saved HTML manually.")
+
+
+def main():
+    if len(sys.argv) != 2 or sys.argv[1].upper() not in ACTION_LABELS:
+        print("Usage: python fetch_oira_concluded.py <action_code>")
+        print("  WD = Withdrawn")
+        print("  RR = Returned for Reconsideration")
+        sys.exit(1)
+
+    action_code = sys.argv[1].upper()
+    label = ACTION_LABELS[action_code]
+
+    html = fetch_concluded(action_code)
+
+    output_dir = Path("data")
+    output_dir.mkdir(exist_ok=True)
+    output_file = output_dir / f"oira_concluded_{label}_raw.html"
+    output_file.write_text(html, encoding="utf-8")
+    print(f"Saved {len(html)} chars to {output_file}")
+    sanity_check(html)
+
+
+if __name__ == "__main__":
+    main()
