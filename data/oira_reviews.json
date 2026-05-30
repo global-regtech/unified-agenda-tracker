@@ -1,15 +1,267 @@
 {
-  "generated_at": "2026-05-17T06:41:26Z",
-  "count": 153,
+  "generated_at": "2026-05-29T21:03:20Z",
+  "count": 160,
   "reviews": [
     {
-      "rin": "0560-AI88",
-      "agency_code": "0560",
-      "agency": "USDA/FSA",
-      "title": "Assistance for Specialty Crop Farmers",
-      "received_date": "2026-05-15",
-      "rrid": "1384763",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1384763"
+      "rin": "0651-AD94",
+      "agency_code": "0651",
+      "agency": "DOC/PTO",
+      "title": "Requirement to Identify All Real Parties in Interest to an Ex Parte Reexamination Request",
+      "received_date": "2026-05-28",
+      "rrid": "1400162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1400162"
+    },
+    {
+      "rin": "0910-ZD12",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Biosimilar and Interchangeable Biosimilar Products:  Considerations for Container Closure Systems and Device Constituent Parts; Draft Guidance for Industry; Availability",
+      "received_date": "2026-05-27",
+      "rrid": "1400164",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1400164"
+    },
+    {
+      "rin": "0648-BO43",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Fish and Fish Product Import Provisions of the Marine Mammal Protection Act",
+      "received_date": "2026-05-27",
+      "rrid": "1397167",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397167"
+    },
+    {
+      "rin": "0906-ZA23",
+      "agency_code": "0906",
+      "agency": "HHS/HRSA",
+      "title": "Notice Regarding 340B Rebate Model Pilot Program",
+      "received_date": "2026-05-27",
+      "rrid": "1399912",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1399912"
+    },
+    {
+      "rin": "2040-ZA46",
+      "agency_code": "2040",
+      "agency": "EPA/OW",
+      "title": "National Pollutant Discharge Elimination System (NPDES) 2027 Issuance of General Permit for Stormwater Discharges from Construction Activities",
+      "received_date": "2026-05-27",
+      "rrid": "1397169",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397169"
+    },
+    {
+      "rin": "3046-AB39",
+      "agency_code": "3046",
+      "agency": "EEOC",
+      "title": "Rescission of 1979 Interpretive Rule \"Affirmative Action Appropriate Under Title VII of the Civil Rights Act of 1964\"",
+      "received_date": "2026-05-27",
+      "rrid": "1397166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397166"
+    },
+    {
+      "rin": "1875-AA18",
+      "agency_code": "1875",
+      "agency": "ED/OPEPD",
+      "title": "International Foreign Language and Education Programs",
+      "received_date": "2026-05-27",
+      "rrid": "1394665",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1394665"
+    },
+    {
+      "rin": "3170-ZA17",
+      "agency_code": "3170",
+      "agency": "CFPB",
+      "title": "Statement on Ability to Repay and Immigration Status",
+      "received_date": "2026-05-26",
+      "rrid": "1394663",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1394663"
+    },
+    {
+      "rin": "3038-AF65",
+      "agency_code": "3038",
+      "agency": "CFTC",
+      "title": "Prediction Markets",
+      "received_date": "2026-05-26",
+      "rrid": "1362015",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1362015"
+    },
+    {
+      "rin": "1904-ZA06",
+      "agency_code": "1904",
+      "agency": "DOE/EE",
+      "title": "Distribution Transformers",
+      "received_date": "2026-05-26",
+      "rrid": "1397163",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397163"
+    },
+    {
+      "rin": "3060-AL23",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Protecting Against National Security Threats to the Communications Supply Chain Through the Equipment Authorization and Competitive Bidding Programs; ET Docket No. 21-232, EA Docket No. 21-233",
+      "received_date": "2026-05-26",
+      "rrid": "1397168",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397168"
+    },
+    {
+      "rin": "3060-AM20",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Upper C-band (3.98\u20134.2 GHz) (GN Docket No. 25-59)",
+      "received_date": "2026-05-26",
+      "rrid": "1392166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1392166"
+    },
+    {
+      "rin": "0970-AD30",
+      "agency_code": "0970",
+      "agency": "HHS/ACF",
+      "title": "Modernize the Head Start Program by Reducing Requirements and Enhancing Alignment with State and Local Systems",
+      "received_date": "2026-05-22",
+      "rrid": "1397164",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397164"
+    },
+    {
+      "rin": "3245-AI75",
+      "agency_code": "3245",
+      "agency": "SBA",
+      "title": "Reforms to 13 CFR 124.103 to Remove SBA's 8(a) Program's Rebuttable Presumption of Social Disadvantage for Individually Owned Firms Only. Reforms do not Impact Entity-owned Firms",
+      "received_date": "2026-05-22",
+      "rrid": "1397162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397162"
+    },
+    {
+      "rin": "0910-ZD09",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Action Levels for Cadmium in Processed Food Intended for Babies and Young Children; Draft Guidance for Industry",
+      "received_date": "2026-05-22",
+      "rrid": "1387166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387166"
+    },
+    {
+      "rin": "2060-AW83",
+      "agency_code": "2060",
+      "agency": "EPA/OAR",
+      "title": "Amendments to the Model Year 2027 and Later Heavy-Duty Highway Engine Criteria Pollutant Program",
+      "received_date": "2026-05-20",
+      "rrid": "1392162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1392162"
+    },
+    {
+      "rin": "3150-AL47",
+      "agency_code": "3150",
+      "agency": "NRC",
+      "title": "Reforming and Modernizing the NRC's Radiation Protection Framework [NRC-2025-1140]",
+      "received_date": "2026-05-20",
+      "rrid": "1392164",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1392164"
+    },
+    {
+      "rin": "3150-AL44",
+      "agency_code": "3150",
+      "agency": "NRC",
+      "title": "Modernizing Reactor Licensing, Safety Oversight, and Siting Practices [NRC-2025-0975]",
+      "received_date": "2026-05-20",
+      "rrid": "1369716",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1369716"
+    },
+    {
+      "rin": "3045-AA95",
+      "agency_code": "3045",
+      "agency": "CNCS",
+      "title": "Rescinding Portions of AmeriCorps Title VI Regulations To Conform More Closely With the Statutory Text and To Implement Executive Order 14281",
+      "received_date": "2026-05-20",
+      "rrid": "1392163",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1392163"
+    },
+    {
+      "rin": "2060-AV67",
+      "agency_code": "2060",
+      "agency": "EPA/OAR",
+      "title": "Revisions to the Public Participation Requirements in Minor New Source Review Permitting Program",
+      "received_date": "2026-05-20",
+      "rrid": "1389812",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1389812"
+    },
+    {
+      "rin": "1140-AA63",
+      "agency_code": "1140",
+      "agency": "DOJ/ATF",
+      "title": "Fingerprint and Photograph Requirements for Applications",
+      "received_date": "2026-05-19",
+      "rrid": "1387164",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387164"
+    },
+    {
+      "rin": "3206-AO89",
+      "agency_code": "3206",
+      "agency": "OPM",
+      "title": "Ensuring Consistent and Rigorous Standards for the Senior Executive Service Candidate Development Programs",
+      "received_date": "2026-05-19",
+      "rrid": "1387168",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387168"
+    },
+    {
+      "rin": "3206-AP06",
+      "agency_code": "3206",
+      "agency": "OPM",
+      "title": "Performance Management Systems for General Schedule, Prevailing Rate, and Certain Other Employees",
+      "received_date": "2026-05-19",
+      "rrid": "1387167",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387167"
+    },
+    {
+      "rin": "1615-AD19",
+      "agency_code": "1615",
+      "agency": "DHS/USCIS",
+      "title": "Mandatory Electronic Filing (e-Filing)",
+      "received_date": "2026-05-19",
+      "rrid": "1382316",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1382316"
+    },
+    {
+      "rin": "1615-AD06",
+      "agency_code": "1615",
+      "agency": "DHS/USCIS",
+      "title": "Public Charge Ground of Inadmissibility",
+      "received_date": "2026-05-18",
+      "rrid": "1382315",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1382315"
+    },
+    {
+      "rin": "1557-AF55",
+      "agency_code": "1557",
+      "agency": "TREAS/OCC",
+      "title": "Permitted Payment Stablecoin Issuer Anti-Money Laundering/Countering the Financing of Terrorism and Sanctions Compliance Risk Management",
+      "received_date": "2026-05-18",
+      "rrid": "1387165",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387165"
+    },
+    {
+      "rin": "2700-AE89",
+      "agency_code": "2700",
+      "agency": "NASA",
+      "title": "Nondiscrimination in Federally-Assisted Programs of NASA - Effectuation of Title VI of the Civils Rights Act of 1964",
+      "received_date": "2026-05-18",
+      "rrid": "1387163",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387163"
+    },
+    {
+      "rin": "3150-AL53",
+      "agency_code": "3150",
+      "agency": "NRC",
+      "title": "Modernizing Security Requirements [NRC-2025-1303]",
+      "received_date": "2026-05-18",
+      "rrid": "1379866",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1379866"
+    },
+    {
+      "rin": "3133-AG11",
+      "agency_code": "3133",
+      "agency": "NCUA",
+      "title": "PREEMPTION \u2013 Federal Credit Union Non-Interest Charges and Fees",
+      "received_date": "2026-05-18",
+      "rrid": "1387162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387162"
     },
     {
       "rin": "0560-AI84",
@@ -118,33 +370,6 @@
       "received_date": "2026-05-12",
       "rrid": "1379863",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1379863"
-    },
-    {
-      "rin": "0910-ZD07",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Oncology Pharmaceuticals: Streamlined Nonclinical Safety Studies for Biologics and Conjugated Products",
-      "received_date": "2026-05-12",
-      "rrid": "1379665",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1379665"
-    },
-    {
-      "rin": "1245-AA10",
-      "agency_code": "1245",
-      "agency": "DOL/OLMS",
-      "title": "Labor Organization Annual Financial Reports",
-      "received_date": "2026-05-11",
-      "rrid": "1379664",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1379664"
-    },
-    {
-      "rin": "0910-ZD06",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Drug and Device Manufacturer Communications With Payors, Formulary Committees, and Similar Entities--Questions and Answers; Revised Draft Guidance for Industry; Availability",
-      "received_date": "2026-05-11",
-      "rrid": "1379662",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1379662"
     },
     {
       "rin": "0938-AV80",
@@ -309,15 +534,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1359522"
     },
     {
-      "rin": "3235-AN76",
-      "agency_code": "3235",
-      "agency": "SEC",
-      "title": "Rescission of Climate-Related Disclosure Rules",
-      "received_date": "2026-05-04",
-      "rrid": "1364512",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1364512"
-    },
-    {
       "rin": "1219-AC22",
       "agency_code": "1219",
       "agency": "DOL/MSHA",
@@ -336,33 +552,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1364513"
     },
     {
-      "rin": "2127-ZA28",
-      "agency_code": "2127",
-      "agency": "DOT/NHTSA",
-      "title": "New Car Assessment Program, Rear Automatic Braking",
-      "received_date": "2026-04-28",
-      "rrid": "1362012",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1362012"
-    },
-    {
-      "rin": "0910-ZC92",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Bioequivalence Studies With Pharmacokinetic Endpoints for Drugs Submitted Under an Abbreviated New Drug Application; Guidance for Industry; Availability",
-      "received_date": "2026-04-28",
-      "rrid": "1362016",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1362016"
-    },
-    {
-      "rin": "0910-ZC91",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Statistical Approaches to Establishing Bioequivalence; Guidance for Industry; Availability",
-      "received_date": "2026-04-28",
-      "rrid": "1362014",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1362014"
-    },
-    {
       "rin": "1400-AF97",
       "agency_code": "1400",
       "agency": "STATE",
@@ -370,15 +559,6 @@
       "received_date": "2026-04-27",
       "rrid": "1327017",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1327017"
-    },
-    {
-      "rin": "1615-AD08",
-      "agency_code": "1615",
-      "agency": "DHS/USCIS",
-      "title": "Naturalization Application Fee Adjustments",
-      "received_date": "2026-04-27",
-      "rrid": "1359514",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1359514"
     },
     {
       "rin": "1615-AD18",
@@ -453,15 +633,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1357314"
     },
     {
-      "rin": "2900-ZB18",
-      "agency_code": "2900",
-      "agency": "VA",
-      "title": "VA Partial Claim Policy",
-      "received_date": "2026-04-22",
-      "rrid": "1357166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1357166"
-    },
-    {
       "rin": "3060-AM39",
       "agency_code": "3060",
       "agency": "FCC",
@@ -478,15 +649,6 @@
       "received_date": "2026-04-22",
       "rrid": "1357165",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1357165"
-    },
-    {
-      "rin": "3060-AM38",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Build America: Eliminating Barriers to Wireline Deployments (WC Docket No. 25-253)",
-      "received_date": "2026-04-21",
-      "rrid": "1357164",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1357164"
     },
     {
       "rin": "2120-AM27",
@@ -507,15 +669,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1354562"
     },
     {
-      "rin": "2060-AW39",
-      "agency_code": "2060",
-      "agency": "EPA/OAR",
-      "title": "Phasedown of Hydrofluorocarbons: Reconsideration of Certain Regulatory Requirements Under the Technology Transitions Provisions of the American Innovation and Manufacturing Act of 2020",
-      "received_date": "2026-04-17",
-      "rrid": "1354566",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1354566"
-    },
-    {
       "rin": "0910-ZC89",
       "agency_code": "0910",
       "agency": "HHS/FDA",
@@ -523,15 +676,6 @@
       "received_date": "2026-04-17",
       "rrid": "1354563",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1354563"
-    },
-    {
-      "rin": "2060-AW81",
-      "agency_code": "2060",
-      "agency": "EPA/OAR",
-      "title": "Ozone Reclassification State Implementation Plan Rule",
-      "received_date": "2026-04-16",
-      "rrid": "1352014",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1352014"
     },
     {
       "rin": "0938-AV82",
@@ -559,15 +703,6 @@
       "received_date": "2026-04-13",
       "rrid": "1344512",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1344512"
-    },
-    {
-      "rin": "0938-AV65",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "Alternative Payment Model Updates and the Increasing Organ Transplant Access (IOTA) Model  (CMS-5544)",
-      "received_date": "2026-04-11",
-      "rrid": "1344515",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1344515"
     },
     {
       "rin": "3206-AO77",
@@ -631,15 +766,6 @@
       "received_date": "2026-04-08",
       "rrid": "1342112",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1342112"
-    },
-    {
-      "rin": "2137-AG22",
-      "agency_code": "2137",
-      "agency": "DOT/PHMSA",
-      "title": "Pipeline Safety: Breakout Tank Inspection Rule",
-      "received_date": "2026-04-06",
-      "rrid": "1332012",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1332012"
     },
     {
       "rin": "1018-BI14",
@@ -804,15 +930,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1327013"
     },
     {
-      "rin": "2590-AB23",
-      "agency_code": "2590",
-      "agency": "FHFA",
-      "title": "Suspended Counterparty Program Amendment",
-      "received_date": "2026-03-26",
-      "rrid": "1322014",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1322014"
-    },
-    {
       "rin": "1615-AC96",
       "agency_code": "1615",
       "agency": "DHS/USCIS",
@@ -829,15 +946,6 @@
       "received_date": "2026-03-23",
       "rrid": "1289719",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1289719"
-    },
-    {
-      "rin": "2700-AE80",
-      "agency_code": "2700",
-      "agency": "NASA",
-      "title": "Procedures for Implementing the National Environmental Policy Act",
-      "received_date": "2026-03-23",
-      "rrid": "1317567",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1317567"
     },
     {
       "rin": "3060-AM06",
@@ -1011,15 +1119,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1289712"
     },
     {
-      "rin": "0938-AV69",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "Medicaid Managed Care State Directed Payments and Medicaid Fee-For-Service Targeted Medicaid Practitioner Payments (CMS-2449)",
-      "received_date": "2026-02-27",
-      "rrid": "1294512",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1294512"
-    },
-    {
       "rin": "0938-AV90",
       "agency_code": "0938",
       "agency": "HHS/CMS",
@@ -1029,15 +1128,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1292165"
     },
     {
-      "rin": "0348-AB88",
-      "agency_code": "0348",
-      "agency": "OMB",
-      "title": "Regulation for Federal Financial Assistance",
-      "received_date": "2026-02-26",
-      "rrid": "1292163",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1292163"
-    },
-    {
       "rin": "1840-ZA05",
       "agency_code": "1840",
       "agency": "ED/OPE",
@@ -1045,15 +1135,6 @@
       "received_date": "2026-02-24",
       "rrid": "1289715",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1289715"
-    },
-    {
-      "rin": "1018-BH72",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Endangered and Threatened Wildlife and Plants; Critical Habitat Designation for the Rusty Patched Bumble Bee",
-      "received_date": "2026-02-23",
-      "rrid": "1287013",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1287013"
     },
     {
       "rin": "3245-AI66",
@@ -1099,15 +1180,6 @@
       "received_date": "2026-02-04",
       "rrid": "1267017",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1267017"
-    },
-    {
-      "rin": "0938-AV15",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "Independent Dispute Resolution Operations (CMS-9897)",
-      "received_date": "2026-01-29",
-      "rrid": "1259515",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1259515"
     },
     {
       "rin": "2590-ZA12",
@@ -1180,15 +1252,6 @@
       "received_date": "2025-12-31",
       "rrid": "1232112",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1232112"
-    },
-    {
-      "rin": "3060-AM34",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Accelerating Network Modernization \u2013 High Cost Legacy Program Reforms, WCB Docket No. 25-208",
-      "received_date": "2025-12-31",
-      "rrid": "1189513",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1189513"
     },
     {
       "rin": "0970-AD18",
