@@ -1,39 +1,35 @@
 name: Refresh Unified Agenda data
-
 on:
-  # Run automatically once a day at 12:00 UTC (5:30 PM IST / 8 AM ET).
   schedule:
     - cron: '0 12 * * *'
-  # Allow manual triggering from the GitHub Actions tab for testing.
   workflow_dispatch:
-
-# Give the workflow permission to push commits back to the repo.
 permissions:
   contents: write
-
 jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repository
         uses: actions/checkout@v5
-
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: '3.12'
-
       - name: Install dependencies
-        run: pip install requests
-
-      - name: Run the fetch script
+        run: pip install requests beautifulsoup4
+      - name: Fetch agenda history
         run: python fetch-all-agendas.py
-
+      - name: Fetch Unified Agenda content
+        run: python fetch-agenda-content.py
+      - name: Parse Unified Agenda content
+        run: python parse-agenda-content.py
+      - name: Build rules index
+        run: python build-rules-index.py
       - name: Commit and push if data changed
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/agenda_history.json
+          git add data/agenda_history.json data/rules_index.json
           if git diff --staged --quiet; then
             echo "No changes to commit — data is identical to last run."
           else
