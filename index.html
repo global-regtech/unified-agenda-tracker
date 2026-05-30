@@ -188,6 +188,89 @@
     color: #666;
     padding: 1.5em 0;
 }
+#search-section {
+  margin-top: 48px;
+}
+
+#rules-search {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 1em;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin: 12px 0;
+}
+
+#rules-search:focus {
+  outline: none;
+  border-color: #333;
+}
+
+#search-status {
+  font-size: 0.85em;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.rule-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  background: white;
+}
+
+.rule-card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.rule-title {
+  font-weight: 600;
+  color: #1a1a2e;
+  text-decoration: none;
+  flex: 1;
+  line-height: 1.4;
+}
+
+.rule-title:hover { text-decoration: underline; }
+
+.rule-meta {
+  margin-top: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85em;
+  color: #555;
+}
+
+.rule-abstract {
+  margin-top: 6px;
+  font-size: 0.85em;
+  color: #555;
+  line-height: 1.5;
+}
+
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.75em;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.badge-oira     { background: #fce8e8; color: #c0392b; }
+.badge-econ     { background: #fce8e8; color: #c0392b; }
+.badge-sig      { background: #fef5e6; color: #e67e22; }
+.badge-other    { background: #f0f0f0; color: #555;    }
+.badge-final    { background: #e8f5e9; color: #2e7d32; }
+.badge-proposed { background: #e3f2fd; color: #1565c0; }
+.badge-prerule  { background: #f3e5f5; color: #6a1b9a; }
   </style>
 </head>
 <body>
@@ -279,7 +362,13 @@
         <span id="oira-fetched-at"></span>
     </p>
 </section>
-
+<section id="search-section">
+  <h2>Search the Spring 2025 Unified Agenda</h2>
+  <p class="section-subtitle">3,821 rules across 69 agencies — search by title, agency, keyword, or RIN.</p>
+  <input type="text" id="rules-search" placeholder="e.g. heat rule, EPA, 2030-AV38…" autocomplete="off">
+  <div id="search-status"></div>
+  <div id="search-results"></div>
+</section>
     <section>
       <h2>About this tracker</h2>
 
@@ -319,6 +408,7 @@ passes through) with each rule's clock now visible and searchable.
 
   </main>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
 <script>
   async function renderCadenceChart() {
     const response = await fetch('/data/agenda_history.json');
@@ -409,6 +499,97 @@ passes through) with each rule's clock now visible and searchable.
   }
 
   renderCadenceChart();
+  // --- Tier 1: Unified Agenda Search ---
+
+let fuseIndex = null;
+let allRules  = [];
+
+async function initRulesSearch() {
+  const status = document.getElementById('search-status');
+  status.textContent = 'Loading rules…';
+
+  try {
+    const resp = await fetch('data/rules_index.json');
+    allRules = await resp.json();
+
+    fuseIndex = new Fuse(allRules, {
+      keys: [
+        { name: 'title',               weight: 0.50 },
+        { name: 'parent_agency_name',  weight: 0.20 },
+        { name: 'agency_name',         weight: 0.15 },
+        { name: 'rin',                 weight: 0.15 },
+        { name: 'abstract',            weight: 0.10 },
+      ],
+      threshold: 0.35,
+      includeScore: true,
+      minMatchCharLength: 2,
+    });
+
+    showDefaultResults();
+  } catch (e) {
+    document.getElementById('search-status').textContent = 'Error loading rules data.';
+    console.error(e);
+  }
+}
+
+function showDefaultResults() {
+  const atOira = allRules
+    .filter(r => r.at_oira)
+    .sort((a, b) => (b.oira_days || 0) - (a.oira_days || 0));
+  renderResults(
+    atOira,
+    `${atOira.length} rules currently at OIRA — or type to search all ${allRules.length.toLocaleString()}`
+  );
+}
+
+function stageClass(stage) {
+  if (stage === 'Final Rule Stage')    return 'badge-final';
+  if (stage === 'Proposed Rule Stage') return 'badge-proposed';
+  if (stage === 'Prerule Stage')       return 'badge-prerule';
+  return 'badge-other';
+}
+
+function priorityClass(p) {
+  if (p === 'Economically Significant') return 'badge-econ';
+  if (p === 'Other Significant')        return 'badge-sig';
+  return 'badge-other';
+}
+
+function renderResults(rules, statusText) {
+  document.getElementById('search-status').textContent = statusText;
+  const container = document.getElementById('search-results');
+
+  if (rules.length === 0) {
+    container.innerHTML = '<p style="color:#888;font-style:italic">No matching rules found.</p>';
+    return;
+  }
+
+  container.innerHTML = rules.slice(0, 50).map(r => `
+    <div class="rule-card">
+      <div class="rule-card-header">
+        <a href="${r.reginfo_url}" target="_blank" class="rule-title">${r.title}</a>
+        ${r.at_oira ? `<span class="badge badge-oira">At OIRA · ${r.oira_days}d</span>` : ''}
+      </div>
+      <div class="rule-meta">
+        <span>${r.parent_agency_name}</span>
+        ${r.parent_agency_name !== r.agency_name ? `<span style="color:#999">· ${r.agency_name}</span>` : ''}
+        <span class="badge ${stageClass(r.stage)}">${r.stage.replace(' Stage','')}</span>
+        <span class="badge ${priorityClass(r.priority)}">${r.priority}</span>
+      </div>
+      ${r.abstract ? `<p class="rule-abstract">${r.abstract.substring(0,200)}${r.abstract.length>200?'…':''}</p>` : ''}
+    </div>
+  `).join('');
+}
+
+document.getElementById('rules-search').addEventListener('input', function () {
+  const q = this.value.trim();
+  if (q.length === 0)  { showDefaultResults(); return; }
+  if (q.length < 2)    { document.getElementById('search-status').textContent = 'Keep typing…'; return; }
+  const results = fuseIndex.search(q).map(r => r.item);
+  renderResults(results, `${results.length.toLocaleString()} results for "${q}"`);
+});
+
+initRulesSearch();
 </script>
 <script>
 async function loadOiraData() {
