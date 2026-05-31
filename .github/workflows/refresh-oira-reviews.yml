@@ -24,16 +24,16 @@ jobs:
         run: pip install requests beautifulsoup4
 
       - name: Fetch OIRA pending reviews from reginfo.gov
-        run: python fetch_oira_reviews.py
+        run: python fetch-oira-reviews.py
 
       - name: Parse fetched HTML into structured JSON
-        run: python parse_oira_reviews.py
+        run: python parse-oira-reviews.py
 
       - name: Fetch regulations.gov data    
-        run: python fetch_regulations_gov.py
+        run: python fetch-regulations-gov.py
 
       - name: Build rules index
-        run: python build_rules_index.py
+        run: python build-rules-index.py
 
 
       - name: Commit and push if changed
