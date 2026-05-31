@@ -11,6 +11,7 @@ from pathlib import Path
 
 AGENDA = Path("data/agenda_rules.json")
 OIRA   = Path("data/oira_reviews.json")
+REGS_GOV = Path("data/regulations_gov.json")
 OUT    = Path("data/rules_index.json")
 
 
@@ -33,13 +34,18 @@ oira_reviews = json.loads(OIRA.read_text())["reviews"]
 oira_by_rin  = {r["rin"]: r for r in oira_reviews}
 print(f"OIRA reviews:  {len(oira_reviews)}")
 
+regs_gov = json.loads(REGS_GOV.read_text()) if REGS_GOV.exists() else {}
+print(f"Regs.gov:      {len(regs_gov)} dockets")                          
+
 # --- Join on RIN ---
 rules_index  = []
 oira_matched = 0
+regs_matched = 0
 
 for rule in agenda_rules:
     rin  = rule["rin"]
     oira = oira_by_rin.get(rin)
+    regs = regs_gov.get(rin)
 
     record = {**rule}   # copy all agenda fields
 
@@ -57,6 +63,20 @@ for rule in agenda_rules:
         record["oira_rrid"]    = None
         record["oira_url"]     = None
 
+    if regs:
+        regs_matched += 1
+        record["docket_id"]          = regs.get("docket_id")
+        record["docket_url"]         = regs.get("docket_url")
+        record["comment_count"]      = regs.get("comment_count")
+        record["comment_start_date"] = regs.get("comment_start_date")
+        record["comment_end_date"]   = regs.get("comment_end_date")
+    else:
+        record["docket_id"]          = None
+        record["docket_url"]         = None
+        record["comment_count"]      = None
+        record["comment_start_date"] = None
+        record["comment_end_date"]   = None
+
     rules_index.append(record)
 
 OUT.write_text(json.dumps(rules_index, indent=2))
@@ -64,3 +84,4 @@ OUT.write_text(json.dumps(rules_index, indent=2))
 print(f"\nWrote {len(rules_index)} records → {OUT}")
 print(f"OIRA matches:  {oira_matched} of {len(agenda_rules)} rules")
 print(f"               ({oira_matched / len(agenda_rules) * 100:.1f}% of agenda is currently at OIRA)")
+print(f"Regs.gov:      {regs_matched} of {len(agenda_rules)} rules matched a docket")

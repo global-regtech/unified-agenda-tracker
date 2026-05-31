@@ -29,6 +29,13 @@ jobs:
       - name: Parse fetched HTML into structured JSON
         run: python parse_oira_reviews.py
 
+      - name: Fetch regulations.gov data    
+        run: python fetch_regulations_gov.py
+
+      - name: Build rules index
+        run: python build_rules_index.py
+
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"

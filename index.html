@@ -271,6 +271,33 @@
 .badge-final    { background: #e8f5e9; color: #2e7d32; }
 .badge-proposed { background: #e3f2fd; color: #1565c0; }
 .badge-prerule  { background: #f3e5f5; color: #6a1b9a; }
+#filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.filter-btn {
+  padding: 6px 14px;
+  border: 1.5px solid #ccc;
+  border-radius: 20px;
+  background: white;
+  color: #555;
+  font-size: 0.85em;
+  cursor: pointer;
+}
+
+.filter-btn:hover {
+  border-color: #333;
+  color: #333;
+}
+
+.filter-btn.active {
+  background: #1a1a2e;
+  color: white;
+  border-color: #1a1a2e;
+}
   </style>
 </head>
 <body>
@@ -364,7 +391,14 @@
 </section>
 <section id="search-section">
   <h2>Search the Spring 2025 Unified Agenda</h2>
-  <p class="section-subtitle">3,821 rules across 69 agencies — search by title, agency, keyword, or RIN.</p>
+  <p class="section-subtitle">3,821 rules across 69 agencies. Search by title, agency, keyword, or RIN!</p>
+  <div id="filter-bar">
+  <button class="filter-btn active" data-filter="">All rules</button>
+  <button class="filter-btn" data-filter="oira">At OIRA</button>
+  <button class="filter-btn" data-filter="econ">Economically Significant</button>
+  <button class="filter-btn" data-filter="proposed">Proposed Rule</button>
+  <button class="filter-btn" data-filter="major">Major rules</button>
+</div>
   <input type="text" id="rules-search" placeholder="e.g. heat rule, EPA, 2030-AV38…" autocomplete="off">
   <div id="search-status"></div>
   <div id="search-results"></div>
@@ -501,8 +535,9 @@ passes through) with each rule's clock now visible and searchable.
   renderCadenceChart();
   // --- Tier 1: Unified Agenda Search ---
 
-let fuseIndex = null;
-let allRules  = [];
+let fuseIndex   = null;
+let allRules    = [];
+let activeFilter = '';
 
 async function initRulesSearch() {
   const status = document.getElementById('search-status');
@@ -524,8 +559,28 @@ async function initRulesSearch() {
       includeScore: true,
       minMatchCharLength: 2,
     });
+    // Update button labels with live counts
+document.querySelectorAll('.filter-btn[data-filter]').forEach(btn => {
+  const f = btn.dataset.filter;
+  let count = allRules.length;
+  if (f === 'oira')     count = allRules.filter(r => r.at_oira).length;
+  if (f === 'econ')     count = allRules.filter(r => r.priority === 'Economically Significant').length;
+  if (f === 'proposed') count = allRules.filter(r => r.stage === 'Proposed Rule Stage').length;
+  if (f === 'major')    count = allRules.filter(r => r.major).length;
+  btn.textContent = `${btn.textContent} (${count.toLocaleString()})`;
+});
 
-    showDefaultResults();
+// Wire up filter button clicks
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', function () {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    this.classList.add('active');
+    activeFilter = this.dataset.filter;
+    updateResults();
+  });
+});
+
+    updateResults();
   } catch (e) {
     document.getElementById('search-status').textContent = 'Error loading rules data.';
     console.error(e);
@@ -541,7 +596,45 @@ function showDefaultResults() {
     `${atOira.length} rules currently at OIRA — or type to search all ${allRules.length.toLocaleString()}`
   );
 }
+function getPool() {
+  if (activeFilter === 'oira')     return allRules.filter(r => r.at_oira);
+  if (activeFilter === 'econ')     return allRules.filter(r => r.priority === 'Economically Significant');
+  if (activeFilter === 'proposed') return allRules.filter(r => r.stage === 'Proposed Rule Stage');
+  if (activeFilter === 'major')    return allRules.filter(r => r.major);
+  return allRules;
+}
 
+function updateResults() {
+  const q    = document.getElementById('rules-search').value.trim();
+  const pool = getPool();
+
+  if (q.length === 0) {
+    if (activeFilter === '') {
+      // Default: OIRA rules sorted by days
+      const atOira = allRules
+        .filter(r => r.at_oira)
+        .sort((a, b) => (b.oira_days || 0) - (a.oira_days || 0));
+      renderResults(atOira,
+        `${atOira.length} rules currently at OIRA — or search all ${allRules.length.toLocaleString()}`);
+    } else {
+      renderResults(pool, `${pool.length.toLocaleString()} rules`);
+    }
+    return;
+  }
+
+  if (q.length < 2) {
+    document.getElementById('search-status').textContent = 'Keep typing…';
+    return;
+  }
+
+  // Search within the active filter pool
+  const poolRins = new Set(pool.map(r => r.rin));
+  const results  = fuseIndex.search(q)
+    .map(r => r.item)
+    .filter(r => !activeFilter || poolRins.has(r.rin));
+
+  renderResults(results, `${results.length.toLocaleString()} results for "${q}"`);
+}
 function stageClass(stage) {
   if (stage === 'Final Rule Stage')    return 'badge-final';
   if (stage === 'Proposed Rule Stage') return 'badge-proposed';
@@ -554,7 +647,12 @@ function priorityClass(p) {
   if (p === 'Other Significant')        return 'badge-sig';
   return 'badge-other';
 }
-
+function liveOiraDays(receivedDateStr) {
+  if (!receivedDateStr) return null;
+  const received = new Date(receivedDateStr);
+  const today    = new Date();
+  return Math.floor((today - received) / (1000 * 60 * 60 * 24));
+}
 function renderResults(rules, statusText) {
   document.getElementById('search-status').textContent = statusText;
   const container = document.getElementById('search-results');
@@ -568,7 +666,7 @@ function renderResults(rules, statusText) {
     <div class="rule-card">
       <div class="rule-card-header">
         <a href="${r.reginfo_url}" target="_blank" class="rule-title">${r.title}</a>
-        ${r.at_oira ? `<span class="badge badge-oira">At OIRA · ${r.oira_days}d</span>` : ''}
+        ${r.at_oira ? `<span class="badge badge-oira">At OIRA · ${liveOiraDays(r.oira_received)}d</span>` : ''}
       </div>
       <div class="rule-meta">
         <span>${r.parent_agency_name}</span>
@@ -581,13 +679,7 @@ function renderResults(rules, statusText) {
   `).join('');
 }
 
-document.getElementById('rules-search').addEventListener('input', function () {
-  const q = this.value.trim();
-  if (q.length === 0)  { showDefaultResults(); return; }
-  if (q.length < 2)    { document.getElementById('search-status').textContent = 'Keep typing…'; return; }
-  const results = fuseIndex.search(q).map(r => r.item);
-  renderResults(results, `${results.length.toLocaleString()} results for "${q}"`);
-});
+document.getElementById('rules-search').addEventListener('input', updateResults);
 
 initRulesSearch();
 </script>
