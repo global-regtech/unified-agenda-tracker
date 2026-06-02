@@ -1,7 +1,61 @@
 {
-  "generated_at": "2026-06-01T22:26:35Z",
-  "count": 157,
+  "generated_at": "2026-06-02T22:09:29Z",
+  "count": 163,
   "reviews": [
+    {
+      "rin": "0938-AW01",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "Request for Information; Clinical Laboratory Improvement Amendments (CLIA) of 1988 Regulations (CMS-3485)",
+      "received_date": "2026-06-01",
+      "rrid": "1407267",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1407267"
+    },
+    {
+      "rin": "3064-AG27",
+      "agency_code": "3064",
+      "agency": "FDIC",
+      "title": "Assessments, Adjusting and Indexing the Assessments Threshold Defining Small or Large Banks; Removing the Large Bank Option; and Other Amendments to Assessment Regulations",
+      "received_date": "2026-06-01",
+      "rrid": "1407265",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1407265"
+    },
+    {
+      "rin": "0938-AW09",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "Request for Information: Pharmacy Benefit Manager Compensation and Data Collection (CMS-4218)",
+      "received_date": "2026-06-01",
+      "rrid": "1407264",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1407264"
+    },
+    {
+      "rin": "1651-AB52",
+      "agency_code": "1651",
+      "agency": "DHS/USCBP",
+      "title": "Automated Commercial Environment (ACE) Electronic Export Manifest for Rail Cargo",
+      "received_date": "2026-06-01",
+      "rrid": "814513",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=814513"
+    },
+    {
+      "rin": "0910-ZD15",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Requirements for Additional Traceability Records for Certain Foods: Enforcement Policy for Certain Retail Food Establishments and Restaurants",
+      "received_date": "2026-06-01",
+      "rrid": "1404665",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1404665"
+    },
+    {
+      "rin": "3060-AM19",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Space Modernization for the 21st Century (SB Docket No. 25.306)",
+      "received_date": "2026-06-01",
+      "rrid": "1404662",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1404662"
+    },
     {
       "rin": "0938-AV92",
       "agency_code": "0938",
