@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-06-02T22:09:29Z",
-  "count": 163,
+  "generated_at": "2026-06-03T22:15:43Z",
+  "count": 165,
   "reviews": [
+    {
+      "rin": "3133-AF67",
+      "agency_code": "3133",
+      "agency": "NCUA",
+      "title": "Prohibition on Use of Reputation Risk by NCUA",
+      "received_date": "2026-06-02",
+      "rrid": "1409662",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1409662"
+    },
+    {
+      "rin": "0910-ZD23",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "New Dietary Ingredient (NDI) Notifications and Related Issues; Identity and Safety Information About the NDI: Guidance for Industry",
+      "received_date": "2026-06-02",
+      "rrid": "1409663",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1409663"
+    },
+    {
+      "rin": "3064-AG21",
+      "agency_code": "3064",
+      "agency": "FDIC",
+      "title": "Resolution Plans Required for Insured Depository Institutions with $100B or More in Total Assets; Informational Filings Required for IDIs with at Least $50B but Less Than $100B in Total Assets",
+      "received_date": "2026-06-02",
+      "rrid": "1407266",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1407266"
+    },
     {
       "rin": "0938-AW01",
       "agency_code": "0938",
@@ -129,15 +156,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397169"
     },
     {
-      "rin": "1875-AA18",
-      "agency_code": "1875",
-      "agency": "ED/OPEPD",
-      "title": "International Foreign Language and Education Programs",
-      "received_date": "2026-05-27",
-      "rrid": "1394665",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1394665"
-    },
-    {
       "rin": "3046-AB39",
       "agency_code": "3046",
       "agency": "EEOC",
@@ -145,6 +163,15 @@
       "received_date": "2026-05-27",
       "rrid": "1397166",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397166"
+    },
+    {
+      "rin": "1875-AA18",
+      "agency_code": "1875",
+      "agency": "ED/OPEPD",
+      "title": "International Foreign Language and Education Programs",
+      "received_date": "2026-05-27",
+      "rrid": "1394665",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1394665"
     },
     {
       "rin": "3170-ZA17",
@@ -1423,15 +1450,6 @@
       "received_date": "2025-09-08",
       "rrid": "1004516",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1004516"
-    },
-    {
-      "rin": "1012-AA39",
-      "agency_code": "1012",
-      "agency": "DOI/ONRR",
-      "title": "Federal Oil, Gas, and Coal Amendments",
-      "received_date": "2025-08-27",
-      "rrid": "1082063",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1082063"
     },
     {
       "rin": "0960-AI43",
