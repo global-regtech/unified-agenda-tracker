@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-06-03T22:15:43Z",
-  "count": 165,
+  "generated_at": "2026-06-04T19:50:07Z",
+  "count": 164,
   "reviews": [
+    {
+      "rin": "1110-AA35",
+      "agency_code": "1110",
+      "agency": "DOJ/FBI",
+      "title": "Bipartisan Safer Communities Act of 2022 -- Criteria for National Instant Criminal Background Check System (NICS) Background Checks of Firearms Handlers",
+      "received_date": "2026-06-03",
+      "rrid": "1412167",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1412167"
+    },
+    {
+      "rin": "0910-AJ03",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Requirements For Additional Traceability Records For Certain Foods: Compliance Date Extension",
+      "received_date": "2026-06-03",
+      "rrid": "1412163",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1412163"
+    },
+    {
+      "rin": "0910-ZD25",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Expedited Investigational New Drug Pilot Program; Request for Information",
+      "received_date": "2026-06-03",
+      "rrid": "1409668",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1409668"
+    },
     {
       "rin": "3133-AF67",
       "agency_code": "3133",
@@ -172,15 +199,6 @@
       "received_date": "2026-05-27",
       "rrid": "1394665",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1394665"
-    },
-    {
-      "rin": "3170-ZA17",
-      "agency_code": "3170",
-      "agency": "CFPB",
-      "title": "Statement on Ability to Repay and Immigration Status",
-      "received_date": "2026-05-26",
-      "rrid": "1394663",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1394663"
     },
     {
       "rin": "3038-AF65",
@@ -379,15 +397,6 @@
       "received_date": "2026-05-15",
       "rrid": "1382312",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1382312"
-    },
-    {
-      "rin": "3235-AN50",
-      "agency_code": "3235",
-      "agency": "SEC",
-      "title": "Amendments to the Trade-Through Rule",
-      "received_date": "2026-05-15",
-      "rrid": "1369715",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1369715"
     },
     {
       "rin": "0938-AW02",
@@ -714,15 +723,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1357314"
     },
     {
-      "rin": "3060-AM39",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Ensuring Children's Safe Use of Screens and E-Rate-Funded Services",
-      "received_date": "2026-04-22",
-      "rrid": "1357312",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1357312"
-    },
-    {
       "rin": "0938-AW03",
       "agency_code": "0938",
       "agency": "HHS/CMS",
@@ -1018,15 +1018,6 @@
       "received_date": "2026-03-23",
       "rrid": "1289719",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1289719"
-    },
-    {
-      "rin": "3060-AM06",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Review of Submarine Cable Landing License Rules and Procedures to Assess Evolving National Security, Law Enforcement, Foreign Policy, and Trade Policy Risks, OI Docket No. 24-523, MD Docket No. 24-524",
-      "received_date": "2026-03-23",
-      "rrid": "1317565",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1317565"
     },
     {
       "rin": "1018-BI04",
