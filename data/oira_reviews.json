@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-05-29T21:03:20Z",
-  "count": 160,
+  "generated_at": "2026-06-01T22:26:35Z",
+  "count": 157,
   "reviews": [
+    {
+      "rin": "0938-AV92",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "Short-Term, Limited-Duration Insurance (CMS-9881)",
+      "received_date": "2026-05-30",
+      "rrid": "1404663",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1404663"
+    },
+    {
+      "rin": "3235-AN78",
+      "agency_code": "3235",
+      "agency": "SEC",
+      "title": "Request for Comment on Swap and Security-Based Swap Data Reporting",
+      "received_date": "2026-05-29",
+      "rrid": "1402162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1402162"
+    },
+    {
+      "rin": "0970-AD19",
+      "agency_code": "0970",
+      "agency": "HHS/ACF",
+      "title": "Designated Placements Requirements Under Titles IV-E and IV-B for LQBTQ+ Children; Rescission",
+      "received_date": "2026-05-29",
+      "rrid": "1402164",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1402164"
+    },
     {
       "rin": "0651-AD94",
       "agency_code": "0651",
@@ -48,15 +75,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397169"
     },
     {
-      "rin": "3046-AB39",
-      "agency_code": "3046",
-      "agency": "EEOC",
-      "title": "Rescission of 1979 Interpretive Rule \"Affirmative Action Appropriate Under Title VII of the Civil Rights Act of 1964\"",
-      "received_date": "2026-05-27",
-      "rrid": "1397166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397166"
-    },
-    {
       "rin": "1875-AA18",
       "agency_code": "1875",
       "agency": "ED/OPEPD",
@@ -64,6 +82,15 @@
       "received_date": "2026-05-27",
       "rrid": "1394665",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1394665"
+    },
+    {
+      "rin": "3046-AB39",
+      "agency_code": "3046",
+      "agency": "EEOC",
+      "title": "Rescission of 1979 Interpretive Rule \"Affirmative Action Appropriate Under Title VII of the Civil Rights Act of 1964\"",
+      "received_date": "2026-05-27",
+      "rrid": "1397166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397166"
     },
     {
       "rin": "3170-ZA17",
@@ -253,15 +280,6 @@
       "received_date": "2026-05-18",
       "rrid": "1379866",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1379866"
-    },
-    {
-      "rin": "3133-AG11",
-      "agency_code": "3133",
-      "agency": "NCUA",
-      "title": "PREEMPTION \u2013 Federal Credit Union Non-Interest Charges and Fees",
-      "received_date": "2026-05-18",
-      "rrid": "1387162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387162"
     },
     {
       "rin": "0560-AI84",
@@ -480,15 +498,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1372218"
     },
     {
-      "rin": "3210-AA00",
-      "agency_code": "3210",
-      "agency": "USPS",
-      "title": "Conditions on the Preparation of Ballot Mail for Federal Elections",
-      "received_date": "2026-05-06",
-      "rrid": "1372217",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1372217"
-    },
-    {
       "rin": "2529-AB09",
       "agency_code": "2529",
       "agency": "HUD/FHEO",
@@ -577,15 +586,6 @@
       "received_date": "2026-04-27",
       "rrid": "1359521",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1359521"
-    },
-    {
-      "rin": "0560-AI86",
-      "agency_code": "0560",
-      "agency": "USDA/FSA",
-      "title": "Payment Limitation and Payment Eligibility, and Other Program Changes",
-      "received_date": "2026-04-27",
-      "rrid": "1359513",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1359513"
     },
     {
       "rin": "3090-AL09",
@@ -867,15 +867,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1329914"
     },
     {
-      "rin": "0938-AV98",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "Establishing State Community Engagement Requirements for Certain Individuals Under Section 1902(xx) of the Social Security Act (CMS-2454)",
-      "received_date": "2026-03-31",
-      "rrid": "1329918",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1329918"
-    },
-    {
       "rin": "2130-AC83",
       "agency_code": "2130",
       "agency": "DOT/FRA",
@@ -1038,15 +1029,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1312063"
     },
     {
-      "rin": "3206-AP08",
-      "agency_code": "3206",
-      "agency": "OPM",
-      "title": "Federal Employees Health Benefits Program: Verification Requirements for Family Member Coverage",
-      "received_date": "2026-03-16",
-      "rrid": "1314514",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1314514"
-    },
-    {
       "rin": "0910-ZC82",
       "agency_code": "0910",
       "agency": "HHS/FDA",
@@ -1198,15 +1180,6 @@
       "received_date": "2026-01-23",
       "rrid": "1252114",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1252114"
-    },
-    {
-      "rin": "1117-AB55",
-      "agency_code": "1117",
-      "agency": "DOJ/DEA",
-      "title": "Implementation of the SUPPORT Act: Dispensing and Administering Controlled Substances for Medication-Assisted Treatment",
-      "received_date": "2026-01-15",
-      "rrid": "1242013",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1242013"
     },
     {
       "rin": "2010-AA16",
