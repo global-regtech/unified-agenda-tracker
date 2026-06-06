@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-06-05T19:15:27Z",
-  "count": 167,
+  "generated_at": "2026-06-06T16:42:44Z",
+  "count": 162,
   "reviews": [
+    {
+      "rin": "1506-ZA04",
+      "agency_code": "1506",
+      "agency": "TREAS/FINCEN",
+      "title": "Beneficial Ownership Information Reporting Requirement Revision and Deadline Extension",
+      "received_date": "2026-06-05",
+      "rrid": "1417215",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1417215"
+    },
+    {
+      "rin": "3245-AI74",
+      "agency_code": "3245",
+      "agency": "SBA",
+      "title": "Rescinding Unnecessary Notice and Comment Procedures",
+      "received_date": "2026-06-05",
+      "rrid": "1417213",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1417213"
+    },
+    {
+      "rin": "3245-AI72",
+      "agency_code": "3245",
+      "agency": "SBA",
+      "title": "Removing Constitutional Concerns from SBA Programs",
+      "received_date": "2026-06-05",
+      "rrid": "1417214",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1417214"
+    },
+    {
+      "rin": "2040-AG56",
+      "agency_code": "2040",
+      "agency": "EPA/OW",
+      "title": "Updates to the National Pollutant Discharge Elimination System Definitions and Exclusions",
+      "received_date": "2026-06-05",
+      "rrid": "1412165",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1412165"
+    },
+    {
+      "rin": "0910-AI91",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Rulemaking to Provide by Regulation that an Ingredient Is Not Excluded From the Dietary Supplement Definition",
+      "received_date": "2026-06-05",
+      "rrid": "1409666",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1409666"
+    },
     {
       "rin": "3084-ZA00",
       "agency_code": "3084",
@@ -253,15 +298,6 @@
       "received_date": "2026-05-27",
       "rrid": "1394665",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1394665"
-    },
-    {
-      "rin": "3038-AF65",
-      "agency_code": "3038",
-      "agency": "CFTC",
-      "title": "Prediction Markets",
-      "received_date": "2026-05-26",
-      "rrid": "1362015",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1362015"
     },
     {
       "rin": "3060-AL23",
@@ -822,42 +858,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1344513"
     },
     {
-      "rin": "9000-AO92",
-      "agency_code": "9000",
-      "agency": "FAR",
-      "title": "Federal Acquisition Regulation (FAR); FAR Case 2026-007, Revolutionary Federal Acquisition Regulation Overhaul parts 3 and 49.",
-      "received_date": "2026-04-10",
-      "rrid": "1344519",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1344519"
-    },
-    {
-      "rin": "9000-AO90",
-      "agency_code": "9000",
-      "agency": "FAR",
-      "title": "Federal Acquisition Regulation (FAR); FAR Case 2026-005, Revolutionary Federal Acquisition Regulation Overhaul parts 5, 24, and 29.",
-      "received_date": "2026-04-10",
-      "rrid": "1344518",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1344518"
-    },
-    {
-      "rin": "9000-AO87",
-      "agency_code": "9000",
-      "agency": "FAR",
-      "title": "Federal Acquisition Regulation (FAR); FAR Case 2026-002, Revolutionary Federal Acquisition Regulation Overhaul parts 6, 7, 10, 18, 26, 37, and 41.",
-      "received_date": "2026-04-10",
-      "rrid": "1344517",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1344517"
-    },
-    {
-      "rin": "9000-AO86",
-      "agency_code": "9000",
-      "agency": "FAR",
-      "title": "Federal Acquisition Regulation (FAR); FAR Case 2026-001, Revolutionary Federal Acquisition Regulation Overhaul parts 1, 2, 4, 33, 39, 40, and 53.",
-      "received_date": "2026-04-10",
-      "rrid": "1344516",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1344516"
-    },
-    {
       "rin": "2502-AJ81",
       "agency_code": "2502",
       "agency": "HUD/OH",
@@ -984,15 +984,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1329915"
     },
     {
-      "rin": "0584-ZA07",
-      "agency_code": "0584",
-      "agency": "USDA/FNS",
-      "title": "Special Supplemental Nutrition Program for Women, Infants, and Children (WIC): Revisions in the WIC Food Packages; Correction and Delay of Vitamin D in Yogurt Implementation Date",
-      "received_date": "2026-03-30",
-      "rrid": "1327018",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1327018"
-    },
-    {
       "rin": "3240-AA09",
       "agency_code": "3240",
       "agency": "SSS",
@@ -1027,15 +1018,6 @@
       "received_date": "2026-03-27",
       "rrid": "1327013",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1327013"
-    },
-    {
-      "rin": "1615-AC96",
-      "agency_code": "1615",
-      "agency": "DHS/USCIS",
-      "title": "Alien Registration Form and Evidence of Registration",
-      "received_date": "2026-03-26",
-      "rrid": "1319563",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1319563"
     },
     {
       "rin": "1291-AA49",
@@ -1117,15 +1099,6 @@
       "received_date": "2026-03-17",
       "rrid": "1314520",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1314520"
-    },
-    {
-      "rin": "1615-AC94",
-      "agency_code": "1615",
-      "agency": "DHS/USCIS",
-      "title": "EB-5 Reform and Integrity Act of 2022; Ensuring the Integrity of the EB-5 Program; Automatic Revocation of Petitions for Immigrant Classification",
-      "received_date": "2026-03-17",
-      "rrid": "1312063",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1312063"
     },
     {
       "rin": "0910-ZC82",
@@ -1236,15 +1209,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1284768"
     },
     {
-      "rin": "1601-AB22",
-      "agency_code": "1601",
-      "agency": "DHS/OS",
-      "title": "Rescinding Portions of DHS Title VI Regulations to Conform More Closely with the Statutory Text and to Implement Executive Order 14281",
-      "received_date": "2026-02-11",
-      "rrid": "1277064",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1277064"
-    },
-    {
       "rin": "3206-AO91",
       "agency_code": "3206",
       "agency": "OPM",
@@ -1324,15 +1288,6 @@
       "received_date": "2025-12-31",
       "rrid": "1232112",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1232112"
-    },
-    {
-      "rin": "0970-AD18",
-      "agency_code": "0970",
-      "agency": "HHS/ACF",
-      "title": "Employment and Training Services for Noncustodial Parents in the Child Support Program Final Rule; Rescission",
-      "received_date": "2025-12-19",
-      "rrid": "1222013",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1222013"
     },
     {
       "rin": "1140-AA80",
