@@ -12,6 +12,7 @@ from pathlib import Path
 AGENDA = Path("data/agenda_rules.json")
 OIRA   = Path("data/oira_reviews.json")
 REGS_GOV = Path("data/regulations_gov.json")
+FED_REG  = Path("data/federal_register.json")
 OUT    = Path("data/rules_index.json")
 
 
@@ -35,7 +36,10 @@ oira_by_rin  = {r["rin"]: r for r in oira_reviews}
 print(f"OIRA reviews:  {len(oira_reviews)}")
 
 regs_gov = json.loads(REGS_GOV.read_text()) if REGS_GOV.exists() else {}
-print(f"Regs.gov:      {len(regs_gov)} dockets")                          
+print(f"Regs.gov:      {len(regs_gov)} dockets")
+
+fed_reg = json.loads(FED_REG.read_text()) if FED_REG.exists() else {}
+print(f"Federal Register: {len(fed_reg)} RINs with documents")
 
 # --- Join on RIN ---
 rules_index  = []
@@ -76,6 +80,20 @@ for rule in agenda_rules:
         record["comment_count"]      = None
         record["comment_start_date"] = None
         record["comment_end_date"]   = None
+
+    fr = fed_reg.get(rin)
+    if fr:
+        proposed = fr.get("proposed") or {}
+        final    = fr.get("final")    or {}
+        record["fr_proposed_url"]  = proposed.get("url")
+        record["fr_proposed_date"] = proposed.get("publication_date")
+        record["fr_final_url"]     = final.get("url")
+        record["fr_final_date"]    = final.get("publication_date")
+    else:
+        record["fr_proposed_url"]  = None
+        record["fr_proposed_date"] = None
+        record["fr_final_url"]     = None
+        record["fr_final_date"]    = None
 
     rules_index.append(record)
 

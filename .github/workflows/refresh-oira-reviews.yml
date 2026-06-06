@@ -34,6 +34,9 @@ jobs:
           REGULATIONS_GOV_API_KEY: ${{ secrets.REGULATIONS_GOV_API_KEY }}
         run: python fetch-regulations-gov.py
 
+      - name: Fetch Federal Register documents
+        run: python fetch-federal-register.py
+        
       - name: Build rules index
         run: python build-rules-index.py
 

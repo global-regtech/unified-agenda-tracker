@@ -278,6 +278,39 @@
   margin-bottom: 12px;
 }
 
+.rule-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  margin-top: 8px;
+  font-size: 0.8rem;
+}
+
+.source-link {
+  color: #555;
+  text-decoration: none;
+}
+
+.source-link:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.link-sep {
+  color: #ccc;
+  padding: 0 2px;
+}
+
+.badge-open-comment {
+  background: #fff3e0;
+  color: #e65100;
+  border-radius: 4px;
+  padding: 2px 7px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
 .filter-btn {
   padding: 6px 14px;
   border: 1.5px solid #ccc;
@@ -653,6 +686,16 @@ function liveOiraDays(receivedDateStr) {
   const today    = new Date();
   return Math.floor((today - received) / (1000 * 60 * 60 * 24));
 }
+function isOpenForComment(endDate) {
+  if (!endDate) return false;
+  return new Date(endDate) > new Date();
+}
+
+function formatDate(isoDate) {
+  if (!isoDate) return null;
+  return new Date(isoDate).toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+}
+
 function renderResults(rules, statusText) {
   document.getElementById('search-status').textContent = statusText;
   const container = document.getElementById('search-results');
@@ -662,7 +705,14 @@ function renderResults(rules, statusText) {
     return;
   }
 
-  container.innerHTML = rules.slice(0, 50).map(r => `
+  container.innerHTML = rules.slice(0, 50).map(r => {
+    const links = [];
+    if (r.fr_proposed_url) links.push(`<a href="${r.fr_proposed_url}" target="_blank" class="source-link">📄 Proposed Rule${r.fr_proposed_date ? ' · ' + formatDate(r.fr_proposed_date) : ''}</a>`);
+    if (r.fr_final_url)    links.push(`<a href="${r.fr_final_url}" target="_blank" class="source-link">✅ Final Rule${r.fr_final_date ? ' · ' + formatDate(r.fr_final_date) : ''}</a>`);
+    if (r.docket_url)      links.push(`<a href="${r.docket_url}" target="_blank" class="source-link">💬 regulations.gov${r.comment_count ? ' · ' + r.comment_count.toLocaleString() + ' comments' : ''}</a>`);
+    if (isOpenForComment(r.comment_end_date)) links.push(`<span class="badge badge-open-comment">Open for comment · until ${formatDate(r.comment_end_date)}</span>`);
+
+    return `
     <div class="rule-card">
       <div class="rule-card-header">
         <a href="${r.reginfo_url}" target="_blank" class="rule-title">${r.title}</a>
@@ -675,10 +725,10 @@ function renderResults(rules, statusText) {
         <span class="badge ${priorityClass(r.priority)}">${r.priority}</span>
       </div>
       ${r.abstract ? `<p class="rule-abstract">${r.abstract.substring(0,200)}${r.abstract.length>200?'…':''}</p>` : ''}
+      ${links.length > 0 ? `<div class="rule-links">${links.join('<span class="link-sep">·</span>')}</div>` : ''}
     </div>
-  `).join('');
+  `}).join('');
 }
-
 document.getElementById('rules-search').addEventListener('input', updateResults);
 
 initRulesSearch();
