@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rule Timeline — Tier 2 prototype</title>
+<style>
+  /* ──────────────────────────────────────────────────────────────
+     THEME TOKENS — map these to your existing index.html palette.
+     Everything below references these vars, so restyling is one block.
+     ────────────────────────────────────────────────────────────── */
+  :root {
+    --bg:        #f7f6f2;
+    --surface:   #ffffff;
+    --ink:       #1a1a18;
+    --ink-soft:  #56544e;
+    --ink-faint: #9a978f;
+    --line:      #e3e0d8;
+    --rail:      #d8d4ca;
+
+    /* stage states */
+    --done:      #2f6f4f;   /* completed milestone */
+    --active:    #b4451f;   /* current frontier (at OIRA / open comment) */
+    --pending:   #c2bfb6;   /* not yet reached / unknown */
+
+    --accent:    #b4451f;
+    --link:      #1f5a8c;
+
+    --serif: Georgia, 'Times New Roman', serif;
+    --sans:  ui-sans-serif, system-ui, 'Segoe UI', Helvetica, Arial, sans-serif;
+    --mono:  ui-monospace, 'SF Mono', 'Cascadia Mono', Consolas, monospace;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 80px; }
+
+  /* back link */
+  .back { font-size: 13px; color: var(--link); text-decoration: none; }
+  .back:hover { text-decoration: underline; }
+
+  /* header block */
+  header.rule-head { margin: 18px 0 8px; }
+  .rin {
+    font-family: var(--mono); font-size: 12px; letter-spacing: .04em;
+    color: var(--ink-faint); text-transform: uppercase;
+  }
+  h1.rule-title {
+    font-family: var(--serif); font-weight: 600;
+    font-size: clamp(22px, 4.4vw, 30px); line-height: 1.18;
+    margin: 6px 0 12px;
+  }
+  .agency-line { font-size: 14px; color: var(--ink-soft); margin-bottom: 14px; }
+  .agency-line .sub { color: var(--ink-faint); }
+
+  .badges { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
+  .badge {
+    font-size: 12px; font-weight: 600; padding: 3px 9px; border-radius: 100px;
+    border: 1px solid var(--line); color: var(--ink-soft); background: var(--surface);
+  }
+  .badge.stage   { border-color: #b9c7da; color: #2c5a82; background: #eef4f9; }
+  .badge.oira    { border-color: #e7c4ad; color: var(--active); background: #fbeee6; }
+  .badge.signif  { border-color: #d8c39a; color: #8a6d22; background: #f8f0db; }
+
+  /* "currently" status strip */
+  .status-now {
+    background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--accent);
+    border-radius: 6px; padding: 12px 16px; margin-bottom: 30px;
+    font-size: 14px;
+  }
+  .status-now .lbl {
+    display: block; font-size: 11px; letter-spacing: .08em; text-transform: uppercase;
+    color: var(--ink-faint); margin-bottom: 3px;
+  }
+  .status-now .val { font-weight: 600; }
+
+  /* about / abstract — gives every rule real body content */
+  .about {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 6px;
+    padding: 14px 16px; margin-bottom: 26px;
+  }
+  .about h2 {
+    font-size: 11px; letter-spacing: .08em; text-transform: uppercase;
+    color: var(--ink-faint); margin: 0 0 6px; font-weight: 600;
+  }
+  .about p { margin: 0; font-size: 14px; line-height: 1.55; }
+  .about-toggle {
+    background: none; border: none; color: var(--link);
+    font-size: 13px; cursor: pointer; padding: 6px 0 0; font-family: inherit;
+  }
+  .about-toggle:hover { text-decoration: underline; }
+
+  /* progress meter — frames a sparse rule as "early in the process" */
+  .progress { margin: 0 0 28px; }
+  .progress-track { display: flex; gap: 4px; }
+  .seg { flex: 1; height: 6px; border-radius: 3px; background: var(--rail); }
+  .seg.reached { background: var(--done); }
+  .seg.current { background: var(--active); }
+  .seg.skipped {
+    background: repeating-linear-gradient(45deg,
+      var(--rail), var(--rail) 3px, var(--surface) 3px, var(--surface) 6px);
+  }
+  .seg-labels { display: flex; gap: 4px; margin-top: 7px; }
+  .seg-labels span {
+    flex: 1; font-size: 10px; letter-spacing: .02em; text-transform: uppercase;
+    color: var(--ink-faint); text-align: center;
+  }
+  .progress-cap { font-size: 13px; color: var(--ink-soft); margin-top: 10px; font-weight: 600; }
+
+  /* "still ahead" divider before unreached stages */
+  .ahead-divider { position: relative; padding: 4px 0 16px 44px; list-style: none; }
+  .ahead-divider .ahead-lbl {
+    font-size: 11px; letter-spacing: .08em; text-transform: uppercase;
+    color: var(--ink-faint); font-weight: 700;
+  }
+  .ahead-divider .ahead-sub { font-size: 12px; color: var(--ink-faint); margin-top: 2px; }
+
+  /* ── TIMELINE ───────────────────────────────────────────── */
+  .timeline { position: relative; margin: 0; padding: 0; list-style: none; }
+  .timeline::before {
+    content: ""; position: absolute; left: 13px; top: 8px; bottom: 14px;
+    width: 2px; background: var(--rail);
+  }
+  .stage { position: relative; padding: 0 0 26px 44px; }
+  .stage:last-child { padding-bottom: 0; }
+
+  .node {
+    position: absolute; left: 5px; top: 2px;
+    width: 18px; height: 18px; border-radius: 50%;
+    background: var(--surface); border: 3px solid var(--pending); z-index: 1;
+  }
+  .stage.done   .node { border-color: var(--done);   background: var(--done); }
+  .stage.active .node { border-color: var(--active);  background: var(--surface);
+                        box-shadow: 0 0 0 4px rgba(180,69,31,.16); }
+  .stage.active .node::after {
+    content: ""; position: absolute; inset: 3px; border-radius: 50%; background: var(--active);
+  }
+
+  .stage-label {
+    font-size: 11px; letter-spacing: .07em; text-transform: uppercase;
+    color: var(--ink-faint); font-weight: 600;
+  }
+  .stage.active .stage-label { color: var(--active); }
+  .stage.pending .stage-label { color: var(--pending); }
+
+  /* inferred: we know the review happened but have no date for it */
+  .stage.inferred .node { border-color: var(--done); background: var(--surface); border-style: dashed; }
+  .stage.inferred .stage-label { color: var(--ink-faint); }
+  /* na: routine rule, OIRA review not applicable / nothing on record */
+  .stage.na .node { border-color: var(--pending); background: var(--surface); width: 14px; height: 14px; left: 7px; top: 4px; }
+  .stage.na .stage-headline, .stage.na .stage-label { color: var(--ink-faint); font-weight: 500; }
+
+  .stage-headline { font-size: 16px; font-weight: 600; margin: 1px 0 2px; }
+  .stage.pending .stage-headline { color: var(--ink-faint); font-weight: 500; }
+  .stage-date { font-family: var(--mono); font-size: 13px; color: var(--ink-soft); }
+  .stage.inferred .stage-date { font-style: italic; color: var(--ink-faint); }
+
+  .stage-links { margin-top: 7px; display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 13px; }
+  .stage-links a { color: var(--link); text-decoration: none; }
+  .stage-links a:hover { text-decoration: underline; }
+
+  .pill-open {
+    display: inline-block; font-size: 11px; font-weight: 700; color: #fff;
+    background: var(--active); padding: 2px 8px; border-radius: 100px; margin-top: 6px;
+  }
+  .data-note {
+    margin-top: 7px; font-size: 12px; color: var(--ink-faint);
+    border-left: 2px solid var(--line); padding-left: 9px; font-style: italic;
+  }
+
+  footer.note {
+    margin-top: 40px; font-size: 12px; color: var(--ink-faint);
+    border-top: 1px solid var(--line); padding-top: 16px;
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <a class="back" href="index.html">&larr; Back to search</a>
+  <header class="rule-head">
+    <div class="rin" id="rin"></div>
+    <h1 class="rule-title" id="title"></h1>
+    <div class="agency-line" id="agency"></div>
+    <div class="badges" id="badges"></div>
+    <div class="status-now">
+      <span class="lbl">Currently</span>
+      <span class="val" id="status-now"></span>
+    </div>
+    <section class="about" id="about" hidden>
+      <h2>About this rule</h2>
+      <p id="about-text"></p>
+      <button class="about-toggle" id="about-toggle" hidden onclick="toggleAbstract()"></button>
+    </section>
+  </header>
+
+  <div class="progress" id="progress"></div>
+
+  <ol class="timeline" id="timeline"></ol>
+
+  <footer class="note" id="footer"></footer>
+</div>
+
+<script>
+/* ════════════════════════════════════════════════════════════════
+   1. DATA  — hardcoded for the prototype.
+   In production this object is one entry from data/rules_index.json,
+   selected by the ?rin= query param. Swap the block at the very bottom
+   to read live data (see the commented loadFromIndex() function).
+   Field names match build-rules-index.py exactly.
+   ════════════════════════════════════════════════════════════════ */
+const AGENDA_EDITION = "Spring 2025";
+const AGENDA_EDITION_DATE = "2025-09-22";   // edition publication date
+
+const EXAMPLES = [
+  // A — finalized significant rule. Not at OIRA now, so oira_received is null
+  // (oira_reviews.json only holds CURRENTLY-pending reviews). Both OIRA reviews
+  // are inferred from the proposed + final publications.
+  {
+    rin: "1234-AB56",
+    title: "Energy Conservation Standards for Commercial Refrigeration Equipment",
+    abstract: "This rule establishes amended energy conservation standards for commercial refrigeration equipment, setting maximum daily energy consumption levels across covered equipment classes. The Department estimates the standards would reduce energy use and carbon emissions over a 30-year analysis period, with net benefits to consumers and the economy.",
+    parent_agency_name: "Department of Energy",
+    agency_name: "Office of Energy Efficiency and Renewable Energy",
+    stage: "Final Rule",
+    priority: "Economically Significant",
+    reginfo_url: "https://www.reginfo.gov/public/do/eAgendaViewRule?pubId=&RIN=1234-AB56",
+    at_oira: false, oira_received: null, oira_days: null, oira_url: null,
+    docket_url: "https://www.regulations.gov/docket/EERE-2024-BT-STD-0001",
+    comment_count: 312, comment_start_date: "2025-08-01", comment_end_date: "2025-09-30",
+    fr_proposed_url: "https://www.federalregister.gov/d/2025-00001", fr_proposed_date: "2025-07-20",
+    fr_final_url: "https://www.federalregister.gov/d/2025-99999", fr_final_date: "2025-12-15"
+  },
+  // B — at OIRA, proposed stage: received date predates any proposed rule (none yet).
+  {
+    rin: "2050-AA12",
+    title: "Revisions to the National Emission Standards for Hazardous Air Pollutants",
+    abstract: "This action proposes to revise the national emission standards for hazardous air pollutants for several source categories, updating emission limits and adding continuous-monitoring requirements at major sources.",
+    parent_agency_name: "Environmental Protection Agency",
+    agency_name: "Office of Air and Radiation",
+    stage: "Proposed Rule",
+    priority: "Economically Significant",
+    reginfo_url: "https://www.reginfo.gov/public/do/eAgendaViewRule?pubId=&RIN=2050-AA12",
+    at_oira: true, oira_received: "2026-05-14", oira_days: null,
+    oira_url: "https://www.reginfo.gov/public/do/eoDetails?rrid=111111",
+    docket_url: null, comment_count: null, comment_start_date: null, comment_end_date: null,
+    fr_proposed_url: null, fr_proposed_date: null, fr_final_url: null, fr_final_date: null
+  },
+  // C — THE 43% CASE (HIPAA-shaped). At OIRA now, but proposed rule went out in 2021.
+  // oira_received (2026) > fr_proposed_date (2021) => current review is the FINAL-stage
+  // review; the proposed-stage review is inferred (concluded, date not captured).
+  {
+    rin: "0945-AA00",
+    title: "HIPAA Privacy Rule: Changes to Support Reproductive Health Care Privacy",
+    abstract: "This rule would modify the HIPAA Privacy Rule to strengthen privacy protections for reproductive health care information, limiting the circumstances under which regulated entities may use or disclose protected health information in certain investigations and proceedings.",
+    parent_agency_name: "Department of Health and Human Services",
+    agency_name: "Office for Civil Rights",
+    stage: "Final Rule",
+    priority: "Other Significant",
+    reginfo_url: "https://www.reginfo.gov/public/do/eAgendaViewRule?pubId=&RIN=0945-AA00",
+    at_oira: true, oira_received: "2026-04-02", oira_days: null,
+    oira_url: "https://www.reginfo.gov/public/do/eoDetails?rrid=222222",
+    docket_url: "https://www.regulations.gov/docket/HHS-OCR-2021-0001",
+    comment_count: 24000, comment_start_date: "2021-03-10", comment_end_date: "2021-05-25",
+    fr_proposed_url: "https://www.federalregister.gov/d/2021-00001", fr_proposed_date: "2021-03-10",
+    fr_final_url: null, fr_final_date: null
+  },
+  // D — routine, non-significant rule. Never goes to OIRA; OIRA collapses to one muted node.
+  {
+    rin: "2120-AB99",
+    title: "Airworthiness Directives; Various Transport Category Airplanes",
+    abstract: "This airworthiness directive applies to certain transport category airplanes. It requires repetitive inspections of an affected component and replacement if cracking is found, to address an identified unsafe condition.",
+    parent_agency_name: "Department of Transportation",
+    agency_name: "Federal Aviation Administration",
+    stage: "Final Rule",
+    priority: "Routine and Frequent",
+    reginfo_url: "https://www.reginfo.gov/public/do/eAgendaViewRule?pubId=&RIN=2120-AB99",
+    at_oira: false, oira_received: null, oira_days: null, oira_url: null,
+    docket_url: "https://www.regulations.gov/docket/FAA-2026-0123",
+    comment_count: 3, comment_start_date: "2026-03-01", comment_end_date: "2026-04-15",
+    fr_proposed_url: "https://www.federalregister.gov/d/2026-01111", fr_proposed_date: "2026-03-01",
+    fr_final_url: null, fr_final_date: null
+  }
+];
+
+/* ════════════════════════════════════════════════════════════════
+   2. HELPERS  — these mirror the helpers already in index.html.
+   Reuse your existing versions when you integrate; don't duplicate.
+   ════════════════════════════════════════════════════════════════ */
+function formatDate(iso) {
+  if (!iso) return null;
+  const d = new Date(iso + "T00:00:00");
+  return d.toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" });
+}
+function daysBetween(iso, to = new Date()) {
+  if (!iso) return null;
+  const from = new Date(iso + "T00:00:00");
+  return Math.max(0, Math.round((to - from) / 86400000));
+}
+function liveOiraDays(oira_received) { return daysBetween(oira_received); }
+function isOpenForComment(endDate) {
+  if (!endDate) return false;
+  return new Date(endDate + "T23:59:59") >= new Date();
+}
+
+/* ════════════════════════════════════════════════════════════════
+   3. CORE LOGIC  — turn one rule into an ordered list of timeline
+   stages, each tagged done | active | pending. This is the reusable
+   piece: it works identically whether you render a full page or an
+   inline expanded card.
+   ════════════════════════════════════════════════════════════════ */
+function parseISO(s) { return s ? new Date(s + "T00:00:00") : null; }
+function isSignificant(r) {
+  const p = (r.priority || "").toLowerCase();
+  // agenda priority values: "Economically Significant", "Other Significant",
+  // "Substantive, Nonsignificant", "Routine and Frequent", "Info./Admin./Other".
+  const sigByPriority =
+    (p.includes("significant") && !p.includes("nonsignificant")) || p.includes("major");
+  return !!(r.at_oira || r.oira_received || sigByPriority);
+}
+
+function computeTimeline(r) {
+  const stages = [];
+  const sig = isSignificant(r);
+  // OIRA can appear TWICE: once before the proposed rule, once before the final.
+  // We only capture ONE review (the current pending one). Decide which slot it
+  // belongs to: if its received date is after the proposed rule, it's the
+  // final-stage review (and the proposed-stage one is inferred).
+  let capturedSlot = null;
+  if (r.at_oira && r.oira_received) {
+    const rec = parseISO(r.oira_received), prop = parseISO(r.fr_proposed_date);
+    capturedSlot = (prop && rec > prop) ? "final" : "proposed";
+  }
+
+  // ── Unified Agenda ──
+  if (r.in_agenda === false) {
+    // Found via OIRA (or another source) but not in the current published agenda.
+    stages.push({
+      key: "agenda", label: "Unified Agenda", state: "na",
+      headline: "Not in the current Unified Agenda",
+      note: "This rule isn't in the latest published agenda — it reached OIRA separately " +
+            "(submitted after publication, or carried over from an earlier edition)."
+    });
+  } else {
+    stages.push({
+      key: "agenda", label: "Unified Agenda", state: "done",
+      headline: `Listed in the ${AGENDA_EDITION} agenda`,
+      date: formatDate(AGENDA_EDITION_DATE),
+      links: r.reginfo_url ? [{ label: "reginfo entry", href: r.reginfo_url }] : [],
+      note: "The agenda carries no per-rule entry date — dated to the edition's publication. " +
+            `Agency-stated stage at that time: ${r.stage}.`
+    });
+  }
+
+  // ── OIRA Review · proposed stage ──
+  if (!sig) {
+    stages.push({
+      key: "oira", label: "OIRA Review", state: "na",
+      headline: "Not designated significant",
+      note: "Routine rules generally aren't reviewed by OIRA — nothing on record."
+    });
+  } else if (capturedSlot === "proposed") {
+    stages.push({
+      key: "oira-proposed", label: "OIRA Review · proposed stage", state: "active",
+      headline: "Under review at OIRA",
+      date: `Received ${formatDate(r.oira_received)} · day ${liveOiraDays(r.oira_received)}`,
+      links: r.oira_url ? [{ label: "OIRA review detail", href: r.oira_url }] : []
+    });
+  } else if (r.fr_proposed_date) {
+    stages.push({
+      key: "oira-proposed", label: "OIRA Review · proposed stage", state: "inferred",
+      headline: "Reviewed by OIRA",
+      date: "Concluded · date not captured",
+      note: `Inferred: the proposed rule published ${formatDate(r.fr_proposed_date)}, so it cleared ` +
+            "OIRA review first. Concluded-review dates aren't in rules_index yet."
+    });
+  } else {
+    stages.push({
+      key: "oira-proposed", label: "OIRA Review · proposed stage", state: "pending",
+      headline: "Not yet reviewed", date: null
+    });
+  }
+
+  // ── Proposed Rule ──
+  if (r.fr_proposed_date) {
+    stages.push({
+      key: "proposed", label: "Proposed Rule (NPRM)", state: "done",
+      headline: "Proposed rule published",
+      date: formatDate(r.fr_proposed_date),
+      links: r.fr_proposed_url ? [{ label: "Federal Register", href: r.fr_proposed_url }] : []
+    });
+  } else {
+    stages.push({
+      key: "proposed", label: "Proposed Rule (NPRM)", state: "pending",
+      headline: "Not yet published", date: null
+    });
+  }
+
+  // ── Comment Period ──
+  if (r.comment_start_date && r.comment_end_date) {
+    const open = isOpenForComment(r.comment_end_date);
+    const cnt = (r.comment_count != null) ? `${r.comment_count} comments` : "";
+    stages.push({
+      key: "comment", label: "Public Comment Period", state: open ? "active" : "done",
+      headline: open ? "Open for public comment" : "Comment period closed",
+      date: `${formatDate(r.comment_start_date)} – ${formatDate(r.comment_end_date)}`,
+      links: r.docket_url ? [{ label: `regulations.gov docket${cnt ? " · " + cnt : ""}`, href: r.docket_url }] : [],
+      openBadge: open ? `Open until ${formatDate(r.comment_end_date)}` : null
+    });
+  } else if (r.docket_url) {
+    const cnt = (r.comment_count != null) ? `${r.comment_count} comments` : "";
+    stages.push({
+      key: "comment", label: "Public Comment Period", state: "done",
+      headline: "Docket open",
+      date: null,
+      links: [{ label: `regulations.gov docket${cnt ? " · " + cnt : ""}`, href: r.docket_url }],
+      note: "Docket exists but no structured comment-window dates were returned."
+    });
+  } else {
+    stages.push({
+      key: "comment", label: "Public Comment Period", state: "pending",
+      headline: "No comment period yet", date: null
+    });
+  }
+
+  // ── OIRA Review · final stage (significant rules only) ──
+  if (sig) {
+    if (capturedSlot === "final") {
+      stages.push({
+        key: "oira-final", label: "OIRA Review · final stage", state: "active",
+        headline: "Under review at OIRA",
+        date: `Received ${formatDate(r.oira_received)} · day ${liveOiraDays(r.oira_received)}`,
+        links: r.oira_url ? [{ label: "OIRA review detail", href: r.oira_url }] : []
+      });
+    } else if (r.fr_final_date) {
+      stages.push({
+        key: "oira-final", label: "OIRA Review · final stage", state: "inferred",
+        headline: "Reviewed by OIRA",
+        date: "Concluded · date not captured",
+        note: `Inferred: the final rule published ${formatDate(r.fr_final_date)}, so it cleared OIRA review first.`
+      });
+    } else {
+      stages.push({
+        key: "oira-final", label: "OIRA Review · final stage", state: "pending",
+        headline: "Not yet reviewed", date: null
+      });
+    }
+  }
+
+  // ── Final Rule ──
+  if (r.fr_final_date) {
+    stages.push({
+      key: "final", label: "Final Rule", state: "done",
+      headline: "Final rule published",
+      date: formatDate(r.fr_final_date),
+      links: r.fr_final_url ? [{ label: "Federal Register", href: r.fr_final_url }] : []
+    });
+  } else {
+    stages.push({
+      key: "final", label: "Final Rule", state: "pending",
+      headline: "Not yet finalized", date: null
+    });
+  }
+
+  return stages;
+}
+
+/* one-line "where is it right now" summary derived from the stages */
+function currentStatus(r, stages) {
+  if (r.fr_final_date) return `Finalized ${formatDate(r.fr_final_date)}.`;
+  if (r.at_oira) {
+    const rec = parseISO(r.oira_received), prop = parseISO(r.fr_proposed_date);
+    const stg = (prop && rec > prop) ? "final-stage" : "proposed-stage";
+    return `Under OIRA review (${stg}) since ${formatDate(r.oira_received)} — day ${liveOiraDays(r.oira_received)}.`;
+  }
+  if (r.comment_start_date && isOpenForComment(r.comment_end_date))
+    return `Open for public comment until ${formatDate(r.comment_end_date)}.`;
+  if (r.fr_proposed_date) return `Proposed rule published ${formatDate(r.fr_proposed_date)}; awaiting next step.`;
+  return `In the ${AGENDA_EDITION} agenda at the "${r.stage}" stage.`;
+}
+
+/* map each timeline stage to one of the 5 canonical phases, for the meter */
+function buildPhases(stages) {
+  const map = { agenda: "Agenda", oira: "OIRA", "oira-proposed": "OIRA",
+                "oira-final": "OIRA", proposed: "Proposed", comment: "Comment", final: "Final" };
+  const order = ["Agenda", "OIRA", "Proposed", "Comment", "Final"];
+  return order.map(name => {
+    const mine = stages.filter(s => map[s.key] === name).map(s => s.state);
+    let state = "todo";
+    if (mine.includes("active")) state = "current";
+    else if (mine.some(x => x === "done" || x === "inferred")) state = "reached";
+    else if (mine.length && mine.every(x => x === "na")) state = "skipped";
+    return { name, state };
+  });
+}
+
+/* abstract show-more toggle */
+let ABSTRACT = { full: "", expanded: false };
+const ABSTRACT_LIMIT = 260;
+function paintAbstract() {
+  const txt = document.getElementById("about-text");
+  const btn = document.getElementById("about-toggle");
+  const long = ABSTRACT.full.length > ABSTRACT_LIMIT;
+  if (!long || ABSTRACT.expanded) {
+    txt.textContent = ABSTRACT.full;
+    btn.textContent = long ? "Show less" : "";
+    btn.hidden = !long;
+  } else {
+    txt.textContent = ABSTRACT.full.slice(0, ABSTRACT_LIMIT).trimEnd() + "…";
+    btn.textContent = "Show more";
+    btn.hidden = false;
+  }
+}
+function toggleAbstract() { ABSTRACT.expanded = !ABSTRACT.expanded; paintAbstract(); }
+
+/* ════════════════════════════════════════════════════════════════
+   4. RENDER
+   ════════════════════════════════════════════════════════════════ */
+function stageHTML(s) {
+  const links = (s.links && s.links.length)
+    ? `<div class="stage-links">${s.links.map(l => `<a href="${l.href}" target="_blank" rel="noopener">${l.label} &nearr;</a>`).join("")}</div>`
+    : "";
+  const openBadge = s.openBadge ? `<div><span class="pill-open">${s.openBadge}</span></div>` : "";
+  const note = s.note ? `<div class="data-note">${s.note}</div>` : "";
+  const date = s.date ? `<div class="stage-date">${s.date}</div>` : "";
+  return `<li class="stage ${s.state}">
+    <span class="node"></span>
+    <div class="stage-label">${s.label}</div>
+    <div class="stage-headline">${s.headline}</div>
+    ${date}${openBadge}${links}${note}
+  </li>`;
+}
+
+function render(r) {
+  document.getElementById("rin").textContent = "RIN " + r.rin;
+  document.getElementById("title").textContent = r.title;
+  const sub = (r.agency_name && r.agency_name !== r.parent_agency_name)
+    ? ` &middot; <span class="sub">${r.agency_name}</span>` : "";
+  document.getElementById("agency").innerHTML = `${r.parent_agency_name || ""}` + sub;
+
+  const badges = [];
+  if (r.stage)    badges.push(`<span class="badge stage">${r.stage}</span>`);
+  if (r.at_oira)  badges.push(`<span class="badge oira">At OIRA · ${liveOiraDays(r.oira_received)}d</span>`);
+  if (r.priority && /significant/i.test(r.priority) && !/nonsignificant/i.test(r.priority))
+                  badges.push(`<span class="badge signif">${r.priority}</span>`);
+  document.getElementById("badges").innerHTML = badges.join("");
+
+  // abstract — real body content so no rule looks bare
+  const about = document.getElementById("about");
+  if (r.abstract) {
+    about.hidden = false;
+    ABSTRACT = { full: r.abstract, expanded: false };
+    paintAbstract();
+  } else {
+    about.hidden = true;
+  }
+
+  const stages = computeTimeline(r);
+  document.getElementById("status-now").textContent = currentStatus(r, stages);
+
+  // progress meter
+  const phases = buildPhases(stages);
+  const reached = phases.filter(p => p.state === "reached" || p.state === "current").length;
+  const denom = phases.filter(p => p.state !== "skipped").length;
+  document.getElementById("progress").innerHTML =
+    `<div class="progress-track">${phases.map(p => `<div class="seg ${p.state}" title="${p.name}"></div>`).join("")}</div>` +
+    `<div class="seg-labels">${phases.map(p => `<span>${p.name}</span>`).join("")}</div>` +
+    `<div class="progress-cap">${reached} of ${denom} stages reached</div>`;
+
+  // split: reached/resolved stages render in full; unreached grouped under a divider
+  const reachedStages = stages.filter(s => s.state !== "pending");
+  const aheadStages   = stages.filter(s => s.state === "pending");
+  let html = reachedStages.map(stageHTML).join("");
+  if (aheadStages.length) {
+    html += `<li class="ahead-divider">
+      <div class="ahead-lbl">Still ahead</div>
+      <div class="ahead-sub">Expected next steps in the rulemaking process</div>
+    </li>` + aheadStages.map(stageHTML).join("");
+  }
+  document.getElementById("timeline").innerHTML = html;
+
+  document.getElementById("footer").innerHTML =
+    `Filled markers are reached or in progress; dashed markers are reviews we can infer happened ` +
+    `but have no date for; "Still ahead" lists expected next steps. ` +
+    `Composed from <code>rules_index.json</code>.`;
+}
+
+/* ════════════════════════════════════════════════════════════════
+   5. ENTRY POINT
+   Reads ?rin= from the URL and renders that rule from rules_index.json.
+   ?demo=N still renders EXAMPLES[N] for offline visual checks.
+   ════════════════════════════════════════════════════════════════ */
+function showMessage(msg) {
+  document.querySelector(".wrap").innerHTML =
+    `<a class="back" href="index.html">&larr; Back to search</a>` +
+    `<p style="margin-top:24px;font-size:15px;color:var(--ink-soft)">${msg}</p>`;
+}
+
+async function loadFromIndex() {
+  const params = new URLSearchParams(location.search);
+
+  // dev shortcut: rule.html?demo=2  (no data needed)
+  const demo = params.get("demo");
+  if (demo !== null && EXAMPLES[demo]) { render(EXAMPLES[demo]); return; }
+
+  const rin = params.get("rin");
+  if (!rin) { showMessage("No rule specified. Open this page from a rule on the search results."); return; }
+
+  try {
+    const all = await fetch("data/rules_index.json").then(r => r.json());
+    const rule = all.find(x => x.rin === rin);
+    if (!rule) { showMessage(`No rule found for RIN ${rin}.`); return; }
+    render(rule);
+  } catch (e) {
+    showMessage("Couldn't load rule data. If you opened this file directly, "
+      + "serve it over http (run <code>python -m http.server 8000</code> and visit "
+      + "<code>http://localhost:8000/rule.html?rin=" + rin + "</code>) rather than from a file:// path.");
+  }
+}
+
+loadFromIndex();
+
+</script>
+</body>
+</html>
