@@ -81,7 +81,7 @@
     "last_modified": "2026-03-09T14:19:30Z",
     "fetched_at": "2026-06-01T00:14:51.187639Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T11:37:05.794388+00:00"
+    "comment_fetched_at": "2026-06-07T16:57:57.380973+00:00"
   },
   "0560-AI73": {
     "rin": "0560-AI73",
@@ -109,7 +109,7 @@
     "last_modified": "2025-08-11T14:10:00Z",
     "fetched_at": "2026-06-01T00:15:17.354198Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T11:37:21.667095+00:00"
+    "comment_fetched_at": "2026-06-07T16:58:01.986394+00:00"
   },
   "0563-AC89": {
     "rin": "0563-AC89",
@@ -235,7 +235,7 @@
     "last_modified": "2026-04-21T14:07:14Z",
     "fetched_at": "2026-06-01T00:17:15.116144Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-06T11:38:34.282177+00:00"
+    "comment_fetched_at": "2026-06-07T16:58:06.286346+00:00"
   },
   "0575-AD08": {
     "rin": "0575-AD08",
@@ -445,7 +445,7 @@
     "last_modified": "2026-05-28T16:13:29Z",
     "fetched_at": "2026-06-01T00:21:53.268573Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-06T11:40:38.501358+00:00"
+    "comment_fetched_at": "2026-06-07T16:58:10.794947+00:00"
   },
   "0581-AE39": {
     "rin": "0581-AE39",
@@ -627,7 +627,7 @@
     "last_modified": "2025-07-02T10:12:31Z",
     "fetched_at": "2026-06-01T00:24:16.797779Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T11:42:25.043380+00:00"
+    "comment_fetched_at": "2026-06-07T16:58:15.107443+00:00"
   },
   "0584-AF12": {
     "rin": "0584-AF12",
@@ -641,7 +641,7 @@
     "last_modified": "2026-05-08T16:52:05Z",
     "fetched_at": "2026-06-01T00:24:34.150546Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T11:42:33.000262+00:00"
+    "comment_fetched_at": "2026-06-07T16:58:19.399587+00:00"
   },
   "0584-AF19": {
     "rin": "0584-AF19",
@@ -711,7 +711,7 @@
     "last_modified": "2025-05-22T14:00:57Z",
     "fetched_at": "2026-06-01T00:25:08.940432Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T11:43:13.621746+00:00"
+    "comment_fetched_at": "2026-06-07T16:58:23.692441+00:00"
   },
   "0584-AE75": {
     "rin": "0584-AE75",
@@ -767,7 +767,7 @@
     "last_modified": "2025-06-06T16:21:54Z",
     "fetched_at": "2026-06-01T00:25:39.329519Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T11:43:46.108371+00:00"
+    "comment_fetched_at": "2026-06-07T16:58:27.981703+00:00"
   },
   "0584-AF20": {
     "rin": "0584-AF20",
@@ -781,7 +781,7 @@
     "last_modified": "2025-06-17T17:07:34Z",
     "fetched_at": "2026-06-01T00:25:43.672625Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T11:43:54.211495+00:00"
+    "comment_fetched_at": "2026-06-07T16:58:32.273245+00:00"
   },
   "0596-AD12": {
     "rin": "0596-AD12",
@@ -837,7 +837,7 @@
     "last_modified": "2026-05-19T12:16:07Z",
     "fetched_at": "2026-06-01T00:26:05.513473Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-06T11:44:26.941713+00:00"
+    "comment_fetched_at": "2026-06-07T16:58:36.589466+00:00"
   },
   "0596-AD33": {
     "rin": "0596-AD33",
@@ -956,12 +956,14 @@
     "docket_id": "DOC-2020-0004",
     "docket_url": "https://www.regulations.gov/docket/DOC-2020-0004",
     "title": "Promoting the Rule of Law Through Improved Agency Guidance Documents",
-    "comment_count": null,
-    "comment_start_date": null,
-    "comment_end_date": null,
+    "comment_count": 3,
+    "comment_start_date": "2020-09-28",
+    "comment_end_date": "2020-10-29",
     "docket_type": "Rulemaking",
     "last_modified": "2024-08-26T13:06:45Z",
-    "fetched_at": "2026-06-01T00:27:15.542948Z"
+    "fetched_at": "2026-06-01T00:27:15.542948Z",
+    "open_for_comment": false,
+    "comment_fetched_at": "2026-06-07T16:58:40.885052+00:00"
   },
   "0605-AA64": {
     "rin": "0605-AA64",
@@ -1045,7 +1047,7 @@
     "last_modified": "2026-05-01T18:23:18Z",
     "fetched_at": "2026-06-01T00:29:12.626184Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-06T12:23:56.934642+00:00"
+    "comment_fetched_at": "2026-06-07T16:58:45.191996+00:00"
   },
   "0648-BK85": {
     "rin": "0648-BK85",
@@ -1101,7 +1103,7 @@
     "last_modified": "2026-05-18T14:34:59Z",
     "fetched_at": "2026-06-01T00:29:43.008358Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-06T12:24:29.023274+00:00"
+    "comment_fetched_at": "2026-06-07T16:58:49.497361+00:00"
   },
   "0648-BN23": {
     "rin": "0648-BN23",
@@ -1157,7 +1159,7 @@
     "last_modified": "2026-05-26T13:16:00Z",
     "fetched_at": "2026-06-01T00:30:00.419599Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-06T12:25:01.123676+00:00"
+    "comment_fetched_at": "2026-06-07T16:58:53.807949+00:00"
   },
   "0648-BM08": {
     "rin": "0648-BM08",
@@ -1185,7 +1187,7 @@
     "last_modified": "2026-05-29T17:23:27Z",
     "fetched_at": "2026-06-01T00:30:09.120600Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-06T12:25:17.401727+00:00"
+    "comment_fetched_at": "2026-06-07T16:58:58.100796+00:00"
   },
   "0648-BN27": {
     "rin": "0648-BN27",
@@ -1199,7 +1201,7 @@
     "last_modified": "2026-05-29T20:14:30Z",
     "fetched_at": "2026-06-01T00:30:13.460763Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-06T12:25:25.497841+00:00"
+    "comment_fetched_at": "2026-06-07T16:59:02.411240+00:00"
   },
   "0648-BN52": {
     "rin": "0648-BN52",
@@ -1241,7 +1243,7 @@
     "last_modified": "2026-05-26T12:45:30Z",
     "fetched_at": "2026-06-01T00:30:26.535257Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T12:25:49.667158+00:00"
+    "comment_fetched_at": "2026-06-07T16:59:06.712307+00:00"
   },
   "0648-BN68": {
     "rin": "0648-BN68",
@@ -1283,7 +1285,7 @@
     "last_modified": "2026-05-26T18:33:56Z",
     "fetched_at": "2026-06-01T00:30:52.535448Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-06T12:26:13.824984+00:00"
+    "comment_fetched_at": "2026-06-07T16:59:11.014629+00:00"
   },
   "0648-BN11": {
     "rin": "0648-BN11",
@@ -1297,7 +1299,7 @@
     "last_modified": "2026-05-26T18:13:05Z",
     "fetched_at": "2026-06-01T00:31:18.507721Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T12:26:21.806881+00:00"
+    "comment_fetched_at": "2026-06-07T16:59:15.308775+00:00"
   },
   "0648-BN30": {
     "rin": "0648-BN30",
@@ -1339,7 +1341,7 @@
     "last_modified": "2026-05-22T18:15:28Z",
     "fetched_at": "2026-06-01T00:31:35.959709Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T12:26:46.288912+00:00"
+    "comment_fetched_at": "2026-06-07T16:59:19.612951+00:00"
   },
   "0648-BN69": {
     "rin": "0648-BN69",
@@ -1353,7 +1355,7 @@
     "last_modified": "2026-05-28T13:40:45Z",
     "fetched_at": "2026-06-01T00:31:40.315468Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-06T12:26:54.231114+00:00"
+    "comment_fetched_at": "2026-06-07T16:59:23.905490+00:00"
   },
   "0648-BN80": {
     "rin": "0648-BN80",
@@ -1367,7 +1369,7 @@
     "last_modified": "2025-11-19T17:04:57Z",
     "fetched_at": "2026-06-01T00:31:44.660121Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T12:27:02.232193+00:00"
+    "comment_fetched_at": "2026-06-07T16:59:28.201367+00:00"
   },
   "0648-BN84": {
     "rin": "0648-BN84",
@@ -1395,7 +1397,7 @@
     "last_modified": "2026-03-04T16:47:58Z",
     "fetched_at": "2026-06-01T00:32:10.670592Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T12:27:18.336001+00:00"
+    "comment_fetched_at": "2026-06-07T16:59:32.489447+00:00"
   },
   "0648-BN91": {
     "rin": "0648-BN91",
@@ -1409,7 +1411,7 @@
     "last_modified": "2026-05-06T13:52:18Z",
     "fetched_at": "2026-06-01T00:32:19.599263Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-06T12:27:26.338452+00:00"
+    "comment_fetched_at": "2026-06-07T16:59:36.798740+00:00"
   },
   "0648-BN00": {
     "rin": "0648-BN00",
@@ -1514,12 +1516,14 @@
     "docket_id": "NOAA-NMFS-2025-0636",
     "docket_url": "https://www.regulations.gov/docket/NOAA-NMFS-2025-0636",
     "title": "Taking Marine Mammals Incidental to the Duckabush Estuary Restoration Project in Washington",
-    "comment_count": null,
-    "comment_start_date": null,
-    "comment_end_date": null,
+    "comment_count": 1,
+    "comment_start_date": "2025-08-15",
+    "comment_end_date": "2025-09-16",
     "docket_type": "Rulemaking",
     "last_modified": "2026-01-27T16:14:18Z",
-    "fetched_at": "2026-06-01T01:04:08.543220Z"
+    "fetched_at": "2026-06-01T01:04:08.543220Z",
+    "open_for_comment": false,
+    "comment_fetched_at": "2026-06-07T16:59:41.094191+00:00"
   },
   "0648-BN44": {
     "rin": "0648-BN44",
@@ -1603,7 +1607,7 @@
     "last_modified": "2025-11-21T14:23:45Z",
     "fetched_at": "2026-06-01T01:04:39.041136Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T12:44:52.085194+00:00"
+    "comment_fetched_at": "2026-06-07T16:59:45.399826+00:00"
   },
   "0648-BN79": {
     "rin": "0648-BN79",
@@ -1617,7 +1621,7 @@
     "last_modified": "2025-11-21T14:03:36Z",
     "fetched_at": "2026-06-01T01:04:43.392077Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T12:45:00.033645+00:00"
+    "comment_fetched_at": "2026-06-07T16:59:49.707227+00:00"
   },
   "0648-BN96": {
     "rin": "0648-BN96",
@@ -1743,7 +1747,7 @@
     "last_modified": "2024-09-06T08:47:35Z",
     "fetched_at": "2026-06-01T01:05:35.537383Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T12:46:12.735613+00:00"
+    "comment_fetched_at": "2026-06-07T16:59:54.004297+00:00"
   },
   "0648-BN06": {
     "rin": "0648-BN06",
@@ -1813,7 +1817,7 @@
     "last_modified": "2026-03-26T18:28:46Z",
     "fetched_at": "2026-06-01T01:06:01.616499Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T12:46:52.986491+00:00"
+    "comment_fetched_at": "2026-06-07T16:59:58.306749+00:00"
   },
   "0648-BN26": {
     "rin": "0648-BN26",
@@ -2457,7 +2461,7 @@
     "last_modified": "2025-06-02T23:12:43Z",
     "fetched_at": "2026-06-01T01:11:32.058725Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T12:53:04.575332+00:00"
+    "comment_fetched_at": "2026-06-07T17:00:02.601973+00:00"
   },
   "0651-AD83": {
     "rin": "0651-AD83",
@@ -2471,7 +2475,7 @@
     "last_modified": "2025-08-14T18:51:37Z",
     "fetched_at": "2026-06-01T01:11:36.417862Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T12:53:12.592022+00:00"
+    "comment_fetched_at": "2026-06-07T17:00:06.902718+00:00"
   },
   "0651-AD84": {
     "rin": "0651-AD84",
@@ -2485,7 +2489,7 @@
     "last_modified": "2025-06-18T19:16:38Z",
     "fetched_at": "2026-06-01T01:11:40.760692Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T12:53:20.566492+00:00"
+    "comment_fetched_at": "2026-06-07T17:00:11.211249+00:00"
   },
   "0651-AD85": {
     "rin": "0651-AD85",
@@ -2513,7 +2517,7 @@
     "last_modified": "2025-07-08T12:50:04Z",
     "fetched_at": "2026-06-01T01:11:49.440382Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T12:53:36.516997+00:00"
+    "comment_fetched_at": "2026-06-07T17:00:15.712081+00:00"
   },
   "0651-AD87": {
     "rin": "0651-AD87",
@@ -2527,7 +2531,7 @@
     "last_modified": "2025-10-03T00:19:20Z",
     "fetched_at": "2026-06-01T01:11:53.772312Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T12:53:44.469282+00:00"
+    "comment_fetched_at": "2026-06-07T17:00:20.003566+00:00"
   },
   "0651-AD46": {
     "rin": "0651-AD46",
@@ -2765,7 +2769,7 @@
     "last_modified": "2024-12-05T11:30:46Z",
     "fetched_at": "2026-06-01T01:14:27.930525Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T12:56:06.486578+00:00"
+    "comment_fetched_at": "2026-06-07T17:00:24.294449+00:00"
   },
   "0694-AJ90": {
     "rin": "0694-AJ90",
@@ -2877,7 +2881,7 @@
     "last_modified": "2025-04-07T10:39:52Z",
     "fetched_at": "2026-06-01T01:17:52.414888Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T12:57:11.452507+00:00"
+    "comment_fetched_at": "2026-06-07T17:00:28.589628+00:00"
   },
   "0694-AJ77": {
     "rin": "0694-AJ77",
@@ -2891,7 +2895,7 @@
     "last_modified": "2024-12-05T11:30:46Z",
     "fetched_at": "2026-06-01T01:18:09.814130Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T12:57:19.444285+00:00"
+    "comment_fetched_at": "2026-06-07T17:00:32.897076+00:00"
   },
   "0694-AJ93": {
     "rin": "0694-AJ93",
@@ -2905,7 +2909,7 @@
     "last_modified": "2025-01-30T11:54:20Z",
     "fetched_at": "2026-06-01T01:18:40.202814Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T12:57:27.455386+00:00"
+    "comment_fetched_at": "2026-06-07T17:00:37.184858+00:00"
   },
   "0694-AK04": {
     "rin": "0694-AK04",
@@ -2919,7 +2923,7 @@
     "last_modified": "2025-04-07T11:16:10Z",
     "fetched_at": "2026-06-01T01:19:06.239537Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T12:57:35.432390+00:00"
+    "comment_fetched_at": "2026-06-07T17:00:41.480111+00:00"
   },
   "0694-AK08": {
     "rin": "0694-AK08",
@@ -2933,7 +2937,7 @@
     "last_modified": "2025-04-07T11:08:47Z",
     "fetched_at": "2026-06-01T01:19:14.931590Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T12:57:43.375541+00:00"
+    "comment_fetched_at": "2026-06-07T17:00:45.792231+00:00"
   },
   "0701-AA87": {
     "rin": "0701-AA87",
@@ -2975,7 +2979,7 @@
     "last_modified": "2025-07-24T13:03:40Z",
     "fetched_at": "2026-06-01T01:19:36.633547Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T12:58:07.385778+00:00"
+    "comment_fetched_at": "2026-06-07T17:00:50.111912+00:00"
   },
   "0702-AB02": {
     "rin": "0702-AB02",
@@ -3227,7 +3231,7 @@
     "last_modified": "2026-05-26T13:55:21Z",
     "fetched_at": "2026-06-01T01:22:04.968905Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T13:00:32.164550+00:00"
+    "comment_fetched_at": "2026-06-07T17:00:54.411927+00:00"
   },
   "0750-AM00": {
     "rin": "0750-AM00",
@@ -3367,7 +3371,7 @@
     "last_modified": "2026-05-07T14:06:14Z",
     "fetched_at": "2026-06-01T01:24:37.327522Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T13:01:52.434023+00:00"
+    "comment_fetched_at": "2026-06-07T17:00:58.706687+00:00"
   },
   "0750-AM20": {
     "rin": "0750-AM20",
@@ -3479,7 +3483,7 @@
     "last_modified": "2026-04-13T20:39:34Z",
     "fetched_at": "2026-06-01T01:26:27.083188Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T13:02:57.008171+00:00"
+    "comment_fetched_at": "2026-06-07T17:01:03.019821+00:00"
   },
   "0790-AK92": {
     "rin": "0790-AK92",
@@ -3647,7 +3651,7 @@
     "last_modified": "2026-03-04T13:34:14Z",
     "fetched_at": "2026-06-01T01:28:15.763841Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T13:04:33.809925+00:00"
+    "comment_fetched_at": "2026-06-07T17:01:07.319184+00:00"
   },
   "0790-AI73": {
     "rin": "0790-AI73",
@@ -4025,7 +4029,7 @@
     "last_modified": "2026-05-04T20:05:43Z",
     "fetched_at": "2026-06-01T01:32:07.086455Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-06T13:08:11.411499+00:00"
+    "comment_fetched_at": "2026-06-07T17:01:11.613912+00:00"
   },
   "1904-AF78": {
     "rin": "1904-AF78",
@@ -4543,7 +4547,7 @@
     "last_modified": "2025-04-15T10:35:32Z",
     "fetched_at": "2026-06-01T03:25:02.995015Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T13:13:22.662790+00:00"
+    "comment_fetched_at": "2026-06-07T17:01:15.930398+00:00"
   },
   "1904-AD79": {
     "rin": "1904-AD79",
@@ -4669,7 +4673,7 @@
     "last_modified": "2024-12-30T09:55:40Z",
     "fetched_at": "2026-06-01T03:25:51.490768Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T13:15:02.458698+00:00"
+    "comment_fetched_at": "2026-06-07T17:01:20.216898+00:00"
   },
   "1910-AA56": {
     "rin": "1910-AA56",
@@ -4963,7 +4967,7 @@
     "last_modified": "2025-10-01T17:10:08Z",
     "fetched_at": "2026-06-01T04:20:46.001014Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T13:17:53.924690+00:00"
+    "comment_fetched_at": "2026-06-07T17:01:24.520876+00:00"
   },
   "0920-AA69": {
     "rin": "0920-AA69",
@@ -5131,7 +5135,7 @@
     "last_modified": "2026-05-14T13:33:42Z",
     "fetched_at": "2026-06-01T04:22:57.194049Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T13:19:32.018830+00:00"
+    "comment_fetched_at": "2026-06-07T17:01:29.177668+00:00"
   },
   "0938-AV50": {
     "rin": "0938-AV50",
@@ -5285,7 +5289,7 @@
     "last_modified": "2026-05-29T18:47:40Z",
     "fetched_at": "2026-06-01T04:23:49.863231Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T13:21:01.816250+00:00"
+    "comment_fetched_at": "2026-06-07T17:01:33.467862+00:00"
   },
   "0938-AT38": {
     "rin": "0938-AT38",
@@ -5439,7 +5443,7 @@
     "last_modified": "2025-11-20T14:18:07Z",
     "fetched_at": "2026-06-01T04:24:48.777130Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T13:31:24.702457+00:00"
+    "comment_fetched_at": "2026-06-07T17:01:37.760017+00:00"
   },
   "0938-AV55": {
     "rin": "0938-AV55",
@@ -5453,7 +5457,7 @@
     "last_modified": "2025-11-19T19:13:45Z",
     "fetched_at": "2026-06-01T04:24:53.129304Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T13:31:32.808763+00:00"
+    "comment_fetched_at": "2026-06-07T17:01:42.052878+00:00"
   },
   "0938-AV56": {
     "rin": "0938-AV56",
@@ -5467,7 +5471,7 @@
     "last_modified": "2025-11-20T15:19:52Z",
     "fetched_at": "2026-06-01T04:24:57.484598Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T13:31:40.913143+00:00"
+    "comment_fetched_at": "2026-06-07T17:01:46.359578+00:00"
   },
   "0938-AU88": {
     "rin": "0938-AU88",
@@ -5747,7 +5751,7 @@
     "last_modified": "2026-05-12T15:18:39Z",
     "fetched_at": "2026-06-01T04:27:52.642542Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T13:34:24.232320+00:00"
+    "comment_fetched_at": "2026-06-07T17:01:50.666231+00:00"
   },
   "0970-AD10": {
     "rin": "0970-AD10",
@@ -5922,12 +5926,14 @@
     "docket_id": "USCBP-2025-0001",
     "docket_url": "https://www.regulations.gov/docket/USCBP-2025-0001",
     "title": "Civil Monetary Penalty Adjustments for Inflation",
-    "comment_count": null,
+    "comment_count": 0,
     "comment_start_date": null,
     "comment_end_date": null,
     "docket_type": "Rulemaking",
     "last_modified": "2025-12-30T13:20:43Z",
-    "fetched_at": "2026-06-01T04:38:41.110676Z"
+    "fetched_at": "2026-06-01T04:38:41.110676Z",
+    "open_for_comment": null,
+    "comment_fetched_at": "2026-06-07T17:01:54.963862+00:00"
   },
   "1615-AC93": {
     "rin": "1615-AC93",
@@ -6067,7 +6073,7 @@
     "last_modified": "2024-08-26T13:14:35Z",
     "fetched_at": "2026-06-01T04:39:46.699186Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T13:55:51.939665+00:00"
+    "comment_fetched_at": "2026-06-07T17:01:59.264972+00:00"
   },
   "1615-AC92": {
     "rin": "1615-AC92",
@@ -6109,7 +6115,7 @@
     "last_modified": "2022-06-22T12:00:24Z",
     "fetched_at": "2026-06-01T04:40:08.592430Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T13:56:16.439880+00:00"
+    "comment_fetched_at": "2026-06-07T17:02:03.602172+00:00"
   },
   "1615-AC69": {
     "rin": "1615-AC69",
@@ -6235,7 +6241,7 @@
     "last_modified": "2026-05-18T11:57:24Z",
     "fetched_at": "2026-06-01T04:41:21.423145Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-06T13:57:29.921802+00:00"
+    "comment_fetched_at": "2026-06-07T17:02:07.904695+00:00"
   },
   "1625-AC96": {
     "rin": "1625-AC96",
@@ -6249,7 +6255,7 @@
     "last_modified": "2026-05-26T14:24:05Z",
     "fetched_at": "2026-06-01T04:41:25.772835Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T13:57:38.022234+00:00"
+    "comment_fetched_at": "2026-06-07T17:02:12.197522+00:00"
   },
   "1625-AD03": {
     "rin": "1625-AD03",
@@ -6305,7 +6311,7 @@
     "last_modified": "2019-03-06T13:52:52Z",
     "fetched_at": "2026-06-01T04:41:48.044608Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T13:58:10.581085+00:00"
+    "comment_fetched_at": "2026-06-07T17:02:16.497523+00:00"
   },
   "1625-AA01": {
     "rin": "1625-AA01",
@@ -6361,7 +6367,7 @@
     "last_modified": "2024-08-26T13:00:14Z",
     "fetched_at": "2026-06-01T04:42:05.865345Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T13:58:42.913209+00:00"
+    "comment_fetched_at": "2026-06-07T17:02:20.794518+00:00"
   },
   "1625-AA87": {
     "rin": "1625-AA87",
@@ -6375,7 +6381,7 @@
     "last_modified": "2024-08-26T12:59:38Z",
     "fetched_at": "2026-06-01T04:42:10.266318Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T13:58:51.022052+00:00"
+    "comment_fetched_at": "2026-06-07T17:02:25.144499+00:00"
   },
   "1625-AC57": {
     "rin": "1625-AC57",
@@ -6389,7 +6395,7 @@
     "last_modified": "2026-05-15T17:15:05Z",
     "fetched_at": "2026-06-01T04:42:18.968846Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T13:58:59.115187+00:00"
+    "comment_fetched_at": "2026-06-07T17:02:29.437453+00:00"
   },
   "1625-AC97": {
     "rin": "1625-AC97",
@@ -6669,7 +6675,7 @@
     "last_modified": "2026-05-26T12:00:32Z",
     "fetched_at": "2026-06-01T04:44:30.576178Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T14:03:14.737248+00:00"
+    "comment_fetched_at": "2026-06-07T17:02:33.782228+00:00"
   },
   "1653-AA95": {
     "rin": "1653-AA95",
@@ -6795,7 +6801,7 @@
     "last_modified": "2025-04-11T08:28:11Z",
     "fetched_at": "2026-06-01T04:45:53.345726Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T14:04:27.821175+00:00"
+    "comment_fetched_at": "2026-06-07T17:02:38.090503+00:00"
   },
   "2501-AE12": {
     "rin": "2501-AE12",
@@ -6809,7 +6815,7 @@
     "last_modified": "2026-06-01T04:27:17Z",
     "fetched_at": "2026-06-01T04:47:12.140224Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T14:04:35.824109+00:00"
+    "comment_fetched_at": "2026-06-07T17:02:42.384762+00:00"
   },
   "2501-AE13": {
     "rin": "2501-AE13",
@@ -7019,7 +7025,7 @@
     "last_modified": "2026-06-01T04:08:19Z",
     "fetched_at": "2026-06-01T04:49:35.954055Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-06T14:06:47.500259+00:00"
+    "comment_fetched_at": "2026-06-07T17:02:46.693557+00:00"
   },
   "2506-AC52": {
     "rin": "2506-AC52",
@@ -7411,7 +7417,7 @@
     "last_modified": "2026-05-28T10:26:12Z",
     "fetched_at": "2026-06-01T04:54:00.226114Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T14:10:33.719453+00:00"
+    "comment_fetched_at": "2026-06-07T17:02:51.037958+00:00"
   },
   "1004-AF01": {
     "rin": "1004-AF01",
@@ -7439,7 +7445,7 @@
     "last_modified": "2026-05-29T18:55:12Z",
     "fetched_at": "2026-06-01T04:54:39.404410Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-06T14:10:49.899568+00:00"
+    "comment_fetched_at": "2026-06-07T17:02:55.339426+00:00"
   },
   "1010-AE25": {
     "rin": "1010-AE25",
@@ -7453,7 +7459,7 @@
     "last_modified": "2026-02-25T14:35:50Z",
     "fetched_at": "2026-06-01T04:54:52.535484Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T14:10:57.970294+00:00"
+    "comment_fetched_at": "2026-06-07T17:02:59.679803+00:00"
   },
   "1010-AE30": {
     "rin": "1010-AE30",
@@ -7467,7 +7473,7 @@
     "last_modified": "2026-02-23T20:36:32Z",
     "fetched_at": "2026-06-01T04:55:14.287844Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T14:11:05.988220+00:00"
+    "comment_fetched_at": "2026-06-07T17:03:03.982604+00:00"
   },
   "1010-AE22": {
     "rin": "1010-AE22",
@@ -7481,7 +7487,7 @@
     "last_modified": "2025-10-10T19:56:01Z",
     "fetched_at": "2026-06-01T04:55:22.959188Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T14:11:14.153578+00:00"
+    "comment_fetched_at": "2026-06-07T17:03:08.293373+00:00"
   },
   "1014-AA63": {
     "rin": "1014-AA63",
@@ -7523,7 +7529,7 @@
     "last_modified": "2025-09-15T10:51:32Z",
     "fetched_at": "2026-06-01T04:56:15.690860Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T14:11:38.311735+00:00"
+    "comment_fetched_at": "2026-06-07T17:03:12.586143+00:00"
   },
   "1014-AA64": {
     "rin": "1014-AA64",
@@ -7551,7 +7557,7 @@
     "last_modified": "2025-09-15T12:43:40Z",
     "fetched_at": "2026-06-01T04:56:24.494164Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T14:11:54.365673+00:00"
+    "comment_fetched_at": "2026-06-07T17:03:16.871582+00:00"
   },
   "1014-AA57": {
     "rin": "1014-AA57",
@@ -7677,7 +7683,7 @@
     "last_modified": "2026-05-29T14:30:57Z",
     "fetched_at": "2026-06-01T04:57:40.829112Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T14:13:07.741721+00:00"
+    "comment_fetched_at": "2026-06-07T17:03:21.189392+00:00"
   },
   "1018-BH99": {
     "rin": "1018-BH99",
@@ -7705,7 +7711,7 @@
     "last_modified": "2026-05-18T16:35:19Z",
     "fetched_at": "2026-06-01T04:58:50.619196Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T14:13:24.005097+00:00"
+    "comment_fetched_at": "2026-06-07T17:03:25.485388+00:00"
   },
   "1018-BI23": {
     "rin": "1018-BI23",
@@ -7733,7 +7739,7 @@
     "last_modified": "2026-05-26T21:35:14Z",
     "fetched_at": "2026-06-01T04:59:29.863975Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T14:13:40.203088+00:00"
+    "comment_fetched_at": "2026-06-07T17:03:29.808406+00:00"
   },
   "1018-BI70": {
     "rin": "1018-BI70",
@@ -7761,7 +7767,7 @@
     "last_modified": "2026-05-29T20:40:41Z",
     "fetched_at": "2026-06-01T04:59:51.668135Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T14:13:56.249219+00:00"
+    "comment_fetched_at": "2026-06-07T17:03:34.118270+00:00"
   },
   "1018-BI73": {
     "rin": "1018-BI73",
@@ -7782,12 +7788,14 @@
     "docket_id": "FWS-HQ-ES-2025-0029",
     "docket_url": "https://www.regulations.gov/docket/FWS-HQ-ES-2025-0029",
     "title": "Endangered and Threatened Wildlife and Plants; Regulations Pertaining to Endangered and Threatened Wildlife and Plants",
-    "comment_count": null,
-    "comment_start_date": null,
-    "comment_end_date": null,
+    "comment_count": 14620,
+    "comment_start_date": "2025-11-21",
+    "comment_end_date": "2025-12-23",
     "docket_type": "Rulemaking",
     "last_modified": "2026-01-20T19:54:46Z",
-    "fetched_at": "2026-06-01T05:00:00.558770Z"
+    "fetched_at": "2026-06-01T05:00:00.558770Z",
+    "open_for_comment": false,
+    "comment_fetched_at": "2026-06-07T17:03:38.407786+00:00"
   },
   "1018-BI75": {
     "rin": "1018-BI75",
@@ -8039,7 +8047,7 @@
     "last_modified": "2026-05-28T14:07:57Z",
     "fetched_at": "2026-06-01T05:01:32.927307Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-06T15:15:14.718118+00:00"
+    "comment_fetched_at": "2026-06-07T17:03:42.708773+00:00"
   },
   "1018-BH14": {
     "rin": "1018-BH14",
@@ -8193,7 +8201,7 @@
     "last_modified": "2025-08-18T13:25:37Z",
     "fetched_at": "2026-06-01T05:02:34.385298Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T15:16:43.897219+00:00"
+    "comment_fetched_at": "2026-06-07T17:03:47.025915+00:00"
   },
   "1018-BI08": {
     "rin": "1018-BI08",
@@ -8501,7 +8509,7 @@
     "last_modified": "2026-05-27T13:29:08Z",
     "fetched_at": "2026-06-01T05:04:41.271572Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T15:19:43.318958+00:00"
+    "comment_fetched_at": "2026-06-07T17:03:51.345248+00:00"
   },
   "1018-BF80": {
     "rin": "1018-BF80",
@@ -9215,7 +9223,7 @@
     "last_modified": "2026-05-05T15:34:47Z",
     "fetched_at": "2026-06-01T05:13:08.337509Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T15:28:22.833118+00:00"
+    "comment_fetched_at": "2026-06-07T17:03:55.839883+00:00"
   },
   "1018-BC76": {
     "rin": "1018-BC76",
@@ -9467,7 +9475,7 @@
     "last_modified": "2025-06-18T12:35:01Z",
     "fetched_at": "2026-06-01T05:17:30.410850Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T15:30:48.842324+00:00"
+    "comment_fetched_at": "2026-06-07T17:04:00.174471+00:00"
   },
   "1024-AE47": {
     "rin": "1024-AE47",
@@ -9523,7 +9531,7 @@
     "last_modified": "2025-01-17T08:40:09Z",
     "fetched_at": "2026-06-01T05:18:01.096302Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T15:31:22.008411+00:00"
+    "comment_fetched_at": "2026-06-07T17:04:04.466281+00:00"
   },
   "1029-AC89": {
     "rin": "1029-AC89",
@@ -9551,7 +9559,7 @@
     "last_modified": "2025-12-10T14:43:32Z",
     "fetched_at": "2026-06-01T05:18:09.843899Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T15:31:37.971452+00:00"
+    "comment_fetched_at": "2026-06-07T17:04:08.762861+00:00"
   },
   "1029-AC88": {
     "rin": "1029-AC88",
@@ -10209,7 +10217,7 @@
     "last_modified": "2026-05-21T14:20:22Z",
     "fetched_at": "2026-06-01T05:24:59.649982Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T15:37:56.547608+00:00"
+    "comment_fetched_at": "2026-06-07T17:04:13.060019+00:00"
   },
   "1120-AB71": {
     "rin": "1120-AB71",
@@ -10321,7 +10329,7 @@
     "last_modified": "2024-08-26T13:00:08Z",
     "fetched_at": "2026-06-01T05:25:51.832518Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T15:39:01.153763+00:00"
+    "comment_fetched_at": "2026-06-07T17:04:17.351987+00:00"
   },
   "1121-AA83": {
     "rin": "1121-AA83",
@@ -10559,7 +10567,7 @@
     "last_modified": "2021-06-11T13:19:30Z",
     "fetched_at": "2026-06-01T05:45:43.780060Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T15:41:18.982273+00:00"
+    "comment_fetched_at": "2026-06-07T17:04:21.644319+00:00"
   },
   "1140-AA08": {
     "rin": "1140-AA08",
@@ -10573,7 +10581,7 @@
     "last_modified": "2024-08-26T12:59:30Z",
     "fetched_at": "2026-06-01T05:46:23.142947Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T15:41:27.028500+00:00"
+    "comment_fetched_at": "2026-06-07T17:04:25.942461+00:00"
   },
   "1140-AA44": {
     "rin": "1140-AA44",
@@ -10629,7 +10637,7 @@
     "last_modified": "2026-05-28T17:44:03Z",
     "fetched_at": "2026-06-01T05:47:15.244807Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T15:41:59.235037+00:00"
+    "comment_fetched_at": "2026-06-07T17:04:30.247796+00:00"
   },
   "1190-AA76": {
     "rin": "1190-AA76",
@@ -10853,7 +10861,7 @@
     "last_modified": "2024-08-26T13:12:13Z",
     "fetched_at": "2026-06-01T05:48:53.894013Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T15:44:08.317727+00:00"
+    "comment_fetched_at": "2026-06-07T17:04:34.536049+00:00"
   },
   "1210-AC27": {
     "rin": "1210-AC27",
@@ -10881,7 +10889,7 @@
     "last_modified": "2024-08-26T13:06:59Z",
     "fetched_at": "2026-06-01T05:49:28.961205Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T15:44:24.343728+00:00"
+    "comment_fetched_at": "2026-06-07T17:04:38.849746+00:00"
   },
   "1210-AC17": {
     "rin": "1210-AC17",
@@ -10895,7 +10903,7 @@
     "last_modified": "2024-08-26T13:00:42Z",
     "fetched_at": "2026-06-01T05:49:33.384552Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T15:44:32.424202+00:00"
+    "comment_fetched_at": "2026-06-07T17:04:43.569547+00:00"
   },
   "1210-AC21": {
     "rin": "1210-AC21",
@@ -11007,7 +11015,7 @@
     "last_modified": "2024-08-26T13:14:09Z",
     "fetched_at": "2026-06-01T05:50:41.666335Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T15:45:36.941757+00:00"
+    "comment_fetched_at": "2026-06-07T17:04:47.871494+00:00"
   },
   "1210-AC13": {
     "rin": "1210-AC13",
@@ -11021,7 +11029,7 @@
     "last_modified": "2024-08-26T13:13:44Z",
     "fetched_at": "2026-06-01T05:50:46.015893Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T15:45:45.004311+00:00"
+    "comment_fetched_at": "2026-06-07T17:04:52.376137+00:00"
   },
   "1210-AC25": {
     "rin": "1210-AC25",
@@ -11105,7 +11113,7 @@
     "last_modified": "2025-12-15T18:02:19Z",
     "fetched_at": "2026-06-01T05:51:47.144833Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T15:48:25.843946+00:00"
+    "comment_fetched_at": "2026-06-07T17:04:56.677352+00:00"
   },
   "1218-AD50": {
     "rin": "1218-AD50",
@@ -11819,7 +11827,7 @@
     "last_modified": "2026-05-18T18:05:58Z",
     "fetched_at": "2026-06-01T05:56:43.960873Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T15:55:16.366756+00:00"
+    "comment_fetched_at": "2026-06-07T17:05:01.031770+00:00"
   },
   "1235-AA45": {
     "rin": "1235-AA45",
@@ -11833,7 +11841,7 @@
     "last_modified": "2026-04-24T18:09:55Z",
     "fetched_at": "2026-06-01T05:56:52.637520Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T15:55:24.309071+00:00"
+    "comment_fetched_at": "2026-06-07T17:05:05.348625+00:00"
   },
   "1235-AA36": {
     "rin": "1235-AA36",
@@ -11889,7 +11897,7 @@
     "last_modified": "2024-12-17T11:03:08Z",
     "fetched_at": "2026-06-01T05:57:24.052636Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T15:55:56.462534+00:00"
+    "comment_fetched_at": "2026-06-07T17:05:09.861601+00:00"
   },
   "1240-AA16": {
     "rin": "1240-AA16",
@@ -12043,7 +12051,7 @@
     "last_modified": "2025-01-10T09:25:28Z",
     "fetched_at": "2026-06-01T05:58:20.893474Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T15:57:24.929775+00:00"
+    "comment_fetched_at": "2026-06-07T17:05:14.148601+00:00"
   },
   "1291-AA47": {
     "rin": "1291-AA47",
@@ -12141,7 +12149,7 @@
     "last_modified": "2024-09-12T01:01:57Z",
     "fetched_at": "2026-06-01T05:59:17.566026Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T15:58:20.968370+00:00"
+    "comment_fetched_at": "2026-06-07T17:05:18.443628+00:00"
   },
   "1400-AF61": {
     "rin": "1400-AF61",
@@ -12456,12 +12464,14 @@
     "docket_id": "DOT-OST-2026-1651",
     "docket_url": "https://www.regulations.gov/docket/DOT-OST-2026-1651",
     "title": "One-Page Document on Passenger Rights",
-    "comment_count": null,
+    "comment_count": 0,
     "comment_start_date": null,
     "comment_end_date": null,
     "docket_type": "Rulemaking",
     "last_modified": "2026-04-24T15:17:55Z",
-    "fetched_at": "2026-06-01T06:04:59.758908Z"
+    "fetched_at": "2026-06-01T06:04:59.758908Z",
+    "open_for_comment": null,
+    "comment_fetched_at": "2026-06-07T17:05:22.735146+00:00"
   },
   "2105-AF15": {
     "rin": "2105-AF15",
@@ -12489,7 +12499,7 @@
     "last_modified": "2025-11-25T18:38:57Z",
     "fetched_at": "2026-06-01T06:05:25.763931Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T16:26:51.652449+00:00"
+    "comment_fetched_at": "2026-06-07T17:05:27.023923+00:00"
   },
   "2105-AE97": {
     "rin": "2105-AE97",
@@ -12559,7 +12569,7 @@
     "last_modified": "2026-05-29T15:22:49Z",
     "fetched_at": "2026-06-01T06:06:17.810870Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T16:27:32.024106+00:00"
+    "comment_fetched_at": "2026-06-07T17:05:31.324543+00:00"
   },
   "2120-AL82": {
     "rin": "2120-AL82",
@@ -12587,7 +12597,7 @@
     "last_modified": "2026-05-29T10:40:32Z",
     "fetched_at": "2026-06-01T06:06:43.812648Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T16:27:48.092597+00:00"
+    "comment_fetched_at": "2026-06-07T17:05:35.618277+00:00"
   },
   "2120-AM12": {
     "rin": "2120-AM12",
@@ -12839,7 +12849,7 @@
     "last_modified": "2025-04-11T15:54:34Z",
     "fetched_at": "2026-06-01T06:08:20.386712Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T16:30:14.162670+00:00"
+    "comment_fetched_at": "2026-06-07T17:05:39.915574+00:00"
   },
   "2120-AK09": {
     "rin": "2120-AK09",
@@ -12853,7 +12863,7 @@
     "last_modified": "2024-08-26T13:13:03Z",
     "fetched_at": "2026-06-01T06:08:24.749509Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T16:30:22.193338+00:00"
+    "comment_fetched_at": "2026-06-07T17:05:44.204798+00:00"
   },
   "2120-AK81": {
     "rin": "2120-AK81",
@@ -12951,7 +12961,7 @@
     "last_modified": "2025-09-29T15:56:27Z",
     "fetched_at": "2026-06-01T06:09:03.798295Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T16:31:19.129063+00:00"
+    "comment_fetched_at": "2026-06-07T17:05:48.501490+00:00"
   },
   "2120-AM06": {
     "rin": "2120-AM06",
@@ -12965,7 +12975,7 @@
     "last_modified": "2025-01-03T08:26:20Z",
     "fetched_at": "2026-06-01T06:09:12.496237Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T16:31:27.106377+00:00"
+    "comment_fetched_at": "2026-06-07T17:05:52.795088+00:00"
   },
   "2120-AM07": {
     "rin": "2120-AM07",
@@ -12979,7 +12989,7 @@
     "last_modified": "2025-03-11T08:21:28Z",
     "fetched_at": "2026-06-01T06:09:16.835662Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T16:31:35.152735+00:00"
+    "comment_fetched_at": "2026-06-07T17:05:57.285541+00:00"
   },
   "2120-AM08": {
     "rin": "2120-AM08",
@@ -12993,7 +13003,7 @@
     "last_modified": "2025-03-11T08:18:14Z",
     "fetched_at": "2026-06-01T06:09:21.208780Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T16:31:43.112164+00:00"
+    "comment_fetched_at": "2026-06-07T17:06:01.584249+00:00"
   },
   "2125-AG28": {
     "rin": "2125-AG28",
@@ -13203,7 +13213,7 @@
     "last_modified": "2025-06-03T13:13:10Z",
     "fetched_at": "2026-06-01T06:11:10.158170Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T16:44:00.703236+00:00"
+    "comment_fetched_at": "2026-06-07T17:06:05.889766+00:00"
   },
   "2125-AG00": {
     "rin": "2125-AG00",
@@ -13273,7 +13283,7 @@
     "last_modified": "2025-05-13T14:51:43Z",
     "fetched_at": "2026-06-01T06:11:40.596294Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T16:44:40.938714+00:00"
+    "comment_fetched_at": "2026-06-07T17:06:10.178930+00:00"
   },
   "2126-AB17": {
     "rin": "2126-AB17",
@@ -13287,7 +13297,7 @@
     "last_modified": "2024-08-26T13:10:07Z",
     "fetched_at": "2026-06-01T06:11:53.610093Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T16:44:48.922106+00:00"
+    "comment_fetched_at": "2026-06-07T17:06:14.478616+00:00"
   },
   "2126-AB56": {
     "rin": "2126-AB56",
@@ -13301,7 +13311,7 @@
     "last_modified": "2024-09-20T08:35:02Z",
     "fetched_at": "2026-06-01T06:12:02.297545Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T16:44:57.109499+00:00"
+    "comment_fetched_at": "2026-06-07T17:06:18.938282+00:00"
   },
   "2126-AC16": {
     "rin": "2126-AC16",
@@ -13385,7 +13395,7 @@
     "last_modified": "2026-05-27T11:57:19Z",
     "fetched_at": "2026-06-01T06:12:58.706540Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-06T16:45:45.730309+00:00"
+    "comment_fetched_at": "2026-06-07T17:06:23.229717+00:00"
   },
   "2126-AC74": {
     "rin": "2126-AC74",
@@ -13427,7 +13437,7 @@
     "last_modified": "2026-05-19T12:37:01Z",
     "fetched_at": "2026-06-01T06:13:16.272316Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T16:46:10.007647+00:00"
+    "comment_fetched_at": "2026-06-07T17:06:27.531177+00:00"
   },
   "2126-AC82": {
     "rin": "2126-AC82",
@@ -13791,7 +13801,7 @@
     "last_modified": "2025-02-24T10:50:08Z",
     "fetched_at": "2026-06-01T06:15:39.536186Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T16:49:50.311743+00:00"
+    "comment_fetched_at": "2026-06-07T17:06:31.845447+00:00"
   },
   "2126-AC76": {
     "rin": "2126-AC76",
@@ -13819,7 +13829,7 @@
     "last_modified": "2025-05-30T12:51:18Z",
     "fetched_at": "2026-06-01T06:15:48.206090Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T16:50:06.272239+00:00"
+    "comment_fetched_at": "2026-06-07T17:06:36.135762+00:00"
   },
   "2126-AC80": {
     "rin": "2126-AC80",
@@ -13833,7 +13843,7 @@
     "last_modified": "2025-05-30T12:56:29Z",
     "fetched_at": "2026-06-01T06:15:52.687395Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T16:50:14.222903+00:00"
+    "comment_fetched_at": "2026-06-07T17:06:40.439564+00:00"
   },
   "2127-AL57": {
     "rin": "2127-AL57",
@@ -13889,7 +13899,7 @@
     "last_modified": "2026-02-03T21:27:53Z",
     "fetched_at": "2026-06-01T06:16:18.698934Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T16:50:46.897808+00:00"
+    "comment_fetched_at": "2026-06-07T17:06:44.737903+00:00"
   },
   "2127-AM50": {
     "rin": "2127-AM50",
@@ -13973,7 +13983,7 @@
     "last_modified": "2025-12-11T12:37:23Z",
     "fetched_at": "2026-06-01T06:16:57.776682Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T16:51:38.522353+00:00"
+    "comment_fetched_at": "2026-06-07T17:06:49.040375+00:00"
   },
   "2127-AL66": {
     "rin": "2127-AL66",
@@ -14113,7 +14123,7 @@
     "last_modified": "2026-05-26T18:55:33Z",
     "fetched_at": "2026-06-01T06:19:12.393921Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-06T16:52:59.999962+00:00"
+    "comment_fetched_at": "2026-06-07T17:06:53.357868+00:00"
   },
   "2127-AL62": {
     "rin": "2127-AL62",
@@ -14183,7 +14193,7 @@
     "last_modified": "2026-01-15T13:26:38Z",
     "fetched_at": "2026-06-01T06:20:56.520509Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T16:53:40.127520+00:00"
+    "comment_fetched_at": "2026-06-07T17:06:57.660338+00:00"
   },
   "2127-AK17": {
     "rin": "2127-AK17",
@@ -14281,7 +14291,7 @@
     "last_modified": "2024-12-16T07:12:33Z",
     "fetched_at": "2026-06-01T06:21:57.322879Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T16:54:36.509563+00:00"
+    "comment_fetched_at": "2026-06-07T17:07:01.956124+00:00"
   },
   "2127-AL85": {
     "rin": "2127-AL85",
@@ -14351,7 +14361,7 @@
     "last_modified": "2025-02-14T09:28:45Z",
     "fetched_at": "2026-06-01T06:22:23.386310Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T16:55:16.440320+00:00"
+    "comment_fetched_at": "2026-06-07T17:07:06.253827+00:00"
   },
   "2127-AM62": {
     "rin": "2127-AM62",
@@ -14799,7 +14809,7 @@
     "last_modified": "2025-07-01T15:40:24Z",
     "fetched_at": "2026-06-01T06:25:34.590558Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T16:59:31.542404+00:00"
+    "comment_fetched_at": "2026-06-07T17:07:10.561421+00:00"
   },
   "2130-AD07": {
     "rin": "2130-AD07",
@@ -14813,7 +14823,7 @@
     "last_modified": "2026-04-28T13:24:21Z",
     "fetched_at": "2026-06-01T06:25:38.937212Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T16:59:39.453957+00:00"
+    "comment_fetched_at": "2026-06-07T17:07:14.849132+00:00"
   },
   "2130-AD08": {
     "rin": "2130-AD08",
@@ -14827,7 +14837,7 @@
     "last_modified": "2025-07-01T15:15:33Z",
     "fetched_at": "2026-06-01T06:25:43.281191Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T16:59:47.362773+00:00"
+    "comment_fetched_at": "2026-06-07T17:07:19.147095+00:00"
   },
   "2130-AD09": {
     "rin": "2130-AD09",
@@ -14841,7 +14851,7 @@
     "last_modified": "2025-07-01T15:17:28Z",
     "fetched_at": "2026-06-01T06:25:47.625116Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T16:59:55.292385+00:00"
+    "comment_fetched_at": "2026-06-07T17:07:23.438589+00:00"
   },
   "2130-AD10": {
     "rin": "2130-AD10",
@@ -14855,7 +14865,7 @@
     "last_modified": "2025-07-01T15:03:53Z",
     "fetched_at": "2026-06-01T06:25:51.984624Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:00:03.247947+00:00"
+    "comment_fetched_at": "2026-06-07T17:07:27.730228+00:00"
   },
   "2130-AD12": {
     "rin": "2130-AD12",
@@ -14869,7 +14879,7 @@
     "last_modified": "2025-12-05T17:19:09Z",
     "fetched_at": "2026-06-01T06:25:56.327523Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:00:11.189103+00:00"
+    "comment_fetched_at": "2026-06-07T17:07:32.022114+00:00"
   },
   "2130-AD13": {
     "rin": "2130-AD13",
@@ -14883,7 +14893,7 @@
     "last_modified": "2025-07-01T15:26:00Z",
     "fetched_at": "2026-06-01T06:26:00.664945Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:00:19.187579+00:00"
+    "comment_fetched_at": "2026-06-07T17:07:36.322704+00:00"
   },
   "2130-AD15": {
     "rin": "2130-AD15",
@@ -14897,7 +14907,7 @@
     "last_modified": "2025-07-01T14:41:57Z",
     "fetched_at": "2026-06-01T06:26:05.011416Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:00:27.122527+00:00"
+    "comment_fetched_at": "2026-06-07T17:07:40.618781+00:00"
   },
   "2130-AD16": {
     "rin": "2130-AD16",
@@ -14911,7 +14921,7 @@
     "last_modified": "2025-07-01T15:29:36Z",
     "fetched_at": "2026-06-01T06:26:09.356734Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:00:35.036638+00:00"
+    "comment_fetched_at": "2026-06-07T17:07:44.923939+00:00"
   },
   "2130-AD17": {
     "rin": "2130-AD17",
@@ -14925,7 +14935,7 @@
     "last_modified": "2025-07-01T15:35:43Z",
     "fetched_at": "2026-06-01T06:26:13.702027Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:00:42.976600+00:00"
+    "comment_fetched_at": "2026-06-07T17:07:49.221381+00:00"
   },
   "2130-AD19": {
     "rin": "2130-AD19",
@@ -14939,7 +14949,7 @@
     "last_modified": "2025-07-01T14:59:53Z",
     "fetched_at": "2026-06-01T06:26:18.033218Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:00:50.998522+00:00"
+    "comment_fetched_at": "2026-06-07T17:07:53.515705+00:00"
   },
   "2130-AD20": {
     "rin": "2130-AD20",
@@ -14953,7 +14963,7 @@
     "last_modified": "2025-07-01T15:16:28Z",
     "fetched_at": "2026-06-01T06:26:22.361521Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:00:58.930719+00:00"
+    "comment_fetched_at": "2026-06-07T17:07:57.808740+00:00"
   },
   "2130-AD21": {
     "rin": "2130-AD21",
@@ -14967,7 +14977,7 @@
     "last_modified": "2025-07-01T15:14:38Z",
     "fetched_at": "2026-06-01T06:26:26.704496Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:01:06.894606+00:00"
+    "comment_fetched_at": "2026-06-07T17:08:02.114366+00:00"
   },
   "2130-AD23": {
     "rin": "2130-AD23",
@@ -14981,7 +14991,7 @@
     "last_modified": "2025-07-01T15:31:36Z",
     "fetched_at": "2026-06-01T06:26:31.041237Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:01:14.811287+00:00"
+    "comment_fetched_at": "2026-06-07T17:08:06.403081+00:00"
   },
   "2130-AD25": {
     "rin": "2130-AD25",
@@ -14995,7 +15005,7 @@
     "last_modified": "2025-07-01T15:44:14Z",
     "fetched_at": "2026-06-01T06:26:35.380445Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:01:22.770458+00:00"
+    "comment_fetched_at": "2026-06-07T17:08:10.702523+00:00"
   },
   "2130-AD26": {
     "rin": "2130-AD26",
@@ -15009,7 +15019,7 @@
     "last_modified": "2025-07-01T14:54:21Z",
     "fetched_at": "2026-06-01T06:26:39.718018Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:01:30.704033+00:00"
+    "comment_fetched_at": "2026-06-07T17:08:15.001834+00:00"
   },
   "2130-AD27": {
     "rin": "2130-AD27",
@@ -15023,7 +15033,7 @@
     "last_modified": "2025-07-01T15:12:26Z",
     "fetched_at": "2026-06-01T06:26:44.059515Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:01:38.599481+00:00"
+    "comment_fetched_at": "2026-06-07T17:08:19.286208+00:00"
   },
   "2130-AD29": {
     "rin": "2130-AD29",
@@ -15037,7 +15047,7 @@
     "last_modified": "2025-07-01T15:34:44Z",
     "fetched_at": "2026-06-01T06:26:48.401677Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:01:46.516523+00:00"
+    "comment_fetched_at": "2026-06-07T17:08:23.574701+00:00"
   },
   "2130-AD30": {
     "rin": "2130-AD30",
@@ -15051,7 +15061,7 @@
     "last_modified": "2025-07-01T15:02:45Z",
     "fetched_at": "2026-06-01T06:26:52.742924Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:01:54.456549+00:00"
+    "comment_fetched_at": "2026-06-07T17:08:27.872033+00:00"
   },
   "2130-AD31": {
     "rin": "2130-AD31",
@@ -15065,7 +15075,7 @@
     "last_modified": "2025-07-01T14:49:22Z",
     "fetched_at": "2026-06-01T06:26:57.093222Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:02:02.373573+00:00"
+    "comment_fetched_at": "2026-06-07T17:08:32.160468+00:00"
   },
   "2130-AD33": {
     "rin": "2130-AD33",
@@ -15079,7 +15089,7 @@
     "last_modified": "2025-07-01T15:18:25Z",
     "fetched_at": "2026-06-01T06:27:01.442714Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:02:10.267171+00:00"
+    "comment_fetched_at": "2026-06-07T17:08:36.467463+00:00"
   },
   "2130-AD34": {
     "rin": "2130-AD34",
@@ -15093,7 +15103,7 @@
     "last_modified": "2025-07-01T15:27:05Z",
     "fetched_at": "2026-06-01T06:27:05.775941Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:02:18.202101+00:00"
+    "comment_fetched_at": "2026-06-07T17:08:40.776929+00:00"
   },
   "2130-AD35": {
     "rin": "2130-AD35",
@@ -15107,7 +15117,7 @@
     "last_modified": "2025-07-01T15:19:31Z",
     "fetched_at": "2026-06-01T06:27:10.116178Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:02:26.145046+00:00"
+    "comment_fetched_at": "2026-06-07T17:08:45.074238+00:00"
   },
   "2130-AD36": {
     "rin": "2130-AD36",
@@ -15121,7 +15131,7 @@
     "last_modified": "2025-07-01T15:41:30Z",
     "fetched_at": "2026-06-01T06:27:14.444564Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:02:34.117456+00:00"
+    "comment_fetched_at": "2026-06-07T17:08:49.370721+00:00"
   },
   "2130-AD37": {
     "rin": "2130-AD37",
@@ -15135,7 +15145,7 @@
     "last_modified": "2025-07-01T15:07:05Z",
     "fetched_at": "2026-06-01T06:27:18.782378Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:02:42.061089+00:00"
+    "comment_fetched_at": "2026-06-07T17:08:53.657364+00:00"
   },
   "2130-AD38": {
     "rin": "2130-AD38",
@@ -15149,7 +15159,7 @@
     "last_modified": "2025-07-01T15:43:18Z",
     "fetched_at": "2026-06-01T06:27:23.143124Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:02:50.030392+00:00"
+    "comment_fetched_at": "2026-06-07T17:08:57.949376+00:00"
   },
   "2130-AD40": {
     "rin": "2130-AD40",
@@ -15163,7 +15173,7 @@
     "last_modified": "2025-07-01T14:45:09Z",
     "fetched_at": "2026-06-01T06:27:27.571648Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:02:57.953940+00:00"
+    "comment_fetched_at": "2026-06-07T17:09:02.245279+00:00"
   },
   "2130-AD41": {
     "rin": "2130-AD41",
@@ -15177,7 +15187,7 @@
     "last_modified": "2025-07-01T15:01:22Z",
     "fetched_at": "2026-06-01T06:27:31.906533Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:03:05.893336+00:00"
+    "comment_fetched_at": "2026-06-07T17:09:06.536812+00:00"
   },
   "2130-AD42": {
     "rin": "2130-AD42",
@@ -15191,7 +15201,7 @@
     "last_modified": "2025-07-01T15:25:03Z",
     "fetched_at": "2026-06-01T06:27:36.239372Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:03:13.853142+00:00"
+    "comment_fetched_at": "2026-06-07T17:09:10.835791+00:00"
   },
   "2130-AD43": {
     "rin": "2130-AD43",
@@ -15205,7 +15215,7 @@
     "last_modified": "2025-07-01T14:55:52Z",
     "fetched_at": "2026-06-01T06:27:40.747292Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:03:21.789503+00:00"
+    "comment_fetched_at": "2026-06-07T17:09:15.148156+00:00"
   },
   "2130-AD45": {
     "rin": "2130-AD45",
@@ -15219,7 +15229,7 @@
     "last_modified": "2025-07-01T15:10:16Z",
     "fetched_at": "2026-06-01T06:27:45.086335Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:03:29.704060+00:00"
+    "comment_fetched_at": "2026-06-07T17:09:19.438052+00:00"
   },
   "2130-AD47": {
     "rin": "2130-AD47",
@@ -15233,7 +15243,7 @@
     "last_modified": "2025-07-01T15:37:35Z",
     "fetched_at": "2026-06-01T06:27:49.431450Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:03:37.640650+00:00"
+    "comment_fetched_at": "2026-06-07T17:09:23.729442+00:00"
   },
   "2130-AD48": {
     "rin": "2130-AD48",
@@ -15247,7 +15257,7 @@
     "last_modified": "2025-07-01T14:50:28Z",
     "fetched_at": "2026-06-01T06:27:53.771654Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:03:45.559677+00:00"
+    "comment_fetched_at": "2026-06-07T17:09:28.017990+00:00"
   },
   "2130-AD52": {
     "rin": "2130-AD52",
@@ -15261,7 +15271,7 @@
     "last_modified": "2025-07-01T15:04:55Z",
     "fetched_at": "2026-06-01T06:27:58.111712Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:03:53.495261+00:00"
+    "comment_fetched_at": "2026-06-07T17:09:32.314621+00:00"
   },
   "2130-AD53": {
     "rin": "2130-AD53",
@@ -15275,7 +15285,7 @@
     "last_modified": "2025-07-01T15:23:11Z",
     "fetched_at": "2026-06-01T06:28:02.442761Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:04:01.436971+00:00"
+    "comment_fetched_at": "2026-06-07T17:09:36.606719+00:00"
   },
   "2130-AD56": {
     "rin": "2130-AD56",
@@ -15289,7 +15299,7 @@
     "last_modified": "2025-07-01T15:24:06Z",
     "fetched_at": "2026-06-01T06:28:06.775873Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:04:09.349291+00:00"
+    "comment_fetched_at": "2026-06-07T17:09:40.895443+00:00"
   },
   "2132-AB46": {
     "rin": "2132-AB46",
@@ -15429,7 +15439,7 @@
     "last_modified": "2025-07-01T13:18:27Z",
     "fetched_at": "2026-06-01T06:29:24.884399Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:05:28.979666+00:00"
+    "comment_fetched_at": "2026-06-07T17:09:45.192043+00:00"
   },
   "2132-AB53": {
     "rin": "2132-AB53",
@@ -15443,7 +15453,7 @@
     "last_modified": "2025-07-01T13:21:55Z",
     "fetched_at": "2026-06-01T06:29:29.223907Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:05:36.896735+00:00"
+    "comment_fetched_at": "2026-06-07T17:09:49.482281+00:00"
   },
   "2132-AB54": {
     "rin": "2132-AB54",
@@ -15457,7 +15467,7 @@
     "last_modified": "2025-07-01T13:19:17Z",
     "fetched_at": "2026-06-01T06:29:33.568589Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:05:44.828218+00:00"
+    "comment_fetched_at": "2026-06-07T17:09:53.774051+00:00"
   },
   "2132-AB55": {
     "rin": "2132-AB55",
@@ -15471,7 +15481,7 @@
     "last_modified": "2025-07-01T13:20:14Z",
     "fetched_at": "2026-06-01T06:29:37.904398Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:05:52.760601+00:00"
+    "comment_fetched_at": "2026-06-07T17:09:58.070974+00:00"
   },
   "2132-AB56": {
     "rin": "2132-AB56",
@@ -15485,7 +15495,7 @@
     "last_modified": "2025-07-01T13:17:35Z",
     "fetched_at": "2026-06-01T06:29:42.253844Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:06:00.663803+00:00"
+    "comment_fetched_at": "2026-06-07T17:10:02.372249+00:00"
   },
   "2133-AC00": {
     "rin": "2133-AC00",
@@ -15499,7 +15509,7 @@
     "last_modified": "2026-01-15T13:23:59Z",
     "fetched_at": "2026-06-01T06:30:25.715551Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:06:08.581384+00:00"
+    "comment_fetched_at": "2026-06-07T17:10:06.665905+00:00"
   },
   "2137-AF44": {
     "rin": "2137-AF44",
@@ -15597,7 +15607,7 @@
     "last_modified": "2026-04-24T15:15:30Z",
     "fetched_at": "2026-06-01T06:31:48.136287Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T17:07:04.414969+00:00"
+    "comment_fetched_at": "2026-06-07T17:10:10.962485+00:00"
   },
   "2137-AF64": {
     "rin": "2137-AF64",
@@ -15919,7 +15929,7 @@
     "last_modified": "2025-05-20T13:12:09Z",
     "fetched_at": "2026-06-01T06:34:16.139754Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:10:07.606397+00:00"
+    "comment_fetched_at": "2026-06-07T17:10:15.258488+00:00"
   },
   "2137-AF37": {
     "rin": "2137-AF37",
@@ -16059,7 +16069,7 @@
     "last_modified": "2026-05-30T01:43:41Z",
     "fetched_at": "2026-06-01T06:37:10.206510Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-06T17:11:27.848863+00:00"
+    "comment_fetched_at": "2026-06-07T17:10:19.550004+00:00"
   },
   "1506-AB52": {
     "rin": "1506-AB52",
@@ -16227,7 +16237,7 @@
     "last_modified": "2026-05-26T13:23:20Z",
     "fetched_at": "2026-06-01T06:39:11.586499Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-06T17:13:03.917640+00:00"
+    "comment_fetched_at": "2026-06-07T17:10:23.873991+00:00"
   },
   "1513-AC75": {
     "rin": "1513-AC75",
@@ -16815,7 +16825,7 @@
     "last_modified": "2026-05-19T13:19:30Z",
     "fetched_at": "2026-06-01T06:48:59.923304Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T17:18:40.456665+00:00"
+    "comment_fetched_at": "2026-06-07T17:10:28.172396+00:00"
   },
   "1545-BQ37": {
     "rin": "1545-BQ37",
@@ -16997,7 +17007,7 @@
     "last_modified": "2026-02-13T15:08:51Z",
     "fetched_at": "2026-06-01T06:52:28.755154Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:20:24.018689+00:00"
+    "comment_fetched_at": "2026-06-07T17:10:32.677998+00:00"
   },
   "1545-BE31": {
     "rin": "1545-BE31",
@@ -17053,7 +17063,7 @@
     "last_modified": "2024-08-26T13:08:49Z",
     "fetched_at": "2026-06-01T06:52:50.464830Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:20:55.934742+00:00"
+    "comment_fetched_at": "2026-06-07T17:10:36.970927+00:00"
   },
   "1545-BI04": {
     "rin": "1545-BI04",
@@ -17613,7 +17623,7 @@
     "last_modified": "2024-08-26T13:00:47Z",
     "fetched_at": "2026-06-01T06:56:15.253033Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:26:16.161936+00:00"
+    "comment_fetched_at": "2026-06-07T17:10:41.271938+00:00"
   },
   "1545-BQ58": {
     "rin": "1545-BQ58",
@@ -18075,7 +18085,7 @@
     "last_modified": "2024-12-02T10:37:46Z",
     "fetched_at": "2026-06-01T07:00:20.158653Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:42:31.931743+00:00"
+    "comment_fetched_at": "2026-06-07T17:10:45.576306+00:00"
   },
   "1545-BM41": {
     "rin": "1545-BM41",
@@ -18299,7 +18309,7 @@
     "last_modified": "2026-05-27T22:44:54Z",
     "fetched_at": "2026-06-01T07:02:17.343306Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-06T17:44:39.932977+00:00"
+    "comment_fetched_at": "2026-06-07T17:10:49.877417+00:00"
   },
   "1557-AF29": {
     "rin": "1557-AF29",
@@ -18341,7 +18351,7 @@
     "last_modified": "2026-05-12T12:54:08Z",
     "fetched_at": "2026-06-01T07:02:43.377980Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T17:45:04.148152+00:00"
+    "comment_fetched_at": "2026-06-07T17:10:54.187076+00:00"
   },
   "1557-AF21": {
     "rin": "1557-AF21",
@@ -18397,7 +18407,7 @@
     "last_modified": "2024-10-15T11:04:33Z",
     "fetched_at": "2026-06-01T07:03:00.745897Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:45:36.246154+00:00"
+    "comment_fetched_at": "2026-06-07T17:10:58.717672+00:00"
   },
   "2900-AQ89": {
     "rin": "2900-AQ89",
@@ -18593,7 +18603,7 @@
     "last_modified": "2025-10-02T11:41:40Z",
     "fetched_at": "2026-06-01T07:04:14.738926Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T17:47:29.417730+00:00"
+    "comment_fetched_at": "2026-06-07T17:11:03.016276+00:00"
   },
   "2900-AQ08": {
     "rin": "2900-AQ08",
@@ -19069,7 +19079,7 @@
     "last_modified": "2025-09-25T12:50:26Z",
     "fetched_at": "2026-06-01T07:07:21.670029Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T18:51:19.546986+00:00"
+    "comment_fetched_at": "2026-06-07T17:11:07.325689+00:00"
   },
   "2900-AR33": {
     "rin": "2900-AR33",
@@ -19111,7 +19121,7 @@
     "last_modified": "2024-11-12T08:45:55Z",
     "fetched_at": "2026-06-01T07:08:18.087674Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T18:51:43.860470+00:00"
+    "comment_fetched_at": "2026-06-07T17:11:11.635955+00:00"
   },
   "2009-AA05": {
     "rin": "2009-AA05",
@@ -19153,7 +19163,7 @@
     "last_modified": "2026-05-28T21:37:21Z",
     "fetched_at": "2026-06-01T07:09:14.776283Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T18:52:10.445820+00:00"
+    "comment_fetched_at": "2026-06-07T17:11:15.929605+00:00"
   },
   "2040-AG44": {
     "rin": "2040-AG44",
@@ -19195,7 +19205,7 @@
     "last_modified": "2026-03-12T16:08:47Z",
     "fetched_at": "2026-06-01T07:09:49.436431Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T18:52:35.429794+00:00"
+    "comment_fetched_at": "2026-06-07T17:11:20.877373+00:00"
   },
   "2040-AG49": {
     "rin": "2040-AG49",
@@ -19209,7 +19219,7 @@
     "last_modified": "2026-05-28T19:24:39Z",
     "fetched_at": "2026-06-01T07:09:53.772034Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T18:52:44.055247+00:00"
+    "comment_fetched_at": "2026-06-07T17:11:25.249687+00:00"
   },
   "2040-AG53": {
     "rin": "2040-AG53",
@@ -19223,7 +19233,7 @@
     "last_modified": "2026-05-28T21:37:21Z",
     "fetched_at": "2026-06-01T07:09:58.111774Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T18:52:52.115183+00:00"
+    "comment_fetched_at": "2026-06-07T17:11:29.552711+00:00"
   },
   "2040-AG30": {
     "rin": "2040-AG30",
@@ -19237,7 +19247,7 @@
     "last_modified": "2025-09-29T13:28:12Z",
     "fetched_at": "2026-06-01T07:10:11.761932Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T18:53:00.238031+00:00"
+    "comment_fetched_at": "2026-06-07T17:11:33.860464+00:00"
   },
   "2040-AG37": {
     "rin": "2040-AG37",
@@ -19293,7 +19303,7 @@
     "last_modified": "2024-08-26T13:14:25Z",
     "fetched_at": "2026-06-01T07:10:46.672864Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T18:53:42.304204+00:00"
+    "comment_fetched_at": "2026-06-07T17:11:46.767851+00:00"
   },
   "2040-AG46": {
     "rin": "2040-AG46",
@@ -19307,7 +19317,7 @@
     "last_modified": "2026-05-15T12:15:09Z",
     "fetched_at": "2026-06-01T07:11:06.177455Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T18:53:51.432004+00:00"
+    "comment_fetched_at": "2026-06-07T17:11:51.470900+00:00"
   },
   "2040-AD40": {
     "rin": "2040-AD40",
@@ -19335,7 +19345,7 @@
     "last_modified": "2024-12-17T09:25:16Z",
     "fetched_at": "2026-06-01T07:11:32.165342Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T18:54:07.613603+00:00"
+    "comment_fetched_at": "2026-06-07T17:11:55.768324+00:00"
   },
   "2040-AF81": {
     "rin": "2040-AF81",
@@ -19391,7 +19401,7 @@
     "last_modified": "2026-05-18T18:25:51Z",
     "fetched_at": "2026-06-01T07:12:02.524906Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-06T18:54:41.556481+00:00"
+    "comment_fetched_at": "2026-06-07T17:12:00.591982+00:00"
   },
   "2050-AH35": {
     "rin": "2050-AH35",
@@ -19503,7 +19513,7 @@
     "last_modified": "2026-05-28T12:34:53Z",
     "fetched_at": "2026-06-01T07:13:07.650316Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T18:55:48.053227+00:00"
+    "comment_fetched_at": "2026-06-07T17:12:04.909238+00:00"
   },
   "2050-AH29": {
     "rin": "2050-AH29",
@@ -19580,12 +19590,14 @@
     "docket_id": "EPA-HQ-OAR-2025-0207",
     "docket_url": "https://www.regulations.gov/docket/EPA-HQ-OAR-2025-0207",
     "title": "NESHAP Y - Marine Tank Vessel Loading Operations",
-    "comment_count": null,
-    "comment_start_date": null,
-    "comment_end_date": null,
+    "comment_count": 22,
+    "comment_start_date": "2026-03-04",
+    "comment_end_date": "2026-04-21",
     "docket_type": "Rulemaking",
     "last_modified": "2026-04-29T11:13:16Z",
-    "fetched_at": "2026-06-01T07:14:12.824850Z"
+    "fetched_at": "2026-06-01T07:14:12.824850Z",
+    "open_for_comment": false,
+    "comment_fetched_at": "2026-06-07T17:12:09.230575+00:00"
   },
   "2060-AW39": {
     "rin": "2060-AW39",
@@ -19641,7 +19653,7 @@
     "last_modified": "2026-05-29T20:48:04Z",
     "fetched_at": "2026-06-01T07:15:48.541713Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T23:10:43.237858+00:00"
+    "comment_fetched_at": "2026-06-07T17:12:13.558591+00:00"
   },
   "2060-AW88": {
     "rin": "2060-AW88",
@@ -19655,7 +19667,7 @@
     "last_modified": "2026-03-17T17:36:39Z",
     "fetched_at": "2026-06-01T07:16:01.547156Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T23:10:51.234475+00:00"
+    "comment_fetched_at": "2026-06-07T17:12:17.864876+00:00"
   },
   "2060-AO18": {
     "rin": "2060-AO18",
@@ -19767,7 +19779,7 @@
     "last_modified": "2025-05-21T18:05:15Z",
     "fetched_at": "2026-06-01T07:17:32.799384Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T23:11:56.145924+00:00"
+    "comment_fetched_at": "2026-06-07T17:12:22.165021+00:00"
   },
   "2060-AW78": {
     "rin": "2060-AW78",
@@ -20005,7 +20017,7 @@
     "last_modified": "2024-08-26T13:07:07Z",
     "fetched_at": "2026-06-01T07:22:19.235306Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T23:14:17.491594+00:00"
+    "comment_fetched_at": "2026-06-07T17:12:26.475057+00:00"
   },
   "2070-AK85": {
     "rin": "2070-AK85",
@@ -20061,7 +20073,7 @@
     "last_modified": "2024-08-26T13:00:35Z",
     "fetched_at": "2026-06-01T07:23:02.862931Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T23:14:51.868306+00:00"
+    "comment_fetched_at": "2026-06-07T17:12:30.796323+00:00"
   },
   "2070-AL13": {
     "rin": "2070-AL13",
@@ -20215,7 +20227,7 @@
     "last_modified": "2026-02-27T14:34:40Z",
     "fetched_at": "2026-06-01T07:25:08.751546Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T23:16:22.741429+00:00"
+    "comment_fetched_at": "2026-06-07T17:12:35.079004+00:00"
   },
   "0412-AA95": {
     "rin": "0412-AA95",
@@ -20271,7 +20283,7 @@
     "last_modified": "2026-05-29T14:21:55Z",
     "fetched_at": "2026-06-01T07:27:40.575452Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-06T23:16:55.178449+00:00"
+    "comment_fetched_at": "2026-06-07T17:12:39.451474+00:00"
   },
   "3038-AF47": {
     "rin": "3038-AF47",
@@ -20285,7 +20297,7 @@
     "last_modified": "2026-05-06T14:12:10Z",
     "fetched_at": "2026-06-01T07:28:36.854222Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T23:17:03.261373+00:00"
+    "comment_fetched_at": "2026-06-07T17:12:43.752815+00:00"
   },
   "3170-AB50": {
     "rin": "3170-AB50",
@@ -20635,7 +20647,7 @@
     "last_modified": "2025-01-17T13:51:30Z",
     "fetched_at": "2026-06-01T07:33:49.794735Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-06T23:26:08.506988+00:00"
+    "comment_fetched_at": "2026-06-07T17:12:48.058762+00:00"
   },
   "0331-AA10": {
     "rin": "0331-AA10",
@@ -20908,12 +20920,14 @@
     "docket_id": "FAR-2020-0009",
     "docket_url": "https://www.regulations.gov/docket/FAR-2020-0009",
     "title": "Federal Acquisition Regulations: List of Domestically Nonavailable Articles;  FAR Case 2020-009",
-    "comment_count": null,
-    "comment_start_date": null,
-    "comment_end_date": null,
+    "comment_count": 22,
+    "comment_start_date": "2024-10-23",
+    "comment_end_date": "2024-12-24",
     "docket_type": "Rulemaking",
     "last_modified": "2024-12-30T14:38:02Z",
-    "fetched_at": "2026-06-01T07:35:56.089356Z"
+    "fetched_at": "2026-06-01T07:35:56.089356Z",
+    "open_for_comment": false,
+    "comment_fetched_at": "2026-06-07T17:12:52.344961+00:00"
   },
   "9000-AO12": {
     "rin": "9000-AO12",
@@ -21039,7 +21053,7 @@
     "last_modified": "2026-05-15T12:54:55Z",
     "fetched_at": "2026-06-01T07:54:42.843002Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T00:48:26.116629+00:00"
+    "comment_fetched_at": "2026-06-07T17:12:56.672104+00:00"
   },
   "3072-AD04": {
     "rin": "3072-AD04",
@@ -21053,7 +21067,7 @@
     "last_modified": "2025-06-20T13:58:09Z",
     "fetched_at": "2026-06-01T07:54:47.180347Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T00:48:34.343000+00:00"
+    "comment_fetched_at": "2026-06-07T17:13:00.966932+00:00"
   },
   "3072-AD03": {
     "rin": "3072-AD03",
@@ -21067,7 +21081,7 @@
     "last_modified": "2025-01-14T09:26:28Z",
     "fetched_at": "2026-06-01T07:55:04.529649Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T00:48:42.318733+00:00"
+    "comment_fetched_at": "2026-06-07T17:13:05.258291+00:00"
   },
   "3084-AB50": {
     "rin": "3084-AB50",
@@ -21109,7 +21123,7 @@
     "last_modified": "2024-08-26T13:00:36Z",
     "fetched_at": "2026-06-01T07:58:34.466569Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T00:49:06.279440+00:00"
+    "comment_fetched_at": "2026-06-07T17:13:09.546831+00:00"
   },
   "3084-AB71": {
     "rin": "3084-AB71",
@@ -21165,7 +21179,7 @@
     "last_modified": "2024-08-26T12:59:49Z",
     "fetched_at": "2026-06-01T07:58:51.974154Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T00:49:38.322058+00:00"
+    "comment_fetched_at": "2026-06-07T17:13:13.849632+00:00"
   },
   "3084-AB19": {
     "rin": "3084-AB19",
@@ -21207,7 +21221,7 @@
     "last_modified": "2025-01-10T08:29:12Z",
     "fetched_at": "2026-06-01T07:59:09.371078Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T00:50:02.574299+00:00"
+    "comment_fetched_at": "2026-06-07T17:13:18.170307+00:00"
   },
   "3090-AK12": {
     "rin": "3090-AK12",
@@ -21221,7 +21235,7 @@
     "last_modified": "2026-03-10T12:42:32Z",
     "fetched_at": "2026-06-01T07:59:13.782715Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T00:50:10.576862+00:00"
+    "comment_fetched_at": "2026-06-07T17:13:22.472940+00:00"
   },
   "3090-AK92": {
     "rin": "3090-AK92",
@@ -21235,7 +21249,7 @@
     "last_modified": "2026-01-20T19:23:14Z",
     "fetched_at": "2026-06-01T07:59:22.487668Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T00:50:18.822216+00:00"
+    "comment_fetched_at": "2026-06-07T17:13:26.766057+00:00"
   },
   "3090-AL06": {
     "rin": "3090-AL06",
@@ -21249,7 +21263,7 @@
     "last_modified": "2026-01-20T19:11:43Z",
     "fetched_at": "2026-06-01T07:59:26.838717Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T00:50:26.839412+00:00"
+    "comment_fetched_at": "2026-06-07T17:13:31.062961+00:00"
   },
   "3090-AK39": {
     "rin": "3090-AK39",
@@ -21305,7 +21319,7 @@
     "last_modified": "2025-04-15T10:23:03Z",
     "fetched_at": "2026-06-01T08:00:01.706710Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T00:50:59.002735+00:00"
+    "comment_fetched_at": "2026-06-07T17:13:35.371975+00:00"
   },
   "3090-AK89": {
     "rin": "3090-AK89",
@@ -21319,7 +21333,7 @@
     "last_modified": "2025-01-02T14:10:52Z",
     "fetched_at": "2026-06-01T08:00:23.452854Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T00:51:06.969464+00:00"
+    "comment_fetched_at": "2026-06-07T17:13:39.668999+00:00"
   },
   "3090-AK65": {
     "rin": "3090-AK65",
@@ -21417,7 +21431,7 @@
     "last_modified": "2024-08-26T13:12:49Z",
     "fetched_at": "2026-06-01T08:02:42.885443Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T00:52:03.302107+00:00"
+    "comment_fetched_at": "2026-06-07T17:13:43.977546+00:00"
   },
   "3133-AF25": {
     "rin": "3133-AF25",
@@ -21459,7 +21473,7 @@
     "last_modified": "2026-05-26T15:34:13Z",
     "fetched_at": "2026-06-01T08:03:09.034679Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T00:55:02.804997+00:00"
+    "comment_fetched_at": "2026-06-07T17:13:48.282972+00:00"
   },
   "3133-AF46": {
     "rin": "3133-AF46",
@@ -21529,7 +21543,7 @@
     "last_modified": "2025-10-29T18:46:35Z",
     "fetched_at": "2026-06-01T08:04:27.927197Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T00:55:43.657580+00:00"
+    "comment_fetched_at": "2026-06-07T17:13:52.793340+00:00"
   },
   "3141-AA87": {
     "rin": "3141-AA87",
@@ -21557,7 +21571,7 @@
     "last_modified": "2026-02-25T21:12:01Z",
     "fetched_at": "2026-06-01T08:05:50.995866Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T00:55:59.636613+00:00"
+    "comment_fetched_at": "2026-06-07T17:13:57.090482+00:00"
   },
   "3150-AI40": {
     "rin": "3150-AI40",
@@ -21711,7 +21725,7 @@
     "last_modified": "2026-05-28T21:30:16Z",
     "fetched_at": "2026-06-01T08:06:43.363763Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T00:57:29.146567+00:00"
+    "comment_fetched_at": "2026-06-07T17:14:01.390595+00:00"
   },
   "3150-AL12": {
     "rin": "3150-AL12",
@@ -21739,7 +21753,7 @@
     "last_modified": "2026-03-06T15:01:45Z",
     "fetched_at": "2026-06-01T08:06:52.127252Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T00:57:45.424173+00:00"
+    "comment_fetched_at": "2026-06-07T17:14:05.739120+00:00"
   },
   "3150-AL20": {
     "rin": "3150-AL20",
@@ -21781,7 +21795,7 @@
     "last_modified": "2026-05-27T16:08:08Z",
     "fetched_at": "2026-06-01T08:07:05.163415Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T00:58:09.410647+00:00"
+    "comment_fetched_at": "2026-06-07T17:14:10.035118+00:00"
   },
   "3150-AJ54": {
     "rin": "3150-AJ54",
@@ -21921,7 +21935,7 @@
     "last_modified": "2025-07-17T15:56:00Z",
     "fetched_at": "2026-06-01T08:08:02.068561Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T00:59:29.989960+00:00"
+    "comment_fetched_at": "2026-06-07T17:14:14.332060+00:00"
   },
   "3150-AL33": {
     "rin": "3150-AL33",
@@ -21977,7 +21991,7 @@
     "last_modified": "2024-08-26T13:13:04Z",
     "fetched_at": "2026-06-01T08:08:28.390618Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T01:00:02.590993+00:00"
+    "comment_fetched_at": "2026-06-07T17:14:18.620595+00:00"
   },
   "3150-AJ41": {
     "rin": "3150-AJ41",
@@ -22047,7 +22061,7 @@
     "last_modified": "2024-08-26T13:09:00Z",
     "fetched_at": "2026-06-01T08:09:03.359606Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T01:00:44.107034+00:00"
+    "comment_fetched_at": "2026-06-07T17:14:22.918928+00:00"
   },
   "3150-AL06": {
     "rin": "3150-AL06",
@@ -22173,7 +22187,7 @@
     "last_modified": "2024-08-26T13:13:53Z",
     "fetched_at": "2026-06-01T08:12:19.934618Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T01:01:56.813026+00:00"
+    "comment_fetched_at": "2026-06-07T17:14:27.239966+00:00"
   },
   "3206-AO47": {
     "rin": "3206-AO47",
@@ -22215,7 +22229,7 @@
     "last_modified": "2026-05-15T12:27:35Z",
     "fetched_at": "2026-06-01T08:12:55.240033Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T01:02:21.294111+00:00"
+    "comment_fetched_at": "2026-06-07T17:14:31.579663+00:00"
   },
   "3206-AO76": {
     "rin": "3206-AO76",
@@ -22229,7 +22243,7 @@
     "last_modified": "2026-05-27T11:31:42Z",
     "fetched_at": "2026-06-01T08:12:59.582559Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T01:02:29.377572+00:00"
+    "comment_fetched_at": "2026-06-07T17:14:35.873386+00:00"
   },
   "3206-AO86": {
     "rin": "3206-AO86",
@@ -22383,7 +22397,7 @@
     "last_modified": "2026-04-14T17:57:50Z",
     "fetched_at": "2026-06-01T08:14:13.884971Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T01:03:58.482735+00:00"
+    "comment_fetched_at": "2026-06-07T17:14:40.167312+00:00"
   },
   "3206-AN86": {
     "rin": "3206-AN86",
@@ -22467,7 +22481,7 @@
     "last_modified": "2025-12-18T20:47:16Z",
     "fetched_at": "2026-06-01T08:14:46.176142Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T01:04:46.836832+00:00"
+    "comment_fetched_at": "2026-06-07T17:14:44.473679+00:00"
   },
   "3206-AO98": {
     "rin": "3206-AO98",
@@ -22481,7 +22495,7 @@
     "last_modified": "2025-06-24T16:40:02Z",
     "fetched_at": "2026-06-01T08:14:50.511772Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T01:04:54.881561+00:00"
+    "comment_fetched_at": "2026-06-07T17:14:48.782933+00:00"
   },
   "3206-AO37": {
     "rin": "3206-AO37",
@@ -22551,7 +22565,7 @@
     "last_modified": "2025-05-23T23:07:42Z",
     "fetched_at": "2026-06-01T08:15:42.768571Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T01:05:35.330270+00:00"
+    "comment_fetched_at": "2026-06-07T17:14:53.081732+00:00"
   },
   "1212-AB51": {
     "rin": "1212-AB51",
@@ -23027,7 +23041,7 @@
     "last_modified": "2021-01-14T09:57:26Z",
     "fetched_at": "2026-06-01T08:26:03.730274Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T01:10:11.117010+00:00"
+    "comment_fetched_at": "2026-06-07T17:14:57.404599+00:00"
   },
   "3245-AH63": {
     "rin": "3245-AH63",
@@ -23041,7 +23055,7 @@
     "last_modified": "2021-01-14T09:51:37Z",
     "fetched_at": "2026-06-01T08:26:08.100610Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T01:10:19.189219+00:00"
+    "comment_fetched_at": "2026-06-07T17:15:01.709984+00:00"
   },
   "3245-AH65": {
     "rin": "3245-AH65",
@@ -23055,7 +23069,7 @@
     "last_modified": "2021-02-05T15:51:29Z",
     "fetched_at": "2026-06-01T08:26:12.540101Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T01:10:27.175451+00:00"
+    "comment_fetched_at": "2026-06-07T17:15:06.015309+00:00"
   },
   "3245-AH67": {
     "rin": "3245-AH67",
@@ -23069,7 +23083,7 @@
     "last_modified": "2021-03-23T08:31:09Z",
     "fetched_at": "2026-06-01T08:26:16.938979Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T01:10:35.236191+00:00"
+    "comment_fetched_at": "2026-06-07T17:15:10.316517+00:00"
   },
   "3245-AH77": {
     "rin": "3245-AH77",
@@ -23153,7 +23167,7 @@
     "last_modified": "2026-04-02T13:14:09Z",
     "fetched_at": "2026-06-01T08:27:18.133765Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T01:11:23.697689+00:00"
+    "comment_fetched_at": "2026-06-07T17:15:14.607217+00:00"
   },
   "0960-AI95": {
     "rin": "0960-AI95",
@@ -23167,7 +23181,7 @@
     "last_modified": "2025-09-11T15:26:21Z",
     "fetched_at": "2026-06-01T08:27:40.087191Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T01:11:32.009461+00:00"
+    "comment_fetched_at": "2026-06-07T17:15:18.912771+00:00"
   },
   "0960-AI07": {
     "rin": "0960-AI07",
@@ -34556,5 +34570,25 @@
     "rin": "9000-AO92",
     "docket_id": null,
     "fetched_at": "2026-06-07T01:19:10.545989+00:00"
+  },
+  "1506-ZA04": {
+    "rin": "1506-ZA04",
+    "docket_id": null,
+    "fetched_at": "2026-06-07T17:15:25.341236+00:00"
+  },
+  "2040-AG56": {
+    "rin": "2040-AG56",
+    "docket_id": null,
+    "fetched_at": "2026-06-07T17:15:27.477471+00:00"
+  },
+  "3245-AI72": {
+    "rin": "3245-AI72",
+    "docket_id": null,
+    "fetched_at": "2026-06-07T17:15:29.613157+00:00"
+  },
+  "3245-AI74": {
+    "rin": "3245-AI74",
+    "docket_id": null,
+    "fetched_at": "2026-06-07T17:15:31.747298+00:00"
   }
 }

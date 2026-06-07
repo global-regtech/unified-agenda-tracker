@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-06T16:42:44Z",
-  "count": 162,
+  "generated_at": "2026-06-07T16:57:57Z",
+  "count": 160,
   "reviews": [
     {
       "rin": "1506-ZA04",
@@ -919,24 +919,6 @@
       "received_date": "2026-04-02",
       "rrid": "1334515",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1334515"
-    },
-    {
-      "rin": "1018-BI74",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Regulations Pertaining to Endangered and Threatened Wildlife and Plants",
-      "received_date": "2026-04-02",
-      "rrid": "1334512",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1334512"
-    },
-    {
-      "rin": "1018-BI76",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Regulations for Designating Critical Habitat",
-      "received_date": "2026-04-02",
-      "rrid": "1334513",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1334513"
     },
     {
       "rin": "3150-AL56",
