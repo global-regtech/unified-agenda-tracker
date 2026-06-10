@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-06-09T19:50:29Z",
-  "count": 161,
+  "generated_at": "2026-06-10T16:13:00Z",
+  "count": 160,
   "reviews": [
+    {
+      "rin": "0503-AA89",
+      "agency_code": "0503",
+      "agency": "USDA/AgSEC",
+      "title": "Rescinding Portions of the Department of Agriculture's Title VI Regulations to Implement EO 14281 and to conform more closely with the statutory text and the Department of Justice's Regulations.",
+      "received_date": "2026-06-09",
+      "rrid": "1422167",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1422167"
+    },
+    {
+      "rin": "2130-AD65",
+      "agency_code": "2130",
+      "agency": "DOT/FRA",
+      "title": "Qualification and Certification of Locomotive Engineers and Conductors; English Language Proficiency",
+      "received_date": "2026-06-09",
+      "rrid": "1422163",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1422163"
+    },
+    {
+      "rin": "2120-AM21",
+      "agency_code": "2120",
+      "agency": "DOT/FAA",
+      "title": "Requirements for Certain Aircraft to be Equipped with Interference Tolerant NextGen Radio Altimeter Systems",
+      "received_date": "2026-06-09",
+      "rrid": "1422164",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1422164"
+    },
+    {
+      "rin": "3150-AI92",
+      "agency_code": "3150",
+      "agency": "NRC",
+      "title": "Integrated Low-Level Radioactive Waste Disposal [NRC-2011-0012]",
+      "received_date": "2026-06-09",
+      "rrid": "1419664",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1419664"
+    },
     {
       "rin": "0925-ZA10",
       "agency_code": "0925",
@@ -300,15 +336,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397169"
     },
     {
-      "rin": "3046-AB39",
-      "agency_code": "3046",
-      "agency": "EEOC",
-      "title": "Rescission of 1979 Interpretive Rule \"Affirmative Action Appropriate Under Title VII of the Civil Rights Act of 1964\"",
-      "received_date": "2026-05-27",
-      "rrid": "1397166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397166"
-    },
-    {
       "rin": "1875-AA18",
       "agency_code": "1875",
       "agency": "ED/OPEPD",
@@ -316,6 +343,15 @@
       "received_date": "2026-05-27",
       "rrid": "1394665",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1394665"
+    },
+    {
+      "rin": "3046-AB39",
+      "agency_code": "3046",
+      "agency": "EEOC",
+      "title": "Rescission of 1979 Interpretive Rule \"Affirmative Action Appropriate Under Title VII of the Civil Rights Act of 1964\"",
+      "received_date": "2026-05-27",
+      "rrid": "1397166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397166"
     },
     {
       "rin": "3060-AL23",
@@ -343,15 +379,6 @@
       "received_date": "2026-05-22",
       "rrid": "1397164",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397164"
-    },
-    {
-      "rin": "3245-AI75",
-      "agency_code": "3245",
-      "agency": "SBA",
-      "title": "Reforms to 13 CFR 124.103 to Remove SBA's 8(a) Program's Rebuttable Presumption of Social Disadvantage for Individually Owned Firms Only. Reforms do not Impact Entity-owned Firms",
-      "received_date": "2026-05-22",
-      "rrid": "1397162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397162"
     },
     {
       "rin": "0910-ZD09",
@@ -489,24 +516,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1384762"
     },
     {
-      "rin": "0938-AW02",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "Request for Information: Comprehensive Review of the Essential Health Benefits Framework and Typical Employer Standard (CMS-9874)",
-      "received_date": "2026-05-14",
-      "rrid": "1382317",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1382317"
-    },
-    {
-      "rin": "3046-AB37",
-      "agency_code": "3046",
-      "agency": "EEOC",
-      "title": "Rescission of EEO-1, EEO-2, EEO-3, EEO-4. EEO-5, And Reporting Requirement Under Title VII, the ADA, GINA, and the PWFA",
-      "received_date": "2026-05-14",
-      "rrid": "1382263",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1382263"
-    },
-    {
       "rin": "2137-AF44",
       "agency_code": "2137",
       "agency": "DOT/PHMSA",
@@ -550,15 +559,6 @@
       "received_date": "2026-05-13",
       "rrid": "1379868",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1379868"
-    },
-    {
-      "rin": "0910-ZD08",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Forms FDA 3542 and 3542a: Questions and Answers; Draft Guidance for Industry; Availability",
-      "received_date": "2026-05-12",
-      "rrid": "1379865",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1379865"
     },
     {
       "rin": "0938-AV70",
@@ -1153,15 +1153,6 @@
       "received_date": "2026-03-02",
       "rrid": "1297067",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1297067"
-    },
-    {
-      "rin": "1212-AB50",
-      "agency_code": "1212",
-      "agency": "PBGC",
-      "title": "Penalties for Failure to Provide Certain Notices or Other Material Information",
-      "received_date": "2026-03-01",
-      "rrid": "1289712",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1289712"
     },
     {
       "rin": "0938-AV90",

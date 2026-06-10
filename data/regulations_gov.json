@@ -92,7 +92,7 @@
     "last_modified": "2026-03-09T14:19:30Z",
     "fetched_at": "2026-06-01T00:14:51.187639Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:53:13.086682+00:00",
+    "comment_fetched_at": "2026-06-10T16:13:00.781920+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -144,7 +144,7 @@
     "last_modified": "2025-08-11T14:10:00Z",
     "fetched_at": "2026-06-01T00:15:17.354198Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:53:23.190450+00:00",
+    "comment_fetched_at": "2026-06-10T16:13:08.736398+00:00",
     "documents": []
   },
   "0563-AC89": {
@@ -279,7 +279,7 @@
     "last_modified": "2026-04-21T14:07:14Z",
     "fetched_at": "2026-06-01T00:17:15.116144Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T13:53:31.269937+00:00",
+    "comment_fetched_at": "2026-06-10T16:13:16.310293+00:00",
     "documents": []
   },
   "0575-AD08": {
@@ -520,7 +520,7 @@
     "last_modified": "2026-05-28T16:13:29Z",
     "fetched_at": "2026-06-01T00:21:53.268573Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T13:53:39.278790+00:00",
+    "comment_fetched_at": "2026-06-10T16:13:23.842599+00:00",
     "documents": []
   },
   "0581-AE39": {
@@ -793,7 +793,7 @@
     "last_modified": "2025-07-02T10:12:31Z",
     "fetched_at": "2026-06-01T00:24:16.797779Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:53:47.274668+00:00",
+    "comment_fetched_at": "2026-06-10T16:13:31.379439+00:00",
     "documents": []
   },
   "0584-AF12": {
@@ -808,7 +808,7 @@
     "last_modified": "2026-05-08T16:52:05Z",
     "fetched_at": "2026-06-01T00:24:34.150546Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:53:55.255119+00:00",
+    "comment_fetched_at": "2026-06-10T16:13:38.910476+00:00",
     "documents": []
   },
   "0584-AF19": {
@@ -895,7 +895,7 @@
     "last_modified": "2025-05-22T14:00:57Z",
     "fetched_at": "2026-06-01T00:25:08.940432Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:54:03.276397+00:00",
+    "comment_fetched_at": "2026-06-10T16:13:46.427163+00:00",
     "documents": []
   },
   "0584-AE75": {
@@ -961,7 +961,7 @@
     "last_modified": "2025-06-06T16:21:54Z",
     "fetched_at": "2026-06-01T00:25:39.329519Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:54:11.292251+00:00",
+    "comment_fetched_at": "2026-06-10T16:13:53.956656+00:00",
     "documents": []
   },
   "0584-AF20": {
@@ -976,7 +976,7 @@
     "last_modified": "2025-06-17T17:07:34Z",
     "fetched_at": "2026-06-01T00:25:43.672625Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:54:19.270700+00:00",
+    "comment_fetched_at": "2026-06-10T16:14:01.678228+00:00",
     "documents": []
   },
   "0596-AD12": {
@@ -1092,14 +1092,14 @@
     "docket_id": "FS-2026-0034",
     "docket_url": "https://www.regulations.gov/docket/FS-2026-0034",
     "title": "Administrative Site Leases",
-    "comment_count": 23,
+    "comment_count": 25,
     "comment_start_date": "2026-05-06",
     "comment_end_date": "2026-06-06",
     "docket_type": "Rulemaking",
     "last_modified": "2026-05-19T12:16:07Z",
     "fetched_at": "2026-06-01T00:26:05.513473Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T13:54:27.241342+00:00",
+    "comment_fetched_at": "2026-06-10T16:14:09.205997+00:00",
     "documents": []
   },
   "0596-AD33": {
@@ -1424,7 +1424,7 @@
     "last_modified": "2026-05-01T18:23:18Z",
     "fetched_at": "2026-06-01T00:29:12.626184Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T13:54:35.441997+00:00",
+    "comment_fetched_at": "2026-06-10T16:14:16.719300+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -1543,7 +1543,7 @@
     "last_modified": "2026-05-18T14:34:59Z",
     "fetched_at": "2026-06-01T00:29:43.008358Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T13:54:43.466287+00:00",
+    "comment_fetched_at": "2026-06-10T16:14:24.256612+00:00",
     "documents": []
   },
   "0648-BN23": {
@@ -1650,7 +1650,7 @@
     "last_modified": "2026-05-26T13:16:00Z",
     "fetched_at": "2026-06-01T00:30:00.419599Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T13:54:51.486159+00:00",
+    "comment_fetched_at": "2026-06-10T16:14:31.816336+00:00",
     "documents": []
   },
   "0648-BM08": {
@@ -1684,14 +1684,14 @@
     "docket_id": "NOAA-NMFS-2024-0039",
     "docket_url": "https://www.regulations.gov/docket/NOAA-NMFS-2024-0039",
     "title": "Atlantic Highly Migratory Species; Revisions to Commercial Atlantic Blacknose and Recreational Atlantic Shark Fisheries",
-    "comment_count": 544,
+    "comment_count": 601,
     "comment_start_date": "2026-02-25",
     "comment_end_date": "2026-05-30",
     "docket_type": "Rulemaking",
     "last_modified": "2026-05-29T17:23:27Z",
     "fetched_at": "2026-06-01T00:30:09.120600Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T13:54:59.488931+00:00",
+    "comment_fetched_at": "2026-06-10T16:14:39.362124+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -1712,7 +1712,7 @@
     "last_modified": "2026-05-29T20:14:30Z",
     "fetched_at": "2026-06-01T00:30:13.460763Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T13:55:07.580249+00:00",
+    "comment_fetched_at": "2026-06-10T16:14:46.931664+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -1767,14 +1767,14 @@
     "docket_id": "NOAA-NMFS-2025-0053",
     "docket_url": "https://www.regulations.gov/docket/NOAA-NMFS-2025-0053",
     "title": "Rule to Adjust North Atlantic Swordfish, South Atlantic Swordfish, North Atlantic Albacore, and Atlantic Bluefin Tuna Quotas",
-    "comment_count": 35,
+    "comment_count": 39,
     "comment_start_date": "2026-05-07",
     "comment_end_date": "2026-06-09",
     "docket_type": "Rulemaking",
     "last_modified": "2026-05-26T12:45:30Z",
     "fetched_at": "2026-06-01T00:30:26.535257Z",
-    "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T13:55:15.548904+00:00",
+    "open_for_comment": false,
+    "comment_fetched_at": "2026-06-10T16:14:54.482535+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -1857,7 +1857,7 @@
     "last_modified": "2026-05-26T18:33:56Z",
     "fetched_at": "2026-06-01T00:30:52.535448Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T13:55:23.588130+00:00",
+    "comment_fetched_at": "2026-06-10T16:15:01.990569+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -1871,14 +1871,14 @@
     "docket_id": "NOAA-NMFS-2025-0570",
     "docket_url": "https://www.regulations.gov/docket/NOAA-NMFS-2025-0570",
     "title": "Electronic Logbook Reporting in Commercial Fisheries of the Gulf of America and Atlantic",
-    "comment_count": 31,
+    "comment_count": 33,
     "comment_start_date": "2026-05-26",
     "comment_end_date": "2026-06-26",
     "docket_type": "Rulemaking",
     "last_modified": "2026-05-26T18:13:05Z",
     "fetched_at": "2026-06-01T00:31:18.507721Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T13:55:31.592181+00:00",
+    "comment_fetched_at": "2026-06-10T16:15:09.544949+00:00",
     "documents": []
   },
   "0648-BN30": {
@@ -1934,7 +1934,7 @@
     "last_modified": "2026-05-22T18:15:28Z",
     "fetched_at": "2026-06-01T00:31:35.959709Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T13:55:39.818110+00:00",
+    "comment_fetched_at": "2026-06-10T16:15:17.079873+00:00",
     "documents": []
   },
   "0648-BN69": {
@@ -1949,7 +1949,7 @@
     "last_modified": "2026-05-28T13:40:45Z",
     "fetched_at": "2026-06-01T00:31:40.315468Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T13:55:47.774253+00:00",
+    "comment_fetched_at": "2026-06-10T16:15:24.609829+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -1970,7 +1970,7 @@
     "last_modified": "2025-11-19T17:04:57Z",
     "fetched_at": "2026-06-01T00:31:44.660121Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:55:55.753974+00:00",
+    "comment_fetched_at": "2026-06-10T16:15:32.159148+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -2006,7 +2006,7 @@
     "last_modified": "2026-03-04T16:47:58Z",
     "fetched_at": "2026-06-01T00:32:10.670592Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:56:03.736563+00:00",
+    "comment_fetched_at": "2026-06-10T16:15:39.691455+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -2027,7 +2027,7 @@
     "last_modified": "2026-05-06T13:52:18Z",
     "fetched_at": "2026-06-01T00:32:19.599263Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T13:56:11.734365+00:00",
+    "comment_fetched_at": "2026-06-10T16:15:47.202397+00:00",
     "documents": []
   },
   "0648-BN00": {
@@ -2355,7 +2355,7 @@
     "last_modified": "2025-11-21T14:23:45Z",
     "fetched_at": "2026-06-01T01:04:39.041136Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:56:19.738937+00:00",
+    "comment_fetched_at": "2026-06-10T16:15:54.737936+00:00",
     "documents": []
   },
   "0648-BN79": {
@@ -2370,7 +2370,7 @@
     "last_modified": "2025-11-21T14:03:36Z",
     "fetched_at": "2026-06-01T01:04:43.392077Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:56:27.756805+00:00",
+    "comment_fetched_at": "2026-06-10T16:16:02.268578+00:00",
     "documents": []
   },
   "0648-BN96": {
@@ -2605,7 +2605,7 @@
     "last_modified": "2024-09-06T08:47:35Z",
     "fetched_at": "2026-06-01T01:05:35.537383Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:56:35.776852+00:00",
+    "comment_fetched_at": "2026-06-10T16:16:09.806291+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -2720,7 +2720,7 @@
     "last_modified": "2026-03-26T18:28:46Z",
     "fetched_at": "2026-06-01T01:06:01.616499Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:56:43.766867+00:00",
+    "comment_fetched_at": "2026-06-10T16:16:17.369292+00:00",
     "documents": [
       {
         "documentType": "Notice",
@@ -3901,7 +3901,7 @@
     "last_modified": "2025-06-02T23:12:43Z",
     "fetched_at": "2026-06-01T01:11:32.058725Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:56:51.798554+00:00",
+    "comment_fetched_at": "2026-06-10T16:16:24.932302+00:00",
     "documents": []
   },
   "0651-AD83": {
@@ -3916,7 +3916,7 @@
     "last_modified": "2025-08-14T18:51:37Z",
     "fetched_at": "2026-06-01T01:11:36.417862Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:56:59.796049+00:00",
+    "comment_fetched_at": "2026-06-10T16:16:32.457793+00:00",
     "documents": []
   },
   "0651-AD84": {
@@ -3931,7 +3931,7 @@
     "last_modified": "2025-06-18T19:16:38Z",
     "fetched_at": "2026-06-01T01:11:40.760692Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:57:07.793033+00:00",
+    "comment_fetched_at": "2026-06-10T16:16:39.990889+00:00",
     "documents": []
   },
   "0651-AD85": {
@@ -3961,7 +3961,7 @@
     "last_modified": "2025-07-08T12:50:04Z",
     "fetched_at": "2026-06-01T01:11:49.440382Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:57:15.855861+00:00",
+    "comment_fetched_at": "2026-06-10T16:16:47.514989+00:00",
     "documents": []
   },
   "0651-AD87": {
@@ -3976,7 +3976,7 @@
     "last_modified": "2025-10-03T00:19:20Z",
     "fetched_at": "2026-06-01T01:11:53.772312Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:57:23.859096+00:00",
+    "comment_fetched_at": "2026-06-10T16:16:55.054602+00:00",
     "documents": []
   },
   "0651-AD46": {
@@ -4302,7 +4302,7 @@
     "last_modified": "2024-12-05T11:30:46Z",
     "fetched_at": "2026-06-01T01:14:27.930525Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:57:31.842843+00:00",
+    "comment_fetched_at": "2026-06-10T16:17:02.597731+00:00",
     "documents": []
   },
   "0694-AJ90": {
@@ -4433,7 +4433,7 @@
     "last_modified": "2025-04-07T10:39:52Z",
     "fetched_at": "2026-06-01T01:17:52.414888Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:57:39.863903+00:00",
+    "comment_fetched_at": "2026-06-10T16:17:10.126719+00:00",
     "documents": []
   },
   "0694-AJ77": {
@@ -4448,7 +4448,7 @@
     "last_modified": "2024-12-05T11:30:46Z",
     "fetched_at": "2026-06-01T01:18:09.814130Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:57:47.879218+00:00",
+    "comment_fetched_at": "2026-06-10T16:17:17.678482+00:00",
     "documents": []
   },
   "0694-AJ93": {
@@ -4463,7 +4463,7 @@
     "last_modified": "2025-01-30T11:54:20Z",
     "fetched_at": "2026-06-01T01:18:40.202814Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:57:55.899433+00:00",
+    "comment_fetched_at": "2026-06-10T16:17:25.206576+00:00",
     "documents": []
   },
   "0694-AK04": {
@@ -4478,7 +4478,7 @@
     "last_modified": "2025-04-07T11:16:10Z",
     "fetched_at": "2026-06-01T01:19:06.239537Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:58:03.921578+00:00",
+    "comment_fetched_at": "2026-06-10T16:17:32.737484+00:00",
     "documents": []
   },
   "0694-AK08": {
@@ -4493,7 +4493,7 @@
     "last_modified": "2025-04-07T11:08:47Z",
     "fetched_at": "2026-06-01T01:19:14.931590Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:58:11.919491+00:00",
+    "comment_fetched_at": "2026-06-10T16:17:40.260013+00:00",
     "documents": []
   },
   "0701-AA87": {
@@ -4538,7 +4538,7 @@
     "last_modified": "2025-07-24T13:03:40Z",
     "fetched_at": "2026-06-01T01:19:36.633547Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:58:19.884109+00:00",
+    "comment_fetched_at": "2026-06-10T16:17:47.790204+00:00",
     "documents": []
   },
   "0702-AB02": {
@@ -5964,7 +5964,7 @@
     "last_modified": "2026-05-26T13:55:21Z",
     "fetched_at": "2026-06-01T01:22:04.968905Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T13:58:27.851500+00:00",
+    "comment_fetched_at": "2026-06-10T16:17:55.304778+00:00",
     "documents": []
   },
   "0750-AM00": {
@@ -6136,7 +6136,7 @@
     "last_modified": "2026-05-07T14:06:14Z",
     "fetched_at": "2026-06-01T01:24:37.327522Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:58:35.839489+00:00",
+    "comment_fetched_at": "2026-06-10T16:18:02.830766+00:00",
     "documents": []
   },
   "0750-AM20": {
@@ -6260,14 +6260,14 @@
     "docket_id": "DOD-2026-OS-0662",
     "docket_url": "https://www.regulations.gov/docket/DOD-2026-OS-0662",
     "title": "Privacy Act of 1974; Implementation (Inspector General Criminal Investigation Records, CIG-04)",
-    "comment_count": 1,
+    "comment_count": 8,
     "comment_start_date": "2026-04-10",
     "comment_end_date": "2026-06-10",
     "docket_type": "Rulemaking",
     "last_modified": "2026-04-13T20:39:34Z",
     "fetched_at": "2026-06-01T01:26:27.083188Z",
-    "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T13:58:43.814806+00:00",
+    "open_for_comment": false,
+    "comment_fetched_at": "2026-06-10T16:18:10.356608+00:00",
     "documents": []
   },
   "0790-AK92": {
@@ -6447,7 +6447,7 @@
     "last_modified": "2026-03-04T13:34:14Z",
     "fetched_at": "2026-06-01T01:28:15.763841Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:58:51.775210+00:00",
+    "comment_fetched_at": "2026-06-10T16:18:17.882108+00:00",
     "documents": []
   },
   "0790-AI73": {
@@ -7087,7 +7087,7 @@
     "last_modified": "2026-05-04T20:05:43Z",
     "fetched_at": "2026-06-01T01:32:07.086455Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T13:58:59.753993+00:00",
+    "comment_fetched_at": "2026-06-10T16:18:25.407443+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -8911,7 +8911,7 @@
     "last_modified": "2025-04-15T10:35:32Z",
     "fetched_at": "2026-06-01T03:25:02.995015Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:59:07.773694+00:00",
+    "comment_fetched_at": "2026-06-10T16:18:33.008173+00:00",
     "documents": []
   },
   "1904-AD79": {
@@ -9913,7 +9913,7 @@
     "last_modified": "2024-12-30T09:55:40Z",
     "fetched_at": "2026-06-01T03:25:51.490768Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:59:15.752896+00:00",
+    "comment_fetched_at": "2026-06-10T16:18:40.518697+00:00",
     "documents": [
       {
         "documentType": "Notice",
@@ -12205,7 +12205,7 @@
     "last_modified": "2025-10-01T17:10:08Z",
     "fetched_at": "2026-06-01T04:20:46.001014Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:59:23.735017+00:00",
+    "comment_fetched_at": "2026-06-10T16:18:48.096407+00:00",
     "documents": [
       {
         "documentType": "Other",
@@ -13700,14 +13700,14 @@
     "docket_id": "CMS-2026-1255",
     "docket_url": "https://www.regulations.gov/docket/CMS-2026-1255",
     "title": "Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Plans, State Medicaid Agencies, Children\u2019s Health Insurance Program (CHIP) Agencies and CHIP Managed Care Entities,... (CMS-0062-P)",
-    "comment_count": 21,
+    "comment_count": 223,
     "comment_start_date": "2026-04-14",
     "comment_end_date": "2026-06-16",
     "docket_type": "Rulemaking",
     "last_modified": "2026-05-14T13:33:42Z",
     "fetched_at": "2026-06-01T04:22:57.194049Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T13:59:32.024460+00:00",
+    "comment_fetched_at": "2026-06-10T16:18:55.740836+00:00",
     "documents": []
   },
   "0938-AV50": {
@@ -13878,7 +13878,7 @@
     "last_modified": "2026-05-29T18:47:40Z",
     "fetched_at": "2026-06-01T04:23:49.863231Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T13:59:40.023240+00:00",
+    "comment_fetched_at": "2026-06-10T16:19:03.272818+00:00",
     "documents": []
   },
   "0938-AT38": {
@@ -14043,7 +14043,7 @@
     "last_modified": "2025-11-20T14:18:07Z",
     "fetched_at": "2026-06-01T04:24:48.777130Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:59:48.193855+00:00",
+    "comment_fetched_at": "2026-06-10T16:19:10.800655+00:00",
     "documents": [
       {
         "documentType": "Notice",
@@ -14064,7 +14064,7 @@
     "last_modified": "2025-11-19T19:13:45Z",
     "fetched_at": "2026-06-01T04:24:53.129304Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:59:56.190180+00:00",
+    "comment_fetched_at": "2026-06-10T16:19:18.316246+00:00",
     "documents": [
       {
         "documentType": "Notice",
@@ -14085,7 +14085,7 @@
     "last_modified": "2025-11-20T15:19:52Z",
     "fetched_at": "2026-06-01T04:24:57.484598Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:00:04.194538+00:00",
+    "comment_fetched_at": "2026-06-10T16:19:25.850649+00:00",
     "documents": [
       {
         "documentType": "Notice",
@@ -14407,14 +14407,14 @@
     "docket_id": "ACF-2026-0364",
     "docket_url": "https://www.regulations.gov/docket/ACF-2026-0364",
     "title": "Restoring Flexibility to Support Head Start Program Access",
-    "comment_count": 47,
+    "comment_count": 65,
     "comment_start_date": "2026-05-12",
     "comment_end_date": "2026-06-12",
     "docket_type": "Rulemaking",
     "last_modified": "2026-05-12T15:18:39Z",
     "fetched_at": "2026-06-01T04:27:52.642542Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:00:12.218206+00:00",
+    "comment_fetched_at": "2026-06-10T16:19:33.376780+00:00",
     "documents": []
   },
   "0970-AD10": {
@@ -14610,7 +14610,7 @@
     "fetched_at": "2026-06-01T04:38:41.110676Z",
     "open_for_comment": null,
     "documents": [],
-    "comment_fetched_at": "2026-06-07T14:00:20.211696+00:00"
+    "comment_fetched_at": "2026-06-10T16:19:40.912218+00:00"
   },
   "1615-AC93": {
     "rin": "1615-AC93",
@@ -16050,7 +16050,7 @@
     "last_modified": "2024-08-26T13:14:35Z",
     "fetched_at": "2026-06-01T04:39:46.699186Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:00:28.191100+00:00",
+    "comment_fetched_at": "2026-06-10T16:19:48.456019+00:00",
     "documents": []
   },
   "1615-AC92": {
@@ -16116,7 +16116,7 @@
     "last_modified": "2022-06-22T12:00:24Z",
     "fetched_at": "2026-06-01T04:40:08.592430Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:00:36.236850+00:00",
+    "comment_fetched_at": "2026-06-10T16:19:56.025942+00:00",
     "documents": []
   },
   "1615-AC69": {
@@ -16465,7 +16465,7 @@
     "last_modified": "2026-05-18T11:57:24Z",
     "fetched_at": "2026-06-01T04:41:21.423145Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T14:00:44.277226+00:00",
+    "comment_fetched_at": "2026-06-10T16:20:03.623149+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -16486,7 +16486,7 @@
     "last_modified": "2026-05-26T14:24:05Z",
     "fetched_at": "2026-06-01T04:41:25.772835Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:00:52.274373+00:00",
+    "comment_fetched_at": "2026-06-10T16:20:11.172544+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -16609,7 +16609,7 @@
     "last_modified": "2019-03-06T13:52:52Z",
     "fetched_at": "2026-06-01T04:41:48.044608Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:01:00.262758+00:00",
+    "comment_fetched_at": "2026-06-10T16:20:18.696532+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -16686,7 +16686,7 @@
     "last_modified": "2024-08-26T13:00:14Z",
     "fetched_at": "2026-06-01T04:42:05.865345Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:01:08.233558+00:00",
+    "comment_fetched_at": "2026-06-10T16:20:26.287848+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -16707,7 +16707,7 @@
     "last_modified": "2024-08-26T12:59:38Z",
     "fetched_at": "2026-06-01T04:42:10.266318Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:01:16.268744+00:00",
+    "comment_fetched_at": "2026-06-10T16:20:33.863392+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -16733,7 +16733,7 @@
     "last_modified": "2026-05-15T17:15:05Z",
     "fetched_at": "2026-06-01T04:42:18.968846Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:01:24.277872+00:00",
+    "comment_fetched_at": "2026-06-10T16:20:41.457730+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -17328,14 +17328,14 @@
     "docket_id": "ICEB-2020-0005",
     "docket_url": "https://www.regulations.gov/docket/ICEB-2020-0005",
     "title": "Fee Adjustment for U.S. Immigration and Customs Enforcement Form I\u2013246, Application for a Stay of Deportation or Removal",
-    "comment_count": 79,
+    "comment_count": 82,
     "comment_start_date": "2026-05-07",
     "comment_end_date": "2026-07-07",
     "docket_type": "Rulemaking",
     "last_modified": "2026-05-26T12:00:32Z",
     "fetched_at": "2026-06-01T04:44:30.576178Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:01:32.357375+00:00",
+    "comment_fetched_at": "2026-06-10T16:20:49.221156+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -17647,7 +17647,7 @@
     "last_modified": "2025-04-11T08:28:11Z",
     "fetched_at": "2026-06-01T04:45:53.345726Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:01:40.356631+00:00",
+    "comment_fetched_at": "2026-06-10T16:20:56.748033+00:00",
     "documents": []
   },
   "2501-AE12": {
@@ -17655,14 +17655,14 @@
     "docket_id": "HUD-2026-0529",
     "docket_url": "https://www.regulations.gov/docket/HUD-2026-0529",
     "title": "FR-6518-P-01 Equal Access to Housing in HUD Programs Revisions",
-    "comment_count": 1048,
+    "comment_count": 1203,
     "comment_start_date": "2026-04-28",
     "comment_end_date": "2026-06-30",
     "docket_type": "Rulemaking",
     "last_modified": "2026-06-01T04:27:17Z",
     "fetched_at": "2026-06-01T04:47:12.140224Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:01:48.356578+00:00",
+    "comment_fetched_at": "2026-06-10T16:21:04.260058+00:00",
     "documents": []
   },
   "2501-AE13": {
@@ -17987,7 +17987,7 @@
     "last_modified": "2026-06-01T04:08:19Z",
     "fetched_at": "2026-06-01T04:49:35.954055Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T14:01:56.419910+00:00",
+    "comment_fetched_at": "2026-06-10T16:21:11.806126+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -18524,14 +18524,14 @@
     "docket_id": "BLM-2026-0001",
     "docket_url": "https://www.regulations.gov/docket/BLM-2026-0001",
     "title": "Revisions of Regulations for Grazing Administration, Exclusive of Alaska",
-    "comment_count": 7,
+    "comment_count": 125,
     "comment_start_date": "2026-05-13",
     "comment_end_date": "2026-07-14",
     "docket_type": "Rulemaking",
     "last_modified": "2026-05-28T10:26:12Z",
     "fetched_at": "2026-06-01T04:54:00.226114Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:02:12.442419+00:00",
+    "comment_fetched_at": "2026-06-10T16:21:19.427968+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -18567,7 +18567,7 @@
     "last_modified": "2026-05-29T18:55:12Z",
     "fetched_at": "2026-06-01T04:54:39.404410Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T14:02:20.463962+00:00",
+    "comment_fetched_at": "2026-06-10T16:21:26.951460+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -18593,7 +18593,7 @@
     "last_modified": "2026-02-25T14:35:50Z",
     "fetched_at": "2026-06-01T04:54:52.535484Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:02:28.438712+00:00",
+    "comment_fetched_at": "2026-06-10T16:21:34.480617+00:00",
     "documents": []
   },
   "1010-AE30": {
@@ -18608,7 +18608,7 @@
     "last_modified": "2026-02-23T20:36:32Z",
     "fetched_at": "2026-06-01T04:55:14.287844Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:02:36.437533+00:00",
+    "comment_fetched_at": "2026-06-10T16:21:42.000809+00:00",
     "documents": []
   },
   "1010-AE22": {
@@ -18623,7 +18623,7 @@
     "last_modified": "2025-10-10T19:56:01Z",
     "fetched_at": "2026-06-01T04:55:22.959188Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:02:44.439424+00:00",
+    "comment_fetched_at": "2026-06-10T16:21:49.529555+00:00",
     "documents": []
   },
   "1014-AA63": {
@@ -18680,7 +18680,7 @@
     "last_modified": "2025-09-15T10:51:32Z",
     "fetched_at": "2026-06-01T04:56:15.690860Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:02:52.441039+00:00",
+    "comment_fetched_at": "2026-06-10T16:21:57.041624+00:00",
     "documents": []
   },
   "1014-AA64": {
@@ -18710,7 +18710,7 @@
     "last_modified": "2025-09-15T12:43:40Z",
     "fetched_at": "2026-06-01T04:56:24.494164Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:03:00.433725+00:00",
+    "comment_fetched_at": "2026-06-10T16:22:04.567857+00:00",
     "documents": []
   },
   "1014-AA57": {
@@ -18964,7 +18964,7 @@
     "last_modified": "2026-05-29T14:30:57Z",
     "fetched_at": "2026-06-01T04:57:40.829112Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:03:08.399524+00:00",
+    "comment_fetched_at": "2026-06-10T16:22:12.109653+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -19046,7 +19046,7 @@
     "last_modified": "2026-05-18T16:35:19Z",
     "fetched_at": "2026-06-01T04:58:50.619196Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:03:16.381881+00:00",
+    "comment_fetched_at": "2026-06-10T16:22:19.613103+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -19123,7 +19123,7 @@
     "last_modified": "2026-05-26T21:35:14Z",
     "fetched_at": "2026-06-01T04:59:29.863975Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:03:24.587531+00:00",
+    "comment_fetched_at": "2026-06-10T16:22:27.160183+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -19173,14 +19173,14 @@
     "docket_id": "FWS-HQ-NWRS-2026-1223",
     "docket_url": "https://www.regulations.gov/docket/FWS-HQ-NWRS-2026-1223",
     "title": "National Wildlife Refuge System; 2026\u20132027 Station-Specific Hunting and Sport Fishing Regulations",
-    "comment_count": 745,
+    "comment_count": 854,
     "comment_start_date": "2026-05-27",
     "comment_end_date": "2026-06-27",
     "docket_type": "Rulemaking",
     "last_modified": "2026-05-29T20:40:41Z",
     "fetched_at": "2026-06-01T04:59:51.668135Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:03:32.578117+00:00",
+    "comment_fetched_at": "2026-06-10T16:22:34.860727+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -19905,7 +19905,7 @@
     "last_modified": "2026-05-28T14:07:57Z",
     "fetched_at": "2026-06-01T05:01:32.927307Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T14:03:40.591155+00:00",
+    "comment_fetched_at": "2026-06-10T16:22:42.559479+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -20676,7 +20676,7 @@
     "last_modified": "2025-08-18T13:25:37Z",
     "fetched_at": "2026-06-01T05:02:34.385298Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:03:48.672609+00:00",
+    "comment_fetched_at": "2026-06-10T16:22:50.297083+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -21838,7 +21838,7 @@
     "last_modified": "2026-05-27T13:29:08Z",
     "fetched_at": "2026-06-01T05:04:41.271572Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:03:56.694553+00:00",
+    "comment_fetched_at": "2026-06-10T16:22:57.989562+00:00",
     "documents": []
   },
   "1018-BF80": {
@@ -24437,7 +24437,7 @@
     "last_modified": "2026-05-05T15:34:47Z",
     "fetched_at": "2026-06-01T05:13:08.337509Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:04:04.714736+00:00",
+    "comment_fetched_at": "2026-06-10T16:23:05.515058+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -24956,7 +24956,7 @@
     "last_modified": "2025-06-18T12:35:01Z",
     "fetched_at": "2026-06-01T05:17:30.410850Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:04:12.749834+00:00",
+    "comment_fetched_at": "2026-06-10T16:23:13.042312+00:00",
     "documents": []
   },
   "1024-AE47": {
@@ -25022,7 +25022,7 @@
     "last_modified": "2025-01-17T08:40:09Z",
     "fetched_at": "2026-06-01T05:18:01.096302Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:04:20.716584+00:00",
+    "comment_fetched_at": "2026-06-10T16:23:20.587419+00:00",
     "documents": []
   },
   "1029-AC89": {
@@ -25052,7 +25052,7 @@
     "last_modified": "2025-12-10T14:43:32Z",
     "fetched_at": "2026-06-01T05:18:09.843899Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:04:28.685137+00:00",
+    "comment_fetched_at": "2026-06-10T16:23:28.117733+00:00",
     "documents": []
   },
   "1029-AC88": {
@@ -25858,7 +25858,7 @@
     "last_modified": "2026-05-21T14:20:22Z",
     "fetched_at": "2026-06-01T05:24:59.649982Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:04:36.759665+00:00",
+    "comment_fetched_at": "2026-06-10T16:23:35.639283+00:00",
     "documents": []
   },
   "1120-AB71": {
@@ -25978,7 +25978,7 @@
     "last_modified": "2024-08-26T13:00:08Z",
     "fetched_at": "2026-06-01T05:25:51.832518Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:04:44.757722+00:00",
+    "comment_fetched_at": "2026-06-10T16:23:43.263857+00:00",
     "documents": []
   },
   "1121-AA83": {
@@ -26354,7 +26354,7 @@
     "last_modified": "2021-06-11T13:19:30Z",
     "fetched_at": "2026-06-01T05:45:43.780060Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:04:52.800458+00:00",
+    "comment_fetched_at": "2026-06-10T16:23:50.829273+00:00",
     "documents": [
       {
         "documentType": "Other",
@@ -26375,7 +26375,7 @@
     "last_modified": "2024-08-26T12:59:30Z",
     "fetched_at": "2026-06-01T05:46:23.142947Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:05:00.813405+00:00",
+    "comment_fetched_at": "2026-06-10T16:23:58.399824+00:00",
     "documents": []
   },
   "1140-AA44": {
@@ -26428,14 +26428,14 @@
     "docket_id": "DOJ-CRT-2026-0067",
     "docket_url": "https://www.regulations.gov/docket/DOJ-CRT-2026-0067",
     "title": "Extension of Compliance Dates for Nondiscrimination on the Basis of Disability; Accessibility of Web Information and Services of State and Local Government Entities",
-    "comment_count": 115,
+    "comment_count": 116,
     "comment_start_date": "2026-04-20",
     "comment_end_date": "2026-06-23",
     "docket_type": "Rulemaking",
     "last_modified": "2026-05-28T17:44:03Z",
     "fetched_at": "2026-06-01T05:47:15.244807Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:05:08.798130+00:00",
+    "comment_fetched_at": "2026-06-10T16:24:05.956567+00:00",
     "documents": []
   },
   "1190-AA76": {
@@ -26797,7 +26797,7 @@
     "last_modified": "2024-08-26T13:12:13Z",
     "fetched_at": "2026-06-01T05:48:53.894013Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:05:16.821848+00:00",
+    "comment_fetched_at": "2026-06-10T16:24:13.497085+00:00",
     "documents": []
   },
   "1210-AC27": {
@@ -26833,7 +26833,7 @@
     "last_modified": "2024-08-26T13:06:59Z",
     "fetched_at": "2026-06-01T05:49:28.961205Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:05:24.830266+00:00",
+    "comment_fetched_at": "2026-06-10T16:24:20.999432+00:00",
     "documents": []
   },
   "1210-AC17": {
@@ -26848,7 +26848,7 @@
     "last_modified": "2024-08-26T13:00:42Z",
     "fetched_at": "2026-06-01T05:49:33.384552Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:05:32.897991+00:00",
+    "comment_fetched_at": "2026-06-10T16:24:28.546360+00:00",
     "documents": []
   },
   "1210-AC21": {
@@ -26980,7 +26980,7 @@
     "last_modified": "2024-08-26T13:14:09Z",
     "fetched_at": "2026-06-01T05:50:41.666335Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:05:40.938239+00:00",
+    "comment_fetched_at": "2026-06-10T16:24:36.309038+00:00",
     "documents": []
   },
   "1210-AC13": {
@@ -26995,7 +26995,7 @@
     "last_modified": "2024-08-26T13:13:44Z",
     "fetched_at": "2026-06-01T05:50:46.015893Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:05:48.920689+00:00",
+    "comment_fetched_at": "2026-06-10T16:24:43.907066+00:00",
     "documents": []
   },
   "1210-AC25": {
@@ -29592,14 +29592,14 @@
     "docket_id": "OSHA-2025-0006",
     "docket_url": "https://www.regulations.gov/docket/OSHA-2025-0006",
     "title": "Respirators - Medical Clearance",
-    "comment_count": 307,
+    "comment_count": 308,
     "comment_start_date": "2026-06-03",
     "comment_end_date": "2026-07-07",
     "docket_type": "Rulemaking",
     "last_modified": "2025-12-15T18:02:19Z",
     "fetched_at": "2026-06-01T05:51:47.144833Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:05:56.986704+00:00",
+    "comment_fetched_at": "2026-06-10T16:24:51.478905+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -31792,14 +31792,14 @@
     "docket_id": "WHD-2026-0067",
     "docket_url": "https://www.regulations.gov/docket/WHD-2026-0067",
     "title": "Joint Employer Status Under the Fair Labor Standards Act, Family and Medical Leave Act, and Migrant and Seasonal Agricultural Worker Protection Act",
-    "comment_count": 6,
+    "comment_count": 14,
     "comment_start_date": "2026-04-23",
     "comment_end_date": "2026-06-23",
     "docket_type": "Rulemaking",
     "last_modified": "2026-05-18T18:05:58Z",
     "fetched_at": "2026-06-01T05:56:43.960873Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:06:05.051125+00:00",
+    "comment_fetched_at": "2026-06-10T16:24:59.030773+00:00",
     "documents": []
   },
   "1235-AA45": {
@@ -31814,7 +31814,7 @@
     "last_modified": "2026-04-24T18:09:55Z",
     "fetched_at": "2026-06-01T05:56:52.637520Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:06:13.067823+00:00",
+    "comment_fetched_at": "2026-06-10T16:25:06.565595+00:00",
     "documents": []
   },
   "1235-AA36": {
@@ -31916,7 +31916,7 @@
     "last_modified": "2024-12-17T11:03:08Z",
     "fetched_at": "2026-06-01T05:57:24.052636Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:06:21.067407+00:00",
+    "comment_fetched_at": "2026-06-10T16:25:14.116916+00:00",
     "documents": []
   },
   "1240-AA16": {
@@ -32105,7 +32105,7 @@
     "last_modified": "2025-01-10T09:25:28Z",
     "fetched_at": "2026-06-01T05:58:20.893474Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:06:29.048591+00:00",
+    "comment_fetched_at": "2026-06-10T16:25:21.621634+00:00",
     "documents": []
   },
   "1291-AA47": {
@@ -32222,7 +32222,7 @@
     "last_modified": "2024-09-12T01:01:57Z",
     "fetched_at": "2026-06-01T05:59:17.566026Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:06:37.047034+00:00",
+    "comment_fetched_at": "2026-06-10T16:25:29.145982+00:00",
     "documents": []
   },
   "1400-AF61": {
@@ -32854,7 +32854,7 @@
     "fetched_at": "2026-06-01T06:04:59.758908Z",
     "open_for_comment": null,
     "documents": [],
-    "comment_fetched_at": "2026-06-07T14:06:45.155735+00:00"
+    "comment_fetched_at": "2026-06-10T16:25:36.698389+00:00"
   },
   "2105-AF15": {
     "rin": "2105-AF15",
@@ -32904,7 +32904,7 @@
     "last_modified": "2025-11-25T18:38:57Z",
     "fetched_at": "2026-06-01T06:05:25.763931Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:06:53.169967+00:00",
+    "comment_fetched_at": "2026-06-10T16:25:44.210534+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -33092,14 +33092,14 @@
     "docket_id": "FAA-2026-4558",
     "docket_url": "https://www.regulations.gov/docket/FAA-2026-4558",
     "title": "Designation \u2013 Restrict the Operation of Unmanned Aircraft in Close Proximity  to a Fixed Site Facility",
-    "comment_count": 256,
+    "comment_count": 285,
     "comment_start_date": "2026-05-06",
     "comment_end_date": "2026-07-07",
     "docket_type": "Rulemaking",
     "last_modified": "2026-05-29T15:22:49Z",
     "fetched_at": "2026-06-01T06:06:17.810870Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:07:01.153783+00:00",
+    "comment_fetched_at": "2026-06-10T16:25:51.739456+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -33326,7 +33326,7 @@
     "last_modified": "2026-05-29T10:40:32Z",
     "fetched_at": "2026-06-01T06:06:43.812648Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:07:09.174131+00:00",
+    "comment_fetched_at": "2026-06-10T16:25:59.290994+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -34056,7 +34056,7 @@
     "last_modified": "2025-04-11T15:54:34Z",
     "fetched_at": "2026-06-01T06:08:20.386712Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:07:17.202642+00:00",
+    "comment_fetched_at": "2026-06-10T16:26:06.826309+00:00",
     "documents": [
       {
         "documentType": "Other",
@@ -34087,7 +34087,7 @@
     "last_modified": "2024-08-26T13:13:03Z",
     "fetched_at": "2026-06-01T06:08:24.749509Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:07:25.192932+00:00",
+    "comment_fetched_at": "2026-06-10T16:26:14.370262+00:00",
     "documents": []
   },
   "2120-AK81": {
@@ -34313,7 +34313,7 @@
     "last_modified": "2025-09-29T15:56:27Z",
     "fetched_at": "2026-06-01T06:09:03.798295Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:07:33.192923+00:00",
+    "comment_fetched_at": "2026-06-10T16:26:21.993595+00:00",
     "documents": []
   },
   "2120-AM06": {
@@ -34328,7 +34328,7 @@
     "last_modified": "2025-01-03T08:26:20Z",
     "fetched_at": "2026-06-01T06:09:12.496237Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:07:41.214015+00:00",
+    "comment_fetched_at": "2026-06-10T16:26:29.557131+00:00",
     "documents": []
   },
   "2120-AM07": {
@@ -34343,7 +34343,7 @@
     "last_modified": "2025-03-11T08:21:28Z",
     "fetched_at": "2026-06-01T06:09:16.835662Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:07:49.229660+00:00",
+    "comment_fetched_at": "2026-06-10T16:26:37.102870+00:00",
     "documents": []
   },
   "2120-AM08": {
@@ -34358,7 +34358,7 @@
     "last_modified": "2025-03-11T08:18:14Z",
     "fetched_at": "2026-06-01T06:09:21.208780Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:07:57.230092+00:00",
+    "comment_fetched_at": "2026-06-10T16:26:44.671480+00:00",
     "documents": []
   },
   "2125-AG28": {
@@ -34621,7 +34621,7 @@
     "last_modified": "2025-06-03T13:13:10Z",
     "fetched_at": "2026-06-01T06:11:10.158170Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:08:05.216291+00:00",
+    "comment_fetched_at": "2026-06-10T16:26:52.197431+00:00",
     "documents": []
   },
   "2125-AG00": {
@@ -34744,7 +34744,7 @@
     "last_modified": "2025-05-13T14:51:43Z",
     "fetched_at": "2026-06-01T06:11:40.596294Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:08:13.234990+00:00",
+    "comment_fetched_at": "2026-06-10T16:26:59.724499+00:00",
     "documents": [
       {
         "documentType": "Other",
@@ -34765,7 +34765,7 @@
     "last_modified": "2024-08-26T13:10:07Z",
     "fetched_at": "2026-06-01T06:11:53.610093Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:08:21.217214+00:00",
+    "comment_fetched_at": "2026-06-10T16:27:07.267981+00:00",
     "documents": [
       {
         "documentType": "Other",
@@ -34816,7 +34816,7 @@
     "last_modified": "2024-09-20T08:35:02Z",
     "fetched_at": "2026-06-01T06:12:02.297545Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:08:29.256316+00:00",
+    "comment_fetched_at": "2026-06-10T16:27:15.044494+00:00",
     "documents": [
       {
         "documentType": "Notice",
@@ -35262,7 +35262,7 @@
     "last_modified": "2026-05-27T11:57:19Z",
     "fetched_at": "2026-06-01T06:12:58.706540Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T14:08:37.333896+00:00",
+    "comment_fetched_at": "2026-06-10T16:27:22.602269+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -35390,7 +35390,7 @@
     "last_modified": "2026-05-19T12:37:01Z",
     "fetched_at": "2026-06-01T06:13:16.272316Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:08:45.340236+00:00",
+    "comment_fetched_at": "2026-06-10T16:27:30.134597+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -36504,7 +36504,7 @@
     "last_modified": "2025-02-24T10:50:08Z",
     "fetched_at": "2026-06-01T06:15:39.536186Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:08:53.380574+00:00",
+    "comment_fetched_at": "2026-06-10T16:27:37.677042+00:00",
     "documents": []
   },
   "2126-AC76": {
@@ -36534,7 +36534,7 @@
     "last_modified": "2025-05-30T12:51:18Z",
     "fetched_at": "2026-06-01T06:15:48.206090Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:09:04.446831+00:00",
+    "comment_fetched_at": "2026-06-10T16:27:45.242280+00:00",
     "documents": []
   },
   "2126-AC80": {
@@ -36549,7 +36549,7 @@
     "last_modified": "2025-05-30T12:56:29Z",
     "fetched_at": "2026-06-01T06:15:52.687395Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:09:12.524010+00:00",
+    "comment_fetched_at": "2026-06-10T16:27:52.777721+00:00",
     "documents": []
   },
   "2127-AL57": {
@@ -36687,7 +36687,7 @@
     "last_modified": "2026-02-03T21:27:53Z",
     "fetched_at": "2026-06-01T06:16:18.698934Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:09:20.551482+00:00",
+    "comment_fetched_at": "2026-06-10T16:28:00.327800+00:00",
     "documents": [
       {
         "documentType": "Other",
@@ -37162,7 +37162,7 @@
     "last_modified": "2025-12-11T12:37:23Z",
     "fetched_at": "2026-06-01T06:16:57.776682Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:09:28.590258+00:00",
+    "comment_fetched_at": "2026-06-10T16:28:07.972498+00:00",
     "documents": [
       {
         "documentType": "Other",
@@ -37523,7 +37523,7 @@
     "last_modified": "2026-05-26T18:55:33Z",
     "fetched_at": "2026-06-01T06:19:12.393921Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T14:09:36.585296+00:00",
+    "comment_fetched_at": "2026-06-10T16:28:15.498777+00:00",
     "documents": [
       {
         "documentType": "Other",
@@ -37636,7 +37636,7 @@
     "last_modified": "2026-01-15T13:26:38Z",
     "fetched_at": "2026-06-01T06:20:56.520509Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:09:44.582065+00:00",
+    "comment_fetched_at": "2026-06-10T16:28:23.050732+00:00",
     "documents": []
   },
   "2127-AK17": {
@@ -37997,7 +37997,7 @@
     "last_modified": "2024-12-16T07:12:33Z",
     "fetched_at": "2026-06-01T06:21:57.322879Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:09:52.590891+00:00",
+    "comment_fetched_at": "2026-06-10T16:28:30.572582+00:00",
     "documents": [
       {
         "documentType": "Other",
@@ -38120,7 +38120,7 @@
     "last_modified": "2025-02-14T09:28:45Z",
     "fetched_at": "2026-06-01T06:22:23.386310Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:10:00.588084+00:00",
+    "comment_fetched_at": "2026-06-10T16:28:38.301120+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -38787,7 +38787,7 @@
     "last_modified": "2025-07-01T15:40:24Z",
     "fetched_at": "2026-06-01T06:25:34.590558Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:10:12.648011+00:00",
+    "comment_fetched_at": "2026-06-10T16:28:45.847012+00:00",
     "documents": []
   },
   "2130-AD07": {
@@ -38802,7 +38802,7 @@
     "last_modified": "2026-04-28T13:24:21Z",
     "fetched_at": "2026-06-01T06:25:38.937212Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:10:20.659950+00:00",
+    "comment_fetched_at": "2026-06-10T16:28:53.380386+00:00",
     "documents": []
   },
   "2130-AD08": {
@@ -38817,7 +38817,7 @@
     "last_modified": "2025-07-01T15:15:33Z",
     "fetched_at": "2026-06-01T06:25:43.281191Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:10:28.686808+00:00",
+    "comment_fetched_at": "2026-06-10T16:29:00.918470+00:00",
     "documents": []
   },
   "2130-AD09": {
@@ -38832,7 +38832,7 @@
     "last_modified": "2025-07-01T15:17:28Z",
     "fetched_at": "2026-06-01T06:25:47.625116Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:10:36.714374+00:00",
+    "comment_fetched_at": "2026-06-10T16:29:08.425772+00:00",
     "documents": []
   },
   "2130-AD10": {
@@ -38847,7 +38847,7 @@
     "last_modified": "2025-07-01T15:03:53Z",
     "fetched_at": "2026-06-01T06:25:51.984624Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:10:44.754943+00:00",
+    "comment_fetched_at": "2026-06-10T16:29:15.927041+00:00",
     "documents": []
   },
   "2130-AD12": {
@@ -38862,7 +38862,7 @@
     "last_modified": "2025-12-05T17:19:09Z",
     "fetched_at": "2026-06-01T06:25:56.327523Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:10:52.778127+00:00",
+    "comment_fetched_at": "2026-06-10T16:29:23.429696+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -38888,7 +38888,7 @@
     "last_modified": "2025-07-01T15:26:00Z",
     "fetched_at": "2026-06-01T06:26:00.664945Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:11:00.770097+00:00",
+    "comment_fetched_at": "2026-06-10T16:29:30.953487+00:00",
     "documents": []
   },
   "2130-AD15": {
@@ -38903,7 +38903,7 @@
     "last_modified": "2025-07-01T14:41:57Z",
     "fetched_at": "2026-06-01T06:26:05.011416Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:11:08.773072+00:00",
+    "comment_fetched_at": "2026-06-10T16:29:38.478323+00:00",
     "documents": []
   },
   "2130-AD16": {
@@ -38918,7 +38918,7 @@
     "last_modified": "2025-07-01T15:29:36Z",
     "fetched_at": "2026-06-01T06:26:09.356734Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:11:16.755720+00:00",
+    "comment_fetched_at": "2026-06-10T16:29:46.002107+00:00",
     "documents": []
   },
   "2130-AD17": {
@@ -38933,7 +38933,7 @@
     "last_modified": "2025-07-01T15:35:43Z",
     "fetched_at": "2026-06-01T06:26:13.702027Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:11:24.945324+00:00",
+    "comment_fetched_at": "2026-06-10T16:29:53.546308+00:00",
     "documents": []
   },
   "2130-AD19": {
@@ -38948,7 +38948,7 @@
     "last_modified": "2025-07-01T14:59:53Z",
     "fetched_at": "2026-06-01T06:26:18.033218Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:11:32.946716+00:00",
+    "comment_fetched_at": "2026-06-10T16:30:01.089069+00:00",
     "documents": []
   },
   "2130-AD20": {
@@ -38963,7 +38963,7 @@
     "last_modified": "2025-07-01T15:16:28Z",
     "fetched_at": "2026-06-01T06:26:22.361521Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:11:40.960378+00:00",
+    "comment_fetched_at": "2026-06-10T16:30:08.651215+00:00",
     "documents": []
   },
   "2130-AD21": {
@@ -38978,7 +38978,7 @@
     "last_modified": "2025-07-01T15:14:38Z",
     "fetched_at": "2026-06-01T06:26:26.704496Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:11:48.963344+00:00",
+    "comment_fetched_at": "2026-06-10T16:30:16.172312+00:00",
     "documents": []
   },
   "2130-AD23": {
@@ -38993,7 +38993,7 @@
     "last_modified": "2025-07-01T15:31:36Z",
     "fetched_at": "2026-06-01T06:26:31.041237Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:11:56.981245+00:00",
+    "comment_fetched_at": "2026-06-10T16:30:23.700823+00:00",
     "documents": []
   },
   "2130-AD25": {
@@ -39008,7 +39008,7 @@
     "last_modified": "2025-07-01T15:44:14Z",
     "fetched_at": "2026-06-01T06:26:35.380445Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:12:05.005200+00:00",
+    "comment_fetched_at": "2026-06-10T16:30:31.238990+00:00",
     "documents": []
   },
   "2130-AD26": {
@@ -39023,7 +39023,7 @@
     "last_modified": "2025-07-01T14:54:21Z",
     "fetched_at": "2026-06-01T06:26:39.718018Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:12:12.985053+00:00",
+    "comment_fetched_at": "2026-06-10T16:30:38.764406+00:00",
     "documents": []
   },
   "2130-AD27": {
@@ -39038,7 +39038,7 @@
     "last_modified": "2025-07-01T15:12:26Z",
     "fetched_at": "2026-06-01T06:26:44.059515Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:12:21.004043+00:00",
+    "comment_fetched_at": "2026-06-10T16:30:46.285439+00:00",
     "documents": []
   },
   "2130-AD29": {
@@ -39053,7 +39053,7 @@
     "last_modified": "2025-07-01T15:34:44Z",
     "fetched_at": "2026-06-01T06:26:48.401677Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:12:29.000599+00:00",
+    "comment_fetched_at": "2026-06-10T16:30:53.821543+00:00",
     "documents": []
   },
   "2130-AD30": {
@@ -39068,7 +39068,7 @@
     "last_modified": "2025-07-01T15:02:45Z",
     "fetched_at": "2026-06-01T06:26:52.742924Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:12:37.007166+00:00",
+    "comment_fetched_at": "2026-06-10T16:31:01.358992+00:00",
     "documents": []
   },
   "2130-AD31": {
@@ -39083,7 +39083,7 @@
     "last_modified": "2025-07-01T14:49:22Z",
     "fetched_at": "2026-06-01T06:26:57.093222Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:12:45.021134+00:00",
+    "comment_fetched_at": "2026-06-10T16:31:08.901383+00:00",
     "documents": []
   },
   "2130-AD33": {
@@ -39098,7 +39098,7 @@
     "last_modified": "2025-07-01T15:18:25Z",
     "fetched_at": "2026-06-01T06:27:01.442714Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:12:53.024590+00:00",
+    "comment_fetched_at": "2026-06-10T16:31:16.435819+00:00",
     "documents": []
   },
   "2130-AD34": {
@@ -39113,7 +39113,7 @@
     "last_modified": "2025-07-01T15:27:05Z",
     "fetched_at": "2026-06-01T06:27:05.775941Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:13:01.048096+00:00",
+    "comment_fetched_at": "2026-06-10T16:31:24.030244+00:00",
     "documents": []
   },
   "2130-AD35": {
@@ -39128,7 +39128,7 @@
     "last_modified": "2025-07-01T15:19:31Z",
     "fetched_at": "2026-06-01T06:27:10.116178Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:13:09.072475+00:00",
+    "comment_fetched_at": "2026-06-10T16:31:31.544884+00:00",
     "documents": []
   },
   "2130-AD36": {
@@ -39143,7 +39143,7 @@
     "last_modified": "2025-07-01T15:41:30Z",
     "fetched_at": "2026-06-01T06:27:14.444564Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:13:17.201492+00:00",
+    "comment_fetched_at": "2026-06-10T16:31:39.095874+00:00",
     "documents": []
   },
   "2130-AD37": {
@@ -39158,7 +39158,7 @@
     "last_modified": "2025-07-01T15:07:05Z",
     "fetched_at": "2026-06-01T06:27:18.782378Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:13:25.349374+00:00",
+    "comment_fetched_at": "2026-06-10T16:31:46.622986+00:00",
     "documents": []
   },
   "2130-AD38": {
@@ -39173,7 +39173,7 @@
     "last_modified": "2025-07-01T15:43:18Z",
     "fetched_at": "2026-06-01T06:27:23.143124Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:13:33.360117+00:00",
+    "comment_fetched_at": "2026-06-10T16:31:54.149529+00:00",
     "documents": []
   },
   "2130-AD40": {
@@ -39188,7 +39188,7 @@
     "last_modified": "2025-07-01T14:45:09Z",
     "fetched_at": "2026-06-01T06:27:27.571648Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:13:41.379319+00:00",
+    "comment_fetched_at": "2026-06-10T16:32:01.693473+00:00",
     "documents": []
   },
   "2130-AD41": {
@@ -39203,7 +39203,7 @@
     "last_modified": "2025-07-01T15:01:22Z",
     "fetched_at": "2026-06-01T06:27:31.906533Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:13:49.362778+00:00",
+    "comment_fetched_at": "2026-06-10T16:32:09.204017+00:00",
     "documents": []
   },
   "2130-AD42": {
@@ -39218,7 +39218,7 @@
     "last_modified": "2025-07-01T15:25:03Z",
     "fetched_at": "2026-06-01T06:27:36.239372Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:13:57.444735+00:00",
+    "comment_fetched_at": "2026-06-10T16:32:16.733136+00:00",
     "documents": []
   },
   "2130-AD43": {
@@ -39233,7 +39233,7 @@
     "last_modified": "2025-07-01T14:55:52Z",
     "fetched_at": "2026-06-01T06:27:40.747292Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:14:05.422903+00:00",
+    "comment_fetched_at": "2026-06-10T16:32:24.249500+00:00",
     "documents": []
   },
   "2130-AD45": {
@@ -39248,7 +39248,7 @@
     "last_modified": "2025-07-01T15:10:16Z",
     "fetched_at": "2026-06-01T06:27:45.086335Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:14:13.443746+00:00",
+    "comment_fetched_at": "2026-06-10T16:32:31.764915+00:00",
     "documents": []
   },
   "2130-AD47": {
@@ -39263,7 +39263,7 @@
     "last_modified": "2025-07-01T15:37:35Z",
     "fetched_at": "2026-06-01T06:27:49.431450Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:14:21.485272+00:00",
+    "comment_fetched_at": "2026-06-10T16:32:39.284588+00:00",
     "documents": []
   },
   "2130-AD48": {
@@ -39278,7 +39278,7 @@
     "last_modified": "2025-07-01T14:50:28Z",
     "fetched_at": "2026-06-01T06:27:53.771654Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:14:29.484723+00:00",
+    "comment_fetched_at": "2026-06-10T16:32:46.791660+00:00",
     "documents": []
   },
   "2130-AD52": {
@@ -39293,7 +39293,7 @@
     "last_modified": "2025-07-01T15:04:55Z",
     "fetched_at": "2026-06-01T06:27:58.111712Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:14:37.480849+00:00",
+    "comment_fetched_at": "2026-06-10T16:32:54.307170+00:00",
     "documents": []
   },
   "2130-AD53": {
@@ -39308,7 +39308,7 @@
     "last_modified": "2025-07-01T15:23:11Z",
     "fetched_at": "2026-06-01T06:28:02.442761Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:14:45.442576+00:00",
+    "comment_fetched_at": "2026-06-10T16:33:14.048123+00:00",
     "documents": []
   },
   "2130-AD56": {
@@ -39323,7 +39323,7 @@
     "last_modified": "2025-07-01T15:24:06Z",
     "fetched_at": "2026-06-01T06:28:06.775873Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:14:53.422000+00:00",
+    "comment_fetched_at": "2026-06-10T16:33:21.574571+00:00",
     "documents": []
   },
   "2132-AB46": {
@@ -39614,7 +39614,7 @@
     "last_modified": "2025-07-01T13:18:27Z",
     "fetched_at": "2026-06-01T06:29:24.884399Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:15:01.467440+00:00",
+    "comment_fetched_at": "2026-06-10T16:33:29.112506+00:00",
     "documents": []
   },
   "2132-AB53": {
@@ -39629,7 +39629,7 @@
     "last_modified": "2025-07-01T13:21:55Z",
     "fetched_at": "2026-06-01T06:29:29.223907Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:15:09.483645+00:00",
+    "comment_fetched_at": "2026-06-10T16:33:36.642512+00:00",
     "documents": []
   },
   "2132-AB54": {
@@ -39644,7 +39644,7 @@
     "last_modified": "2025-07-01T13:19:17Z",
     "fetched_at": "2026-06-01T06:29:33.568589Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:15:17.504119+00:00",
+    "comment_fetched_at": "2026-06-10T16:33:44.206325+00:00",
     "documents": []
   },
   "2132-AB55": {
@@ -39659,7 +39659,7 @@
     "last_modified": "2025-07-01T13:20:14Z",
     "fetched_at": "2026-06-01T06:29:37.904398Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:15:25.480014+00:00",
+    "comment_fetched_at": "2026-06-10T16:33:51.736562+00:00",
     "documents": []
   },
   "2132-AB56": {
@@ -39674,7 +39674,7 @@
     "last_modified": "2025-07-01T13:17:35Z",
     "fetched_at": "2026-06-01T06:29:42.253844Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:15:33.460575+00:00",
+    "comment_fetched_at": "2026-06-10T16:33:59.258528+00:00",
     "documents": []
   },
   "2133-AC00": {
@@ -39689,7 +39689,7 @@
     "last_modified": "2026-01-15T13:23:59Z",
     "fetched_at": "2026-06-01T06:30:25.715551Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:15:41.461402+00:00",
+    "comment_fetched_at": "2026-06-10T16:34:06.788100+00:00",
     "documents": []
   },
   "2137-AF44": {
@@ -39897,7 +39897,7 @@
     "last_modified": "2026-04-24T15:15:30Z",
     "fetched_at": "2026-06-01T06:31:48.136287Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:15:49.475321+00:00",
+    "comment_fetched_at": "2026-06-10T16:34:14.315018+00:00",
     "documents": []
   },
   "2137-AF64": {
@@ -40652,7 +40652,7 @@
     "last_modified": "2025-05-20T13:12:09Z",
     "fetched_at": "2026-06-01T06:34:16.139754Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:15:57.517621+00:00",
+    "comment_fetched_at": "2026-06-10T16:34:21.827552+00:00",
     "documents": []
   },
   "2137-AF37": {
@@ -41109,14 +41109,14 @@
     "docket_id": "FINCEN-2026-0067",
     "docket_url": "https://www.regulations.gov/docket/FINCEN-2026-0067",
     "title": "Whistleblower Incentives and Protections",
-    "comment_count": 92,
+    "comment_count": 101,
     "comment_start_date": "2026-04-01",
     "comment_end_date": "2026-06-02",
     "docket_type": "Rulemaking",
     "last_modified": "2026-05-30T01:43:41Z",
     "fetched_at": "2026-06-01T06:37:10.206510Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T14:16:05.506637+00:00",
+    "comment_fetched_at": "2026-06-10T16:34:29.365970+00:00",
     "documents": []
   },
   "1506-AB52": {
@@ -41360,7 +41360,7 @@
     "last_modified": "2026-05-26T13:23:20Z",
     "fetched_at": "2026-06-01T06:39:11.586499Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T14:16:13.552029+00:00",
+    "comment_fetched_at": "2026-06-10T16:34:36.902077+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -42176,7 +42176,7 @@
     "last_modified": "2026-05-19T13:19:30Z",
     "fetched_at": "2026-06-01T06:48:59.923304Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:16:21.646070+00:00",
+    "comment_fetched_at": "2026-06-10T16:34:44.447164+00:00",
     "documents": []
   },
   "1545-BQ37": {
@@ -42388,7 +42388,7 @@
     "last_modified": "2026-02-13T15:08:51Z",
     "fetched_at": "2026-06-01T06:52:28.755154Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:16:29.655523+00:00",
+    "comment_fetched_at": "2026-06-10T16:34:51.983492+00:00",
     "documents": []
   },
   "1545-BE31": {
@@ -42448,7 +42448,7 @@
     "last_modified": "2024-08-26T13:08:49Z",
     "fetched_at": "2026-06-01T06:52:50.464830Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:16:37.652616+00:00",
+    "comment_fetched_at": "2026-06-10T16:34:59.503845+00:00",
     "documents": []
   },
   "1545-BI04": {
@@ -43095,7 +43095,7 @@
     "last_modified": "2024-08-26T13:00:47Z",
     "fetched_at": "2026-06-01T06:56:15.253033Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:16:45.753624+00:00",
+    "comment_fetched_at": "2026-06-10T16:35:07.038035+00:00",
     "documents": []
   },
   "1545-BQ58": {
@@ -43670,7 +43670,7 @@
     "last_modified": "2024-12-02T10:37:46Z",
     "fetched_at": "2026-06-01T07:00:20.158653Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:16:53.780153+00:00",
+    "comment_fetched_at": "2026-06-10T16:35:14.667106+00:00",
     "documents": []
   },
   "1545-BM41": {
@@ -43973,7 +43973,7 @@
     "last_modified": "2026-05-27T22:44:54Z",
     "fetched_at": "2026-06-01T07:02:17.343306Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T14:17:01.802085+00:00",
+    "comment_fetched_at": "2026-06-10T16:35:22.288555+00:00",
     "documents": []
   },
   "1557-AF29": {
@@ -44277,14 +44277,14 @@
     "docket_id": "OCC-2024-0005",
     "docket_url": "https://www.regulations.gov/docket/OCC-2024-0005",
     "title": "Anti-Money Laundering and Countering the Financing of Terrorism Program Requirements",
-    "comment_count": 20,
+    "comment_count": 32,
     "comment_start_date": "2026-04-10",
     "comment_end_date": "2026-06-10",
     "docket_type": "Rulemaking",
     "last_modified": "2026-05-12T12:54:08Z",
     "fetched_at": "2026-06-01T07:02:43.377980Z",
-    "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:17:09.836836+00:00",
+    "open_for_comment": false,
+    "comment_fetched_at": "2026-06-10T16:35:29.815769+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -44443,7 +44443,7 @@
     "last_modified": "2024-10-15T11:04:33Z",
     "fetched_at": "2026-06-01T07:03:00.745897Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:17:17.862617+00:00",
+    "comment_fetched_at": "2026-06-10T16:35:37.430874+00:00",
     "documents": []
   },
   "2900-AQ89": {
@@ -44780,7 +44780,7 @@
     "last_modified": "2025-10-02T11:41:40Z",
     "fetched_at": "2026-06-01T07:04:14.738926Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:17:25.935159+00:00",
+    "comment_fetched_at": "2026-06-10T16:35:44.943949+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -45674,7 +45674,7 @@
     "last_modified": "2025-09-25T12:50:26Z",
     "fetched_at": "2026-06-01T07:07:21.670029Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:17:33.927353+00:00",
+    "comment_fetched_at": "2026-06-10T16:35:52.467238+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -45812,7 +45812,7 @@
     "last_modified": "2024-11-12T08:45:55Z",
     "fetched_at": "2026-06-01T07:08:18.087674Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:17:41.963815+00:00",
+    "comment_fetched_at": "2026-06-10T16:35:59.987775+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -46630,7 +46630,7 @@
     "last_modified": "2026-05-28T21:37:21Z",
     "fetched_at": "2026-06-01T07:09:14.776283Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:17:49.985368+00:00",
+    "comment_fetched_at": "2026-06-10T16:36:07.547498+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -46724,6 +46724,16 @@
       },
       {
         "documentType": "Supporting & Related Material",
+        "title": "Analysis of Compliance Costs and Economic Impacts -DCN SE12148",
+        "documentId": "EPA-HQ-OW-2009-0819-13786"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "CBI Colstrip Steam Electric Station Site Visit Notes (January 20, 2026) - [DCN SE12103]",
+        "documentId": "EPA-HQ-OW-2009-0819-13810"
+      },
+      {
+        "documentType": "Supporting & Related Material",
         "title": "2025 Annual Groundwater Monitoring and Corrective Action Report - Laramie River Station - DCN SE12161",
         "documentId": "EPA-HQ-OW-2009-0819-13755"
       },
@@ -46744,18 +46754,8 @@
       },
       {
         "documentType": "Supporting & Related Material",
-        "title": "CBI Colstrip Steam Electric Station Site Visit Notes (January 20, 2026) - [DCN SE12103]",
-        "documentId": "EPA-HQ-OW-2009-0819-13810"
-      },
-      {
-        "documentType": "Supporting & Related Material",
         "title": "CBI Unmanaged CRL Non Water Quality Environmental Impacts for the Steam Electric ELGs (DCN SE12118)",
         "documentId": "EPA-HQ-OW-2009-0819-13811"
-      },
-      {
-        "documentType": "Supporting & Related Material",
-        "title": "Analysis of Compliance Costs and Economic Impacts -DCN SE12148",
-        "documentId": "EPA-HQ-OW-2009-0819-13786"
       },
       {
         "documentType": "Supporting & Related Material",
@@ -46964,6 +46964,11 @@
       },
       {
         "documentType": "Supporting & Related Material",
+        "title": "Efficient Landfill Wastewater Monitoring: Reducing Long-Term Management Costs Through Collaborative R&D - DCN SE12172",
+        "documentId": "EPA-HQ-OW-2009-0819-13780"
+      },
+      {
+        "documentType": "Supporting & Related Material",
         "title": "Critical Materials Chapter 6 - Mitigating criticality, part II: Source diversification - DCN SE12120",
         "documentId": "EPA-HQ-OW-2009-0819-13744"
       },
@@ -46986,11 +46991,6 @@
         "documentType": "Supporting & Related Material",
         "title": "The Association Between Drinking Water Turbidity and Gastrointestinal Illness: A Systematic Review - DCN SE12143",
         "documentId": "EPA-HQ-OW-2009-0819-13793"
-      },
-      {
-        "documentType": "Supporting & Related Material",
-        "title": "Efficient Landfill Wastewater Monitoring: Reducing Long-Term Management Costs Through Collaborative R&D - DCN SE12172",
-        "documentId": "EPA-HQ-OW-2009-0819-13780"
       },
       {
         "documentType": "Supporting & Related Material",
@@ -48928,7 +48928,7 @@
     "last_modified": "2026-03-12T16:08:47Z",
     "fetched_at": "2026-06-01T07:09:49.436431Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:17:58.405996+00:00",
+    "comment_fetched_at": "2026-06-10T16:36:15.468529+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -50194,7 +50194,7 @@
     "last_modified": "2026-05-28T19:24:39Z",
     "fetched_at": "2026-06-01T07:09:53.772034Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:18:06.818028+00:00",
+    "comment_fetched_at": "2026-06-10T16:36:23.031840+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -50398,6 +50398,11 @@
       },
       {
         "documentType": "Supporting & Related Material",
+        "title": "Arsenic Economic Analysis",
+        "documentId": "EPA-HQ-OW-2025-1742-0089"
+      },
+      {
+        "documentType": "Supporting & Related Material",
         "title": "Economic Analysis for the Final Per- and Polyfluoroalkyl Substances National Primary Drinking Water Regulation",
         "documentId": "EPA-HQ-OW-2025-1742-0031"
       },
@@ -50448,11 +50453,6 @@
       },
       {
         "documentType": "Supporting & Related Material",
-        "title": "Arsenic Economic Analysis",
-        "documentId": "EPA-HQ-OW-2025-1742-0089"
-      },
-      {
-        "documentType": "Supporting & Related Material",
         "title": "State Versus Private Ownership",
         "documentId": "EPA-HQ-OW-2025-1742-0064"
       },
@@ -50475,46 +50475,6 @@
         "documentType": "Supporting & Related Material",
         "title": "Supporting Statement for the EPA\u2019S Information Collection Request (ICR) Extending the Compliance Deadline for the PFOA and PFOS Maximum Contaminant Levels",
         "documentId": "EPA-HQ-OW-2025-1742-0071"
-      },
-      {
-        "documentType": "Supporting & Related Material",
-        "title": "Effectiveness of pitcher and bottle filters to remove poly-and perfluoroalkyl substances (PFAS) from drinking water April 7, 2025",
-        "documentId": "EPA-HQ-OW-2025-1742-0058"
-      },
-      {
-        "documentType": "Supporting & Related Material",
-        "title": "How Do Novel PFAS Sorbents Fit into Current Engineering Paradigm?",
-        "documentId": "EPA-HQ-OW-2025-1742-0076"
-      },
-      {
-        "documentType": "Supporting & Related Material",
-        "title": "Cyclodextrins for the removal of per- and polyfluoroalkyl substances: a review",
-        "documentId": "EPA-HQ-OW-2025-1742-0080"
-      },
-      {
-        "documentType": "Supporting & Related Material",
-        "title": "Source Water Contacts in EPA\u2019s Regional Offices",
-        "documentId": "EPA-HQ-OW-2025-1742-0045"
-      },
-      {
-        "documentType": "Supporting & Related Material",
-        "title": "Longitudinal assessment of point\u2010of\u2010use carbon filters for removal of per\u2010and polyfluoroalkyl substances from private well water",
-        "documentId": "EPA-HQ-OW-2025-1742-0057"
-      },
-      {
-        "documentType": "Supporting & Related Material",
-        "title": "U.S. EPA National Drinking Water Advisory Council (NDWAC) Virtual Public Meeting",
-        "documentId": "EPA-HQ-OW-2025-1742-0059"
-      },
-      {
-        "documentType": "Supporting & Related Material",
-        "title": "Elements of Pure Economics",
-        "documentId": "EPA-HQ-OW-2025-1742-0067"
-      },
-      {
-        "documentType": "Supporting & Related Material",
-        "title": "Employer Costs for Employee Compensation",
-        "documentId": "EPA-HQ-OW-2025-1742-0090"
       },
       {
         "documentType": "Supporting & Related Material",
@@ -50545,6 +50505,46 @@
         "documentType": "Supporting & Related Material",
         "title": "WQA\u2019s Comments on Docket ID No. EPA-HQ-OW-2022-0114",
         "documentId": "EPA-HQ-OW-2025-1742-0042"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Source Water Contacts in EPA\u2019s Regional Offices",
+        "documentId": "EPA-HQ-OW-2025-1742-0045"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Longitudinal assessment of point\u2010of\u2010use carbon filters for removal of per\u2010and polyfluoroalkyl substances from private well water",
+        "documentId": "EPA-HQ-OW-2025-1742-0057"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "U.S. EPA National Drinking Water Advisory Council (NDWAC) Virtual Public Meeting",
+        "documentId": "EPA-HQ-OW-2025-1742-0059"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Elements of Pure Economics",
+        "documentId": "EPA-HQ-OW-2025-1742-0067"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Employer Costs for Employee Compensation",
+        "documentId": "EPA-HQ-OW-2025-1742-0090"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Effectiveness of pitcher and bottle filters to remove poly-and perfluoroalkyl substances (PFAS) from drinking water April 7, 2025",
+        "documentId": "EPA-HQ-OW-2025-1742-0058"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "How Do Novel PFAS Sorbents Fit into Current Engineering Paradigm?",
+        "documentId": "EPA-HQ-OW-2025-1742-0076"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Cyclodextrins for the removal of per- and polyfluoroalkyl substances: a review",
+        "documentId": "EPA-HQ-OW-2025-1742-0080"
       },
       {
         "documentType": "Supporting & Related Material",
@@ -50670,7 +50670,7 @@
     "last_modified": "2026-05-28T21:37:21Z",
     "fetched_at": "2026-06-01T07:09:58.111774Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:18:14.841358+00:00",
+    "comment_fetched_at": "2026-06-10T16:36:30.644765+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -52580,7 +52580,7 @@
     "last_modified": "2024-08-26T13:14:25Z",
     "fetched_at": "2026-06-01T07:10:46.672864Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:18:52.905991+00:00",
+    "comment_fetched_at": "2026-06-10T16:37:08.193892+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -53846,7 +53846,7 @@
     "last_modified": "2026-05-15T12:15:09Z",
     "fetched_at": "2026-06-01T07:11:06.177455Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:19:03.111354+00:00",
+    "comment_fetched_at": "2026-06-10T16:37:16.678892+00:00",
     "documents": [
       {
         "documentType": "Other",
@@ -54198,7 +54198,7 @@
     "last_modified": "2024-12-17T09:25:16Z",
     "fetched_at": "2026-06-01T07:11:32.165342Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:19:11.070309+00:00",
+    "comment_fetched_at": "2026-06-10T16:37:24.217591+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -57042,7 +57042,7 @@
     "last_modified": "2026-05-18T18:25:51Z",
     "fetched_at": "2026-06-01T07:12:02.524906Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T14:19:19.563178+00:00",
+    "comment_fetched_at": "2026-06-10T16:37:32.521061+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -59415,7 +59415,7 @@
     "last_modified": "2026-05-28T12:34:53Z",
     "fetched_at": "2026-06-01T07:13:07.650316Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:19:27.488610+00:00",
+    "comment_fetched_at": "2026-06-10T16:37:40.061573+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -61977,14 +61977,14 @@
     "docket_id": "EPA-HQ-OAR-2025-0618",
     "docket_url": "https://www.regulations.gov/docket/EPA-HQ-OAR-2025-0618",
     "title": "Revision to \u201cBegin Actual Construction\u201d in the New Source Review Preconstruction Permitting Program",
-    "comment_count": 52,
+    "comment_count": 76,
     "comment_start_date": "2026-05-13",
     "comment_end_date": "2026-06-30",
     "docket_type": "Rulemaking",
     "last_modified": "2026-05-29T20:48:04Z",
     "fetched_at": "2026-06-01T07:15:48.541713Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:19:35.593340+00:00",
+    "comment_fetched_at": "2026-06-10T16:37:47.613534+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -62073,6 +62073,11 @@
       },
       {
         "documentType": "Supporting & Related Material",
+        "title": "Letter from F. Kohlasch, Minnesota Pollution Control Agency to EPA",
+        "documentId": "EPA-HQ-OAR-2025-0618-0018"
+      },
+      {
+        "documentType": "Supporting & Related Material",
         "title": "Letter from Plastics Industry Association to EPA",
         "documentId": "EPA-HQ-OAR-2025-0618-0021"
       },
@@ -62108,11 +62113,6 @@
       },
       {
         "documentType": "Supporting & Related Material",
-        "title": "Letter from F. Kohlasch, Minnesota Pollution Control Agency to EPA",
-        "documentId": "EPA-HQ-OAR-2025-0618-0018"
-      },
-      {
-        "documentType": "Supporting & Related Material",
         "title": "Letter from National Association of Clean Air Agencies (NACAA) to EPA",
         "documentId": "EPA-HQ-OAR-2025-0618-0019"
       },
@@ -62140,7 +62140,7 @@
     "last_modified": "2026-03-17T17:36:39Z",
     "fetched_at": "2026-06-01T07:16:01.547156Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:19:43.588407+00:00",
+    "comment_fetched_at": "2026-06-10T16:37:55.172967+00:00",
     "documents": []
   },
   "2060-AO18": {
@@ -63587,7 +63587,7 @@
     "last_modified": "2025-05-21T18:05:15Z",
     "fetched_at": "2026-06-01T07:17:32.799384Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:19:51.550070+00:00",
+    "comment_fetched_at": "2026-06-10T16:38:02.695449+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -67954,7 +67954,7 @@
     "last_modified": "2024-08-26T13:07:07Z",
     "fetched_at": "2026-06-01T07:22:19.235306Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:19:59.551424+00:00",
+    "comment_fetched_at": "2026-06-10T16:38:10.292148+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -69892,7 +69892,7 @@
     "last_modified": "2024-08-26T13:00:35Z",
     "fetched_at": "2026-06-01T07:23:02.862931Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:20:07.598033+00:00",
+    "comment_fetched_at": "2026-06-10T16:38:18.035094+00:00",
     "documents": []
   },
   "2070-AL13": {
@@ -74552,7 +74552,7 @@
     "last_modified": "2026-02-27T14:34:40Z",
     "fetched_at": "2026-06-01T07:25:08.751546Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:20:15.528009+00:00",
+    "comment_fetched_at": "2026-06-10T16:38:25.576588+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -74651,14 +74651,14 @@
     "docket_id": "CPPBSD-2026-0001",
     "docket_url": "https://www.regulations.gov/docket/CPPBSD-2026-0001",
     "title": "Program Fee & Subcontracting Rule",
-    "comment_count": 7,
+    "comment_count": 10,
     "comment_start_date": "2026-05-28",
     "comment_end_date": "2026-06-23",
     "docket_type": "Rulemaking",
     "last_modified": "2026-05-29T14:21:55Z",
     "fetched_at": "2026-06-01T07:27:40.575452Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:20:23.527821+00:00",
+    "comment_fetched_at": "2026-06-10T16:38:33.318203+00:00",
     "documents": []
   },
   "3038-AF47": {
@@ -74673,7 +74673,7 @@
     "last_modified": "2026-05-06T14:12:10Z",
     "fetched_at": "2026-06-01T07:28:36.854222Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:20:31.464219+00:00",
+    "comment_fetched_at": "2026-06-10T16:38:40.846132+00:00",
     "documents": []
   },
   "3170-AB50": {
@@ -75048,7 +75048,7 @@
     "last_modified": "2025-01-17T13:51:30Z",
     "fetched_at": "2026-06-01T07:33:49.794735Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:20:39.442009+00:00",
+    "comment_fetched_at": "2026-06-10T16:38:48.349529+00:00",
     "documents": []
   },
   "0331-AA10": {
@@ -75546,7 +75546,7 @@
     "last_modified": "2026-05-15T12:54:55Z",
     "fetched_at": "2026-06-01T07:54:42.843002Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T14:20:47.404919+00:00",
+    "comment_fetched_at": "2026-06-10T16:38:55.900223+00:00",
     "documents": []
   },
   "3072-AD04": {
@@ -75561,7 +75561,7 @@
     "last_modified": "2025-06-20T13:58:09Z",
     "fetched_at": "2026-06-01T07:54:47.180347Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:20:55.317447+00:00",
+    "comment_fetched_at": "2026-06-10T16:39:03.437393+00:00",
     "documents": []
   },
   "3072-AD03": {
@@ -75576,7 +75576,7 @@
     "last_modified": "2025-01-14T09:26:28Z",
     "fetched_at": "2026-06-01T07:55:04.529649Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T14:21:03.255386+00:00",
+    "comment_fetched_at": "2026-06-10T16:39:10.965858+00:00",
     "documents": []
   },
   "3084-AB50": {
@@ -75621,7 +75621,7 @@
     "last_modified": "2024-08-26T13:00:36Z",
     "fetched_at": "2026-06-01T07:58:34.466569Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T13:01:18.203667+00:00",
+    "comment_fetched_at": "2026-06-10T16:39:18.504464+00:00",
     "documents": []
   },
   "3084-AB71": {
@@ -75693,7 +75693,7 @@
     "last_modified": "2024-08-26T12:59:49Z",
     "fetched_at": "2026-06-01T07:58:51.974154Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T15:13:17.170678+00:00",
+    "comment_fetched_at": "2026-06-10T16:39:26.082755+00:00",
     "documents": []
   },
   "3084-AB19": {
@@ -75738,7 +75738,7 @@
     "last_modified": "2025-01-10T08:29:12Z",
     "fetched_at": "2026-06-01T07:59:09.371078Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T15:13:26.800269+00:00",
+    "comment_fetched_at": "2026-06-10T16:39:33.783562+00:00",
     "documents": []
   },
   "3090-AK12": {
@@ -75753,7 +75753,7 @@
     "last_modified": "2026-03-10T12:42:32Z",
     "fetched_at": "2026-06-01T07:59:13.782715Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T15:13:34.741433+00:00",
+    "comment_fetched_at": "2026-06-10T16:39:41.308661+00:00",
     "documents": []
   },
   "3090-AK92": {
@@ -75768,7 +75768,7 @@
     "last_modified": "2026-01-20T19:23:14Z",
     "fetched_at": "2026-06-01T07:59:22.487668Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T15:13:42.680099+00:00",
+    "comment_fetched_at": "2026-06-10T16:39:48.837339+00:00",
     "documents": []
   },
   "3090-AL06": {
@@ -75783,7 +75783,7 @@
     "last_modified": "2026-01-20T19:11:43Z",
     "fetched_at": "2026-06-01T07:59:26.838717Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T15:13:50.659399+00:00",
+    "comment_fetched_at": "2026-06-10T16:39:56.371700+00:00",
     "documents": []
   },
   "3090-AK39": {
@@ -75843,7 +75843,7 @@
     "last_modified": "2025-04-15T10:23:03Z",
     "fetched_at": "2026-06-01T08:00:01.706710Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T15:13:58.644954+00:00",
+    "comment_fetched_at": "2026-06-10T16:40:03.899772+00:00",
     "documents": []
   },
   "3090-AK89": {
@@ -75858,7 +75858,7 @@
     "last_modified": "2025-01-02T14:10:52Z",
     "fetched_at": "2026-06-01T08:00:23.452854Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T15:14:06.640599+00:00",
+    "comment_fetched_at": "2026-06-10T16:40:11.421048+00:00",
     "documents": []
   },
   "3090-AK65": {
@@ -75969,7 +75969,7 @@
     "last_modified": "2024-08-26T13:12:49Z",
     "fetched_at": "2026-06-01T08:02:42.885443Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T15:14:14.582846+00:00",
+    "comment_fetched_at": "2026-06-10T16:40:18.973359+00:00",
     "documents": []
   },
   "3133-AF25": {
@@ -76013,14 +76013,14 @@
     "docket_id": "NCUA-2024-0033",
     "docket_url": "https://www.regulations.gov/docket/NCUA-2024-0033",
     "title": "Bank Secrecy Act Program Rule",
-    "comment_count": 20,
+    "comment_count": 34,
     "comment_start_date": "2026-04-10",
     "comment_end_date": "2026-06-10",
     "docket_type": "Rulemaking",
     "last_modified": "2026-05-26T15:34:13Z",
     "fetched_at": "2026-06-01T08:03:09.034679Z",
-    "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T15:14:22.643555+00:00",
+    "open_for_comment": false,
+    "comment_fetched_at": "2026-06-10T16:40:26.525959+00:00",
     "documents": []
   },
   "3133-AF46": {
@@ -76101,7 +76101,7 @@
     "last_modified": "2025-10-29T18:46:35Z",
     "fetched_at": "2026-06-01T08:04:27.927197Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T15:14:30.662473+00:00",
+    "comment_fetched_at": "2026-06-10T16:40:34.173048+00:00",
     "documents": [
       {
         "documentType": "Notice",
@@ -76137,7 +76137,7 @@
     "last_modified": "2026-02-25T21:12:01Z",
     "fetched_at": "2026-06-01T08:05:50.995866Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T15:14:38.645297+00:00",
+    "comment_fetched_at": "2026-06-10T16:40:41.729515+00:00",
     "documents": []
   },
   "3150-AI40": {
@@ -76766,7 +76766,7 @@
     "last_modified": "2026-05-28T21:30:16Z",
     "fetched_at": "2026-06-01T08:06:43.363763Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T15:14:46.676954+00:00",
+    "comment_fetched_at": "2026-06-10T16:40:49.254940+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -77087,7 +77087,7 @@
     "last_modified": "2026-03-06T15:01:45Z",
     "fetched_at": "2026-06-01T08:06:52.127252Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T15:14:54.704569+00:00",
+    "comment_fetched_at": "2026-06-10T16:40:56.817878+00:00",
     "documents": []
   },
   "3150-AL20": {
@@ -77132,7 +77132,7 @@
     "last_modified": "2026-05-27T16:08:08Z",
     "fetched_at": "2026-06-01T08:07:05.163415Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T15:15:02.749099+00:00",
+    "comment_fetched_at": "2026-06-10T16:41:04.330858+00:00",
     "documents": []
   },
   "3150-AJ54": {
@@ -77754,7 +77754,7 @@
     "last_modified": "2025-07-17T15:56:00Z",
     "fetched_at": "2026-06-01T08:08:02.068561Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T15:15:10.782396+00:00",
+    "comment_fetched_at": "2026-06-10T16:41:11.881976+00:00",
     "documents": []
   },
   "3150-AL33": {
@@ -78076,7 +78076,7 @@
     "last_modified": "2024-08-26T13:13:04Z",
     "fetched_at": "2026-06-01T08:08:28.390618Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T15:15:18.743592+00:00",
+    "comment_fetched_at": "2026-06-10T16:41:19.408104+00:00",
     "documents": [
       {
         "documentType": "Other",
@@ -79700,7 +79700,7 @@
     "last_modified": "2024-08-26T13:09:00Z",
     "fetched_at": "2026-06-01T08:09:03.359606Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T15:15:26.737514+00:00",
+    "comment_fetched_at": "2026-06-10T16:41:26.958499+00:00",
     "documents": [
       {
         "documentType": "Other",
@@ -80044,7 +80044,7 @@
     "last_modified": "2024-08-26T13:13:53Z",
     "fetched_at": "2026-06-01T08:12:19.934618Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T15:15:34.692217+00:00",
+    "comment_fetched_at": "2026-06-10T16:41:34.512037+00:00",
     "documents": []
   },
   "3206-AO47": {
@@ -80089,7 +80089,7 @@
     "last_modified": "2026-05-15T12:27:35Z",
     "fetched_at": "2026-06-01T08:12:55.240033Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-06-07T15:15:42.638071+00:00",
+    "comment_fetched_at": "2026-06-10T16:41:42.053861+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -80103,14 +80103,14 @@
     "docket_id": "OPM-2026-0199",
     "docket_url": "https://www.regulations.gov/docket/OPM-2026-0199",
     "title": "Differential Pay for Prescribed Wildland Fire Activities",
-    "comment_count": 87,
+    "comment_count": 88,
     "comment_start_date": "2026-04-14",
     "comment_end_date": "2026-06-16",
     "docket_type": "Rulemaking",
     "last_modified": "2026-05-27T11:31:42Z",
     "fetched_at": "2026-06-01T08:12:59.582559Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-06-07T15:15:50.603647+00:00",
+    "comment_fetched_at": "2026-06-10T16:41:49.572055+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -80287,7 +80287,7 @@
     "last_modified": "2026-04-14T17:57:50Z",
     "fetched_at": "2026-06-01T08:14:13.884971Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T15:15:58.561398+00:00",
+    "comment_fetched_at": "2026-06-10T16:41:57.145786+00:00",
     "documents": []
   },
   "3206-AN86": {
@@ -80377,7 +80377,7 @@
     "last_modified": "2025-12-18T20:47:16Z",
     "fetched_at": "2026-06-01T08:14:46.176142Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T15:16:06.577154+00:00",
+    "comment_fetched_at": "2026-06-10T16:42:04.742704+00:00",
     "documents": [
       {
         "documentType": "Other",
@@ -80398,7 +80398,7 @@
     "last_modified": "2025-06-24T16:40:02Z",
     "fetched_at": "2026-06-01T08:14:50.511772Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T15:16:14.597903+00:00",
+    "comment_fetched_at": "2026-06-10T16:42:12.279063+00:00",
     "documents": []
   },
   "3206-AO37": {
@@ -80473,7 +80473,7 @@
     "last_modified": "2025-05-23T23:07:42Z",
     "fetched_at": "2026-06-01T08:15:42.768571Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T15:16:22.609923+00:00",
+    "comment_fetched_at": "2026-06-10T16:42:19.835594+00:00",
     "documents": []
   },
   "1212-AB51": {
@@ -80989,7 +80989,7 @@
     "last_modified": "2021-01-14T09:57:26Z",
     "fetched_at": "2026-06-01T08:26:03.730274Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T15:16:30.600730+00:00",
+    "comment_fetched_at": "2026-06-10T16:42:27.394073+00:00",
     "documents": []
   },
   "3245-AH63": {
@@ -81004,7 +81004,7 @@
     "last_modified": "2021-01-14T09:51:37Z",
     "fetched_at": "2026-06-01T08:26:08.100610Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T15:16:38.574090+00:00",
+    "comment_fetched_at": "2026-06-10T16:42:34.978081+00:00",
     "documents": []
   },
   "3245-AH65": {
@@ -81019,7 +81019,7 @@
     "last_modified": "2021-02-05T15:51:29Z",
     "fetched_at": "2026-06-01T08:26:12.540101Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T15:16:46.537798+00:00",
+    "comment_fetched_at": "2026-06-10T16:42:42.490422+00:00",
     "documents": []
   },
   "3245-AH67": {
@@ -81034,7 +81034,7 @@
     "last_modified": "2021-03-23T08:31:09Z",
     "fetched_at": "2026-06-01T08:26:16.938979Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T15:16:54.470598+00:00",
+    "comment_fetched_at": "2026-06-10T16:42:50.018747+00:00",
     "documents": []
   },
   "3245-AH77": {
@@ -81124,7 +81124,7 @@
     "last_modified": "2026-04-02T13:14:09Z",
     "fetched_at": "2026-06-01T08:27:18.133765Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T15:17:02.409865+00:00",
+    "comment_fetched_at": "2026-06-10T16:42:57.554586+00:00",
     "documents": []
   },
   "0960-AI95": {
@@ -81139,7 +81139,7 @@
     "last_modified": "2025-09-11T15:26:21Z",
     "fetched_at": "2026-06-01T08:27:40.087191Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-06-07T15:17:10.368293+00:00",
+    "comment_fetched_at": "2026-06-10T16:43:05.105041+00:00",
     "documents": []
   },
   "0960-AI07": {
