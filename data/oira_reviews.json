@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-06-06T16:42:44Z",
-  "count": 162,
+  "generated_at": "2026-06-09T19:50:29Z",
+  "count": 161,
   "reviews": [
+    {
+      "rin": "0925-ZA10",
+      "agency_code": "0925",
+      "agency": "HHS/NIH",
+      "title": "Request for Information on Measuring and Rewarding Scientific Impact",
+      "received_date": "2026-06-08",
+      "rrid": "1419663",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1419663"
+    },
+    {
+      "rin": "0579-AE84",
+      "agency_code": "0579",
+      "agency": "USDA/APHIS",
+      "title": "Regulatory Efficiencies for Products of Biotechnology",
+      "received_date": "2026-06-08",
+      "rrid": "1367213",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1367213"
+    },
     {
       "rin": "1506-ZA04",
       "agency_code": "1506",
@@ -804,15 +822,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1357165"
     },
     {
-      "rin": "2120-AM27",
-      "agency_code": "2120",
-      "agency": "DOT/FAA",
-      "title": "Ensuring Passenger Safety by Preempting Duty and Rest Requirements NPRM",
-      "received_date": "2026-04-21",
-      "rrid": "1354564",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1354564"
-    },
-    {
       "rin": "0910-AI72",
       "agency_code": "0910",
       "agency": "HHS/FDA",
@@ -919,24 +928,6 @@
       "received_date": "2026-04-02",
       "rrid": "1334515",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1334515"
-    },
-    {
-      "rin": "1018-BI74",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Regulations Pertaining to Endangered and Threatened Wildlife and Plants",
-      "received_date": "2026-04-02",
-      "rrid": "1334512",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1334512"
-    },
-    {
-      "rin": "1018-BI76",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Regulations for Designating Critical Habitat",
-      "received_date": "2026-04-02",
-      "rrid": "1334513",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1334513"
     },
     {
       "rin": "3150-AL56",
