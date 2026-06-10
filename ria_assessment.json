@@ -1,0 +1,1987 @@
+[
+  {
+    "rin": "0503-AA86",
+    "docket_id": "USDA-2025-0008",
+    "agency_code": "0503",
+    "significant": true,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "0560-AI41",
+    "docket_id": "CCC-2019-0006",
+    "agency_code": "0560",
+    "significant": true,
+    "doc_count": 2,
+    "supporting": [
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "CRP CBA 11 20 2019",
+        "documentId": "CCC-2019-0006-0002"
+      }
+    ]
+  },
+  {
+    "rin": "0575-AC96",
+    "docket_id": "RHS-13-MFH-0021",
+    "agency_code": "0575",
+    "significant": true,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "0581-AE30",
+    "docket_id": "AMS-FTPP-24-0013",
+    "agency_code": "0581",
+    "significant": true,
+    "doc_count": 2,
+    "supporting": []
+  },
+  {
+    "rin": "0583-AE01",
+    "docket_id": "FSIS-2025-0012",
+    "agency_code": "0583",
+    "significant": true,
+    "doc_count": 4,
+    "supporting": [
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Cox Study",
+        "documentId": "FSIS-2025-0012-0005"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "OSHA.Petition.Denial.SPLC.02252015",
+        "documentId": "FSIS-2025-0012-0006"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "PULSE_PoultryStudy_250109_Final",
+        "documentId": "FSIS-2025-0012-0004"
+      }
+    ]
+  },
+  {
+    "rin": "0584-AF12",
+    "docket_id": "FNS-2025-0401",
+    "agency_code": "0584",
+    "significant": true,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "0596-AD32",
+    "docket_id": "FS-2018-0052",
+    "agency_code": "0596",
+    "significant": true,
+    "doc_count": 12,
+    "supporting": [
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Forest Service current Locatable Minerals regulations - 36 CFR 228 Subpart A",
+        "documentId": "FS-2018-0052-0002"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Tips_For_Submitting_Effective_Comments",
+        "documentId": "FS-2018-0052-0009"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "BLM current Surface Management regulations \u2013 43 CFR 3809",
+        "documentId": "FS-2018-0052-0005"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Bureau of Land Management (BLM) current Use and Occupancy Under the Mining Laws regulations \u2013 43 CFR 3715",
+        "documentId": "FS-2018-0052-0004"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "36CFR-Part228-SubpartA-LocatableMinerals-DEIS",
+        "documentId": "FS-2018-0052-0188"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026_0210_CBA_Proposed Regulation 228A",
+        "documentId": "FS-2018-0052-0189"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Government Accountability Office (GAO) 2016 report Hardrock Mining",
+        "documentId": "FS-2018-0052-0006"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "GAO 1990 report - Federal Land Management Unauthorized Activities Occurring on Hardrock Mining Claims",
+        "documentId": "FS-2018-0052-0007"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "National Research Council (NRC) 1999 report - Hardrock Mining on Federal Lands",
+        "documentId": "FS-2018-0052-0008"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Forest Service current Disposal of Mineral Material regulations 36CFR 228 Subpart C",
+        "documentId": "FS-2018-0052-0003"
+      }
+    ]
+  },
+  {
+    "rin": "0605-AA51",
+    "docket_id": "DOC-2019-0005",
+    "agency_code": "0605",
+    "significant": true,
+    "doc_count": 13,
+    "supporting": [
+      {
+        "documentType": "Other",
+        "title": "Doc 6a",
+        "documentId": "DOC-2019-0005-0039"
+      },
+      {
+        "documentType": "Other",
+        "title": "Doc 5",
+        "documentId": "DOC-2019-0005-0038"
+      },
+      {
+        "documentType": "Other",
+        "title": "Doc 4",
+        "documentId": "DOC-2019-0005-0037"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "0605-aa51 RIA and FRFA",
+        "documentId": "DOC-2019-0005-0074"
+      },
+      {
+        "documentType": "Other",
+        "title": "RIN 0605-AA51 Ex Parte Memo - ITI",
+        "documentId": "DOC-2019-0005-0072"
+      },
+      {
+        "documentType": "Other",
+        "title": "Doc 7",
+        "documentId": "DOC-2019-0005-0040"
+      },
+      {
+        "documentType": "Other",
+        "title": "RIN 0605-AA51 Ex Parte Memo - ROK",
+        "documentId": "DOC-2019-0005-0071"
+      },
+      {
+        "documentType": "Other",
+        "title": "RIN 0605-AA51 Ex Parte Memo - UK",
+        "documentId": "DOC-2019-0005-0070"
+      }
+    ]
+  },
+  {
+    "rin": "0607-AA56",
+    "docket_id": "USBC-2017-0004",
+    "agency_code": "0607",
+    "significant": true,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "0625-AB27",
+    "docket_id": "ITA-2025-0003",
+    "agency_code": "0625",
+    "significant": true,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "0648-BN70",
+    "docket_id": "NOAA-NMFS-2025-0966",
+    "agency_code": "0648",
+    "significant": true,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "0651-AD47",
+    "docket_id": "PTO-P-2020-0022",
+    "agency_code": "0651",
+    "significant": true,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "0694-AF67",
+    "docket_id": "BIS-2014-0004",
+    "agency_code": "0694",
+    "significant": true,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "0701-AA87",
+    "docket_id": "USAF-2019-HQ-0010",
+    "agency_code": "0701",
+    "significant": true,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "0702-AB02",
+    "docket_id": "USA-2025-HQ-0003",
+    "agency_code": "0702",
+    "significant": true,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "0703-AB19",
+    "docket_id": "USN-2024-HQ-0002",
+    "agency_code": "0703",
+    "significant": true,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "0710-AB56",
+    "docket_id": "COE-2025-0002",
+    "agency_code": "0710",
+    "significant": true,
+    "doc_count": 225,
+    "supporting": [
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Los Angeles District Public Notice_Proposed 2026 Nationwide Permits_AZ_CA1",
+        "documentId": "COE-2025-0002-0074"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Seattle District Public Notice_Proposed 2026 Nationwide Permits_WA",
+        "documentId": "COE-2025-0002-0081"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "New Orleans District Public Notice_Proposed 2026 Nationwide Permits_LA",
+        "documentId": "COE-2025-0002-0087"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "St. Paul District Public Notice_Proposed 2026 Nationwide Permits_MN_WI",
+        "documentId": "COE-2025-0002-0096"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Philadelphia District Public Notice_Proposed 2026 Nationwide Permits_PA_MD_DC",
+        "documentId": "COE-2025-0002-0100"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Huntington District Public Notice_Proposed 2026 Nationwide Permits_OH",
+        "documentId": "COE-2025-0002-0102"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "New England District Public Notice_Proposed 2026 Nationwide Permits_RI",
+        "documentId": "COE-2025-0002-0115"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "New England District Public Notice_Proposed 2026 Nationwide Permits_VT",
+        "documentId": "COE-2025-0002-0111"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Honolulu District Public Notice_Proposed 2026 Nationwide Permits_HI",
+        "documentId": "COE-2025-0002-0106"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "New York District Public Notice_Proposed 2026 Nationwide Permits_NY",
+        "documentId": "COE-2025-0002-0107"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 5",
+        "documentId": "COE-2025-0002-0005"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 8",
+        "documentId": "COE-2025-0002-0008"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 25",
+        "documentId": "COE-2025-0002-0020"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 20",
+        "documentId": "COE-2025-0002-0024"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 27",
+        "documentId": "COE-2025-0002-0026"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 10",
+        "documentId": "COE-2025-0002-0040"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 54",
+        "documentId": "COE-2025-0002-0060"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 3",
+        "documentId": "COE-2025-0002-0011"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 18",
+        "documentId": "COE-2025-0002-0021"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 17",
+        "documentId": "COE-2025-0002-0023"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 34",
+        "documentId": "COE-2025-0002-0043"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 43",
+        "documentId": "COE-2025-0002-0057"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Omaha District Regional Conditions Public Notice_Nebraska",
+        "documentId": "COE-2025-0002-0460"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Philadelphia District Regional Conditions Public Notice_Delaware_Maryland_New Jersey_Pennsylvania",
+        "documentId": "COE-2025-0002-0469"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 35 - Final Decision Document",
+        "documentId": "COE-2025-0002-0365"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 19 - Final Decision Document",
+        "documentId": "COE-2025-0002-0381"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 60 - Final Decision Document",
+        "documentId": "COE-2025-0002-0389"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 12 - Final Decision Document",
+        "documentId": "COE-2025-0002-0393"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 40 - Final Decision Document",
+        "documentId": "COE-2025-0002-0402"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 39 - Final Decision Document",
+        "documentId": "COE-2025-0002-0405"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "USACE 2026 NWP RIA_final rule",
+        "documentId": "COE-2025-0002-0410"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 24 - Final Decision Document",
+        "documentId": "COE-2025-0002-0413"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Mobile District Regional Conditions Public Notice_Alabama",
+        "documentId": "COE-2025-0002-0433"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 22 - Final Decision Document",
+        "documentId": "COE-2025-0002-0366"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 03 - Final Decision Document",
+        "documentId": "COE-2025-0002-0371"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 32 - Final Decision Document",
+        "documentId": "COE-2025-0002-0375"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 51 - Final Decision Document",
+        "documentId": "COE-2025-0002-0391"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 37 - Final Decision Document",
+        "documentId": "COE-2025-0002-0395"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 08 - Final Decision Document",
+        "documentId": "COE-2025-0002-0406"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 18 - Final Decision Document",
+        "documentId": "COE-2025-0002-0417"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 15 - Final Decision Document",
+        "documentId": "COE-2025-0002-0420"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Rock Island District Regional Conditions Public Notice_Illinois",
+        "documentId": "COE-2025-0002-0438"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Louisville District Regional Conditions Public Notice_Kentucky",
+        "documentId": "COE-2025-0002-0439"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "St. Paul District Regional Conditions Public Notice_Wisconsin and Minnesota",
+        "documentId": "COE-2025-0002-0426"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Charleston District Regional Conditions Public Notice_South Carolina",
+        "documentId": "COE-2025-0002-0430"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Wilmington District Regional Conditions Public Notice_North Carolina",
+        "documentId": "COE-2025-0002-0432"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Detroit District Regional Conditions Public Notice_Michigan",
+        "documentId": "COE-2025-0002-0442"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Albuquerque District Regional Conditions Public Notice_Navajo Nation",
+        "documentId": "COE-2025-0002-0447"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Kansas City District Regional Conditions Public Notice_Missouri",
+        "documentId": "COE-2025-0002-0453"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Omaha District Regional Conditions Public Notice_Montana",
+        "documentId": "COE-2025-0002-0459"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Norfolk District Regional Conditions Public Notice_Virginia_Lake Holston",
+        "documentId": "COE-2025-0002-0463"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Vicksburg District Regional Conditions Public Notice_Mississippi",
+        "documentId": "COE-2025-0002-0472"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 13",
+        "documentId": "COE-2025-0002-0012"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 11",
+        "documentId": "COE-2025-0002-0028"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 31",
+        "documentId": "COE-2025-0002-0046"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 57",
+        "documentId": "COE-2025-0002-0052"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 50",
+        "documentId": "COE-2025-0002-0058"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 6",
+        "documentId": "COE-2025-0002-0004"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 35",
+        "documentId": "COE-2025-0002-0009"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 16",
+        "documentId": "COE-2025-0002-0015"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 14",
+        "documentId": "COE-2025-0002-0031"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 21",
+        "documentId": "COE-2025-0002-0033"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 32",
+        "documentId": "COE-2025-0002-0041"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 33",
+        "documentId": "COE-2025-0002-0045"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 53",
+        "documentId": "COE-2025-0002-0049"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 59",
+        "documentId": "COE-2025-0002-0059"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Omaha District Public Notice_Proposed 2026 Nationwide Permits_MT",
+        "documentId": "COE-2025-0002-0072"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Jacksonville District Public Notice_Proposed 2026 Nationwide Permits_FL",
+        "documentId": "COE-2025-0002-0076"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Galveston District Public Notice_Proposed 2026 Nationwide Permits_TX",
+        "documentId": "COE-2025-0002-0080"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Lousiville District Public Notice_Proposed 2026 Nationwide Permits_KY",
+        "documentId": "COE-2025-0002-0088"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Nashville District Public Notice_Proposed 2026 Nationwide Permits_TN",
+        "documentId": "COE-2025-0002-0090"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Philadelphia District Public Notice_Proposed 2026 Nationwide Permits_DE",
+        "documentId": "COE-2025-0002-0097"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Walla Walla District Public Notice_Proposed 2026 Nationwide Permits_ID",
+        "documentId": "COE-2025-0002-0099"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Albuquerque District Public Notice_Proposed 2026 Nationwide Permits_NavajoNation",
+        "documentId": "COE-2025-0002-0109"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Omaha District Public Notice_Proposed 2026 Nationwide Permits_WY2",
+        "documentId": "COE-2025-0002-0359"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Omaha District Public Notice_Proposed 2026 Nationwide Permits_NE",
+        "documentId": "COE-2025-0002-0078"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Kansas City District Public Notice_Proposed 2026 Nationwide Permits_KS",
+        "documentId": "COE-2025-0002-0079"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Vicksburg District Public Notice_Proposed 2026 Nationwide Permits_MS",
+        "documentId": "COE-2025-0002-0082"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Louisville District Public Notice_Proposed 2026 Nationwide Permits_IN",
+        "documentId": "COE-2025-0002-0089"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Rock Island District Public Notice_Proposed 2026 Nationwide Permits_IL",
+        "documentId": "COE-2025-0002-0091"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Savannah District Public Notice_Proposed 2026 Nationwide Permits_GA",
+        "documentId": "COE-2025-0002-0092"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "New England District Public Notice_Proposed 2026 Nationwide Permits_MA",
+        "documentId": "COE-2025-0002-0112"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Albuquerque District Public Notice_Proposed 2026 Nationwide Permits_NM",
+        "documentId": "COE-2025-0002-0119"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Little Rock District Public Notice_Proposed 2026 Nationwide Permits_AR",
+        "documentId": "COE-2025-0002-0104"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Rock Island District Public Notice_Proposed 2026 Nationwide Permits_IL_extension",
+        "documentId": "COE-2025-0002-0349"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 9",
+        "documentId": "COE-2025-0002-0003"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 7",
+        "documentId": "COE-2025-0002-0006"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 39",
+        "documentId": "COE-2025-0002-0030"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 41",
+        "documentId": "COE-2025-0002-0050"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 4",
+        "documentId": "COE-2025-0002-0007"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 23",
+        "documentId": "COE-2025-0002-0019"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 44",
+        "documentId": "COE-2025-0002-0029"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 45",
+        "documentId": "COE-2025-0002-0035"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 29",
+        "documentId": "COE-2025-0002-0039"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit A",
+        "documentId": "COE-2025-0002-0051"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 40",
+        "documentId": "COE-2025-0002-0055"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Los Angeles District Regional Conditions Public Notice_Arizona",
+        "documentId": "COE-2025-0002-0436"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Louisville District Regional Conditions Public Notice_Indiana",
+        "documentId": "COE-2025-0002-0440"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Alaska District Regional Conditions Public Notice_Alaska",
+        "documentId": "COE-2025-0002-0441"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Omaha District Regional Conditions Public Notice_Wyoming",
+        "documentId": "COE-2025-0002-0464"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Kansas City District Regional Conditions Public Notice_Kansas",
+        "documentId": "COE-2025-0002-0448"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Huntington District Regional Conditions Public Notice_West Virginia",
+        "documentId": "COE-2025-0002-0443"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Fort Worth District Regional Conditions Public Notice_Texas_Louisiana",
+        "documentId": "COE-2025-0002-0445"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "New England District Regional Conditions Public Notice_Rhode Island",
+        "documentId": "COE-2025-0002-0458"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Vicksburg District Regional Conditions Public Notice_Mississippi",
+        "documentId": "COE-2025-0002-0424"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Caribbean District Public Notice_Proposed 2026 Nationwide Permits",
+        "documentId": "COE-2025-0002-0069"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Omaha District Public Notice_Proposed 2026 Nationwide Permits_SD2",
+        "documentId": "COE-2025-0002-0360"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Omaha District Public Notice_Proposed 2026 Nationwide Permits_MT2",
+        "documentId": "COE-2025-0002-0362"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 34 - Final Decision Document",
+        "documentId": "COE-2025-0002-0372"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 28 - Final Decision Document",
+        "documentId": "COE-2025-0002-0374"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 53 - Final Decision Document",
+        "documentId": "COE-2025-0002-0376"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 07 - Final Decision Document",
+        "documentId": "COE-2025-0002-0377"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 05 - Final Decision Document",
+        "documentId": "COE-2025-0002-0379"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 48 - Final Decision Document",
+        "documentId": "COE-2025-0002-0382"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 42 - Final Decision Document",
+        "documentId": "COE-2025-0002-0388"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 31 - Final Decision Document",
+        "documentId": "COE-2025-0002-0394"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 49 - Final Decision Document",
+        "documentId": "COE-2025-0002-0396"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 30 - Final Decision Document",
+        "documentId": "COE-2025-0002-0400"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 44 - Final Decision Document",
+        "documentId": "COE-2025-0002-0403"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 52 - Final Decision Document",
+        "documentId": "COE-2025-0002-0407"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 58 - Final Decision Document",
+        "documentId": "COE-2025-0002-0408"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 14 - Final Decision Document",
+        "documentId": "COE-2025-0002-0416"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 37",
+        "documentId": "COE-2025-0002-0018"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 49",
+        "documentId": "COE-2025-0002-0022"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 24",
+        "documentId": "COE-2025-0002-0032"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Regulatory Impact Analysis for the Proposed 2026 NWPs",
+        "documentId": "COE-2025-0002-0056"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 38",
+        "documentId": "COE-2025-0002-0017"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 46",
+        "documentId": "COE-2025-0002-0053"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Omaha District Public Notice_Proposed 2026 Nationwide Permits_SD",
+        "documentId": "COE-2025-0002-0070"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Omaha District Public Notice_Proposed 2026 Nationwide Permits_WY",
+        "documentId": "COE-2025-0002-0075"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Omaha District Public Notice_Proposed 2026 Nationwide Permits_ND",
+        "documentId": "COE-2025-0002-0083"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Wilmington District Public Notice_Proposed 2026 Nationwide Permits_NC",
+        "documentId": "COE-2025-0002-0085"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Mobile District Public Notice_Proposed 2026 Nationwide Permits_AL",
+        "documentId": "COE-2025-0002-0093"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Kansas City District Public Notice_Proposed 2026 Nationwide Permits_MO",
+        "documentId": "COE-2025-0002-0095"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Huntington District Public Notice_Proposed 2026 Nationwide Permits_WV",
+        "documentId": "COE-2025-0002-0103"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Rock Island District Public Notice_Proposed 2026 Nationwide Permits_IA_extension",
+        "documentId": "COE-2025-0002-0350"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "New Orleans District Regional Conditions Public Notice_Louisiana",
+        "documentId": "COE-2025-0002-0423"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Caribbean District Regional Conditions Public Notice_Puerto Rico and US Virgin Islands",
+        "documentId": "COE-2025-0002-0431"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Los Angeles District Regional Conditions Public Notice_California",
+        "documentId": "COE-2025-0002-0437"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Sacramento District Regional Conditions Public Notice_California_Nevada_Utah",
+        "documentId": "COE-2025-0002-0434"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Rock Island District Regional Conditions Public Notice_Illinois_(withdrawn)",
+        "documentId": "COE-2025-0002-0427"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Rock Island District Regional Conditions Public Notice_Iowa_(withdrawn)",
+        "documentId": "COE-2025-0002-0425"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Honolulu District Regional Conditions Public Notice_Hawaii_Guam_CNMI_American Samoa",
+        "documentId": "COE-2025-0002-0444"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Buffalo District Regional Conditions Public Notice_New York",
+        "documentId": "COE-2025-0002-0449"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "New England District Regional Conditions Public Notice_Maine",
+        "documentId": "COE-2025-0002-0454"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "New England District Regional Conditions Public Notice_Massachusetts",
+        "documentId": "COE-2025-0002-0450"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Albuquerque District Regional Conditions Public Notice_Colorado",
+        "documentId": "COE-2025-0002-0446"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "New England District Regional Conditions Public Notice_Connecticut",
+        "documentId": "COE-2025-0002-0452"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "New England District Regional Conditions Public Notice_Vermont",
+        "documentId": "COE-2025-0002-0461"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Walla Walla District Regional Conditions Public Notice_Idaho",
+        "documentId": "COE-2025-0002-0466"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 54 - Final Decision Document",
+        "documentId": "COE-2025-0002-0368"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 01 - Final Decision Document",
+        "documentId": "COE-2025-0002-0369"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 23 - Final Decision Document",
+        "documentId": "COE-2025-0002-0370"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 59 - Final Decision Document",
+        "documentId": "COE-2025-0002-0378"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 20 - Final Decision Document",
+        "documentId": "COE-2025-0002-0386"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 11 - Final Decision Document",
+        "documentId": "COE-2025-0002-0392"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 55 - Final Decision Document",
+        "documentId": "COE-2025-0002-0398"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 10 - Final Decision Document",
+        "documentId": "COE-2025-0002-0399"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 43 - Final Decision Document",
+        "documentId": "COE-2025-0002-0401"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 33 - Final Decision Document",
+        "documentId": "COE-2025-0002-0412"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 45 - Final Decision Document",
+        "documentId": "COE-2025-0002-0419"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Alaska District Public Notice_Proposed 2026 Nationwide Permits_AK",
+        "documentId": "COE-2025-0002-0105"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Sacramento District Public Notice_Proposed 2026 Nationwide Permits_NV_UT_CA2",
+        "documentId": "COE-2025-0002-0108"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "New England District Public Notice_Proposed 2026 Nationwide Permits_CT",
+        "documentId": "COE-2025-0002-0113"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Albuquerque District Public Notice_Proposed 2026 Nationwide Permits_CO",
+        "documentId": "COE-2025-0002-0120"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 2",
+        "documentId": "COE-2025-0002-0010"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 51",
+        "documentId": "COE-2025-0002-0034"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 55",
+        "documentId": "COE-2025-0002-0036"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 19",
+        "documentId": "COE-2025-0002-0038"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "References for 2026 Nationwide Permit Proposed Rule_June 2025",
+        "documentId": "COE-2025-0002-0044"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 12",
+        "documentId": "COE-2025-0002-0013"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Rock Island District Public Notice_Proposed 2026 Nationwide Permits_IA",
+        "documentId": "COE-2025-0002-0073"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Norfolk District Public Notice_Proposed 2026 Nationwide Permits_VA",
+        "documentId": "COE-2025-0002-0086"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Charleston District Public Notice_Proposed 2026 Nationwide Permits_SC",
+        "documentId": "COE-2025-0002-0098"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Omaha District Public Notice_Proposed 2026 Nationwide Permits_ND2",
+        "documentId": "COE-2025-0002-0361"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Albuquerque District Regional Conditions Public Notice_New Mexico",
+        "documentId": "COE-2025-0002-0455"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "New England District Regional Conditions Public Notice_New Hampshire",
+        "documentId": "COE-2025-0002-0457"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Nashville District Regional Conditions Public Notice_Tennessee",
+        "documentId": "COE-2025-0002-0456"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Little Rock District Regional Conditions Public Notice_Arkansas",
+        "documentId": "COE-2025-0002-0451"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Omaha District Regional Conditions Public Notice_North Dakota",
+        "documentId": "COE-2025-0002-0468"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Omaha District Regional Conditions Public Notice_South Dakota",
+        "documentId": "COE-2025-0002-0470"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Huntington District Regional Conditions Public Notice_Ohio",
+        "documentId": "COE-2025-0002-0471"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Jacksonville District Regional Conditions Public Notice_Florida",
+        "documentId": "COE-2025-0002-0428"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 06 - Final Decision Document",
+        "documentId": "COE-2025-0002-0364"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 13 - Final Decision Document",
+        "documentId": "COE-2025-0002-0373"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 04 - Final Decision Document",
+        "documentId": "COE-2025-0002-0380"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 38 - Final Decision Document",
+        "documentId": "COE-2025-0002-0383"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 57 - Final Decision Document",
+        "documentId": "COE-2025-0002-0385"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 36 - Final Decision Document",
+        "documentId": "COE-2025-0002-0397"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 41 - Final Decision Document",
+        "documentId": "COE-2025-0002-0409"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 27 - Final Decision Document",
+        "documentId": "COE-2025-0002-0415"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 02 - Final Decision Document",
+        "documentId": "COE-2025-0002-0421"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Rock Island District Regional Conditions Public Notice_Iowa",
+        "documentId": "COE-2025-0002-0435"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 36",
+        "documentId": "COE-2025-0002-0014"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 48",
+        "documentId": "COE-2025-0002-0016"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 28",
+        "documentId": "COE-2025-0002-0042"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 52",
+        "documentId": "COE-2025-0002-0048"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 58",
+        "documentId": "COE-2025-0002-0054"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 1",
+        "documentId": "COE-2025-0002-0002"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 15",
+        "documentId": "COE-2025-0002-0025"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 30",
+        "documentId": "COE-2025-0002-0027"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 42",
+        "documentId": "COE-2025-0002-0037"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Draft decision document-Nationwide permit 22",
+        "documentId": "COE-2025-0002-0047"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Detroit District Public Notice_Proposed 2026 Nationwide Permits_MI",
+        "documentId": "COE-2025-0002-0071"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Philadelphia District Public Notice_Proposed 2026 Nationwide Permits_NJ",
+        "documentId": "COE-2025-0002-0077"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Portland District Public Notice_Proposed 2026 Nationwide Permits_OR",
+        "documentId": "COE-2025-0002-0084"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Tulsa District Public Notice_Proposed 2026 Nationwide Permits_OK_TX2",
+        "documentId": "COE-2025-0002-0094"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "New England District Public Notice_Proposed 2026 Nationwide Permits_NH",
+        "documentId": "COE-2025-0002-0110"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "New England District Public Notice_Proposed 2026 Nationwide Permits_ME",
+        "documentId": "COE-2025-0002-0114"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 29 - Final Decision Document",
+        "documentId": "COE-2025-0002-0367"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 21 - Final Decision Document",
+        "documentId": "COE-2025-0002-0384"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 09 - Final Decision Document",
+        "documentId": "COE-2025-0002-0387"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 46 - Final Decision Document",
+        "documentId": "COE-2025-0002-0390"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 17 - Final Decision Document",
+        "documentId": "COE-2025-0002-0404"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 50 - Final Decision Document",
+        "documentId": "COE-2025-0002-0411"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 16 - Final Decision Document",
+        "documentId": "COE-2025-0002-0414"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "2026 Nationwide Permit 25 - Final Decision Document",
+        "documentId": "COE-2025-0002-0418"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "References for 2026 Nationwide Permit Final Rule",
+        "documentId": "COE-2025-0002-0422"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Savannah District Regional Conditions Public Notice_Georgia",
+        "documentId": "COE-2025-0002-0429"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Mobile District Regional Conditions Public Notice_Alabama_revised",
+        "documentId": "COE-2025-0002-0473"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Tulsa District Regional Conditions Public Notice_Oklahoma",
+        "documentId": "COE-2025-0002-0462"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Seattle District Regional Conditions Public Notice_State of Washington",
+        "documentId": "COE-2025-0002-0465"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Portland District Regional Conditions Public Notice_Oregon",
+        "documentId": "COE-2025-0002-0467"
+      }
+    ]
+  },
+  {
+    "rin": "0720-AB85",
+    "docket_id": "DOD-2021-HA-0015",
+    "agency_code": "0720",
+    "significant": true,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "0750-AL30",
+    "docket_id": "DARS-2026-0133",
+    "agency_code": "0750",
+    "significant": true,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "0790-AK92",
+    "docket_id": "DOD-2019-OS-0131",
+    "agency_code": "0790",
+    "significant": true,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "1901-AB69",
+    "docket_id": "DOE-HQ-2025-0019",
+    "agency_code": "1901",
+    "significant": true,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "1903-AA23",
+    "docket_id": "DOE-HQ-2025-0014",
+    "agency_code": "1903",
+    "significant": true,
+    "doc_count": 4,
+    "supporting": []
+  },
+  {
+    "rin": "1904-AF72",
+    "docket_id": "EERE-2025-BT-STD-0001",
+    "agency_code": "1904",
+    "significant": true,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "1991-AC17",
+    "docket_id": "DOE-HQ-2024-0002",
+    "agency_code": "1991",
+    "significant": true,
+    "doc_count": 3,
+    "supporting": []
+  },
+  {
+    "rin": "0910-AI08",
+    "docket_id": "FDA-2019-N-2175",
+    "agency_code": "0910",
+    "significant": true,
+    "doc_count": 35,
+    "supporting": [
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "PRIA Reference 9 - Bureau of Labor Statistics, \u201cOccupational Employment and Wages, May 2017, 25-1071 Health Specialties Teachers, Postsecondary,\u201d available at: https://www.bls.gov/oes/2017/may/oes251071.htm, accessed February 26, 2019. RE Institutional Review Boards; Cooperative Research",
+        "documentId": "FDA-2019-N-2175-0016"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Reference 3 - Check D.K., K.P. Weinfurt, C.B. Dombeck, et.al. (2013), \u201cUse of Central Institutional Review Boards for Multicenter Clinical Trials in the United States: A Review of the Literature,\u201d Clinical Trials 10: 560-567. RE Institutional Review Boards; Cooperative Research",
+        "documentId": "FDA-2019-N-2175-0005"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "PRIA Reference 12 - Memorandum to File, FDA summary of data analysis; HHS, \u201cOffice for Human Research Protections (OHRP) Database for Registered IORGs & IRBs, Approved FWAs, and Documents Received in Last 60 Days,\u201d prepared by Christian Brown, FDA, March 28, 2019. RE Institutional Review Boards; Cooperative Research",
+        "documentId": "FDA-2019-N-2175-0019"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "PRIA Reference 3 - Stoffel, Brandy, et. al., (2017) \u201cUse of a Single, Independent IRB: Case Study of an NIH funded Consortium,\u201d Contemporary Clinical Trials Communications 8 (2017) 114-121. RE Institutional Review Boards; Cooperative Research",
+        "documentId": "FDA-2019-N-2175-0010"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "PRIA Reference 16 - U.S. Small Business Administration, Size Standards, https://www.sba.gov/sites/default/files/files/Size_Standards_Table.pdf, accessed on May 1, 2018. RE Institutional Review Boards; Cooperative Research",
+        "documentId": "FDA-2019-N-2175-0023"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "TAB A 2017-1110 Cooperative Research NPRM as Submitted to OMB RE Memorandum to FDA DMS on Cooperative Research Proposed Rule",
+        "documentId": "FDA-2019-N-2175-0026"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Reference 1 - Flynn K.E, C.L. Hahn, J.M. Kramer, et al. (2013), \u201cUsing Central IRBs for Multicenter Clinical Trials in the United States,\u201d PLOS ONE 8(1): e54999. RE Institutional Review Boards; Cooperative Research",
+        "documentId": "FDA-2019-N-2175-0003"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "PRIA Reference 1 - Greene, Sarah M. and Geiger, Ann M., (2006) A Review Finds that Multicenter Studies Face Substantial Challenges but Strategies Exist to Achieve Institutional Review Board Approval, Journal of Clinical Epidemiology 59 (2006) 784-790. RE Institutional Review Boards; Cooperative Research",
+        "documentId": "FDA-2019-N-2175-0008"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "FDA-2019-N-2175 References List RE Institutional Review Boards; Cooperative Research",
+        "documentId": "FDA-2019-N-2175-0002"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "PRIA Reference 8 - Bureau of Labor Statistics. \u201cOccupational Employment and Wages, May 2017, 11-9033 Education Administrators, Postsecondary,\u201d available at: https://www.bls.gov/oes/current/oes119033.htm, accessed February 26, 2019. RE Institutional Review Boards; Cooperative Research",
+        "documentId": "FDA-2019-N-2175-0015"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "PRIA Reference 11 - Department of Health and Human Services, Valuing Time in U.S. Department of Health and Human Services Regulatory Impact Analyses: Conceptual Framework and Best Practices, 2017, available at https://aspe.hhs.gov/reports/valuing-time-us-department-health-human-services-regulatory-impact-analyses-conceptual-framework, accessed December 10, 2021.",
+        "documentId": "FDA-2019-N-2175-0018"
+      },
+      {
+        "documentType": "Other",
+        "title": "Request for Extension from PhRMA & BIO (Joint Submission)",
+        "documentId": "FDA-2019-N-2175-0032"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Reference 4 - Massett, H.A., S.L. Hampp, J.L. Goldberg, et al. (2018), Meeting the Challenge: The National Cancer Institute\u2019s Central Institutional Review Board for Multi-Site Research, Journal of Clinical Oncology 36 8: 819-824. RE Institutional Review Boards; Cooperative Research",
+        "documentId": "FDA-2019-N-2175-0006"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "PRIA Reference 5 - Abramovici, Adi, et. al. (2015) \u201cReview of Multicenter Studies by Multiple Institutional Review Boards: Characteristics and Outcomes for Perinatal Studies Implemented by a Multicenter Network,\u201d American Journal of Obstetrics & Gynecology January 2015. RE Institutional Review Boards; Cooperative Research",
+        "documentId": "FDA-2019-N-2175-0012"
+      },
+      {
+        "documentType": "Other",
+        "title": "Memorandum to FDA DMS on Cooperative Research Proposed Rule",
+        "documentId": "FDA-2019-N-2175-0025"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "TAB C 2017-1110 Cooperative Research NPRM as Cleared by OMB RE Memorandum to FDA DMS on Cooperative Research Proposed Rule",
+        "documentId": "FDA-2019-N-2175-0030"
+      },
+      {
+        "documentType": "Other",
+        "title": "FDA Tribal Consultation Summary",
+        "documentId": "FDA-2019-N-2175-0072"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Reference 5 - FDA, Preliminary Economic Analysis of Impacts, Docket No. FDA-2019-N-2175, available at https://www.fda.gov/about-fda/reports/economic-impact-analyses-fda-regulations. RE Institutional Review Boards; Cooperative Research",
+        "documentId": "FDA-2019-N-2175-0007"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "PRIA Reference 2 - Sobolski, Gregory, et al., (2007) \u201cInstitutional Review Board Review of Multicenter Studies,\u201d Annuals of Internal Medicine Vol 146(10), April 30, 2007 page 759. RE Institutional Review Boards; Cooperative Research",
+        "documentId": "FDA-2019-N-2175-0009"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "PRIA Reference 14 - Clinical Trials Transformation Initiative (CTTI). Use of Central IRBs for Multicenter Clinical Trials: Final Report. Available at: https://ctti-clinicaltrials.org/our-work/ethics-and-human-research-protection/single-irb, accessed June 7, 2022. RE Institutional Review Boards; Cooperative Research",
+        "documentId": "FDA-2019-N-2175-0021"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "TAB C 2017-1110 Cooperative Research PRIA as Cleared by OMB RE Memorandum to FDA DMS on Cooperative Research Proposed Rule",
+        "documentId": "FDA-2019-N-2175-0031"
+      },
+      {
+        "documentType": "Other",
+        "title": "Request for Extension from University of California Office of the President",
+        "documentId": "FDA-2019-N-2175-0036"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "PRIA Reference 10 - Bureau of Labor Statistics, Occupational Employment and Wages, May 2017, 43-0000 Office and Administrative Support Occupations (Major Group), available at: https://www.bls.gov/oes/current/oes430000.htm, accessed on February 26, 2019.RE Institutional Review Boards; Cooperative Research",
+        "documentId": "FDA-2019-N-2175-0017"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "PRIA Reference 15 - North American Industry Classification System (NAICS), U.S. Census Bureau Data, \u201cGeneral Medical and Surgical Hospitals NAICs Code 622110\u201d available at https://www.census.gov/naics/? input=622110&year=2017&details=622110, accessed on June 2, 2022 RE Institutional Review Boards; Cooperative Research",
+        "documentId": "FDA-2019-N-2175-0022"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "TAB A 2017-1110 Cooperative Research PRIA as Submitted to OMB RE Memorandum to FDA DMS on Cooperative Research Proposed Rule",
+        "documentId": "FDA-2019-N-2175-0027"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "TAB B 2017-1110 Cooperative Research PRIA Track Changes RE Memorandum to FDA DMS on Cooperative Research Proposed Rule",
+        "documentId": "FDA-2019-N-2175-0029"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "TAB B 2017-1110 Cooperative Research NPRM Track Changes RE Memorandum to FDA DMS on Cooperative Research Proposed Rule",
+        "documentId": "FDA-2019-N-2175-0028"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "PRIA Reference 7 - \u201cFederal Policy for the Protection of Human Subjects\u201d, 82 Fed. Reg. 7149 (January 19, 2017), available at https://www.gpo.gov/fdsys/pkg/FR-2017-01-19/pdf/2017-01058.pdf, accessed on March 5, 2018. RE Institutional Review Boards; Cooperative Research",
+        "documentId": "FDA-2019-N-2175-0014"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Reference 2 - Greene, S.M. and A.M. Geiger (2006), A Review Finds that Multicenter Studies Face Substantial Challenges but Strategies Exist to Achieve Institutional Review Board Approval, Journal of Clinical Epidemiology 59 (2006) 784-790. RE Institutional Review Boards; Cooperative Research",
+        "documentId": "FDA-2019-N-2175-0004"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "PRIA Reference 4 - Mansbach, Jonathan, et. al. (2007) Variation in Institutional Review Board Responses to a Standard Observational Pediatric Research Protocol, Society for Academic Emergency Medicine (2007) 377- 380. RE Institutional Review Boards; Cooperative Research",
+        "documentId": "FDA-2019-N-2175-0011"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "PRIA Reference 6 - Department of Health and Human Services, \u201cGuidelines for Regulatory Impact Analysis,\u201d 2016, available at: https://aspe.hhs.gov/reports/guidelines-regulatory-impact-analysis, accessed December 10, 2021. RE Institutional Review Boards; Cooperative Research",
+        "documentId": "FDA-2019-N-2175-0013"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "PRIA Reference 13 - Sugarman, Jeremy, et al., (2005) \u201cThe Cost of Institutional Review Boards in Academics Medical Centers,\u201d New England Journal of Medicine 352;17 April 28, 2005 pages 1825 to 1827. RE Institutional Review Boards; Cooperative Research",
+        "documentId": "FDA-2019-N-2175-0020"
+      },
+      {
+        "documentType": "Other",
+        "title": "Request for Extension from Stanford University",
+        "documentId": "FDA-2019-N-2175-0040"
+      }
+    ]
+  },
+  {
+    "rin": "0920-AA69",
+    "docket_id": "CDC-2020-0036",
+    "agency_code": "0920",
+    "significant": true,
+    "doc_count": 2,
+    "supporting": [
+      {
+        "documentType": "Notice",
+        "title": "Approval Tests and Standards for Air-Purifying Particulate Respirators",
+        "documentId": "CDC-2020-0036-0023"
+      }
+    ]
+  },
+  {
+    "rin": "0937-AA13",
+    "docket_id": "HRSA-2024-0001",
+    "agency_code": "0937",
+    "significant": true,
+    "doc_count": 3,
+    "supporting": [
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "HOPE Act NPRM RIA",
+        "documentId": "HRSA-2024-0001-0001"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "HOPE Act Final RIA",
+        "documentId": "HRSA-2024-0001-0058"
+      }
+    ]
+  },
+  {
+    "rin": "0938-AV72",
+    "docket_id": "CMS-2026-0298",
+    "agency_code": "0938",
+    "significant": true,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "0945-AA00",
+    "docket_id": "HHS-OCR-2018-0028",
+    "agency_code": "0945",
+    "significant": true,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "0955-AA09",
+    "docket_id": "HHS-ONC-2025-0005",
+    "agency_code": "0955",
+    "significant": true,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "0970-AD07",
+    "docket_id": "ACF-2026-0265",
+    "agency_code": "0970",
+    "significant": true,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "1615-AC93",
+    "docket_id": "USCIS-2025-0139",
+    "agency_code": "1615",
+    "significant": true,
+    "doc_count": 8,
+    "supporting": [
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "I527-001-INS-NEW-EB5FeeNPRM-OMBReview-08012025",
+        "documentId": "USCIS-2025-0139-0003"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "I829-018-FRM-EB5FeeNPRM-OMBReview-09242025",
+        "documentId": "USCIS-2025-0139-0004"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "I829-018-INS-EB5FeeNPRM-OMBReview-09242025",
+        "documentId": "USCIS-2025-0139-0005"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "G1055-INS-(EB-5 FeeRule NPRM)-09092025",
+        "documentId": "USCIS-2025-0139-0006"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "EB-5_Fee_Study_Final 9-24-25",
+        "documentId": "USCIS-2025-0139-0008"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "I829-018-INS-TOC-EB5FeeNPRM-OMBReview-09242025",
+        "documentId": "USCIS-2025-0139-0007"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "I527-001-FRM-NEW-EB5FeeNPRM-OMBReview-08012025",
+        "documentId": "USCIS-2025-0139-0002"
+      }
+    ]
+  },
+  {
+    "rin": "1625-AC95",
+    "docket_id": "USCG-2024-0893",
+    "agency_code": "1625",
+    "significant": true,
+    "doc_count": 2,
+    "supporting": [
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Sabine Pass Fariway Anchorages NPRM Map and Summary",
+        "documentId": "USCG-2024-0893-0002"
+      }
+    ]
+  },
+  {
+    "rin": "1651-AB59",
+    "docket_id": "USCBP-2025-0911",
+    "agency_code": "1651",
+    "significant": true,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "1652-AA56",
+    "docket_id": "TSA-2016-0002",
+    "agency_code": "1652",
+    "significant": true,
+    "doc_count": 7,
+    "supporting": [
+      {
+        "documentType": "Other",
+        "title": "ANPRM: Surface Transportation Vulnerability Assessments and Security Plans (VASP) (Original)",
+        "documentId": "TSA-2016-0002-0001"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "ANPRM: Surface Transportation VASP Request for Comments Only",
+        "documentId": "TSA-2016-0002-0003"
+      },
+      {
+        "documentType": "Other",
+        "title": "Advance Notice of Proposed Rulemaking; Reopening of Comment Period: Surface Transportation Vulnerability Assessments and Security Plans (VASP) (Original)",
+        "documentId": "TSA-2016-0002-0016"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "ANPRM: Surface Transportation VASP; TOC Preamble Footnotes Listing",
+        "documentId": "TSA-2016-0002-0004"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "ANPRM: Surface Transportation VASP 9-11 Act Provisions",
+        "documentId": "TSA-2016-0002-0002"
+      }
+    ]
+  },
+  {
+    "rin": "1653-AA82",
+    "docket_id": "ICEB-2020-0005",
+    "agency_code": "1653",
+    "significant": true,
+    "doc_count": 2,
+    "supporting": [
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "I-246 Fee Analysis",
+        "documentId": "ICEB-2020-0005-0017"
+      }
+    ]
+  },
+  {
+    "rin": "1660-AA99",
+    "docket_id": "FEMA-2020-0038",
+    "agency_code": "1660",
+    "significant": true,
+    "doc_count": 9,
+    "supporting": [
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "NPRM for Sections 1232 and 1239 of DRRA-Public Assistance Declaration Criteria_03-22-2021 Public Meeting Comments",
+        "documentId": "FEMA-2020-0038-0111"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "RVAR Memo to Regions May 1 2019",
+        "documentId": "FEMA-2020-0038-0006"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "FEMA Slide Presentation 2-24-21 Public Meeting",
+        "documentId": "FEMA-2020-0038-0047"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "NPRM for Sections 1232 and 1239 of DRRA-Public Assistance Declaration Criteria_03-23-2021 Public Meeting Comments",
+        "documentId": "FEMA-2020-0038-0112"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "NPRM for Sections 1232 and 1239 of DRRA-Public Assistance Declaration Criteria_02-24-2021 Public Meeting Comments",
+        "documentId": "FEMA-2020-0038-0110"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "FEMA Regulatory Impact Analysis",
+        "documentId": "FEMA-2020-0038-0002"
+      }
+    ]
+  },
+  {
+    "rin": "1670-AA00",
+    "docket_id": "DHS-2008-0076",
+    "agency_code": "1670",
+    "significant": true,
+    "doc_count": 18,
+    "supporting": [
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Sympathetic Detonation of Ammonium Nitrate and Ammonium Nitrate Fuel Oil",
+        "documentId": "DHS-2008-0076-0043"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "The Sensitivity of Ammonium Nitrate Melts and Solutions to Projectile Impact",
+        "documentId": "DHS-2008-0076-0042"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Foreward for Redacted Ammonium Nitrate Security Program Technical Assessments Report",
+        "documentId": "DHS-2008-0076-0149"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Ammonium Nitrate Security Program- Summary of 02-15-2012 Mining Industry Meeting",
+        "documentId": "DHS-2008-0076-0147"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Secure Handling of Ammonium Nitrate Report to Congress",
+        "documentId": "DHS-2008-0076-0038"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Shock Initiation Characteristics of Ammonium Nitrate",
+        "documentId": "DHS-2008-0076-0040"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Redacted Ammonium Nitrate Security Program Technical Assessments Report",
+        "documentId": "DHS-2008-0076-0150"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Further Studies on Sympathetic Detonation",
+        "documentId": "DHS-2008-0076-0037"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Reduction of Explosion Potential of Ammonium Nitrate by Coating with Low Cost Coal Combustion By Products",
+        "documentId": "DHS-2008-0076-0039"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Ammonium Nitrate Regulatory Assessment",
+        "documentId": "DHS-2008-0076-0047"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Investigations on the Explosibility of Ammonium Nitrate",
+        "documentId": "DHS-2008-0076-0041"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Ammonium Nitrate Regulatory Impact Assessment",
+        "documentId": "DHS-2008-0076-0044"
+      }
+    ]
+  },
+  {
+    "rin": "1685-AA24",
+    "docket_id": "USCBP-2026-0199",
+    "agency_code": "1685",
+    "significant": true,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "2501-AE12",
+    "docket_id": "HUD-2026-0529",
+    "agency_code": "2501",
+    "significant": true,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "0503-AA80",
+    "docket_id": "USDA-2024-0007",
+    "agency_code": "0503",
+    "significant": false,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "0551-AB04",
+    "docket_id": "USDA-2026-0067",
+    "agency_code": "0551",
+    "significant": false,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "0560-AI70",
+    "docket_id": "USDA-2026-0001",
+    "agency_code": "0560",
+    "significant": false,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "0563-AC88",
+    "docket_id": "FCIC-25-0002",
+    "agency_code": "0563",
+    "significant": false,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "0572-AC70",
+    "docket_id": "RUS-24-ELECTRIC-0038",
+    "agency_code": "0572",
+    "significant": false,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "0575-AD42",
+    "docket_id": "RHS-24-MFH-0024",
+    "agency_code": "0575",
+    "significant": false,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "0578-AA69",
+    "docket_id": "NRCS-2019-0007",
+    "agency_code": "0578",
+    "significant": false,
+    "doc_count": 1,
+    "supporting": []
+  },
+  {
+    "rin": "0579-AE88",
+    "docket_id": "APHIS-2025-0018",
+    "agency_code": "0579",
+    "significant": false,
+    "doc_count": 2,
+    "supporting": []
+  },
+  {
+    "rin": "0581-AE13",
+    "docket_id": "AMS-NOP-22-0063",
+    "agency_code": "0581",
+    "significant": false,
+    "doc_count": 4,
+    "supporting": []
+  },
+  {
+    "rin": "0583-AD99",
+    "docket_id": "FSIS-2024-0023",
+    "agency_code": "0583",
+    "significant": false,
+    "doc_count": 3,
+    "supporting": [
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Attachment 1",
+        "documentId": "FSIS-2024-0023-0001"
+      }
+    ]
+  }
+]

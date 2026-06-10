@@ -2,7 +2,7 @@
 ria_detection.py  (importable library -- underscore name, not a runnable script)
 
 The RIA / economic-analysis classifier and cross-tab signal. Imported by both
--titles.py (the CLI/validation tool) and build-rules-index.py (the pipeline).
+detect-ria.py (the CLI/validation tool) and build-rules-index.py (the pipeline).
 Keep this file free of CLI / argparse / file-IO concerns -- pure logic only, so
 the thing the build depends on stays small and stable.
 
@@ -30,6 +30,8 @@ STRONG = [
     r"\bcost[- ]benefit analysis\b",
     r"\bcost[- ]benefit\b",
     r"\bregulatory flexibility analysis\b",
+    r"\btechnical support document\b",   # DOE/EPA: the TSD holds the economic analysis
+    r"\btsd\b",
     r"\bp?ria\b",        # RIA, PRIA
     r"\b[if]rfa\b",      # IRFA, FRFA
     r"\bcba\b",          # cost-benefit analysis (disambiguated below)
@@ -39,6 +41,7 @@ MEDIUM = [
     r"\bregulatory analysis\b",
     r"\bregulatory assessment\b",
     r"\beconomic impact\b",
+    r"\bnational impact analysis\b",   # DOE's NIA
 ]
 TAIL = [
     r"\bfee study\b",
@@ -50,7 +53,6 @@ REFERENCE_GUARDS = [
     r"available at",
     r"\baccessed\b",
     r"https?://",
-    r"guidelines for",
 ]
 
 CBA_RE = re.compile(r"\bcba\b", re.I)
@@ -63,10 +65,17 @@ TAIL_RE = [re.compile(p, re.I) for p in TAIL]
 REF_RE = [re.compile(p, re.I) for p in REFERENCE_GUARDS]
 STRONG_NON_CBA_RE = [re.compile(p, re.I) for p in STRONG if p != r"\bcba\b"]
 
+# bare "impact analysis/assessment" (e.g. the VA's RIA) -- but NOT the NEPA
+# "environmental impact ..." sense.
+IMPACT_RE = re.compile(r"\bimpact (analysis|assessment)\b", re.I)
+ENVIRONMENTAL_RE = re.compile(r"\benvironmental\b", re.I)
+
 
 def _norm(title):
-    # underscores act as separators in these titles; collapse to spaces so \b works
-    return re.sub(r"_+", " ", (title or "").lower())
+    # underscores AND stray whitespace (incl. newlines, double spaces) act as
+    # separators; collapse them all to single spaces so multi-word phrases like
+    # "regulatory impact analysis" still match across odd title formatting.
+    return re.sub(r"[\s_]+", " ", (title or "").lower()).strip()
 
 
 def _looks_like_reference(t):
@@ -80,6 +89,13 @@ def _strong_hit(t):
     if CBA_RE.search(t) and BARGAINING_RE.search(t):
         return any(r.search(t) for r in STRONG_NON_CBA_RE)
     return True
+
+
+def _medium_hit(t):
+    """Medium match, plus bare 'impact analysis/assessment' unless it's NEPA."""
+    if any(r.search(t) for r in MEDIUM_RE):
+        return True
+    return bool(IMPACT_RE.search(t) and not ENVIRONMENTAL_RE.search(t))
 
 
 def doc_url(document_id):
@@ -99,7 +115,7 @@ def classify_documents(docs):
         tier = None
         if _strong_hit(t):
             tier = "strong"
-        elif any(r.search(t) for r in MEDIUM_RE):
+        elif _medium_hit(t):
             tier = "medium"
         elif any(r.search(t) for r in TAIL_RE):
             tier = "tail"

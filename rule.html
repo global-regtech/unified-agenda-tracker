@@ -97,6 +97,27 @@
   }
   .about-toggle:hover { text-decoration: underline; }
 
+  /* Tier 3: Economic analysis (RIA) card — same chrome as .about; sits just below it */
+  .analysis-card {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 6px;
+    padding: 14px 16px; margin-bottom: 26px;
+  }
+  .analysis-card h2 {
+    font-size: 11px; letter-spacing: .08em; text-transform: uppercase;
+    color: var(--ink-faint); margin: 0 0 8px; font-weight: 600;
+  }
+  .analysis-available { display: flex; align-items: flex-start; gap: 10px; font-size: 14px; line-height: 1.45; }
+  .analysis-available .emoji { font-size: 18px; flex-shrink: 0; line-height: 1.2; }
+  .analysis-available .doc-link { color: var(--link); text-decoration: none; font-weight: 500; }
+  .analysis-available .doc-link:hover { text-decoration: underline; }
+  .analysis-missing {
+    border-left: 3px solid var(--active);
+    padding: 2px 0 2px 12px;
+  }
+  .analysis-missing strong { color: var(--active); font-size: 14px; }
+  .analysis-missing p { margin: 4px 0 0; font-size: 13px; color: var(--ink-soft); line-height: 1.5; }
+  .analysis-info { font-size: 14px; color: var(--ink-soft); line-height: 1.5; }
+
   /* progress meter — frames a sparse rule as "early in the process" */
   .progress { margin: 0 0 28px; }
   .progress-track { display: flex; gap: 4px; }
@@ -198,6 +219,10 @@
       <h2>About this rule</h2>
       <p id="about-text"></p>
       <button class="about-toggle" id="about-toggle" hidden onclick="toggleAbstract()"></button>
+    </section>
+    <section class="analysis-card" id="analysis" hidden>
+      <h2>Economic Analysis</h2>
+      <div id="analysis-content"></div>
     </section>
   </header>
 
@@ -538,6 +563,55 @@ function stageHTML(s) {
   </li>`;
 }
 
+/* Tier 3: paint the economic-analysis card based on the cross-tab state.
+   Only meaningful states surface; review / none / unknown stay hidden. */
+function renderEconomicAnalysis(r) {
+  const section = document.getElementById("analysis");
+  const content = document.getElementById("analysis-content");
+  const ea = r.economic_analysis;
+
+  if (!ea || ea.state === "review" || ea.state === "none" || ea.state === "unknown") {
+    section.hidden = true;
+    return;
+  }
+
+  const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g,
+    c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+  if (ea.state === "available" && ea.ria_url) {
+    const title = ea.ria_title || "Economic analysis";
+    content.innerHTML =
+      `<div class="analysis-available">
+        <span class="emoji">\u{1F4CA}</span>
+        <a href="${ea.ria_url}" target="_blank" rel="noopener" class="doc-link">${esc(title)}</a>
+      </div>`;
+    section.hidden = false;
+    return;
+  }
+  if (ea.state === "expected_missing") {
+    content.innerHTML =
+      `<div class="analysis-missing">
+        <strong>No economic analysis posted</strong>
+        <p>This rule is economically significant and has published, but no analysis document is posted to its regulations.gov docket.</p>
+      </div>`;
+    section.hidden = false;
+    return;
+  }
+  if (ea.state === "expected_elsewhere") {
+    content.innerHTML =
+      `<div class="analysis-info">Analysis isn't posted to regulations.gov — for this rule it's likely published inside the Federal Register rule document itself.</div>`;
+    section.hidden = false;
+    return;
+  }
+  if (ea.state === "pending") {
+    content.innerHTML =
+      `<div class="analysis-info">Economic analysis expected at publication. This rule is economically significant but hasn't yet published in the Federal Register.</div>`;
+    section.hidden = false;
+    return;
+  }
+  section.hidden = true;
+}
+
 function render(r) {
   document.getElementById("rin").textContent = "RIN " + r.rin;
   document.getElementById("title").textContent = r.title;
@@ -561,6 +635,8 @@ function render(r) {
   } else {
     about.hidden = true;
   }
+
+  renderEconomicAnalysis(r);
 
   const stages = computeTimeline(r);
   document.getElementById("status-now").textContent = currentStatus(r, stages);

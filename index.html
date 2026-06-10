@@ -311,6 +311,16 @@
   font-weight: 500;
 }
 
+/* Tier 3 gap flag: economically significant + published, no RIA posted */
+.badge-no-ria {
+  background: #fff3e0;
+  color: #b91c1c;
+  border-radius: 4px;
+  padding: 2px 7px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
 .filter-btn {
   padding: 6px 14px;
   border: 1.5px solid #ccc;
@@ -431,6 +441,9 @@
   <button class="filter-btn" data-filter="econ">Economically Significant</button>
   <button class="filter-btn" data-filter="proposed">Proposed Rule</button>
   <button class="filter-btn" data-filter="major">Major rules</button>
+  <button class="filter-btn" data-filter="has-ria">Has analysis</button>
+  <button class="filter-btn" data-filter="no-ria">No analysis posted</button>
+ 
 </div>
   <input type="text" id="rules-search" placeholder="e.g. heat rule, EPA, 2030-AV38…" autocomplete="off">
   <div id="search-status"></div>
@@ -600,6 +613,8 @@ document.querySelectorAll('.filter-btn[data-filter]').forEach(btn => {
   if (f === 'econ')     count = allRules.filter(r => r.priority === 'Economically Significant').length;
   if (f === 'proposed') count = allRules.filter(r => r.stage === 'Proposed Rule Stage').length;
   if (f === 'major')    count = allRules.filter(r => r.major).length;
+  if (f === 'has-ria')  count = allRules.filter(r => (r.economic_analysis || {}).state === 'available').length;
+  if (f === 'no-ria')   count = allRules.filter(r => (r.economic_analysis || {}).state === 'expected_missing').length;
   btn.textContent = `${btn.textContent} (${count.toLocaleString()})`;
 });
 
@@ -634,6 +649,8 @@ function getPool() {
   if (activeFilter === 'econ')     return allRules.filter(r => r.priority === 'Economically Significant');
   if (activeFilter === 'proposed') return allRules.filter(r => r.stage === 'Proposed Rule Stage');
   if (activeFilter === 'major')    return allRules.filter(r => r.major);
+  if (activeFilter === 'has-ria')  return allRules.filter(r => (r.economic_analysis || {}).state === 'available');
+  if (activeFilter === 'no-ria')   return allRules.filter(r => (r.economic_analysis || {}).state === 'expected_missing');
   return allRules;
 }
 
@@ -696,6 +713,23 @@ function formatDate(isoDate) {
   return new Date(isoDate).toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
 }
 
+// Tier 3: render the economic-analysis (RIA) signal on a rule card.
+// Only the two loud states surface here -- `available` (clickable link to the
+// actual RIA document) and `expected_missing` (a visible gap flag). Everything
+// else stays silent on the card; the timeline page is where the quieter states
+// (pending, expected_elsewhere) get room to explain themselves.
+function economicAnalysisBadge(r) {
+  const ea = r.economic_analysis;
+  if (!ea) return '';
+  if (ea.state === 'available' && ea.ria_url) {
+    return `<a href="${ea.ria_url}" target="_blank" class="source-link" title="Economic analysis (RIA) document">📊 Economic analysis</a>`;
+  }
+  if (ea.state === 'expected_missing') {
+    return `<span class="badge badge-no-ria" title="Economically significant, published — no economic analysis posted to regulations.gov">⚠ No analysis posted</span>`;
+  }
+  return '';
+}
+
 function renderResults(rules, statusText) {
   document.getElementById('search-status').textContent = statusText;
   const container = document.getElementById('search-results');
@@ -712,6 +746,8 @@ function renderResults(rules, statusText) {
     if (r.fr_proposed_url) links.push(`<a href="${r.fr_proposed_url}" target="_blank" class="source-link">📄 Proposed Rule${r.fr_proposed_date ? ' · ' + formatDate(r.fr_proposed_date) : ''}</a>`);
     if (r.fr_final_url)    links.push(`<a href="${r.fr_final_url}" target="_blank" class="source-link">✅ Final Rule${r.fr_final_date ? ' · ' + formatDate(r.fr_final_date) : ''}</a>`);
     if (r.docket_url)      links.push(`<a href="${r.docket_url}" target="_blank" class="source-link">💬 regulations.gov${r.comment_count ? ' · ' + r.comment_count.toLocaleString() + ' comments' : ''}</a>`);
+    const eaHtml = economicAnalysisBadge(r);
+    if (eaHtml) links.push(eaHtml);
     if (isOpenForComment(r.comment_end_date)) links.push(`<span class="badge badge-open-comment">Open for comment · until ${formatDate(r.comment_end_date)}</span>`);
 
     return `
