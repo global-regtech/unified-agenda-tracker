@@ -15,6 +15,10 @@ import json
 from datetime import date, datetime
 from pathlib import Path
 
+# Economic-analysis (RIA) signal. The shared classifier lives in ria_detection.py
+# (an importable module -- underscores, not the hyphen used for runnable scripts).
+from ria_detection import economic_analysis_signal
+
 AGENDA   = Path("data/agenda_rules.json")
 OIRA     = Path("data/oira_reviews.json")
 REGS_GOV = Path("data/regulations_gov.json")
@@ -116,11 +120,12 @@ def attach_sources(record, rin):
     if regs:
         record["docket_id"]          = regs.get("docket_id")
         record["docket_url"]         = regs.get("docket_url")
+        record["documents"]          = regs.get("documents", [])
         record["comment_count"]      = regs.get("comment_count")
         record["comment_start_date"] = regs.get("comment_start_date")
         record["comment_end_date"]   = regs.get("comment_end_date")
     else:
-        record.update(docket_id=None, docket_url=None, comment_count=None,
+        record.update(docket_id=None, docket_url=None, documents=None, comment_count=None,
                       comment_start_date=None, comment_end_date=None)
 
     fr = fed_reg.get(rin)
@@ -155,6 +160,12 @@ for rin in sorted(extra_rins):
     attach_sources(record, rin)
     rules_index.append(record)
 
+# --- Economic-analysis (RIA) signal: computed here so it's a native part of the
+# build and survives every regeneration. Runs last, when documents / priority /
+# FR dates are all present on each record. ---
+for record in rules_index:
+    record["economic_analysis"] = economic_analysis_signal(record)
+
 OUT.write_text(json.dumps(rules_index, indent=2))
 
 # --- Summary (counters count real matches, not cached misses) ---
@@ -162,6 +173,8 @@ oira_only   = sum(1 for r in rules_index if not r["in_agenda"])
 at_oira     = sum(1 for r in rules_index if r.get("at_oira"))
 regs_real   = sum(1 for r in rules_index if r.get("docket_url"))
 fr_real     = sum(1 for r in rules_index if r.get("fr_proposed_url") or r.get("fr_final_url"))
+ea_available = sum(1 for r in rules_index if (r.get("economic_analysis") or {}).get("state") == "available")
+ea_missing   = sum(1 for r in rules_index if (r.get("economic_analysis") or {}).get("state") == "expected_missing")
 
 print(f"\nWrote {len(rules_index)} records → {OUT}")
 print(f"  in the current agenda:        {len(agenda_rules)}")
@@ -169,3 +182,5 @@ print(f"  added (at OIRA, not in agenda):{oira_only:>4}")
 print(f"  currently at OIRA (total):    {at_oira}")
 print(f"  with a regulations.gov docket:{regs_real:>4}")
 print(f"  with a Federal Register doc:  {fr_real:>4}")
+print(f"  economic analysis available:  {ea_available:>4}")
+print(f"  econ-significant, none found: {ea_missing:>4}")
