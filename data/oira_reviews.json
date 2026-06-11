@@ -1,15 +1,33 @@
 {
-  "generated_at": "2026-06-10T16:13:00Z",
-  "count": 160,
+  "generated_at": "2026-06-11T16:33:30Z",
+  "count": 161,
   "reviews": [
     {
-      "rin": "0503-AA89",
-      "agency_code": "0503",
-      "agency": "USDA/AgSEC",
-      "title": "Rescinding Portions of the Department of Agriculture's Title VI Regulations to Implement EO 14281 and to conform more closely with the statutory text and the Department of Justice's Regulations.",
-      "received_date": "2026-06-09",
-      "rrid": "1422167",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1422167"
+      "rin": "3038-ZA24",
+      "agency_code": "3038",
+      "agency": "CFTC",
+      "title": "Request for Information: Identifying Regulations to Facilitate Innovation and Competition to Financial Products and Services for Fintech Firms",
+      "received_date": "2026-06-10",
+      "rrid": "1422166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1422166"
+    },
+    {
+      "rin": "2050-AH50",
+      "agency_code": "2050",
+      "agency": "EPA/OLEM",
+      "title": "Hazardous and Solid Waste Management System: Disposal of Coal Combustion Residuals from Electric Utilities; Federal CCR Permit Program; General Permit Provisions",
+      "received_date": "2026-06-10",
+      "rrid": "1412166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1412166"
+    },
+    {
+      "rin": "3038-AF73",
+      "agency_code": "3038",
+      "agency": "CFTC",
+      "title": "Data Reporting Requirements for Certain Event Contracts",
+      "received_date": "2026-06-10",
+      "rrid": "1422165",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1422165"
     },
     {
       "rin": "2130-AD65",
@@ -336,15 +354,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397169"
     },
     {
-      "rin": "1875-AA18",
-      "agency_code": "1875",
-      "agency": "ED/OPEPD",
-      "title": "International Foreign Language and Education Programs",
-      "received_date": "2026-05-27",
-      "rrid": "1394665",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1394665"
-    },
-    {
       "rin": "3046-AB39",
       "agency_code": "3046",
       "agency": "EEOC",
@@ -352,6 +361,15 @@
       "received_date": "2026-05-27",
       "rrid": "1397166",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397166"
+    },
+    {
+      "rin": "1875-AA18",
+      "agency_code": "1875",
+      "agency": "ED/OPEPD",
+      "title": "International Foreign Language and Education Programs",
+      "received_date": "2026-05-27",
+      "rrid": "1394665",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1394665"
     },
     {
       "rin": "3060-AL23",
@@ -496,15 +514,6 @@
       "received_date": "2026-05-18",
       "rrid": "1387163",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387163"
-    },
-    {
-      "rin": "3150-AL53",
-      "agency_code": "3150",
-      "agency": "NRC",
-      "title": "Modernizing Security Requirements [NRC-2025-1303]",
-      "received_date": "2026-05-18",
-      "rrid": "1379866",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1379866"
     },
     {
       "rin": "0560-AI84",
