@@ -1,7 +1,79 @@
 {
-  "generated_at": "2026-06-11T16:33:30Z",
-  "count": 161,
+  "generated_at": "2026-06-12T15:45:20Z",
+  "count": 163,
   "reviews": [
+    {
+      "rin": "3038-AF71",
+      "agency_code": "3038",
+      "agency": "CFTC",
+      "title": "Request for Comment on Further Definition of \"Swap\" and \"Security-Based Swap\" and on Alternative Compliance",
+      "received_date": "2026-06-11",
+      "rrid": "1424715",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1424715"
+    },
+    {
+      "rin": "3060-AM28",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Operation of Part 15 Devices in Space (ET Docket 25-XXX)",
+      "received_date": "2026-06-11",
+      "rrid": "1159562",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1159562"
+    },
+    {
+      "rin": "0584-AF29",
+      "agency_code": "0584",
+      "agency": "USDA/FNS",
+      "title": "Special Supplemental Nutrition Program for Women, Infants, and Children (WIC): Increase to the Maximum Monthly Allowance of Milk for Child, Pregnant, and Breastfeeding Participants",
+      "received_date": "2026-06-11",
+      "rrid": "1424712",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1424712"
+    },
+    {
+      "rin": "1870-AA20",
+      "agency_code": "1870",
+      "agency": "ED/OCR",
+      "title": "Elimination of Disparate Impact Theory Under Title VI of the 1964 Civil Rights Act",
+      "received_date": "2026-06-11",
+      "rrid": "1424914",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1424914"
+    },
+    {
+      "rin": "0930-AA40",
+      "agency_code": "0930",
+      "agency": "HHS/SAMHSA",
+      "title": "Mandatory Guidelines for Federal Workplace Drug Testing Programs using Urine (UrMG)",
+      "received_date": "2026-06-11",
+      "rrid": "1424713",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1424713"
+    },
+    {
+      "rin": "0930-AA41",
+      "agency_code": "0930",
+      "agency": "HHS/SAMHSA",
+      "title": "Mandatory Guidelines for Federal Workplace Drug Testing Programs using Oral Fluid (OFMG)",
+      "received_date": "2026-06-11",
+      "rrid": "1424714",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1424714"
+    },
+    {
+      "rin": "0694-AK30",
+      "agency_code": "0694",
+      "agency": "DOC/BIS",
+      "title": "Streamlining Export Controls for Drone Exports",
+      "received_date": "2026-06-11",
+      "rrid": "1419666",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1419666"
+    },
+    {
+      "rin": "0694-AK48",
+      "agency_code": "0694",
+      "agency": "DOC/BIS",
+      "title": "Streamlining Crime Control License Requirements",
+      "received_date": "2026-06-11",
+      "rrid": "1419665",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1419665"
+    },
     {
       "rin": "3038-ZA24",
       "agency_code": "3038",
@@ -354,15 +426,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397169"
     },
     {
-      "rin": "3046-AB39",
-      "agency_code": "3046",
-      "agency": "EEOC",
-      "title": "Rescission of 1979 Interpretive Rule \"Affirmative Action Appropriate Under Title VII of the Civil Rights Act of 1964\"",
-      "received_date": "2026-05-27",
-      "rrid": "1397166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397166"
-    },
-    {
       "rin": "1875-AA18",
       "agency_code": "1875",
       "agency": "ED/OPEPD",
@@ -370,6 +433,15 @@
       "received_date": "2026-05-27",
       "rrid": "1394665",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1394665"
+    },
+    {
+      "rin": "3046-AB39",
+      "agency_code": "3046",
+      "agency": "EEOC",
+      "title": "Rescission of 1979 Interpretive Rule \"Affirmative Action Appropriate Under Title VII of the Civil Rights Act of 1964\"",
+      "received_date": "2026-05-27",
+      "rrid": "1397166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397166"
     },
     {
       "rin": "3060-AL23",
@@ -460,15 +532,6 @@
       "received_date": "2026-05-19",
       "rrid": "1387164",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387164"
-    },
-    {
-      "rin": "3206-AO89",
-      "agency_code": "3206",
-      "agency": "OPM",
-      "title": "Ensuring Consistent and Rigorous Standards for the Senior Executive Service Candidate Development Programs",
-      "received_date": "2026-05-19",
-      "rrid": "1387168",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387168"
     },
     {
       "rin": "3206-AP06",
@@ -676,15 +739,6 @@
       "received_date": "2026-05-06",
       "rrid": "1370068",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1370068"
-    },
-    {
-      "rin": "2127-AN00",
-      "agency_code": "2127",
-      "agency": "DOT/NHTSA",
-      "title": "Modernization of Federal Motor Vehicle Safety Standard (FMVSS) No. 135 to Accommodate ADS-Equipped Vehicles",
-      "received_date": "2026-05-06",
-      "rrid": "1372218",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1372218"
     },
     {
       "rin": "2529-AB09",
@@ -957,15 +1011,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1224614"
     },
     {
-      "rin": "2120-AM15",
-      "agency_code": "2120",
-      "agency": "DOT/FAA",
-      "title": "Enabling Supersonic Overland Flight",
-      "received_date": "2026-04-02",
-      "rrid": "1329564",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1329564"
-    },
-    {
       "rin": "1082-AA05",
       "agency_code": "1082",
       "agency": "DOI/ASLM",
@@ -1009,15 +1054,6 @@
       "received_date": "2026-03-27",
       "rrid": "1327016",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1327016"
-    },
-    {
-      "rin": "2040-AG33",
-      "agency_code": "2040",
-      "agency": "EPA/OW",
-      "title": "Revisions to Establish the Sixth Unregulated Contaminant Monitoring Rule (UCMR 6) for Public Water Systems",
-      "received_date": "2026-03-27",
-      "rrid": "1327013",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1327013"
     },
     {
       "rin": "1291-AA49",
@@ -1164,15 +1200,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1297067"
     },
     {
-      "rin": "0938-AV90",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "Medicare Drug Price Negotiation Program (CMS-4215)",
-      "received_date": "2026-02-26",
-      "rrid": "1292165",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1292165"
-    },
-    {
       "rin": "1840-ZA05",
       "agency_code": "1840",
       "agency": "ED/OPE",
@@ -1207,15 +1234,6 @@
       "received_date": "2026-02-10",
       "rrid": "1274663",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1274663"
-    },
-    {
-      "rin": "0938-AU88",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "Strengthening Oversight of Accrediting Organizations (AO), Burden Reduction, and Related Provisions (CMS-3367)",
-      "received_date": "2026-02-04",
-      "rrid": "1267017",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1267017"
     },
     {
       "rin": "2590-ZA12",
