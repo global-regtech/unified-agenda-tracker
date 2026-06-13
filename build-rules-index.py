@@ -12,7 +12,7 @@ frontend can tell "in the current agenda" from "found via OIRA only."
 Run:  python build-rules-index.py
 """
 import json
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 # Economic-analysis (RIA) signal. The shared classifier lives in ria_detection.py
@@ -69,6 +69,13 @@ print(f"Regs.gov:         {len(regs_gov)} dockets")
 fed_reg = json.loads(FED_REG.read_text()) if FED_REG.exists() else {}
 print(f"Federal Register: {len(fed_reg)} RINs with documents")
 
+oira_meetings_path = Path("data/oira_meetings.json")
+if oira_meetings_path.exists():
+    oira_meetings = json.loads(oira_meetings_path.read_text()).get("records", {})
+    print(f"OIRA meetings:    {len(oira_meetings)} RINs")
+else:
+    oira_meetings = {}
+    print("OIRA meetings:    no data file (will skip meeting join)")
 
 def resolve_agency(rin, oira):
     """Full parent/sub agency names. Prefer the agenda's names (matched on the
@@ -140,6 +147,131 @@ def attach_sources(record, rin):
         record.update(fr_proposed_url=None, fr_proposed_date=None,
                       fr_final_url=None, fr_final_date=None)
 
+# Industry vs advocacy classification — narrow v1 heuristics. False positives
+# fall to "Other" rather than getting force-classified. Refine after seeing
+# real-world distribution.
+INDUSTRY_PATTERNS = __import__("re").compile(
+    # Whole-word industry markers
+    r"\b(?:"
+    r"Association|Associations|Chamber|Council|Institute|Federation|"
+    r"Manufacturers|Industry|Industries|Trade|"
+    r"Inc|LLC|LLP|Corp|Corporation|Company|Holdings|"
+    r"Strategies|Associates|"
+    r"Therapeutics|Pharmaceuticals|Biotech|Energy|Aviation|"
+    r"Manatt|McDermott|FGS"
+    r")\b"
+    # Multi-word industry phrases
+    r"|\b(?:"
+    r"Strategy Group|Policy Group|Policy Strategies|"
+    r"Government Affairs|Government Relations|"
+    r"Innovation Alliance|Industry Alliance|"
+    r"Builders and Contractors|Advisory Group|"
+    r"Powers Law|Tiber Creek"
+    r")\b"
+    # Alliance for [Capitalized Word]
+    r"|\bAlliance for [A-Z]\w+\b"
+    # Law firm partner patterns
+    r"|& (?:Phelps|Knight|Levy|Schulte|Bird|Bond|Goldstein|Phillips|Watkins)\b"
+    r"|\bHolland & ",
+    __import__("re").IGNORECASE,
+)
+
+ADVOCACY_PATTERNS = __import__("re").compile(
+    # Whole-word advocacy markers
+    r"\b(?:"
+    r"Coalition|ACLU|League|Justice|Rights|Action|"
+    r"Citizens|Earthjustice|Mothers|"
+    r"NAACP|NRDC|"
+    r"Wildlife|Wilderness|Defenders|Guardians|FUSEE|"
+    r"Union|Advocates|Network|Project"
+    r")\b"
+    # Multi-word advocacy phrases
+    r"|\b(?:"
+    r"Center for|Sierra Club|Defense Fund|Public Interest|"
+    r"Watchdog|Moms Clean|Environmental|Conservation|"
+    r"Civil Liberties|Law Center|Legal Defense|Legal Aid|"
+    r"Lawyers Committee|Lawyers' Committee|Due Process|"
+    r"Southern Poverty|National Women|National Fair Housing|"
+    r"Food & Water Watch|Water Watch|"
+    r"Workers of America|Laborers'|Mine Workers|"
+    r"Campaign for|Tobacco-Free|Cancer Prevention|"
+    r"Taxpayers for|Fair Housing|"
+    r"Resource Councils|Federation of Teachers|Federation of Labor"
+    r")\b"
+    # Initiative as a noun (avoid "Initiative for [X]" being industry)
+    r"|\bInitiative\b",
+    __import__("re").IGNORECASE,
+)
+
+
+def aggregate_meetings(rin):
+    """Compute per-rule meeting aggregates from oira_meetings.
+
+    Returns None if no record (preserves the distinction between 'we know
+    there are 0 meetings' and 'we haven't fetched meetings for this rule').
+    """
+    record = oira_meetings.get(rin)
+    if not record:
+        return None
+
+    meeting_count = record.get("meeting_count", 0)
+    meetings = record.get("meetings", [])
+
+    if meeting_count == 0:
+        return {
+            "count": 0, "recent_count": 0, "last_date": None,
+            "outside_orgs": [], "outside_org_count": 0,
+            "industry_orgs": [], "advocacy_orgs": [], "other_orgs": [],
+            "has_more_unscraped": False,
+        }
+
+    # Recent = meetings within last 14 days (matches the imminence-weight window)
+    cutoff = date.today() - timedelta(days=14)
+    recent_count = sum(
+        1 for m in meetings
+        if (d := _parse_iso_date(m.get("date"))) and d >= cutoff
+    )
+
+    # Dedupe requestor orgs (case-insensitive), preserve display case
+    seen_keys = set()
+    outside_orgs = []
+    for m in meetings:
+        org = (m.get("requestor_org") or "").strip()
+        if not org:
+            continue
+        key = org.lower()
+        if key in seen_keys:
+            continue
+        seen_keys.add(key)
+        outside_orgs.append(org)
+
+    industry, advocacy, other = [], [], []
+    for org in outside_orgs:
+        if ADVOCACY_PATTERNS.search(org):
+            advocacy.append(org)
+        elif INDUSTRY_PATTERNS.search(org):
+            industry.append(org)
+        else:
+            other.append(org)
+
+    return {
+        "count":               meeting_count,
+        "recent_count":        recent_count,
+        "last_date":           record.get("last_meeting_date"),
+        "outside_orgs":        outside_orgs,
+        "outside_org_count":   len(outside_orgs),
+        "industry_orgs":       industry,
+        "advocacy_orgs":       advocacy,
+        "other_orgs":          other,
+        "has_more_unscraped":  record.get("has_more", False),
+    }
+
+
+def _parse_iso_date(s):
+    try:
+        return datetime.strptime(s, "%Y-%m-%d").date() if s else None
+    except ValueError:
+        return None
 
 # --- Join: agenda rules first (preserves order), then OIRA-only rules ---
 rules_index = []
@@ -165,6 +297,7 @@ for rin in sorted(extra_rins):
 # FR dates are all present on each record. ---
 for record in rules_index:
     record["economic_analysis"] = economic_analysis_signal(record)
+    record["meetings"] = aggregate_meetings(record["rin"])
 
 OUT.write_text(json.dumps(rules_index, indent=2))
 
@@ -175,6 +308,8 @@ regs_real   = sum(1 for r in rules_index if r.get("docket_url"))
 fr_real     = sum(1 for r in rules_index if r.get("fr_proposed_url") or r.get("fr_final_url"))
 ea_available = sum(1 for r in rules_index if (r.get("economic_analysis") or {}).get("state") == "available")
 ea_missing   = sum(1 for r in rules_index if (r.get("economic_analysis") or {}).get("state") == "expected_missing")
+with_meetings = sum(1 for r in rules_index if (r.get("meetings") or {}).get("count", 0) > 0)
+heavy_lobbying = sum(1 for r in rules_index if (r.get("meetings") or {}).get("outside_org_count", 0) >= 5)
 
 print(f"\nWrote {len(rules_index)} records → {OUT}")
 print(f"  in the current agenda:        {len(agenda_rules)}")
@@ -184,3 +319,5 @@ print(f"  with a regulations.gov docket:{regs_real:>4}")
 print(f"  with a Federal Register doc:  {fr_real:>4}")
 print(f"  economic analysis available:  {ea_available:>4}")
 print(f"  econ-significant, none found: {ea_missing:>4}")
+print(f"  with logged EO 12866 meetings:{with_meetings:>4}")
+print(f"  heavy lobbying (5+ orgs):     {heavy_lobbying:>4}")

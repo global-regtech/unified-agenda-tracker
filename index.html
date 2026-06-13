@@ -384,6 +384,38 @@
   margin-top: 1.25rem;
 }
 
+.curated-toggle-btn {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-top: 0.5rem;
+  background: white;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  color: #4338ca;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.9rem;
+  transition: all 0.15s;
+}
+
+.curated-toggle-btn:hover {
+  background: #f5f3ff;
+  border-color: #6366f1;
+  color: #3730a3;
+}
+
+.meeting-badge {
+  color: #6d28d9;
+  cursor: help;
+}
+
+.meeting-badge:hover {
+  color: #4c1d95;
+  text-decoration: none;
+}
+
 /* Signals strip — explains why each rule made the list */
 .signals-strip {
   display: flex;
@@ -415,6 +447,11 @@
 .signal-pill.attention {
   background: #dcfce7;
   color: #166534;
+}
+
+.signal-pill.lobbying {
+  background: #ede9fe;
+  color: #6d28d9;
 }
 
 @media (max-width: 600px) {
@@ -530,8 +567,8 @@
 
 
 <section id="search-section">
-  <h2>Search the Spring 2025 Unified Agenda</h2>
-  <p class="section-subtitle">3,821 rules across 69 agencies. Search by title, agency, keyword, or RIN!</p>
+  <h2>Search Federal regulatory actions</h2>
+  <p class="section-subtitle" id="search-subtitle">Search by title, agency, keyword, or RIN.</p>
   <div id="filter-bar">
   <button class="filter-btn active" data-filter="">All rules</button>
   <button class="filter-btn" data-filter="oira">At OIRA</button>
@@ -541,6 +578,7 @@
   <button class="filter-btn" data-filter="has-ria">Has analysis</button>
   <button class="filter-btn" data-filter="no-ria">No analysis posted</button>
   <button class="filter-btn" data-filter="high-comments">High comment volume</button>
+  <button class="filter-btn" data-filter="lobbying">Lobbying activity</button>
  
 </div>
   <input type="text" id="rules-search" placeholder="e.g. heat rule, EPA, 2030-AV38…" autocomplete="off">
@@ -696,6 +734,13 @@ async function initRulesSearch() {
     const resp = await fetch('data/rules_index.json');
     allRules = await resp.json();
 
+    // Update subtitle with live counts
+const agencyCount = new Set(
+  allRules.map(r => r.agency_name).filter(Boolean)
+).size;
+document.getElementById('search-subtitle').textContent =
+  `${allRules.length.toLocaleString()} rules across ${agencyCount} agencies. Search by title, agency, keyword, or RIN.`;
+
     fuseIndex = new Fuse(allRules, {
       keys: [
         { name: 'title',               weight: 0.50 },
@@ -719,6 +764,7 @@ document.querySelectorAll('.filter-btn[data-filter]').forEach(btn => {
   if (f === 'has-ria')  count = allRules.filter(r => (r.economic_analysis || {}).state === 'available').length;
   if (f === 'no-ria')   count = allRules.filter(r => (r.economic_analysis || {}).state === 'expected_missing').length;
   if (f === 'high-comments') count = allRules.filter(r => (r.comment_count || 0) >= 100).length;
+  if (f === 'lobbying') count = allRules.filter(r => ((r.meetings || {}).count || 0) > 0).length;
   btn.textContent = `${btn.textContent} (${count.toLocaleString()})`;
 });
 
@@ -770,6 +816,11 @@ const SIGNAL_WEIGHTS = {
   // Anomaly / gap
   missingRia: 1,             // expected_missing state
 
+  // Lobbying activity (EO 12866 meetings)
+  hasMeetings: 1,         // any meetings logged → importance signal
+  heavyLobbying: 2,       // 5+ unique outside orgs → additive on hasMeetings
+  recentMeeting: 2,       // meeting in last 14 days → imminence signal
+
   // Suppression
   finalAndClosed: -2,        // rule done, no longer prospective
   routineTitlePattern: -2,   // FAA AD, CMS payment updates, etc.
@@ -791,7 +842,7 @@ function daysBetween(isoDate, refDate = new Date()) {
 
 function scoreCurationImportance(rule) {
   let score = 0;
-  const reasons = [];  // populated for the "why this rule" strip in Step 4
+  const reasons = [];
   const now = new Date();
 
   // Comment period imminence
@@ -802,72 +853,84 @@ function scoreCurationImportance(rule) {
       reasons.push(`Comments close in ${daysUntilClose}d`);
     } else if (daysUntilClose > 14) {
       score += SIGNAL_WEIGHTS.commentOpen;
-      reasons.push('Open for comment');
+      // No pill — card already shows "Open for comment · until [date]"
     }
   }
 
-  // At OIRA — base + tiered anomaly bonus
+  // At OIRA — only push a pill for the anomaly (stalled), not the base state
   if (rule.at_oira) {
     score += SIGNAL_WEIGHTS.atOiraBase;
     const days = rule.oira_days ?? daysBetween(rule.oira_received);
     if (days != null && days > 180) {
       score += SIGNAL_WEIGHTS.oiraAnomaly180;
-      reasons.push(`At OIRA ${days}d (stalled)`);
+      reasons.push(`Stalled at OIRA · ${days}d`);
     } else if (days != null && days > 90) {
       score += SIGNAL_WEIGHTS.oiraAnomaly90;
-      reasons.push(`At OIRA ${days}d`);
-    } else {
-      reasons.push(days != null ? `At OIRA ${days}d` : 'At OIRA');
+      // No pill — base At OIRA is already a card badge
     }
   }
 
-  // Fresh Federal Register publication (proposed OR final, within 30 days)
+  // Fresh publication — not visible on card
   const proposedAge = daysBetween(rule.fr_proposed_date);
   const finalAge = daysBetween(rule.fr_final_date);
   if ((proposedAge != null && proposedAge >= 0 && proposedAge <= 30) ||
       (finalAge != null && finalAge >= 0 && finalAge <= 30)) {
     score += SIGNAL_WEIGHTS.freshPublication;
-    reasons.push('Recently published');
+    reasons.push('Just published');
   }
 
-  // Inherent importance — take the higher of econ-sig / major, never both
+  // Inherent importance — already on card as priority badge, no pill
   const priority = (rule.priority || '').toLowerCase();
   if (priority.includes('econ')) {
     score += SIGNAL_WEIGHTS.econSignificant;
-    reasons.push('Economically significant');
   } else if (priority.includes('major')) {
     score += SIGNAL_WEIGHTS.majorRule;
-    reasons.push('Major rule');
   }
 
-  // Comment volume — bucketed, highest tier only
+  // Comment volume — only pill for unusually high counts (card shows the link)
   const cc = rule.comment_count || 0;
   if (cc >= 10000) {
     score += SIGNAL_WEIGHTS.commentVolumeMassive;
     reasons.push(`${cc.toLocaleString()} comments`);
   } else if (cc >= 1000) {
     score += SIGNAL_WEIGHTS.commentVolumeHigh;
-    reasons.push(`${cc.toLocaleString()} comments`);
   } else if (cc >= 100) {
     score += SIGNAL_WEIGHTS.commentVolumeMed;
-    reasons.push(`${cc} comments`);
   }
 
-  // Missing-RIA gap flag (Tier 3 anomaly carries over)
+  // Missing RIA — already a ⚠ badge on card, no pill
   if (rule.economic_analysis?.state === 'expected_missing') {
     score += SIGNAL_WEIGHTS.missingRia;
-    reasons.push('No analysis posted');
   }
 
-  // Suppression: rule has final + comments long closed + not back at OIRA
+  // Lobbying — not on card, all pills kept
+  const meetings = rule.meetings;
+  if (meetings && meetings.count > 0) {
+    score += SIGNAL_WEIGHTS.hasMeetings;
+    const orgCount = meetings.outside_org_count || 0;
+    if (orgCount >= 5) {
+      score += SIGNAL_WEIGHTS.heavyLobbying;
+      reasons.push(`Lobbied by ${orgCount} orgs`);
+    } else if (orgCount > 0) {
+      reasons.push(`Lobbied by ${orgCount} org${orgCount === 1 ? '' : 's'}`);
+    }
+    if ((meetings.recent_count || 0) > 0) {
+      score += SIGNAL_WEIGHTS.recentMeeting;
+      reasons.push(
+        meetings.recent_count === 1
+          ? 'Meeting in last 14d'
+          : `${meetings.recent_count} meetings in last 14d`
+      );
+    }
+  }
+
+  // Suppression — no pills
   const commentClosedDaysAgo = rule.comment_end_date
     ? daysBetween(rule.comment_end_date)
     : null;
   if (rule.fr_final_date && commentClosedDaysAgo > 0 && !rule.at_oira) {
     score += SIGNAL_WEIGHTS.finalAndClosed;
   }
-
-  // Suppression: routine-pattern titles
   if (ROUTINE_TITLE_PATTERNS.some(re => re.test(rule.title || ''))) {
     score += SIGNAL_WEIGHTS.routineTitlePattern;
   }
@@ -887,12 +950,16 @@ function showDefaultResults() {
 // ===== Tier 4 — Curated feed =====
 const CURATION_THRESHOLD = 5;
 
+const CURATED_INITIAL_VISIBLE = 10;
+let curatedScored = [];
+let curatedExpanded = false;
+
 async function loadCuratedFeed() {
   try {
     const res = await fetch('data/rules_index.json');
     const rules = await res.json();
 
-    const scored = rules
+    curatedScored = rules
       .map(r => ({ rule: r, ...scoreCurationImportance(r) }))
       .filter(s => s.score >= CURATION_THRESHOLD)
       .sort((a, b) => {
@@ -900,24 +967,51 @@ async function loadCuratedFeed() {
         return (b.rule.comment_count || 0) - (a.rule.comment_count || 0);
       });
 
-    renderCuratedFeed(scored);
+    renderCuratedFeed();
     document.getElementById('curated-count').textContent =
-      `${scored.length} rules on the radar today`;
+      `${curatedScored.length} rules on the radar today`;
   } catch (err) {
     console.error('Curated feed failed to load:', err);
     document.getElementById('curated-count').textContent = 'Could not load feed';
   }
 }
 
-function renderCuratedFeed(scored) {
+function renderCuratedFeed() {
   const container = document.getElementById('curated-feed');
-  if (!scored.length) {
+  if (!curatedScored.length) {
     container.innerHTML = '<p class="curated-empty">No rules above the importance threshold today.</p>';
     return;
   }
-  container.innerHTML = scored
+
+  const visible = curatedExpanded
+    ? curatedScored
+    : curatedScored.slice(0, CURATED_INITIAL_VISIBLE);
+  const remaining = curatedScored.length - CURATED_INITIAL_VISIBLE;
+
+  let html = visible
     .map(({ rule, reasons }) => renderCuratedCard(rule, reasons))
     .join('');
+
+  if (remaining > 0) {
+    html += `
+      <button class="curated-toggle-btn" onclick="toggleCuratedExpand()">
+        ${curatedExpanded
+          ? `↑ Show fewer`
+          : `↓ Show all ${curatedScored.length} rules (${remaining} more)`}
+      </button>
+    `;
+  }
+
+  container.innerHTML = html;
+}
+
+function toggleCuratedExpand() {
+  curatedExpanded = !curatedExpanded;
+  renderCuratedFeed();
+  if (!curatedExpanded) {
+    // Scroll back to the section header when collapsing
+    document.getElementById('curated-section').scrollIntoView({ behavior: 'smooth' });
+  }
 }
 
 function renderCuratedCard(rule, reasons) {
@@ -942,6 +1036,8 @@ function signalPill(reason) {
   if (reason.startsWith('Comments close in')) cls += ' urgent';
   else if (reason.includes('stalled')) cls += ' stalled';
   else if (reason.includes('comments') && !reason.includes('No analysis')) cls += ' attention';
+  else if (reason.includes('Lobbied') || reason.includes('Meeting in') || reason.includes('meetings'))
+    cls += ' lobbying';
   return `<span class="${cls}">${escapeHtml(reason)}</span>`;
 }
 
@@ -955,14 +1051,24 @@ function getPool() {
   if (activeFilter === 'major')    return allRules.filter(r => r.major);
   if (activeFilter === 'has-ria')  return allRules.filter(r => (r.economic_analysis || {}).state === 'available');
   if (activeFilter === 'no-ria')   return allRules.filter(r => (r.economic_analysis || {}).state === 'expected_missing');
-  if (activeFilter === 'high-comments') return allRules.filter(r => (r.comment_count || 0) >= 100);
   if (activeFilter === 'high-comments') {
-  return allRules
-    .filter(r => (r.comment_count || 0) >= 100)
-    .sort((a, b) => (b.comment_count || 0) - (a.comment_count || 0));
+    return allRules
+      .filter(r => (r.comment_count || 0) >= 100)
+      .sort((a, b) => (b.comment_count || 0) - (a.comment_count || 0));
+  if (activeFilter === 'lobbying') {
+    return allRules
+      .filter(r => ((r.meetings || {}).count || 0) > 0)
+      .sort((a, b) => {
+        const am = a.meetings || {};
+        const bm = b.meetings || {};
+        // Primary: most recent meeting activity. Secondary: most outside orgs.
+        const recentDiff = (bm.recent_count || 0) - (am.recent_count || 0);
+        if (recentDiff !== 0) return recentDiff;
+        return (bm.outside_org_count || 0) - (am.outside_org_count || 0);
+      });
 }
+  }
   return allRules;
-  
 }
 
 function updateResults() {
@@ -1048,6 +1154,16 @@ function renderRuleCard(r) {
   if (r.fr_proposed_url) links.push(`<a href="${r.fr_proposed_url}" target="_blank" class="source-link">📄 Proposed Rule${r.fr_proposed_date ? ' · ' + formatDate(r.fr_proposed_date) : ''}</a>`);
   if (r.fr_final_url)    links.push(`<a href="${r.fr_final_url}" target="_blank" class="source-link">✅ Final Rule${r.fr_final_date ? ' · ' + formatDate(r.fr_final_date) : ''}</a>`);
   if (r.docket_url)      links.push(`<a href="${r.docket_url}" target="_blank" class="source-link">💬 regulations.gov${r.comment_count ? ' · ' + r.comment_count.toLocaleString() + ' comments' : ''}</a>`);
+  if ((r.meetings || {}).count > 0) {
+    const m = r.meetings;
+    const tooltip = m.outside_org_count > 0
+      ? `${m.outside_org_count} outside organization${m.outside_org_count === 1 ? '' : 's'}: ${m.outside_orgs.slice(0, 5).join(', ')}${m.outside_orgs.length > 5 ? '…' : ''}`
+      : `${m.count} meeting${m.count === 1 ? '' : 's'} logged`;
+    const recentTag = (m.recent_count || 0) > 0 ? ` · ${m.recent_count} recent` : '';
+    links.push(
+      `<span class="source-link meeting-badge" title="${tooltip.replace(/"/g, '&quot;')}">🤝 ${m.count} meeting${m.count === 1 ? '' : 's'}${recentTag}</span>`
+    );
+}
   const eaHtml = economicAnalysisBadge(r);
   if (eaHtml) links.push(eaHtml);
   if (isOpenForComment(r.comment_end_date)) links.push(`<span class="badge badge-open-comment">Open for comment · until ${formatDate(r.comment_end_date)}</span>`);
