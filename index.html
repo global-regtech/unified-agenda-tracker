@@ -341,6 +341,86 @@
   color: white;
   border-color: #1a1a2e;
 }
+
+.curated-section {
+  margin: 2rem 0 3rem;
+  padding: 1.5rem 1.75rem;
+  background: var(--surface-elevated, #f8fafc);
+  border-radius: 0.75rem;
+  border-left: 4px solid var(--accent, #2563eb);
+}
+
+.curated-header h2 {
+  margin: 0 0 0.25rem;
+  font-size: 1.5rem;
+}
+
+.curated-subtitle {
+  margin: 0;
+  color: var(--text-muted, #64748b);
+  font-size: 0.95rem;
+  max-width: 60ch;
+}
+
+.curated-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+  color: var(--text-muted, #64748b);
+  flex-wrap: wrap;
+}
+
+.curated-count {
+  font-weight: 600;
+  color: var(--text, #1e293b);
+}
+
+.curated-feed {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+/* Signals strip — explains why each rule made the list */
+.signals-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+  margin: 0.5rem 0 0.75rem;
+}
+
+.signal-pill {
+  font-size: 0.75rem;
+  padding: 0.15rem 0.55rem;
+  background: #e0e7ff;
+  color: #3730a3;
+  border-radius: 999px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.signal-pill.urgent {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.signal-pill.stalled {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.signal-pill.attention {
+  background: #dcfce7;
+  color: #166534;
+}
+
+@media (max-width: 600px) {
+  .curated-section { padding: 1rem; }
+  .curated-meta { font-size: 0.8rem; }
+}
   </style>
 </head>
 <body>
@@ -432,6 +512,23 @@
         <span id="oira-fetched-at"></span>
     </p>
 </section>
+
+<section id="curated-section" class="curated-section">
+  <header class="curated-header">
+    <h2>On the radar</h2>
+    <p class="curated-subtitle">
+      Rules worth watching — surfaced by activity at OIRA, comment-period urgency,
+      economic significance, and public attention. Updated daily.
+    </p>
+    <div class="curated-meta">
+      <span id="curated-count" class="curated-count"></span>
+      <span class="curated-tip">Sorted by importance · click a title for the full timeline</span>
+    </div>
+  </header>
+  <div id="curated-feed" class="curated-feed"></div>
+</section>
+
+
 <section id="search-section">
   <h2>Search the Spring 2025 Unified Agenda</h2>
   <p class="section-subtitle">3,821 rules across 69 agencies. Search by title, agency, keyword, or RIN!</p>
@@ -443,6 +540,7 @@
   <button class="filter-btn" data-filter="major">Major rules</button>
   <button class="filter-btn" data-filter="has-ria">Has analysis</button>
   <button class="filter-btn" data-filter="no-ria">No analysis posted</button>
+  <button class="filter-btn" data-filter="high-comments">High comment volume</button>
  
 </div>
   <input type="text" id="rules-search" placeholder="e.g. heat rule, EPA, 2030-AV38…" autocomplete="off">
@@ -585,6 +683,11 @@ let fuseIndex   = null;
 let allRules    = [];
 let activeFilter = '';
 
+function escapeHtml(s) {
+    return s.replace(/[&<>"']/g, ch => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    }[ch]));
+}
 async function initRulesSearch() {
   const status = document.getElementById('search-status');
   status.textContent = 'Loading rules…';
@@ -615,6 +718,7 @@ document.querySelectorAll('.filter-btn[data-filter]').forEach(btn => {
   if (f === 'major')    count = allRules.filter(r => r.major).length;
   if (f === 'has-ria')  count = allRules.filter(r => (r.economic_analysis || {}).state === 'available').length;
   if (f === 'no-ria')   count = allRules.filter(r => (r.economic_analysis || {}).state === 'expected_missing').length;
+  if (f === 'high-comments') count = allRules.filter(r => (r.comment_count || 0) >= 100).length;
   btn.textContent = `${btn.textContent} (${count.toLocaleString()})`;
 });
 
@@ -635,6 +739,142 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
   }
 }
 
+// =========================================
+// Tier 4 — Curation scoring
+// =========================================
+// Centralized weights make tuning trivial and
+// make future user-adjustable weights a 1-line swap
+// (read from localStorage, fall back to these defaults).
+
+
+const SIGNAL_WEIGHTS = {
+  // Imminent action — deadline-driven
+  commentClosingSoon: 4,     // comment period closes within 14 days
+  commentOpen: 2,            // currently open (not closing yet)
+  freshPublication: 3,       // FR proposed/final in last 30 days
+
+  // Activity at OIRA — strongest uplift signal
+  atOiraBase: 3,
+  oiraAnomaly90: 1,          // additive: 90–180 days at OIRA
+  oiraAnomaly180: 2,         // total (not +1): >180 days
+
+  // Inherent importance
+  econSignificant: 3,
+  majorRule: 2,              // applied only if not also econ sig
+
+  // Public attention (revealed preference, bucketed)
+  commentVolumeMed: 1,       // 100+ comments
+  commentVolumeHigh: 2,      // 1,000+ (total, not additive)
+  commentVolumeMassive: 3,   // 10,000+ (total)
+
+  // Anomaly / gap
+  missingRia: 1,             // expected_missing state
+
+  // Suppression
+  finalAndClosed: -2,        // rule done, no longer prospective
+  routineTitlePattern: -2,   // FAA AD, CMS payment updates, etc.
+};
+
+// Routine title patterns — start narrow, extend as noise reveals itself
+const ROUTINE_TITLE_PATTERNS = [
+  /airworthiness directive/i,
+  /medicare.*payment.*(rate|update|adjustment)/i,
+  /annual.*disbursement/i,
+];
+
+function daysBetween(isoDate, refDate = new Date()) {
+  if (!isoDate) return null;
+  const d = new Date(isoDate);
+  if (isNaN(d)) return null;
+  return Math.floor((refDate - d) / 86400000);
+}
+
+function scoreCurationImportance(rule) {
+  let score = 0;
+  const reasons = [];  // populated for the "why this rule" strip in Step 4
+  const now = new Date();
+
+  // Comment period imminence
+  if (rule.comment_end_date) {
+    const daysUntilClose = -daysBetween(rule.comment_end_date, now);
+    if (daysUntilClose >= 0 && daysUntilClose <= 14) {
+      score += SIGNAL_WEIGHTS.commentClosingSoon;
+      reasons.push(`Comments close in ${daysUntilClose}d`);
+    } else if (daysUntilClose > 14) {
+      score += SIGNAL_WEIGHTS.commentOpen;
+      reasons.push('Open for comment');
+    }
+  }
+
+  // At OIRA — base + tiered anomaly bonus
+  if (rule.at_oira) {
+    score += SIGNAL_WEIGHTS.atOiraBase;
+    const days = rule.oira_days ?? daysBetween(rule.oira_received);
+    if (days != null && days > 180) {
+      score += SIGNAL_WEIGHTS.oiraAnomaly180;
+      reasons.push(`At OIRA ${days}d (stalled)`);
+    } else if (days != null && days > 90) {
+      score += SIGNAL_WEIGHTS.oiraAnomaly90;
+      reasons.push(`At OIRA ${days}d`);
+    } else {
+      reasons.push(days != null ? `At OIRA ${days}d` : 'At OIRA');
+    }
+  }
+
+  // Fresh Federal Register publication (proposed OR final, within 30 days)
+  const proposedAge = daysBetween(rule.fr_proposed_date);
+  const finalAge = daysBetween(rule.fr_final_date);
+  if ((proposedAge != null && proposedAge >= 0 && proposedAge <= 30) ||
+      (finalAge != null && finalAge >= 0 && finalAge <= 30)) {
+    score += SIGNAL_WEIGHTS.freshPublication;
+    reasons.push('Recently published');
+  }
+
+  // Inherent importance — take the higher of econ-sig / major, never both
+  const priority = (rule.priority || '').toLowerCase();
+  if (priority.includes('econ')) {
+    score += SIGNAL_WEIGHTS.econSignificant;
+    reasons.push('Economically significant');
+  } else if (priority.includes('major')) {
+    score += SIGNAL_WEIGHTS.majorRule;
+    reasons.push('Major rule');
+  }
+
+  // Comment volume — bucketed, highest tier only
+  const cc = rule.comment_count || 0;
+  if (cc >= 10000) {
+    score += SIGNAL_WEIGHTS.commentVolumeMassive;
+    reasons.push(`${cc.toLocaleString()} comments`);
+  } else if (cc >= 1000) {
+    score += SIGNAL_WEIGHTS.commentVolumeHigh;
+    reasons.push(`${cc.toLocaleString()} comments`);
+  } else if (cc >= 100) {
+    score += SIGNAL_WEIGHTS.commentVolumeMed;
+    reasons.push(`${cc} comments`);
+  }
+
+  // Missing-RIA gap flag (Tier 3 anomaly carries over)
+  if (rule.economic_analysis?.state === 'expected_missing') {
+    score += SIGNAL_WEIGHTS.missingRia;
+    reasons.push('No analysis posted');
+  }
+
+  // Suppression: rule has final + comments long closed + not back at OIRA
+  const commentClosedDaysAgo = rule.comment_end_date
+    ? daysBetween(rule.comment_end_date)
+    : null;
+  if (rule.fr_final_date && commentClosedDaysAgo > 0 && !rule.at_oira) {
+    score += SIGNAL_WEIGHTS.finalAndClosed;
+  }
+
+  // Suppression: routine-pattern titles
+  if (ROUTINE_TITLE_PATTERNS.some(re => re.test(rule.title || ''))) {
+    score += SIGNAL_WEIGHTS.routineTitlePattern;
+  }
+
+  return { score, reasons };
+}
+
 function showDefaultResults() {
   const atOira = allRules
     .filter(r => r.at_oira)
@@ -644,6 +884,70 @@ function showDefaultResults() {
     `${atOira.length} rules currently at OIRA — or type to search all ${allRules.length.toLocaleString()}`
   );
 }
+// ===== Tier 4 — Curated feed =====
+const CURATION_THRESHOLD = 5;
+
+async function loadCuratedFeed() {
+  try {
+    const res = await fetch('data/rules_index.json');
+    const rules = await res.json();
+
+    const scored = rules
+      .map(r => ({ rule: r, ...scoreCurationImportance(r) }))
+      .filter(s => s.score >= CURATION_THRESHOLD)
+      .sort((a, b) => {
+        if (b.score !== a.score) return b.score - a.score;
+        return (b.rule.comment_count || 0) - (a.rule.comment_count || 0);
+      });
+
+    renderCuratedFeed(scored);
+    document.getElementById('curated-count').textContent =
+      `${scored.length} rules on the radar today`;
+  } catch (err) {
+    console.error('Curated feed failed to load:', err);
+    document.getElementById('curated-count').textContent = 'Could not load feed';
+  }
+}
+
+function renderCuratedFeed(scored) {
+  const container = document.getElementById('curated-feed');
+  if (!scored.length) {
+    container.innerHTML = '<p class="curated-empty">No rules above the importance threshold today.</p>';
+    return;
+  }
+  container.innerHTML = scored
+    .map(({ rule, reasons }) => renderCuratedCard(rule, reasons))
+    .join('');
+}
+
+function renderCuratedCard(rule, reasons) {
+  const signalsStrip = reasons.length
+    ? `<div class="signals-strip">${reasons.map(signalPill).join('')}</div>`
+    : '';
+
+  // Reuse your existing single-card renderer.
+  // If your project uses a different function name, swap it here.
+  const cardBody = renderRuleCard(rule);
+
+  return `
+    <div class="curated-card-wrap">
+      ${signalsStrip}
+      ${cardBody}
+    </div>
+  `;
+}
+
+function signalPill(reason) {
+  let cls = 'signal-pill';
+  if (reason.startsWith('Comments close in')) cls += ' urgent';
+  else if (reason.includes('stalled')) cls += ' stalled';
+  else if (reason.includes('comments') && !reason.includes('No analysis')) cls += ' attention';
+  return `<span class="${cls}">${escapeHtml(reason)}</span>`;
+}
+
+// Trigger on page load
+document.addEventListener('DOMContentLoaded', loadCuratedFeed);
+
 function getPool() {
   if (activeFilter === 'oira')     return allRules.filter(r => r.at_oira);
   if (activeFilter === 'econ')     return allRules.filter(r => r.priority === 'Economically Significant');
@@ -651,7 +955,14 @@ function getPool() {
   if (activeFilter === 'major')    return allRules.filter(r => r.major);
   if (activeFilter === 'has-ria')  return allRules.filter(r => (r.economic_analysis || {}).state === 'available');
   if (activeFilter === 'no-ria')   return allRules.filter(r => (r.economic_analysis || {}).state === 'expected_missing');
+  if (activeFilter === 'high-comments') return allRules.filter(r => (r.comment_count || 0) >= 100);
+  if (activeFilter === 'high-comments') {
+  return allRules
+    .filter(r => (r.comment_count || 0) >= 100)
+    .sort((a, b) => (b.comment_count || 0) - (a.comment_count || 0));
+}
   return allRules;
+  
 }
 
 function updateResults() {
@@ -730,27 +1041,18 @@ function economicAnalysisBadge(r) {
   return '';
 }
 
-function renderResults(rules, statusText) {
-  document.getElementById('search-status').textContent = statusText;
-  const container = document.getElementById('search-results');
+function renderRuleCard(r) {
+  const links = [];
+  if (r.reginfo_url)    links.push(`<a href="${r.reginfo_url}" target="_blank" class="source-link">🔎 reginfo</a>`);
+  if (r.oira_url)    links.push(`<a href="${r.oira_url}" target="_blank" class="source-link">⏳ OIRA review</a>`);
+  if (r.fr_proposed_url) links.push(`<a href="${r.fr_proposed_url}" target="_blank" class="source-link">📄 Proposed Rule${r.fr_proposed_date ? ' · ' + formatDate(r.fr_proposed_date) : ''}</a>`);
+  if (r.fr_final_url)    links.push(`<a href="${r.fr_final_url}" target="_blank" class="source-link">✅ Final Rule${r.fr_final_date ? ' · ' + formatDate(r.fr_final_date) : ''}</a>`);
+  if (r.docket_url)      links.push(`<a href="${r.docket_url}" target="_blank" class="source-link">💬 regulations.gov${r.comment_count ? ' · ' + r.comment_count.toLocaleString() + ' comments' : ''}</a>`);
+  const eaHtml = economicAnalysisBadge(r);
+  if (eaHtml) links.push(eaHtml);
+  if (isOpenForComment(r.comment_end_date)) links.push(`<span class="badge badge-open-comment">Open for comment · until ${formatDate(r.comment_end_date)}</span>`);
 
-  if (rules.length === 0) {
-    container.innerHTML = '<p style="color:#888;font-style:italic">No matching rules found.</p>';
-    return;
-  }
-
-  container.innerHTML = rules.slice(0, 50).map(r => {
-    const links = [];
-    if (r.reginfo_url)    links.push(`<a href="${r.reginfo_url}" target="_blank" class="source-link">🔎 reginfo</a>`);
-    if (r.oira_url)    links.push(`<a href="${r.oira_url}" target="_blank" class="source-link">⏳ OIRA review</a>`);
-    if (r.fr_proposed_url) links.push(`<a href="${r.fr_proposed_url}" target="_blank" class="source-link">📄 Proposed Rule${r.fr_proposed_date ? ' · ' + formatDate(r.fr_proposed_date) : ''}</a>`);
-    if (r.fr_final_url)    links.push(`<a href="${r.fr_final_url}" target="_blank" class="source-link">✅ Final Rule${r.fr_final_date ? ' · ' + formatDate(r.fr_final_date) : ''}</a>`);
-    if (r.docket_url)      links.push(`<a href="${r.docket_url}" target="_blank" class="source-link">💬 regulations.gov${r.comment_count ? ' · ' + r.comment_count.toLocaleString() + ' comments' : ''}</a>`);
-    const eaHtml = economicAnalysisBadge(r);
-    if (eaHtml) links.push(eaHtml);
-    if (isOpenForComment(r.comment_end_date)) links.push(`<span class="badge badge-open-comment">Open for comment · until ${formatDate(r.comment_end_date)}</span>`);
-
-    return `
+  return `
     <div class="rule-card">
       <div class="rule-card-header">
         <a href="rule.html?rin=${encodeURIComponent(r.rin)}" class="rule-title">${r.title}</a>
@@ -765,8 +1067,21 @@ function renderResults(rules, statusText) {
       ${r.abstract ? `<p class="rule-abstract">${r.abstract.substring(0,200)}${r.abstract.length>200?'…':''}</p>` : ''}
       ${links.length > 0 ? `<div class="rule-links">${links.join('<span class="link-sep">·</span>')}</div>` : ''}
     </div>
-  `}).join('');
+  `;
+  }
+
+function renderResults(rules, statusText) {
+  document.getElementById('search-status').textContent = statusText;
+  const container = document.getElementById('search-results');
+
+  if (rules.length === 0) {
+    container.innerHTML = '<p style="color:#888;font-style:italic">No matching rules found.</p>';
+    return;
+  }
+
+  container.innerHTML = rules.slice(0, 50).map(renderRuleCard).join('');
 }
+
 document.getElementById('rules-search').addEventListener('input', updateResults);
 
 initRulesSearch();
@@ -882,6 +1197,8 @@ function renderOiraTable(reviews, limit) {
     `).join('');
 }
 
+
+
 function setupOiraSearch(allReviews) {
     const input = document.getElementById('oira-search');
     const heading = document.getElementById('oira-table-heading');
@@ -912,11 +1229,9 @@ function setupOiraSearch(allReviews) {
         }
     });
 }
-function escapeHtml(s) {
-    return s.replace(/[&<>"']/g, ch => ({
-        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
-    }[ch]));
-}
+
+
+
 
 loadOiraData();
 </script>
