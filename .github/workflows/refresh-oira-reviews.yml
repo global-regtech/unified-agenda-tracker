@@ -29,6 +29,9 @@ jobs:
       - name: Parse fetched HTML into structured JSON
         run: python parse-oira-reviews.py
 
+      - name: Fetch OIRA EO 12866 meetings
+        run: python fetch-oira-meetings.py
+
       - name: Fetch regulations.gov data    
         env:
           REGULATIONS_GOV_API_KEY: ${{ secrets.REGULATIONS_GOV_API_KEY }}
