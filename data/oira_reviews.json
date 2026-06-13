@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-06-12T15:45:20Z",
-  "count": 163,
+  "generated_at": "2026-06-13T14:35:26Z",
+  "count": 159,
   "reviews": [
+    {
+      "rin": "3206-AO95",
+      "agency_code": "3206",
+      "agency": "OPM",
+      "title": "Determining Rate of Basic Pay for Certain General Schedule Positions",
+      "received_date": "2026-06-12",
+      "rrid": "1424916",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1424916"
+    },
     {
       "rin": "3038-AF71",
       "agency_code": "3038",
@@ -1038,15 +1047,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1327012"
     },
     {
-      "rin": "1400-AG23",
-      "agency_code": "1400",
-      "agency": "STATE",
-      "title": "Nondiscrimination in Federally-Assisted Programs of the Department of State -- Title VI of the Civil Rights Act of 1964",
-      "received_date": "2026-03-30",
-      "rrid": "1322012",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1322012"
-    },
-    {
       "rin": "1685-AA38",
       "agency_code": "1685",
       "agency": "DHS/CUSTREV",
@@ -1263,15 +1263,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1237015"
     },
     {
-      "rin": "0660-AA40",
-      "agency_code": "0660",
-      "agency": "DOC/NTIA",
-      "title": "Streamlining the Regulations Governing the 911 Grant Program",
-      "received_date": "2026-01-12",
-      "rrid": "1239612",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1239612"
-    },
-    {
       "rin": "1904-AF72",
       "agency_code": "1904",
       "agency": "DOE/EE",
@@ -1297,15 +1288,6 @@
       "received_date": "2025-12-31",
       "rrid": "1232112",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1232112"
-    },
-    {
-      "rin": "1140-AA80",
-      "agency_code": "1140",
-      "agency": "DOJ/ATF",
-      "title": "Late Registration of NFA Firearms That Fall Out of US Government Contract",
-      "received_date": "2025-12-12",
-      "rrid": "1212013",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1212013"
     },
     {
       "rin": "1400-AG17",
@@ -1362,15 +1344,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1134618"
     },
     {
-      "rin": "1004-AF05",
-      "agency_code": "1004",
-      "agency": "DOI/BLM",
-      "title": "Oil and Gas Leasing Rule",
-      "received_date": "2025-11-20",
-      "rrid": "1177066",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1177066"
-    },
-    {
       "rin": "1117-AB87",
       "agency_code": "1117",
       "agency": "DOJ/DEA",
@@ -1405,15 +1378,6 @@
       "received_date": "2025-09-23",
       "rrid": "1112114",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1112114"
-    },
-    {
-      "rin": "0970-AD26",
-      "agency_code": "0970",
-      "agency": "HHS/ACF",
-      "title": "Unaccompanied Children Program Foundational Rule; Update to Include Proof of Identity and Income Verification Standards",
-      "received_date": "2025-09-19",
-      "rrid": "1117562",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1117562"
     },
     {
       "rin": "1120-AB82",
