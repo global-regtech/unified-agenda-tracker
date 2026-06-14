@@ -117,6 +117,79 @@
   .analysis-missing strong { color: var(--active); font-size: 14px; }
   .analysis-missing p { margin: 4px 0 0; font-size: 13px; color: var(--ink-soft); line-height: 1.5; }
   .analysis-info { font-size: 14px; color: var(--ink-soft); line-height: 1.5; }
+  /* Tier 4: Lobbying activity card — same chrome as analysis-card */
+.lobbying-card {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 6px;
+  padding: 14px 16px; margin-bottom: 26px;
+}
+.lobbying-card h2 {
+  font-size: 11px; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--ink-faint); margin: 0 0 12px; font-weight: 600;
+}
+
+.lobbying-summary {
+  font-size: 14px; color: var(--ink-soft);
+  padding-bottom: 12px; margin-bottom: 14px;
+  border-bottom: 1px solid var(--line);
+}
+.lobbying-summary strong { color: var(--ink); font-weight: 600; }
+
+.lobbying-section { margin-top: 16px; }
+.lobbying-section:first-of-type { margin-top: 0; }
+.lobbying-section h3 {
+  font-size: 11px; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--ink-faint); margin: 0 0 8px; font-weight: 600;
+}
+
+.meetings-list { list-style: none; padding: 0; margin: 0; }
+.meeting-row {
+  display: grid;
+  grid-template-columns: 64px 1fr auto 20px;
+  gap: 12px;
+  align-items: baseline;
+  padding: 7px 0;
+  font-size: 13px;
+  border-bottom: 1px dotted var(--line);
+}
+.meeting-row:last-child { border-bottom: none; }
+.meeting-date { font-family: var(--mono); font-size: 12px; color: var(--ink-faint); }
+.meeting-org  { color: var(--ink); }
+.meeting-status {
+  font-size: 11px; font-weight: 600;
+  text-transform: uppercase; letter-spacing: .04em;
+}
+.meeting-status.completed { color: var(--done); }
+.meeting-status.scheduled { color: var(--active); }
+.meeting-status.no-show, .meeting-status.did-not-attend { color: var(--ink-faint); }
+.meeting-link {
+  color: var(--link); text-decoration: none; font-size: 14px;
+  text-align: right;
+}
+.meeting-link:hover { text-decoration: underline; }
+
+.show-all-meetings {
+  background: none; border: none; color: var(--link);
+  font-size: 13px; cursor: pointer; padding: 8px 0 0;
+  font-family: inherit;
+}
+.show-all-meetings:hover { text-decoration: underline; }
+
+.org-group {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 12px;
+  padding: 5px 0;
+  font-size: 13px;
+  line-height: 1.55;
+}
+.org-group-label { font-weight: 600; color: var(--ink-soft); }
+.org-group.industry .org-group-label { color: #8a6d22; }
+.org-group.advocacy .org-group-label { color: var(--done); }
+.org-group-list { color: var(--ink); }
+
+.lobbying-empty-note {
+  font-size: 13px; color: var(--ink-faint); font-style: italic;
+}
 
   /* progress meter — frames a sparse rule as "early in the process" */
   .progress { margin: 0 0 28px; }
@@ -223,6 +296,10 @@
     <section class="analysis-card" id="analysis" hidden>
       <h2>Economic Analysis</h2>
       <div id="analysis-content"></div>
+    </section>
+    <section class="lobbying-card" id="lobbying" hidden>
+    <h2>Lobbying Activity</h2>
+    <div id="lobbying-content"></div>
     </section>
   </header>
 
@@ -637,6 +714,137 @@ function render(r) {
   }
 
   renderEconomicAnalysis(r);
+  renderLobbying(r);
+
+  /* Tier 4: Lobbying activity — EO 12866 meeting log per rule.
+   Pulls per-meeting detail from data/oira_meetings.json (richer than the
+   aggregate in rules_index.json — has dates, requestor orgs, meeting IDs).
+   Falls back gracefully to aggregate-only if oira_meetings.json is missing. */
+
+const MEETING_PREVIEW_COUNT = 5;
+let LOBBYING_STATE = { expanded: false, meetings: [], rule: null };
+
+async function renderLobbying(r) {
+  const section = document.getElementById("lobbying");
+  const m = r.meetings;
+  if (!m || !m.count || m.count === 0) {
+    section.hidden = true;
+    return;
+  }
+
+  // Fetch per-meeting detail. Only the aggregate is in rules_index.json;
+  // dates and meeting IDs live in oira_meetings.json.
+  let detailedMeetings = [];
+  try {
+    const data = await fetch("data/oira_meetings.json").then(x => x.json());
+    const rec = (data.records || {})[r.rin];
+    if (rec && Array.isArray(rec.meetings)) detailedMeetings = rec.meetings;
+  } catch (e) {
+    console.warn("Could not load oira_meetings.json:", e);
+  }
+
+  LOBBYING_STATE = { expanded: false, meetings: detailedMeetings, rule: r };
+  section.hidden = false;
+  paintLobbying();
+}
+
+function paintLobbying() {
+  const r = LOBBYING_STATE.rule;
+  if (!r) return;
+  const m = r.meetings;
+
+  const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g,
+    c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+  // --- Summary line ---
+  const summaryParts = [`<strong>${m.count} meeting${m.count === 1 ? "" : "s"}</strong>`];
+  if (m.outside_org_count > 0) {
+    summaryParts.push(`${m.outside_org_count} outside organization${m.outside_org_count === 1 ? "" : "s"}`);
+  }
+  if ((m.recent_count || 0) > 0) {
+    summaryParts.push(`${m.recent_count} in last 14 days`);
+  }
+  if (m.has_more_unscraped) {
+    summaryParts.push(`<span style="color:var(--ink-faint)">showing 10 of ${m.count}</span>`);
+  }
+  let html = `<div class="lobbying-summary">${summaryParts.join(" · ")}</div>`;
+
+  // --- Recent meetings list (requires oira_meetings.json) ---
+  if (LOBBYING_STATE.meetings.length > 0) {
+    const sorted = [...LOBBYING_STATE.meetings].sort((a, b) =>
+      (b.date || "").localeCompare(a.date || ""));
+    const visible = LOBBYING_STATE.expanded
+      ? sorted
+      : sorted.slice(0, MEETING_PREVIEW_COUNT);
+
+    html += `<div class="lobbying-section"><h3>Recent meetings</h3><ul class="meetings-list">`;
+    for (const meeting of visible) {
+      const dateStr  = formatMeetingDate(meeting.date);
+      const orgName  = meeting.requestor_org || "Unspecified requestor";
+      const type     = meeting.type || "";
+      const typeCls  = type.toLowerCase().replace(/\s+/g, "-");
+      const url      = `https://www.reginfo.gov/public/do/viewEO12866Meeting?rin=${encodeURIComponent(r.rin)}&meetingId=${encodeURIComponent(meeting.meeting_id)}&viewRule=true`;
+
+      html += `<li class="meeting-row">
+        <span class="meeting-date">${dateStr}</span>
+        <span class="meeting-org">${esc(orgName)}</span>
+        <span class="meeting-status ${typeCls}">${esc(type)}</span>
+        <a class="meeting-link" href="${url}" target="_blank" rel="noopener" title="View on reginfo.gov">↗</a>
+      </li>`;
+    }
+    html += `</ul>`;
+
+    if (sorted.length > MEETING_PREVIEW_COUNT) {
+      html += `<button class="show-all-meetings" onclick="toggleLobbyingMeetings()">
+        ${LOBBYING_STATE.expanded
+          ? "↑ Show fewer"
+          : `↓ Show all ${sorted.length} meetings`}
+      </button>`;
+    }
+    html += `</div>`;
+  } else if (m.count > 0) {
+    // Aggregate says there are meetings, but oira_meetings.json wasn't loadable
+    html += `<div class="lobbying-section">
+      <p class="lobbying-empty-note">Per-meeting detail not available in this view.</p>
+    </div>`;
+  }
+
+  // --- Who's lobbying (always available from rules_index.json) ---
+  const groups = [];
+  if (m.industry_orgs && m.industry_orgs.length) {
+    groups.push({ label: "Industry", orgs: m.industry_orgs, cls: "industry" });
+  }
+  if (m.advocacy_orgs && m.advocacy_orgs.length) {
+    groups.push({ label: "Advocacy", orgs: m.advocacy_orgs, cls: "advocacy" });
+  }
+  if (m.other_orgs && m.other_orgs.length) {
+    groups.push({ label: "Other",    orgs: m.other_orgs,    cls: "other"    });
+  }
+
+  if (groups.length > 0) {
+    html += `<div class="lobbying-section"><h3>Who's lobbying</h3>`;
+    for (const g of groups) {
+      html += `<div class="org-group ${g.cls}">
+        <span class="org-group-label">${g.label} (${g.orgs.length})</span>
+        <span class="org-group-list">${g.orgs.map(esc).join(", ")}</span>
+      </div>`;
+    }
+    html += `</div>`;
+  }
+
+  document.getElementById("lobbying-content").innerHTML = html;
+}
+
+window.toggleLobbyingMeetings = function() {
+  LOBBYING_STATE.expanded = !LOBBYING_STATE.expanded;
+  paintLobbying();
+}
+
+function formatMeetingDate(isoDate) {
+  if (!isoDate) return "";
+  const d = new Date(isoDate + "T00:00:00");
+  return d.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+}
 
   const stages = computeTimeline(r);
   document.getElementById("status-now").textContent = currentStatus(r, stages);
