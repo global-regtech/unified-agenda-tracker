@@ -1591,11 +1591,11 @@
     "parent_agency_acronym": "USDA",
     "reginfo_url": "https://www.reginfo.gov/public/do/eAgendaViewRule?pubId=202504&RIN=0570-AB13",
     "in_agenda": true,
-    "at_oira": false,
-    "oira_received": null,
-    "oira_days": null,
-    "oira_rrid": null,
-    "oira_url": null,
+    "at_oira": true,
+    "oira_received": "2026-06-15",
+    "oira_days": 1,
+    "oira_rrid": "1424917",
+    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1424917",
     "docket_id": null,
     "docket_url": null,
     "documents": [],
@@ -1613,7 +1613,17 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": null
+    "meetings": {
+      "count": 0,
+      "recent_count": 0,
+      "last_date": null,
+      "outside_orgs": [],
+      "outside_org_count": 0,
+      "industry_orgs": [],
+      "advocacy_orgs": [],
+      "other_orgs": [],
+      "has_more_unscraped": false
+    }
   },
   {
     "rin": "0570-AB11",
@@ -7111,10 +7121,11 @@
       "needs_llm": false
     },
     "meetings": {
-      "count": 27,
-      "recent_count": 6,
-      "last_date": "2026-06-16",
+      "count": 28,
+      "recent_count": 7,
+      "last_date": "2026-06-25",
       "outside_orgs": [
+        "Environment America",
         "Firefighters United For Safety Ethics and Ecology (FUSEE)",
         "The Clinch Coalition",
         "New Mexico Wild",
@@ -7123,8 +7134,7 @@
         "Standing Trees, Inc",
         "Team Dirt",
         "Yaak Valley Forest Council",
-        "WildEarth Guardians",
-        "Madison"
+        "WildEarth Guardians"
       ],
       "outside_org_count": 10,
       "industry_orgs": [
@@ -7137,11 +7147,11 @@
         "WildEarth Guardians"
       ],
       "other_orgs": [
+        "Environment America",
         "New Mexico Wild",
         "Bikepacking Roots",
         "Glacier-Two Medicine Alliance",
-        "Team Dirt",
-        "Madison"
+        "Team Dirt"
       ],
       "has_more_unscraped": true
     }
@@ -8537,8 +8547,8 @@
     "comment_end_date": null,
     "fr_proposed_url": null,
     "fr_proposed_date": null,
-    "fr_final_url": null,
-    "fr_final_date": null,
+    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/11/2026-11800/removing-regulations-related-to-trade-adjustment-assistance-for-firms",
+    "fr_final_date": "2026-06-11",
     "economic_analysis": {
       "state": "unknown",
       "label": null,
@@ -18665,11 +18675,11 @@
     "parent_agency_acronym": "DOC",
     "reginfo_url": "https://www.reginfo.gov/public/do/eAgendaViewRule?pubId=202504&RIN=0694-AJ87",
     "in_agenda": true,
-    "at_oira": false,
-    "oira_received": null,
-    "oira_days": null,
-    "oira_rrid": null,
-    "oira_url": null,
+    "at_oira": true,
+    "oira_received": "2026-06-15",
+    "oira_days": 1,
+    "oira_rrid": "1427212",
+    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1427212",
     "docket_id": null,
     "docket_url": null,
     "documents": [],
@@ -18687,7 +18697,17 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": null
+    "meetings": {
+      "count": 0,
+      "recent_count": 0,
+      "last_date": null,
+      "outside_orgs": [],
+      "outside_org_count": 0,
+      "industry_orgs": [],
+      "advocacy_orgs": [],
+      "other_orgs": [],
+      "has_more_unscraped": false
+    }
   },
   {
     "rin": "0694-AJ89",
@@ -23966,7 +23986,7 @@
     "docket_id": "DARS-2026-0133",
     "docket_url": "https://www.regulations.gov/docket/DARS-2026-0133",
     "documents": [],
-    "comment_count": 6,
+    "comment_count": 7,
     "comment_start_date": "2026-05-07",
     "comment_end_date": "2026-07-07",
     "fr_proposed_url": "https://www.federalregister.gov/documents/2026/05/07/2026-09067/defense-federal-acquisition-regulation-supplement-mitigating-risks-related-to-foreign-ownership",
@@ -27280,8 +27300,8 @@
     "comment_end_date": "2024-09-17",
     "fr_proposed_url": "https://www.federalregister.gov/documents/2024/07/16/2024-15091/dod-assistance-to-non-government-entertainment-oriented-media-productions",
     "fr_proposed_date": "2024-07-16",
-    "fr_final_url": null,
-    "fr_final_date": null,
+    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/09/2026-11505/dod-assistance-to-non-government-entertainment-oriented-media-productions",
+    "fr_final_date": "2026-06-09",
     "economic_analysis": {
       "state": "unknown",
       "label": null,
@@ -28129,7 +28149,17 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": null
+    "meetings": {
+      "count": 0,
+      "recent_count": 0,
+      "last_date": null,
+      "outside_orgs": [],
+      "outside_org_count": 0,
+      "industry_orgs": [],
+      "advocacy_orgs": [],
+      "other_orgs": [],
+      "has_more_unscraped": false
+    }
   },
   {
     "rin": "1870-AA21",
@@ -44242,8 +44272,8 @@
     "comment_end_date": "2024-04-16",
     "fr_proposed_url": "https://www.federalregister.gov/documents/2024/02/15/2024-02137/medicare-program-strengthening-oversight-of-accrediting-organizations-aos-and-preventing-ao-conflict",
     "fr_proposed_date": "2024-02-15",
-    "fr_final_url": null,
-    "fr_final_date": null,
+    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/16/2026-12069/medicare-program-strengthening-oversight-of-accrediting-organizations-aos-and-preventing-ao",
+    "fr_final_date": "2026-06-16",
     "economic_analysis": {
       "state": "expected_elsewhere",
       "label": "Analysis not in regulations.gov (check rule preamble)",
@@ -44251,21 +44281,7 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": {
-      "count": 1,
-      "recent_count": 0,
-      "last_date": "2023-02-21",
-      "outside_orgs": [
-        "The Joint Commission"
-      ],
-      "outside_org_count": 1,
-      "industry_orgs": [],
-      "advocacy_orgs": [],
-      "other_orgs": [
-        "The Joint Commission"
-      ],
-      "has_more_unscraped": false
-    }
+    "meetings": null
   },
   {
     "rin": "0938-AV59",
@@ -45732,8 +45748,8 @@
     "comment_count": null,
     "comment_start_date": null,
     "comment_end_date": null,
-    "fr_proposed_url": null,
-    "fr_proposed_date": null,
+    "fr_proposed_url": "https://www.federalregister.gov/documents/2026/06/09/2026-11530/employment-and-training-services-for-noncustodial-parents-in-the-child-support-program-rescission",
+    "fr_proposed_date": "2026-06-09",
     "fr_final_url": null,
     "fr_final_date": null,
     "economic_analysis": {
@@ -45813,7 +45829,7 @@
     "docket_id": "ACF-2026-0364",
     "docket_url": "https://www.regulations.gov/docket/ACF-2026-0364",
     "documents": [],
-    "comment_count": 221,
+    "comment_count": 277,
     "comment_start_date": "2026-05-12",
     "comment_end_date": "2026-06-12",
     "fr_proposed_url": "https://www.federalregister.gov/documents/2026/05/12/2026-09383/restoring-flexibility-to-support-head-start-program-access",
@@ -50328,8 +50344,8 @@
     "comment_end_date": null,
     "fr_proposed_url": "https://www.federalregister.gov/documents/2026/06/05/2026-11310/safety-zone-hurricanes-tropical-storms-and-severe-weather-events-in-the-sector-mobile-captain-of-the",
     "fr_proposed_date": "2026-06-05",
-    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/05/2026-11300/safety-zone-james-river-richmond-va",
-    "fr_final_date": "2026-06-05",
+    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/11/2026-11720/safety-zone-maumee-river-perrysburg-oh",
+    "fr_final_date": "2026-06-11",
     "economic_analysis": {
       "state": "none",
       "label": null,
@@ -50368,8 +50384,8 @@
     "comment_count": 1,
     "comment_start_date": "2015-11-25",
     "comment_end_date": "2016-01-26",
-    "fr_proposed_url": "https://www.federalregister.gov/documents/2026/01/26/2026-01401/anchorage-grounds-columbia-river-longview-oregon-and-washington",
-    "fr_proposed_date": "2026-01-26",
+    "fr_proposed_url": "https://www.federalregister.gov/documents/2026/06/08/2026-11434/anchorages-port-of-new-york",
+    "fr_proposed_date": "2026-06-08",
     "fr_final_url": "https://www.federalregister.gov/documents/2025/09/09/2025-17318/anchorage-regulations-los-angeles-and-long-beach-harbors-ca",
     "fr_final_date": "2025-09-09",
     "economic_analysis": {
@@ -50421,10 +50437,10 @@
     "comment_count": 0,
     "comment_start_date": "2016-02-25",
     "comment_end_date": "2016-04-26",
-    "fr_proposed_url": "https://www.federalregister.gov/documents/2026/05/15/2026-09765/special-local-regulation-marine-events-within-the-uscg-east-district",
-    "fr_proposed_date": "2026-05-15",
-    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/05/2026-11311/special-local-regulation-genesee-river-rochester-ny",
-    "fr_final_date": "2026-06-05",
+    "fr_proposed_url": "https://www.federalregister.gov/documents/2026/06/09/2026-11508/special-local-regulation-marine-events-within-the-uscg-east-district",
+    "fr_proposed_date": "2026-06-09",
+    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/11/2026-11789/special-local-regulation-ohio-river-henderson-ky",
+    "fr_final_date": "2026-06-11",
     "economic_analysis": {
       "state": "none",
       "label": null,
@@ -50463,10 +50479,10 @@
     "comment_count": 26,
     "comment_start_date": "2018-05-04",
     "comment_end_date": "2018-08-18",
-    "fr_proposed_url": "https://www.federalregister.gov/documents/2025/12/01/2025-21670/drawbridge-operation-regulation-passaic-river-between-the-city-of-newark-and-town-of-kearny-nj",
-    "fr_proposed_date": "2025-12-01",
-    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/03/2026-11061/drawbridge-operation-regulation-passaic-river-harrison-nj",
-    "fr_final_date": "2026-06-03",
+    "fr_proposed_url": "https://www.federalregister.gov/documents/2026/06/16/2026-12054/drawbridge-operation-regulation-wishkah-river-aberdeen-wa",
+    "fr_proposed_date": "2026-06-16",
+    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/12/2026-11838/drawbridge-operation-regulation-big-carlos-pass-estero-island-fl",
+    "fr_final_date": "2026-06-12",
     "economic_analysis": {
       "state": "unknown",
       "label": null,
@@ -50513,8 +50529,8 @@
     "comment_end_date": null,
     "fr_proposed_url": "https://www.federalregister.gov/documents/2025/06/16/2025-10937/regulated-navigation-area-illinois-river-naplate-il",
     "fr_proposed_date": "2025-06-16",
-    "fr_final_url": "https://www.federalregister.gov/documents/2026/05/05/2026-08733/regulated-navigation-area-raritan-river-perth-amboy-nj",
-    "fr_final_date": "2026-05-05",
+    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/11/2026-11725/regulated-navigation-area-piscataqua-river-newington-nh",
+    "fr_final_date": "2026-06-11",
     "economic_analysis": {
       "state": "none",
       "label": null,
@@ -50566,8 +50582,8 @@
     "comment_end_date": null,
     "fr_proposed_url": "https://www.federalregister.gov/documents/2026/04/16/2026-07472/security-zone-fifa-world-cup-and-fan-fest-2026-bayfront-park-miami-fl",
     "fr_proposed_date": "2026-04-16",
-    "fr_final_url": "https://www.federalregister.gov/documents/2026/05/27/2026-10492/security-zones-vessels-carrying-dangerous-cargo-corpus-christi-and-la-quinta-ship-channels-corpus",
-    "fr_final_date": "2026-05-27",
+    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/15/2026-11993/security-zone-santa-monica-bay-los-angeles-ca",
+    "fr_final_date": "2026-06-15",
     "economic_analysis": {
       "state": "none",
       "label": null,
@@ -50731,7 +50747,7 @@
         "documentId": "USCG-2019-0279-0002"
       }
     ],
-    "comment_count": 47,
+    "comment_count": 48,
     "comment_start_date": "2026-05-05",
     "comment_end_date": "2026-06-23",
     "fr_proposed_url": "https://www.federalregister.gov/documents/2026/05/05/2026-08699/shipping-safety-fairways-along-the-atlantic-coast",
@@ -53976,7 +53992,7 @@
     "docket_id": "HUD-2026-0529",
     "docket_url": "https://www.regulations.gov/docket/HUD-2026-0529",
     "documents": [],
-    "comment_count": 1362,
+    "comment_count": 2509,
     "comment_start_date": "2026-04-28",
     "comment_end_date": "2026-06-30",
     "fr_proposed_url": "https://www.federalregister.gov/documents/2026/04/28/2026-08244/equal-access-to-housing-in-hud-programs-revisions",
@@ -55069,8 +55085,8 @@
     "comment_count": null,
     "comment_start_date": null,
     "comment_end_date": null,
-    "fr_proposed_url": null,
-    "fr_proposed_date": null,
+    "fr_proposed_url": "https://www.federalregister.gov/documents/2026/06/12/2026-11851/revising-the-definition-of-manufactured-home-to-lower-housing-costs",
+    "fr_proposed_date": "2026-06-12",
     "fr_final_url": null,
     "fr_final_date": null,
     "economic_analysis": {
@@ -56774,32 +56790,7 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": {
-      "count": 6,
-      "recent_count": 0,
-      "last_date": "2026-05-15",
-      "outside_orgs": [
-        "Public Land Solutions",
-        "Stephanie Altman",
-        "Taxpayers for Common Sense",
-        "Western Organization of Resource Councils",
-        "Evangelical Environmental Network",
-        "The Wilderness Society"
-      ],
-      "outside_org_count": 6,
-      "industry_orgs": [],
-      "advocacy_orgs": [
-        "Taxpayers for Common Sense",
-        "Western Organization of Resource Councils",
-        "Evangelical Environmental Network",
-        "The Wilderness Society"
-      ],
-      "other_orgs": [
-        "Public Land Solutions",
-        "Stephanie Altman"
-      ],
-      "has_more_unscraped": false
-    }
+    "meetings": null
   },
   {
     "rin": "1004-AF32",
@@ -59462,8 +59453,8 @@
     "comment_end_date": "2024-02-29",
     "fr_proposed_url": "https://www.federalregister.gov/documents/2023/11/30/2023-25734/oil-and-gas-and-sulfur-operations-in-the-outer-continental-shelf-documents-incorporated-by-reference",
     "fr_proposed_date": "2023-11-30",
-    "fr_final_url": null,
-    "fr_final_date": null,
+    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11648/oil-and-gas-and-sulfur-operations-in-the-outer-continental-shelf-documents-incorporated-by-reference",
+    "fr_final_date": "2026-06-10",
     "economic_analysis": {
       "state": "none",
       "label": null,
@@ -61284,8 +61275,8 @@
     "comment_count": 214,
     "comment_start_date": "2025-08-29",
     "comment_end_date": "2025-10-29",
-    "fr_proposed_url": "https://www.federalregister.gov/documents/2025/08/29/2025-16688/endangered-and-threatened-wildlife-and-plants-threatened-species-status-with-section-4d-rule-for",
-    "fr_proposed_date": "2025-08-29",
+    "fr_proposed_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11634/endangered-and-threatened-wildlife-and-plants-threatened-species-status-with-section-4d-rule-for",
+    "fr_proposed_date": "2026-06-10",
     "fr_final_url": null,
     "fr_final_date": null,
     "economic_analysis": {
@@ -61843,7 +61834,7 @@
         "documentId": "FWS-HQ-NWRS-2026-1223-0007"
       }
     ],
-    "comment_count": 898,
+    "comment_count": 911,
     "comment_start_date": "2026-05-27",
     "comment_end_date": "2026-06-27",
     "fr_proposed_url": "https://www.federalregister.gov/documents/2026/05/27/2026-10465/national-wildlife-refuge-system-2026-2027-station-specific-hunting-and-sport-fishing-regulations",
@@ -62438,8 +62429,8 @@
     "comment_end_date": "2024-10-01",
     "fr_proposed_url": "https://www.federalregister.gov/documents/2024/07/31/2024-16417/endangered-and-threatened-wildlife-and-plants-removal-of-northeastern-bulrush-from-the-federal-list",
     "fr_proposed_date": "2024-07-31",
-    "fr_final_url": null,
-    "fr_final_date": null,
+    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11609/endangered-and-threatened-wildlife-and-plants-removal-of-northeastern-bulrush-from-the-list-of",
+    "fr_final_date": "2026-06-10",
     "economic_analysis": {
       "state": "none",
       "label": null,
@@ -79301,8 +79292,8 @@
     "comment_end_date": "2021-01-05",
     "fr_proposed_url": null,
     "fr_proposed_date": null,
-    "fr_final_url": "https://www.federalregister.gov/documents/2020/11/02/2020-23813/implementation-of-the-substance-use-disorder-prevention-that-promotes-opioid-recovery-and-treatment",
-    "fr_final_date": "2020-11-02",
+    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/09/2026-11526/implementation-of-the-substance-use-disorder-prevention-that-promotes-opioid-recovery-and-treatment",
+    "fr_final_date": "2026-06-09",
     "economic_analysis": {
       "state": "unknown",
       "label": null,
@@ -88890,7 +88881,7 @@
         "documentId": "OSHA-2025-0006-0001"
       }
     ],
-    "comment_count": 308,
+    "comment_count": 309,
     "comment_start_date": "2026-06-03",
     "comment_end_date": "2026-07-07",
     "fr_proposed_url": "https://www.federalregister.gov/documents/2026/06/03/2026-11093/amending-the-medical-evaluation-requirements-in-the-respiratory-protection-standard-for-certain",
@@ -94801,8 +94792,8 @@
     "comment_count": null,
     "comment_start_date": null,
     "comment_end_date": null,
-    "fr_proposed_url": null,
-    "fr_proposed_date": null,
+    "fr_proposed_url": "https://www.federalregister.gov/documents/2026/06/15/2026-12019/international-traffic-in-arms-regulations-itar-part-130-changes-to-reduce-reporting-burden",
+    "fr_proposed_date": "2026-06-15",
     "fr_final_url": null,
     "fr_final_date": null,
     "economic_analysis": {
@@ -99224,7 +99215,7 @@
         "documentId": "FAA-2026-4558-0003"
       }
     ],
-    "comment_count": 338,
+    "comment_count": 347,
     "comment_start_date": "2026-05-06",
     "comment_end_date": "2026-07-07",
     "fr_proposed_url": "https://www.federalregister.gov/documents/2026/05/06/2026-08943/designation-restrict-the-operation-of-unmanned-aircraft-in-close-proximity-to-a-fixed-site-facility",
@@ -99757,17 +99748,7 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": {
-      "count": 0,
-      "recent_count": 0,
-      "last_date": null,
-      "outside_orgs": [],
-      "outside_org_count": 0,
-      "industry_orgs": [],
-      "advocacy_orgs": [],
-      "other_orgs": [],
-      "has_more_unscraped": false
-    }
+    "meetings": null
   },
   {
     "rin": "2120-AA63",
@@ -99851,10 +99832,10 @@
     "comment_count": 0,
     "comment_start_date": "2012-12-11",
     "comment_end_date": "2013-02-12",
-    "fr_proposed_url": "https://www.federalregister.gov/documents/2026/06/05/2026-11325/airworthiness-directives-gulfstream-aerospace-lp-type-certificate-previously-held-by-israel-aircraft",
-    "fr_proposed_date": "2026-06-05",
-    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/04/2026-11217/airworthiness-directives-de-havilland-aircraft-of-canada-limited-type-certificate-previously-held-by",
-    "fr_final_date": "2026-06-04",
+    "fr_proposed_url": "https://www.federalregister.gov/documents/2026/06/09/2026-11512/airworthiness-directives-gulfstream-aerospace-lp-airplanes-type-certificate-previously-held-by",
+    "fr_proposed_date": "2026-06-09",
+    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/16/2026-12052/airworthiness-directives-airbus-helicopters",
+    "fr_final_date": "2026-06-16",
     "economic_analysis": {
       "state": "none",
       "label": null,
@@ -99976,10 +99957,10 @@
     "comment_count": 1,
     "comment_start_date": "2012-04-10",
     "comment_end_date": "2012-05-26",
-    "fr_proposed_url": "https://www.federalregister.gov/documents/2026/06/05/2026-11305/establishment-of-class-e-airspace-jefferson-tx",
-    "fr_proposed_date": "2026-06-05",
-    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/05/2026-11307/amendment-of-class-e-airspace-springfield-ky",
-    "fr_final_date": "2026-06-05",
+    "fr_proposed_url": "https://www.federalregister.gov/documents/2026/06/15/2026-11957/amendment-of-class-d-and-class-e-airspace-chicagorockford-il",
+    "fr_proposed_date": "2026-06-15",
+    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/15/2026-11990/amendment-of-jet-routes-j-70-and-j-94-and-amendment-of-very-high-frequency-omnidirectional-range",
+    "fr_final_date": "2026-06-15",
     "economic_analysis": {
       "state": "unknown",
       "label": null,
@@ -109273,8 +109254,8 @@
     "comment_end_date": "2025-10-21",
     "fr_proposed_url": "https://www.federalregister.gov/documents/2025/09/19/2025-18182/uniform-procedures-for-state-highway-safety-grant-programs",
     "fr_proposed_date": "2025-09-19",
-    "fr_final_url": null,
-    "fr_final_date": null,
+    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/11/2026-11770/uniform-procedures-for-state-highway-safety-grant-programs",
+    "fr_final_date": "2026-06-11",
     "economic_analysis": {
       "state": "unknown",
       "label": null,
@@ -109738,8 +109719,8 @@
     "comment_end_date": null,
     "fr_proposed_url": "https://www.federalregister.gov/documents/2025/05/30/2025-09742/federal-motor-vehicle-safety-standard-no-210-seat-belt-assembly-anchorages",
     "fr_proposed_date": "2025-05-30",
-    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/03/2026-11081/federal-motor-vehicle-safety-standards-no-210-seat-belt-assembly-anchorages",
-    "fr_final_date": "2026-06-03",
+    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11640/federal-motor-vehicle-safety-standards-no-210-seat-belt-assembly-anchorages-correction",
+    "fr_final_date": "2026-06-10",
     "economic_analysis": {
       "state": "unknown",
       "label": null,
@@ -137456,8 +137437,8 @@
     "comment_end_date": null,
     "fr_proposed_url": null,
     "fr_proposed_date": null,
-    "fr_final_url": null,
-    "fr_final_date": null,
+    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/15/2026-11973/implementing-regulation-for-national-environmental-policy-act-nepa-environmental-effects-of-the",
+    "fr_final_date": "2026-06-15",
     "economic_analysis": {
       "state": "unknown",
       "label": null,
@@ -143342,7 +143323,7 @@
         "documentId": "EPA-HQ-OW-2009-0819-10586"
       }
     ],
-    "comment_count": 7350,
+    "comment_count": 7352,
     "comment_start_date": "2026-05-18",
     "comment_end_date": "2026-06-18",
     "fr_proposed_url": "https://www.federalregister.gov/documents/2026/05/18/2026-09895/effluent-limitations-guidelines-and-standards-for-the-steam-electric-power-generating-point-source",
@@ -144682,27 +144663,7 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": {
-      "count": 3,
-      "recent_count": 0,
-      "last_date": "2026-05-13",
-      "outside_orgs": [
-        "Food & Water Watch",
-        "Association of Metropolitan Water Agencies (AMWA)",
-        "PNikki Aronhalt"
-      ],
-      "outside_org_count": 3,
-      "industry_orgs": [
-        "Association of Metropolitan Water Agencies (AMWA)"
-      ],
-      "advocacy_orgs": [
-        "Food & Water Watch"
-      ],
-      "other_orgs": [
-        "PNikki Aronhalt"
-      ],
-      "has_more_unscraped": false
-    }
+    "meetings": null
   },
   {
     "rin": "2040-AG36",
@@ -146577,7 +146538,7 @@
         "documentId": "EPA-HQ-OW-2025-0654-0008"
       }
     ],
-    "comment_count": 8,
+    "comment_count": 9,
     "comment_start_date": "2026-05-20",
     "comment_end_date": "2026-07-21",
     "fr_proposed_url": "https://www.federalregister.gov/documents/2026/05/20/2026-10085/rescission-of-regulatory-determinations-and-removal-of-related-provisions-for-four-pfas-substances",
@@ -154541,8 +154502,8 @@
     "comment_count": null,
     "comment_start_date": null,
     "comment_end_date": null,
-    "fr_proposed_url": "https://www.federalregister.gov/documents/2026/04/13/2026-07061/hazardous-and-solid-waste-management-system-disposal-of-coal-combustion-residuals-from-electric",
-    "fr_proposed_date": "2026-04-13",
+    "fr_proposed_url": "https://www.federalregister.gov/documents/2026/06/12/2026-11885/hazardous-and-solid-waste-management-system-disposal-of-coal-combustion-residuals-from-electric",
+    "fr_proposed_date": "2026-06-12",
     "fr_final_url": null,
     "fr_final_date": null,
     "economic_analysis": {
@@ -156853,7 +156814,7 @@
         "documentId": "EPA-HQ-OLEM-2019-0361-0007"
       }
     ],
-    "comment_count": 328,
+    "comment_count": 329,
     "comment_start_date": "2026-05-28",
     "comment_end_date": "2026-06-30",
     "fr_proposed_url": "https://www.federalregister.gov/documents/2026/05/28/2026-10641/hazardous-and-solid-waste-management-system-disposal-of-coal-combustion-residuals-from-electric",
@@ -160702,8 +160663,8 @@
     "comment_count": null,
     "comment_start_date": null,
     "comment_end_date": null,
-    "fr_proposed_url": null,
-    "fr_proposed_date": null,
+    "fr_proposed_url": "https://www.federalregister.gov/documents/2026/06/12/2026-11843/ozone-reclassification-state-implementation-plan-rule",
+    "fr_proposed_date": "2026-06-12",
     "fr_final_url": null,
     "fr_final_date": null,
     "economic_analysis": {
@@ -162877,8 +162838,8 @@
     "comment_end_date": null,
     "fr_proposed_url": null,
     "fr_proposed_date": null,
-    "fr_final_url": "https://www.federalregister.gov/documents/2025/01/10/2025-00433/excess-emissions-during-periods-of-startup-shutdown-and-malfunction-partial-withdrawals-of-findings",
-    "fr_final_date": "2025-01-10",
+    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/12/2026-11884/partial-withdrawals-of-findings-of-failure-to-submit-state-implementation-plan-sip-revisions-to",
+    "fr_final_date": "2026-06-12",
     "economic_analysis": {
       "state": "unknown",
       "label": null,
@@ -165232,10 +165193,11 @@
       "needs_llm": false
     },
     "meetings": {
-      "count": 13,
+      "count": 14,
       "recent_count": 10,
-      "last_date": "2026-06-22",
+      "last_date": "2026-06-23",
       "outside_orgs": [
+        "National Waste & Recycling Association",
         "Sierra Club",
         "Truck and Engine Manufacturers Association",
         "PACCAR Inc",
@@ -165244,17 +165206,16 @@
         "FFG Group",
         "National Automobile Dealers Association",
         "American Trucking Associations",
-        "Manufacturers of Emission Controls Association",
-        "MEMA, The Vehicle Suppliers Association"
+        "Manufacturers of Emission Controls Association"
       ],
       "outside_org_count": 10,
       "industry_orgs": [
+        "National Waste & Recycling Association",
         "Truck and Engine Manufacturers Association",
         "PACCAR Inc",
         "National Automobile Dealers Association",
         "American Trucking Associations",
-        "Manufacturers of Emission Controls Association",
-        "MEMA, The Vehicle Suppliers Association"
+        "Manufacturers of Emission Controls Association"
       ],
       "advocacy_orgs": [
         "Sierra Club",
@@ -178300,17 +178261,7 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": {
-      "count": 0,
-      "recent_count": 0,
-      "last_date": null,
-      "outside_orgs": [],
-      "outside_org_count": 0,
-      "industry_orgs": [],
-      "advocacy_orgs": [],
-      "other_orgs": [],
-      "has_more_unscraped": false
-    }
+    "meetings": null
   },
   {
     "rin": "3065-AA00",
@@ -199951,8 +199902,8 @@
     "comment_end_date": "2024-06-25",
     "fr_proposed_url": "https://www.federalregister.gov/documents/2026/03/11/2026-04761/records-preservation-program-and-appendices-record-retention-guidelines-catastrophic-act",
     "fr_proposed_date": "2026-03-11",
-    "fr_final_url": null,
-    "fr_final_date": null,
+    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/16/2026-12058/records-preservation-program-and-appendices-record-retention-guidelines-catastrophic-act",
+    "fr_final_date": "2026-06-16",
     "economic_analysis": {
       "state": "unknown",
       "label": null,
@@ -199999,8 +199950,8 @@
     "comment_end_date": "2026-03-28",
     "fr_proposed_url": "https://www.federalregister.gov/documents/2026/01/26/2026-01382/dependent-care-and-board-member-expense-reimbursement",
     "fr_proposed_date": "2026-01-26",
-    "fr_final_url": null,
-    "fr_final_date": null,
+    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/09/2026-11507/dependent-care-and-board-member-expense-reimbursement",
+    "fr_final_date": "2026-06-09",
     "economic_analysis": {
       "state": "none",
       "label": null,
@@ -202277,7 +202228,17 @@
       "ria_url": "https://www.regulations.gov/document/NRC-2011-0012-0189",
       "needs_llm": false
     },
-    "meetings": null
+    "meetings": {
+      "count": 0,
+      "recent_count": 0,
+      "last_date": null,
+      "outside_orgs": [],
+      "outside_org_count": 0,
+      "industry_orgs": [],
+      "advocacy_orgs": [],
+      "other_orgs": [],
+      "has_more_unscraped": false
+    }
   },
   {
     "rin": "3150-AJ36",
@@ -203250,8 +203211,8 @@
     "comment_end_date": "2026-04-14",
     "fr_proposed_url": "https://www.federalregister.gov/documents/2026/03/12/2026-04823/fee-schedules-fee-recovery-for-fiscal-year-2026",
     "fr_proposed_date": "2026-03-12",
-    "fr_final_url": null,
-    "fr_final_date": null,
+    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/16/2026-12067/fee-schedules-fee-recovery-for-fiscal-year-2026",
+    "fr_final_date": "2026-06-16",
     "economic_analysis": {
       "state": "expected_elsewhere",
       "label": "Analysis not in regulations.gov (check rule preamble)",
@@ -208723,7 +208684,7 @@
         "documentId": "OPM-2026-0199-0001"
       }
     ],
-    "comment_count": 90,
+    "comment_count": 92,
     "comment_start_date": "2026-04-14",
     "comment_end_date": "2026-06-16",
     "fr_proposed_url": "https://www.federalregister.gov/documents/2026/04/14/2026-07198/differential-pay-for-prescribed-wildland-fire-activities",
@@ -208935,11 +208896,11 @@
     "parent_agency_acronym": "",
     "reginfo_url": "https://www.reginfo.gov/public/do/eAgendaViewRule?pubId=202504&RIN=3206-AO89",
     "in_agenda": true,
-    "at_oira": false,
-    "oira_received": null,
-    "oira_days": null,
-    "oira_rrid": null,
-    "oira_url": null,
+    "at_oira": true,
+    "oira_received": "2026-06-15",
+    "oira_days": 1,
+    "oira_rrid": "1429718",
+    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1429718",
     "docket_id": "OPM-2025-0014",
     "docket_url": "https://www.regulations.gov/docket/OPM-2025-0014",
     "documents": [],
@@ -209103,7 +209064,17 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": null
+    "meetings": {
+      "count": 0,
+      "recent_count": 0,
+      "last_date": null,
+      "outside_orgs": [],
+      "outside_org_count": 0,
+      "industry_orgs": [],
+      "advocacy_orgs": [],
+      "other_orgs": [],
+      "has_more_unscraped": false
+    }
   },
   {
     "rin": "3206-AO96",
@@ -210637,17 +210608,7 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": {
-      "count": 0,
-      "recent_count": 0,
-      "last_date": null,
-      "outside_orgs": [],
-      "outside_org_count": 0,
-      "industry_orgs": [],
-      "advocacy_orgs": [],
-      "other_orgs": [],
-      "has_more_unscraped": false
-    }
+    "meetings": null
   },
   {
     "rin": "1212-AB61",
@@ -210678,8 +210639,8 @@
     "comment_count": null,
     "comment_start_date": null,
     "comment_end_date": null,
-    "fr_proposed_url": null,
-    "fr_proposed_date": null,
+    "fr_proposed_url": "https://www.federalregister.gov/documents/2026/06/16/2026-12100/technical-amendments-special-financial-assistance",
+    "fr_proposed_date": "2026-06-16",
     "fr_final_url": null,
     "fr_final_date": null,
     "economic_analysis": {
@@ -217184,8 +217145,8 @@
     "comment_end_date": null,
     "fr_proposed_url": null,
     "fr_proposed_date": null,
-    "fr_final_url": null,
-    "fr_final_date": null,
+    "fr_final_url": "https://www.federalregister.gov/documents/2026/06/10/2026-11585/penalty-inflation-adjustments-for-civil-monetary-penalties",
+    "fr_final_date": "2026-06-10",
     "economic_analysis": {
       "state": "unknown",
       "label": null,
@@ -217987,7 +217948,17 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": null
+    "meetings": {
+      "count": 0,
+      "recent_count": 0,
+      "last_date": null,
+      "outside_orgs": [],
+      "outside_org_count": 0,
+      "industry_orgs": [],
+      "advocacy_orgs": [],
+      "other_orgs": [],
+      "has_more_unscraped": false
+    }
   },
   {
     "rin": "0584-ZA07",
@@ -218187,17 +218158,7 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": {
-      "count": 0,
-      "recent_count": 0,
-      "last_date": null,
-      "outside_orgs": [],
-      "outside_org_count": 0,
-      "industry_orgs": [],
-      "advocacy_orgs": [],
-      "other_orgs": [],
-      "has_more_unscraped": false
-    }
+    "meetings": null
   },
   {
     "rin": "0694-AK30",
@@ -218222,8 +218183,8 @@
     "comment_end_date": null,
     "fr_proposed_url": null,
     "fr_proposed_date": null,
-    "fr_final_url": null,
-    "fr_final_date": null,
+    "fr_final_url": "https://www.federalregister.gov/documents/2026/01/21/2026-01059/streamlining-export-controls-for-drone-exports",
+    "fr_final_date": "2026-01-21",
     "economic_analysis": {
       "state": "unknown",
       "label": null,
@@ -218231,7 +218192,21 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": null
+    "meetings": {
+      "count": 1,
+      "recent_count": 0,
+      "last_date": "2025-12-09",
+      "outside_orgs": [
+        "Small UAV Coalition"
+      ],
+      "outside_org_count": 1,
+      "industry_orgs": [],
+      "advocacy_orgs": [
+        "Small UAV Coalition"
+      ],
+      "other_orgs": [],
+      "has_more_unscraped": false
+    }
   },
   {
     "rin": "0694-AK35",
@@ -218313,7 +218288,17 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": null
+    "meetings": {
+      "count": 0,
+      "recent_count": 0,
+      "last_date": null,
+      "outside_orgs": [],
+      "outside_org_count": 0,
+      "industry_orgs": [],
+      "advocacy_orgs": [],
+      "other_orgs": [],
+      "has_more_unscraped": false
+    }
   },
   {
     "rin": "0694-ZA04",
@@ -218480,20 +218465,22 @@
       "needs_llm": false
     },
     "meetings": {
-      "count": 3,
-      "recent_count": 3,
+      "count": 4,
+      "recent_count": 4,
       "last_date": "2026-06-23",
       "outside_orgs": [
         "340B Health System Coalition",
+        "CAN Community Health",
         "Elizabeth Linderbaum",
         "340B Collaborative"
       ],
-      "outside_org_count": 3,
+      "outside_org_count": 4,
       "industry_orgs": [],
       "advocacy_orgs": [
         "340B Health System Coalition"
       ],
       "other_orgs": [
+        "CAN Community Health",
         "Elizabeth Linderbaum",
         "340B Collaborative"
       ],
@@ -218658,7 +218645,7 @@
   },
   {
     "rin": "0910-ZC90",
-    "title": "Demonstrating Substantial Evidence of Effectiveness for Human Drug and Biological Products; Revised Draft Guidance for Industry; Availability",
+    "title": "Rule 0910-ZC90 (at OIRA, not in current agenda)",
     "abstract": null,
     "parent_agency_name": "Department of Health and Human Services",
     "agency_name": "Food and Drug Administration",
@@ -218666,11 +218653,11 @@
     "priority": "Significant",
     "reginfo_url": null,
     "in_agenda": false,
-    "at_oira": true,
-    "oira_received": "2026-04-24",
-    "oira_days": 53,
-    "oira_rrid": "1359516",
-    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1359516",
+    "at_oira": false,
+    "oira_received": null,
+    "oira_days": null,
+    "oira_rrid": null,
+    "oira_url": null,
     "docket_id": null,
     "docket_url": null,
     "documents": [],
@@ -218688,17 +218675,7 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": {
-      "count": 0,
-      "recent_count": 0,
-      "last_date": null,
-      "outside_orgs": [],
-      "outside_org_count": 0,
-      "industry_orgs": [],
-      "advocacy_orgs": [],
-      "other_orgs": [],
-      "has_more_unscraped": false
-    }
+    "meetings": null
   },
   {
     "rin": "0910-ZD08",
@@ -218732,17 +218709,7 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": {
-      "count": 0,
-      "recent_count": 0,
-      "last_date": null,
-      "outside_orgs": [],
-      "outside_org_count": 0,
-      "industry_orgs": [],
-      "advocacy_orgs": [],
-      "other_orgs": [],
-      "has_more_unscraped": false
-    }
+    "meetings": null
   },
   {
     "rin": "0910-ZD09",
@@ -218965,6 +218932,50 @@
     }
   },
   {
+    "rin": "0910-ZD30",
+    "title": "Quantitative Systems Pharmacology (QSP)-Based Dose Selection for Minimum Anticipated Biological Effect Level (MABEL) in First-in-Human (FIH) Trials; Draft Guidance for Industry; Availability",
+    "abstract": null,
+    "parent_agency_name": "Department of Health and Human Services",
+    "agency_name": "Food and Drug Administration",
+    "stage": "Pending OIRA Review",
+    "priority": "Significant",
+    "reginfo_url": null,
+    "in_agenda": false,
+    "at_oira": true,
+    "oira_received": "2026-06-15",
+    "oira_days": 1,
+    "oira_rrid": "1429712",
+    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1429712",
+    "docket_id": null,
+    "docket_url": null,
+    "documents": null,
+    "comment_count": null,
+    "comment_start_date": null,
+    "comment_end_date": null,
+    "fr_proposed_url": null,
+    "fr_proposed_date": null,
+    "fr_final_url": null,
+    "fr_final_date": null,
+    "economic_analysis": {
+      "state": "unknown",
+      "label": null,
+      "ria_title": null,
+      "ria_url": null,
+      "needs_llm": false
+    },
+    "meetings": {
+      "count": 0,
+      "recent_count": 0,
+      "last_date": null,
+      "outside_orgs": [],
+      "outside_org_count": 0,
+      "industry_orgs": [],
+      "advocacy_orgs": [],
+      "other_orgs": [],
+      "has_more_unscraped": false
+    }
+  },
+  {
     "rin": "0925-ZA10",
     "title": "Request for Information on Measuring and Rewarding Scientific Impact",
     "abstract": null,
@@ -218982,6 +218993,94 @@
     "docket_id": null,
     "docket_url": null,
     "documents": [],
+    "comment_count": null,
+    "comment_start_date": null,
+    "comment_end_date": null,
+    "fr_proposed_url": null,
+    "fr_proposed_date": null,
+    "fr_final_url": null,
+    "fr_final_date": null,
+    "economic_analysis": {
+      "state": "unknown",
+      "label": null,
+      "ria_title": null,
+      "ria_url": null,
+      "needs_llm": false
+    },
+    "meetings": {
+      "count": 0,
+      "recent_count": 0,
+      "last_date": null,
+      "outside_orgs": [],
+      "outside_org_count": 0,
+      "industry_orgs": [],
+      "advocacy_orgs": [],
+      "other_orgs": [],
+      "has_more_unscraped": false
+    }
+  },
+  {
+    "rin": "0925-ZA11",
+    "title": "Request for Information: Inviting Input on NIDA's Strategic Plan for 2027-2031",
+    "abstract": null,
+    "parent_agency_name": "Department of Health and Human Services",
+    "agency_name": "National Institutes of Health",
+    "stage": "Pending OIRA Review",
+    "priority": "Significant",
+    "reginfo_url": null,
+    "in_agenda": false,
+    "at_oira": true,
+    "oira_received": "2026-06-15",
+    "oira_days": 1,
+    "oira_rrid": "1429714",
+    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1429714",
+    "docket_id": null,
+    "docket_url": null,
+    "documents": null,
+    "comment_count": null,
+    "comment_start_date": null,
+    "comment_end_date": null,
+    "fr_proposed_url": null,
+    "fr_proposed_date": null,
+    "fr_final_url": null,
+    "fr_final_date": null,
+    "economic_analysis": {
+      "state": "unknown",
+      "label": null,
+      "ria_title": null,
+      "ria_url": null,
+      "needs_llm": false
+    },
+    "meetings": {
+      "count": 0,
+      "recent_count": 0,
+      "last_date": null,
+      "outside_orgs": [],
+      "outside_org_count": 0,
+      "industry_orgs": [],
+      "advocacy_orgs": [],
+      "other_orgs": [],
+      "has_more_unscraped": false
+    }
+  },
+  {
+    "rin": "0925-ZA12",
+    "title": "Inviting Comments and Suggestions on Topic Areas for the NIDCR Strategic Plan for Fiscal Years 2027\u20132031",
+    "abstract": null,
+    "parent_agency_name": "Department of Health and Human Services",
+    "agency_name": "National Institutes of Health",
+    "stage": "Pending OIRA Review",
+    "priority": "Significant",
+    "reginfo_url": null,
+    "in_agenda": false,
+    "at_oira": true,
+    "oira_received": "2026-06-15",
+    "oira_days": 1,
+    "oira_rrid": "1429715",
+    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1429715",
+    "docket_id": null,
+    "docket_url": null,
+    "documents": null,
     "comment_count": null,
     "comment_start_date": null,
     "comment_end_date": null,
@@ -219040,7 +219139,17 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": null
+    "meetings": {
+      "count": 0,
+      "recent_count": 0,
+      "last_date": null,
+      "outside_orgs": [],
+      "outside_org_count": 0,
+      "industry_orgs": [],
+      "advocacy_orgs": [],
+      "other_orgs": [],
+      "has_more_unscraped": false
+    }
   },
   {
     "rin": "0930-AA41",
@@ -219074,7 +219183,105 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": null
+    "meetings": {
+      "count": 0,
+      "recent_count": 0,
+      "last_date": null,
+      "outside_orgs": [],
+      "outside_org_count": 0,
+      "industry_orgs": [],
+      "advocacy_orgs": [],
+      "other_orgs": [],
+      "has_more_unscraped": false
+    }
+  },
+  {
+    "rin": "0936-AA16",
+    "title": "Medicare and State Health Care Programs: Fraud and Abuse; Request for Information Regarding the Federal Anti-Kickback Statute and Beneficiary Inducements CMP",
+    "abstract": null,
+    "parent_agency_name": "Department of Health and Human Services",
+    "agency_name": "Office of the Inspector General",
+    "stage": "Pending OIRA Review",
+    "priority": "Significant",
+    "reginfo_url": null,
+    "in_agenda": false,
+    "at_oira": true,
+    "oira_received": "2026-06-15",
+    "oira_days": 1,
+    "oira_rrid": "1429719",
+    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1429719",
+    "docket_id": null,
+    "docket_url": null,
+    "documents": null,
+    "comment_count": null,
+    "comment_start_date": null,
+    "comment_end_date": null,
+    "fr_proposed_url": null,
+    "fr_proposed_date": null,
+    "fr_final_url": null,
+    "fr_final_date": null,
+    "economic_analysis": {
+      "state": "unknown",
+      "label": null,
+      "ria_title": null,
+      "ria_url": null,
+      "needs_llm": false
+    },
+    "meetings": {
+      "count": 0,
+      "recent_count": 0,
+      "last_date": null,
+      "outside_orgs": [],
+      "outside_org_count": 0,
+      "industry_orgs": [],
+      "advocacy_orgs": [],
+      "other_orgs": [],
+      "has_more_unscraped": false
+    }
+  },
+  {
+    "rin": "0938-AV74",
+    "title": "Guarding U.S. Medicare Against Rising Drug Costs (GUARD) Model (CMS-5546)",
+    "abstract": null,
+    "parent_agency_name": "Department of Health and Human Services",
+    "agency_name": "Centers for Medicare & Medicaid Services",
+    "stage": "Pending OIRA Review",
+    "priority": "Significant",
+    "reginfo_url": null,
+    "in_agenda": false,
+    "at_oira": true,
+    "oira_received": "2026-06-15",
+    "oira_days": 1,
+    "oira_rrid": "1429713",
+    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1429713",
+    "docket_id": null,
+    "docket_url": null,
+    "documents": null,
+    "comment_count": null,
+    "comment_start_date": null,
+    "comment_end_date": null,
+    "fr_proposed_url": null,
+    "fr_proposed_date": null,
+    "fr_final_url": null,
+    "fr_final_date": null,
+    "economic_analysis": {
+      "state": "unknown",
+      "label": null,
+      "ria_title": null,
+      "ria_url": null,
+      "needs_llm": false
+    },
+    "meetings": {
+      "count": 0,
+      "recent_count": 0,
+      "last_date": null,
+      "outside_orgs": [],
+      "outside_org_count": 0,
+      "industry_orgs": [],
+      "advocacy_orgs": [],
+      "other_orgs": [],
+      "has_more_unscraped": false
+    }
   },
   {
     "rin": "0938-AV80",
@@ -219256,12 +219463,16 @@
       "needs_llm": false
     },
     "meetings": {
-      "count": 0,
-      "recent_count": 0,
-      "last_date": null,
-      "outside_orgs": [],
-      "outside_org_count": 0,
-      "industry_orgs": [],
+      "count": 1,
+      "recent_count": 1,
+      "last_date": "2026-06-24",
+      "outside_orgs": [
+        "Children's Hospital Association"
+      ],
+      "outside_org_count": 1,
+      "industry_orgs": [
+        "Children's Hospital Association"
+      ],
       "advocacy_orgs": [],
       "other_orgs": [],
       "has_more_unscraped": false
@@ -219288,8 +219499,8 @@
     "comment_count": null,
     "comment_start_date": null,
     "comment_end_date": null,
-    "fr_proposed_url": null,
-    "fr_proposed_date": null,
+    "fr_proposed_url": "https://www.federalregister.gov/documents/2026/06/16/2026-12059/medicare-drug-price-negotiation-program-and-medicare-prescription-drug-benefit-program",
+    "fr_proposed_date": "2026-06-16",
     "fr_final_url": null,
     "fr_final_date": null,
     "economic_analysis": {
@@ -219299,28 +219510,7 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": {
-      "count": 5,
-      "recent_count": 0,
-      "last_date": "2026-04-29",
-      "outside_orgs": [
-        "Manatt, Phelps & Phillips",
-        "Bristol Myers Squibb",
-        "FTP",
-        "Powers Law"
-      ],
-      "outside_org_count": 4,
-      "industry_orgs": [
-        "Manatt, Phelps & Phillips",
-        "Powers Law"
-      ],
-      "advocacy_orgs": [],
-      "other_orgs": [
-        "Bristol Myers Squibb",
-        "FTP"
-      ],
-      "has_more_unscraped": false
-    }
+    "meetings": null
   },
   {
     "rin": "0938-AV92",
@@ -219479,8 +219669,8 @@
     "comment_count": null,
     "comment_start_date": null,
     "comment_end_date": null,
-    "fr_proposed_url": null,
-    "fr_proposed_date": null,
+    "fr_proposed_url": "https://www.federalregister.gov/documents/2026/06/15/2026-11994/request-for-information-comprehensive-review-of-the-essential-health-benefits-framework-and-typical",
+    "fr_proposed_date": "2026-06-15",
     "fr_final_url": null,
     "fr_final_date": null,
     "economic_analysis": {
@@ -219490,17 +219680,7 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": {
-      "count": 0,
-      "recent_count": 0,
-      "last_date": null,
-      "outside_orgs": [],
-      "outside_org_count": 0,
-      "industry_orgs": [],
-      "advocacy_orgs": [],
-      "other_orgs": [],
-      "has_more_unscraped": false
-    }
+    "meetings": null
   },
   {
     "rin": "0938-AW03",
@@ -219710,17 +219890,7 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": {
-      "count": 0,
-      "recent_count": 0,
-      "last_date": null,
-      "outside_orgs": [],
-      "outside_org_count": 0,
-      "industry_orgs": [],
-      "advocacy_orgs": [],
-      "other_orgs": [],
-      "has_more_unscraped": false
-    }
+    "meetings": null
   },
   {
     "rin": "0970-AD30",
@@ -219835,7 +220005,7 @@
   },
   {
     "rin": "0970-AD39",
-    "title": "Reducing Bureaucracy and Burden for Child Support Enforcement",
+    "title": "Rule 0970-AD39 (at OIRA, not in current agenda)",
     "abstract": null,
     "parent_agency_name": "Department of Health and Human Services",
     "agency_name": "Administration for Children and Families",
@@ -219843,14 +220013,48 @@
     "priority": "Significant",
     "reginfo_url": null,
     "in_agenda": false,
-    "at_oira": true,
-    "oira_received": "2026-05-05",
-    "oira_days": 42,
-    "oira_rrid": "1370065",
-    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1370065",
+    "at_oira": false,
+    "oira_received": null,
+    "oira_days": null,
+    "oira_rrid": null,
+    "oira_url": null,
     "docket_id": null,
     "docket_url": null,
     "documents": [],
+    "comment_count": null,
+    "comment_start_date": null,
+    "comment_end_date": null,
+    "fr_proposed_url": null,
+    "fr_proposed_date": null,
+    "fr_final_url": null,
+    "fr_final_date": null,
+    "economic_analysis": {
+      "state": "unknown",
+      "label": null,
+      "ria_title": null,
+      "ria_url": null,
+      "needs_llm": false
+    },
+    "meetings": null
+  },
+  {
+    "rin": "1010-AE38",
+    "title": "Offshore Wind Regulatory Reform",
+    "abstract": null,
+    "parent_agency_name": "Department of the Interior",
+    "agency_name": "Bureau of Ocean Energy Management",
+    "stage": "Pending OIRA Review",
+    "priority": "Significant",
+    "reginfo_url": null,
+    "in_agenda": false,
+    "at_oira": true,
+    "oira_received": "2026-06-15",
+    "oira_days": 1,
+    "oira_rrid": "1429716",
+    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1429716",
+    "docket_id": null,
+    "docket_url": null,
+    "documents": null,
     "comment_count": null,
     "comment_start_date": null,
     "comment_end_date": null,
@@ -220173,17 +220377,7 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": {
-      "count": 0,
-      "recent_count": 0,
-      "last_date": null,
-      "outside_orgs": [],
-      "outside_org_count": 0,
-      "industry_orgs": [],
-      "advocacy_orgs": [],
-      "other_orgs": [],
-      "has_more_unscraped": false
-    }
+    "meetings": null
   },
   {
     "rin": "1219-AC22",
@@ -220371,17 +220565,7 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": {
-      "count": 0,
-      "recent_count": 0,
-      "last_date": null,
-      "outside_orgs": [],
-      "outside_org_count": 0,
-      "industry_orgs": [],
-      "advocacy_orgs": [],
-      "other_orgs": [],
-      "has_more_unscraped": false
-    }
+    "meetings": null
   },
   {
     "rin": "1400-AG33",
@@ -220473,7 +220657,7 @@
   },
   {
     "rin": "1557-AF55",
-    "title": "Permitted Payment Stablecoin Issuer Anti-Money Laundering/Countering the Financing of Terrorism and Sanctions Compliance Risk Management",
+    "title": "Rule 1557-AF55 (at OIRA, not in current agenda)",
     "abstract": null,
     "parent_agency_name": "Department of the Treasury",
     "agency_name": "Comptroller of the Currency",
@@ -220481,11 +220665,11 @@
     "priority": "Significant",
     "reginfo_url": null,
     "in_agenda": false,
-    "at_oira": true,
-    "oira_received": "2026-05-18",
-    "oira_days": 29,
-    "oira_rrid": "1387165",
-    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387165",
+    "at_oira": false,
+    "oira_received": null,
+    "oira_days": null,
+    "oira_rrid": null,
+    "oira_url": null,
     "docket_id": null,
     "docket_url": null,
     "documents": [],
@@ -220503,17 +220687,7 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": {
-      "count": 0,
-      "recent_count": 0,
-      "last_date": null,
-      "outside_orgs": [],
-      "outside_org_count": 0,
-      "industry_orgs": [],
-      "advocacy_orgs": [],
-      "other_orgs": [],
-      "has_more_unscraped": false
-    }
+    "meetings": null
   },
   {
     "rin": "1601-AB22",
@@ -220631,8 +220805,8 @@
     "comment_count": 8846,
     "comment_start_date": "2025-11-19",
     "comment_end_date": "2026-01-21",
-    "fr_proposed_url": null,
-    "fr_proposed_date": null,
+    "fr_proposed_url": "https://www.federalregister.gov/documents/2025/11/19/2025-20278/public-charge-ground-of-inadmissibility",
+    "fr_proposed_date": "2025-11-19",
     "fr_final_url": null,
     "fr_final_date": null,
     "economic_analysis": {
@@ -220885,7 +221059,7 @@
   },
   {
     "rin": "1840-ZA05",
-    "title": "Notice Inviting Postsecondary Educational Institutions to Participate in New Experiments Under the Experimental Sites Initiative",
+    "title": "Rule 1840-ZA05 (at OIRA, not in current agenda)",
     "abstract": null,
     "parent_agency_name": "Department of Education",
     "agency_name": "Office of Postsecondary Education",
@@ -220893,11 +221067,11 @@
     "priority": "Significant",
     "reginfo_url": null,
     "in_agenda": false,
-    "at_oira": true,
-    "oira_received": "2026-02-24",
-    "oira_days": 112,
-    "oira_rrid": "1289715",
-    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1289715",
+    "at_oira": false,
+    "oira_received": null,
+    "oira_days": null,
+    "oira_rrid": null,
+    "oira_url": null,
     "docket_id": null,
     "docket_url": null,
     "documents": [],
@@ -220915,17 +221089,7 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": {
-      "count": 0,
-      "recent_count": 0,
-      "last_date": null,
-      "outside_orgs": [],
-      "outside_org_count": 0,
-      "industry_orgs": [],
-      "advocacy_orgs": [],
-      "other_orgs": [],
-      "has_more_unscraped": false
-    }
+    "meetings": null
   },
   {
     "rin": "1875-AA18",
@@ -221091,7 +221255,17 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": null
+    "meetings": {
+      "count": 0,
+      "recent_count": 0,
+      "last_date": null,
+      "outside_orgs": [],
+      "outside_org_count": 0,
+      "industry_orgs": [],
+      "advocacy_orgs": [],
+      "other_orgs": [],
+      "has_more_unscraped": false
+    }
   },
   {
     "rin": "2070-AL33",
@@ -221184,8 +221358,8 @@
     "comment_count": 50,
     "comment_start_date": "2026-01-07",
     "comment_end_date": "2026-03-10",
-    "fr_proposed_url": null,
-    "fr_proposed_date": null,
+    "fr_proposed_url": "https://www.federalregister.gov/documents/2026/01/07/2026-00051/requirements-for-interference-tolerant-radio-altimeter-systems",
+    "fr_proposed_date": "2026-01-07",
     "fr_final_url": null,
     "fr_final_date": null,
     "economic_analysis": {
@@ -221195,7 +221369,17 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": null
+    "meetings": {
+      "count": 0,
+      "recent_count": 0,
+      "last_date": null,
+      "outside_orgs": [],
+      "outside_org_count": 0,
+      "industry_orgs": [],
+      "advocacy_orgs": [],
+      "other_orgs": [],
+      "has_more_unscraped": false
+    }
   },
   {
     "rin": "2120-AM27",
@@ -221318,21 +221502,7 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": {
-      "count": 1,
-      "recent_count": 1,
-      "last_date": "2026-06-08",
-      "outside_orgs": [
-        "MEMA, The Vehicle Suppliers Association"
-      ],
-      "outside_org_count": 1,
-      "industry_orgs": [
-        "MEMA, The Vehicle Suppliers Association"
-      ],
-      "advocacy_orgs": [],
-      "other_orgs": [],
-      "has_more_unscraped": false
-    }
+    "meetings": null
   },
   {
     "rin": "2127-ZA27",
@@ -221414,7 +221584,17 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": null
+    "meetings": {
+      "count": 0,
+      "recent_count": 0,
+      "last_date": null,
+      "outside_orgs": [],
+      "outside_org_count": 0,
+      "industry_orgs": [],
+      "advocacy_orgs": [],
+      "other_orgs": [],
+      "has_more_unscraped": false
+    }
   },
   {
     "rin": "2590-ZA12",
@@ -221525,8 +221705,8 @@
     "comment_count": 0,
     "comment_start_date": "2026-03-16",
     "comment_end_date": "2026-05-01",
-    "fr_proposed_url": null,
-    "fr_proposed_date": null,
+    "fr_proposed_url": "https://www.federalregister.gov/documents/2026/06/12/2026-11854/prediction-markets-public-interest-determinations",
+    "fr_proposed_date": "2026-06-12",
     "fr_final_url": null,
     "fr_final_date": null,
     "economic_analysis": {
@@ -221570,7 +221750,17 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": null
+    "meetings": {
+      "count": 0,
+      "recent_count": 0,
+      "last_date": null,
+      "outside_orgs": [],
+      "outside_org_count": 0,
+      "industry_orgs": [],
+      "advocacy_orgs": [],
+      "other_orgs": [],
+      "has_more_unscraped": false
+    }
   },
   {
     "rin": "3038-AF73",
@@ -221604,11 +221794,21 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": null
+    "meetings": {
+      "count": 0,
+      "recent_count": 0,
+      "last_date": null,
+      "outside_orgs": [],
+      "outside_org_count": 0,
+      "industry_orgs": [],
+      "advocacy_orgs": [],
+      "other_orgs": [],
+      "has_more_unscraped": false
+    }
   },
   {
     "rin": "3038-ZA24",
-    "title": "Request for Information: Identifying Regulations to Facilitate Innovation and Competition to Financial Products and Services for Fintech Firms",
+    "title": "Rule 3038-ZA24 (at OIRA, not in current agenda)",
     "abstract": null,
     "parent_agency_name": "",
     "agency_name": "Commodity Futures Trading Commission",
@@ -221616,11 +221816,11 @@
     "priority": "Significant",
     "reginfo_url": null,
     "in_agenda": false,
-    "at_oira": true,
-    "oira_received": "2026-06-10",
-    "oira_days": 6,
-    "oira_rrid": "1422166",
-    "oira_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1422166",
+    "at_oira": false,
+    "oira_received": null,
+    "oira_days": null,
+    "oira_rrid": null,
+    "oira_url": null,
     "docket_id": null,
     "docket_url": null,
     "documents": [],
@@ -221764,30 +221964,7 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": {
-      "count": 5,
-      "recent_count": 5,
-      "last_date": "2026-06-09",
-      "outside_orgs": [
-        "American Civil Liberties Union",
-        "National Taskforce on Tradeswomen's Issues",
-        "Equal Rights Advocates",
-        "Lawyers Committee for Civil Rights Under Law",
-        "National Women's Law Center"
-      ],
-      "outside_org_count": 5,
-      "industry_orgs": [],
-      "advocacy_orgs": [
-        "American Civil Liberties Union",
-        "Equal Rights Advocates",
-        "Lawyers Committee for Civil Rights Under Law",
-        "National Women's Law Center"
-      ],
-      "other_orgs": [
-        "National Taskforce on Tradeswomen's Issues"
-      ],
-      "has_more_unscraped": false
-    }
+    "meetings": null
   },
   {
     "rin": "3046-AB39",
@@ -221957,7 +222134,17 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": null
+    "meetings": {
+      "count": 0,
+      "recent_count": 0,
+      "last_date": null,
+      "outside_orgs": [],
+      "outside_org_count": 0,
+      "industry_orgs": [],
+      "advocacy_orgs": [],
+      "other_orgs": [],
+      "has_more_unscraped": false
+    }
   },
   {
     "rin": "3064-AG21",
@@ -222156,8 +222343,8 @@
     "comment_count": 56,
     "comment_start_date": "2025-10-21",
     "comment_end_date": "2025-12-23",
-    "fr_proposed_url": null,
-    "fr_proposed_date": null,
+    "fr_proposed_url": "https://www.federalregister.gov/documents/2025/10/21/2025-19623/prohibition-on-use-of-reputation-risk-by-ncua",
+    "fr_proposed_date": "2025-10-21",
     "fr_final_url": null,
     "fr_final_date": null,
     "economic_analysis": {
@@ -222393,17 +222580,7 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": {
-      "count": 0,
-      "recent_count": 0,
-      "last_date": null,
-      "outside_orgs": [],
-      "outside_org_count": 0,
-      "industry_orgs": [],
-      "advocacy_orgs": [],
-      "other_orgs": [],
-      "has_more_unscraped": false
-    }
+    "meetings": null
   },
   {
     "rin": "3150-AL56",
@@ -222514,8 +222691,8 @@
     "comment_count": 601,
     "comment_start_date": "2026-02-24",
     "comment_end_date": "2026-03-27",
-    "fr_proposed_url": null,
-    "fr_proposed_date": null,
+    "fr_proposed_url": "https://www.federalregister.gov/documents/2026/03/26/2026-05857/performance-appraisal-for-general-schedule-prevailing-rate-and-certain-other-employees-correction",
+    "fr_proposed_date": "2026-03-26",
     "fr_final_url": null,
     "fr_final_date": null,
     "economic_analysis": {
@@ -222883,8 +223060,8 @@
     "comment_count": null,
     "comment_start_date": null,
     "comment_end_date": null,
-    "fr_proposed_url": null,
-    "fr_proposed_date": null,
+    "fr_proposed_url": "https://www.federalregister.gov/documents/2026/06/11/2026-11765/reforms-to-remove-sbas-8a-programs-rebuttable-presumption-of-social-disadvantage-for-individually",
+    "fr_proposed_date": "2026-06-11",
     "fr_final_url": null,
     "fr_final_date": null,
     "economic_analysis": {
@@ -222894,17 +223071,7 @@
       "ria_url": null,
       "needs_llm": false
     },
-    "meetings": {
-      "count": 0,
-      "recent_count": 0,
-      "last_date": null,
-      "outside_orgs": [],
-      "outside_org_count": 0,
-      "industry_orgs": [],
-      "advocacy_orgs": [],
-      "other_orgs": [],
-      "has_more_unscraped": false
-    }
+    "meetings": null
   },
   {
     "rin": "9000-AO86",

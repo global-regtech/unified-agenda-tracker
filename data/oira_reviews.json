@@ -1,7 +1,88 @@
 {
-  "generated_at": "2026-06-15T17:29:12Z",
-  "count": 158,
+  "generated_at": "2026-06-16T17:29:11Z",
+  "count": 162,
   "reviews": [
+    {
+      "rin": "1010-AE38",
+      "agency_code": "1010",
+      "agency": "DOI/BOEM",
+      "title": "Offshore Wind Regulatory Reform",
+      "received_date": "2026-06-15",
+      "rrid": "1429716",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1429716"
+    },
+    {
+      "rin": "0936-AA16",
+      "agency_code": "0936",
+      "agency": "HHS/OIG",
+      "title": "Medicare and State Health Care Programs: Fraud and Abuse; Request for Information Regarding the Federal Anti-Kickback Statute and Beneficiary Inducements CMP",
+      "received_date": "2026-06-15",
+      "rrid": "1429719",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1429719"
+    },
+    {
+      "rin": "0570-AB13",
+      "agency_code": "0570",
+      "agency": "USDA/RBS",
+      "title": "Unleashing American Energy and Economic Prosperity Under Title 7 Code of Federal Regulations Part 4280 Subpart B",
+      "received_date": "2026-06-15",
+      "rrid": "1424917",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1424917"
+    },
+    {
+      "rin": "3206-AO89",
+      "agency_code": "3206",
+      "agency": "OPM",
+      "title": "Ensuring Consistent and Rigorous Standards for the Senior Executive Service Candidate Development Programs",
+      "received_date": "2026-06-15",
+      "rrid": "1429718",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1429718"
+    },
+    {
+      "rin": "0925-ZA12",
+      "agency_code": "0925",
+      "agency": "HHS/NIH",
+      "title": "Inviting Comments and Suggestions on Topic Areas for the NIDCR Strategic Plan for Fiscal Years 2027\u20132031",
+      "received_date": "2026-06-15",
+      "rrid": "1429715",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1429715"
+    },
+    {
+      "rin": "0925-ZA11",
+      "agency_code": "0925",
+      "agency": "HHS/NIH",
+      "title": "Request for Information: Inviting Input on NIDA's Strategic Plan for 2027-2031",
+      "received_date": "2026-06-15",
+      "rrid": "1429714",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1429714"
+    },
+    {
+      "rin": "0938-AV74",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "Guarding U.S. Medicare Against Rising Drug Costs (GUARD) Model (CMS-5546)",
+      "received_date": "2026-06-15",
+      "rrid": "1429713",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1429713"
+    },
+    {
+      "rin": "0910-ZD30",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Quantitative Systems Pharmacology (QSP)-Based Dose Selection for Minimum Anticipated Biological Effect Level (MABEL) in First-in-Human (FIH) Trials; Draft Guidance for Industry; Availability",
+      "received_date": "2026-06-15",
+      "rrid": "1429712",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1429712"
+    },
+    {
+      "rin": "0694-AJ87",
+      "agency_code": "0694",
+      "agency": "DOC/BIS",
+      "title": "Export Administration Regulations: Revisions to Space-Related Export Controls",
+      "received_date": "2026-06-15",
+      "rrid": "1427212",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1427212"
+    },
     {
       "rin": "3206-AO95",
       "agency_code": "3206",
@@ -82,15 +163,6 @@
       "received_date": "2026-06-11",
       "rrid": "1419665",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1419665"
-    },
-    {
-      "rin": "3038-ZA24",
-      "agency_code": "3038",
-      "agency": "CFTC",
-      "title": "Request for Information: Identifying Regulations to Facilitate Innovation and Competition to Financial Products and Services for Fintech Firms",
-      "received_date": "2026-06-10",
-      "rrid": "1422166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1422166"
     },
     {
       "rin": "2050-AH50",
@@ -570,15 +642,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1382315"
     },
     {
-      "rin": "1557-AF55",
-      "agency_code": "1557",
-      "agency": "TREAS/OCC",
-      "title": "Permitted Payment Stablecoin Issuer Anti-Money Laundering/Countering the Financing of Terrorism and Sanctions Compliance Risk Management",
-      "received_date": "2026-05-18",
-      "rrid": "1387165",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387165"
-    },
-    {
       "rin": "2700-AE89",
       "agency_code": "2700",
       "agency": "NASA",
@@ -768,15 +831,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1370067"
     },
     {
-      "rin": "0970-AD39",
-      "agency_code": "0970",
-      "agency": "HHS/ACF",
-      "title": "Reducing Bureaucracy and Burden for Child Support Enforcement",
-      "received_date": "2026-05-05",
-      "rrid": "1370065",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1370065"
-    },
-    {
       "rin": "1653-AA95",
       "agency_code": "1653",
       "agency": "DHS/USICE",
@@ -856,15 +910,6 @@
       "received_date": "2026-04-24",
       "rrid": "1359519",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1359519"
-    },
-    {
-      "rin": "0910-ZC90",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Demonstrating Substantial Evidence of Effectiveness for Human Drug and Biological Products; Revised Draft Guidance for Industry; Availability",
-      "received_date": "2026-04-24",
-      "rrid": "1359516",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1359516"
     },
     {
       "rin": "2127-ZA27",
@@ -1198,15 +1243,6 @@
       "received_date": "2026-03-02",
       "rrid": "1297067",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1297067"
-    },
-    {
-      "rin": "1840-ZA05",
-      "agency_code": "1840",
-      "agency": "ED/OPE",
-      "title": "Notice Inviting Postsecondary Educational Institutions to Participate in New Experiments Under the Experimental Sites Initiative",
-      "received_date": "2026-02-24",
-      "rrid": "1289715",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1289715"
     },
     {
       "rin": "3245-AI66",
