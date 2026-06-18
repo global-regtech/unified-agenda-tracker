@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-06-17T16:09:53Z",
-  "count": 162,
+  "generated_at": "2026-06-18T15:58:45Z",
+  "count": 159,
   "reviews": [
+    {
+      "rin": "1810-AB72",
+      "agency_code": "1810",
+      "agency": "ED/OESE",
+      "title": "Equity Assistance Centers",
+      "received_date": "2026-06-17",
+      "rrid": "1434664",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1434664"
+    },
+    {
+      "rin": "0575-AC86",
+      "agency_code": "0575",
+      "agency": "USDA/RHS",
+      "title": "Implementation of the Multi-Family Housing U.S. Citizenship Requirements",
+      "received_date": "2026-06-17",
+      "rrid": "1429717",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1429717"
+    },
+    {
+      "rin": "0925-ZA13",
+      "agency_code": "0925",
+      "agency": "HHS/NIH",
+      "title": "Request for Information: Draft NIH Biosafety Policy for Research Involving Biohazards",
+      "received_date": "2026-06-17",
+      "rrid": "1434663",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1434663"
+    },
     {
       "rin": "1840-AE06",
       "agency_code": "1840",
@@ -91,15 +118,6 @@
       "received_date": "2026-06-15",
       "rrid": "1429713",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1429713"
-    },
-    {
-      "rin": "0910-ZD30",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Quantitative Systems Pharmacology (QSP)-Based Dose Selection for Minimum Anticipated Biological Effect Level (MABEL) in First-in-Human (FIH) Trials; Draft Guidance for Industry; Availability",
-      "received_date": "2026-06-15",
-      "rrid": "1429712",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1429712"
     },
     {
       "rin": "0694-AJ87",
@@ -237,15 +255,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1419664"
     },
     {
-      "rin": "0925-ZA10",
-      "agency_code": "0925",
-      "agency": "HHS/NIH",
-      "title": "Request for Information on Measuring and Rewarding Scientific Impact",
-      "received_date": "2026-06-08",
-      "rrid": "1419663",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1419663"
-    },
-    {
       "rin": "0579-AE84",
       "agency_code": "0579",
       "agency": "USDA/APHIS",
@@ -370,15 +379,6 @@
       "received_date": "2026-06-03",
       "rrid": "1412163",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1412163"
-    },
-    {
-      "rin": "0910-ZD25",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Expedited Investigational New Drug Pilot Program; Request for Information",
-      "received_date": "2026-06-03",
-      "rrid": "1409668",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1409668"
     },
     {
       "rin": "3133-AF67",
@@ -849,15 +849,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1370067"
     },
     {
-      "rin": "1653-AA95",
-      "agency_code": "1653",
-      "agency": "DHS/USICE",
-      "title": "Establishing a Fixed Time Period of Admission and an Extension of Stay Procedure for Nonimmigrant Academic Students, Exchange Visitors, and Representatives of Foreign Information Media",
-      "received_date": "2026-05-05",
-      "rrid": "1367212",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1367212"
-    },
-    {
       "rin": "3150-AL50",
       "agency_code": "3150",
       "agency": "NRC",
@@ -1263,15 +1254,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1287014"
     },
     {
-      "rin": "0910-AH59",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Establishment Registration and Product Listing for Tobacco Products",
-      "received_date": "2026-02-19",
-      "rrid": "1284768",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1284768"
-    },
-    {
       "rin": "3206-AO91",
       "agency_code": "3206",
       "agency": "OPM",
@@ -1432,15 +1414,6 @@
       "received_date": "2025-09-08",
       "rrid": "1004516",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1004516"
-    },
-    {
-      "rin": "1090-AB26",
-      "agency_code": "1090",
-      "agency": "DOI/ASPMB",
-      "title": "Natural Resource Damages for Hazardous Substances",
-      "received_date": "2025-07-18",
-      "rrid": "1027014",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1027014"
     },
     {
       "rin": "0960-AI94",
