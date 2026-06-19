@@ -1,15 +1,42 @@
 {
-  "generated_at": "2026-06-18T15:58:45Z",
-  "count": 159,
+  "generated_at": "2026-06-19T15:46:10Z",
+  "count": 151,
   "reviews": [
     {
-      "rin": "1810-AB72",
-      "agency_code": "1810",
-      "agency": "ED/OESE",
-      "title": "Equity Assistance Centers",
-      "received_date": "2026-06-17",
-      "rrid": "1434664",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1434664"
+      "rin": "3235-AN81",
+      "agency_code": "3235",
+      "agency": "SEC",
+      "title": "Request for Comment on Novel ETFs",
+      "received_date": "2026-06-18",
+      "rrid": "1432164",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1432164"
+    },
+    {
+      "rin": "3060-AM48",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Amendment of Section 73.3555(e) of the Commission's Rules, National Television Multiple Ownership Rule; MB Docket No. 17-318",
+      "received_date": "2026-06-18",
+      "rrid": "1432163",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1432163"
+    },
+    {
+      "rin": "0938-AV75",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "FY 2027 Skilled Nursing Facility (SNFs) Prospective Payment System and Consolidated Billing and Updates to the Value-Based Purchasing and Quality Reporting Programs (CMS-1843)",
+      "received_date": "2026-06-18",
+      "rrid": "1437165",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437165"
+    },
+    {
+      "rin": "2132-ZA11",
+      "agency_code": "2132",
+      "agency": "DOT/FTA",
+      "title": "Capital Investment Grants Policy Guidance",
+      "received_date": "2026-06-18",
+      "rrid": "1437163",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437163"
     },
     {
       "rin": "0575-AC86",
@@ -64,15 +91,6 @@
       "received_date": "2026-06-15",
       "rrid": "1429716",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1429716"
-    },
-    {
-      "rin": "0936-AA16",
-      "agency_code": "0936",
-      "agency": "HHS/OIG",
-      "title": "Medicare and State Health Care Programs: Fraud and Abuse; Request for Information Regarding the Federal Anti-Kickback Statute and Beneficiary Inducements CMP",
-      "received_date": "2026-06-15",
-      "rrid": "1429719",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1429719"
     },
     {
       "rin": "0570-AB13",
@@ -136,15 +154,6 @@
       "received_date": "2026-06-12",
       "rrid": "1424916",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1424916"
-    },
-    {
-      "rin": "3038-AF71",
-      "agency_code": "3038",
-      "agency": "CFTC",
-      "title": "Request for Comment on Further Definition of \"Swap\" and \"Security-Based Swap\" and on Alternative Compliance",
-      "received_date": "2026-06-11",
-      "rrid": "1424715",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1424715"
     },
     {
       "rin": "3060-AM28",
@@ -381,15 +390,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1412163"
     },
     {
-      "rin": "3133-AF67",
-      "agency_code": "3133",
-      "agency": "NCUA",
-      "title": "Prohibition on Use of Reputation Risk by NCUA",
-      "received_date": "2026-06-02",
-      "rrid": "1409662",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1409662"
-    },
-    {
       "rin": "0910-ZD23",
       "agency_code": "0910",
       "agency": "HHS/FDA",
@@ -460,15 +460,6 @@
       "received_date": "2026-05-30",
       "rrid": "1404663",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1404663"
-    },
-    {
-      "rin": "3235-AN78",
-      "agency_code": "3235",
-      "agency": "SEC",
-      "title": "Request for Comment on Swap and Security-Based Swap Data Reporting",
-      "received_date": "2026-05-29",
-      "rrid": "1402162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1402162"
     },
     {
       "rin": "0970-AD19",
@@ -651,15 +642,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1382316"
     },
     {
-      "rin": "1615-AD06",
-      "agency_code": "1615",
-      "agency": "DHS/USCIS",
-      "title": "Public Charge Ground of Inadmissibility",
-      "received_date": "2026-05-18",
-      "rrid": "1382315",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1382315"
-    },
-    {
       "rin": "2700-AE89",
       "agency_code": "2700",
       "agency": "NASA",
@@ -667,15 +649,6 @@
       "received_date": "2026-05-18",
       "rrid": "1387163",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387163"
-    },
-    {
-      "rin": "0560-AI84",
-      "agency_code": "0560",
-      "agency": "USDA/FSA",
-      "title": "Supplemental Disaster Assistance Programs, Marketing Assistance Loans, and Sugar Provisions",
-      "received_date": "2026-05-15",
-      "rrid": "1384762",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1384762"
     },
     {
       "rin": "2137-AF44",
@@ -784,33 +757,6 @@
       "received_date": "2026-05-08",
       "rrid": "1374662",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1374662"
-    },
-    {
-      "rin": "0694-ZA06",
-      "agency_code": "0694",
-      "agency": "DOC/BIS",
-      "title": "GENERAL AUTHORIZATION NO. 3 Approved Supplier Registry",
-      "received_date": "2026-05-07",
-      "rrid": "1370063",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1370063"
-    },
-    {
-      "rin": "0694-ZA04",
-      "agency_code": "0694",
-      "agency": "DOC/BIS",
-      "title": "GENERAL AUTHORIZATION NO. 1 Limited Use Cases",
-      "received_date": "2026-05-07",
-      "rrid": "1370062",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1370062"
-    },
-    {
-      "rin": "0648-BL49",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Regulatory Amendment to Clarify Timing of Haul Designation for Trawl Catcher Processors in the Gulf of Alaska and Bering Sea and Aleutian Islands Groundfish Fisheries",
-      "received_date": "2026-05-07",
-      "rrid": "1370064",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1370064"
     },
     {
       "rin": "0694-AK35",
@@ -1056,15 +1002,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1334515"
     },
     {
-      "rin": "3150-AL56",
-      "agency_code": "3150",
-      "agency": "NRC",
-      "title": "Modernizing Materials Licensing [NRC-2025-1370]",
-      "received_date": "2026-04-02",
-      "rrid": "1329916",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1329916"
-    },
-    {
       "rin": "0503-AA82",
       "agency_code": "0503",
       "agency": "USDA/AgSEC",
@@ -1117,15 +1054,6 @@
       "received_date": "2026-03-23",
       "rrid": "1289719",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1289719"
-    },
-    {
-      "rin": "1018-BI04",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Migratory Bird Hunting; Revised Regulatory Process",
-      "received_date": "2026-03-20",
-      "rrid": "1317564",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1317564"
     },
     {
       "rin": "3235-AN38",
