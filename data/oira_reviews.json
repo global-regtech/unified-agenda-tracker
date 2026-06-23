@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-06-22T17:14:55Z",
-  "count": 151,
+  "generated_at": "2026-06-23T15:30:01Z",
+  "count": 153,
   "reviews": [
+    {
+      "rin": "3170-ZA53",
+      "agency_code": "3170",
+      "agency": "CFPB",
+      "title": "Request for Information Regarding Promoting Access to Mortgage Credit",
+      "received_date": "2026-06-22",
+      "rrid": "1439812",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1439812"
+    },
+    {
+      "rin": "3060-AM49",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Maximizing Efficiencies in Universal Service Administration, WC Docket No. 26-XX",
+      "received_date": "2026-06-22",
+      "rrid": "1437170",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437170"
+    },
+    {
+      "rin": "3235-AN57",
+      "agency_code": "3235",
+      "agency": "SEC",
+      "title": "Electronic Delivery of Information Under the Federal Securities Laws",
+      "received_date": "2026-06-22",
+      "rrid": "1407262",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1407262"
+    },
+    {
+      "rin": "3135-AA37",
+      "agency_code": "3135",
+      "agency": "NEA",
+      "title": "Nondiscrimination in Federally Assisted Programs",
+      "received_date": "2026-06-22",
+      "rrid": "1424912",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1424912"
+    },
     {
       "rin": "3235-AN81",
       "agency_code": "3235",
@@ -100,15 +136,6 @@
       "received_date": "2026-06-15",
       "rrid": "1424917",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1424917"
-    },
-    {
-      "rin": "3206-AO89",
-      "agency_code": "3206",
-      "agency": "OPM",
-      "title": "Ensuring Consistent and Rigorous Standards for the Senior Executive Service Candidate Development Programs",
-      "received_date": "2026-06-15",
-      "rrid": "1429718",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1429718"
     },
     {
       "rin": "0925-ZA12",
@@ -516,15 +543,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397169"
     },
     {
-      "rin": "1875-AA18",
-      "agency_code": "1875",
-      "agency": "ED/OPEPD",
-      "title": "International Foreign Language and Education Programs",
-      "received_date": "2026-05-27",
-      "rrid": "1394665",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1394665"
-    },
-    {
       "rin": "3046-AB39",
       "agency_code": "3046",
       "agency": "EEOC",
@@ -532,6 +550,15 @@
       "received_date": "2026-05-27",
       "rrid": "1397166",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397166"
+    },
+    {
+      "rin": "1875-AA18",
+      "agency_code": "1875",
+      "agency": "ED/OPEPD",
+      "title": "International Foreign Language and Education Programs",
+      "received_date": "2026-05-27",
+      "rrid": "1394665",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1394665"
     },
     {
       "rin": "3060-AL23",
@@ -1315,15 +1342,6 @@
       "received_date": "2025-10-24",
       "rrid": "1142013",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1142013"
-    },
-    {
-      "rin": "3041-AE10",
-      "agency_code": "3041",
-      "agency": "CPSC",
-      "title": "Safety Standard for Lithium-Ion Batteries Used in Micromobility Products",
-      "received_date": "2025-09-23",
-      "rrid": "1112114",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1112114"
     },
     {
       "rin": "1120-AB82",
