@@ -1,7 +1,61 @@
 {
-  "generated_at": "2026-06-24T15:16:28Z",
-  "count": 157,
+  "generated_at": "2026-06-25T15:22:03Z",
+  "count": 155,
   "reviews": [
+    {
+      "rin": "0625-AB32",
+      "agency_code": "0625",
+      "agency": "DOC/ITA",
+      "title": "Revision of the Countervailing Duty Adverse Facts Available Hierarchy Regulation",
+      "received_date": "2026-06-24",
+      "rrid": "1434662",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1434662"
+    },
+    {
+      "rin": "1651-AB60",
+      "agency_code": "1651",
+      "agency": "DHS/USCBP",
+      "title": "Advanced Passenger Information for Rail",
+      "received_date": "2026-06-24",
+      "rrid": "1440263",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440263"
+    },
+    {
+      "rin": "2126-AC99",
+      "agency_code": "2126",
+      "agency": "DOT/FMCSA",
+      "title": "English Language Proficiency, Out of Service Criteria",
+      "received_date": "2026-06-24",
+      "rrid": "1440266",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440266"
+    },
+    {
+      "rin": "0938-AV77",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "FY 2027 Inpatient Psychiatric Facilities Prospective Payment System Rate and Quality Reporting Updates (CMS-1847)",
+      "received_date": "2026-06-24",
+      "rrid": "1440265",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440265"
+    },
+    {
+      "rin": "0938-AV79",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "Hospital Inpatient Prospective Payment Systems for Acute Care Hospitals; the Long-Term Care Hospital Prospective Payment System; and FY 2027 Rates (CMS-1849)",
+      "received_date": "2026-06-24",
+      "rrid": "1440264",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440264"
+    },
+    {
+      "rin": "1400-AE73",
+      "agency_code": "1400",
+      "agency": "STATE",
+      "title": "International Traffic in Arms Regulations: USML Categories IV and XV",
+      "received_date": "2026-06-24",
+      "rrid": "1059562",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1059562"
+    },
     {
       "rin": "0579-AE93",
       "agency_code": "0579",
@@ -39,15 +93,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440012"
     },
     {
-      "rin": "0648-BN70",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Regulations for Listing Species and Designating Critical Habitat",
-      "received_date": "2026-06-23",
-      "rrid": "1437168",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
-    },
-    {
       "rin": "1615-AD05",
       "agency_code": "1615",
       "agency": "DHS/USCIS",
@@ -55,6 +100,15 @@
       "received_date": "2026-06-23",
       "rrid": "1437162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
+    },
+    {
+      "rin": "0648-BN70",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Regulations for Listing Species and Designating Critical Habitat",
+      "received_date": "2026-06-23",
+      "rrid": "1437168",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
     },
     {
       "rin": "3170-ZA53",
@@ -336,15 +390,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1422164"
     },
     {
-      "rin": "3150-AI92",
-      "agency_code": "3150",
-      "agency": "NRC",
-      "title": "Integrated Low-Level Radioactive Waste Disposal [NRC-2011-0012]",
-      "received_date": "2026-06-09",
-      "rrid": "1419664",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1419664"
-    },
-    {
       "rin": "0579-AE84",
       "agency_code": "0579",
       "agency": "USDA/APHIS",
@@ -480,15 +525,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1409663"
     },
     {
-      "rin": "3064-AG21",
-      "agency_code": "3064",
-      "agency": "FDIC",
-      "title": "Resolution Plans Required for Insured Depository Institutions with $100B or More in Total Assets; Informational Filings Required for IDIs with at Least $50B but Less Than $100B in Total Assets",
-      "received_date": "2026-06-02",
-      "rrid": "1407266",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1407266"
-    },
-    {
       "rin": "0938-AW01",
       "agency_code": "0938",
       "agency": "HHS/CMS",
@@ -496,15 +532,6 @@
       "received_date": "2026-06-01",
       "rrid": "1407267",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1407267"
-    },
-    {
-      "rin": "3064-AG27",
-      "agency_code": "3064",
-      "agency": "FDIC",
-      "title": "Assessments, Adjusting and Indexing the Assessments Threshold Defining Small or Large Banks; Removing the Large Bank Option; and Other Amendments to Assessment Regulations",
-      "received_date": "2026-06-01",
-      "rrid": "1407265",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1407265"
     },
     {
       "rin": "1651-AB52",
@@ -606,15 +633,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1394665"
     },
     {
-      "rin": "3046-AB39",
-      "agency_code": "3046",
-      "agency": "EEOC",
-      "title": "Rescission of 1979 Interpretive Rule \"Affirmative Action Appropriate Under Title VII of the Civil Rights Act of 1964\"",
-      "received_date": "2026-05-27",
-      "rrid": "1397166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397166"
-    },
-    {
       "rin": "3060-AL23",
       "agency_code": "3060",
       "agency": "FCC",
@@ -687,15 +705,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1392163"
     },
     {
-      "rin": "2060-AV67",
-      "agency_code": "2060",
-      "agency": "EPA/OAR",
-      "title": "Revisions to the Public Participation Requirements in Minor New Source Review Permitting Program",
-      "received_date": "2026-05-20",
-      "rrid": "1389812",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1389812"
-    },
-    {
       "rin": "1140-AA63",
       "agency_code": "1140",
       "agency": "DOJ/ATF",
@@ -708,7 +717,7 @@
       "rin": "3206-AP06",
       "agency_code": "3206",
       "agency": "OPM",
-      "title": "Performance Management Systems for General Schedule, Prevailing Rate, and Certain Other Employees",
+      "title": "Performance Appraisal for General Schedule, Prevailing Rate, and Certain Other Employees.",
       "received_date": "2026-05-19",
       "rrid": "1387167",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387167"
@@ -948,15 +957,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1357313"
     },
     {
-      "rin": "0938-AV81",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "CY 2027 Changes to the End-Stage Renal Disease (ESRD) Prospective Payment System and Quality Incentive Program (CMS-1846)",
-      "received_date": "2026-04-22",
-      "rrid": "1357314",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1357314"
-    },
-    {
       "rin": "0938-AW03",
       "agency_code": "0938",
       "agency": "HHS/CMS",
@@ -1027,15 +1027,6 @@
       "received_date": "2026-04-08",
       "rrid": "1342112",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1342112"
-    },
-    {
-      "rin": "1018-BI14",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Endangered and Threatened Wildlife and Plants; Revision of Listed Entity for the Grizzly Bear",
-      "received_date": "2026-04-03",
-      "rrid": "1337013",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1337013"
     },
     {
       "rin": "0648-BN93",
@@ -1252,15 +1243,6 @@
       "received_date": "2026-02-20",
       "rrid": "1287014",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1287014"
-    },
-    {
-      "rin": "3206-AO91",
-      "agency_code": "3206",
-      "agency": "OPM",
-      "title": "Promoting Employee Accountability",
-      "received_date": "2026-02-10",
-      "rrid": "1274663",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1274663"
     },
     {
       "rin": "2590-ZA12",
