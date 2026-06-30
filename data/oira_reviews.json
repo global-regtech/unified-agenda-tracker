@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-06-29T16:22:14Z",
-  "count": 150,
+  "generated_at": "2026-06-30T15:06:55Z",
+  "count": 145,
   "reviews": [
+    {
+      "rin": "2127-ZA30",
+      "agency_code": "2127",
+      "agency": "DOT/NHTSA",
+      "title": "Further Resetting NHTSA's Fuel Economy Program",
+      "received_date": "2026-06-29",
+      "rrid": "1447212",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1447212"
+    },
     {
       "rin": "0938-AV66",
       "agency_code": "0938",
@@ -237,15 +246,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1434663"
     },
     {
-      "rin": "1840-AE06",
-      "agency_code": "1840",
-      "agency": "ED/OPE",
-      "title": "Accountability",
-      "received_date": "2026-06-16",
-      "rrid": "1432162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1432162"
-    },
-    {
       "rin": "0938-AV73",
       "agency_code": "0938",
       "agency": "HHS/CMS",
@@ -379,15 +379,6 @@
       "received_date": "2026-06-11",
       "rrid": "1419665",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1419665"
-    },
-    {
-      "rin": "2050-AH50",
-      "agency_code": "2050",
-      "agency": "EPA/OLEM",
-      "title": "Hazardous and Solid Waste Management System: Disposal of Coal Combustion Residuals from Electric Utilities; Federal CCR Permit Program; General Permit Provisions",
-      "received_date": "2026-06-10",
-      "rrid": "1412166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1412166"
     },
     {
       "rin": "2130-AD65",
@@ -588,15 +579,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1402164"
     },
     {
-      "rin": "0651-AD94",
-      "agency_code": "0651",
-      "agency": "DOC/PTO",
-      "title": "Requirement to Identify All Real Parties in Interest to an Ex Parte Reexamination Request",
-      "received_date": "2026-05-28",
-      "rrid": "1400162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1400162"
-    },
-    {
       "rin": "0910-ZD12",
       "agency_code": "0910",
       "agency": "HHS/FDA",
@@ -631,24 +613,6 @@
       "received_date": "2026-05-27",
       "rrid": "1397169",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397169"
-    },
-    {
-      "rin": "3060-AL23",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Protecting Against National Security Threats to the Communications Supply Chain Through the Equipment Authorization and Competitive Bidding Programs; ET Docket No. 21-232, EA Docket No. 21-233",
-      "received_date": "2026-05-26",
-      "rrid": "1397168",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397168"
-    },
-    {
-      "rin": "3060-AM20",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Upper C-band (3.98\u20134.2 GHz) (GN Docket No. 25-59)",
-      "received_date": "2026-05-26",
-      "rrid": "1392166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1392166"
     },
     {
       "rin": "0970-AD30",
@@ -973,15 +937,6 @@
       "received_date": "2026-04-13",
       "rrid": "1344512",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1344512"
-    },
-    {
-      "rin": "3206-AO77",
-      "agency_code": "3206",
-      "agency": "OPM",
-      "title": "Personnel Management in Agencies: Strategic Human Capital Management",
-      "received_date": "2026-04-10",
-      "rrid": "1344513",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1344513"
     },
     {
       "rin": "2502-AJ81",
