@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-06-30T15:06:55Z",
-  "count": 145,
+  "generated_at": "2026-07-01T15:18:10Z",
+  "count": 142,
   "reviews": [
+    {
+      "rin": "2040-AG44",
+      "agency_code": "2040",
+      "agency": "EPA/OW",
+      "title": "Updated Definition of \"Waters of the United States\"",
+      "received_date": "2026-06-30",
+      "rrid": "1444714",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1444714"
+    },
+    {
+      "rin": "2127-AM76",
+      "agency_code": "2127",
+      "agency": "DOT/NHTSA",
+      "title": "Corporate Average Fuel Economy Standards Amendment",
+      "received_date": "2026-06-30",
+      "rrid": "1447213",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1447213"
+    },
+    {
+      "rin": "0925-ZA14",
+      "agency_code": "0925",
+      "agency": "HHS/NIH",
+      "title": "Request for Information: NIH Common Fund is Soliciting Ideas for NIH-wide Challenges and Opportunities",
+      "received_date": "2026-06-30",
+      "rrid": "1449663",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1449663"
+    },
+    {
+      "rin": "1125-AB02",
+      "agency_code": "1125",
+      "agency": "DOJ/EOIR",
+      "title": "Civil Money Penalty for Actions in Contempt of an Immigration Judge's Proper Exercise of Authority",
+      "received_date": "2026-06-30",
+      "rrid": "1449666",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1449666"
+    },
+    {
+      "rin": "1210-AC37",
+      "agency_code": "1210",
+      "agency": "DOL/EBSA",
+      "title": "Prudence and Loyalty in Selecting Plan Investments and Exercising Shareholder Rights",
+      "received_date": "2026-06-30",
+      "rrid": "1449664",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1449664"
+    },
     {
       "rin": "2127-ZA30",
       "agency_code": "2127",
@@ -552,15 +597,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1404665"
     },
     {
-      "rin": "3060-AM19",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Space Modernization for the 21st Century (SB Docket No. 25.306)",
-      "received_date": "2026-06-01",
-      "rrid": "1404662",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1404662"
-    },
-    {
       "rin": "0938-AV92",
       "agency_code": "0938",
       "agency": "HHS/CMS",
@@ -633,33 +669,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387166"
     },
     {
-      "rin": "2060-AW83",
-      "agency_code": "2060",
-      "agency": "EPA/OAR",
-      "title": "Amendments to the Model Year 2027 and Later Heavy-Duty Highway Engine Criteria Pollutant Program",
-      "received_date": "2026-05-20",
-      "rrid": "1392162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1392162"
-    },
-    {
-      "rin": "3150-AL47",
-      "agency_code": "3150",
-      "agency": "NRC",
-      "title": "Reforming and Modernizing the NRC's Radiation Protection Framework [NRC-2025-1140]",
-      "received_date": "2026-05-20",
-      "rrid": "1392164",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1392164"
-    },
-    {
-      "rin": "3150-AL44",
-      "agency_code": "3150",
-      "agency": "NRC",
-      "title": "Modernizing Reactor Licensing, Safety Oversight, and Siting Practices [NRC-2025-0975]",
-      "received_date": "2026-05-20",
-      "rrid": "1369716",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1369716"
-    },
-    {
       "rin": "3045-AA95",
       "agency_code": "3045",
       "agency": "CNCS",
@@ -667,15 +676,6 @@
       "received_date": "2026-05-20",
       "rrid": "1392163",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1392163"
-    },
-    {
-      "rin": "1140-AA63",
-      "agency_code": "1140",
-      "agency": "DOJ/ATF",
-      "title": "Fingerprint and Photograph Requirements for Applications",
-      "received_date": "2026-05-19",
-      "rrid": "1387164",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387164"
     },
     {
       "rin": "1615-AD19",
@@ -712,15 +712,6 @@
       "received_date": "2026-05-14",
       "rrid": "1379867",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1379867"
-    },
-    {
-      "rin": "0648-BO29",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Conservation and Management Measures for Tropical Tunas in the Eastern Pacific Ocean for 2026 and Beyond",
-      "received_date": "2026-05-13",
-      "rrid": "1379862",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1379862"
     },
     {
       "rin": "1210-AC35",
@@ -1038,15 +1029,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1282115"
     },
     {
-      "rin": "3150-AL38",
-      "agency_code": "3150",
-      "agency": "NRC",
-      "title": "Implementation of the National Environmental Policy Act [NRC-2025-0478]",
-      "received_date": "2026-03-20",
-      "rrid": "1314814",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1314814"
-    },
-    {
       "rin": "0694-AK21",
       "agency_code": "0694",
       "agency": "DOC/BIS",
@@ -1126,15 +1108,6 @@
       "received_date": "2026-03-06",
       "rrid": "1302013",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1302013"
-    },
-    {
-      "rin": "0910-AI94",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Drug Establishment Registration and Drug Listing Requirements for Establishments Engaged in Distributed Manufacturing and Certain Foreign Establishments",
-      "received_date": "2026-03-04",
-      "rrid": "1297062",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1297062"
     },
     {
       "rin": "3060-AM01",
