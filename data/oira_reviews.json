@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-07-07T15:22:56Z",
-  "count": 143,
+  "generated_at": "2026-07-08T14:53:27Z",
+  "count": 140,
   "reviews": [
+    {
+      "rin": "2133-AC05",
+      "agency_code": "2133",
+      "agency": "DOT/MARAD",
+      "title": "Federal Ship Financing Program Revision",
+      "received_date": "2026-07-07",
+      "rrid": "1457214",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1457214"
+    },
+    {
+      "rin": "1400-AF99",
+      "agency_code": "1400",
+      "agency": "STATE",
+      "title": "Environmental Protection: Regulations for Implementation of the National Environmental Policy Act (NEPA)",
+      "received_date": "2026-07-07",
+      "rrid": "1452165",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1452165"
+    },
     {
       "rin": "3206-AO97",
       "agency_code": "3206",
@@ -813,15 +831,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1374662"
     },
     {
-      "rin": "0694-AK35",
-      "agency_code": "0694",
-      "agency": "DOC/BIS",
-      "title": "Implementation of EAR Export Controls on Silencers, Mufflers, and Sound Suppressors; and Other Firearms Related Changes",
-      "received_date": "2026-05-07",
-      "rrid": "1374663",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1374663"
-    },
-    {
       "rin": "2529-AB09",
       "agency_code": "2529",
       "agency": "HUD/FHEO",
@@ -894,15 +903,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1359519"
     },
     {
-      "rin": "2127-ZA27",
-      "agency_code": "2127",
-      "agency": "DOT/NHTSA",
-      "title": "Interim Part 555 Guidance and Enhanced Application Instructions",
-      "received_date": "2026-04-22",
-      "rrid": "1357313",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1357313"
-    },
-    {
       "rin": "0938-AW03",
       "agency_code": "0938",
       "agency": "HHS/CMS",
@@ -957,24 +957,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1342112"
     },
     {
-      "rin": "0648-BN93",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Rescinding the Definition of \"Harm\" under the Endangered Species Act",
-      "received_date": "2026-04-03",
-      "rrid": "1332213",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1332213"
-    },
-    {
-      "rin": "1018-BI38",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Rescinding the Definition of \"Harm\" Under the Endangered Species Act",
-      "received_date": "2026-04-03",
-      "rrid": "1317013",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1317013"
-    },
-    {
       "rin": "2900-AR75",
       "agency_code": "2900",
       "agency": "VA",
@@ -1000,15 +982,6 @@
       "received_date": "2026-04-01",
       "rrid": "1329914",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1329914"
-    },
-    {
-      "rin": "2130-AC83",
-      "agency_code": "2130",
-      "agency": "DOT/FRA",
-      "title": "Railroad Noise Emission Compliance Regulations",
-      "received_date": "2026-03-31",
-      "rrid": "1329915",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1329915"
     },
     {
       "rin": "3240-AA09",
