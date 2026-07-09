@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-07-08T14:53:27Z",
+  "generated_at": "2026-07-09T15:40:10Z",
   "count": 140,
   "reviews": [
+    {
+      "rin": "0790-AL56",
+      "agency_code": "0790",
+      "agency": "DOW/OS",
+      "title": "Definitions of Gold Star Family and Gold Star Survivor",
+      "received_date": "2026-07-08",
+      "rrid": "1459662",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1459662"
+    },
+    {
+      "rin": "2900-AS68",
+      "agency_code": "2900",
+      "agency": "VA",
+      "title": "Dole State and Tribal Outreach Grant Program",
+      "received_date": "2026-07-08",
+      "rrid": "1459663",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1459663"
+    },
+    {
+      "rin": "2040-AG47",
+      "agency_code": "2040",
+      "agency": "EPA/OW",
+      "title": "Updating the Water Quality Certification Rule",
+      "received_date": "2026-07-07",
+      "rrid": "1452366",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1452366"
+    },
     {
       "rin": "2133-AC05",
       "agency_code": "2133",
@@ -291,15 +318,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440012"
     },
     {
-      "rin": "1615-AD05",
-      "agency_code": "1615",
-      "agency": "DHS/USCIS",
-      "title": "Removal of the Automatic Extension of Employment Authorization Documents",
-      "received_date": "2026-06-23",
-      "rrid": "1437162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
-    },
-    {
       "rin": "0648-BN70",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -307,6 +325,15 @@
       "received_date": "2026-06-23",
       "rrid": "1437168",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
+    },
+    {
+      "rin": "1615-AD05",
+      "agency_code": "1615",
+      "agency": "DHS/USCIS",
+      "title": "Removal of the Automatic Extension of Employment Authorization Documents",
+      "received_date": "2026-06-23",
+      "rrid": "1437162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
     },
     {
       "rin": "3060-AM49",
@@ -543,15 +570,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1417215"
     },
     {
-      "rin": "3245-AI74",
-      "agency_code": "3245",
-      "agency": "SBA",
-      "title": "Rescinding Unnecessary Notice and Comment Procedures",
-      "received_date": "2026-06-05",
-      "rrid": "1417213",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1417213"
-    },
-    {
       "rin": "3245-AI72",
       "agency_code": "3245",
       "agency": "SBA",
@@ -676,15 +694,6 @@
       "received_date": "2026-05-30",
       "rrid": "1404663",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1404663"
-    },
-    {
-      "rin": "0970-AD19",
-      "agency_code": "0970",
-      "agency": "HHS/ACF",
-      "title": "Designated Placements Requirements Under Titles IV-E and IV-B for LQBTQ+ Children; Rescission",
-      "received_date": "2026-05-29",
-      "rrid": "1402164",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1402164"
     },
     {
       "rin": "0910-ZD12",
@@ -1108,15 +1117,6 @@
       "received_date": "2026-02-20",
       "rrid": "1287014",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1287014"
-    },
-    {
-      "rin": "2590-ZA12",
-      "agency_code": "2590",
-      "agency": "FHFA",
-      "title": "Rescission of Advisory Bulletin AB 2015-05 FHLBank Core Mission Achievement",
-      "received_date": "2026-01-23",
-      "rrid": "1252113",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1252113"
     },
     {
       "rin": "0970-AD34",
