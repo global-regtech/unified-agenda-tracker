@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-07-09T15:40:10Z",
-  "count": 140,
+  "generated_at": "2026-07-10T15:09:36Z",
+  "count": 142,
   "reviews": [
+    {
+      "rin": "0925-ZA15",
+      "agency_code": "0925",
+      "agency": "HHS/NIH",
+      "title": "NIH Is Replacing Letters of Support with Letters of Collaboration to Reduce Administrative Burden",
+      "received_date": "2026-07-09",
+      "rrid": "1459913",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1459913"
+    },
+    {
+      "rin": "0938-AV76",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "FY 2027 Inpatient Rehabilitation Facility (IRF) Prospective Payment System Rate Update and Quality Reporting Program (CMS-1845)",
+      "received_date": "2026-07-09",
+      "rrid": "1459912",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1459912"
+    },
+    {
+      "rin": "2105-AF33",
+      "agency_code": "2105",
+      "agency": "DOT/OST",
+      "title": "Disadvantaged Business Enterprise and Airport Concession; Disadvantaged Business Enterprise Program Implementation Modifications",
+      "received_date": "2026-07-09",
+      "rrid": "1454915",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1454915"
+    },
     {
       "rin": "0790-AL56",
       "agency_code": "0790",
@@ -318,15 +345,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440012"
     },
     {
-      "rin": "0648-BN70",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Regulations for Listing Species and Designating Critical Habitat",
-      "received_date": "2026-06-23",
-      "rrid": "1437168",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
-    },
-    {
       "rin": "1615-AD05",
       "agency_code": "1615",
       "agency": "DHS/USCIS",
@@ -334,6 +352,15 @@
       "received_date": "2026-06-23",
       "rrid": "1437162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
+    },
+    {
+      "rin": "0648-BN70",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Regulations for Listing Species and Designating Critical Habitat",
+      "received_date": "2026-06-23",
+      "rrid": "1437168",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
     },
     {
       "rin": "3060-AM49",
@@ -838,15 +865,6 @@
       "received_date": "2026-05-08",
       "rrid": "1374662",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1374662"
-    },
-    {
-      "rin": "2529-AB09",
-      "agency_code": "2529",
-      "agency": "HUD/FHEO",
-      "title": "HUD's Implementation of the Fair Housing Act's Disparate Impact Standard (FR-6540)",
-      "received_date": "2026-05-06",
-      "rrid": "1299512",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1299512"
     },
     {
       "rin": "1250-AA17",
