@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-07-11T13:59:34Z",
-  "count": 142,
+  "generated_at": "2026-07-12T14:01:38Z",
+  "count": 143,
   "reviews": [
+    {
+      "rin": "0910-ZD49",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Determining Whether to Submit an ANDA or a 505(b)(2) Application; Draft Guidance for Industry; Availability",
+      "received_date": "2026-07-10",
+      "rrid": "1460262",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1460262"
+    },
+    {
+      "rin": "0910-ZD48",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "U.S.-Origin Statements on Seafood; Draft Guidance for Industry",
+      "received_date": "2026-07-10",
+      "rrid": "1459915",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1459915"
+    },
+    {
+      "rin": "2120-AL82",
+      "agency_code": "2120",
+      "agency": "DOT/FAA",
+      "title": "Normalizing Unmanned Aircraft Systems Beyond Visual Line of Sight Operations",
+      "received_date": "2026-07-10",
+      "rrid": "1457213",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1457213"
+    },
+    {
+      "rin": "0910-AI05",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Administrative Detention of Tobacco Products",
+      "received_date": "2026-07-09",
+      "rrid": "1459664",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1459664"
+    },
+    {
+      "rin": "0938-AV78",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "FY 2027 Hospice Wage Index, Payment Rate Update, and Quality Reporting Requirements (CMS-1851)",
+      "received_date": "2026-07-09",
+      "rrid": "1459916",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1459916"
+    },
     {
       "rin": "0925-ZA15",
       "agency_code": "0925",
@@ -570,15 +615,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1422163"
     },
     {
-      "rin": "2120-AM21",
-      "agency_code": "2120",
-      "agency": "DOT/FAA",
-      "title": "Requirements for Certain Aircraft to be Equipped with Interference Tolerant NextGen Radio Altimeter Systems",
-      "received_date": "2026-06-09",
-      "rrid": "1422164",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1422164"
-    },
-    {
       "rin": "0579-AE84",
       "agency_code": "0579",
       "agency": "USDA/APHIS",
@@ -948,15 +984,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1354562"
     },
     {
-      "rin": "0910-ZC89",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Serotonin-2A Agonists and Related Products: Considerations for Clinical Investigations; Guidance for Industry; Availability",
-      "received_date": "2026-04-17",
-      "rrid": "1354563",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1354563"
-    },
-    {
       "rin": "0938-AV82",
       "agency_code": "0938",
       "agency": "HHS/CMS",
@@ -1018,15 +1045,6 @@
       "received_date": "2026-03-30",
       "rrid": "1327012",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1327012"
-    },
-    {
-      "rin": "1685-AA38",
-      "agency_code": "1685",
-      "agency": "DHS/CUSTREV",
-      "title": "Low-Value Shipments",
-      "received_date": "2026-03-27",
-      "rrid": "1327016",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1327016"
     },
     {
       "rin": "3235-AN38",
@@ -1198,15 +1216,6 @@
       "received_date": "2025-12-01",
       "rrid": "1189512",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1189512"
-    },
-    {
-      "rin": "1018-BH59",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Endangered and Threatened Wildlife and Plants; Critical Habitat Designation for Canada Lynx",
-      "received_date": "2025-11-25",
-      "rrid": "1184563",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1184563"
     },
     {
       "rin": "2070-AL33",
