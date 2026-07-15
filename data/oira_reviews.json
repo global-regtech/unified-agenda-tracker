@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-07-14T14:21:47Z",
-  "count": 145,
+  "generated_at": "2026-07-15T14:17:44Z",
+  "count": 143,
   "reviews": [
+    {
+      "rin": "1545-BS06",
+      "agency_code": "1545",
+      "agency": "TREAS/IRS",
+      "title": "Application of the Personal Responsibility and Work Opportunity Reconciliation Act of 1996 (PRWORA) to the Refunded Portion of Certain Federal Refundable Tax Credits",
+      "received_date": "2026-07-14",
+      "rrid": "1465163",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1465163"
+    },
     {
       "rin": "0938-AV99",
       "agency_code": "0938",
@@ -417,15 +426,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440012"
     },
     {
-      "rin": "1615-AD05",
-      "agency_code": "1615",
-      "agency": "DHS/USCIS",
-      "title": "Removal of the Automatic Extension of Employment Authorization Documents",
-      "received_date": "2026-06-23",
-      "rrid": "1437162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
-    },
-    {
       "rin": "0648-BN70",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -435,6 +435,15 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
     },
     {
+      "rin": "1615-AD05",
+      "agency_code": "1615",
+      "agency": "DHS/USCIS",
+      "title": "Removal of the Automatic Extension of Employment Authorization Documents",
+      "received_date": "2026-06-23",
+      "rrid": "1437162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
+    },
+    {
       "rin": "3060-AM49",
       "agency_code": "3060",
       "agency": "FCC",
@@ -442,15 +451,6 @@
       "received_date": "2026-06-22",
       "rrid": "1437170",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437170"
-    },
-    {
-      "rin": "3235-AN57",
-      "agency_code": "3235",
-      "agency": "SEC",
-      "title": "Electronic Delivery of Information Under the Federal Securities Laws",
-      "received_date": "2026-06-22",
-      "rrid": "1407262",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1407262"
     },
     {
       "rin": "3135-AA37",
@@ -624,15 +624,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1419666"
     },
     {
-      "rin": "0694-AK48",
-      "agency_code": "0694",
-      "agency": "DOC/BIS",
-      "title": "Streamlining Crime Control License Requirements",
-      "received_date": "2026-06-11",
-      "rrid": "1419665",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1419665"
-    },
-    {
       "rin": "2130-AD65",
       "agency_code": "2130",
       "agency": "DOT/FRA",
@@ -694,15 +685,6 @@
       "received_date": "2026-06-04",
       "rrid": "1414763",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1414763"
-    },
-    {
-      "rin": "3206-AO54",
-      "agency_code": "3206",
-      "agency": "OPM",
-      "title": "First Responder Fair RETIRE Act",
-      "received_date": "2026-06-04",
-      "rrid": "1414762",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1414762"
     },
     {
       "rin": "0694-AK17",
