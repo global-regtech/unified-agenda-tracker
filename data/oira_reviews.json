@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T14:17:44Z",
-  "count": 143,
+  "generated_at": "2026-07-16T14:30:53Z",
+  "count": 134,
   "reviews": [
     {
       "rin": "1545-BS06",
@@ -255,15 +255,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1447213"
     },
     {
-      "rin": "0925-ZA14",
-      "agency_code": "0925",
-      "agency": "HHS/NIH",
-      "title": "Request for Information: NIH Common Fund is Soliciting Ideas for NIH-wide Challenges and Opportunities",
-      "received_date": "2026-06-30",
-      "rrid": "1449663",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1449663"
-    },
-    {
       "rin": "1125-AB02",
       "agency_code": "1125",
       "agency": "DOJ/EOIR",
@@ -426,15 +417,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440012"
     },
     {
-      "rin": "0648-BN70",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Regulations for Listing Species and Designating Critical Habitat",
-      "received_date": "2026-06-23",
-      "rrid": "1437168",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
-    },
-    {
       "rin": "1615-AD05",
       "agency_code": "1615",
       "agency": "DHS/USCIS",
@@ -444,13 +426,13 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
     },
     {
-      "rin": "3060-AM49",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Maximizing Efficiencies in Universal Service Administration, WC Docket No. 26-XX",
-      "received_date": "2026-06-22",
-      "rrid": "1437170",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437170"
+      "rin": "0648-BN70",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Regulations for Listing Species and Designating Critical Habitat",
+      "received_date": "2026-06-23",
+      "rrid": "1437168",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
     },
     {
       "rin": "3135-AA37",
@@ -460,15 +442,6 @@
       "received_date": "2026-06-22",
       "rrid": "1424912",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1424912"
-    },
-    {
-      "rin": "3060-AM48",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Amendment of Section 73.3555(e) of the Commission's Rules, National Television Multiple Ownership Rule; MB Docket No. 17-318",
-      "received_date": "2026-06-18",
-      "rrid": "1432163",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1432163"
     },
     {
       "rin": "0938-AV75",
@@ -516,15 +489,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1429720"
     },
     {
-      "rin": "1870-AA25",
-      "agency_code": "1870",
-      "agency": "ED/OCR",
-      "title": "Rescinding Appendix B of Regulations Implementing Title VI of the Civil Rights Act of 1964",
-      "received_date": "2026-06-16",
-      "rrid": "1424915",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1424915"
-    },
-    {
       "rin": "1010-AE38",
       "agency_code": "1010",
       "agency": "DOI/BOEM",
@@ -570,15 +534,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1427212"
     },
     {
-      "rin": "3060-AM28",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Operation of Part 15 Devices in Space (ET Docket 25-XXX)",
-      "received_date": "2026-06-11",
-      "rrid": "1159562",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1159562"
-    },
-    {
       "rin": "0584-AF29",
       "agency_code": "0584",
       "agency": "USDA/FNS",
@@ -586,15 +541,6 @@
       "received_date": "2026-06-11",
       "rrid": "1424712",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1424712"
-    },
-    {
-      "rin": "1870-AA20",
-      "agency_code": "1870",
-      "agency": "ED/OCR",
-      "title": "Elimination of Disparate Impact Theory Under Title VI of the 1964 Civil Rights Act",
-      "received_date": "2026-06-11",
-      "rrid": "1424914",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1424914"
     },
     {
       "rin": "0930-AA40",
@@ -676,15 +622,6 @@
       "received_date": "2026-06-05",
       "rrid": "1409666",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1409666"
-    },
-    {
-      "rin": "0945-AA31",
-      "agency_code": "0945",
-      "agency": "HHS/OCR",
-      "title": "Rescinding Guidelines for Eliminating Discrimination and Denial of Services on the Basis of Race, Color, National Origin, Sex, and Handicap in Vocational Education Programs",
-      "received_date": "2026-06-04",
-      "rrid": "1414763",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1414763"
     },
     {
       "rin": "0694-AK17",
@@ -822,15 +759,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387166"
     },
     {
-      "rin": "3045-AA95",
-      "agency_code": "3045",
-      "agency": "CNCS",
-      "title": "Rescinding Portions of AmeriCorps Title VI Regulations To Conform More Closely With the Statutory Text and To Implement Executive Order 14281",
-      "received_date": "2026-05-20",
-      "rrid": "1392163",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1392163"
-    },
-    {
       "rin": "1615-AD19",
       "agency_code": "1615",
       "agency": "DHS/USCIS",
@@ -964,15 +892,6 @@
       "received_date": "2026-04-27",
       "rrid": "1362013",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1362013"
-    },
-    {
-      "rin": "0945-AA29",
-      "agency_code": "0945",
-      "agency": "HHS/OCR",
-      "title": "Rescinding Portions of Department of Health and Human Services Title VI Regulations to Conform More Closely with the Statutory Text and to Implement Executive Order 14281",
-      "received_date": "2026-04-24",
-      "rrid": "1359519",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1359519"
     },
     {
       "rin": "0938-AW03",
