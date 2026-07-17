@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-16T14:30:53Z",
-  "count": 134,
+  "generated_at": "2026-07-17T14:10:58Z",
+  "count": 131,
   "reviews": [
     {
       "rin": "1545-BS06",
@@ -417,15 +417,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440012"
     },
     {
-      "rin": "1615-AD05",
-      "agency_code": "1615",
-      "agency": "DHS/USCIS",
-      "title": "Removal of the Automatic Extension of Employment Authorization Documents",
-      "received_date": "2026-06-23",
-      "rrid": "1437162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
-    },
-    {
       "rin": "0648-BN70",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -433,6 +424,15 @@
       "received_date": "2026-06-23",
       "rrid": "1437168",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
+    },
+    {
+      "rin": "1615-AD05",
+      "agency_code": "1615",
+      "agency": "DHS/USCIS",
+      "title": "Removal of the Automatic Extension of Employment Authorization Documents",
+      "received_date": "2026-06-23",
+      "rrid": "1437162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
     },
     {
       "rin": "3135-AA37",
@@ -586,15 +586,6 @@
       "received_date": "2026-06-08",
       "rrid": "1367213",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1367213"
-    },
-    {
-      "rin": "1506-ZA04",
-      "agency_code": "1506",
-      "agency": "TREAS/FINCEN",
-      "title": "Beneficial Ownership Information Reporting Requirement Revision and Deadline Extension",
-      "received_date": "2026-06-05",
-      "rrid": "1417215",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1417215"
     },
     {
       "rin": "3245-AI72",
@@ -885,15 +876,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1359515"
     },
     {
-      "rin": "3090-AL09",
-      "agency_code": "3090",
-      "agency": "GSA",
-      "title": "GSPMR Case 2026-03, Migrating Nondiscrimination in Programs Receiving Federal Financial Assistance From the FPMR to the GSPMR and Aligning the GSPMR to Reflect Department of Justice Title VI Updates",
-      "received_date": "2026-04-27",
-      "rrid": "1362013",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1362013"
-    },
-    {
       "rin": "0938-AW03",
       "agency_code": "0938",
       "agency": "HHS/CMS",
@@ -946,15 +928,6 @@
       "received_date": "2026-04-02",
       "rrid": "1334515",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1334515"
-    },
-    {
-      "rin": "1082-AA05",
-      "agency_code": "1082",
-      "agency": "DOI/ASLM",
-      "title": "Revisions to the Requirements for Exploratory Drilling on the Arctic Outer Continental Shelf",
-      "received_date": "2026-04-01",
-      "rrid": "1329914",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1329914"
     },
     {
       "rin": "3240-AA09",
