@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-07-17T14:10:58Z",
-  "count": 131,
+  "generated_at": "2026-07-18T13:55:55Z",
+  "count": 128,
   "reviews": [
+    {
+      "rin": "3150-AL45",
+      "agency_code": "3150",
+      "agency": "NRC",
+      "title": "Regulatory Enhancements for Reactor Licensing, Decommissioning, and Operational Oversight [NRC-2025-1138]",
+      "received_date": "2026-07-17",
+      "rrid": "1467663",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1467663"
+    },
     {
       "rin": "1545-BS06",
       "agency_code": "1545",
@@ -417,15 +426,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440012"
     },
     {
-      "rin": "0648-BN70",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Regulations for Listing Species and Designating Critical Habitat",
-      "received_date": "2026-06-23",
-      "rrid": "1437168",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
-    },
-    {
       "rin": "1615-AD05",
       "agency_code": "1615",
       "agency": "DHS/USCIS",
@@ -433,6 +433,15 @@
       "received_date": "2026-06-23",
       "rrid": "1437162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
+    },
+    {
+      "rin": "0648-BN70",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Regulations for Listing Species and Designating Critical Habitat",
+      "received_date": "2026-06-23",
+      "rrid": "1437168",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
     },
     {
       "rin": "3135-AA37",
@@ -723,15 +732,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1399912"
     },
     {
-      "rin": "2040-ZA46",
-      "agency_code": "2040",
-      "agency": "EPA/OW",
-      "title": "National Pollutant Discharge Elimination System (NPDES) 2027 Issuance of General Permit for Stormwater Discharges from Construction Activities",
-      "received_date": "2026-05-27",
-      "rrid": "1397169",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397169"
-    },
-    {
       "rin": "0970-AD30",
       "agency_code": "0970",
       "agency": "HHS/ACF",
@@ -775,15 +775,6 @@
       "received_date": "2026-05-14",
       "rrid": "1379867",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1379867"
-    },
-    {
-      "rin": "1210-AC35",
-      "agency_code": "1210",
-      "agency": "DOL/EBSA",
-      "title": "Default Electronic Disclosures by Group Health Plans Under ERISA",
-      "received_date": "2026-05-13",
-      "rrid": "1379868",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1379868"
     },
     {
       "rin": "0938-AV70",
@@ -865,15 +856,6 @@
       "received_date": "2026-04-27",
       "rrid": "1327017",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1327017"
-    },
-    {
-      "rin": "1615-AD18",
-      "agency_code": "1615",
-      "agency": "DHS/USCIS",
-      "title": "Affirmative Asylum Referrals Without Interview",
-      "received_date": "2026-04-27",
-      "rrid": "1359515",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1359515"
     },
     {
       "rin": "0938-AW03",
@@ -1171,15 +1153,6 @@
       "received_date": "2025-07-18",
       "rrid": "1029512",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1029512"
-    },
-    {
-      "rin": "0910-ZC37",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Evaluating the Safety of Antimicrobial New Animal Drugs with Regard to their Microbiological Effects on Bacteria of Human Health Concern; Guidance for Industry",
-      "received_date": "2025-07-10",
-      "rrid": "1019512",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1019512"
     }
   ]
 }
