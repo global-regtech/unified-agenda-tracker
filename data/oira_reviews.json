@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-07-20T14:36:47Z",
-  "count": 128,
+  "generated_at": "2026-07-21T14:32:07Z",
+  "count": 130,
   "reviews": [
+    {
+      "rin": "1545-BR85",
+      "agency_code": "1545",
+      "agency": "TREAS/IRS",
+      "title": "Guidance Related to Foreign Derived Deduction Eligible Income and Net CFC Tested Income Under Section 250",
+      "received_date": "2026-07-20",
+      "rrid": "1472663",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1472663"
+    },
+    {
+      "rin": "0938-AV89",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "Clinical Laboratory Improvement Amendments of 1988 (CLIA) Virtual Access, Gynecologic Cytology Proficiency Testing (PT), Personnel Qualification Requirements, and Other Changes (CMS-3478)",
+      "received_date": "2026-07-20",
+      "rrid": "1472664",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1472664"
+    },
+    {
+      "rin": "0938-AV88",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "Contract Year 2028 Policy and Technical Changes to the Medicare Advantage Program, Medicare Prescription Drug Benefit Program, Medicare Cost Plan Program, and PACE (CMS-4214)",
+      "received_date": "2026-07-20",
+      "rrid": "1472662",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1472662"
+    },
+    {
+      "rin": "0584-AF17",
+      "agency_code": "0584",
+      "agency": "USDA/FNA",
+      "title": "Child Nutrition Programs: Aligning Program Requirements with the 2025-2030 Dietary Guidelines for Americans",
+      "received_date": "2026-07-20",
+      "rrid": "1470212",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1470212"
+    },
     {
       "rin": "3150-AL45",
       "agency_code": "3150",
@@ -208,15 +244,6 @@
       "received_date": "2026-07-06",
       "rrid": "1454662",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1454662"
-    },
-    {
-      "rin": "2120-AM51",
-      "agency_code": "2120",
-      "agency": "DOT/FAA",
-      "title": "Waiver of Specified Statutory Requirements for Commercial Space Launch and Reentry Actions",
-      "received_date": "2026-07-06",
-      "rrid": "1452364",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1452364"
     },
     {
       "rin": "0938-AW04",
@@ -426,15 +453,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440012"
     },
     {
-      "rin": "1615-AD05",
-      "agency_code": "1615",
-      "agency": "DHS/USCIS",
-      "title": "Removal of the Automatic Extension of Employment Authorization Documents",
-      "received_date": "2026-06-23",
-      "rrid": "1437162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
-    },
-    {
       "rin": "0648-BN70",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -442,6 +460,15 @@
       "received_date": "2026-06-23",
       "rrid": "1437168",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
+    },
+    {
+      "rin": "1615-AD05",
+      "agency_code": "1615",
+      "agency": "DHS/USCIS",
+      "title": "Removal of the Automatic Extension of Employment Authorization Documents",
+      "received_date": "2026-06-23",
+      "rrid": "1437162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
     },
     {
       "rin": "3135-AA37",
@@ -962,8 +989,8 @@
       "agency": "OGE",
       "title": "Exempting Certain Career Federal Employees from Ethics Reporting Requirements",
       "received_date": "2026-03-17",
-      "rrid": "1314520",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1314520"
+      "rrid": "1314811",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1314811"
     },
     {
       "rin": "0910-ZC82",
@@ -982,15 +1009,6 @@
       "received_date": "2026-03-11",
       "rrid": "1307462",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1307462"
-    },
-    {
-      "rin": "1400-AF23",
-      "agency_code": "1400",
-      "agency": "STATE",
-      "title": "Exchange Visitor Rules: Records",
-      "received_date": "2026-03-10",
-      "rrid": "1302015",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1302015"
     },
     {
       "rin": "1240-AA16",
