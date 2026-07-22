@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-07-21T14:32:07Z",
-  "count": 130,
+  "generated_at": "2026-07-22T14:32:08Z",
+  "count": 126,
   "reviews": [
+    {
+      "rin": "1210-ZA37",
+      "agency_code": "1210",
+      "agency": "DOL/EBSA",
+      "title": "QPAM Re-eligibility Options After Disqualification (QROAD) Class Exemption",
+      "received_date": "2026-07-20",
+      "rrid": "1472665",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1472665"
+    },
     {
       "rin": "1545-BR85",
       "agency_code": "1545",
@@ -840,15 +849,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1374664"
     },
     {
-      "rin": "3150-AL62",
-      "agency_code": "3150",
-      "agency": "NRC",
-      "title": "Modernizing Package Certification Requirements [NRC-2025-1667]",
-      "received_date": "2026-05-08",
-      "rrid": "1374662",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1374662"
-    },
-    {
       "rin": "1250-AA17",
       "agency_code": "1250",
       "agency": "DOL/OFCCP",
@@ -856,15 +856,6 @@
       "received_date": "2026-05-06",
       "rrid": "1370067",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1370067"
-    },
-    {
-      "rin": "3150-AL50",
-      "agency_code": "3150",
-      "agency": "NRC",
-      "title": "Reducing Barriers to Medical Use Licensing [NRC-2025-1237]",
-      "received_date": "2026-05-04",
-      "rrid": "1359522",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1359522"
     },
     {
       "rin": "1219-AC22",
@@ -984,15 +975,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1314513"
     },
     {
-      "rin": "3209-AA76",
-      "agency_code": "3209",
-      "agency": "OGE",
-      "title": "Exempting Certain Career Federal Employees from Ethics Reporting Requirements",
-      "received_date": "2026-03-17",
-      "rrid": "1314811",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1314811"
-    },
-    {
       "rin": "0910-ZC82",
       "agency_code": "0910",
       "agency": "HHS/FDA",
@@ -1009,15 +991,6 @@
       "received_date": "2026-03-11",
       "rrid": "1307462",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1307462"
-    },
-    {
-      "rin": "1240-AA16",
-      "agency_code": "1240",
-      "agency": "DOL/OWCP",
-      "title": "Black Lung Benefits Act: Authorization of Self Insurers",
-      "received_date": "2026-03-09",
-      "rrid": "1304515",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1304515"
     },
     {
       "rin": "0596-AD66",
@@ -1063,15 +1036,6 @@
       "received_date": "2026-01-02",
       "rrid": "1229564",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1229564"
-    },
-    {
-      "rin": "0938-AV93",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "Amending the Indirect Hold Harmless Threshold of Health Care-Related Taxes (CMS-2452)",
-      "received_date": "2025-12-31",
-      "rrid": "1232112",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1232112"
     },
     {
       "rin": "1400-AG17",
