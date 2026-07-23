@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-07-22T14:32:08Z",
-  "count": 126,
+  "generated_at": "2026-07-23T14:39:46Z",
+  "count": 128,
   "reviews": [
+    {
+      "rin": "3245-ZA17",
+      "agency_code": "3245",
+      "agency": "SBA",
+      "title": "SBA Size Standards Methodology",
+      "received_date": "2026-07-22",
+      "rrid": "1477814",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1477814"
+    },
+    {
+      "rin": "2133-AC05",
+      "agency_code": "2133",
+      "agency": "DOT/MARAD",
+      "title": "Federal Ship Financing Program Revision",
+      "received_date": "2026-07-22",
+      "rrid": "1477813",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1477813"
+    },
+    {
+      "rin": "3046-AB46",
+      "agency_code": "3046",
+      "agency": "EEOC",
+      "title": "Revision and Update to 29 CFR Part 1614",
+      "received_date": "2026-07-22",
+      "rrid": "1475169",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475169"
+    },
+    {
+      "rin": "0651-AD89",
+      "agency_code": "0651",
+      "agency": "DOC/PTO",
+      "title": "Revision to Rules of Practice before the Patent Trial and Appeal Board",
+      "received_date": "2026-07-22",
+      "rrid": "1475164",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475164"
+    },
+    {
+      "rin": "3060-AM15",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Modernizing the Commission's National Environmental Policy Act Rules (WT Docket No. 25-217)",
+      "received_date": "2026-07-22",
+      "rrid": "1475163",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475163"
+    },
     {
       "rin": "1210-ZA37",
       "agency_code": "1210",
@@ -93,15 +138,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1424913"
     },
     {
-      "rin": "0910-ZD49",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Determining Whether to Submit an ANDA or a 505(b)(2) Application; Draft Guidance for Industry; Availability",
-      "received_date": "2026-07-10",
-      "rrid": "1460262",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1460262"
-    },
-    {
       "rin": "0910-ZD48",
       "agency_code": "0910",
       "agency": "HHS/FDA",
@@ -190,15 +226,6 @@
       "received_date": "2026-07-07",
       "rrid": "1452366",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1452366"
-    },
-    {
-      "rin": "2133-AC05",
-      "agency_code": "2133",
-      "agency": "DOT/MARAD",
-      "title": "Federal Ship Financing Program Revision",
-      "received_date": "2026-07-07",
-      "rrid": "1457214",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1457214"
     },
     {
       "rin": "1400-AF99",
@@ -613,15 +640,6 @@
       "received_date": "2026-06-11",
       "rrid": "1419666",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1419666"
-    },
-    {
-      "rin": "2130-AD65",
-      "agency_code": "2130",
-      "agency": "DOT/FRA",
-      "title": "Qualification and Certification of Locomotive Engineers and Conductors; English Language Proficiency",
-      "received_date": "2026-06-09",
-      "rrid": "1422163",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1422163"
     },
     {
       "rin": "0579-AE84",
