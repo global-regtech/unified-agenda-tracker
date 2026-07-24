@@ -1,7 +1,79 @@
 {
-  "generated_at": "2026-07-23T14:39:46Z",
-  "count": 128,
+  "generated_at": "2026-07-24T14:18:58Z",
+  "count": 132,
   "reviews": [
+    {
+      "rin": "1210-AB37",
+      "agency_code": "1210",
+      "agency": "DOL/EBSA",
+      "title": "Improving Transparency into Pharmacy Benefit Manager Fee Disclosure",
+      "received_date": "2026-07-23",
+      "rrid": "1480167",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1480167"
+    },
+    {
+      "rin": "0925-ZA17",
+      "agency_code": "0925",
+      "agency": "HHS/NIH",
+      "title": "Recent Updates: Supporting a Safe and Respectful Workplace at Institutions that Receive NIH Funding",
+      "received_date": "2026-07-23",
+      "rrid": "1480166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1480166"
+    },
+    {
+      "rin": "0925-ZA16",
+      "agency_code": "0925",
+      "agency": "HHS/NIH",
+      "title": "Request for Information (RFI) on Proposed Changes to Reporting Outcomes from NIH Peer Review",
+      "received_date": "2026-07-23",
+      "rrid": "1480165",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1480165"
+    },
+    {
+      "rin": "0938-ZC05",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "Regulatory Alignment for Predictable and Immediate Device (RAPID) Coverage Pathway (CMS-3487)",
+      "received_date": "2026-07-23",
+      "rrid": "1480164",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1480164"
+    },
+    {
+      "rin": "1018-BI75",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
+      "received_date": "2026-07-23",
+      "rrid": "1475162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
+    },
+    {
+      "rin": "0648-BN79",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
+      "received_date": "2026-07-23",
+      "rrid": "1475166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
+    },
+    {
+      "rin": "3084-ZA01",
+      "agency_code": "3084",
+      "agency": "FTC",
+      "title": "Policy Statement Regarding Disparate-Impact Claims and \"Unfair Discrimination\" Claims",
+      "received_date": "2026-07-23",
+      "rrid": "1480163",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1480163"
+    },
+    {
+      "rin": "3060-AM20",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Upper C-band (3.98\u20134.2 GHz) (GN Docket No. 25-59)",
+      "received_date": "2026-07-23",
+      "rrid": "1480162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1480162"
+    },
     {
       "rin": "3245-ZA17",
       "agency_code": "3245",
@@ -633,15 +705,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1424714"
     },
     {
-      "rin": "0694-AK30",
-      "agency_code": "0694",
-      "agency": "DOC/BIS",
-      "title": "Streamlining Export Controls for Drone Exports",
-      "received_date": "2026-06-11",
-      "rrid": "1419666",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1419666"
-    },
-    {
       "rin": "0579-AE84",
       "agency_code": "0579",
       "agency": "USDA/APHIS",
@@ -694,15 +757,6 @@
       "received_date": "2026-06-04",
       "rrid": "1407268",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1407268"
-    },
-    {
-      "rin": "3145-AA74",
-      "agency_code": "3145",
-      "agency": "NSF",
-      "title": "Revision of Regulations Related to Nondiscrimination in Federally Assisted Programs of the National Science Foundation",
-      "received_date": "2026-06-03",
-      "rrid": "1412164",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1412164"
     },
     {
       "rin": "1110-AA35",
@@ -867,15 +921,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1374664"
     },
     {
-      "rin": "1250-AA17",
-      "agency_code": "1250",
-      "agency": "DOL/OFCCP",
-      "title": "Rescission of Executive Order 11246 Implementing Regulations",
-      "received_date": "2026-05-06",
-      "rrid": "1370067",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1370067"
-    },
-    {
       "rin": "1219-AC22",
       "agency_code": "1219",
       "agency": "DOL/MSHA",
@@ -946,15 +991,6 @@
       "received_date": "2026-04-02",
       "rrid": "1334515",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1334515"
-    },
-    {
-      "rin": "3240-AA09",
-      "agency_code": "3240",
-      "agency": "SSS",
-      "title": "Automatic Registration",
-      "received_date": "2026-03-30",
-      "rrid": "1327012",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1327012"
     },
     {
       "rin": "3235-AN38",
