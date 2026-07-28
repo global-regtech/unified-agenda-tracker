@@ -1,7 +1,106 @@
 {
-  "generated_at": "2026-07-27T15:21:17Z",
-  "count": 127,
+  "generated_at": "2026-07-28T14:57:19Z",
+  "count": 136,
   "reviews": [
+    {
+      "rin": "3210-AA00",
+      "agency_code": "3210",
+      "agency": "USPS",
+      "title": "Conditions on the Preparation of Ballot Mail for Federal Elections",
+      "received_date": "2026-07-27",
+      "rrid": "1485175",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1485175"
+    },
+    {
+      "rin": "3210-AA00",
+      "agency_code": "3210",
+      "agency": "USPS",
+      "title": "Conditions on the Preparation of Ballot Mail for Federal Elections",
+      "received_date": "2026-07-27",
+      "rrid": "1485173",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1485173"
+    },
+    {
+      "rin": "9000-AO84",
+      "agency_code": "9000",
+      "agency": "FAR",
+      "title": "Federal Acquisition Regulation (FAR); FAR Case 2026-011, Revolutionary Federal Acquisition Regulation Overhaul parts 9, 27, and 47.",
+      "received_date": "2026-07-27",
+      "rrid": "1485171",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1485171"
+    },
+    {
+      "rin": "9000-AO83",
+      "agency_code": "9000",
+      "agency": "FAR",
+      "title": "Federal Acquisition Regulation (FAR); FAR Case 2026-010, Revolutionary Federal Acquisition Regulation Overhaul parts 14, 28, and 36.",
+      "received_date": "2026-07-27",
+      "rrid": "1485170",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1485170"
+    },
+    {
+      "rin": "9000-AO91",
+      "agency_code": "9000",
+      "agency": "FAR",
+      "title": "Federal Acquisition Regulation (FAR); FAR Case 2026-006, Revolutionary Federal Acquisition Regulation Overhaul parts 16, 17, and 35.",
+      "received_date": "2026-07-27",
+      "rrid": "1485169",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1485169"
+    },
+    {
+      "rin": "9000-AO88",
+      "agency_code": "9000",
+      "agency": "FAR",
+      "title": "Federal Acquisition Regulation (FAR); FAR Case 2026-003, Revolutionary Federal Acquisition Regulation Overhaul parts 8, 12, 13, 15, 38, 44, and 51.",
+      "received_date": "2026-07-27",
+      "rrid": "1485168",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1485168"
+    },
+    {
+      "rin": "1875-AA17",
+      "agency_code": "1875",
+      "agency": "ED/OPEPD",
+      "title": "Revisions to EDGAR - Application Notices",
+      "received_date": "2026-07-27",
+      "rrid": "1485167",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1485167"
+    },
+    {
+      "rin": "3084-ZA02",
+      "agency_code": "3084",
+      "agency": "FTC",
+      "title": "Enforcement Policy Statement Regarding Personalized Pricing",
+      "received_date": "2026-07-27",
+      "rrid": "1485166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1485166"
+    },
+    {
+      "rin": "0938-AV64",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "Transparency in Coverage (CMS-9882)",
+      "received_date": "2026-07-27",
+      "rrid": "1485162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1485162"
+    },
+    {
+      "rin": "3060-AM19",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Space Modernization for the 21st Century (SB Docket No. 25.306)",
+      "received_date": "2026-07-27",
+      "rrid": "1482662",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1482662"
+    },
+    {
+      "rin": "3060-AL23",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Protecting Against National Security Threats to the Communications Supply Chain Through the Equipment Authorization and Competitive Bidding Programs; ET Docket No. 21-232, EA Docket No. 21-233",
+      "received_date": "2026-07-27",
+      "rrid": "1482663",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1482663"
+    },
     {
       "rin": "1210-AB37",
       "agency_code": "1210",
@@ -37,24 +136,6 @@
       "received_date": "2026-07-23",
       "rrid": "1480164",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1480164"
-    },
-    {
-      "rin": "1018-BI75",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
-      "received_date": "2026-07-23",
-      "rrid": "1475162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
-    },
-    {
-      "rin": "0648-BN79",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
-      "received_date": "2026-07-23",
-      "rrid": "1475166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
     },
     {
       "rin": "3084-ZA01",
@@ -109,6 +190,24 @@
       "received_date": "2026-07-22",
       "rrid": "1475163",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475163"
+    },
+    {
+      "rin": "1018-BI75",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
+      "received_date": "2026-07-22",
+      "rrid": "1475162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
+    },
+    {
+      "rin": "0648-BN79",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
+      "received_date": "2026-07-22",
+      "rrid": "1475166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
     },
     {
       "rin": "1210-ZA37",
@@ -534,15 +633,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440012"
     },
     {
-      "rin": "1615-AD05",
-      "agency_code": "1615",
-      "agency": "DHS/USCIS",
-      "title": "Removal of the Automatic Extension of Employment Authorization Documents",
-      "received_date": "2026-06-23",
-      "rrid": "1437162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
-    },
-    {
       "rin": "0648-BN70",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -550,6 +640,15 @@
       "received_date": "2026-06-23",
       "rrid": "1437168",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
+    },
+    {
+      "rin": "1615-AD05",
+      "agency_code": "1615",
+      "agency": "DHS/USCIS",
+      "title": "Removal of the Automatic Extension of Employment Authorization Documents",
+      "received_date": "2026-06-23",
+      "rrid": "1437162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
     },
     {
       "rin": "3135-AA37",
@@ -784,15 +883,6 @@
       "received_date": "2026-05-30",
       "rrid": "1404663",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1404663"
-    },
-    {
-      "rin": "0648-BO43",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Fish and Fish Product Import Provisions of the Marine Mammal Protection Act",
-      "received_date": "2026-05-27",
-      "rrid": "1397167",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397167"
     },
     {
       "rin": "0906-ZA23",
@@ -1045,15 +1135,6 @@
       "received_date": "2026-01-02",
       "rrid": "1229564",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1229564"
-    },
-    {
-      "rin": "1400-AG17",
-      "agency_code": "1400",
-      "agency": "STATE",
-      "title": "International Traffic in Arms Regulations: Modification of Civil Aircraft to Incorporate Aircraft Survivability Equipment.",
-      "received_date": "2025-12-09",
-      "rrid": "1199914",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1199914"
     },
     {
       "rin": "0348-AB93",
