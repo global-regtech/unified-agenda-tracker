@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-07-29T14:38:43Z",
-  "count": 138,
+  "generated_at": "2026-07-30T14:39:31Z",
+  "count": 135,
   "reviews": [
+    {
+      "rin": "3041-AE27",
+      "agency_code": "3041",
+      "agency": "CPSC",
+      "title": "Interpretation of \"Flammable Liquid Fuels\" with Respect to Fuel Additives",
+      "received_date": "2026-07-29",
+      "rrid": "1475167",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475167"
+    },
+    {
+      "rin": "0925-ZA18",
+      "agency_code": "0925",
+      "agency": "HHS/NIH",
+      "title": "Request for Information (RFI): Inviting Comments and Suggestions on the National Institute of Nursing Research (NINR) Strategic Plan for Fiscal Years 2027-2031",
+      "received_date": "2026-07-29",
+      "rrid": "1490164",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1490164"
+    },
+    {
+      "rin": "1105-AB70",
+      "agency_code": "1105",
+      "agency": "DOJ/LA",
+      "title": "Implementation of the Homicide Victims' Families' Rights Act",
+      "received_date": "2026-07-29",
+      "rrid": "1490162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1490162"
+    },
+    {
+      "rin": "0960-AI92",
+      "agency_code": "0960",
+      "agency": "SSA",
+      "title": "Rescinding the Burdensome Use Restrictions of Dedicated Accounts",
+      "received_date": "2026-07-29",
+      "rrid": "1487663",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1487663"
+    },
+    {
+      "rin": "3010-AA10",
+      "agency_code": "3010",
+      "agency": "ACHP",
+      "title": "Amendments to the Implementing Regulations for Section 106 of the National Historic Preservation Act",
+      "received_date": "2026-07-28",
+      "rrid": "1487665",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1487665"
+    },
     {
       "rin": "0910-AJ27",
       "agency_code": "0910",
@@ -381,15 +426,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1459916"
     },
     {
-      "rin": "0938-AV76",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "FY 2027 Inpatient Rehabilitation Facility (IRF) Prospective Payment System Rate Update and Quality Reporting Program (CMS-1845)",
-      "received_date": "2026-07-09",
-      "rrid": "1459912",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1459912"
-    },
-    {
       "rin": "2105-AF33",
       "agency_code": "2105",
       "agency": "DOT/OST",
@@ -397,15 +433,6 @@
       "received_date": "2026-07-09",
       "rrid": "1454915",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1454915"
-    },
-    {
-      "rin": "0790-AL56",
-      "agency_code": "0790",
-      "agency": "DOW/OS",
-      "title": "Definitions of Gold Star Family and Gold Star Survivor",
-      "received_date": "2026-07-08",
-      "rrid": "1459662",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1459662"
     },
     {
       "rin": "2900-AS68",
@@ -435,24 +462,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1452165"
     },
     {
-      "rin": "3206-AO97",
-      "agency_code": "3206",
-      "agency": "OPM",
-      "title": "Suitability Action Appeals",
-      "received_date": "2026-07-06",
-      "rrid": "1454914",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1454914"
-    },
-    {
-      "rin": "3206-AO99",
-      "agency_code": "3206",
-      "agency": "OPM",
-      "title": "Reduction in Force Appeals",
-      "received_date": "2026-07-06",
-      "rrid": "1454913",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1454913"
-    },
-    {
       "rin": "3170-ZA54",
       "agency_code": "3170",
       "agency": "CFPB",
@@ -469,15 +478,6 @@
       "received_date": "2026-07-06",
       "rrid": "1454663",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1454663"
-    },
-    {
-      "rin": "1545-BS14",
-      "agency_code": "1545",
-      "agency": "TREAS/IRS",
-      "title": "Eligible Investments for Trump Accounts under Section 530A",
-      "received_date": "2026-07-06",
-      "rrid": "1454662",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1454662"
     },
     {
       "rin": "0938-AW04",
@@ -615,15 +615,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440263"
     },
     {
-      "rin": "0938-AV77",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "FY 2027 Inpatient Psychiatric Facilities Prospective Payment System Rate and Quality Reporting Updates (CMS-1847)",
-      "received_date": "2026-06-24",
-      "rrid": "1440265",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440265"
-    },
-    {
       "rin": "0938-AV79",
       "agency_code": "0938",
       "agency": "HHS/CMS",
@@ -651,15 +642,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437169"
     },
     {
-      "rin": "3206-AO86",
-      "agency_code": "3206",
-      "agency": "OPM",
-      "title": "Reduction in Force",
-      "received_date": "2026-06-23",
-      "rrid": "1440013",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440013"
-    },
-    {
       "rin": "1018-BI73",
       "agency_code": "1018",
       "agency": "DOI/FWS",
@@ -678,15 +660,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440012"
     },
     {
-      "rin": "0648-BN70",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Regulations for Listing Species and Designating Critical Habitat",
-      "received_date": "2026-06-23",
-      "rrid": "1437168",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
-    },
-    {
       "rin": "1615-AD05",
       "agency_code": "1615",
       "agency": "DHS/USCIS",
@@ -694,6 +667,15 @@
       "received_date": "2026-06-23",
       "rrid": "1437162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
+    },
+    {
+      "rin": "0648-BN70",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Regulations for Listing Species and Designating Critical Habitat",
+      "received_date": "2026-06-23",
+      "rrid": "1437168",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
     },
     {
       "rin": "3135-AA37",
@@ -1027,15 +1009,6 @@
       "received_date": "2026-04-08",
       "rrid": "1342013",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1342013"
-    },
-    {
-      "rin": "1105-AB78",
-      "agency_code": "1105",
-      "agency": "DOJ/LA",
-      "title": "Application for Relief from Disabilities Imposed by Federal Laws with Respect to the Acquisition, Receipt, Transfer, Shipment, Transportation, or Possession of Firearms",
-      "received_date": "2026-04-08",
-      "rrid": "1342112",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1342112"
     },
     {
       "rin": "2900-AR75",
