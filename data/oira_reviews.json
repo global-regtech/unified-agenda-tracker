@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-07-30T14:39:31Z",
-  "count": 135,
+  "generated_at": "2026-07-31T14:55:05Z",
+  "count": 129,
   "reviews": [
+    {
+      "rin": "1004-AF57",
+      "agency_code": "1004",
+      "agency": "DOI/BLM",
+      "title": "National Petroleum Reserve in Alaska Production Site Development Rule",
+      "received_date": "2026-07-30",
+      "rrid": "1485165",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1485165"
+    },
     {
       "rin": "3041-AE27",
       "agency_code": "3041",
@@ -228,15 +237,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1480164"
     },
     {
-      "rin": "3084-ZA01",
-      "agency_code": "3084",
-      "agency": "FTC",
-      "title": "Policy Statement Regarding Disparate-Impact Claims and \"Unfair Discrimination\" Claims",
-      "received_date": "2026-07-23",
-      "rrid": "1480163",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1480163"
-    },
-    {
       "rin": "3245-ZA17",
       "agency_code": "3245",
       "agency": "SBA",
@@ -282,15 +282,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475163"
     },
     {
-      "rin": "0648-BN79",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
-      "received_date": "2026-07-22",
-      "rrid": "1475166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
-    },
-    {
       "rin": "1018-BI75",
       "agency_code": "1018",
       "agency": "DOI/FWS",
@@ -298,6 +289,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
+    },
+    {
+      "rin": "0648-BN79",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
+      "received_date": "2026-07-22",
+      "rrid": "1475166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
     },
     {
       "rin": "1210-ZA37",
@@ -417,15 +417,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1459664"
     },
     {
-      "rin": "0938-AV78",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "FY 2027 Hospice Wage Index, Payment Rate Update, and Quality Reporting Requirements (CMS-1851)",
-      "received_date": "2026-07-09",
-      "rrid": "1459916",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1459916"
-    },
-    {
       "rin": "2105-AF33",
       "agency_code": "2105",
       "agency": "DOT/OST",
@@ -433,15 +424,6 @@
       "received_date": "2026-07-09",
       "rrid": "1454915",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1454915"
-    },
-    {
-      "rin": "2900-AS68",
-      "agency_code": "2900",
-      "agency": "VA",
-      "title": "Dole State and Tribal Outreach Grant Program",
-      "received_date": "2026-07-08",
-      "rrid": "1459663",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1459663"
     },
     {
       "rin": "2040-AG47",
@@ -469,15 +451,6 @@
       "received_date": "2026-07-06",
       "rrid": "1454912",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1454912"
-    },
-    {
-      "rin": "3206-AO96",
-      "agency_code": "3206",
-      "agency": "OPM",
-      "title": "Streamlining Probationary and Trial Period Appeals",
-      "received_date": "2026-07-06",
-      "rrid": "1454663",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1454663"
     },
     {
       "rin": "0938-AW04",
@@ -523,15 +496,6 @@
       "received_date": "2026-06-30",
       "rrid": "1447213",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1447213"
-    },
-    {
-      "rin": "1125-AB02",
-      "agency_code": "1125",
-      "agency": "DOJ/EOIR",
-      "title": "Civil Money Penalty for Actions in Contempt of an Immigration Judge's Proper Exercise of Authority",
-      "received_date": "2026-06-30",
-      "rrid": "1449666",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1449666"
     },
     {
       "rin": "1210-AC37",
@@ -660,15 +624,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440012"
     },
     {
-      "rin": "1615-AD05",
-      "agency_code": "1615",
-      "agency": "DHS/USCIS",
-      "title": "Removal of the Automatic Extension of Employment Authorization Documents",
-      "received_date": "2026-06-23",
-      "rrid": "1437162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
-    },
-    {
       "rin": "0648-BN70",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -676,6 +631,15 @@
       "received_date": "2026-06-23",
       "rrid": "1437168",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
+    },
+    {
+      "rin": "1615-AD05",
+      "agency_code": "1615",
+      "agency": "DHS/USCIS",
+      "title": "Removal of the Automatic Extension of Employment Authorization Documents",
+      "received_date": "2026-06-23",
+      "rrid": "1437162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
     },
     {
       "rin": "3135-AA37",
@@ -831,15 +795,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1409667"
     },
     {
-      "rin": "1400-AG33",
-      "agency_code": "1400",
-      "agency": "STATE",
-      "title": "Visas: Visa Bond Program",
-      "received_date": "2026-06-04",
-      "rrid": "1407268",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1407268"
-    },
-    {
       "rin": "1110-AA35",
       "agency_code": "1110",
       "agency": "DOJ/FBI",
@@ -910,15 +865,6 @@
       "received_date": "2026-05-22",
       "rrid": "1387166",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387166"
-    },
-    {
-      "rin": "1615-AD19",
-      "agency_code": "1615",
-      "agency": "DHS/USCIS",
-      "title": "Mandatory Electronic Filing (e-Filing)",
-      "received_date": "2026-05-19",
-      "rrid": "1382316",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1382316"
     },
     {
       "rin": "0584-AE85",
