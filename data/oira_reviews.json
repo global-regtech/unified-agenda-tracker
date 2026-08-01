@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-07-31T14:55:05Z",
-  "count": 129,
+  "generated_at": "2026-08-01T14:04:05Z",
+  "count": 127,
   "reviews": [
+    {
+      "rin": "1904-AG06",
+      "agency_code": "1904",
+      "agency": "DOE/EE",
+      "title": "Energy Conservation Program: Test Procedures for Commercial Warm Air Furnaces",
+      "received_date": "2026-07-31",
+      "rrid": "1492666",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492666"
+    },
     {
       "rin": "1004-AF57",
       "agency_code": "1004",
@@ -282,15 +291,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475163"
     },
     {
-      "rin": "1018-BI75",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
-      "received_date": "2026-07-22",
-      "rrid": "1475162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
-    },
-    {
       "rin": "0648-BN79",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -298,6 +298,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475166",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
+    },
+    {
+      "rin": "1018-BI75",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
+      "received_date": "2026-07-22",
+      "rrid": "1475162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
     },
     {
       "rin": "1210-ZA37",
@@ -579,15 +588,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440263"
     },
     {
-      "rin": "0938-AV79",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "Hospital Inpatient Prospective Payment Systems for Acute Care Hospitals; the Long-Term Care Hospital Prospective Payment System; and FY 2027 Rates (CMS-1849)",
-      "received_date": "2026-06-24",
-      "rrid": "1440264",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440264"
-    },
-    {
       "rin": "1400-AE73",
       "agency_code": "1400",
       "agency": "STATE",
@@ -849,15 +849,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1404663"
     },
     {
-      "rin": "0970-AD30",
-      "agency_code": "0970",
-      "agency": "HHS/ACF",
-      "title": "Modernize the Head Start Program by Reducing Requirements and Enhancing Alignment with State and Local Systems",
-      "received_date": "2026-05-22",
-      "rrid": "1397164",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1397164"
-    },
-    {
       "rin": "0910-ZD09",
       "agency_code": "0910",
       "agency": "HHS/FDA",
@@ -1081,15 +1072,6 @@
       "received_date": "2025-12-01",
       "rrid": "1194614",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1194614"
-    },
-    {
-      "rin": "0910-AJ02",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Substances Generally Recognized as Safe",
-      "received_date": "2025-12-01",
-      "rrid": "1194613",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1194613"
     },
     {
       "rin": "1120-AB83",
