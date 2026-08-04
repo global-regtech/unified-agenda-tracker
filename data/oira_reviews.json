@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-08-03T15:22:44Z",
-  "count": 129,
+  "generated_at": "2026-08-04T14:57:26Z",
+  "count": 133,
   "reviews": [
+    {
+      "rin": "0910-ZD60",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "White Paper: Proposed Definition of Ultra-Processed Food",
+      "received_date": "2026-08-03",
+      "rrid": "1495413",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1495413"
+    },
+    {
+      "rin": "1205-AC31",
+      "agency_code": "1205",
+      "agency": "DOL/ETA",
+      "title": "Unemployment Insurance Work Search Requirements",
+      "received_date": "2026-08-03",
+      "rrid": "1492866",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492866"
+    },
+    {
+      "rin": "1205-AC11",
+      "agency_code": "1205",
+      "agency": "DOL/ETA",
+      "title": "Federal-State Unemployment Compensation (UC) Program; Data Availability",
+      "received_date": "2026-08-03",
+      "rrid": "1492865",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492865"
+    },
+    {
+      "rin": "1400-AG35",
+      "agency_code": "1400",
+      "agency": "STATE",
+      "title": "International Traffic in Arms Regulations: Modification of U.S. Munitions List Category XX(a)",
+      "received_date": "2026-08-03",
+      "rrid": "1492862",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492862"
+    },
     {
       "rin": "3206-AO92",
       "agency_code": "3206",
@@ -642,15 +678,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440012"
     },
     {
-      "rin": "1615-AD05",
-      "agency_code": "1615",
-      "agency": "DHS/USCIS",
-      "title": "Removal of the Automatic Extension of Employment Authorization Documents",
-      "received_date": "2026-06-23",
-      "rrid": "1437162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
-    },
-    {
       "rin": "0648-BN70",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -658,6 +685,15 @@
       "received_date": "2026-06-23",
       "rrid": "1437168",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
+    },
+    {
+      "rin": "1615-AD05",
+      "agency_code": "1615",
+      "agency": "DHS/USCIS",
+      "title": "Removal of the Automatic Extension of Employment Authorization Documents",
+      "received_date": "2026-06-23",
+      "rrid": "1437162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
     },
     {
       "rin": "3135-AA37",
