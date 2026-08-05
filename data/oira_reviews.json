@@ -1,7 +1,70 @@
 {
-  "generated_at": "2026-08-04T14:57:26Z",
-  "count": 133,
+  "generated_at": "2026-08-05T14:43:53Z",
+  "count": 138,
   "reviews": [
+    {
+      "rin": "0648-BN42",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Taking Marine Mammals Incidental to the Duckabush Estuary Restoration Project in Washington",
+      "received_date": "2026-08-04",
+      "rrid": "1495414",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1495414"
+    },
+    {
+      "rin": "3170-AB39",
+      "agency_code": "3170",
+      "agency": "CFPB",
+      "title": "Personal Financial Data Rights Reconsideration",
+      "received_date": "2026-08-04",
+      "rrid": "1495765",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1495765"
+    },
+    {
+      "rin": "1901-AB75",
+      "agency_code": "1901",
+      "agency": "DOE/ENDEP",
+      "title": "Revisions to Occupational Radiation Protection Regulations to Support Reform of Nuclear Reactor Testing",
+      "received_date": "2026-08-04",
+      "rrid": "1452363",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1452363"
+    },
+    {
+      "rin": "0925-ZA19",
+      "agency_code": "0925",
+      "agency": "HHS/NIH",
+      "title": "NIH Policy on Sharing Summary Level Results with Clinical Research Participants",
+      "received_date": "2026-08-04",
+      "rrid": "1495762",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1495762"
+    },
+    {
+      "rin": "3206-AO24",
+      "agency_code": "3206",
+      "agency": "OPM",
+      "title": "Recruitment and Selection Through Competitive Examination and Pooled Hiring Actions",
+      "received_date": "2026-08-04",
+      "rrid": "1495415",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1495415"
+    },
+    {
+      "rin": "3064-AG16",
+      "agency_code": "3064",
+      "agency": "FDIC",
+      "title": "Unsafe or Unsound Practices, Matters Requiring Attention",
+      "received_date": "2026-08-04",
+      "rrid": "1492863",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492863"
+    },
+    {
+      "rin": "1557-AF35",
+      "agency_code": "1557",
+      "agency": "TREAS/OCC",
+      "title": "Unsafe or Unsound Practices, Matters Requiring Attention",
+      "received_date": "2026-08-04",
+      "rrid": "1492864",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492864"
+    },
     {
       "rin": "0910-ZD60",
       "agency_code": "0910",
@@ -345,15 +408,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475163"
     },
     {
-      "rin": "1018-BI75",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
-      "received_date": "2026-07-22",
-      "rrid": "1475162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
-    },
-    {
       "rin": "0648-BN79",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -361,6 +415,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475166",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
+    },
+    {
+      "rin": "1018-BI75",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
+      "received_date": "2026-07-22",
+      "rrid": "1475162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
     },
     {
       "rin": "1210-ZA37",
@@ -415,15 +478,6 @@
       "received_date": "2026-07-17",
       "rrid": "1467663",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1467663"
-    },
-    {
-      "rin": "1545-BS06",
-      "agency_code": "1545",
-      "agency": "TREAS/IRS",
-      "title": "Application of the Personal Responsibility and Work Opportunity Reconciliation Act of 1996 (PRWORA) to the Refunded Portion of Certain Federal Refundable Tax Credits",
-      "received_date": "2026-07-14",
-      "rrid": "1465163",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1465163"
     },
     {
       "rin": "0938-AV99",
@@ -606,15 +660,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1442165"
     },
     {
-      "rin": "2127-ZA29",
-      "agency_code": "2127",
-      "agency": "DOT/NHTSA",
-      "title": "New Car Assessment Program (NCAP); Removal of Dynamic Rollover Resistance Test and Side Air Bag Out-of-Position Testing; Updates to NCAP's 10-Year Roadmap",
-      "received_date": "2026-06-25",
-      "rrid": "1442163",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1442163"
-    },
-    {
       "rin": "1545-BS05",
       "agency_code": "1545",
       "agency": "TREAS/IRS",
@@ -678,15 +723,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440012"
     },
     {
-      "rin": "0648-BN70",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Regulations for Listing Species and Designating Critical Habitat",
-      "received_date": "2026-06-23",
-      "rrid": "1437168",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
-    },
-    {
       "rin": "1615-AD05",
       "agency_code": "1615",
       "agency": "DHS/USCIS",
@@ -694,6 +730,15 @@
       "received_date": "2026-06-23",
       "rrid": "1437162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
+    },
+    {
+      "rin": "0648-BN70",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Regulations for Listing Species and Designating Critical Habitat",
+      "received_date": "2026-06-23",
+      "rrid": "1437168",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
     },
     {
       "rin": "3135-AA37",
