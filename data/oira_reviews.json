@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-08-05T14:43:53Z",
-  "count": 138,
+  "generated_at": "2026-08-06T14:43:21Z",
+  "count": 139,
   "reviews": [
+    {
+      "rin": "0970-AD47",
+      "agency_code": "0970",
+      "agency": "HHS/ACF",
+      "title": "Ensuring Program Integrity for Head Start Programs",
+      "received_date": "2026-08-05",
+      "rrid": "1496015",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1496015"
+    },
+    {
+      "rin": "1840-AD82",
+      "agency_code": "1840",
+      "agency": "ED/OPE",
+      "title": "Accreditation Issues",
+      "received_date": "2026-08-05",
+      "rrid": "1496012",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1496012"
+    },
     {
       "rin": "0648-BN42",
       "agency_code": "0648",
@@ -48,15 +66,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1495415"
     },
     {
-      "rin": "3064-AG16",
-      "agency_code": "3064",
-      "agency": "FDIC",
-      "title": "Unsafe or Unsound Practices, Matters Requiring Attention",
-      "received_date": "2026-08-04",
-      "rrid": "1492863",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492863"
-    },
-    {
       "rin": "1557-AF35",
       "agency_code": "1557",
       "agency": "TREAS/OCC",
@@ -64,6 +73,15 @@
       "received_date": "2026-08-04",
       "rrid": "1492864",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492864"
+    },
+    {
+      "rin": "3064-AG16",
+      "agency_code": "3064",
+      "agency": "FDIC",
+      "title": "Unsafe or Unsound Practices, Matters Requiring Attention",
+      "received_date": "2026-08-04",
+      "rrid": "1492863",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492863"
     },
     {
       "rin": "0910-ZD60",
@@ -408,15 +426,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475163"
     },
     {
-      "rin": "0648-BN79",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
-      "received_date": "2026-07-22",
-      "rrid": "1475166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
-    },
-    {
       "rin": "1018-BI75",
       "agency_code": "1018",
       "agency": "DOI/FWS",
@@ -426,6 +435,15 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
     },
     {
+      "rin": "0648-BN79",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
+      "received_date": "2026-07-22",
+      "rrid": "1475166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
+    },
+    {
       "rin": "1210-ZA37",
       "agency_code": "1210",
       "agency": "DOL/EBSA",
@@ -433,15 +451,6 @@
       "received_date": "2026-07-20",
       "rrid": "1472665",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1472665"
-    },
-    {
-      "rin": "1545-BR85",
-      "agency_code": "1545",
-      "agency": "TREAS/IRS",
-      "title": "Guidance Related to Foreign Derived Deduction Eligible Income and Net CFC Tested Income Under Section 250",
-      "received_date": "2026-07-20",
-      "rrid": "1472663",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1472663"
     },
     {
       "rin": "0938-AV89",
