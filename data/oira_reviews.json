@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-08-07T13:46:34Z",
-  "count": 143,
+  "generated_at": "2026-08-08T13:25:06Z",
+  "count": 139,
   "reviews": [
+    {
+      "rin": "0938-AV97",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "Comprehensive Regulations to Uncover Suspicious Healthcare (CRUSH) (CMS-6098)",
+      "received_date": "2026-08-07",
+      "rrid": "1497865",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1497865"
+    },
+    {
+      "rin": "0970-AD43",
+      "agency_code": "0970",
+      "agency": "HHS/ACF",
+      "title": "Unaccompanied Alien Children Bureau Reunification of Certain Unaccompanied Alien Children with a Parent or Legal Guardian in a Country Other Than the United States",
+      "received_date": "2026-08-07",
+      "rrid": "1497863",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1497863"
+    },
+    {
+      "rin": "1024-AE96",
+      "agency_code": "1024",
+      "agency": "DOI/NPS",
+      "title": "Alaska; Hunting and Trapping in National Preserves",
+      "received_date": "2026-08-07",
+      "rrid": "1496013",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1496013"
+    },
+    {
+      "rin": "2040-AG55",
+      "agency_code": "2040",
+      "agency": "EPA/OW",
+      "title": "Rescission of Water Quality Standards Regulatory Revisions to Protect Tribal Reserved Rights",
+      "received_date": "2026-08-07",
+      "rrid": "1485163",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1485163"
+    },
+    {
+      "rin": "0945-ZA12",
+      "agency_code": "0945",
+      "agency": "HHS/OCR",
+      "title": "Dear Colleague Letter: Combating Discrimination Rooted in Antisemitism in HHS-Funded Programs and Activities",
+      "received_date": "2026-08-07",
+      "rrid": "1497862",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1497862"
+    },
     {
       "rin": "0910-AI83",
       "agency_code": "0910",
@@ -102,15 +147,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1495415"
     },
     {
-      "rin": "3064-AG16",
-      "agency_code": "3064",
-      "agency": "FDIC",
-      "title": "Unsafe or Unsound Practices, Matters Requiring Attention",
-      "received_date": "2026-08-04",
-      "rrid": "1492863",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492863"
-    },
-    {
       "rin": "1557-AF35",
       "agency_code": "1557",
       "agency": "TREAS/OCC",
@@ -118,6 +154,15 @@
       "received_date": "2026-08-04",
       "rrid": "1492864",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492864"
+    },
+    {
+      "rin": "3064-AG16",
+      "agency_code": "3064",
+      "agency": "FDIC",
+      "title": "Unsafe or Unsound Practices, Matters Requiring Attention",
+      "received_date": "2026-08-04",
+      "rrid": "1492863",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492863"
     },
     {
       "rin": "0910-ZD60",
@@ -163,15 +208,6 @@
       "received_date": "2026-07-31",
       "rrid": "1492868",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492868"
-    },
-    {
-      "rin": "3245-AI75",
-      "agency_code": "3245",
-      "agency": "SBA",
-      "title": "Reforms to 13 CFR 124.103 to Remove SBA's 8(a) Program's Rebuttable Presumption of Social Disadvantage for Individually Owned Firms Only. Reforms do not Impact Entity-owned Firms",
-      "received_date": "2026-07-31",
-      "rrid": "1492867",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492867"
     },
     {
       "rin": "1904-AG06",
@@ -246,15 +282,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1487666"
     },
     {
-      "rin": "1545-BR75",
-      "agency_code": "1545",
-      "agency": "TREAS/IRS",
-      "title": "Car Loan Interest Deduction",
-      "received_date": "2026-07-28",
-      "rrid": "1487667",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1487667"
-    },
-    {
       "rin": "1400-AG31",
       "agency_code": "1400",
       "agency": "STATE",
@@ -289,15 +316,6 @@
       "received_date": "2026-07-28",
       "rrid": "1485172",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1485172"
-    },
-    {
-      "rin": "3124-AA33",
-      "agency_code": "3124",
-      "agency": "MSPB",
-      "title": "Appellate Jurisdiction Update II",
-      "received_date": "2026-07-27",
-      "rrid": "1467662",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1467662"
     },
     {
       "rin": "3210-AA00",
@@ -363,15 +381,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1485167"
     },
     {
-      "rin": "3084-ZA02",
-      "agency_code": "3084",
-      "agency": "FTC",
-      "title": "Enforcement Policy Statement Regarding Personalized Pricing",
-      "received_date": "2026-07-27",
-      "rrid": "1485166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1485166"
-    },
-    {
       "rin": "0938-AV64",
       "agency_code": "0938",
       "agency": "HHS/CMS",
@@ -388,33 +397,6 @@
       "received_date": "2026-07-23",
       "rrid": "1480167",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1480167"
-    },
-    {
-      "rin": "0925-ZA17",
-      "agency_code": "0925",
-      "agency": "HHS/NIH",
-      "title": "Recent Updates: Supporting a Safe and Respectful Workplace at Institutions that Receive NIH Funding",
-      "received_date": "2026-07-23",
-      "rrid": "1480166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1480166"
-    },
-    {
-      "rin": "0925-ZA16",
-      "agency_code": "0925",
-      "agency": "HHS/NIH",
-      "title": "Request for Information (RFI) on Proposed Changes to Reporting Outcomes from NIH Peer Review",
-      "received_date": "2026-07-23",
-      "rrid": "1480165",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1480165"
-    },
-    {
-      "rin": "0938-ZC05",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "Regulatory Alignment for Predictable and Immediate Device (RAPID) Coverage Pathway (CMS-3487)",
-      "received_date": "2026-07-23",
-      "rrid": "1480164",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1480164"
     },
     {
       "rin": "3245-ZA17",
@@ -462,15 +444,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475163"
     },
     {
-      "rin": "1018-BI75",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
-      "received_date": "2026-07-22",
-      "rrid": "1475162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
-    },
-    {
       "rin": "0648-BN79",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -478,6 +451,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475166",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
+    },
+    {
+      "rin": "1018-BI75",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
+      "received_date": "2026-07-22",
+      "rrid": "1475162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
     },
     {
       "rin": "1210-ZA37",
@@ -667,15 +649,6 @@
       "received_date": "2026-06-30",
       "rrid": "1449664",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1449664"
-    },
-    {
-      "rin": "2127-ZA30",
-      "agency_code": "2127",
-      "agency": "DOT/NHTSA",
-      "title": "Further Resetting NHTSA's Fuel Economy Program",
-      "received_date": "2026-06-29",
-      "rrid": "1447212",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1447212"
     },
     {
       "rin": "0938-AV66",
@@ -964,15 +937,6 @@
       "received_date": "2026-06-02",
       "rrid": "1409663",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1409663"
-    },
-    {
-      "rin": "1651-AB52",
-      "agency_code": "1651",
-      "agency": "DHS/USCBP",
-      "title": "Automated Commercial Environment (ACE) Electronic Export Manifest for Rail Cargo",
-      "received_date": "2026-06-01",
-      "rrid": "814513",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=814513"
     },
     {
       "rin": "0910-ZD15",
