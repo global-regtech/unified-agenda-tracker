@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-08-10T13:51:33Z",
-  "count": 139,
+  "generated_at": "2026-08-11T13:50:27Z",
+  "count": 138,
   "reviews": [
+    {
+      "rin": "3150-AL61",
+      "agency_code": "3150",
+      "agency": "NRC",
+      "title": "Exemptions from Materials Licensing [NRC-2025-1568]",
+      "received_date": "2026-08-10",
+      "rrid": "1495763",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1495763"
+    },
+    {
+      "rin": "1615-AD23",
+      "agency_code": "1615",
+      "agency": "DHS/USCIS",
+      "title": "Removing 30-Day Refugee Termination Notice",
+      "received_date": "2026-08-10",
+      "rrid": "1497864",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1497864"
+    },
     {
       "rin": "0938-AV97",
       "agency_code": "0938",
@@ -147,15 +165,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1495415"
     },
     {
-      "rin": "1557-AF35",
-      "agency_code": "1557",
-      "agency": "TREAS/OCC",
-      "title": "Unsafe or Unsound Practices, Matters Requiring Attention",
-      "received_date": "2026-08-04",
-      "rrid": "1492864",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492864"
-    },
-    {
       "rin": "3064-AG16",
       "agency_code": "3064",
       "agency": "FDIC",
@@ -163,6 +172,15 @@
       "received_date": "2026-08-04",
       "rrid": "1492863",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492863"
+    },
+    {
+      "rin": "1557-AF35",
+      "agency_code": "1557",
+      "agency": "TREAS/OCC",
+      "title": "Unsafe or Unsound Practices, Matters Requiring Attention",
+      "received_date": "2026-08-04",
+      "rrid": "1492864",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492864"
     },
     {
       "rin": "0910-ZD60",
@@ -660,15 +678,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1444715"
     },
     {
-      "rin": "1205-AC22",
-      "agency_code": "1205",
-      "agency": "DOL/ETA",
-      "title": "Wagner-Peyser Act Employment Service Staffing",
-      "received_date": "2026-06-26",
-      "rrid": "1440262",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440262"
-    },
-    {
       "rin": "0607-AA75",
       "agency_code": "0607",
       "agency": "DOC/CENSUS",
@@ -741,15 +750,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440012"
     },
     {
-      "rin": "1615-AD05",
-      "agency_code": "1615",
-      "agency": "DHS/USCIS",
-      "title": "Removal of the Automatic Extension of Employment Authorization Documents",
-      "received_date": "2026-06-23",
-      "rrid": "1437162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
-    },
-    {
       "rin": "0648-BN70",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -757,6 +757,15 @@
       "received_date": "2026-06-23",
       "rrid": "1437168",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
+    },
+    {
+      "rin": "1615-AD05",
+      "agency_code": "1615",
+      "agency": "DHS/USCIS",
+      "title": "Removal of the Automatic Extension of Employment Authorization Documents",
+      "received_date": "2026-06-23",
+      "rrid": "1437162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
     },
     {
       "rin": "3135-AA37",
@@ -793,15 +802,6 @@
       "received_date": "2026-06-17",
       "rrid": "1434663",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1434663"
-    },
-    {
-      "rin": "0938-AV73",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "Prohibition on Federal Medicaid and Children's Health Insurance Program Funding for Specified Sex-Rejecting Procedures Furnished to Children and Youth (CMS-2451)",
-      "received_date": "2026-06-16",
-      "rrid": "1429720",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1429720"
     },
     {
       "rin": "1010-AE38",
@@ -1018,15 +1018,6 @@
       "received_date": "2026-05-08",
       "rrid": "1374664",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1374664"
-    },
-    {
-      "rin": "1219-AC22",
-      "agency_code": "1219",
-      "agency": "DOL/MSHA",
-      "title": "Respirable Crystalline Silica",
-      "received_date": "2026-05-04",
-      "rrid": "1367012",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1367012"
     },
     {
       "rin": "1400-AF97",
