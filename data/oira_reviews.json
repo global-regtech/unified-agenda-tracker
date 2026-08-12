@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-08-11T13:50:27Z",
-  "count": 138,
+  "generated_at": "2026-08-12T13:54:17Z",
+  "count": 142,
   "reviews": [
+    {
+      "rin": "0910-ZD63",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Frequently Asked Questions--Developing Potential Cellular and Gene Therapy Products; Final Guidance for Industry; Availability",
+      "received_date": "2026-08-11",
+      "rrid": "1500763",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1500763"
+    },
+    {
+      "rin": "2090-AA42",
+      "agency_code": "2090",
+      "agency": "EPA/AdmO",
+      "title": "Rescinding Portions of Environmental Protection Agency's Nondiscrimination Regulations to Conform with the Statutory Text of Title VI and to Implement Executive Order 14281",
+      "received_date": "2026-08-11",
+      "rrid": "1497866",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1497866"
+    },
+    {
+      "rin": "1210-AC43",
+      "agency_code": "1210",
+      "agency": "DOL/EBSA",
+      "title": "Definition of an \"Employer\" Under Section 3(5) of ERISA -- Association Health Plans",
+      "received_date": "2026-08-11",
+      "rrid": "1500362",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1500362"
+    },
+    {
+      "rin": "0648-BO54",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Streamlining the Regulations Governing the Review of Coastal Zone Management Programs",
+      "received_date": "2026-08-11",
+      "rrid": "1475165",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475165"
+    },
     {
       "rin": "3150-AL61",
       "agency_code": "3150",
@@ -750,15 +786,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440012"
     },
     {
-      "rin": "0648-BN70",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Regulations for Listing Species and Designating Critical Habitat",
-      "received_date": "2026-06-23",
-      "rrid": "1437168",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
-    },
-    {
       "rin": "1615-AD05",
       "agency_code": "1615",
       "agency": "DHS/USCIS",
@@ -766,6 +793,15 @@
       "received_date": "2026-06-23",
       "rrid": "1437162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
+    },
+    {
+      "rin": "0648-BN70",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Regulations for Listing Species and Designating Critical Habitat",
+      "received_date": "2026-06-23",
+      "rrid": "1437168",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
     },
     {
       "rin": "3135-AA37",
