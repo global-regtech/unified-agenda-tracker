@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-08-12T13:54:17Z",
-  "count": 142,
+  "generated_at": "2026-08-13T13:54:12Z",
+  "count": 138,
   "reviews": [
+    {
+      "rin": "1018-BI71",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "National Wildlife Refuge System; 2026\u20132027 Station-Specific Hunting and Sport Fishing Updates",
+      "received_date": "2026-08-12",
+      "rrid": "1500915",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1500915"
+    },
+    {
+      "rin": "1205-AC21",
+      "agency_code": "1205",
+      "agency": "DOL/ETA",
+      "title": "Prohibiting Illegal Discrimination in Registered Apprenticeship Programs",
+      "received_date": "2026-08-12",
+      "rrid": "1500914",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1500914"
+    },
+    {
+      "rin": "3235-AN65",
+      "agency_code": "3235",
+      "agency": "SEC",
+      "title": "Pay-to-Play Reform",
+      "received_date": "2026-08-12",
+      "rrid": "1492665",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492665"
+    },
+    {
+      "rin": "1875-AA17",
+      "agency_code": "1875",
+      "agency": "ED/OPEPD",
+      "title": "Revisions to EDGAR - Application Notices",
+      "received_date": "2026-08-12",
+      "rrid": "1500913",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1500913"
+    },
+    {
+      "rin": "0910-ZD64",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Hazard Analysis and Risk-Based Preventive Controls for Human Food; Draft Guidance for Industry",
+      "received_date": "2026-08-11",
+      "rrid": "1500764",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1500764"
+    },
     {
       "rin": "0910-ZD63",
       "agency_code": "0910",
@@ -87,7 +132,7 @@
       "rin": "2040-AG55",
       "agency_code": "2040",
       "agency": "EPA/OW",
-      "title": "Rescission of Water Quality Standards Regulatory Revisions to Protect Tribal Reserved Rights",
+      "title": "Rescinding the 2024 Rule Regarding Tribal Reserved Rights under the Clean Water Act",
       "received_date": "2026-08-07",
       "rrid": "1485163",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1485163"
@@ -181,15 +226,6 @@
       "received_date": "2026-08-04",
       "rrid": "1452363",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1452363"
-    },
-    {
-      "rin": "0925-ZA19",
-      "agency_code": "0925",
-      "agency": "HHS/NIH",
-      "title": "NIH Policy on Sharing Summary Level Results with Clinical Research Participants",
-      "received_date": "2026-08-04",
-      "rrid": "1495762",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1495762"
     },
     {
       "rin": "3206-AO24",
@@ -345,15 +381,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1485164"
     },
     {
-      "rin": "1505-AC95",
-      "agency_code": "1505",
-      "agency": "TREAS/DO",
-      "title": "GENIUS Act Regulations on Payment Stablecoin Issuance, Offer, and Sale",
-      "received_date": "2026-07-28",
-      "rrid": "1487662",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1487662"
-    },
-    {
       "rin": "0970-AD32",
       "agency_code": "0970",
       "agency": "HHS/ACF",
@@ -426,15 +453,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1485168"
     },
     {
-      "rin": "1875-AA17",
-      "agency_code": "1875",
-      "agency": "ED/OPEPD",
-      "title": "Revisions to EDGAR - Application Notices",
-      "received_date": "2026-07-27",
-      "rrid": "1485167",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1485167"
-    },
-    {
       "rin": "0938-AV64",
       "agency_code": "0938",
       "agency": "HHS/CMS",
@@ -498,15 +516,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475163"
     },
     {
-      "rin": "0648-BN79",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
-      "received_date": "2026-07-22",
-      "rrid": "1475166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
-    },
-    {
       "rin": "1018-BI75",
       "agency_code": "1018",
       "agency": "DOI/FWS",
@@ -514,6 +523,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
+    },
+    {
+      "rin": "0648-BN79",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
+      "received_date": "2026-07-22",
+      "rrid": "1475166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
     },
     {
       "rin": "1210-ZA37",
@@ -577,15 +595,6 @@
       "received_date": "2026-07-13",
       "rrid": "1462662",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1462662"
-    },
-    {
-      "rin": "3060-AM40",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Unleashing the Power of Unlicensed Ultrawideband Devices, ET Docket No. 26-XXX",
-      "received_date": "2026-07-13",
-      "rrid": "1424913",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1424913"
     },
     {
       "rin": "0910-ZD48",
@@ -687,15 +696,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1444714"
     },
     {
-      "rin": "2127-AM76",
-      "agency_code": "2127",
-      "agency": "DOT/NHTSA",
-      "title": "Corporate Average Fuel Economy Standards Amendment",
-      "received_date": "2026-06-30",
-      "rrid": "1447213",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1447213"
-    },
-    {
       "rin": "1210-AC37",
       "agency_code": "1210",
       "agency": "DOL/EBSA",
@@ -739,15 +739,6 @@
       "received_date": "2026-06-24",
       "rrid": "1434662",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1434662"
-    },
-    {
-      "rin": "1651-AB60",
-      "agency_code": "1651",
-      "agency": "DHS/USCBP",
-      "title": "Advanced Passenger Information for Rail",
-      "received_date": "2026-06-24",
-      "rrid": "1440263",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440263"
     },
     {
       "rin": "1400-AE73",
@@ -829,15 +820,6 @@
       "received_date": "2026-06-17",
       "rrid": "1429717",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1429717"
-    },
-    {
-      "rin": "0925-ZA13",
-      "agency_code": "0925",
-      "agency": "HHS/NIH",
-      "title": "Request for Information: Draft NIH Biosafety Policy for Research Involving Biohazards",
-      "received_date": "2026-06-17",
-      "rrid": "1434663",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1434663"
     },
     {
       "rin": "1010-AE38",
@@ -1056,15 +1038,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1374664"
     },
     {
-      "rin": "1400-AF97",
-      "agency_code": "1400",
-      "agency": "STATE",
-      "title": "Passports:  Online Passport Renewal",
-      "received_date": "2026-04-27",
-      "rrid": "1327017",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1327017"
-    },
-    {
       "rin": "0938-AW03",
       "agency_code": "0938",
       "agency": "HHS/CMS",
@@ -1099,15 +1072,6 @@
       "received_date": "2026-04-02",
       "rrid": "1334515",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1334515"
-    },
-    {
-      "rin": "3235-AN38",
-      "agency_code": "3235",
-      "agency": "SEC",
-      "title": "Crypto Assets",
-      "received_date": "2026-03-20",
-      "rrid": "1282115",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1282115"
     },
     {
       "rin": "0694-AK21",

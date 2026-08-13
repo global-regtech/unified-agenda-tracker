@@ -92,7 +92,7 @@
     "last_modified": "2026-03-09T14:19:30Z",
     "fetched_at": "2026-06-01T00:14:51.187639Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:02:58.778499+00:00",
+    "comment_fetched_at": "2026-08-13T14:02:31.865026+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -144,7 +144,7 @@
     "last_modified": "2025-08-11T14:10:00Z",
     "fetched_at": "2026-06-01T00:15:17.354198Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:03:06.432244+00:00",
+    "comment_fetched_at": "2026-08-13T14:02:39.616982+00:00",
     "documents": []
   },
   "0563-AC89": {
@@ -793,7 +793,7 @@
     "last_modified": "2025-07-02T10:12:31Z",
     "fetched_at": "2026-06-01T00:24:16.797779Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:03:21.288773+00:00",
+    "comment_fetched_at": "2026-08-13T14:02:54.549597+00:00",
     "documents": []
   },
   "0584-AF12": {
@@ -808,7 +808,7 @@
     "last_modified": "2026-05-08T16:52:05Z",
     "fetched_at": "2026-06-01T00:24:34.150546Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:03:28.703162+00:00",
+    "comment_fetched_at": "2026-08-13T14:03:02.009679+00:00",
     "documents": []
   },
   "0584-AF19": {
@@ -895,7 +895,7 @@
     "last_modified": "2025-05-22T14:00:57Z",
     "fetched_at": "2026-06-01T00:25:08.940432Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:03:36.140251+00:00",
+    "comment_fetched_at": "2026-08-13T14:03:09.473667+00:00",
     "documents": []
   },
   "0584-AE75": {
@@ -961,7 +961,7 @@
     "last_modified": "2025-06-06T16:21:54Z",
     "fetched_at": "2026-06-01T00:25:39.329519Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:03:43.577260+00:00",
+    "comment_fetched_at": "2026-08-13T14:03:16.920161+00:00",
     "documents": []
   },
   "0584-AF20": {
@@ -976,7 +976,7 @@
     "last_modified": "2025-06-17T17:07:34Z",
     "fetched_at": "2026-06-01T00:25:43.672625Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:03:50.996058+00:00",
+    "comment_fetched_at": "2026-08-13T14:03:24.377518+00:00",
     "documents": []
   },
   "0596-AD12": {
@@ -1934,7 +1934,7 @@
     "last_modified": "2026-05-22T18:15:28Z",
     "fetched_at": "2026-06-01T00:31:35.959709Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-08-12T14:04:05.838268+00:00",
+    "comment_fetched_at": "2026-08-13T14:03:39.279055+00:00",
     "documents": []
   },
   "0648-BN69": {
@@ -1970,7 +1970,7 @@
     "last_modified": "2025-11-19T17:04:57Z",
     "fetched_at": "2026-06-01T00:31:44.660121Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:04:13.257032+00:00",
+    "comment_fetched_at": "2026-08-13T14:03:46.737204+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -2006,7 +2006,7 @@
     "last_modified": "2026-03-04T16:47:58Z",
     "fetched_at": "2026-06-01T00:32:10.670592Z",
     "open_for_comment": true,
-    "comment_fetched_at": "2026-08-12T14:04:20.679185+00:00",
+    "comment_fetched_at": "2026-08-13T14:03:54.203773+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -2355,7 +2355,7 @@
     "last_modified": "2025-11-21T14:23:45Z",
     "fetched_at": "2026-06-01T01:04:39.041136Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:04:28.123798+00:00",
+    "comment_fetched_at": "2026-08-13T14:04:01.655415+00:00",
     "documents": []
   },
   "0648-BN79": {
@@ -2370,7 +2370,7 @@
     "last_modified": "2025-11-21T14:03:36Z",
     "fetched_at": "2026-06-01T01:04:43.392077Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:04:35.557372+00:00",
+    "comment_fetched_at": "2026-08-13T14:04:09.128634+00:00",
     "documents": []
   },
   "0648-BN96": {
@@ -2605,7 +2605,7 @@
     "last_modified": "2024-09-06T08:47:35Z",
     "fetched_at": "2026-06-01T01:05:35.537383Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:04:42.996800+00:00",
+    "comment_fetched_at": "2026-08-13T14:04:16.582059+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -2720,7 +2720,7 @@
     "last_modified": "2026-03-26T18:28:46Z",
     "fetched_at": "2026-06-01T01:06:01.616499Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:04:50.440939+00:00",
+    "comment_fetched_at": "2026-08-13T14:04:24.052335+00:00",
     "documents": [
       {
         "documentType": "Notice",
@@ -3901,7 +3901,7 @@
     "last_modified": "2025-06-02T23:12:43Z",
     "fetched_at": "2026-06-01T01:11:32.058725Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:04:57.865635+00:00",
+    "comment_fetched_at": "2026-08-13T14:04:31.514288+00:00",
     "documents": []
   },
   "0651-AD83": {
@@ -3916,7 +3916,7 @@
     "last_modified": "2025-08-14T18:51:37Z",
     "fetched_at": "2026-06-01T01:11:36.417862Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:05:05.312440+00:00",
+    "comment_fetched_at": "2026-08-13T14:04:38.974029+00:00",
     "documents": []
   },
   "0651-AD84": {
@@ -3931,7 +3931,7 @@
     "last_modified": "2025-06-18T19:16:38Z",
     "fetched_at": "2026-06-01T01:11:40.760692Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:05:12.730342+00:00",
+    "comment_fetched_at": "2026-08-13T14:04:46.443097+00:00",
     "documents": []
   },
   "0651-AD85": {
@@ -3961,7 +3961,7 @@
     "last_modified": "2025-07-08T12:50:04Z",
     "fetched_at": "2026-06-01T01:11:49.440382Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:05:20.149502+00:00",
+    "comment_fetched_at": "2026-08-13T14:04:53.900811+00:00",
     "documents": []
   },
   "0651-AD87": {
@@ -3976,7 +3976,7 @@
     "last_modified": "2025-10-03T00:19:20Z",
     "fetched_at": "2026-06-01T01:11:53.772312Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:05:27.563436+00:00",
+    "comment_fetched_at": "2026-08-13T14:05:01.349853+00:00",
     "documents": []
   },
   "0651-AD46": {
@@ -4302,7 +4302,7 @@
     "last_modified": "2024-12-05T11:30:46Z",
     "fetched_at": "2026-06-01T01:14:27.930525Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:05:34.976347+00:00",
+    "comment_fetched_at": "2026-08-13T14:05:08.811815+00:00",
     "documents": []
   },
   "0694-AJ90": {
@@ -4433,7 +4433,7 @@
     "last_modified": "2025-04-07T10:39:52Z",
     "fetched_at": "2026-06-01T01:17:52.414888Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:05:42.399934+00:00",
+    "comment_fetched_at": "2026-08-13T14:05:16.287763+00:00",
     "documents": []
   },
   "0694-AJ77": {
@@ -4448,7 +4448,7 @@
     "last_modified": "2024-12-05T11:30:46Z",
     "fetched_at": "2026-06-01T01:18:09.814130Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:05:49.817166+00:00",
+    "comment_fetched_at": "2026-08-13T14:05:23.736435+00:00",
     "documents": []
   },
   "0694-AJ93": {
@@ -4463,7 +4463,7 @@
     "last_modified": "2025-01-30T11:54:20Z",
     "fetched_at": "2026-06-01T01:18:40.202814Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:05:57.230603+00:00",
+    "comment_fetched_at": "2026-08-13T14:05:31.184450+00:00",
     "documents": []
   },
   "0694-AK04": {
@@ -4478,7 +4478,7 @@
     "last_modified": "2025-04-07T11:16:10Z",
     "fetched_at": "2026-06-01T01:19:06.239537Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:06:04.646624+00:00",
+    "comment_fetched_at": "2026-08-13T14:05:38.662506+00:00",
     "documents": []
   },
   "0694-AK08": {
@@ -4493,7 +4493,7 @@
     "last_modified": "2025-04-07T11:08:47Z",
     "fetched_at": "2026-06-01T01:19:14.931590Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:06:12.060811+00:00",
+    "comment_fetched_at": "2026-08-13T14:05:46.107807+00:00",
     "documents": []
   },
   "0701-AA87": {
@@ -4538,7 +4538,7 @@
     "last_modified": "2025-07-24T13:03:40Z",
     "fetched_at": "2026-06-01T01:19:36.633547Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:06:19.480309+00:00",
+    "comment_fetched_at": "2026-08-13T14:05:53.554329+00:00",
     "documents": []
   },
   "0702-AB02": {
@@ -6136,7 +6136,7 @@
     "last_modified": "2026-05-07T14:06:14Z",
     "fetched_at": "2026-06-01T01:24:37.327522Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:06:49.155731+00:00",
+    "comment_fetched_at": "2026-08-13T14:06:23.371881+00:00",
     "documents": []
   },
   "0750-AM20": {
@@ -6447,7 +6447,7 @@
     "last_modified": "2026-03-04T13:34:14Z",
     "fetched_at": "2026-06-01T01:28:15.763841Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:06:56.568860+00:00",
+    "comment_fetched_at": "2026-08-13T14:06:30.833098+00:00",
     "documents": []
   },
   "0790-AI73": {
@@ -8911,7 +8911,7 @@
     "last_modified": "2025-04-15T10:35:32Z",
     "fetched_at": "2026-06-01T03:25:02.995015Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:07:04.004468+00:00",
+    "comment_fetched_at": "2026-08-13T14:06:38.286970+00:00",
     "documents": []
   },
   "1904-AD79": {
@@ -9913,7 +9913,7 @@
     "last_modified": "2024-12-30T09:55:40Z",
     "fetched_at": "2026-06-01T03:25:51.490768Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:07:11.416805+00:00",
+    "comment_fetched_at": "2026-08-13T14:06:45.738796+00:00",
     "documents": [
       {
         "documentType": "Notice",
@@ -12205,7 +12205,7 @@
     "last_modified": "2025-10-01T17:10:08Z",
     "fetched_at": "2026-06-01T04:20:46.001014Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:07:41.161160+00:00",
+    "comment_fetched_at": "2026-08-13T14:07:15.599501+00:00",
     "documents": [
       {
         "documentType": "Other",
@@ -13878,7 +13878,7 @@
     "last_modified": "2026-05-29T18:47:40Z",
     "fetched_at": "2026-06-01T04:23:49.863231Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-08-12T14:07:48.643238+00:00",
+    "comment_fetched_at": "2026-08-13T14:07:23.150982+00:00",
     "documents": []
   },
   "0938-AT38": {
@@ -14043,7 +14043,7 @@
     "last_modified": "2025-11-20T14:18:07Z",
     "fetched_at": "2026-06-01T04:24:48.777130Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:07:56.060691+00:00",
+    "comment_fetched_at": "2026-08-13T14:07:30.616364+00:00",
     "documents": [
       {
         "documentType": "Notice",
@@ -14064,7 +14064,7 @@
     "last_modified": "2025-11-19T19:13:45Z",
     "fetched_at": "2026-06-01T04:24:53.129304Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:08:03.481278+00:00",
+    "comment_fetched_at": "2026-08-13T14:07:38.074120+00:00",
     "documents": [
       {
         "documentType": "Notice",
@@ -14085,7 +14085,7 @@
     "last_modified": "2025-11-20T15:19:52Z",
     "fetched_at": "2026-06-01T04:24:57.484598Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:08:10.894823+00:00",
+    "comment_fetched_at": "2026-08-13T14:07:45.528457+00:00",
     "documents": [
       {
         "documentType": "Notice",
@@ -14610,7 +14610,7 @@
     "fetched_at": "2026-06-01T04:38:41.110676Z",
     "open_for_comment": null,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:08:25.733978+00:00"
+    "comment_fetched_at": "2026-08-13T14:08:00.439158+00:00"
   },
   "1615-AC93": {
     "rin": "1615-AC93",
@@ -16050,7 +16050,7 @@
     "last_modified": "2024-08-26T13:14:35Z",
     "fetched_at": "2026-06-01T04:39:46.699186Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:08:48.014847+00:00",
+    "comment_fetched_at": "2026-08-13T14:08:22.817900+00:00",
     "documents": []
   },
   "1615-AC92": {
@@ -16116,7 +16116,7 @@
     "last_modified": "2022-06-22T12:00:24Z",
     "fetched_at": "2026-06-01T04:40:08.592430Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:08:55.446483+00:00",
+    "comment_fetched_at": "2026-08-13T14:08:30.266549+00:00",
     "documents": []
   },
   "1615-AC69": {
@@ -16486,7 +16486,7 @@
     "last_modified": "2026-05-26T14:24:05Z",
     "fetched_at": "2026-06-01T04:41:25.772835Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-08-12T14:09:02.956239+00:00",
+    "comment_fetched_at": "2026-08-13T14:08:37.744588+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -16609,7 +16609,7 @@
     "last_modified": "2019-03-06T13:52:52Z",
     "fetched_at": "2026-06-01T04:41:48.044608Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:09:10.379554+00:00",
+    "comment_fetched_at": "2026-08-13T14:08:45.223652+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -16686,7 +16686,7 @@
     "last_modified": "2024-08-26T13:00:14Z",
     "fetched_at": "2026-06-01T04:42:05.865345Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:09:17.851848+00:00",
+    "comment_fetched_at": "2026-08-13T14:08:52.694527+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -16707,7 +16707,7 @@
     "last_modified": "2024-08-26T12:59:38Z",
     "fetched_at": "2026-06-01T04:42:10.266318Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:09:25.302709+00:00",
+    "comment_fetched_at": "2026-08-13T14:09:00.165103+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -17647,7 +17647,7 @@
     "last_modified": "2025-04-11T08:28:11Z",
     "fetched_at": "2026-06-01T04:45:53.345726Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:09:32.759616+00:00",
+    "comment_fetched_at": "2026-08-13T14:09:07.624136+00:00",
     "documents": []
   },
   "2501-AE12": {
@@ -18531,7 +18531,7 @@
     "last_modified": "2026-05-28T10:26:12Z",
     "fetched_at": "2026-06-01T04:54:00.226114Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-08-12T14:10:09.920630+00:00",
+    "comment_fetched_at": "2026-08-13T14:09:44.890706+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -18593,7 +18593,7 @@
     "last_modified": "2026-02-25T14:35:50Z",
     "fetched_at": "2026-06-01T04:54:52.535484Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:10:17.341982+00:00",
+    "comment_fetched_at": "2026-08-13T14:09:52.368984+00:00",
     "documents": []
   },
   "1010-AE30": {
@@ -18608,7 +18608,7 @@
     "last_modified": "2026-02-23T20:36:32Z",
     "fetched_at": "2026-06-01T04:55:14.287844Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:10:24.756584+00:00",
+    "comment_fetched_at": "2026-08-13T14:09:59.819861+00:00",
     "documents": []
   },
   "1010-AE22": {
@@ -18623,7 +18623,7 @@
     "last_modified": "2025-10-10T19:56:01Z",
     "fetched_at": "2026-06-01T04:55:22.959188Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:10:32.184931+00:00",
+    "comment_fetched_at": "2026-08-13T14:10:07.266700+00:00",
     "documents": []
   },
   "1014-AA63": {
@@ -18680,7 +18680,7 @@
     "last_modified": "2025-09-15T10:51:32Z",
     "fetched_at": "2026-06-01T04:56:15.690860Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:10:47.038037+00:00",
+    "comment_fetched_at": "2026-08-13T14:10:22.158553+00:00",
     "documents": []
   },
   "1014-AA64": {
@@ -18710,7 +18710,7 @@
     "last_modified": "2025-09-15T12:43:40Z",
     "fetched_at": "2026-06-01T04:56:24.494164Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:10:54.451191+00:00",
+    "comment_fetched_at": "2026-08-13T14:10:29.609115+00:00",
     "documents": []
   },
   "1014-AA57": {
@@ -20676,7 +20676,7 @@
     "last_modified": "2025-08-18T13:25:37Z",
     "fetched_at": "2026-06-01T05:02:34.385298Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:11:09.324721+00:00",
+    "comment_fetched_at": "2026-08-13T14:10:44.523451+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -21838,7 +21838,7 @@
     "last_modified": "2026-05-27T13:29:08Z",
     "fetched_at": "2026-06-01T05:04:41.271572Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:11:16.747144+00:00",
+    "comment_fetched_at": "2026-08-13T14:10:51.997169+00:00",
     "documents": []
   },
   "1018-BF80": {
@@ -24437,7 +24437,7 @@
     "last_modified": "2026-05-05T15:34:47Z",
     "fetched_at": "2026-06-01T05:13:08.337509Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:11:24.167670+00:00",
+    "comment_fetched_at": "2026-08-13T14:10:59.454681+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -24956,7 +24956,7 @@
     "last_modified": "2025-06-18T12:35:01Z",
     "fetched_at": "2026-06-01T05:17:30.410850Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:11:39.004272+00:00",
+    "comment_fetched_at": "2026-08-13T14:11:14.373725+00:00",
     "documents": []
   },
   "1024-AE47": {
@@ -25022,7 +25022,7 @@
     "last_modified": "2025-01-17T08:40:09Z",
     "fetched_at": "2026-06-01T05:18:01.096302Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:11:46.430857+00:00",
+    "comment_fetched_at": "2026-08-13T14:11:21.842656+00:00",
     "documents": []
   },
   "1029-AC89": {
@@ -25052,7 +25052,7 @@
     "last_modified": "2025-12-10T14:43:32Z",
     "fetched_at": "2026-06-01T05:18:09.843899Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:11:53.851059+00:00",
+    "comment_fetched_at": "2026-08-13T14:11:29.290115+00:00",
     "documents": []
   },
   "1029-AC88": {
@@ -25858,7 +25858,7 @@
     "last_modified": "2026-05-21T14:20:22Z",
     "fetched_at": "2026-06-01T05:24:59.649982Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-08-12T14:12:01.276340+00:00",
+    "comment_fetched_at": "2026-08-13T14:11:36.767033+00:00",
     "documents": []
   },
   "1120-AB71": {
@@ -25978,7 +25978,7 @@
     "last_modified": "2024-08-26T13:00:08Z",
     "fetched_at": "2026-06-01T05:25:51.832518Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:12:08.695308+00:00",
+    "comment_fetched_at": "2026-08-13T14:11:44.225129+00:00",
     "documents": []
   },
   "1121-AA83": {
@@ -26354,7 +26354,7 @@
     "last_modified": "2021-06-11T13:19:30Z",
     "fetched_at": "2026-06-01T05:45:43.780060Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:12:23.577254+00:00",
+    "comment_fetched_at": "2026-08-13T14:11:59.164596+00:00",
     "documents": [
       {
         "documentType": "Other",
@@ -26375,7 +26375,7 @@
     "last_modified": "2024-08-26T12:59:30Z",
     "fetched_at": "2026-06-01T05:46:23.142947Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:12:31.101471+00:00",
+    "comment_fetched_at": "2026-08-13T14:12:06.628930+00:00",
     "documents": []
   },
   "1140-AA44": {
@@ -26797,7 +26797,7 @@
     "last_modified": "2024-08-26T13:12:13Z",
     "fetched_at": "2026-06-01T05:48:53.894013Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:12:38.518463+00:00",
+    "comment_fetched_at": "2026-08-13T14:12:14.105989+00:00",
     "documents": []
   },
   "1210-AC27": {
@@ -26833,7 +26833,7 @@
     "last_modified": "2024-08-26T13:06:59Z",
     "fetched_at": "2026-06-01T05:49:28.961205Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:12:53.387889+00:00",
+    "comment_fetched_at": "2026-08-13T14:12:29.007742+00:00",
     "documents": []
   },
   "1210-AC17": {
@@ -26848,7 +26848,7 @@
     "last_modified": "2024-08-26T13:00:42Z",
     "fetched_at": "2026-06-01T05:49:33.384552Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:13:00.863773+00:00",
+    "comment_fetched_at": "2026-08-13T14:12:36.506762+00:00",
     "documents": []
   },
   "1210-AC21": {
@@ -26980,7 +26980,7 @@
     "last_modified": "2024-08-26T13:14:09Z",
     "fetched_at": "2026-06-01T05:50:41.666335Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:13:08.347692+00:00",
+    "comment_fetched_at": "2026-08-13T14:12:43.982090+00:00",
     "documents": []
   },
   "1210-AC13": {
@@ -26995,7 +26995,7 @@
     "last_modified": "2024-08-26T13:13:44Z",
     "fetched_at": "2026-06-01T05:50:46.015893Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:13:15.841032+00:00",
+    "comment_fetched_at": "2026-08-13T14:12:51.525288+00:00",
     "documents": []
   },
   "1210-AC25": {
@@ -31814,7 +31814,7 @@
     "last_modified": "2026-04-24T18:09:55Z",
     "fetched_at": "2026-06-01T05:56:52.637520Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:13:23.305223+00:00",
+    "comment_fetched_at": "2026-08-13T14:12:58.996543+00:00",
     "documents": []
   },
   "1235-AA36": {
@@ -31916,7 +31916,7 @@
     "last_modified": "2024-12-17T11:03:08Z",
     "fetched_at": "2026-06-01T05:57:24.052636Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:13:30.725245+00:00",
+    "comment_fetched_at": "2026-08-13T14:13:06.450706+00:00",
     "documents": []
   },
   "1240-AA16": {
@@ -32105,7 +32105,7 @@
     "last_modified": "2025-01-10T09:25:28Z",
     "fetched_at": "2026-06-01T05:58:20.893474Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:13:38.144409+00:00",
+    "comment_fetched_at": "2026-08-13T14:13:13.909373+00:00",
     "documents": []
   },
   "1291-AA47": {
@@ -32222,7 +32222,7 @@
     "last_modified": "2024-09-12T01:01:57Z",
     "fetched_at": "2026-06-01T05:59:17.566026Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:13:45.566531+00:00",
+    "comment_fetched_at": "2026-08-13T14:13:21.378597+00:00",
     "documents": []
   },
   "1400-AF61": {
@@ -32854,7 +32854,7 @@
     "fetched_at": "2026-06-01T06:04:59.758908Z",
     "open_for_comment": null,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:14:15.249603+00:00"
+    "comment_fetched_at": "2026-08-13T14:13:51.232772+00:00"
   },
   "2105-AF15": {
     "rin": "2105-AF15",
@@ -32904,7 +32904,7 @@
     "last_modified": "2025-11-25T18:38:57Z",
     "fetched_at": "2026-06-01T06:05:25.763931Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:14:22.679665+00:00",
+    "comment_fetched_at": "2026-08-13T14:13:58.742682+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -33099,7 +33099,7 @@
     "last_modified": "2026-05-29T15:22:49Z",
     "fetched_at": "2026-06-01T06:06:17.810870Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-08-12T14:14:30.095361+00:00",
+    "comment_fetched_at": "2026-08-13T14:14:06.217265+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -33371,7 +33371,7 @@
     "last_modified": "2026-05-29T10:40:32Z",
     "fetched_at": "2026-06-01T06:06:43.812648Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-08-12T14:14:44.973323+00:00",
+    "comment_fetched_at": "2026-08-13T14:14:21.146451+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -34101,7 +34101,7 @@
     "last_modified": "2025-04-11T15:54:34Z",
     "fetched_at": "2026-06-01T06:08:20.386712Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:14:59.866119+00:00",
+    "comment_fetched_at": "2026-08-13T14:14:36.079278+00:00",
     "documents": [
       {
         "documentType": "Other",
@@ -34132,7 +34132,7 @@
     "last_modified": "2024-08-26T13:13:03Z",
     "fetched_at": "2026-06-01T06:08:24.749509Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:15:07.278395+00:00",
+    "comment_fetched_at": "2026-08-13T14:14:43.531508+00:00",
     "documents": []
   },
   "2120-AK81": {
@@ -34358,7 +34358,7 @@
     "last_modified": "2025-09-29T15:56:27Z",
     "fetched_at": "2026-06-01T06:09:03.798295Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:15:14.696351+00:00",
+    "comment_fetched_at": "2026-08-13T14:14:50.983199+00:00",
     "documents": []
   },
   "2120-AM06": {
@@ -34373,7 +34373,7 @@
     "last_modified": "2025-01-03T08:26:20Z",
     "fetched_at": "2026-06-01T06:09:12.496237Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:15:22.190586+00:00",
+    "comment_fetched_at": "2026-08-13T14:14:58.499898+00:00",
     "documents": []
   },
   "2120-AM07": {
@@ -34388,7 +34388,7 @@
     "last_modified": "2025-03-11T08:21:28Z",
     "fetched_at": "2026-06-01T06:09:16.835662Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:15:29.613454+00:00",
+    "comment_fetched_at": "2026-08-13T14:15:05.967831+00:00",
     "documents": []
   },
   "2120-AM08": {
@@ -34403,7 +34403,7 @@
     "last_modified": "2025-03-11T08:18:14Z",
     "fetched_at": "2026-06-01T06:09:21.208780Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:15:37.040907+00:00",
+    "comment_fetched_at": "2026-08-13T14:15:13.432031+00:00",
     "documents": []
   },
   "2125-AG28": {
@@ -34666,7 +34666,7 @@
     "last_modified": "2025-06-03T13:13:10Z",
     "fetched_at": "2026-06-01T06:11:10.158170Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:15:44.476069+00:00",
+    "comment_fetched_at": "2026-08-13T14:15:20.880716+00:00",
     "documents": []
   },
   "2125-AG00": {
@@ -34789,7 +34789,7 @@
     "last_modified": "2025-05-13T14:51:43Z",
     "fetched_at": "2026-06-01T06:11:40.596294Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:15:51.890611+00:00",
+    "comment_fetched_at": "2026-08-13T14:15:28.334277+00:00",
     "documents": [
       {
         "documentType": "Other",
@@ -34810,7 +34810,7 @@
     "last_modified": "2024-08-26T13:10:07Z",
     "fetched_at": "2026-06-01T06:11:53.610093Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:15:59.313887+00:00",
+    "comment_fetched_at": "2026-08-13T14:15:35.814376+00:00",
     "documents": [
       {
         "documentType": "Other",
@@ -34861,7 +34861,7 @@
     "last_modified": "2024-09-20T08:35:02Z",
     "fetched_at": "2026-06-01T06:12:02.297545Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:16:06.925928+00:00",
+    "comment_fetched_at": "2026-08-13T14:15:43.404848+00:00",
     "documents": [
       {
         "documentType": "Notice",
@@ -36549,7 +36549,7 @@
     "last_modified": "2025-02-24T10:50:08Z",
     "fetched_at": "2026-06-01T06:15:39.536186Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:16:21.820495+00:00",
+    "comment_fetched_at": "2026-08-13T14:15:58.327570+00:00",
     "documents": []
   },
   "2126-AC76": {
@@ -36579,7 +36579,7 @@
     "last_modified": "2025-05-30T12:51:18Z",
     "fetched_at": "2026-06-01T06:15:48.206090Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:16:29.258553+00:00",
+    "comment_fetched_at": "2026-08-13T14:16:05.785619+00:00",
     "documents": []
   },
   "2126-AC80": {
@@ -36594,7 +36594,7 @@
     "last_modified": "2025-05-30T12:56:29Z",
     "fetched_at": "2026-06-01T06:15:52.687395Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:16:36.680092+00:00",
+    "comment_fetched_at": "2026-08-13T14:16:13.235417+00:00",
     "documents": []
   },
   "2127-AL57": {
@@ -36732,7 +36732,7 @@
     "last_modified": "2026-02-03T21:27:53Z",
     "fetched_at": "2026-06-01T06:16:18.698934Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:16:44.097469+00:00",
+    "comment_fetched_at": "2026-08-13T14:16:20.689930+00:00",
     "documents": [
       {
         "documentType": "Other",
@@ -37207,7 +37207,7 @@
     "last_modified": "2025-12-11T12:37:23Z",
     "fetched_at": "2026-06-01T06:16:57.776682Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:16:51.628925+00:00",
+    "comment_fetched_at": "2026-08-13T14:16:28.223045+00:00",
     "documents": [
       {
         "documentType": "Other",
@@ -37681,7 +37681,7 @@
     "last_modified": "2026-01-15T13:26:38Z",
     "fetched_at": "2026-06-01T06:20:56.520509Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:17:06.493760+00:00",
+    "comment_fetched_at": "2026-08-13T14:16:43.142700+00:00",
     "documents": []
   },
   "2127-AK17": {
@@ -38042,7 +38042,7 @@
     "last_modified": "2024-12-16T07:12:33Z",
     "fetched_at": "2026-06-01T06:21:57.322879Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:17:13.913791+00:00",
+    "comment_fetched_at": "2026-08-13T14:16:50.595917+00:00",
     "documents": [
       {
         "documentType": "Other",
@@ -38165,7 +38165,7 @@
     "last_modified": "2025-02-14T09:28:45Z",
     "fetched_at": "2026-06-01T06:22:23.386310Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:17:21.379252+00:00",
+    "comment_fetched_at": "2026-08-13T14:16:58.080323+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -38832,7 +38832,7 @@
     "last_modified": "2025-07-01T15:40:24Z",
     "fetched_at": "2026-06-01T06:25:34.590558Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:17:28.797075+00:00",
+    "comment_fetched_at": "2026-08-13T14:17:05.550445+00:00",
     "documents": []
   },
   "2130-AD07": {
@@ -38847,7 +38847,7 @@
     "last_modified": "2026-04-28T13:24:21Z",
     "fetched_at": "2026-06-01T06:25:38.937212Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:17:36.221090+00:00",
+    "comment_fetched_at": "2026-08-13T14:17:13.002038+00:00",
     "documents": []
   },
   "2130-AD08": {
@@ -38862,7 +38862,7 @@
     "last_modified": "2025-07-01T15:15:33Z",
     "fetched_at": "2026-06-01T06:25:43.281191Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:17:43.646167+00:00",
+    "comment_fetched_at": "2026-08-13T14:17:20.467197+00:00",
     "documents": []
   },
   "2130-AD09": {
@@ -38877,7 +38877,7 @@
     "last_modified": "2025-07-01T15:17:28Z",
     "fetched_at": "2026-06-01T06:25:47.625116Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:17:51.072113+00:00",
+    "comment_fetched_at": "2026-08-13T14:17:27.926842+00:00",
     "documents": []
   },
   "2130-AD10": {
@@ -38892,7 +38892,7 @@
     "last_modified": "2025-07-01T15:03:53Z",
     "fetched_at": "2026-06-01T06:25:51.984624Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:17:58.488854+00:00",
+    "comment_fetched_at": "2026-08-13T14:17:35.402966+00:00",
     "documents": []
   },
   "2130-AD12": {
@@ -38907,7 +38907,7 @@
     "last_modified": "2025-12-05T17:19:09Z",
     "fetched_at": "2026-06-01T06:25:56.327523Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:18:05.923094+00:00",
+    "comment_fetched_at": "2026-08-13T14:17:42.877313+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -38933,7 +38933,7 @@
     "last_modified": "2025-07-01T15:26:00Z",
     "fetched_at": "2026-06-01T06:26:00.664945Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:18:13.341573+00:00",
+    "comment_fetched_at": "2026-08-13T14:17:50.325352+00:00",
     "documents": []
   },
   "2130-AD15": {
@@ -38948,7 +38948,7 @@
     "last_modified": "2025-07-01T14:41:57Z",
     "fetched_at": "2026-06-01T06:26:05.011416Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:18:20.755557+00:00",
+    "comment_fetched_at": "2026-08-13T14:17:57.774715+00:00",
     "documents": []
   },
   "2130-AD16": {
@@ -38963,7 +38963,7 @@
     "last_modified": "2025-07-01T15:29:36Z",
     "fetched_at": "2026-06-01T06:26:09.356734Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:18:28.169776+00:00",
+    "comment_fetched_at": "2026-08-13T14:18:05.236147+00:00",
     "documents": []
   },
   "2130-AD17": {
@@ -38978,7 +38978,7 @@
     "last_modified": "2025-07-01T15:35:43Z",
     "fetched_at": "2026-06-01T06:26:13.702027Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:18:35.584517+00:00",
+    "comment_fetched_at": "2026-08-13T14:18:12.697638+00:00",
     "documents": []
   },
   "2130-AD19": {
@@ -38993,7 +38993,7 @@
     "last_modified": "2025-07-01T14:59:53Z",
     "fetched_at": "2026-06-01T06:26:18.033218Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:18:43.012036+00:00",
+    "comment_fetched_at": "2026-08-13T14:18:20.162645+00:00",
     "documents": []
   },
   "2130-AD20": {
@@ -39008,7 +39008,7 @@
     "last_modified": "2025-07-01T15:16:28Z",
     "fetched_at": "2026-06-01T06:26:22.361521Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:18:50.434653+00:00",
+    "comment_fetched_at": "2026-08-13T14:18:27.614777+00:00",
     "documents": []
   },
   "2130-AD21": {
@@ -39023,7 +39023,7 @@
     "last_modified": "2025-07-01T15:14:38Z",
     "fetched_at": "2026-06-01T06:26:26.704496Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:18:57.851398+00:00",
+    "comment_fetched_at": "2026-08-13T14:18:35.063520+00:00",
     "documents": []
   },
   "2130-AD23": {
@@ -39038,7 +39038,7 @@
     "last_modified": "2025-07-01T15:31:36Z",
     "fetched_at": "2026-06-01T06:26:31.041237Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:19:05.282140+00:00",
+    "comment_fetched_at": "2026-08-13T14:18:42.515870+00:00",
     "documents": []
   },
   "2130-AD25": {
@@ -39053,7 +39053,7 @@
     "last_modified": "2025-07-01T15:44:14Z",
     "fetched_at": "2026-06-01T06:26:35.380445Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:19:12.695427+00:00",
+    "comment_fetched_at": "2026-08-13T14:18:49.972420+00:00",
     "documents": []
   },
   "2130-AD26": {
@@ -39068,7 +39068,7 @@
     "last_modified": "2025-07-01T14:54:21Z",
     "fetched_at": "2026-06-01T06:26:39.718018Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:19:20.134889+00:00",
+    "comment_fetched_at": "2026-08-13T14:18:57.417987+00:00",
     "documents": []
   },
   "2130-AD27": {
@@ -39083,7 +39083,7 @@
     "last_modified": "2025-07-01T15:12:26Z",
     "fetched_at": "2026-06-01T06:26:44.059515Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:19:27.574949+00:00",
+    "comment_fetched_at": "2026-08-13T14:19:04.868497+00:00",
     "documents": []
   },
   "2130-AD29": {
@@ -39098,7 +39098,7 @@
     "last_modified": "2025-07-01T15:34:44Z",
     "fetched_at": "2026-06-01T06:26:48.401677Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:19:34.990265+00:00",
+    "comment_fetched_at": "2026-08-13T14:19:12.342287+00:00",
     "documents": []
   },
   "2130-AD30": {
@@ -39113,7 +39113,7 @@
     "last_modified": "2025-07-01T15:02:45Z",
     "fetched_at": "2026-06-01T06:26:52.742924Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:19:42.410954+00:00",
+    "comment_fetched_at": "2026-08-13T14:19:19.801569+00:00",
     "documents": []
   },
   "2130-AD31": {
@@ -39128,7 +39128,7 @@
     "last_modified": "2025-07-01T14:49:22Z",
     "fetched_at": "2026-06-01T06:26:57.093222Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:19:49.829113+00:00",
+    "comment_fetched_at": "2026-08-13T14:19:27.266610+00:00",
     "documents": []
   },
   "2130-AD33": {
@@ -39143,7 +39143,7 @@
     "last_modified": "2025-07-01T15:18:25Z",
     "fetched_at": "2026-06-01T06:27:01.442714Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:19:57.252579+00:00",
+    "comment_fetched_at": "2026-08-13T14:19:34.744205+00:00",
     "documents": []
   },
   "2130-AD34": {
@@ -39158,7 +39158,7 @@
     "last_modified": "2025-07-01T15:27:05Z",
     "fetched_at": "2026-06-01T06:27:05.775941Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:20:04.672568+00:00",
+    "comment_fetched_at": "2026-08-13T14:19:42.198646+00:00",
     "documents": []
   },
   "2130-AD35": {
@@ -39173,7 +39173,7 @@
     "last_modified": "2025-07-01T15:19:31Z",
     "fetched_at": "2026-06-01T06:27:10.116178Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:20:12.083911+00:00",
+    "comment_fetched_at": "2026-08-13T14:19:49.639963+00:00",
     "documents": []
   },
   "2130-AD36": {
@@ -39188,7 +39188,7 @@
     "last_modified": "2025-07-01T15:41:30Z",
     "fetched_at": "2026-06-01T06:27:14.444564Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:20:19.502323+00:00",
+    "comment_fetched_at": "2026-08-13T14:19:57.105225+00:00",
     "documents": []
   },
   "2130-AD37": {
@@ -39203,7 +39203,7 @@
     "last_modified": "2025-07-01T15:07:05Z",
     "fetched_at": "2026-06-01T06:27:18.782378Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:20:26.921738+00:00",
+    "comment_fetched_at": "2026-08-13T14:20:04.574661+00:00",
     "documents": []
   },
   "2130-AD38": {
@@ -39218,7 +39218,7 @@
     "last_modified": "2025-07-01T15:43:18Z",
     "fetched_at": "2026-06-01T06:27:23.143124Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:20:34.337516+00:00",
+    "comment_fetched_at": "2026-08-13T14:20:12.062012+00:00",
     "documents": []
   },
   "2130-AD40": {
@@ -39233,7 +39233,7 @@
     "last_modified": "2025-07-01T14:45:09Z",
     "fetched_at": "2026-06-01T06:27:27.571648Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:20:41.756550+00:00",
+    "comment_fetched_at": "2026-08-13T14:20:19.512499+00:00",
     "documents": []
   },
   "2130-AD41": {
@@ -39248,7 +39248,7 @@
     "last_modified": "2025-07-01T15:01:22Z",
     "fetched_at": "2026-06-01T06:27:31.906533Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:20:49.169774+00:00",
+    "comment_fetched_at": "2026-08-13T14:20:26.967571+00:00",
     "documents": []
   },
   "2130-AD42": {
@@ -39263,7 +39263,7 @@
     "last_modified": "2025-07-01T15:25:03Z",
     "fetched_at": "2026-06-01T06:27:36.239372Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:20:56.586431+00:00",
+    "comment_fetched_at": "2026-08-13T14:20:34.429048+00:00",
     "documents": []
   },
   "2130-AD43": {
@@ -39278,7 +39278,7 @@
     "last_modified": "2025-07-01T14:55:52Z",
     "fetched_at": "2026-06-01T06:27:40.747292Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:21:04.017488+00:00",
+    "comment_fetched_at": "2026-08-13T14:20:41.883521+00:00",
     "documents": []
   },
   "2130-AD45": {
@@ -39293,7 +39293,7 @@
     "last_modified": "2025-07-01T15:10:16Z",
     "fetched_at": "2026-06-01T06:27:45.086335Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:21:11.449708+00:00",
+    "comment_fetched_at": "2026-08-13T14:20:49.334742+00:00",
     "documents": []
   },
   "2130-AD47": {
@@ -39308,7 +39308,7 @@
     "last_modified": "2025-07-01T15:37:35Z",
     "fetched_at": "2026-06-01T06:27:49.431450Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:21:18.866752+00:00",
+    "comment_fetched_at": "2026-08-13T14:20:56.783683+00:00",
     "documents": []
   },
   "2130-AD48": {
@@ -39323,7 +39323,7 @@
     "last_modified": "2025-07-01T14:50:28Z",
     "fetched_at": "2026-06-01T06:27:53.771654Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:21:26.309531+00:00",
+    "comment_fetched_at": "2026-08-13T14:21:04.232315+00:00",
     "documents": []
   },
   "2130-AD52": {
@@ -39338,7 +39338,7 @@
     "last_modified": "2025-07-01T15:04:55Z",
     "fetched_at": "2026-06-01T06:27:58.111712Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:21:33.722872+00:00",
+    "comment_fetched_at": "2026-08-13T14:21:11.672617+00:00",
     "documents": []
   },
   "2130-AD53": {
@@ -39353,7 +39353,7 @@
     "last_modified": "2025-07-01T15:23:11Z",
     "fetched_at": "2026-06-01T06:28:02.442761Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:21:41.143574+00:00",
+    "comment_fetched_at": "2026-08-13T14:21:19.119717+00:00",
     "documents": []
   },
   "2130-AD56": {
@@ -39368,7 +39368,7 @@
     "last_modified": "2025-07-01T15:24:06Z",
     "fetched_at": "2026-06-01T06:28:06.775873Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:21:48.575670+00:00",
+    "comment_fetched_at": "2026-08-13T14:21:26.590496+00:00",
     "documents": []
   },
   "2132-AB46": {
@@ -39659,7 +39659,7 @@
     "last_modified": "2025-07-01T13:18:27Z",
     "fetched_at": "2026-06-01T06:29:24.884399Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:22:03.406967+00:00",
+    "comment_fetched_at": "2026-08-13T14:21:41.502075+00:00",
     "documents": []
   },
   "2132-AB53": {
@@ -39674,7 +39674,7 @@
     "last_modified": "2025-07-01T13:21:55Z",
     "fetched_at": "2026-06-01T06:29:29.223907Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:22:10.819307+00:00",
+    "comment_fetched_at": "2026-08-13T14:21:48.952689+00:00",
     "documents": []
   },
   "2132-AB54": {
@@ -39689,7 +39689,7 @@
     "last_modified": "2025-07-01T13:19:17Z",
     "fetched_at": "2026-06-01T06:29:33.568589Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:22:18.244104+00:00",
+    "comment_fetched_at": "2026-08-13T14:21:56.422915+00:00",
     "documents": []
   },
   "2132-AB55": {
@@ -39704,7 +39704,7 @@
     "last_modified": "2025-07-01T13:20:14Z",
     "fetched_at": "2026-06-01T06:29:37.904398Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:22:25.652782+00:00",
+    "comment_fetched_at": "2026-08-13T14:22:03.871756+00:00",
     "documents": []
   },
   "2132-AB56": {
@@ -39719,7 +39719,7 @@
     "last_modified": "2025-07-01T13:17:35Z",
     "fetched_at": "2026-06-01T06:29:42.253844Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:22:33.099040+00:00",
+    "comment_fetched_at": "2026-08-13T14:22:11.322209+00:00",
     "documents": []
   },
   "2133-AC00": {
@@ -39734,7 +39734,7 @@
     "last_modified": "2026-01-15T13:23:59Z",
     "fetched_at": "2026-06-01T06:30:25.715551Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:22:40.518542+00:00",
+    "comment_fetched_at": "2026-08-13T14:22:18.787784+00:00",
     "documents": []
   },
   "2137-AF44": {
@@ -40697,7 +40697,7 @@
     "last_modified": "2025-05-20T13:12:09Z",
     "fetched_at": "2026-06-01T06:34:16.139754Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:22:47.953234+00:00",
+    "comment_fetched_at": "2026-08-13T14:22:26.243046+00:00",
     "documents": []
   },
   "2137-AF37": {
@@ -42433,7 +42433,7 @@
     "last_modified": "2026-02-13T15:08:51Z",
     "fetched_at": "2026-06-01T06:52:28.755154Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:22:55.368378+00:00",
+    "comment_fetched_at": "2026-08-13T14:22:33.726661+00:00",
     "documents": []
   },
   "1545-BE31": {
@@ -42493,7 +42493,7 @@
     "last_modified": "2024-08-26T13:08:49Z",
     "fetched_at": "2026-06-01T06:52:50.464830Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:23:02.786187+00:00",
+    "comment_fetched_at": "2026-08-13T14:22:41.180031+00:00",
     "documents": []
   },
   "1545-BI04": {
@@ -43140,7 +43140,7 @@
     "last_modified": "2024-08-26T13:00:47Z",
     "fetched_at": "2026-06-01T06:56:15.253033Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:23:10.247692+00:00",
+    "comment_fetched_at": "2026-08-13T14:22:48.638920+00:00",
     "documents": []
   },
   "1545-BQ58": {
@@ -43715,7 +43715,7 @@
     "last_modified": "2024-12-02T10:37:46Z",
     "fetched_at": "2026-06-01T07:00:20.158653Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:23:17.746476+00:00",
+    "comment_fetched_at": "2026-08-13T14:22:56.104502+00:00",
     "documents": []
   },
   "1545-BM41": {
@@ -44488,7 +44488,7 @@
     "last_modified": "2024-10-15T11:04:33Z",
     "fetched_at": "2026-06-01T07:03:00.745897Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:23:25.216224+00:00",
+    "comment_fetched_at": "2026-08-13T14:23:03.608719+00:00",
     "documents": []
   },
   "2900-AQ89": {
@@ -44825,7 +44825,7 @@
     "last_modified": "2025-10-02T11:41:40Z",
     "fetched_at": "2026-06-01T07:04:14.738926Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:23:40.066585+00:00",
+    "comment_fetched_at": "2026-08-13T14:23:18.520046+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -45719,7 +45719,7 @@
     "last_modified": "2025-09-25T12:50:26Z",
     "fetched_at": "2026-06-01T07:07:21.670029Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:23:54.906428+00:00",
+    "comment_fetched_at": "2026-08-13T14:23:33.430666+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -45857,7 +45857,7 @@
     "last_modified": "2024-11-12T08:45:55Z",
     "fetched_at": "2026-06-01T07:08:18.087674Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:24:02.317885+00:00",
+    "comment_fetched_at": "2026-08-13T14:23:40.893440+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -48973,7 +48973,7 @@
     "last_modified": "2026-03-12T16:08:47Z",
     "fetched_at": "2026-06-01T07:09:49.436431Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:24:09.748023+00:00",
+    "comment_fetched_at": "2026-08-13T14:23:48.352100+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -50232,14 +50232,14 @@
     "docket_id": "EPA-HQ-OW-2025-1742",
     "docket_url": "https://www.regulations.gov/docket/EPA-HQ-OW-2025-1742",
     "title": "Extending the Compliance Deadline for the PFOA and PFOS Maximum Contaminant Levels",
-    "comment_count": 652,
+    "comment_count": 664,
     "comment_start_date": "2026-05-20",
     "comment_end_date": "2026-07-21",
     "docket_type": "Rulemaking",
     "last_modified": "2026-05-28T19:24:39Z",
     "fetched_at": "2026-06-01T07:09:53.772034Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-08-12T14:24:17.244832+00:00",
+    "comment_fetched_at": "2026-08-13T14:23:55.843165+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -50720,7 +50720,7 @@
     "last_modified": "2026-05-28T21:37:21Z",
     "fetched_at": "2026-06-01T07:09:58.111774Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-08-12T14:24:24.709980+00:00",
+    "comment_fetched_at": "2026-08-13T14:24:03.306873+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -52635,7 +52635,7 @@
     "last_modified": "2024-08-26T13:14:25Z",
     "fetched_at": "2026-06-01T07:10:46.672864Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:24:48.586940+00:00",
+    "comment_fetched_at": "2026-08-13T14:24:40.801755+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -53901,7 +53901,7 @@
     "last_modified": "2026-05-15T12:15:09Z",
     "fetched_at": "2026-06-01T07:11:06.177455Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-08-12T14:24:56.507613+00:00",
+    "comment_fetched_at": "2026-08-13T14:24:48.958876+00:00",
     "documents": [
       {
         "documentType": "Other",
@@ -54253,7 +54253,7 @@
     "last_modified": "2024-12-17T09:25:16Z",
     "fetched_at": "2026-06-01T07:11:32.165342Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:25:03.928838+00:00",
+    "comment_fetched_at": "2026-08-13T14:24:56.419465+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -59470,7 +59470,7 @@
     "last_modified": "2026-05-28T12:34:53Z",
     "fetched_at": "2026-06-01T07:13:07.650316Z",
     "open_for_comment": false,
-    "comment_fetched_at": "2026-08-12T14:25:12.048811+00:00",
+    "comment_fetched_at": "2026-08-13T14:25:04.708232+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -62210,7 +62210,7 @@
     "last_modified": "2026-03-17T17:36:39Z",
     "fetched_at": "2026-06-01T07:16:01.547156Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:25:19.521720+00:00",
+    "comment_fetched_at": "2026-08-13T14:25:12.296761+00:00",
     "documents": []
   },
   "2060-AO18": {
@@ -63657,7 +63657,7 @@
     "last_modified": "2025-05-21T18:05:15Z",
     "fetched_at": "2026-06-01T07:17:32.799384Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:25:34.385056+00:00",
+    "comment_fetched_at": "2026-08-13T14:25:27.236717+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -68024,7 +68024,7 @@
     "last_modified": "2024-08-26T13:07:07Z",
     "fetched_at": "2026-06-01T07:22:19.235306Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:25:49.275822+00:00",
+    "comment_fetched_at": "2026-08-13T14:25:42.157562+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -69962,7 +69962,7 @@
     "last_modified": "2024-08-26T13:00:35Z",
     "fetched_at": "2026-06-01T07:23:02.862931Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:25:56.756267+00:00",
+    "comment_fetched_at": "2026-08-13T14:25:49.634361+00:00",
     "documents": []
   },
   "2070-AL13": {
@@ -74622,7 +74622,7 @@
     "last_modified": "2026-02-27T14:34:40Z",
     "fetched_at": "2026-06-01T07:25:08.751546Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:26:11.654259+00:00",
+    "comment_fetched_at": "2026-08-13T14:26:04.543606+00:00",
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -75118,7 +75118,7 @@
     "last_modified": "2025-01-17T13:51:30Z",
     "fetched_at": "2026-06-01T07:33:49.794735Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:26:34.265358+00:00",
+    "comment_fetched_at": "2026-08-13T14:26:27.012840+00:00",
     "documents": []
   },
   "0331-AA10": {
@@ -75631,7 +75631,7 @@
     "last_modified": "2025-06-20T13:58:09Z",
     "fetched_at": "2026-06-01T07:54:47.180347Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:26:41.703903+00:00",
+    "comment_fetched_at": "2026-08-13T14:26:34.470372+00:00",
     "documents": []
   },
   "3072-AD03": {
@@ -75646,7 +75646,7 @@
     "last_modified": "2025-01-14T09:26:28Z",
     "fetched_at": "2026-06-01T07:55:04.529649Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:26:56.536296+00:00",
+    "comment_fetched_at": "2026-08-13T14:26:49.371245+00:00",
     "documents": []
   },
   "3084-AB50": {
@@ -75691,7 +75691,7 @@
     "last_modified": "2024-08-26T13:00:36Z",
     "fetched_at": "2026-06-01T07:58:34.466569Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:27:03.955547+00:00",
+    "comment_fetched_at": "2026-08-13T14:26:56.827214+00:00",
     "documents": []
   },
   "3084-AB71": {
@@ -75763,7 +75763,7 @@
     "last_modified": "2024-08-26T12:59:49Z",
     "fetched_at": "2026-06-01T07:58:51.974154Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:27:11.372963+00:00",
+    "comment_fetched_at": "2026-08-13T14:27:04.296739+00:00",
     "documents": []
   },
   "3084-AB19": {
@@ -75808,7 +75808,7 @@
     "last_modified": "2025-01-10T08:29:12Z",
     "fetched_at": "2026-06-01T07:59:09.371078Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:27:18.810908+00:00",
+    "comment_fetched_at": "2026-08-13T14:27:11.771244+00:00",
     "documents": []
   },
   "3090-AK12": {
@@ -75823,7 +75823,7 @@
     "last_modified": "2026-03-10T12:42:32Z",
     "fetched_at": "2026-06-01T07:59:13.782715Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:27:26.242386+00:00",
+    "comment_fetched_at": "2026-08-13T14:27:19.227763+00:00",
     "documents": []
   },
   "3090-AK92": {
@@ -75838,7 +75838,7 @@
     "last_modified": "2026-01-20T19:23:14Z",
     "fetched_at": "2026-06-01T07:59:22.487668Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:27:33.654161+00:00",
+    "comment_fetched_at": "2026-08-13T14:27:26.684903+00:00",
     "documents": []
   },
   "3090-AL06": {
@@ -75853,7 +75853,7 @@
     "last_modified": "2026-01-20T19:11:43Z",
     "fetched_at": "2026-06-01T07:59:26.838717Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:27:41.073206+00:00",
+    "comment_fetched_at": "2026-08-13T14:27:34.134473+00:00",
     "documents": []
   },
   "3090-AK39": {
@@ -75913,7 +75913,7 @@
     "last_modified": "2025-04-15T10:23:03Z",
     "fetched_at": "2026-06-01T08:00:01.706710Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:27:48.490096+00:00",
+    "comment_fetched_at": "2026-08-13T14:27:41.574070+00:00",
     "documents": []
   },
   "3090-AK89": {
@@ -75928,7 +75928,7 @@
     "last_modified": "2025-01-02T14:10:52Z",
     "fetched_at": "2026-06-01T08:00:23.452854Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:27:55.905286+00:00",
+    "comment_fetched_at": "2026-08-13T14:27:49.031527+00:00",
     "documents": []
   },
   "3090-AK65": {
@@ -76039,7 +76039,7 @@
     "last_modified": "2024-08-26T13:12:49Z",
     "fetched_at": "2026-06-01T08:02:42.885443Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:28:03.337235+00:00",
+    "comment_fetched_at": "2026-08-13T14:27:56.492615+00:00",
     "documents": []
   },
   "3133-AF25": {
@@ -76171,7 +76171,7 @@
     "last_modified": "2025-10-29T18:46:35Z",
     "fetched_at": "2026-06-01T08:04:27.927197Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:28:10.768949+00:00",
+    "comment_fetched_at": "2026-08-13T14:28:03.981103+00:00",
     "documents": [
       {
         "documentType": "Notice",
@@ -76207,7 +76207,7 @@
     "last_modified": "2026-02-25T21:12:01Z",
     "fetched_at": "2026-06-01T08:05:50.995866Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:28:18.183292+00:00",
+    "comment_fetched_at": "2026-08-13T14:28:11.430190+00:00",
     "documents": []
   },
   "3150-AI40": {
@@ -77157,7 +77157,7 @@
     "last_modified": "2026-03-06T15:01:45Z",
     "fetched_at": "2026-06-01T08:06:52.127252Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:28:25.598156+00:00",
+    "comment_fetched_at": "2026-08-13T14:28:18.873124+00:00",
     "documents": []
   },
   "3150-AL20": {
@@ -77824,7 +77824,7 @@
     "last_modified": "2025-07-17T15:56:00Z",
     "fetched_at": "2026-06-01T08:08:02.068561Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:28:33.023932+00:00",
+    "comment_fetched_at": "2026-08-13T14:28:26.317611+00:00",
     "documents": []
   },
   "3150-AL33": {
@@ -78146,7 +78146,7 @@
     "last_modified": "2024-08-26T13:13:04Z",
     "fetched_at": "2026-06-01T08:08:28.390618Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:28:47.926027+00:00",
+    "comment_fetched_at": "2026-08-13T14:28:41.220035+00:00",
     "documents": [
       {
         "documentType": "Other",
@@ -79770,7 +79770,7 @@
     "last_modified": "2024-08-26T13:09:00Z",
     "fetched_at": "2026-06-01T08:09:03.359606Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:28:55.385298+00:00",
+    "comment_fetched_at": "2026-08-13T14:28:48.671437+00:00",
     "documents": [
       {
         "documentType": "Other",
@@ -80114,7 +80114,7 @@
     "last_modified": "2024-08-26T13:13:53Z",
     "fetched_at": "2026-06-01T08:12:19.934618Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:29:02.828807+00:00",
+    "comment_fetched_at": "2026-08-13T14:28:56.136504+00:00",
     "documents": []
   },
   "3206-AO47": {
@@ -80357,7 +80357,7 @@
     "last_modified": "2026-04-14T17:57:50Z",
     "fetched_at": "2026-06-01T08:14:13.884971Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:29:32.539232+00:00",
+    "comment_fetched_at": "2026-08-13T14:29:25.959748+00:00",
     "documents": []
   },
   "3206-AN86": {
@@ -80447,7 +80447,7 @@
     "last_modified": "2025-12-18T20:47:16Z",
     "fetched_at": "2026-06-01T08:14:46.176142Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:29:47.411220+00:00",
+    "comment_fetched_at": "2026-08-13T14:29:40.936630+00:00",
     "documents": [
       {
         "documentType": "Other",
@@ -80468,7 +80468,7 @@
     "last_modified": "2025-06-24T16:40:02Z",
     "fetched_at": "2026-06-01T08:14:50.511772Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:29:54.833100+00:00",
+    "comment_fetched_at": "2026-08-13T14:29:48.399829+00:00",
     "documents": []
   },
   "3206-AO37": {
@@ -80543,7 +80543,7 @@
     "last_modified": "2025-05-23T23:07:42Z",
     "fetched_at": "2026-06-01T08:15:42.768571Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:30:02.244487+00:00",
+    "comment_fetched_at": "2026-08-13T14:29:55.858697+00:00",
     "documents": []
   },
   "1212-AB51": {
@@ -81059,7 +81059,7 @@
     "last_modified": "2021-01-14T09:57:26Z",
     "fetched_at": "2026-06-01T08:26:03.730274Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:30:31.951604+00:00",
+    "comment_fetched_at": "2026-08-13T14:30:25.714336+00:00",
     "documents": []
   },
   "3245-AH63": {
@@ -81074,7 +81074,7 @@
     "last_modified": "2021-01-14T09:51:37Z",
     "fetched_at": "2026-06-01T08:26:08.100610Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:30:39.365399+00:00",
+    "comment_fetched_at": "2026-08-13T14:30:33.172036+00:00",
     "documents": []
   },
   "3245-AH65": {
@@ -81089,7 +81089,7 @@
     "last_modified": "2021-02-05T15:51:29Z",
     "fetched_at": "2026-06-01T08:26:12.540101Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:30:46.778699+00:00",
+    "comment_fetched_at": "2026-08-13T14:30:40.612209+00:00",
     "documents": []
   },
   "3245-AH67": {
@@ -81104,7 +81104,7 @@
     "last_modified": "2021-03-23T08:31:09Z",
     "fetched_at": "2026-06-01T08:26:16.938979Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:30:54.205650+00:00",
+    "comment_fetched_at": "2026-08-13T14:30:48.058148+00:00",
     "documents": []
   },
   "3245-AH77": {
@@ -81194,7 +81194,7 @@
     "last_modified": "2026-04-02T13:14:09Z",
     "fetched_at": "2026-06-01T08:27:18.133765Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:31:01.626182+00:00",
+    "comment_fetched_at": "2026-08-13T14:30:55.498301+00:00",
     "documents": []
   },
   "0960-AI95": {
@@ -81209,7 +81209,7 @@
     "last_modified": "2025-09-11T15:26:21Z",
     "fetched_at": "2026-06-01T08:27:40.087191Z",
     "open_for_comment": null,
-    "comment_fetched_at": "2026-08-12T14:31:16.466049+00:00",
+    "comment_fetched_at": "2026-08-13T14:31:10.434107+00:00",
     "documents": []
   },
   "0960-AI07": {
@@ -81500,7 +81500,7 @@
     "open_for_comment": true,
     "comment_count": 2,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:03:13.867935+00:00"
+    "comment_fetched_at": "2026-08-13T14:02:47.079261+00:00"
   },
   "0578-AA75": {
     "rin": "0578-AA75",
@@ -81966,7 +81966,7 @@
         "documentId": "NOAA-NMFS-2025-0537-0003"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:03:58.421900+00:00"
+    "comment_fetched_at": "2026-08-13T14:03:31.832418+00:00"
   },
   "0648-BN77": {
     "rin": "0648-BN77",
@@ -82681,7 +82681,7 @@
     "open_for_comment": true,
     "comment_count": 6,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:06:26.894116+00:00"
+    "comment_fetched_at": "2026-08-13T14:06:00.997423+00:00"
   },
   "0750-AL75": {
     "rin": "0750-AL75",
@@ -82766,7 +82766,7 @@
     "open_for_comment": true,
     "comment_count": 0,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:06:34.313211+00:00"
+    "comment_fetched_at": "2026-08-13T14:06:08.454809+00:00"
   },
   "0750-AM14": {
     "rin": "0750-AM14",
@@ -82786,7 +82786,7 @@
     "open_for_comment": true,
     "comment_count": 0,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:06:41.740528+00:00"
+    "comment_fetched_at": "2026-08-13T14:06:15.909344+00:00"
   },
   "0750-AM29": {
     "rin": "0750-AM29",
@@ -83222,7 +83222,7 @@
     "open_for_comment": null,
     "comment_count": 0,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:07:18.894690+00:00"
+    "comment_fetched_at": "2026-08-13T14:06:53.190012+00:00"
   },
   "1990-AA51": {
     "rin": "1990-AA51",
@@ -83328,7 +83328,7 @@
         "documentId": "FDA-2025-N-7130-0002"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:07:26.308680+00:00"
+    "comment_fetched_at": "2026-08-13T14:07:00.649749+00:00"
   },
   "0910-AH61": {
     "rin": "0910-AH61",
@@ -83470,6 +83470,16 @@
       },
       {
         "documentType": "Supporting & Related Material",
+        "title": "PRIA Reference 9 - Theory and Measurement of Cost Pass-Through",
+        "documentId": "FDA-2025-N-6075-0012"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "Reference 8 - Specification of the Unique Facility Identifier (UFI) System for Drug Establishment",
+        "documentId": "FDA-2025-N-6075-0017"
+      },
+      {
+        "documentType": "Supporting & Related Material",
         "title": "List of Proposed Rule References",
         "documentId": "FDA-2025-N-6075-0003"
       },
@@ -83487,16 +83497,6 @@
         "documentType": "Supporting & Related Material",
         "title": "Reference 7 - Investigations Operations Manual",
         "documentId": "FDA-2025-N-6075-0016"
-      },
-      {
-        "documentType": "Supporting & Related Material",
-        "title": "PRIA Reference 9 - Theory and Measurement of Cost Pass-Through",
-        "documentId": "FDA-2025-N-6075-0012"
-      },
-      {
-        "documentType": "Supporting & Related Material",
-        "title": "Reference 8 - Specification of the Unique Facility Identifier (UFI) System for Drug Establishment",
-        "documentId": "FDA-2025-N-6075-0017"
       },
       {
         "documentType": "Supporting & Related Material",
@@ -83544,7 +83544,7 @@
         "documentId": "FDA-2025-N-6075-0004"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:07:33.734929+00:00"
+    "comment_fetched_at": "2026-08-13T14:07:08.120436+00:00"
   },
   "0910-AI98": {
     "rin": "0910-AI98",
@@ -83957,9 +83957,9 @@
     "comment_start_date": "2026-06-09",
     "comment_end_date": "2026-08-11",
     "open_for_comment": false,
-    "comment_count": 27,
+    "comment_count": 38,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:08:18.310901+00:00"
+    "comment_fetched_at": "2026-08-13T14:07:52.985432+00:00"
   },
   "0970-AD23": {
     "rin": "0970-AD23",
@@ -84052,7 +84052,7 @@
     "comment_start_date": "2026-07-01",
     "comment_end_date": "2026-09-01",
     "open_for_comment": true,
-    "comment_count": 74,
+    "comment_count": 78,
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -84215,7 +84215,7 @@
         "documentId": "USCIS-2026-0100-0028"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:08:33.145796+00:00"
+    "comment_fetched_at": "2026-08-13T14:08:07.908852+00:00"
   },
   "1615-AC98": {
     "rin": "1615-AC98",
@@ -84281,7 +84281,7 @@
         "documentId": "USCIS-2026-0067-0007"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:08:40.577977+00:00"
+    "comment_fetched_at": "2026-08-13T14:08:15.355875+00:00"
   },
   "1615-AD00": {
     "rin": "1615-AD00",
@@ -84604,9 +84604,9 @@
     "comment_start_date": "2026-06-12",
     "comment_end_date": "2026-08-12",
     "open_for_comment": false,
-    "comment_count": 61,
+    "comment_count": 64,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:09:40.192981+00:00"
+    "comment_fetched_at": "2026-08-13T14:09:15.068865+00:00"
   },
   "2502-AJ76": {
     "rin": "2502-AJ76",
@@ -84639,7 +84639,7 @@
     "comment_start_date": "2026-07-09",
     "comment_end_date": "2026-09-09",
     "open_for_comment": true,
-    "comment_count": 75,
+    "comment_count": 83,
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -84652,7 +84652,7 @@
         "documentId": "HUD-2026-1090-0004"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:09:47.608216+00:00"
+    "comment_fetched_at": "2026-08-13T14:09:22.520899+00:00"
   },
   "2506-AC61": {
     "rin": "2506-AC61",
@@ -84760,7 +84760,7 @@
     "comment_start_date": "2026-06-24",
     "comment_end_date": "2026-08-25",
     "open_for_comment": true,
-    "comment_count": 1822,
+    "comment_count": 4120,
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -84768,7 +84768,7 @@
         "documentId": "BLM-2025-0037-0002"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:09:55.044631+00:00"
+    "comment_fetched_at": "2026-08-13T14:09:29.980816+00:00"
   },
   "1004-AF32": {
     "rin": "1004-AF32",
@@ -84786,7 +84786,7 @@
     "comment_start_date": "2026-06-24",
     "comment_end_date": "2026-08-25",
     "open_for_comment": true,
-    "comment_count": 15,
+    "comment_count": 22,
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -84794,7 +84794,7 @@
         "documentId": "BLM-2025-0235-0002"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:10:02.480497+00:00"
+    "comment_fetched_at": "2026-08-13T14:09:37.433902+00:00"
   },
   "1004-AF36": {
     "rin": "1004-AF36",
@@ -84922,7 +84922,7 @@
     "comment_start_date": "2026-06-30",
     "comment_end_date": "2026-09-01",
     "open_for_comment": true,
-    "comment_count": 3,
+    "comment_count": 4,
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -84930,7 +84930,7 @@
         "documentId": "ONRR-2025-0001-0003"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:10:39.617466+00:00"
+    "comment_fetched_at": "2026-08-13T14:10:14.714428+00:00"
   },
   "1012-AA40": {
     "rin": "1012-AA40",
@@ -85116,7 +85116,7 @@
         "documentId": "FWS-HQ-MB-2026-1421-0006"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:11:01.895375+00:00"
+    "comment_fetched_at": "2026-08-13T14:10:37.063113+00:00"
   },
   "1018-BI06": {
     "rin": "1018-BI06",
@@ -85746,7 +85746,7 @@
     "open_for_comment": true,
     "comment_count": 18,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:11:31.584183+00:00"
+    "comment_fetched_at": "2026-08-13T14:11:06.904375+00:00"
   },
   "1024-AE97": {
     "rin": "1024-AE97",
@@ -86106,7 +86106,7 @@
     "open_for_comment": true,
     "comment_count": 10,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:12:16.153879+00:00"
+    "comment_fetched_at": "2026-08-13T14:11:51.683794+00:00"
   },
   "1125-AB35": {
     "rin": "1125-AB35",
@@ -86337,7 +86337,7 @@
         "documentId": "EBSA-2026-0331-0002"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:12:45.951220+00:00"
+    "comment_fetched_at": "2026-08-13T14:12:21.554755+00:00"
   },
   "1210-AC36": {
     "rin": "1210-AC36",
@@ -86583,7 +86583,7 @@
         "documentId": "DOS-2026-0562-0002"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:13:52.983405+00:00"
+    "comment_fetched_at": "2026-08-13T14:13:28.829274+00:00"
   },
   "1400-AF95": {
     "rin": "1400-AF95",
@@ -86793,7 +86793,7 @@
     "open_for_comment": null,
     "comment_count": 0,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:14:00.399257+00:00"
+    "comment_fetched_at": "2026-08-13T14:13:36.280292+00:00"
   },
   "2105-AF36": {
     "rin": "2105-AF36",
@@ -86811,7 +86811,7 @@
     "comment_start_date": "2026-07-01",
     "comment_end_date": "2026-08-22",
     "open_for_comment": true,
-    "comment_count": 935,
+    "comment_count": 982,
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -86819,7 +86819,7 @@
         "documentId": "DOT-OST-2025-0831-0046"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:14:07.815977+00:00"
+    "comment_fetched_at": "2026-08-13T14:13:43.730398+00:00"
   },
   "2105-AF40": {
     "rin": "2105-AF40",
@@ -86960,7 +86960,7 @@
         "documentId": "FAA-2026-0430-0003"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:14:37.538260+00:00"
+    "comment_fetched_at": "2026-08-13T14:14:13.685783+00:00"
   },
   "2120-AL86": {
     "rin": "2120-AL86",
@@ -86988,7 +86988,7 @@
     "comment_start_date": "2026-07-02",
     "comment_end_date": "2026-08-18",
     "open_for_comment": true,
-    "comment_count": 292,
+    "comment_count": 342,
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -87046,7 +87046,7 @@
         "documentId": "FAA-2026-6935-0009"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:14:52.432598+00:00"
+    "comment_fetched_at": "2026-08-13T14:14:28.634111+00:00"
   },
   "2120-AA63": {
     "rin": "2120-AA63",
@@ -87206,7 +87206,7 @@
     "open_for_comment": null,
     "comment_count": 0,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:16:14.375018+00:00"
+    "comment_fetched_at": "2026-08-13T14:15:50.861381+00:00"
   },
   "2126-AB82": {
     "rin": "2126-AB82",
@@ -87351,7 +87351,7 @@
     "open_for_comment": true,
     "comment_count": 2,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:16:59.077763+00:00"
+    "comment_fetched_at": "2026-08-13T14:16:35.678294+00:00"
   },
   "2127-AM61": {
     "rin": "2127-AM61",
@@ -87591,7 +87591,7 @@
     "open_for_comment": true,
     "comment_count": 9,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:21:55.991023+00:00"
+    "comment_fetched_at": "2026-08-13T14:21:34.051076+00:00"
   },
   "2132-AB47": {
     "rin": "2132-AB47",
@@ -88901,7 +88901,7 @@
     "open_for_comment": false,
     "comment_count": 2,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:23:32.648440+00:00"
+    "comment_fetched_at": "2026-08-13T14:23:11.065262+00:00"
   },
   "2900-AS24": {
     "rin": "2900-AS24",
@@ -88931,7 +88931,7 @@
     "open_for_comment": null,
     "comment_count": 0,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:23:47.485912+00:00"
+    "comment_fetched_at": "2026-08-13T14:23:25.971959+00:00"
   },
   "2900-AR47": {
     "rin": "2900-AR47",
@@ -89364,7 +89364,7 @@
     "comment_start_date": "2026-07-07",
     "comment_end_date": "2026-08-22",
     "open_for_comment": true,
-    "comment_count": 27,
+    "comment_count": 86,
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -89402,7 +89402,7 @@
         "documentId": "EPA-HQ-OAR-2025-1212-0005"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:25:26.947736+00:00"
+    "comment_fetched_at": "2026-08-13T14:25:19.757498+00:00"
   },
   "2060-AV81": {
     "rin": "2060-AV81",
@@ -89605,7 +89605,7 @@
     "comment_start_date": "2026-07-14",
     "comment_end_date": "2026-08-30",
     "open_for_comment": true,
-    "comment_count": 27,
+    "comment_count": 28,
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -90173,7 +90173,7 @@
         "documentId": "EPA-HQ-OAR-2026-0728-0074"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:25:41.845614+00:00"
+    "comment_fetched_at": "2026-08-13T14:25:34.703415+00:00"
   },
   "2060-AS35": {
     "rin": "2060-AS35",
@@ -90389,7 +90389,7 @@
         "documentId": "EPA-HQ-OPPT-2025-0036-0001"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:26:04.197275+00:00"
+    "comment_fetched_at": "2026-08-13T14:25:57.091248+00:00"
   },
   "2070-AL25": {
     "rin": "2070-AL25",
@@ -90440,7 +90440,7 @@
         "documentId": "EPA-HQ-OA-2025-1080-0009"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:26:19.426965+00:00"
+    "comment_fetched_at": "2026-08-13T14:26:12.076038+00:00"
   },
   "3065-AA00": {
     "rin": "3065-AA00",
@@ -90725,7 +90725,7 @@
     "open_for_comment": null,
     "comment_count": 0,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:26:26.851649+00:00"
+    "comment_fetched_at": "2026-08-13T14:26:19.527472+00:00"
   },
   "3038-AF44": {
     "rin": "3038-AF44",
@@ -92205,7 +92205,7 @@
     "open_for_comment": null,
     "comment_count": 0,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:26:49.119624+00:00"
+    "comment_fetched_at": "2026-08-13T14:26:41.921896+00:00"
   },
   "3072-AD07": {
     "rin": "3072-AD07",
@@ -92841,7 +92841,7 @@
         "documentId": "NRC-2025-0478-0019"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:28:40.502677+00:00"
+    "comment_fetched_at": "2026-08-13T14:28:33.763994+00:00"
   },
   "3150-AI83": {
     "rin": "3150-AI83",
@@ -92986,7 +92986,7 @@
     "open_for_comment": true,
     "comment_count": 0,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:29:10.260043+00:00"
+    "comment_fetched_at": "2026-08-13T14:29:03.583799+00:00"
   },
   "3206-AO45": {
     "rin": "3206-AO45",
@@ -93016,7 +93016,7 @@
     "open_for_comment": false,
     "comment_count": 9,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:29:17.683416+00:00"
+    "comment_fetched_at": "2026-08-13T14:29:11.034613+00:00"
   },
   "3206-AO87": {
     "rin": "3206-AO87",
@@ -93036,7 +93036,7 @@
     "open_for_comment": false,
     "comment_count": 676,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:29:25.113464+00:00"
+    "comment_fetched_at": "2026-08-13T14:29:18.491885+00:00"
   },
   "3206-AO92": {
     "rin": "3206-AO92",
@@ -93066,7 +93066,7 @@
     "open_for_comment": null,
     "comment_count": 0,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:29:39.992812+00:00"
+    "comment_fetched_at": "2026-08-13T14:29:33.486323+00:00"
   },
   "3206-AP01": {
     "rin": "3206-AP01",
@@ -93141,7 +93141,7 @@
     "open_for_comment": true,
     "comment_count": 1,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:30:09.690552+00:00"
+    "comment_fetched_at": "2026-08-13T14:30:03.327089+00:00"
   },
   "1212-AB50": {
     "rin": "1212-AB50",
@@ -93156,7 +93156,7 @@
     "open_for_comment": true,
     "comment_count": 1,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:30:17.113211+00:00"
+    "comment_fetched_at": "2026-08-13T14:30:10.788849+00:00"
   },
   "1212-AB61": {
     "rin": "1212-AB61",
@@ -93171,7 +93171,7 @@
     "open_for_comment": true,
     "comment_count": 2,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:30:24.530436+00:00"
+    "comment_fetched_at": "2026-08-13T14:30:18.262435+00:00"
   },
   "1212-AB45": {
     "rin": "1212-AB45",
@@ -93736,7 +93736,7 @@
     "open_for_comment": null,
     "comment_count": 0,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:31:09.053061+00:00"
+    "comment_fetched_at": "2026-08-13T14:31:02.964189+00:00"
   },
   "0960-AI96": {
     "rin": "0960-AI96",
@@ -93817,7 +93817,7 @@
         "documentId": "FSA-2026-0067-0001"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:31:27.591956+00:00"
+    "comment_fetched_at": "2026-08-13T14:31:17.880556+00:00"
   },
   "0584-AF09": {
     "rin": "0584-AF09",
@@ -93842,7 +93842,7 @@
     "open_for_comment": null,
     "comment_count": 0,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:31:35.009410+00:00"
+    "comment_fetched_at": "2026-08-13T14:31:29.053853+00:00"
   },
   "0648-BO43": {
     "rin": "0648-BO43",
@@ -93857,7 +93857,7 @@
     "open_for_comment": true,
     "comment_count": 2,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:31:42.425261+00:00"
+    "comment_fetched_at": "2026-08-13T14:31:36.508873+00:00"
   },
   "0651-AD94": {
     "rin": "0651-AD94",
@@ -93872,7 +93872,7 @@
     "open_for_comment": true,
     "comment_count": 5,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:31:49.853611+00:00"
+    "comment_fetched_at": "2026-08-13T14:31:47.683097+00:00"
   },
   "0660-AA40": {
     "rin": "0660-AA40",
@@ -93967,7 +93967,7 @@
     "open_for_comment": true,
     "comment_count": 40,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:32:08.409130+00:00"
+    "comment_fetched_at": "2026-08-13T14:32:32.345224+00:00"
   },
   "0938-AV81": {
     "rin": "0938-AV81",
@@ -93982,7 +93982,7 @@
     "open_for_comment": true,
     "comment_count": 95,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:32:15.844505+00:00"
+    "comment_fetched_at": "2026-08-13T14:32:39.795136+00:00"
   },
   "0938-AV82": {
     "rin": "0938-AV82",
@@ -93997,7 +93997,7 @@
     "open_for_comment": true,
     "comment_count": 2727,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:32:23.262201+00:00"
+    "comment_fetched_at": "2026-08-13T14:32:47.260296+00:00"
   },
   "0938-AV83": {
     "rin": "0938-AV83",
@@ -94010,9 +94010,9 @@
     "comment_start_date": "2026-07-07",
     "comment_end_date": "2026-09-01",
     "open_for_comment": true,
-    "comment_count": 62,
+    "comment_count": 143,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:32:30.698650+00:00"
+    "comment_fetched_at": "2026-08-13T14:32:54.710126+00:00"
   },
   "0938-AV90": {
     "rin": "0938-AV90",
@@ -94027,7 +94027,7 @@
     "open_for_comment": true,
     "comment_count": 25,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:32:38.116133+00:00"
+    "comment_fetched_at": "2026-08-13T14:33:02.170338+00:00"
   },
   "0938-AV92": {
     "rin": "0938-AV92",
@@ -94047,7 +94047,7 @@
     "open_for_comment": true,
     "comment_count": 16,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:32:45.546399+00:00"
+    "comment_fetched_at": "2026-08-13T14:33:09.640635+00:00"
   },
   "0938-AW01": {
     "rin": "0938-AW01",
@@ -94062,7 +94062,7 @@
     "open_for_comment": true,
     "comment_count": 97,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:32:52.965806+00:00"
+    "comment_fetched_at": "2026-08-13T14:33:17.095343+00:00"
   },
   "0938-AW02": {
     "rin": "0938-AW02",
@@ -94077,7 +94077,7 @@
     "open_for_comment": false,
     "comment_count": 179,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:33:00.397862+00:00"
+    "comment_fetched_at": "2026-08-13T14:33:24.549791+00:00"
   },
   "0938-AW03": {
     "rin": "0938-AW03",
@@ -94097,7 +94097,7 @@
     "open_for_comment": false,
     "comment_count": 57,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:33:07.813576+00:00"
+    "comment_fetched_at": "2026-08-13T14:33:32.003154+00:00"
   },
   "0945-AA29": {
     "rin": "0945-AA29",
@@ -94120,9 +94120,9 @@
     "comment_start_date": "2026-06-26",
     "comment_end_date": "2026-08-26",
     "open_for_comment": true,
-    "comment_count": 444,
+    "comment_count": 447,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:33:15.242987+00:00"
+    "comment_fetched_at": "2026-08-13T14:33:39.454152+00:00"
   },
   "0970-AD30": {
     "rin": "0970-AD30",
@@ -94135,9 +94135,9 @@
     "comment_start_date": "2026-08-07",
     "comment_end_date": "2026-10-07",
     "open_for_comment": true,
-    "comment_count": 465,
+    "comment_count": 572,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:33:22.687814+00:00"
+    "comment_fetched_at": "2026-08-13T14:33:46.904807+00:00"
   },
   "0970-AD34": {
     "rin": "0970-AD34",
@@ -94157,7 +94157,7 @@
     "open_for_comment": false,
     "comment_count": 31,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:33:30.108579+00:00"
+    "comment_fetched_at": "2026-08-13T14:33:54.364282+00:00"
   },
   "1082-AA05": {
     "rin": "1082-AA05",
@@ -94178,7 +94178,7 @@
         "documentId": "BSEE-2026-0133-0002"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:33:37.521066+00:00"
+    "comment_fetched_at": "2026-08-13T14:34:01.820226+00:00"
   },
   "1105-ZA05": {
     "rin": "1105-ZA05",
@@ -94213,7 +94213,7 @@
     "open_for_comment": true,
     "comment_count": 250,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:33:44.954830+00:00"
+    "comment_fetched_at": "2026-08-13T14:34:09.264692+00:00"
   },
   "1140-AA80": {
     "rin": "1140-AA80",
@@ -94226,9 +94226,9 @@
     "comment_start_date": "2026-07-06",
     "comment_end_date": "2026-09-05",
     "open_for_comment": true,
-    "comment_count": 32,
+    "comment_count": 33,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:33:52.377076+00:00"
+    "comment_fetched_at": "2026-08-13T14:34:16.737801+00:00"
   },
   "1219-AC22": {
     "rin": "1219-AC22",
@@ -94268,7 +94268,7 @@
     "open_for_comment": false,
     "comment_count": 113,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:33:59.792122+00:00"
+    "comment_fetched_at": "2026-08-13T14:34:27.917631+00:00"
   },
   "1601-AB22": {
     "rin": "1601-AB22",
@@ -94283,7 +94283,7 @@
     "open_for_comment": null,
     "comment_count": 0,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:34:07.238530+00:00"
+    "comment_fetched_at": "2026-08-13T14:34:35.397448+00:00"
   },
   "1615-AD06": {
     "rin": "1615-AD06",
@@ -94372,7 +94372,7 @@
     "comment_start_date": "2026-07-28",
     "comment_end_date": "2026-09-29",
     "open_for_comment": true,
-    "comment_count": 1008,
+    "comment_count": 1013,
     "documents": [
       {
         "documentType": "Supporting & Related Material",
@@ -94396,11 +94396,6 @@
       },
       {
         "documentType": "Supporting & Related Material",
-        "title": "054 Application for Asylum and for Withholding of Removal) Pages 41-89",
-        "documentId": "USCIS-2026-0199-0155"
-      },
-      {
-        "documentType": "Supporting & Related Material",
         "title": "I589-039-INS-AARWIRule-07162026",
         "documentId": "USCIS-2026-0199-0024"
       },
@@ -94411,11 +94406,16 @@
       },
       {
         "documentType": "Supporting & Related Material",
+        "title": "054 Application for Asylum and for Withholding of Removal) Pages 41-89",
+        "documentId": "USCIS-2026-0199-0155"
+      },
+      {
+        "documentType": "Supporting & Related Material",
         "title": "I589-039-FRM-TOC-AARWIRule-07162026",
         "documentId": "USCIS-2026-0199-0019"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:34:14.653171+00:00"
+    "comment_fetched_at": "2026-08-13T14:34:42.924979+00:00"
   },
   "1615-AD19": {
     "rin": "1615-AD19",
@@ -94443,9 +94443,9 @@
     "comment_start_date": "2026-06-25",
     "comment_end_date": "2026-07-28",
     "open_for_comment": false,
-    "comment_count": 170,
+    "comment_count": 179,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:34:25.792451+00:00"
+    "comment_fetched_at": "2026-08-13T14:34:50.372208+00:00"
   },
   "1840-ZA05": {
     "rin": "1840-ZA05",
@@ -94465,7 +94465,7 @@
     "open_for_comment": false,
     "comment_count": 208,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:34:33.236292+00:00"
+    "comment_fetched_at": "2026-08-13T14:34:57.841819+00:00"
   },
   "2040-ZA46": {
     "rin": "2040-ZA46",
@@ -94490,7 +94490,7 @@
     "open_for_comment": true,
     "comment_count": 51,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:34:40.668201+00:00"
+    "comment_fetched_at": "2026-08-13T14:35:20.206108+00:00"
   },
   "2125-ZA33": {
     "rin": "2125-ZA33",
@@ -94521,7 +94521,7 @@
         "documentId": "NHTSA-2026-0728-0009"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:34:55.499705+00:00"
+    "comment_fetched_at": "2026-08-13T14:35:35.143931+00:00"
   },
   "2127-ZA27": {
     "rin": "2127-ZA27",
@@ -94571,7 +94571,7 @@
     "open_for_comment": true,
     "comment_count": 0,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:35:28.899041+00:00"
+    "comment_fetched_at": "2026-08-13T14:36:04.955871+00:00"
   },
   "3046-AB37": {
     "rin": "3046-AB37",
@@ -94584,9 +94584,9 @@
     "comment_start_date": "2026-07-23",
     "comment_end_date": "2026-08-25",
     "open_for_comment": true,
-    "comment_count": 1429,
+    "comment_count": 1489,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:35:36.349535+00:00"
+    "comment_fetched_at": "2026-08-13T14:36:12.408055+00:00"
   },
   "3046-AB39": {
     "rin": "3046-AB39",
@@ -94673,13 +94673,13 @@
       },
       {
         "documentType": "Supporting & Related Material",
-        "title": "DG-1263 Revision 1 Establishing Analytical Limits for Zirconium-Based Alloy Cladding Proposed New Regulatory Guide 1.224",
-        "documentId": "NRC-2025-0975-0007"
+        "title": "NUREG-0800 Chapter 14 Section 14.3 Inspections Tests Analyses and Acceptance Criteria",
+        "documentId": "NRC-2025-0975-0025"
       },
       {
         "documentType": "Supporting & Related Material",
-        "title": "NUREG-0800 Chapter 14 Section 14.3 Inspections Tests Analyses and Acceptance Criteria",
-        "documentId": "NRC-2025-0975-0025"
+        "title": "DG-1263 Revision 1 Establishing Analytical Limits for Zirconium-Based Alloy Cladding Proposed New Regulatory Guide 1.224",
+        "documentId": "NRC-2025-0975-0007"
       },
       {
         "documentType": "Supporting & Related Material",
@@ -94718,11 +94718,6 @@
       },
       {
         "documentType": "Supporting & Related Material",
-        "title": "DG-4036 Graded Approach to Site Characterization for New Reactor Applications Proposed New Regulatory Guide 4.29",
-        "documentId": "NRC-2025-0975-0029"
-      },
-      {
-        "documentType": "Supporting & Related Material",
         "title": "DG-1457 Guidance on Making Changes to Emergency Plans for Nuclear Power Reactors Proposed Revision 2 to Regulatory Guide 1.219",
         "documentId": "NRC-2025-0975-0018"
       },
@@ -94750,6 +94745,11 @@
         "documentType": "Supporting & Related Material",
         "title": "DG-1426 An Approach for a Risk-Informed Evaluation Process Supporting Alternative Acceptance Criteria for Emergency Core Cooling Systems",
         "documentId": "NRC-2025-0975-0003"
+      },
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "DG-4036 Graded Approach to Site Characterization for New Reactor Applications Proposed New Regulatory Guide 4.29",
+        "documentId": "NRC-2025-0975-0029"
       },
       {
         "documentType": "Supporting & Related Material",
@@ -94817,7 +94817,7 @@
         "documentId": "NRC-2025-0975-0011"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:35:43.958449+00:00"
+    "comment_fetched_at": "2026-08-13T14:36:23.583050+00:00"
   },
   "3150-AL47": {
     "rin": "3150-AL47",
@@ -94830,7 +94830,7 @@
     "comment_start_date": "2026-07-15",
     "comment_end_date": "2026-09-01",
     "open_for_comment": true,
-    "comment_count": 259,
+    "comment_count": 293,
     "documents": [
       {
         "documentType": "Other",
@@ -94913,7 +94913,7 @@
         "documentId": "NRC-2025-1140-0106"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:35:51.394777+00:00"
+    "comment_fetched_at": "2026-08-13T14:36:31.038986+00:00"
   },
   "3150-AL50": {
     "rin": "3150-AL50",
@@ -94928,7 +94928,7 @@
     "open_for_comment": true,
     "comment_count": 2,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:36:06.231155+00:00"
+    "comment_fetched_at": "2026-08-13T14:36:45.961574+00:00"
   },
   "3150-AL53": {
     "rin": "3150-AL53",
@@ -95040,11 +95040,6 @@
       },
       {
         "documentType": "Supporting & Related Material",
-        "title": "Draft Regulatory Guide DG-5085, (RG 5.71, Rev. 2), Cybersecurity Programs for Nuclear Power Reactors (ML24051A205)",
-        "documentId": "NRC-2025-1303-0007"
-      },
-      {
-        "documentType": "Supporting & Related Material",
         "title": "Unofficial Redline Rule Language for the Proposed Rule - Modernizing Security Requirements (RIN 3150-AL53) (ML25267A040)",
         "documentId": "NRC-2025-1303-0005"
       },
@@ -95060,6 +95055,11 @@
       },
       {
         "documentType": "Supporting & Related Material",
+        "title": "Draft Regulatory Guide DG-5085, (RG 5.71, Rev. 2), Cybersecurity Programs for Nuclear Power Reactors (ML24051A205)",
+        "documentId": "NRC-2025-1303-0007"
+      },
+      {
+        "documentType": "Supporting & Related Material",
         "title": "Draft Regulatory Guide DG-5069, (RG 5.84, Rev 1), Fitness-For-Duty Programs at New Reactor Construction Sites (ML21159A141)",
         "documentId": "NRC-2025-1303-0006"
       },
@@ -95069,7 +95069,7 @@
         "documentId": "NRC-2025-1303-0008"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:36:13.662926+00:00"
+    "comment_fetched_at": "2026-08-13T14:36:53.419629+00:00"
   },
   "3150-AL56": {
     "rin": "3150-AL56",
@@ -95095,7 +95095,7 @@
         "documentId": "NRC-2025-1370-0004"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:36:21.099874+00:00"
+    "comment_fetched_at": "2026-08-13T14:37:00.899821+00:00"
   },
   "3150-AL62": {
     "rin": "3150-AL62",
@@ -95121,7 +95121,7 @@
         "documentId": "NRC-2025-1667-0004"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:36:32.223705+00:00"
+    "comment_fetched_at": "2026-08-13T14:37:08.370277+00:00"
   },
   "3206-AP06": {
     "rin": "3206-AP06",
@@ -95151,7 +95151,7 @@
     "open_for_comment": false,
     "comment_count": 30,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:36:39.642872+00:00"
+    "comment_fetched_at": "2026-08-13T14:37:15.835385+00:00"
   },
   "3209-AA76": {
     "rin": "3209-AA76",
@@ -95186,7 +95186,7 @@
     "open_for_comment": false,
     "comment_count": 114,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:36:47.074546+00:00"
+    "comment_fetched_at": "2026-08-13T14:37:23.290902+00:00"
   },
   "9000-AO86": {
     "rin": "9000-AO86",
@@ -95201,7 +95201,7 @@
     "open_for_comment": false,
     "comment_count": 86,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:36:54.492732+00:00"
+    "comment_fetched_at": "2026-08-13T14:37:30.743642+00:00"
   },
   "9000-AO87": {
     "rin": "9000-AO87",
@@ -95216,7 +95216,7 @@
     "open_for_comment": false,
     "comment_count": 117,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:37:01.904929+00:00"
+    "comment_fetched_at": "2026-08-13T14:37:38.195972+00:00"
   },
   "9000-AO90": {
     "rin": "9000-AO90",
@@ -95231,7 +95231,7 @@
     "open_for_comment": false,
     "comment_count": 83,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:37:09.320690+00:00"
+    "comment_fetched_at": "2026-08-13T14:37:45.661437+00:00"
   },
   "9000-AO92": {
     "rin": "9000-AO92",
@@ -95246,7 +95246,7 @@
     "open_for_comment": false,
     "comment_count": 28,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:37:16.734311+00:00"
+    "comment_fetched_at": "2026-08-13T14:37:53.121519+00:00"
   },
   "1506-ZA04": {
     "rin": "1506-ZA04",
@@ -95332,12 +95332,28 @@
     "open_for_comment": true,
     "comment_count": 3,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:35:06.636395+00:00"
+    "comment_fetched_at": "2026-08-13T14:35:42.595278+00:00"
   },
   "2050-AH50": {
     "rin": "2050-AH50",
-    "docket_id": null,
-    "fetched_at": "2026-07-13T15:56:49.900066+00:00"
+    "docket_id": "EPA-HQ-OLEM-2026-4159",
+    "docket_url": "https://www.regulations.gov/docket/EPA-HQ-OLEM-2026-4159",
+    "title": "Hazardous and Solid Waste Management System: Disposal of Coal Combustion Residuals From Electric Utilities; Federal CCR Permit Program; General Permit Provisions",
+    "docket_type": "Rulemaking",
+    "last_modified": "2026-07-14T16:46:44Z",
+    "fetched_at": "2026-08-13T14:35:09.033529+00:00",
+    "comment_start_date": "2026-07-14",
+    "comment_end_date": "2026-10-14",
+    "open_for_comment": true,
+    "comment_count": 0,
+    "documents": [
+      {
+        "documentType": "Supporting & Related Material",
+        "title": "EO 12866 Redline Cleared by OMB 062926",
+        "documentId": "EPA-HQ-OLEM-2026-4159-0002"
+      }
+    ],
+    "comment_fetched_at": "2026-08-13T14:35:09.033572+00:00"
   },
   "3038-AF73": {
     "rin": "3038-AF73",
@@ -95352,7 +95368,7 @@
     "open_for_comment": false,
     "comment_count": 33,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:35:21.477688+00:00"
+    "comment_fetched_at": "2026-08-13T14:35:57.503019+00:00"
   },
   "3038-ZA24": {
     "rin": "3038-ZA24",
@@ -95372,27 +95388,27 @@
   "0584-AF29": {
     "rin": "0584-AF29",
     "docket_id": null,
-    "fetched_at": "2026-07-13T15:54:34.026976+00:00"
+    "fetched_at": "2026-08-13T14:31:29.053772+00:00"
   },
   "0694-AK30": {
     "rin": "0694-AK30",
     "docket_id": null,
-    "fetched_at": "2026-07-13T15:54:37.786155+00:00"
+    "fetched_at": "2026-08-13T14:31:58.879498+00:00"
   },
   "0694-AK48": {
     "rin": "0694-AK48",
     "docket_id": null,
-    "fetched_at": "2026-07-13T15:54:41.546634+00:00"
+    "fetched_at": "2026-08-13T14:32:02.596514+00:00"
   },
   "0930-AA40": {
     "rin": "0930-AA40",
     "docket_id": null,
-    "fetched_at": "2026-07-13T15:54:52.825276+00:00"
+    "fetched_at": "2026-08-13T14:32:17.457927+00:00"
   },
   "0930-AA41": {
     "rin": "0930-AA41",
     "docket_id": null,
-    "fetched_at": "2026-07-13T15:54:56.586552+00:00"
+    "fetched_at": "2026-08-13T14:32:21.169797+00:00"
   },
   "3038-AF71": {
     "rin": "3038-AF71",
@@ -95407,12 +95423,12 @@
     "open_for_comment": true,
     "comment_count": 4,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:35:14.051966+00:00"
+    "comment_fetched_at": "2026-08-13T14:35:50.048558+00:00"
   },
   "3060-AM28": {
     "rin": "3060-AM28",
     "docket_id": null,
-    "fetched_at": "2026-07-13T15:57:42.801575+00:00"
+    "fetched_at": "2026-08-13T14:36:23.582802+00:00"
   },
   "0910-ZD30": {
     "rin": "0910-ZD30",
@@ -95442,7 +95458,7 @@
     "open_for_comment": true,
     "comment_count": 7,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:32:00.983675+00:00"
+    "comment_fetched_at": "2026-08-13T14:32:21.169971+00:00"
   },
   "0938-AV74": {
     "rin": "0938-AV74",
@@ -95679,7 +95695,7 @@
         "documentId": "NRC-2025-1204-0003"
       }
     ],
-    "comment_fetched_at": "2026-08-12T14:35:58.816753+00:00"
+    "comment_fetched_at": "2026-08-13T14:36:38.494278+00:00"
   },
   "1545-BS14": {
     "rin": "1545-BS14",
@@ -95697,9 +95713,9 @@
     "comment_start_date": "2026-07-30",
     "comment_end_date": "2026-09-01",
     "open_for_comment": true,
-    "comment_count": 266,
+    "comment_count": 281,
     "documents": [],
-    "comment_fetched_at": "2026-08-12T14:34:48.081613+00:00"
+    "comment_fetched_at": "2026-08-13T14:35:27.662019+00:00"
   },
   "3170-ZA54": {
     "rin": "3170-ZA54",
@@ -95739,17 +95755,17 @@
   "0910-ZD48": {
     "rin": "0910-ZD48",
     "docket_id": null,
-    "fetched_at": "2026-07-13T15:54:45.303723+00:00"
+    "fetched_at": "2026-08-13T14:32:06.309276+00:00"
   },
   "0910-ZD49": {
     "rin": "0910-ZD49",
     "docket_id": null,
-    "fetched_at": "2026-07-13T15:54:49.063528+00:00"
+    "fetched_at": "2026-08-13T14:32:10.028381+00:00"
   },
   "0938-AV78": {
     "rin": "0938-AV78",
     "docket_id": null,
-    "fetched_at": "2026-07-13T15:55:00.347656+00:00"
+    "fetched_at": "2026-08-13T14:32:32.345058+00:00"
   },
   "0938-AV99": {
     "rin": "0938-AV99",
@@ -96052,5 +96068,25 @@
     "rin": "3150-AL61",
     "docket_id": null,
     "fetched_at": "2026-08-12T14:36:32.223609+00:00"
+  },
+  "0648-BO54": {
+    "rin": "0648-BO54",
+    "docket_id": null,
+    "fetched_at": "2026-08-13T14:31:47.682904+00:00"
+  },
+  "0910-ZD63": {
+    "rin": "0910-ZD63",
+    "docket_id": null,
+    "fetched_at": "2026-08-13T14:32:13.745537+00:00"
+  },
+  "1210-AC43": {
+    "rin": "1210-AC43",
+    "docket_id": null,
+    "fetched_at": "2026-08-13T14:34:27.917405+00:00"
+  },
+  "2090-AA42": {
+    "rin": "2090-AA42",
+    "docket_id": null,
+    "fetched_at": "2026-08-13T14:35:20.205917+00:00"
   }
 }
