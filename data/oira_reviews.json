@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-08-13T13:54:12Z",
-  "count": 138,
+  "generated_at": "2026-08-14T13:50:42Z",
+  "count": 141,
   "reviews": [
+    {
+      "rin": "3038-AF77",
+      "agency_code": "3038",
+      "agency": "CFTC",
+      "title": "Request for Comment on the Listing of Compute Derivatives Contracts",
+      "received_date": "2026-08-13",
+      "rrid": "1501165",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1501165"
+    },
+    {
+      "rin": "1018-ZA17",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "2026 Migratory Game Bird Hunting (MGBH) Memorandum",
+      "received_date": "2026-08-13",
+      "rrid": "1500916",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1500916"
+    },
+    {
+      "rin": "1018-BI04",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Migratory Bird Hunting; Revised Regulatory Process",
+      "received_date": "2026-08-13",
+      "rrid": "1500917",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1500917"
+    },
+    {
+      "rin": "0720-AB84",
+      "agency_code": "0720",
+      "agency": "DOW/DODOASHA",
+      "title": "Enrollment Fee and Cost Sharing Under TRICARE Prime and Select for Retirees and Their Dependents",
+      "received_date": "2026-08-13",
+      "rrid": "1501163",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1501163"
+    },
     {
       "rin": "1018-BI71",
       "agency_code": "1018",
@@ -237,15 +273,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1495415"
     },
     {
-      "rin": "3064-AG16",
-      "agency_code": "3064",
-      "agency": "FDIC",
-      "title": "Unsafe or Unsound Practices, Matters Requiring Attention",
-      "received_date": "2026-08-04",
-      "rrid": "1492863",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492863"
-    },
-    {
       "rin": "1557-AF35",
       "agency_code": "1557",
       "agency": "TREAS/OCC",
@@ -253,6 +280,15 @@
       "received_date": "2026-08-04",
       "rrid": "1492864",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492864"
+    },
+    {
+      "rin": "3064-AG16",
+      "agency_code": "3064",
+      "agency": "FDIC",
+      "title": "Unsafe or Unsound Practices, Matters Requiring Attention",
+      "received_date": "2026-08-04",
+      "rrid": "1492863",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492863"
     },
     {
       "rin": "0910-ZD60",
@@ -469,15 +505,6 @@
       "received_date": "2026-07-23",
       "rrid": "1480167",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1480167"
-    },
-    {
-      "rin": "3245-ZA17",
-      "agency_code": "3245",
-      "agency": "SBA",
-      "title": "SBA Size Standards Methodology",
-      "received_date": "2026-07-22",
-      "rrid": "1477814",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1477814"
     },
     {
       "rin": "2133-AC05",
@@ -903,15 +930,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1417214"
     },
     {
-      "rin": "2040-AG56",
-      "agency_code": "2040",
-      "agency": "EPA/OW",
-      "title": "Updates to the National Pollutant Discharge Elimination System Definitions and Exclusions",
-      "received_date": "2026-06-05",
-      "rrid": "1412165",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1412165"
-    },
-    {
       "rin": "0910-AI91",
       "agency_code": "0910",
       "agency": "HHS/FDA",
@@ -1072,6 +1090,15 @@
       "received_date": "2026-04-02",
       "rrid": "1334515",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1334515"
+    },
+    {
+      "rin": "3235-AN38",
+      "agency_code": "3235",
+      "agency": "SEC",
+      "title": "Crypto Assets",
+      "received_date": "2026-03-20",
+      "rrid": "1282115",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1282115"
     },
     {
       "rin": "0694-AK21",
