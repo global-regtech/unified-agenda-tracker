@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-08-14T13:50:42Z",
-  "count": 141,
+  "generated_at": "2026-08-15T13:05:43Z",
+  "count": 136,
   "reviews": [
+    {
+      "rin": "1004-AE83",
+      "agency_code": "1004",
+      "agency": "DOI/BLM",
+      "title": "Regulations for the Protection, Management, and Control of Wild Horses and Burros",
+      "received_date": "2026-08-14",
+      "rrid": "1500365",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1500365"
+    },
+    {
+      "rin": "1018-BI93",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Marine Mammals; Incidental Take During Specified Activities; North Slope, Alaska",
+      "received_date": "2026-08-14",
+      "rrid": "1502864",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1502864"
+    },
+    {
+      "rin": "0970-ZA25",
+      "agency_code": "0970",
+      "agency": "HHS/ACF",
+      "title": "Updates to the Children's Bureau Child Welfare Policy Manual",
+      "received_date": "2026-08-14",
+      "rrid": "1502862",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1502862"
+    },
     {
       "rin": "3038-AF77",
       "agency_code": "3038",
@@ -64,15 +91,6 @@
       "received_date": "2026-08-12",
       "rrid": "1492665",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492665"
-    },
-    {
-      "rin": "1875-AA17",
-      "agency_code": "1875",
-      "agency": "ED/OPEPD",
-      "title": "Revisions to EDGAR - Application Notices",
-      "received_date": "2026-08-12",
-      "rrid": "1500913",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1500913"
     },
     {
       "rin": "0910-ZD64",
@@ -226,15 +244,6 @@
       "received_date": "2026-08-05",
       "rrid": "1496015",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1496015"
-    },
-    {
-      "rin": "1840-AD82",
-      "agency_code": "1840",
-      "agency": "ED/OPE",
-      "title": "Accreditation Issues",
-      "received_date": "2026-08-05",
-      "rrid": "1496012",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1496012"
     },
     {
       "rin": "0648-BN42",
@@ -1029,33 +1038,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1379863"
     },
     {
-      "rin": "1105-ZA07",
-      "agency_code": "1105",
-      "agency": "DOJ/LA",
-      "title": "Guidelines for the Disclosure and Use of Grand Jury Information Under Rule 6(e)(3)(D)",
-      "received_date": "2026-05-08",
-      "rrid": "1374666",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1374666"
-    },
-    {
-      "rin": "1105-ZA06",
-      "agency_code": "1105",
-      "agency": "DOJ/LA",
-      "title": "Guidelines for Disclosure of Grand Jury and Electronic, Wire, and Oral Interception Information Identifying United States Persons",
-      "received_date": "2026-05-08",
-      "rrid": "1374665",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1374665"
-    },
-    {
-      "rin": "1105-ZA05",
-      "agency_code": "1105",
-      "agency": "DOJ/LA",
-      "title": "Guidelines Regarding Disclosure to the Director of National Intelligence and Homeland Security Officials of Foreign Intelligence Acquired in the Course of a Criminal Investigation",
-      "received_date": "2026-05-08",
-      "rrid": "1374664",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1374664"
-    },
-    {
       "rin": "0938-AW03",
       "agency_code": "0938",
       "agency": "HHS/CMS",
@@ -1119,15 +1101,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1314516"
     },
     {
-      "rin": "0584-AF09",
-      "agency_code": "0584",
-      "agency": "USDA/FNS",
-      "title": "Supplemental Nutrition Assistance Program: Modification to Work Requirements for Able-Bodied Adults",
-      "received_date": "2026-03-17",
-      "rrid": "1314513",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1314513"
-    },
-    {
       "rin": "0910-ZC82",
       "agency_code": "0910",
       "agency": "HHS/FDA",
@@ -1144,15 +1117,6 @@
       "received_date": "2026-03-11",
       "rrid": "1307462",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1307462"
-    },
-    {
-      "rin": "0596-AD66",
-      "agency_code": "0596",
-      "agency": "USDA/FS",
-      "title": "Special Areas: Roadless Area Conservation Repeal",
-      "received_date": "2026-03-06",
-      "rrid": "1302013",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1302013"
     },
     {
       "rin": "3060-AM01",
@@ -1198,15 +1162,6 @@
       "received_date": "2025-12-01",
       "rrid": "1194614",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1194614"
-    },
-    {
-      "rin": "1120-AB83",
-      "agency_code": "1120",
-      "agency": "DOJ/BOP",
-      "title": "First Step Act Time Credits -- Revisions",
-      "received_date": "2025-12-01",
-      "rrid": "1189512",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1189512"
     },
     {
       "rin": "2070-AL33",
