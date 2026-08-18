@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-08-17T13:14:11Z",
+  "generated_at": "2026-08-18T13:21:38Z",
   "count": 135,
   "reviews": [
+    {
+      "rin": "0503-ZA04",
+      "agency_code": "0503",
+      "agency": "USDA/AgSEC",
+      "title": "9 CFR Parts 101 Through 118, 123 Through 124",
+      "received_date": "2026-08-17",
+      "rrid": "1500366",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1500366"
+    },
+    {
+      "rin": "2140-ZA02",
+      "agency_code": "2140",
+      "agency": "STB",
+      "title": "Policy Statement on Jurisdiction and Preemption Under The ICC Termination Act, EP 791",
+      "received_date": "2026-08-17",
+      "rrid": "1502865",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1502865"
+    },
     {
       "rin": "1004-AE83",
       "agency_code": "1004",
@@ -199,15 +217,6 @@
       "received_date": "2026-08-06",
       "rrid": "1496363",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1496363"
-    },
-    {
-      "rin": "0910-ZD61",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Evaluation of Therapeutic Equivalence; Guidance for Industry; Availability",
-      "received_date": "2026-08-06",
-      "rrid": "1496014",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1496014"
     },
     {
       "rin": "1615-AD22",
@@ -750,15 +759,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1442165"
     },
     {
-      "rin": "1545-BS05",
-      "agency_code": "1545",
-      "agency": "TREAS/IRS",
-      "title": "Guidance on the application of the fundamental public policy against racial discrimination in schools",
-      "received_date": "2026-06-25",
-      "rrid": "1442164",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1442164"
-    },
-    {
       "rin": "0625-AB32",
       "agency_code": "0625",
       "agency": "DOC/ITA",
@@ -804,15 +804,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440012"
     },
     {
-      "rin": "0648-BN70",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Regulations for Listing Species and Designating Critical Habitat",
-      "received_date": "2026-06-23",
-      "rrid": "1437168",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
-    },
-    {
       "rin": "1615-AD05",
       "agency_code": "1615",
       "agency": "DHS/USCIS",
@@ -820,6 +811,15 @@
       "received_date": "2026-06-23",
       "rrid": "1437162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
+    },
+    {
+      "rin": "0648-BN70",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Regulations for Listing Species and Designating Critical Habitat",
+      "received_date": "2026-06-23",
+      "rrid": "1437168",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
     },
     {
       "rin": "3135-AA37",
