@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-08-18T13:21:38Z",
-  "count": 135,
+  "generated_at": "2026-08-19T13:23:30Z",
+  "count": 136,
   "reviews": [
+    {
+      "rin": "2060-AW73",
+      "agency_code": "2060",
+      "agency": "EPA/OAR",
+      "title": "Additional Reconsideration of Standards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review",
+      "received_date": "2026-08-18",
+      "rrid": "1502863",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1502863"
+    },
+    {
+      "rin": "1545-BS15",
+      "agency_code": "1545",
+      "agency": "TREAS/IRS",
+      "title": "Premium Tax Credit",
+      "received_date": "2026-08-18",
+      "rrid": "1505513",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505513"
+    },
     {
       "rin": "0503-ZA04",
       "agency_code": "0503",
@@ -804,15 +822,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440012"
     },
     {
-      "rin": "1615-AD05",
-      "agency_code": "1615",
-      "agency": "DHS/USCIS",
-      "title": "Removal of the Automatic Extension of Employment Authorization Documents",
-      "received_date": "2026-06-23",
-      "rrid": "1437162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
-    },
-    {
       "rin": "0648-BN70",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -820,6 +829,15 @@
       "received_date": "2026-06-23",
       "rrid": "1437168",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
+    },
+    {
+      "rin": "1615-AD05",
+      "agency_code": "1615",
+      "agency": "DHS/USCIS",
+      "title": "Removal of the Automatic Extension of Employment Authorization Documents",
+      "received_date": "2026-06-23",
+      "rrid": "1437162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
     },
     {
       "rin": "3135-AA37",
@@ -1063,15 +1081,6 @@
       "received_date": "2026-04-02",
       "rrid": "1334515",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1334515"
-    },
-    {
-      "rin": "3235-AN38",
-      "agency_code": "3235",
-      "agency": "SEC",
-      "title": "Crypto Assets",
-      "received_date": "2026-03-20",
-      "rrid": "1282115",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1282115"
     },
     {
       "rin": "0694-AK21",
