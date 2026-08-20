@@ -1,7 +1,79 @@
 {
-  "generated_at": "2026-08-19T13:23:30Z",
-  "count": 136,
+  "generated_at": "2026-08-20T13:25:19Z",
+  "count": 140,
   "reviews": [
+    {
+      "rin": "1557-AF56",
+      "agency_code": "1557",
+      "agency": "TREAS/OCC",
+      "title": "Violations of Laws or Regulations",
+      "received_date": "2026-08-19",
+      "rrid": "1505718",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505718"
+    },
+    {
+      "rin": "3090-AL13",
+      "agency_code": "3090",
+      "agency": "GSA",
+      "title": "General Services Administration Regulation (GSAR); GSAR Case 2026-G501, GSAR Implementation of Executive Order 14275, FSS Ordering Procedures",
+      "received_date": "2026-08-19",
+      "rrid": "1505515",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505515"
+    },
+    {
+      "rin": "3090-AL14",
+      "agency_code": "3090",
+      "agency": "GSA",
+      "title": "General Services Administration Regulation (GSAR); GSAR Case 2026-G502 GSAR Implementation of Executive Order 14275, Acquisition of Utility Services.",
+      "received_date": "2026-08-19",
+      "rrid": "1505516",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505516"
+    },
+    {
+      "rin": "1615-AC93",
+      "agency_code": "1615",
+      "agency": "DHS/USCIS",
+      "title": "U.S. Citizenship and Immigration Services Employment-Based Immigrant Visa, Fifth Preference (EB-5) Fee Rule",
+      "received_date": "2026-08-19",
+      "rrid": "1505716",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505716"
+    },
+    {
+      "rin": "1121-ZB94",
+      "agency_code": "1121",
+      "agency": "DOJ/OJP",
+      "title": "Victim Compensation VOCApedia Questions",
+      "received_date": "2026-08-19",
+      "rrid": "1505518",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505518"
+    },
+    {
+      "rin": "0938-AW08",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "Request for Information: Medicare Part D Reasonable and Relevant Pharmacy Contracting Standards (CMS-4217)",
+      "received_date": "2026-08-19",
+      "rrid": "1505715",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505715"
+    },
+    {
+      "rin": "3060-AM21",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Satellite Spectrum Abundance (SB Docket No. 25-180)",
+      "received_date": "2026-08-19",
+      "rrid": "1505712",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505712"
+    },
+    {
+      "rin": "0991-ZA62",
+      "agency_code": "0991",
+      "agency": "HHS/OS",
+      "title": "Request for Information: Categories Used in Federal Vaccine Recommendations and the Role of Shared Clinical Decision-Making",
+      "received_date": "2026-08-18",
+      "rrid": "1505517",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505517"
+    },
     {
       "rin": "2060-AW73",
       "agency_code": "2060",
@@ -64,15 +136,6 @@
       "received_date": "2026-08-14",
       "rrid": "1502862",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1502862"
-    },
-    {
-      "rin": "3038-AF77",
-      "agency_code": "3038",
-      "agency": "CFTC",
-      "title": "Request for Comment on the Listing of Compute Derivatives Contracts",
-      "received_date": "2026-08-13",
-      "rrid": "1501165",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1501165"
     },
     {
       "rin": "1018-ZA17",
@@ -534,24 +597,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1480167"
     },
     {
-      "rin": "2133-AC05",
-      "agency_code": "2133",
-      "agency": "DOT/MARAD",
-      "title": "Federal Ship Financing Program Revision",
-      "received_date": "2026-07-22",
-      "rrid": "1477813",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1477813"
-    },
-    {
-      "rin": "3046-AB46",
-      "agency_code": "3046",
-      "agency": "EEOC",
-      "title": "Revision and Update to 29 CFR Part 1614",
-      "received_date": "2026-07-22",
-      "rrid": "1475169",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475169"
-    },
-    {
       "rin": "0651-AD89",
       "agency_code": "0651",
       "agency": "DOC/PTO",
@@ -570,15 +615,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475163"
     },
     {
-      "rin": "1018-BI75",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
-      "received_date": "2026-07-22",
-      "rrid": "1475162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
-    },
-    {
       "rin": "0648-BN79",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -586,6 +622,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475166",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
+    },
+    {
+      "rin": "1018-BI75",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
+      "received_date": "2026-07-22",
+      "rrid": "1475162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
     },
     {
       "rin": "1210-ZA37",
@@ -777,15 +822,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1442165"
     },
     {
-      "rin": "0625-AB32",
-      "agency_code": "0625",
-      "agency": "DOC/ITA",
-      "title": "Revision of the Countervailing Duty Adverse Facts Available Hierarchy Regulation",
-      "received_date": "2026-06-24",
-      "rrid": "1434662",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1434662"
-    },
-    {
       "rin": "1400-AE73",
       "agency_code": "1400",
       "agency": "STATE",
@@ -822,15 +858,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440012"
     },
     {
-      "rin": "0648-BN70",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Regulations for Listing Species and Designating Critical Habitat",
-      "received_date": "2026-06-23",
-      "rrid": "1437168",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
-    },
-    {
       "rin": "1615-AD05",
       "agency_code": "1615",
       "agency": "DHS/USCIS",
@@ -838,6 +865,15 @@
       "received_date": "2026-06-23",
       "rrid": "1437162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
+    },
+    {
+      "rin": "0648-BN70",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Regulations for Listing Species and Designating Critical Habitat",
+      "received_date": "2026-06-23",
+      "rrid": "1437168",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
     },
     {
       "rin": "3135-AA37",
