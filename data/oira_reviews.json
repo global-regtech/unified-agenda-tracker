@@ -1,7 +1,61 @@
 {
-  "generated_at": "2026-08-20T13:25:19Z",
-  "count": 140,
+  "generated_at": "2026-08-21T13:24:36Z",
+  "count": 144,
   "reviews": [
+    {
+      "rin": "0938-AU54",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "Amendments to Rules Governing Organ Procurement Organizations (CMS-3409)",
+      "received_date": "2026-08-20",
+      "rrid": "1505512",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505512"
+    },
+    {
+      "rin": "1653-AB01",
+      "agency_code": "1653",
+      "agency": "DHS/USICE",
+      "title": "Optional Practical Training Fees",
+      "received_date": "2026-08-20",
+      "rrid": "1505717",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505717"
+    },
+    {
+      "rin": "0970-AD48",
+      "agency_code": "0970",
+      "agency": "HHS/ACF",
+      "title": "Reducing Bureaucracy and Burden for the Repatriation of Mentally Ill Nationals",
+      "received_date": "2026-08-20",
+      "rrid": "1506164",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506164"
+    },
+    {
+      "rin": "0925-ZA20",
+      "agency_code": "0925",
+      "agency": "HHS/NIH",
+      "title": "FY 2026-2030 NIH Strategic Plan for HIV and HIV-Related Research",
+      "received_date": "2026-08-20",
+      "rrid": "1506163",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506163"
+    },
+    {
+      "rin": "3041-ZA01",
+      "agency_code": "3041",
+      "agency": "CPSC",
+      "title": "Guidance Document Concerning Modernization of National Electronic Injury Surveillance System (NEISS)",
+      "received_date": "2026-08-20",
+      "rrid": "1506162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506162"
+    },
+    {
+      "rin": "3124-AA35",
+      "agency_code": "3124",
+      "agency": "MSPB",
+      "title": "Promoting Employee Accountability",
+      "received_date": "2026-08-20",
+      "rrid": "1292168",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1292168"
+    },
     {
       "rin": "1557-AF56",
       "agency_code": "1557",
@@ -64,15 +118,6 @@
       "received_date": "2026-08-19",
       "rrid": "1505712",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505712"
-    },
-    {
-      "rin": "0991-ZA62",
-      "agency_code": "0991",
-      "agency": "HHS/OS",
-      "title": "Request for Information: Categories Used in Federal Vaccine Recommendations and the Role of Shared Clinical Decision-Making",
-      "received_date": "2026-08-18",
-      "rrid": "1505517",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505517"
     },
     {
       "rin": "2060-AW73",
@@ -325,15 +370,6 @@
       "received_date": "2026-08-05",
       "rrid": "1496015",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1496015"
-    },
-    {
-      "rin": "0648-BN42",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Taking Marine Mammals Incidental to the Duckabush Estuary Restoration Project in Washington",
-      "received_date": "2026-08-04",
-      "rrid": "1495414",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1495414"
     },
     {
       "rin": "3170-AB39",
@@ -615,15 +651,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475163"
     },
     {
-      "rin": "0648-BN79",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
-      "received_date": "2026-07-22",
-      "rrid": "1475166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
-    },
-    {
       "rin": "1018-BI75",
       "agency_code": "1018",
       "agency": "DOI/FWS",
@@ -631,6 +658,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
+    },
+    {
+      "rin": "0648-BN79",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
+      "received_date": "2026-07-22",
+      "rrid": "1475166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
     },
     {
       "rin": "1210-ZA37",
