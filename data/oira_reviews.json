@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-08-21T13:24:36Z",
-  "count": 144,
+  "generated_at": "2026-08-22T13:07:50Z",
+  "count": 147,
   "reviews": [
+    {
+      "rin": "2137-AF45",
+      "agency_code": "2137",
+      "agency": "DOT/PHMSA",
+      "title": "Pipeline Safety: Amendments to Liquefied Natural Gas Facilities",
+      "received_date": "2026-08-21",
+      "rrid": "1506167",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506167"
+    },
+    {
+      "rin": "0584-AE99",
+      "agency_code": "0584",
+      "agency": "USDA/FNA",
+      "title": "Enhancing Electronic Benefit Transfer (EBT) Card Security Measures",
+      "received_date": "2026-08-21",
+      "rrid": "1506168",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506168"
+    },
+    {
+      "rin": "2070-AL36",
+      "agency_code": "2070",
+      "agency": "EPA/OCSPP",
+      "title": "Formaldehyde Emission Standards for Composite Wood Products; Voluntary Consensus Standards Update (Fourth Update)",
+      "received_date": "2026-08-21",
+      "rrid": "1506169",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506169"
+    },
     {
       "rin": "0938-AU54",
       "agency_code": "0938",
@@ -651,15 +678,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475163"
     },
     {
-      "rin": "1018-BI75",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
-      "received_date": "2026-07-22",
-      "rrid": "1475162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
-    },
-    {
       "rin": "0648-BN79",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -667,6 +685,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475166",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
+    },
+    {
+      "rin": "1018-BI75",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
+      "received_date": "2026-07-22",
+      "rrid": "1475162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
     },
     {
       "rin": "1210-ZA37",
