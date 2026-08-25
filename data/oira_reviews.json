@@ -1,7 +1,61 @@
 {
-  "generated_at": "2026-08-24T13:28:43Z",
-  "count": 147,
+  "generated_at": "2026-08-25T13:26:06Z",
+  "count": 153,
   "reviews": [
+    {
+      "rin": "0937-ZA01",
+      "agency_code": "0937",
+      "agency": "HHS/OASH",
+      "title": "Where the Clinic Meets the Movement: Does Gender Ideology Arm Left-Wing Authoritarian Psychology?",
+      "received_date": "2026-08-24",
+      "rrid": "1507967",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1507967"
+    },
+    {
+      "rin": "0584-AF06",
+      "agency_code": "0584",
+      "agency": "USDA/FNA",
+      "title": "Simplified Geographic Preference Procurement in Child Nutrition Programs",
+      "received_date": "2026-08-24",
+      "rrid": "1507966",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1507966"
+    },
+    {
+      "rin": "3060-AM03",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Spectrum Rules and Policies for the Operation of Unmanned Aircraft Systems, WT Docket No. 22-323",
+      "received_date": "2026-08-24",
+      "rrid": "1507963",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1507963"
+    },
+    {
+      "rin": "0945-ZA13",
+      "agency_code": "0945",
+      "agency": "HHS/OCR",
+      "title": "FAQ: Part 2 Confidentiality Requirements for Substance Use Disorder (SUD) Patient Records and Exceptions to Medicaid Community Engagement Requirements for Certain Individuals with SUD",
+      "received_date": "2026-08-24",
+      "rrid": "1507962",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1507962"
+    },
+    {
+      "rin": "1105-AB71",
+      "agency_code": "1105",
+      "agency": "DOJ/LA",
+      "title": "Implementation of HAVANA Act of 2021",
+      "received_date": "2026-08-24",
+      "rrid": "1506515",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506515"
+    },
+    {
+      "rin": "1615-AD00",
+      "agency_code": "1615",
+      "agency": "DHS/USCIS",
+      "title": "Reforming the H-1B Nonimmigrant Visa Classification Program",
+      "received_date": "2026-08-24",
+      "rrid": "1505714",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505714"
+    },
     {
       "rin": "3206-AP00",
       "agency_code": "3206",
