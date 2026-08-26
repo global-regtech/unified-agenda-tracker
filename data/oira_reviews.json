@@ -1,15 +1,60 @@
 {
-  "generated_at": "2026-08-25T13:26:06Z",
-  "count": 153,
+  "generated_at": "2026-08-26T13:31:39Z",
+  "count": 149,
   "reviews": [
     {
-      "rin": "0937-ZA01",
-      "agency_code": "0937",
-      "agency": "HHS/OASH",
-      "title": "Where the Clinic Meets the Movement: Does Gender Ideology Arm Left-Wing Authoritarian Psychology?",
+      "rin": "1810-AB71",
+      "agency_code": "1810",
+      "agency": "ED/OESE",
+      "title": "Charter School Programs",
+      "received_date": "2026-08-25",
+      "rrid": "1510514",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1510514"
+    },
+    {
+      "rin": "1117-AB40",
+      "agency_code": "1117",
+      "agency": "DOJ/DEA",
+      "title": "Special Registrations for Telemedicine and Limited State Telemedicine Registrations",
+      "received_date": "2026-08-25",
+      "rrid": "1510512",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1510512"
+    },
+    {
+      "rin": "3235-AN46",
+      "agency_code": "3235",
+      "agency": "SEC",
+      "title": "Amendments to the Custody Rules",
+      "received_date": "2026-08-25",
+      "rrid": "1449665",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1449665"
+    },
+    {
+      "rin": "3064-AG18",
+      "agency_code": "3064",
+      "agency": "FDIC",
+      "title": "Filing Procedures; Merger Transactions",
+      "received_date": "2026-08-25",
+      "rrid": "1506170",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506170"
+    },
+    {
+      "rin": "3064-AG34",
+      "agency_code": "3064",
+      "agency": "FDIC",
+      "title": "State Bank Parity",
+      "received_date": "2026-08-25",
+      "rrid": "1506171",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506171"
+    },
+    {
+      "rin": "2060-AX00",
+      "agency_code": "2060",
+      "agency": "EPA/OAR",
+      "title": "Repeal of Greenhouse Gas Standards for Fossil-fired Electric Generating Units",
       "received_date": "2026-08-24",
-      "rrid": "1507967",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1507967"
+      "rrid": "1507965",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1507965"
     },
     {
       "rin": "0584-AF06",
@@ -273,24 +318,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1502862"
     },
     {
-      "rin": "1018-ZA17",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "2026 Migratory Game Bird Hunting (MGBH) Memorandum",
-      "received_date": "2026-08-13",
-      "rrid": "1500916",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1500916"
-    },
-    {
-      "rin": "1018-BI04",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Migratory Bird Hunting; Revised Regulatory Process",
-      "received_date": "2026-08-13",
-      "rrid": "1500917",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1500917"
-    },
-    {
       "rin": "0720-AB84",
       "agency_code": "0720",
       "agency": "DOW/DODOASHA",
@@ -489,24 +516,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1495415"
     },
     {
-      "rin": "1557-AF35",
-      "agency_code": "1557",
-      "agency": "TREAS/OCC",
-      "title": "Unsafe or Unsound Practices, Matters Requiring Attention",
-      "received_date": "2026-08-04",
-      "rrid": "1492864",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492864"
-    },
-    {
-      "rin": "3064-AG16",
-      "agency_code": "3064",
-      "agency": "FDIC",
-      "title": "Unsafe or Unsound Practices, Matters Requiring Attention",
-      "received_date": "2026-08-04",
-      "rrid": "1492863",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492863"
-    },
-    {
       "rin": "0910-ZD60",
       "agency_code": "0910",
       "agency": "HHS/FDA",
@@ -622,15 +631,6 @@
       "received_date": "2026-07-28",
       "rrid": "1487666",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1487666"
-    },
-    {
-      "rin": "1400-AG31",
-      "agency_code": "1400",
-      "agency": "STATE",
-      "title": "International Traffic in Arms Regulations: Clarifying Policies of Denial, Updating the Major Non-NATO Ally List, and Minor Corrections",
-      "received_date": "2026-07-28",
-      "rrid": "1485164",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1485164"
     },
     {
       "rin": "0970-AD32",
@@ -993,15 +993,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
     },
     {
-      "rin": "3135-AA37",
-      "agency_code": "3135",
-      "agency": "NEA",
-      "title": "Nondiscrimination in Federally Assisted Programs",
-      "received_date": "2026-06-22",
-      "rrid": "1424912",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1424912"
-    },
-    {
       "rin": "2132-ZA11",
       "agency_code": "2132",
       "agency": "DOT/FTA",
@@ -1090,15 +1081,6 @@
       "received_date": "2026-06-08",
       "rrid": "1367213",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1367213"
-    },
-    {
-      "rin": "3245-AI72",
-      "agency_code": "3245",
-      "agency": "SBA",
-      "title": "Removing Constitutional Concerns from SBA Programs",
-      "received_date": "2026-06-05",
-      "rrid": "1417214",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1417214"
     },
     {
       "rin": "0910-AI91",
@@ -1236,15 +1218,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1334515"
     },
     {
-      "rin": "0694-AK21",
-      "agency_code": "0694",
-      "agency": "DOC/BIS",
-      "title": "Sudan: Implementation of Chemical and Biological Weapons Control and Warfare Elimination Act of 1991 Sanctions in the EAR; Additional Restrictions",
-      "received_date": "2026-03-19",
-      "rrid": "1317113",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1317113"
-    },
-    {
       "rin": "1651-AB63",
       "agency_code": "1651",
       "agency": "DHS/USCBP",
@@ -1297,15 +1270,6 @@
       "received_date": "2026-01-23",
       "rrid": "1252114",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1252114"
-    },
-    {
-      "rin": "1400-AF40",
-      "agency_code": "1400",
-      "agency": "STATE",
-      "title": "International Traffic in Arms Regulations: Proposed Omnibus USML Changes",
-      "received_date": "2026-01-02",
-      "rrid": "1229564",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1229564"
     },
     {
       "rin": "0348-AB93",
