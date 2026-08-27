@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-08-26T13:31:39Z",
-  "count": 149,
+  "generated_at": "2026-08-27T22:27:16Z",
+  "count": 151,
   "reviews": [
+    {
+      "rin": "3235-AN60",
+      "agency_code": "3235",
+      "agency": "SEC",
+      "title": "Executive Compensation Disclosure Reform",
+      "received_date": "2026-08-26",
+      "rrid": "1492663",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492663"
+    },
+    {
+      "rin": "2060-AX06",
+      "agency_code": "2060",
+      "agency": "EPA/OAR",
+      "title": "Renewable Fuel Standard (RFS) Program: Extension of 2025 Compliance Reporting Deadline",
+      "received_date": "2026-08-26",
+      "rrid": "1512912",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1512912"
+    },
+    {
+      "rin": "1685-AA47",
+      "agency_code": "1685",
+      "agency": "DHS/CUSTREV",
+      "title": "Heightened Import Disclosures for Supply Chain Visibility",
+      "received_date": "2026-08-26",
+      "rrid": "1510516",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1510516"
+    },
     {
       "rin": "1810-AB71",
       "agency_code": "1810",
@@ -840,15 +867,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1459664"
     },
     {
-      "rin": "2105-AF33",
-      "agency_code": "2105",
-      "agency": "DOT/OST",
-      "title": "Disadvantaged Business Enterprise and Airport Concession; Disadvantaged Business Enterprise Program Implementation Modifications",
-      "received_date": "2026-07-09",
-      "rrid": "1454915",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1454915"
-    },
-    {
       "rin": "2040-AG47",
       "agency_code": "2040",
       "agency": "EPA/OW",
@@ -975,15 +993,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440012"
     },
     {
-      "rin": "1615-AD05",
-      "agency_code": "1615",
-      "agency": "DHS/USCIS",
-      "title": "Removal of the Automatic Extension of Employment Authorization Documents",
-      "received_date": "2026-06-23",
-      "rrid": "1437162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
-    },
-    {
       "rin": "0648-BN70",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -991,6 +1000,15 @@
       "received_date": "2026-06-23",
       "rrid": "1437168",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
+    },
+    {
+      "rin": "1615-AD05",
+      "agency_code": "1615",
+      "agency": "DHS/USCIS",
+      "title": "Removal of the Automatic Extension of Employment Authorization Documents",
+      "received_date": "2026-06-23",
+      "rrid": "1437162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
     },
     {
       "rin": "2132-ZA11",
