@@ -1,7 +1,61 @@
 {
-  "generated_at": "2026-08-27T22:27:16Z",
-  "count": 151,
+  "generated_at": "2026-08-28T22:30:12Z",
+  "count": 152,
   "reviews": [
+    {
+      "rin": "0648-BN63",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Taking and Importing Marine Mammals; Taking Marine Mammals Incidental to Geophysical Surveys in the Gulf of America",
+      "received_date": "2026-08-27",
+      "rrid": "1500912",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1500912"
+    },
+    {
+      "rin": "2126-AC63",
+      "agency_code": "2126",
+      "agency": "DOT/FMCSA",
+      "title": "Transparency in Property Broker Transactions",
+      "received_date": "2026-08-27",
+      "rrid": "1515365",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1515365"
+    },
+    {
+      "rin": "3037-AA24",
+      "agency_code": "3037",
+      "agency": "CPBSD",
+      "title": "Revise Central Nonprofit Agencies' Requirements to Charge Fees & Subcontracting in the AbilityOne Program",
+      "received_date": "2026-08-27",
+      "rrid": "1357163",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1357163"
+    },
+    {
+      "rin": "1557-AF41",
+      "agency_code": "1557",
+      "agency": "TREAS/OCC",
+      "title": "Regulations on Implementing the GENIUS Act for Entities Subject to OCC Jurisdiction",
+      "received_date": "2026-08-27",
+      "rrid": "1512915",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1512915"
+    },
+    {
+      "rin": "3060-AL94",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Allocation and Service Rules for the 1675-1680 MHz Band, WT Docket No. 19-116",
+      "received_date": "2026-08-27",
+      "rrid": "1512914",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1512914"
+    },
+    {
+      "rin": "3060-AM28",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Unleashing Unlicensed Spectrum for Direct-to-Device",
+      "received_date": "2026-08-27",
+      "rrid": "1512913",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1512913"
+    },
     {
       "rin": "3235-AN60",
       "agency_code": "3235",
@@ -219,15 +273,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1292168"
     },
     {
-      "rin": "1557-AF56",
-      "agency_code": "1557",
-      "agency": "TREAS/OCC",
-      "title": "Violations of Laws or Regulations",
-      "received_date": "2026-08-19",
-      "rrid": "1505718",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505718"
-    },
-    {
       "rin": "3090-AL13",
       "agency_code": "3090",
       "agency": "GSA",
@@ -352,15 +397,6 @@
       "received_date": "2026-08-13",
       "rrid": "1501163",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1501163"
-    },
-    {
-      "rin": "1018-BI71",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "National Wildlife Refuge System; 2026\u20132027 Station-Specific Hunting and Sport Fishing Updates",
-      "received_date": "2026-08-12",
-      "rrid": "1500915",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1500915"
     },
     {
       "rin": "1205-AC21",
@@ -489,15 +525,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1496363"
     },
     {
-      "rin": "1615-AD22",
-      "agency_code": "1615",
-      "agency": "DHS/USCIS",
-      "title": "Eliminating the Discretionary 60-day Grace Period",
-      "received_date": "2026-08-06",
-      "rrid": "1495412",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1495412"
-    },
-    {
       "rin": "1870-AA26",
       "agency_code": "1870",
       "agency": "ED/OCR",
@@ -568,15 +595,6 @@
       "received_date": "2026-08-03",
       "rrid": "1492865",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492865"
-    },
-    {
-      "rin": "1400-AG35",
-      "agency_code": "1400",
-      "agency": "STATE",
-      "title": "International Traffic in Arms Regulations: Modification of U.S. Munitions List Category XX(a)",
-      "received_date": "2026-08-03",
-      "rrid": "1492862",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492862"
     },
     {
       "rin": "3206-AO92",
@@ -759,15 +777,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475163"
     },
     {
-      "rin": "0648-BN79",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
-      "received_date": "2026-07-22",
-      "rrid": "1475166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
-    },
-    {
       "rin": "1018-BI75",
       "agency_code": "1018",
       "agency": "DOI/FWS",
@@ -775,6 +784,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
+    },
+    {
+      "rin": "0648-BN79",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
+      "received_date": "2026-07-22",
+      "rrid": "1475166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
     },
     {
       "rin": "1210-ZA37",
@@ -1306,15 +1324,6 @@
       "received_date": "2025-11-24",
       "rrid": "1134618",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1134618"
-    },
-    {
-      "rin": "1117-AB87",
-      "agency_code": "1117",
-      "agency": "DOJ/DEA",
-      "title": "Extension of Reexportation Period",
-      "received_date": "2025-11-17",
-      "rrid": "1132016",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1132016"
     },
     {
       "rin": "1545-BQ82",
