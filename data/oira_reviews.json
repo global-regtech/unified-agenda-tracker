@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-08-31T19:10:23Z",
-  "count": 153,
+  "generated_at": "2026-09-01T16:47:51Z",
+  "count": 149,
   "reviews": [
+    {
+      "rin": "3235-AN59",
+      "agency_code": "3235",
+      "agency": "SEC",
+      "title": "Enhancing Retail Exposure to Private Markets",
+      "received_date": "2026-08-31",
+      "rrid": "1492664",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492664"
+    },
     {
       "rin": "0910-AI42",
       "agency_code": "0910",
@@ -201,15 +210,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1507965"
     },
     {
-      "rin": "0584-AF06",
-      "agency_code": "0584",
-      "agency": "USDA/FNA",
-      "title": "Simplified Geographic Preference Procurement in Child Nutrition Programs",
-      "received_date": "2026-08-24",
-      "rrid": "1507966",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1507966"
-    },
-    {
       "rin": "3060-AM03",
       "agency_code": "3060",
       "agency": "FCC",
@@ -325,15 +325,6 @@
       "received_date": "2026-08-20",
       "rrid": "1506162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506162"
-    },
-    {
-      "rin": "3124-AA35",
-      "agency_code": "3124",
-      "agency": "MSPB",
-      "title": "Promoting Employee Accountability",
-      "received_date": "2026-08-20",
-      "rrid": "1292168",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1292168"
     },
     {
       "rin": "3090-AL13",
@@ -723,15 +714,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1487665"
     },
     {
-      "rin": "0910-AJ27",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Nonclinical Testing Terminology",
-      "received_date": "2026-07-28",
-      "rrid": "1487666",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1487666"
-    },
-    {
       "rin": "0970-AD32",
       "agency_code": "0970",
       "agency": "HHS/ACF",
@@ -930,15 +912,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1452362"
     },
     {
-      "rin": "3150-AL48",
-      "agency_code": "3150",
-      "agency": "NRC",
-      "title": "In-situ Recovery Monitoring and Decommissioning Timeliness [NRC-2025-1204]",
-      "received_date": "2026-07-02",
-      "rrid": "1442166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1442166"
-    },
-    {
       "rin": "2050-AH38",
       "agency_code": "2050",
       "agency": "EPA/OLEM",
@@ -946,15 +919,6 @@
       "received_date": "2026-07-01",
       "rrid": "1452162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1452162"
-    },
-    {
-      "rin": "2040-AG44",
-      "agency_code": "2040",
-      "agency": "EPA/OW",
-      "title": "Updated Definition of \"Waters of the United States\"",
-      "received_date": "2026-06-30",
-      "rrid": "1444714",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1444714"
     },
     {
       "rin": "1210-AC37",
@@ -1020,15 +984,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440012"
     },
     {
-      "rin": "0648-BN70",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Regulations for Listing Species and Designating Critical Habitat",
-      "received_date": "2026-06-23",
-      "rrid": "1437168",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
-    },
-    {
       "rin": "1615-AD05",
       "agency_code": "1615",
       "agency": "DHS/USCIS",
@@ -1036,6 +991,15 @@
       "received_date": "2026-06-23",
       "rrid": "1437162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
+    },
+    {
+      "rin": "0648-BN70",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Regulations for Listing Species and Designating Critical Habitat",
+      "received_date": "2026-06-23",
+      "rrid": "1437168",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
     },
     {
       "rin": "2132-ZA11",
