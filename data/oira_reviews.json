@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-09-01T16:47:51Z",
-  "count": 149,
+  "generated_at": "2026-09-02T16:44:07Z",
+  "count": 151,
   "reviews": [
+    {
+      "rin": "0910-ZD67",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Temporary Policies for Compounding Certain Starter Parenteral Nutrition Drug Products for Neonates; Guidance for Industry; Availability",
+      "received_date": "2026-09-01",
+      "rrid": "1520515",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1520515"
+    },
+    {
+      "rin": "1090-AB29",
+      "agency_code": "1090",
+      "agency": "DOI/ASPMB",
+      "title": "Subsistence Management Regulations for Public Lands in Alaska, 2026\u201327 and 2027\u201328; Subsistence Taking of Wildlife Regulations",
+      "received_date": "2026-09-01",
+      "rrid": "1520362",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1520362"
+    },
+    {
+      "rin": "2006-ZA03",
+      "agency_code": "2006",
+      "agency": "EPA/RODALLAS",
+      "title": "NPDES General Permit for New and Existing Sources in the Offshore Subcategory of the Oil and Gas Extraction Point Source Category for the Western Portion of the OCS",
+      "received_date": "2026-09-01",
+      "rrid": "1520363",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1520363"
+    },
     {
       "rin": "3235-AN59",
       "agency_code": "3235",
@@ -298,15 +325,6 @@
       "received_date": "2026-08-20",
       "rrid": "1505717",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505717"
-    },
-    {
-      "rin": "0970-AD48",
-      "agency_code": "0970",
-      "agency": "HHS/ACF",
-      "title": "Reducing Bureaucracy and Burden for the Repatriation of Mentally Ill Nationals",
-      "received_date": "2026-08-20",
-      "rrid": "1506164",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506164"
     },
     {
       "rin": "0925-ZA20",
