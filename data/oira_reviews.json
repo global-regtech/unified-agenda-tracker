@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-09-02T16:44:07Z",
-  "count": 151,
+  "generated_at": "2026-09-03T16:35:02Z",
+  "count": 153,
   "reviews": [
+    {
+      "rin": "3076-AA32",
+      "agency_code": "3076",
+      "agency": "FMCS",
+      "title": "Federal Sector Labor Arbitration Requests",
+      "received_date": "2026-09-02",
+      "rrid": "1522863",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1522863"
+    },
+    {
+      "rin": "0596-AD75",
+      "agency_code": "0596",
+      "agency": "USDA/FS",
+      "title": "Grazing and Livestock Use on the National Forest System",
+      "received_date": "2026-09-02",
+      "rrid": "1520512",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1520512"
+    },
+    {
+      "rin": "3150-AL60",
+      "agency_code": "3150",
+      "agency": "NRC",
+      "title": "NRC Reviews of Reactor Designs Previously Authorized by U.S. Department of Energy or Department of War [NRC-2025-1503]",
+      "received_date": "2026-09-02",
+      "rrid": "1515364",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1515364"
+    },
     {
       "rin": "0910-ZD67",
       "agency_code": "0910",
@@ -568,15 +595,6 @@
       "received_date": "2026-08-07",
       "rrid": "1485163",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1485163"
-    },
-    {
-      "rin": "0945-ZA12",
-      "agency_code": "0945",
-      "agency": "HHS/OCR",
-      "title": "Dear Colleague Letter: Combating Discrimination Rooted in Antisemitism in HHS-Funded Programs and Activities",
-      "received_date": "2026-08-07",
-      "rrid": "1497862",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1497862"
     },
     {
       "rin": "0910-AI83",
