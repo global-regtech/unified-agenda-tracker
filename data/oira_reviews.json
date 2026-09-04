@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-09-03T16:35:02Z",
-  "count": 153,
+  "generated_at": "2026-09-04T16:30:37Z",
+  "count": 152,
   "reviews": [
+    {
+      "rin": "1400-AG18",
+      "agency_code": "1400",
+      "agency": "STATE",
+      "title": "Passports: Requirements for Certain Passengers Entering the United States at Sea Ports",
+      "received_date": "2026-09-03",
+      "rrid": "1523068",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1523068"
+    },
+    {
+      "rin": "0970-AD49",
+      "agency_code": "0970",
+      "agency": "HHS/ACF",
+      "title": "Reducing Bureaucracy and Burden for Block Grants",
+      "received_date": "2026-09-03",
+      "rrid": "1523066",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1523066"
+    },
     {
       "rin": "3076-AA32",
       "agency_code": "3076",
@@ -444,15 +462,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505513"
     },
     {
-      "rin": "0503-ZA04",
-      "agency_code": "0503",
-      "agency": "USDA/AgSEC",
-      "title": "9 CFR Parts 101 Through 118, 123 Through 124",
-      "received_date": "2026-08-17",
-      "rrid": "1500366",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1500366"
-    },
-    {
       "rin": "2140-ZA02",
       "agency_code": "2140",
       "agency": "STB",
@@ -505,15 +514,6 @@
       "received_date": "2026-08-12",
       "rrid": "1500914",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1500914"
-    },
-    {
-      "rin": "3235-AN65",
-      "agency_code": "3235",
-      "agency": "SEC",
-      "title": "Pay-to-Play Reform",
-      "received_date": "2026-08-12",
-      "rrid": "1492665",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492665"
     },
     {
       "rin": "2090-AA42",
@@ -694,15 +694,6 @@
       "received_date": "2026-07-31",
       "rrid": "1492666",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492666"
-    },
-    {
-      "rin": "1004-AF57",
-      "agency_code": "1004",
-      "agency": "DOI/BLM",
-      "title": "National Petroleum Reserve in Alaska Production Site Development Rule",
-      "received_date": "2026-07-30",
-      "rrid": "1485165",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1485165"
     },
     {
       "rin": "3041-AE27",
