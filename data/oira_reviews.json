@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-09-04T16:30:37Z",
+  "generated_at": "2026-09-05T15:23:20Z",
   "count": 152,
   "reviews": [
+    {
+      "rin": "0648-BO04",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Fisheries of the Exclusive Economic Zone off Alaska; Pelagic Trawl Gear Definition",
+      "received_date": "2026-09-04",
+      "rrid": "1523063",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1523063"
+    },
+    {
+      "rin": "0938-ZC07",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "Private Health Insurance;  New Agent/Broker Registrations for Plan Year 2027 Moratorium Guidance",
+      "received_date": "2026-09-04",
+      "rrid": "1523312",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1523312"
+    },
+    {
+      "rin": "1018-BJ06",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Endangered and Threatened Wildlife and Plants; Critical Habitat Designation for Northern Spotted Owl",
+      "received_date": "2026-09-04",
+      "rrid": "1523062",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1523062"
+    },
+    {
+      "rin": "1903-AA20",
+      "agency_code": "1903",
+      "agency": "DOE/ERA",
+      "title": "Rescinding Regulations Related to Nondiscrimination in Federally Assisted Programs or Activities (General Provisions)",
+      "received_date": "2026-09-04",
+      "rrid": "1523067",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1523067"
+    },
     {
       "rin": "1400-AG18",
       "agency_code": "1400",
@@ -46,15 +82,6 @@
       "received_date": "2026-09-02",
       "rrid": "1515364",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1515364"
-    },
-    {
-      "rin": "0910-ZD67",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Temporary Policies for Compounding Certain Starter Parenteral Nutrition Drug Products for Neonates; Guidance for Industry; Availability",
-      "received_date": "2026-09-01",
-      "rrid": "1520515",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1520515"
     },
     {
       "rin": "1090-AB29",
@@ -345,15 +372,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506168"
     },
     {
-      "rin": "2070-AL36",
-      "agency_code": "2070",
-      "agency": "EPA/OCSPP",
-      "title": "Formaldehyde Emission Standards for Composite Wood Products; Voluntary Consensus Standards Update (Fourth Update)",
-      "received_date": "2026-08-21",
-      "rrid": "1506169",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506169"
-    },
-    {
       "rin": "0938-AU54",
       "agency_code": "0938",
       "agency": "HHS/CMS",
@@ -550,15 +568,6 @@
       "received_date": "2026-08-10",
       "rrid": "1495763",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1495763"
-    },
-    {
-      "rin": "1615-AD23",
-      "agency_code": "1615",
-      "agency": "DHS/USCIS",
-      "title": "Removing 30-Day Refugee Termination Notice",
-      "received_date": "2026-08-10",
-      "rrid": "1497864",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1497864"
     },
     {
       "rin": "0938-AV97",
@@ -795,15 +804,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475164"
     },
     {
-      "rin": "0648-BN79",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
-      "received_date": "2026-07-22",
-      "rrid": "1475166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
-    },
-    {
       "rin": "1018-BI75",
       "agency_code": "1018",
       "agency": "DOI/FWS",
@@ -811,6 +811,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
+    },
+    {
+      "rin": "0648-BN79",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
+      "received_date": "2026-07-22",
+      "rrid": "1475166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
     },
     {
       "rin": "1210-ZA37",
@@ -901,15 +910,6 @@
       "received_date": "2026-07-09",
       "rrid": "1459664",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1459664"
-    },
-    {
-      "rin": "2040-AG47",
-      "agency_code": "2040",
-      "agency": "EPA/OW",
-      "title": "Updating the Water Quality Certification Rule",
-      "received_date": "2026-07-07",
-      "rrid": "1452366",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1452366"
     },
     {
       "rin": "1400-AF99",
@@ -1011,15 +1011,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440012"
     },
     {
-      "rin": "1615-AD05",
-      "agency_code": "1615",
-      "agency": "DHS/USCIS",
-      "title": "Removal of the Automatic Extension of Employment Authorization Documents",
-      "received_date": "2026-06-23",
-      "rrid": "1437162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
-    },
-    {
       "rin": "0648-BN70",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -1027,6 +1018,15 @@
       "received_date": "2026-06-23",
       "rrid": "1437168",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
+    },
+    {
+      "rin": "1615-AD05",
+      "agency_code": "1615",
+      "agency": "DHS/USCIS",
+      "title": "Removal of the Automatic Extension of Employment Authorization Documents",
+      "received_date": "2026-06-23",
+      "rrid": "1437162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
     },
     {
       "rin": "2132-ZA11",
