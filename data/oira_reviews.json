@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-09-08T16:45:59Z",
-  "count": 151,
+  "generated_at": "2026-09-09T16:48:15Z",
+  "count": 149,
   "reviews": [
+    {
+      "rin": "1660-ZA37",
+      "agency_code": "1660",
+      "agency": "DHS/FEMA",
+      "title": "Public Assistance Snow Assistance Policy",
+      "received_date": "2026-09-08",
+      "rrid": "1522864",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1522864"
+    },
+    {
+      "rin": "0648-BN99",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Pacific Island Fisheries; Commercial Fishing in the Pacific Remote Islands Marine National Monument",
+      "received_date": "2026-09-08",
+      "rrid": "1523313",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1523313"
+    },
+    {
+      "rin": "0970-ZA26",
+      "agency_code": "0970",
+      "agency": "HHS/ACF",
+      "title": "Period for Refugee Cash Assistance and Refugee Medical Assistance; Correction",
+      "received_date": "2026-09-08",
+      "rrid": "1523064",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1523064"
+    },
     {
       "rin": "0648-BO04",
       "agency_code": "0648",
@@ -453,15 +480,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505715"
     },
     {
-      "rin": "3060-AM21",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Satellite Spectrum Abundance (SB Docket No. 25-180)",
-      "received_date": "2026-08-19",
-      "rrid": "1505712",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505712"
-    },
-    {
       "rin": "2060-AW73",
       "agency_code": "2060",
       "agency": "EPA/OAR",
@@ -651,15 +669,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1452363"
     },
     {
-      "rin": "3206-AO24",
-      "agency_code": "3206",
-      "agency": "OPM",
-      "title": "Recruitment and Selection Through Competitive Examination and Pooled Hiring Actions",
-      "received_date": "2026-08-04",
-      "rrid": "1495415",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1495415"
-    },
-    {
       "rin": "0910-ZD60",
       "agency_code": "0910",
       "agency": "HHS/FDA",
@@ -687,15 +696,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492865"
     },
     {
-      "rin": "3206-AO92",
-      "agency_code": "3206",
-      "agency": "OPM",
-      "title": "Employment in the Excepted Service",
-      "received_date": "2026-07-31",
-      "rrid": "1492868",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492868"
-    },
-    {
       "rin": "1904-AG06",
       "agency_code": "1904",
       "agency": "DOE/EE",
@@ -712,15 +712,6 @@
       "received_date": "2026-07-29",
       "rrid": "1475167",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475167"
-    },
-    {
-      "rin": "0925-ZA18",
-      "agency_code": "0925",
-      "agency": "HHS/NIH",
-      "title": "Request for Information (RFI): Inviting Comments and Suggestions on the National Institute of Nursing Research (NINR) Strategic Plan for Fiscal Years 2027-2031",
-      "received_date": "2026-07-29",
-      "rrid": "1490164",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1490164"
     },
     {
       "rin": "1105-AB70",
@@ -955,15 +946,6 @@
       "received_date": "2026-06-26",
       "rrid": "1444715",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1444715"
-    },
-    {
-      "rin": "0607-AA75",
-      "agency_code": "0607",
-      "agency": "DOC/CENSUS",
-      "title": "Decennial Census of the Population of Americans; Proposed Residence Criteria and Proposed Regulations for Demographic Questions",
-      "received_date": "2026-06-25",
-      "rrid": "1442165",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1442165"
     },
     {
       "rin": "1400-AE73",
