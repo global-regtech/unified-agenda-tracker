@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-09-09T16:48:15Z",
-  "count": 149,
+  "generated_at": "2026-09-10T16:34:02Z",
+  "count": 150,
   "reviews": [
+    {
+      "rin": "0938-AV90",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "Medicare Drug Price Negotiation Program (CMS-4215)",
+      "received_date": "2026-09-09",
+      "rrid": "1525514",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1525514"
+    },
+    {
+      "rin": "0910-AG30",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Sunlamp Products; Amendment to the Performance Standard",
+      "received_date": "2026-09-09",
+      "rrid": "1297064",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1297064"
+    },
+    {
+      "rin": "0720-AB94",
+      "agency_code": "0720",
+      "agency": "DOW/DODOASHA",
+      "title": "TRICARE Network Mental Health Provider Interstate License Portability and Update to TRICARE Telehealth License Requirements",
+      "received_date": "2026-09-09",
+      "rrid": "1525562",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1525562"
+    },
     {
       "rin": "1660-ZA37",
       "agency_code": "1660",
@@ -687,15 +714,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492866"
     },
     {
-      "rin": "1205-AC11",
-      "agency_code": "1205",
-      "agency": "DOL/ETA",
-      "title": "Federal-State Unemployment Compensation (UC) Program; Data Availability",
-      "received_date": "2026-08-03",
-      "rrid": "1492865",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492865"
-    },
-    {
       "rin": "1904-AG06",
       "agency_code": "1904",
       "agency": "DOE/EE",
@@ -984,15 +1002,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1440012"
     },
     {
-      "rin": "1615-AD05",
-      "agency_code": "1615",
-      "agency": "DHS/USCIS",
-      "title": "Removal of the Automatic Extension of Employment Authorization Documents",
-      "received_date": "2026-06-23",
-      "rrid": "1437162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
-    },
-    {
       "rin": "0648-BN70",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -1000,6 +1009,15 @@
       "received_date": "2026-06-23",
       "rrid": "1437168",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
+    },
+    {
+      "rin": "1615-AD05",
+      "agency_code": "1615",
+      "agency": "DHS/USCIS",
+      "title": "Removal of the Automatic Extension of Employment Authorization Documents",
+      "received_date": "2026-06-23",
+      "rrid": "1437162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
     },
     {
       "rin": "2132-ZA11",
@@ -1054,15 +1072,6 @@
       "received_date": "2026-06-15",
       "rrid": "1427212",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1427212"
-    },
-    {
-      "rin": "0584-AF29",
-      "agency_code": "0584",
-      "agency": "USDA/FNS",
-      "title": "Special Supplemental Nutrition Program for Women, Infants, and Children (WIC): Increase to the Maximum Monthly Allowance of Milk for Child, Pregnant, and Breastfeeding Participants",
-      "received_date": "2026-06-11",
-      "rrid": "1424712",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1424712"
     },
     {
       "rin": "0930-AA40",
