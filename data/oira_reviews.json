@@ -1,7 +1,70 @@
 {
-  "generated_at": "2026-09-10T16:34:02Z",
-  "count": 150,
+  "generated_at": "2026-09-11T16:38:53Z",
+  "count": 152,
   "reviews": [
+    {
+      "rin": "1545-BS17",
+      "agency_code": "1545",
+      "agency": "TREAS/IRS",
+      "title": "Tax Credit for Contributions of Individuals to Scholarship Granting Organizations",
+      "received_date": "2026-09-10",
+      "rrid": "1527867",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1527867"
+    },
+    {
+      "rin": "1545-BR97",
+      "agency_code": "1545",
+      "agency": "TREAS/IRS",
+      "title": "Tax Credit for Contributions of Individuals to Scholarship Granting Organizations",
+      "received_date": "2026-09-10",
+      "rrid": "1527868",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1527868"
+    },
+    {
+      "rin": "2900-AS98",
+      "agency_code": "2900",
+      "agency": "VA",
+      "title": "Discontinuing Premium Collection from Policyholders on Certain National Service Life Insurance Policies",
+      "received_date": "2026-09-10",
+      "rrid": "1520513",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1520513"
+    },
+    {
+      "rin": "0970-AD21",
+      "agency_code": "0970",
+      "agency": "HHS/ACF",
+      "title": "Restoring Flexibility to Support Head Start Program Access",
+      "received_date": "2026-09-10",
+      "rrid": "1527865",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1527865"
+    },
+    {
+      "rin": "0910-ZD68",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Validation of Certain In Vitro Diagnostic Devices for Emerging Pathogens During a Section 564 Declared Emergency; Guidance for Industry and Food and Drug Administration Staff; Availability",
+      "received_date": "2026-09-10",
+      "rrid": "1527863",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1527863"
+    },
+    {
+      "rin": "3060-AK57",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Universal Service",
+      "received_date": "2026-09-10",
+      "rrid": "1517866",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1517866"
+    },
+    {
+      "rin": "2127-AM69",
+      "agency_code": "2127",
+      "agency": "DOT/NHTSA",
+      "title": "Amendments to FMVSS No. 127; Light Vehicle Automatic Emergency Braking",
+      "received_date": "2026-09-10",
+      "rrid": "1527862",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1527862"
+    },
     {
       "rin": "0938-AV90",
       "agency_code": "0938",
@@ -345,15 +408,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506170"
     },
     {
-      "rin": "3064-AG34",
-      "agency_code": "3064",
-      "agency": "FDIC",
-      "title": "State Bank Parity",
-      "received_date": "2026-08-25",
-      "rrid": "1506171",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506171"
-    },
-    {
       "rin": "2060-AX00",
       "agency_code": "2060",
       "agency": "EPA/OAR",
@@ -478,15 +532,6 @@
       "received_date": "2026-08-19",
       "rrid": "1505516",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505516"
-    },
-    {
-      "rin": "1615-AC93",
-      "agency_code": "1615",
-      "agency": "DHS/USCIS",
-      "title": "U.S. Citizenship and Immigration Services Employment-Based Immigrant Visa, Fifth Preference (EB-5) Fee Rule",
-      "received_date": "2026-08-19",
-      "rrid": "1505716",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505716"
     },
     {
       "rin": "1121-ZB94",
@@ -660,15 +705,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1496363"
     },
     {
-      "rin": "1870-AA26",
-      "agency_code": "1870",
-      "agency": "ED/OCR",
-      "title": "Recodification of Title IX Rules",
-      "received_date": "2026-08-05",
-      "rrid": "1495764",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1495764"
-    },
-    {
       "rin": "0970-AD47",
       "agency_code": "0970",
       "agency": "HHS/ACF",
@@ -804,15 +840,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475164"
     },
     {
-      "rin": "0648-BN79",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
-      "received_date": "2026-07-22",
-      "rrid": "1475166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
-    },
-    {
       "rin": "1018-BI75",
       "agency_code": "1018",
       "agency": "DOI/FWS",
@@ -820,6 +847,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
+    },
+    {
+      "rin": "0648-BN79",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
+      "received_date": "2026-07-22",
+      "rrid": "1475166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
     },
     {
       "rin": "1210-ZA37",
@@ -856,15 +892,6 @@
       "received_date": "2026-07-20",
       "rrid": "1470212",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1470212"
-    },
-    {
-      "rin": "3150-AL45",
-      "agency_code": "3150",
-      "agency": "NRC",
-      "title": "Regulatory Enhancements for Reactor Licensing, Decommissioning, and Operational Oversight [NRC-2025-1138]",
-      "received_date": "2026-07-17",
-      "rrid": "1467663",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1467663"
     },
     {
       "rin": "0938-AV99",
@@ -1009,15 +1036,6 @@
       "received_date": "2026-06-23",
       "rrid": "1437168",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
-    },
-    {
-      "rin": "1615-AD05",
-      "agency_code": "1615",
-      "agency": "DHS/USCIS",
-      "title": "Removal of the Automatic Extension of Employment Authorization Documents",
-      "received_date": "2026-06-23",
-      "rrid": "1437162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437162"
     },
     {
       "rin": "2132-ZA11",
