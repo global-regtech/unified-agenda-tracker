@@ -1,7 +1,61 @@
 {
-  "generated_at": "2026-09-14T18:07:08Z",
-  "count": 154,
+  "generated_at": "2026-09-15T17:10:48Z",
+  "count": 159,
   "reviews": [
+    {
+      "rin": "2060-AW72",
+      "agency_code": "2060",
+      "agency": "EPA/OAR",
+      "title": "Treatment of Data Influenced by Exceptional Events: Rule Revisions",
+      "received_date": "2026-09-14",
+      "rrid": "1530364",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1530364"
+    },
+    {
+      "rin": "0694-AK56",
+      "agency_code": "0694",
+      "agency": "DOC/BIS",
+      "title": "Change to the EAR",
+      "received_date": "2026-09-14",
+      "rrid": "1525512",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1525512"
+    },
+    {
+      "rin": "0584-AE71",
+      "agency_code": "0584",
+      "agency": "USDA/FNA",
+      "title": "Strengthening Integrity and Reducing Retailer Fraud in the Supplemental Nutrition Assistance Program (SNAP)",
+      "received_date": "2026-09-14",
+      "rrid": "1527866",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1527866"
+    },
+    {
+      "rin": "3206-AP18",
+      "agency_code": "3206",
+      "agency": "OPM",
+      "title": "Family and Medical Leave Act",
+      "received_date": "2026-09-14",
+      "rrid": "1532866",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1532866"
+    },
+    {
+      "rin": "1205-AC29",
+      "agency_code": "1205",
+      "agency": "DOL/ETA",
+      "title": "Modernizing the Labor Market Test and Improving Protections for U.S. Workers in the PERM Immigrant Visa Program (NPRM)",
+      "received_date": "2026-09-14",
+      "rrid": "1532863",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1532863"
+    },
+    {
+      "rin": "1505-AC97",
+      "agency_code": "1505",
+      "agency": "TREAS/DO",
+      "title": "Forms and Procedures for Review of State Certifications by the Stablecoin Certification Review Committee",
+      "received_date": "2026-09-14",
+      "rrid": "1532862",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1532862"
+    },
     {
       "rin": "3206-AO77",
       "agency_code": "3206",
@@ -784,15 +838,6 @@
       "received_date": "2026-08-03",
       "rrid": "1492866",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492866"
-    },
-    {
-      "rin": "1904-AG06",
-      "agency_code": "1904",
-      "agency": "DOE/EE",
-      "title": "Energy Conservation Program: Test Procedures for Commercial Warm Air Furnaces",
-      "received_date": "2026-07-31",
-      "rrid": "1492666",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492666"
     },
     {
       "rin": "3041-AE27",
