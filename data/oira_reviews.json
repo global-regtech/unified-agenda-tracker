@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-09-15T17:10:48Z",
-  "count": 159,
+  "generated_at": "2026-09-16T17:10:44Z",
+  "count": 162,
   "reviews": [
+    {
+      "rin": "0910-ZD80",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Regulatory Considerations for Prescription Drug Use-Related Software; Guidance for Industry; Availability",
+      "received_date": "2026-09-15",
+      "rrid": "1535365",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1535365"
+    },
+    {
+      "rin": "0910-ZD79",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Improving Patient Access to Deceased Donor Islet Cells and Cell Products; Request for Information",
+      "received_date": "2026-09-15",
+      "rrid": "1535364",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1535364"
+    },
+    {
+      "rin": "0970-AD45",
+      "agency_code": "0970",
+      "agency": "HHS/ACF",
+      "title": "Reducing Bureaucracy and Burden in Part 1370",
+      "received_date": "2026-09-15",
+      "rrid": "1535362",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1535362"
+    },
+    {
+      "rin": "1210-AC21",
+      "agency_code": "1210",
+      "agency": "DOL/EBSA",
+      "title": "Exemption for Certain Automatic Portability Transactions",
+      "received_date": "2026-09-14",
+      "rrid": "1532865",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1532865"
+    },
+    {
+      "rin": "1400-AG37",
+      "agency_code": "1400",
+      "agency": "STATE",
+      "title": "International Traffic in Arms Regulations: Improvements to the Reexport and Retransfer Exemption for U.S.-origin Components Incorporated into Foreign Defense Articles and Establishment of a General Li",
+      "received_date": "2026-09-14",
+      "rrid": "1532867",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1532867"
+    },
     {
       "rin": "2060-AW72",
       "agency_code": "2060",
@@ -343,24 +388,6 @@
       "received_date": "2026-08-28",
       "rrid": "1517864",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1517864"
-    },
-    {
-      "rin": "3235-AN63",
-      "agency_code": "3235",
-      "agency": "SEC",
-      "title": "Proxy Solicitation Modernization.",
-      "received_date": "2026-08-28",
-      "rrid": "1506513",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506513"
-    },
-    {
-      "rin": "3235-AN47",
-      "agency_code": "3235",
-      "agency": "SEC",
-      "title": "Rescission of Rule 14a-8\u2019s Federal Regulation of Shareholder Proposals and Amendments to Rule 14a-4.",
-      "received_date": "2026-08-28",
-      "rrid": "1492662",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492662"
     },
     {
       "rin": "0906-ZA25",
