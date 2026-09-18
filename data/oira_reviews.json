@@ -1,7 +1,97 @@
 {
-  "generated_at": "2026-09-17T17:10:35Z",
-  "count": 162,
+  "generated_at": "2026-09-18T16:35:46Z",
+  "count": 169,
   "reviews": [
+    {
+      "rin": "2060-AX07",
+      "agency_code": "2060",
+      "agency": "EPA/OAR",
+      "title": "Extending the Reporting Deadline Under the Greenhouse Gas Reporting Rule for 2025",
+      "received_date": "2026-09-17",
+      "rrid": "1535566",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1535566"
+    },
+    {
+      "rin": "3038-AF80",
+      "agency_code": "3038",
+      "agency": "CFTC",
+      "title": "Regulation Crypto Asset Transactions and Regulation Crypto Asset Markets",
+      "received_date": "2026-09-17",
+      "rrid": "1537870",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1537870"
+    },
+    {
+      "rin": "0938-AV81",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "CY 2027 Changes to the End-Stage Renal Disease (ESRD) Prospective Payment System and Quality Incentive Program (CMS-1846)",
+      "received_date": "2026-09-17",
+      "rrid": "1537869",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1537869"
+    },
+    {
+      "rin": "2127-AM70",
+      "agency_code": "2127",
+      "agency": "DOT/NHTSA",
+      "title": "Modernization of FMVSS 108 to Accommodate ADS",
+      "received_date": "2026-09-17",
+      "rrid": "1537868",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1537868"
+    },
+    {
+      "rin": "1506-AB78",
+      "agency_code": "1506",
+      "agency": "TREAS/FINCEN",
+      "title": "Customer Due Diligence Requirements for Covered Financial Institutions",
+      "received_date": "2026-09-17",
+      "rrid": "1537867",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1537867"
+    },
+    {
+      "rin": "0970-AD29",
+      "agency_code": "0970",
+      "agency": "HHS/ACF",
+      "title": "Reducing Bureaucracy and Burden in the Child Care and Development Fund (CCDF)",
+      "received_date": "2026-09-17",
+      "rrid": "1537866",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1537866"
+    },
+    {
+      "rin": "0910-ZD81",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Potency Assurance for Cellular and Gene Therapy Products; Guidance for Industry; Availability",
+      "received_date": "2026-09-17",
+      "rrid": "1537863",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1537863"
+    },
+    {
+      "rin": "0938-AV83",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "CY 2027 Hospital Outpatient PPS Policy Changes and Payment Rates and Ambulatory Surgical Center Payment System Policy Changes and Payment Rates (CMS-1850)",
+      "received_date": "2026-09-17",
+      "rrid": "1535564",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1535564"
+    },
+    {
+      "rin": "2501-AE16",
+      "agency_code": "2501",
+      "agency": "HUD/HUDSEC",
+      "title": "Housing and Community Development Act of 1980: Verification of Eligible Status (FR-6524)",
+      "received_date": "2026-09-17",
+      "rrid": "1535565",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1535565"
+    },
+    {
+      "rin": "1004-ZB06",
+      "agency_code": "1004",
+      "agency": "DOI/BLM",
+      "title": "Public Land Order No. 7971; Extension of Withdrawal of Public Land for the United States Army, Fort Carson-Pi\u00f1on Canyon Maneuver Site, Colorado",
+      "received_date": "2026-09-17",
+      "rrid": "1537862",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1537862"
+    },
     {
       "rin": "0938-AW26",
       "agency_code": "0938",
@@ -69,7 +159,7 @@
       "rin": "1400-AG37",
       "agency_code": "1400",
       "agency": "STATE",
-      "title": "International Traffic in Arms Regulations: Improvements to the Reexport and Retransfer Exemption for U.S.-origin Components Incorporated into Foreign Defense Articles and Establishment of a General Li",
+      "title": "Reexport Retransfer Exemption and General Licenses",
       "received_date": "2026-09-14",
       "rrid": "1532867",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1532867"
@@ -552,15 +642,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1449665"
     },
     {
-      "rin": "3064-AG18",
-      "agency_code": "3064",
-      "agency": "FDIC",
-      "title": "Filing Procedures; Merger Transactions",
-      "received_date": "2026-08-25",
-      "rrid": "1506170",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506170"
-    },
-    {
       "rin": "3060-AM03",
       "agency_code": "3060",
       "agency": "FCC",
@@ -633,15 +714,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505512"
     },
     {
-      "rin": "0925-ZA20",
-      "agency_code": "0925",
-      "agency": "HHS/NIH",
-      "title": "FY 2026-2030 NIH Strategic Plan for HIV and HIV-Related Research",
-      "received_date": "2026-08-20",
-      "rrid": "1506163",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506163"
-    },
-    {
       "rin": "3041-ZA01",
       "agency_code": "3041",
       "agency": "CPSC",
@@ -649,15 +721,6 @@
       "received_date": "2026-08-20",
       "rrid": "1506162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506162"
-    },
-    {
-      "rin": "3090-AL13",
-      "agency_code": "3090",
-      "agency": "GSA",
-      "title": "General Services Administration Regulation (GSAR); GSAR Case 2026-G501, GSAR Implementation of Executive Order 14275, FSS Ordering Procedures",
-      "received_date": "2026-08-19",
-      "rrid": "1505515",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505515"
     },
     {
       "rin": "3090-AL14",
@@ -1230,7 +1293,7 @@
       "rin": "0694-AK17",
       "agency_code": "0694",
       "agency": "DOC/BIS",
-      "title": "Critical Technologies Controls",
+      "title": "Implementation of Certain Controls on Critical Quantum and Semiconductor Technologies",
       "received_date": "2026-06-04",
       "rrid": "1409667",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1409667"
