@@ -1,7 +1,70 @@
 {
-  "generated_at": "2026-09-18T16:35:46Z",
-  "count": 169,
+  "generated_at": "2026-09-19T15:58:47Z",
+  "count": 173,
   "reviews": [
+    {
+      "rin": "3206-AP05",
+      "agency_code": "3206",
+      "agency": "OPM",
+      "title": "Elimination of Time in Grade",
+      "received_date": "2026-09-18",
+      "rrid": "1538568",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1538568"
+    },
+    {
+      "rin": "3060-AL95",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Facilitating Opportunities for Advanced Air Mobility, WT Docket No. 24-629",
+      "received_date": "2026-09-18",
+      "rrid": "1538566",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1538566"
+    },
+    {
+      "rin": "1545-BR91",
+      "agency_code": "1545",
+      "agency": "TREAS/IRS",
+      "title": "Trump accounts under section 530A",
+      "received_date": "2026-09-18",
+      "rrid": "1538565",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1538565"
+    },
+    {
+      "rin": "1545-BS27",
+      "agency_code": "1545",
+      "agency": "TREAS/IRS",
+      "title": "Trump Accounts",
+      "received_date": "2026-09-18",
+      "rrid": "1538564",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1538564"
+    },
+    {
+      "rin": "1400-AG38",
+      "agency_code": "1400",
+      "agency": "STATE",
+      "title": "International Traffic in Arms Regulations: Syria Country Policy Revision",
+      "received_date": "2026-09-18",
+      "rrid": "1537865",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1537865"
+    },
+    {
+      "rin": "3235-AN45",
+      "agency_code": "3235",
+      "agency": "SEC",
+      "title": "Amendments to Rule 17a-7 Under the Investment Company Act",
+      "received_date": "2026-09-18",
+      "rrid": "1506512",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506512"
+    },
+    {
+      "rin": "3060-AK84",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Amendment of Parts 2 and 25 of the FCC Rules to Facilitate the Use of Earth Stations in Motion Communicating With Geostationary Orbit Space Stations in FSS Bands: IB Docket No. 17-95",
+      "received_date": "2026-09-18",
+      "rrid": "1507964",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1507964"
+    },
     {
       "rin": "2060-AX07",
       "agency_code": "2060",
@@ -732,15 +795,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505516"
     },
     {
-      "rin": "1121-ZB94",
-      "agency_code": "1121",
-      "agency": "DOJ/OJP",
-      "title": "Victim Compensation VOCApedia Questions",
-      "received_date": "2026-08-19",
-      "rrid": "1505518",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505518"
-    },
-    {
       "rin": "2060-AW73",
       "agency_code": "2060",
       "agency": "EPA/OAR",
@@ -1011,15 +1065,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475164"
     },
     {
-      "rin": "0648-BN79",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
-      "received_date": "2026-07-22",
-      "rrid": "1475166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
-    },
-    {
       "rin": "1018-BI75",
       "agency_code": "1018",
       "agency": "DOI/FWS",
@@ -1027,6 +1072,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
+    },
+    {
+      "rin": "0648-BN79",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
+      "received_date": "2026-07-22",
+      "rrid": "1475166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
     },
     {
       "rin": "1210-ZA37",
@@ -1108,15 +1162,6 @@
       "received_date": "2026-07-09",
       "rrid": "1459664",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1459664"
-    },
-    {
-      "rin": "1400-AF99",
-      "agency_code": "1400",
-      "agency": "STATE",
-      "title": "Environmental Protection: Regulations for Implementation of the National Environmental Policy Act (NEPA)",
-      "received_date": "2026-07-07",
-      "rrid": "1452165",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1452165"
     },
     {
       "rin": "3170-ZA54",
@@ -1288,15 +1333,6 @@
       "received_date": "2026-06-05",
       "rrid": "1409666",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1409666"
-    },
-    {
-      "rin": "0694-AK17",
-      "agency_code": "0694",
-      "agency": "DOC/BIS",
-      "title": "Implementation of Certain Controls on Critical Quantum and Semiconductor Technologies",
-      "received_date": "2026-06-04",
-      "rrid": "1409667",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1409667"
     },
     {
       "rin": "1110-AA35",
