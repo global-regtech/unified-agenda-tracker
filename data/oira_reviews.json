@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-19T15:58:47Z",
-  "count": 173,
+  "generated_at": "2026-09-20T16:20:19Z",
+  "count": 172,
   "reviews": [
     {
       "rin": "3206-AP05",
@@ -145,15 +145,6 @@
       "received_date": "2026-09-17",
       "rrid": "1535565",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1535565"
-    },
-    {
-      "rin": "1004-ZB06",
-      "agency_code": "1004",
-      "agency": "DOI/BLM",
-      "title": "Public Land Order No. 7971; Extension of Withdrawal of Public Land for the United States Army, Fort Carson-Pi\u00f1on Canyon Maneuver Site, Colorado",
-      "received_date": "2026-09-17",
-      "rrid": "1537862",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1537862"
     },
     {
       "rin": "0938-AW26",
@@ -1065,15 +1056,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475164"
     },
     {
-      "rin": "1018-BI75",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
-      "received_date": "2026-07-22",
-      "rrid": "1475162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
-    },
-    {
       "rin": "0648-BN79",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -1081,6 +1063,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475166",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
+    },
+    {
+      "rin": "1018-BI75",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
+      "received_date": "2026-07-22",
+      "rrid": "1475162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
     },
     {
       "rin": "1210-ZA37",
