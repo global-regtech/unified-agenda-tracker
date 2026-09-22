@@ -1,7 +1,61 @@
 {
-  "generated_at": "2026-09-21T18:14:58Z",
-  "count": 172,
+  "generated_at": "2026-09-22T17:06:49Z",
+  "count": 174,
   "reviews": [
+    {
+      "rin": "0938-AV80",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "CY 2027 Home Health Prospective Payment System Rate Update and Home Infusion Therapy Services Payment Update (CMS-1844)",
+      "received_date": "2026-09-21",
+      "rrid": "1540968",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1540968"
+    },
+    {
+      "rin": "1190-ZA12",
+      "agency_code": "1190",
+      "agency": "DOJ/CRT",
+      "title": "Clarification on Department of Justice and Department of Education Guidance Documents Regarding Federal Nondiscrimination Laws",
+      "received_date": "2026-09-21",
+      "rrid": "1540967",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1540967"
+    },
+    {
+      "rin": "2105-ZA51",
+      "agency_code": "2105",
+      "agency": "DOT/OST",
+      "title": "Proposed Guidance for Preferred Loan Sizing for Transit-Oriented Development Projects",
+      "received_date": "2026-09-21",
+      "rrid": "1520514",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1520514"
+    },
+    {
+      "rin": "0581-AE47",
+      "agency_code": "0581",
+      "agency": "USDA/AMS",
+      "title": "Dairy Program - Mandatory Manufacturing Cost Survey",
+      "received_date": "2026-09-21",
+      "rrid": "1538567",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1538567"
+    },
+    {
+      "rin": "0938-ZC08",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "Draft Program Instructions for Identifying Essential Pharmacies and Affiliated Retail Pharmacy Data Collection: Section 6223(b) of the Consolidated Appropriations Act, 2026 \u2013 30-Day Comment Period",
+      "received_date": "2026-09-21",
+      "rrid": "1540965",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1540965"
+    },
+    {
+      "rin": "1902-ZA05",
+      "agency_code": "1902",
+      "agency": "FERC",
+      "title": "Policy Statement on Air Emissions Modeling in Environmental Review of Natural Gas Project Applications",
+      "received_date": "2026-09-21",
+      "rrid": "1540964",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1540964"
+    },
     {
       "rin": "3206-AP05",
       "agency_code": "3206",
@@ -37,15 +91,6 @@
       "received_date": "2026-09-18",
       "rrid": "1538564",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1538564"
-    },
-    {
-      "rin": "1400-AG38",
-      "agency_code": "1400",
-      "agency": "STATE",
-      "title": "International Traffic in Arms Regulations: Syria Country Policy Revision",
-      "received_date": "2026-09-18",
-      "rrid": "1537865",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1537865"
     },
     {
       "rin": "3235-AN45",
@@ -147,15 +192,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1535565"
     },
     {
-      "rin": "0938-AW26",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "Patient Protection and Affordable Care Act; Temporary Moratorium on Certain Agent and Broker Participation in the Exchanges (CMS-9872)",
-      "received_date": "2026-09-16",
-      "rrid": "1535563",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1535563"
-    },
-    {
       "rin": "3084-AB90",
       "agency_code": "3084",
       "agency": "FTC",
@@ -181,15 +217,6 @@
       "received_date": "2026-09-15",
       "rrid": "1535365",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1535365"
-    },
-    {
-      "rin": "0910-ZD79",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Improving Patient Access to Deceased Donor Islet Cells and Cell Products; Request for Information",
-      "received_date": "2026-09-15",
-      "rrid": "1535364",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1535364"
     },
     {
       "rin": "0970-AD45",
@@ -901,15 +928,6 @@
       "received_date": "2026-08-07",
       "rrid": "1497863",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1497863"
-    },
-    {
-      "rin": "1024-AE96",
-      "agency_code": "1024",
-      "agency": "DOI/NPS",
-      "title": "Alaska; Hunting and Trapping in National Preserves",
-      "received_date": "2026-08-07",
-      "rrid": "1496013",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1496013"
     },
     {
       "rin": "2040-AG55",
