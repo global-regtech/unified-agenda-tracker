@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-09-22T17:06:49Z",
-  "count": 174,
+  "generated_at": "2026-09-23T17:19:37Z",
+  "count": 179,
   "reviews": [
+    {
+      "rin": "1090-ZA01",
+      "agency_code": "1090",
+      "agency": "DOI/ASPMB",
+      "title": "General Applicability Public Interest Waiver to Indian Tribes - Proposed Extension of Manufactured Products Waiver",
+      "received_date": "2026-09-22",
+      "rrid": "1541415",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1541415"
+    },
+    {
+      "rin": "1090-ZA00",
+      "agency_code": "1090",
+      "agency": "DOI/ASPMB",
+      "title": "BLM Establishment of Alaska's NPR-A Winter Oil and Gas Exploration Categorical Exclusion",
+      "received_date": "2026-09-22",
+      "rrid": "1541414",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1541414"
+    },
+    {
+      "rin": "1004-AF55",
+      "agency_code": "1004",
+      "agency": "DOI/BLM",
+      "title": "Off-Road Vehicles",
+      "received_date": "2026-09-22",
+      "rrid": "1540966",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1540966"
+    },
+    {
+      "rin": "3150-AL06",
+      "agency_code": "3150",
+      "agency": "NRC",
+      "title": "Incorporation by Reference of Institute of Electrical and Electronics Engineers Standard-603-2018 [NRC-2024-0045]",
+      "received_date": "2026-09-22",
+      "rrid": "1523065",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1523065"
+    },
+    {
+      "rin": "1685-AA38",
+      "agency_code": "1685",
+      "agency": "DHS/CUSTREV",
+      "title": "Low-Value Shipments",
+      "received_date": "2026-09-22",
+      "rrid": "1537864",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1537864"
+    },
     {
       "rin": "0938-AV80",
       "agency_code": "0938",
