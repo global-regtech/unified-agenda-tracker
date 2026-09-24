@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-09-23T17:19:37Z",
-  "count": 179,
+  "generated_at": "2026-09-24T17:24:39Z",
+  "count": 177,
   "reviews": [
+    {
+      "rin": "1018-BH42",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Endangered and Threatened Wildlife and Plants; Listing Determination and Critical Habitat Designation for Peppered (Colorless) Shiner",
+      "received_date": "2026-09-22",
+      "rrid": "1541413",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1541413"
+    },
     {
       "rin": "1090-ZA01",
       "agency_code": "1090",
@@ -336,15 +345,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1532863"
     },
     {
-      "rin": "1505-AC97",
-      "agency_code": "1505",
-      "agency": "TREAS/DO",
-      "title": "Forms and Procedures for Review of State Certifications by the Stablecoin Certification Review Committee",
-      "received_date": "2026-09-14",
-      "rrid": "1532862",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1532862"
-    },
-    {
       "rin": "3206-AO77",
       "agency_code": "3206",
       "agency": "OPM",
@@ -505,15 +505,6 @@
       "received_date": "2026-09-08",
       "rrid": "1523313",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1523313"
-    },
-    {
-      "rin": "0970-ZA26",
-      "agency_code": "0970",
-      "agency": "HHS/ACF",
-      "title": "Period for Refugee Cash Assistance and Refugee Medical Assistance; Correction",
-      "received_date": "2026-09-08",
-      "rrid": "1523064",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1523064"
     },
     {
       "rin": "0648-BO04",
@@ -1144,15 +1135,6 @@
       "received_date": "2026-07-20",
       "rrid": "1472665",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1472665"
-    },
-    {
-      "rin": "0938-AV89",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "Clinical Laboratory Improvement Amendments of 1988 (CLIA) Virtual Access, Gynecologic Cytology Proficiency Testing (PT), Personnel Qualification Requirements, and Other Changes (CMS-3478)",
-      "received_date": "2026-07-20",
-      "rrid": "1472664",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1472664"
     },
     {
       "rin": "0938-AV88",
