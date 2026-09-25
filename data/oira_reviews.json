@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-24T17:24:39Z",
-  "count": 177,
+  "generated_at": "2026-09-25T17:23:50Z",
+  "count": 172,
   "reviews": [
     {
       "rin": "1018-BH42",
@@ -244,15 +244,6 @@
       "received_date": "2026-09-17",
       "rrid": "1535565",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1535565"
-    },
-    {
-      "rin": "3084-AB90",
-      "agency_code": "3084",
-      "agency": "FTC",
-      "title": "Rule on Unfair or Deceptive Acts or Practices by Digital Marketplace Platforms that Enable Impersonation of Government and Businesses",
-      "received_date": "2026-09-16",
-      "rrid": "1535366",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1535366"
     },
     {
       "rin": "2133-ZA07",
@@ -597,15 +588,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1520363"
     },
     {
-      "rin": "3235-AN59",
-      "agency_code": "3235",
-      "agency": "SEC",
-      "title": "Enhancing Retail Exposure to Private Markets",
-      "received_date": "2026-08-31",
-      "rrid": "1492664",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492664"
-    },
-    {
       "rin": "0910-AI42",
       "agency_code": "0910",
       "agency": "HHS/FDA",
@@ -613,15 +595,6 @@
       "received_date": "2026-08-28",
       "rrid": "1517864",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1517864"
-    },
-    {
-      "rin": "0906-ZA25",
-      "agency_code": "0906",
-      "agency": "HHS/HRSA",
-      "title": "Modification of Living Organ Donation Reimbursement Program Eligibility Guidelines in Response to Honor Our Living Donors Act",
-      "received_date": "2026-08-28",
-      "rrid": "1515362",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1515362"
     },
     {
       "rin": "2130-AC82",
@@ -1020,15 +993,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1495413"
     },
     {
-      "rin": "1205-AC31",
-      "agency_code": "1205",
-      "agency": "DOL/ETA",
-      "title": "Unemployment Insurance Work Search Requirements",
-      "received_date": "2026-08-03",
-      "rrid": "1492866",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492866"
-    },
-    {
       "rin": "3041-AE27",
       "agency_code": "3041",
       "agency": "CPSC",
@@ -1423,15 +1387,6 @@
       "received_date": "2026-05-22",
       "rrid": "1387166",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387166"
-    },
-    {
-      "rin": "0584-AE85",
-      "agency_code": "0584",
-      "agency": "USDA/FNS",
-      "title": "Special Supplemental Nutrition Program for Women, Infants and Children (WIC): WIC Online Ordering and Transactions and Food Delivery Revisions to Meet the Needs of a Modern, Data-Driven Program",
-      "received_date": "2026-05-14",
-      "rrid": "1382262",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1382262"
     },
     {
       "rin": "0938-AV70",
