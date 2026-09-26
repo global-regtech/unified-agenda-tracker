@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-09-25T17:23:50Z",
-  "count": 172,
+  "generated_at": "2026-09-26T16:33:19Z",
+  "count": 171,
   "reviews": [
+    {
+      "rin": "1685-AA48",
+      "agency_code": "1685",
+      "agency": "DHS/CUSTREV",
+      "title": "Heightened Requirements for Foreign Importers of Record",
+      "received_date": "2026-09-24",
+      "rrid": "1541664",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1541664"
+    },
+    {
+      "rin": "1601-AB12",
+      "agency_code": "1601",
+      "agency": "DHS/OS",
+      "title": "Implementation of HAVANA Act of 2021",
+      "received_date": "2026-09-24",
+      "rrid": "1541417",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1541417"
+    },
     {
       "rin": "1018-BH42",
       "agency_code": "1018",
@@ -867,15 +885,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1502864"
     },
     {
-      "rin": "0970-ZA25",
-      "agency_code": "0970",
-      "agency": "HHS/ACF",
-      "title": "Updates to the Children's Bureau Child Welfare Policy Manual",
-      "received_date": "2026-08-14",
-      "rrid": "1502862",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1502862"
-    },
-    {
       "rin": "0720-AB84",
       "agency_code": "0720",
       "agency": "DOW/DODOASHA",
@@ -1362,15 +1371,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1409663"
     },
     {
-      "rin": "0910-ZD15",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Requirements for Additional Traceability Records for Certain Foods: Enforcement Policy for Certain Retail Food Establishments and Restaurants",
-      "received_date": "2026-06-01",
-      "rrid": "1404665",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1404665"
-    },
-    {
       "rin": "0938-AV92",
       "agency_code": "0938",
       "agency": "HHS/CMS",
@@ -1378,15 +1378,6 @@
       "received_date": "2026-05-30",
       "rrid": "1404663",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1404663"
-    },
-    {
-      "rin": "0910-ZD09",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Action Levels for Cadmium in Processed Food Intended for Babies and Young Children; Draft Guidance for Industry",
-      "received_date": "2026-05-22",
-      "rrid": "1387166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1387166"
     },
     {
       "rin": "0938-AV70",
