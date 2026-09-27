@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-26T16:33:19Z",
-  "count": 171,
+  "generated_at": "2026-09-27T17:06:46Z",
+  "count": 169,
   "reviews": [
     {
       "rin": "1685-AA48",
@@ -145,24 +145,6 @@
       "received_date": "2026-09-18",
       "rrid": "1538566",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1538566"
-    },
-    {
-      "rin": "1545-BR91",
-      "agency_code": "1545",
-      "agency": "TREAS/IRS",
-      "title": "Trump accounts under section 530A",
-      "received_date": "2026-09-18",
-      "rrid": "1538565",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1538565"
-    },
-    {
-      "rin": "1545-BS27",
-      "agency_code": "1545",
-      "agency": "TREAS/IRS",
-      "title": "Trump Accounts",
-      "received_date": "2026-09-18",
-      "rrid": "1538564",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1538564"
     },
     {
       "rin": "3235-AN45",
@@ -1083,15 +1065,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475164"
     },
     {
-      "rin": "0648-BN79",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
-      "received_date": "2026-07-22",
-      "rrid": "1475166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
-    },
-    {
       "rin": "1018-BI75",
       "agency_code": "1018",
       "agency": "DOI/FWS",
@@ -1099,6 +1072,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
+    },
+    {
+      "rin": "0648-BN79",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
+      "received_date": "2026-07-22",
+      "rrid": "1475166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
     },
     {
       "rin": "1210-ZA37",
