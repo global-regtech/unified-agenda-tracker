@@ -1,7 +1,124 @@
 {
-  "generated_at": "2026-09-28T19:45:44Z",
-  "count": 169,
+  "generated_at": "2026-09-29T18:10:22Z",
+  "count": 179,
   "reviews": [
+    {
+      "rin": "1105-AB80",
+      "agency_code": "1105",
+      "agency": "DOJ/LA",
+      "title": "Certification Process for State Capital Counsel Systems",
+      "received_date": "2026-09-28",
+      "rrid": "1545967",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1545967"
+    },
+    {
+      "rin": "0503-AA93",
+      "agency_code": "0503",
+      "agency": "USDA/AgSEC",
+      "title": "Research and Higher Education Grants",
+      "received_date": "2026-09-28",
+      "rrid": "1530365",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1530365"
+    },
+    {
+      "rin": "0970-AD39",
+      "agency_code": "0970",
+      "agency": "HHS/ACF",
+      "title": "Reducing Bureaucracy and Burden for Child Support Enforcement",
+      "received_date": "2026-09-28",
+      "rrid": "1545968",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1545968"
+    },
+    {
+      "rin": "0925-ZA23",
+      "agency_code": "0925",
+      "agency": "HHS/NIH",
+      "title": "Request for Information (RFI): Strategies to Advance RAPIDs and Real-World Evidence for Serious Mental Illnesses",
+      "received_date": "2026-09-28",
+      "rrid": "1545964",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1545964"
+    },
+    {
+      "rin": "0925-ZA22",
+      "agency_code": "0925",
+      "agency": "HHS/NIH",
+      "title": "Request for Information: Developing Menopause Common Data Elements",
+      "received_date": "2026-09-28",
+      "rrid": "1545963",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1545963"
+    },
+    {
+      "rin": "1210-ZA38",
+      "agency_code": "1210",
+      "agency": "DOL/EBSA",
+      "title": "Relationship Banking and Brokerage Class Exemption",
+      "received_date": "2026-09-28",
+      "rrid": "1543562",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1543562"
+    },
+    {
+      "rin": "2105-AF15",
+      "agency_code": "2105",
+      "agency": "DOT/OST",
+      "title": "Family Seating in Air Transportation",
+      "received_date": "2026-09-28",
+      "rrid": "1543567",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1543567"
+    },
+    {
+      "rin": "1010-ZA03",
+      "agency_code": "1010",
+      "agency": "DOI/BOEM",
+      "title": "Information to Lessees: Proposed Notice of Sale Cook Inlet Oil and Gas Lease Sale BBC2",
+      "received_date": "2026-09-28",
+      "rrid": "1543566",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1543566"
+    },
+    {
+      "rin": "1010-ZA02",
+      "agency_code": "1010",
+      "agency": "DOI/BOEM",
+      "title": "Information to Lessees: Proposed Notice of Sale Gulf of America Oil and Gas Lease Sale BBG4",
+      "received_date": "2026-09-28",
+      "rrid": "1543565",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1543565"
+    },
+    {
+      "rin": "1235-AA46",
+      "agency_code": "1235",
+      "agency": "DOL/WHD",
+      "title": "Employee or Independent Contractor Status Under the Fair Labor Standards Act, Family and Medical Leave Act, and Migrant and Seasonal Agricultural Worker Protection Act",
+      "received_date": "2026-09-28",
+      "rrid": "1545965",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1545965"
+    },
+    {
+      "rin": "3038-AF82",
+      "agency_code": "3038",
+      "agency": "CFTC",
+      "title": "Further Definition of \"Swap\" to Include Event Contracts",
+      "received_date": "2026-09-28",
+      "rrid": "1538563",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1538563"
+    },
+    {
+      "rin": "3038-AF81",
+      "agency_code": "3038",
+      "agency": "CFTC",
+      "title": "Further Definition of \"Swap\" to Exclude Casino-Style Gambling Products",
+      "received_date": "2026-09-28",
+      "rrid": "1538562",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1538562"
+    },
+    {
+      "rin": "2130-AD62",
+      "agency_code": "2130",
+      "agency": "DOT/FRA",
+      "title": "Litigation Protections for System Safety Program and Risk Reduction Program Information",
+      "received_date": "2026-09-28",
+      "rrid": "1545962",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1545962"
+    },
     {
       "rin": "1685-AA48",
       "agency_code": "1685",
@@ -123,7 +240,7 @@
       "rin": "1902-ZA05",
       "agency_code": "1902",
       "agency": "FERC",
-      "title": "Policy Statement on Air Emissions Modeling in Environmental Review of Natural Gas Project Applications",
+      "title": "Draft Policy Statement on Efficient Environmental Reviews of Natural Gas Project Applications",
       "received_date": "2026-09-21",
       "rrid": "1540964",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1540964"
@@ -741,15 +858,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1507963"
     },
     {
-      "rin": "0945-ZA13",
-      "agency_code": "0945",
-      "agency": "HHS/OCR",
-      "title": "FAQ: Part 2 Confidentiality Requirements for Substance Use Disorder (SUD) Patient Records and Exceptions to Medicaid Community Engagement Requirements for Certain Individuals with SUD",
-      "received_date": "2026-08-24",
-      "rrid": "1507962",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1507962"
-    },
-    {
       "rin": "1105-AB71",
       "agency_code": "1105",
       "agency": "DOJ/LA",
@@ -811,15 +919,6 @@
       "received_date": "2026-08-20",
       "rrid": "1506162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506162"
-    },
-    {
-      "rin": "3090-AL14",
-      "agency_code": "3090",
-      "agency": "GSA",
-      "title": "General Services Administration Regulation (GSAR); GSAR Case 2026-G502 GSAR Implementation of Executive Order 14275, Acquisition of Utility Services.",
-      "received_date": "2026-08-19",
-      "rrid": "1505516",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505516"
     },
     {
       "rin": "2060-AW73",
@@ -1065,15 +1164,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475164"
     },
     {
-      "rin": "1018-BI75",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
-      "received_date": "2026-07-22",
-      "rrid": "1475162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
-    },
-    {
       "rin": "0648-BN79",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -1081,6 +1171,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475166",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
+    },
+    {
+      "rin": "1018-BI75",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
+      "received_date": "2026-07-22",
+      "rrid": "1475162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
     },
     {
       "rin": "1210-ZA37",
@@ -1234,15 +1333,6 @@
       "received_date": "2026-06-23",
       "rrid": "1437168",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437168"
-    },
-    {
-      "rin": "2132-ZA11",
-      "agency_code": "2132",
-      "agency": "DOT/FTA",
-      "title": "Capital Investment Grants Policy Guidance",
-      "received_date": "2026-06-18",
-      "rrid": "1437163",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437163"
     },
     {
       "rin": "0575-AC86",
