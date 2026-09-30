@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-09-29T18:10:22Z",
+  "generated_at": "2026-09-30T18:02:54Z",
   "count": 179,
   "reviews": [
+    {
+      "rin": "1117-ZA10",
+      "agency_code": "1117",
+      "agency": "DOJ/DEA",
+      "title": "Proposed Adjustments to the Aggregate Production Quotas for Schedule I and II Controlled Substances and Assessment of Annual Needs for the List I Chemicals Ephedrine, Pseudoephedrine, and Phenylpropan",
+      "received_date": "2026-09-29",
+      "rrid": "1548463",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1548463"
+    },
+    {
+      "rin": "0925-ZA25",
+      "agency_code": "0925",
+      "agency": "HHS/NIH",
+      "title": "Draft Policy Update to the NIH Policy for Data and Safety Monitoring Request for Information",
+      "received_date": "2026-09-29",
+      "rrid": "1548467",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1548467"
+    },
+    {
+      "rin": "0925-ZA24",
+      "agency_code": "0925",
+      "agency": "HHS/NIH",
+      "title": "Opportunities to Reduce Administrative Burden in NIH Extramural Research Request for Information",
+      "received_date": "2026-09-29",
+      "rrid": "1548466",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1548466"
+    },
+    {
+      "rin": "0938-AV82",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "CY 2027 Revisions to Payment Policies under the Physician Fee Schedule and Other Revisions to Medicare Part B (CMS-1848)",
+      "received_date": "2026-09-29",
+      "rrid": "1548464",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1548464"
+    },
     {
       "rin": "1105-AB80",
       "agency_code": "1105",
@@ -181,15 +217,6 @@
       "received_date": "2026-09-22",
       "rrid": "1523065",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1523065"
-    },
-    {
-      "rin": "1685-AA38",
-      "agency_code": "1685",
-      "agency": "DHS/CUSTREV",
-      "title": "Low-Value Shipments",
-      "received_date": "2026-09-22",
-      "rrid": "1537864",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1537864"
     },
     {
       "rin": "0938-AV80",
@@ -505,24 +532,6 @@
       "received_date": "2026-09-11",
       "rrid": "1525513",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1525513"
-    },
-    {
-      "rin": "1545-BS17",
-      "agency_code": "1545",
-      "agency": "TREAS/IRS",
-      "title": "Tax Credit for Contributions of Individuals to Scholarship Granting Organizations",
-      "received_date": "2026-09-10",
-      "rrid": "1527867",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1527867"
-    },
-    {
-      "rin": "1545-BR97",
-      "agency_code": "1545",
-      "agency": "TREAS/IRS",
-      "title": "Tax Credit for Contributions of Individuals to Scholarship Granting Organizations",
-      "received_date": "2026-09-10",
-      "rrid": "1527868",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1527868"
     },
     {
       "rin": "2900-AS98",
@@ -1351,15 +1360,6 @@
       "received_date": "2026-06-15",
       "rrid": "1429716",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1429716"
-    },
-    {
-      "rin": "0570-AB13",
-      "agency_code": "0570",
-      "agency": "USDA/RBS",
-      "title": "Unleashing American Energy and Economic Prosperity Under Title 7 Code of Federal Regulations Part 4280 Subpart B",
-      "received_date": "2026-06-15",
-      "rrid": "1424917",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1424917"
     },
     {
       "rin": "0938-AV74",
