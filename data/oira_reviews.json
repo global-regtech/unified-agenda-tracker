@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-09-30T18:02:54Z",
+  "generated_at": "2026-10-01T18:29:37Z",
   "count": 179,
   "reviews": [
+    {
+      "rin": "2070-AL45",
+      "agency_code": "2070",
+      "agency": "EPA/OCSPP",
+      "title": "Trichloroethylene (TCE); Regulation under the Toxic Substances Control Act (TSCA); Additional Compliance Date Extensions",
+      "received_date": "2026-09-30",
+      "rrid": "1548465",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1548465"
+    },
+    {
+      "rin": "3209-AA74",
+      "agency_code": "3209",
+      "agency": "OGE",
+      "title": "2026 Increase of Gifts and Travel Reimbursements Reporting Thresholds for Financial Disclosure Reports and Nonsponsor Widely Attended Gatherings Gift Exception Ceiling",
+      "received_date": "2026-09-30",
+      "rrid": "1548813",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1548813"
+    },
+    {
+      "rin": "0970-AD50",
+      "agency_code": "0970",
+      "agency": "HHS/ACF",
+      "title": "Further Reducing Bureaucracy and Burden from the Administration for Native Americans",
+      "received_date": "2026-09-30",
+      "rrid": "1548812",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1548812"
+    },
+    {
+      "rin": "0945-AA27",
+      "agency_code": "0945",
+      "agency": "HHS/OCR",
+      "title": "Nondiscrimination on the Basis of Disability in Programs or Activities Receiving Federal Financial Assistance",
+      "received_date": "2026-09-30",
+      "rrid": "1548462",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1548462"
+    },
     {
       "rin": "1117-ZA10",
       "agency_code": "1117",
@@ -100,15 +136,6 @@
       "received_date": "2026-09-28",
       "rrid": "1543567",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1543567"
-    },
-    {
-      "rin": "1010-ZA03",
-      "agency_code": "1010",
-      "agency": "DOI/BOEM",
-      "title": "Information to Lessees: Proposed Notice of Sale Cook Inlet Oil and Gas Lease Sale BBC2",
-      "received_date": "2026-09-28",
-      "rrid": "1543566",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1543566"
     },
     {
       "rin": "1010-ZA02",
@@ -849,15 +876,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1510512"
     },
     {
-      "rin": "3235-AN46",
-      "agency_code": "3235",
-      "agency": "SEC",
-      "title": "Amendments to the Custody Rules",
-      "received_date": "2026-08-25",
-      "rrid": "1449665",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1449665"
-    },
-    {
       "rin": "3060-AM03",
       "agency_code": "3060",
       "agency": "FCC",
@@ -1128,15 +1146,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1487665"
     },
     {
-      "rin": "0970-AD32",
-      "agency_code": "0970",
-      "agency": "HHS/ACF",
-      "title": "Reforming Federal Reporting and Assessments in Child Welfare",
-      "received_date": "2026-07-28",
-      "rrid": "1487664",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1487664"
-    },
-    {
       "rin": "0955-AA09",
       "agency_code": "0955",
       "agency": "HHS/ONC",
@@ -1173,15 +1182,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475164"
     },
     {
-      "rin": "0648-BN79",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
-      "received_date": "2026-07-22",
-      "rrid": "1475166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
-    },
-    {
       "rin": "1018-BI75",
       "agency_code": "1018",
       "agency": "DOI/FWS",
@@ -1189,6 +1189,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
+    },
+    {
+      "rin": "0648-BN79",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
+      "received_date": "2026-07-22",
+      "rrid": "1475166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
     },
     {
       "rin": "1210-ZA37",
@@ -1288,15 +1297,6 @@
       "received_date": "2026-06-30",
       "rrid": "1449664",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1449664"
-    },
-    {
-      "rin": "0938-AV66",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "Global Benchmark for Efficient Drug Pricing (GLOBE) Model (CMS-5545)",
-      "received_date": "2026-06-26",
-      "rrid": "1444715",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1444715"
     },
     {
       "rin": "1400-AE73",
