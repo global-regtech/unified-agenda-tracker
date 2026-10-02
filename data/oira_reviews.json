@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-10-01T18:29:37Z",
+  "generated_at": "2026-10-02T17:56:39Z",
   "count": 179,
   "reviews": [
+    {
+      "rin": "2050-AH51",
+      "agency_code": "2050",
+      "agency": "EPA/OLEM",
+      "title": "Reducing Complexity in Management of Leather Waste",
+      "received_date": "2026-10-02",
+      "rrid": "1540962",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1540962"
+    },
+    {
+      "rin": "1670-AA04",
+      "agency_code": "1670",
+      "agency": "DHS/CISA",
+      "title": "Cyber Incident Reporting for Critical Infrastructure Act (CIRCIA) Reporting Requirements",
+      "received_date": "2026-10-01",
+      "rrid": "1550967",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1550967"
+    },
+    {
+      "rin": "0925-ZA26",
+      "agency_code": "0925",
+      "agency": "HHS/NIH",
+      "title": "Request for Information: Seeking New and Emerging Areas of Science Relevant to the NIDCD Mission, To Inform an Update of the NIDCD Strategic Plan for 2028-2032",
+      "received_date": "2026-10-01",
+      "rrid": "1550966",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1550966"
+    },
+    {
+      "rin": "3090-AL18",
+      "agency_code": "3090",
+      "agency": "GSA",
+      "title": "Federal Management Regulations (FMR), FMR Case 2026-02, Disposition of Federal Surplus Firearms",
+      "received_date": "2026-10-01",
+      "rrid": "1550965",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1550965"
+    },
     {
       "rin": "2070-AL45",
       "agency_code": "2070",
@@ -489,15 +525,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1527866"
     },
     {
-      "rin": "3206-AP18",
-      "agency_code": "3206",
-      "agency": "OPM",
-      "title": "Family and Medical Leave Act",
-      "received_date": "2026-09-14",
-      "rrid": "1532866",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1532866"
-    },
-    {
       "rin": "1205-AC29",
       "agency_code": "1205",
       "agency": "DOL/ETA",
@@ -543,15 +570,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1530363"
     },
     {
-      "rin": "0910-ZD69",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Postapproval Manufacturing Changes to Biosimilar and Interchangeable Biosimilar Products: Questions and Answers; Guidance for Industry; Availability",
-      "received_date": "2026-09-11",
-      "rrid": "1530362",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1530362"
-    },
-    {
       "rin": "3206-AP07",
       "agency_code": "3206",
       "agency": "OPM",
@@ -586,15 +604,6 @@
       "received_date": "2026-09-10",
       "rrid": "1527863",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1527863"
-    },
-    {
-      "rin": "3060-AK57",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Universal Service",
-      "received_date": "2026-09-10",
-      "rrid": "1517866",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1517866"
     },
     {
       "rin": "2127-AM69",
@@ -1153,15 +1162,6 @@
       "received_date": "2026-07-28",
       "rrid": "1485172",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1485172"
-    },
-    {
-      "rin": "0938-AV64",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "Transparency in Coverage (CMS-9882)",
-      "received_date": "2026-07-27",
-      "rrid": "1485162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1485162"
     },
     {
       "rin": "1210-AB37",
