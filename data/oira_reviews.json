@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-10-02T17:56:39Z",
+  "generated_at": "2026-10-03T16:33:44Z",
   "count": 179,
   "reviews": [
+    {
+      "rin": "0925-ZA27",
+      "agency_code": "0925",
+      "agency": "HHS/NIH",
+      "title": "National Institute on Aging Strategic Directions 2026-2030",
+      "received_date": "2026-10-02",
+      "rrid": "1553464",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1553464"
+    },
+    {
+      "rin": "2060-AX09",
+      "agency_code": "2060",
+      "agency": "EPA/OAR",
+      "title": "Renewable Fuel Standard (RFS) Program: Reallocation of Additional 2025 Small Refinery Exemptions",
+      "received_date": "2026-10-02",
+      "rrid": "1550964",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1550964"
+    },
+    {
+      "rin": "1505-AC96",
+      "agency_code": "1505",
+      "agency": "TREAS/DO",
+      "title": "Implementing the 21st Century Road to Housing Act's Ban on Large Institutional Investor Purchases of Single-Family Homes; Part 1",
+      "received_date": "2026-10-02",
+      "rrid": "1550963",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1550963"
+    },
     {
       "rin": "2050-AH51",
       "agency_code": "2050",
@@ -172,15 +199,6 @@
       "received_date": "2026-09-28",
       "rrid": "1543567",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1543567"
-    },
-    {
-      "rin": "1010-ZA02",
-      "agency_code": "1010",
-      "agency": "DOI/BOEM",
-      "title": "Information to Lessees: Proposed Notice of Sale Gulf of America Oil and Gas Lease Sale BBG4",
-      "received_date": "2026-09-28",
-      "rrid": "1543565",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1543565"
     },
     {
       "rin": "1235-AA46",
@@ -370,24 +388,6 @@
       "received_date": "2026-09-18",
       "rrid": "1507964",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1507964"
-    },
-    {
-      "rin": "2060-AX07",
-      "agency_code": "2060",
-      "agency": "EPA/OAR",
-      "title": "Extending the Reporting Deadline Under the Greenhouse Gas Reporting Rule for 2025",
-      "received_date": "2026-09-17",
-      "rrid": "1535566",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1535566"
-    },
-    {
-      "rin": "3038-AF80",
-      "agency_code": "3038",
-      "agency": "CFTC",
-      "title": "Regulation Crypto Asset Transactions and Regulation Crypto Asset Markets",
-      "received_date": "2026-09-17",
-      "rrid": "1537870",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1537870"
     },
     {
       "rin": "0938-AV81",
