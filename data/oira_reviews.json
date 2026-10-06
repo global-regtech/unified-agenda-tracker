@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-10-05T20:42:46Z",
-  "count": 179,
+  "generated_at": "2026-10-06T18:30:52Z",
+  "count": 181,
   "reviews": [
+    {
+      "rin": "1902-AG43",
+      "agency_code": "1902",
+      "agency": "FERC",
+      "title": "Authorizations for Certain Activities at Liquefied Natural Gas Plants",
+      "received_date": "2026-10-05",
+      "rrid": "1541416",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1541416"
+    },
+    {
+      "rin": "0938-AW00",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "Expanding Access to Individual Coverage Health Reimbursement Arrangements (CMS-9876)",
+      "received_date": "2026-10-05",
+      "rrid": "1556015",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1556015"
+    },
+    {
+      "rin": "0581-AE52",
+      "agency_code": "0581",
+      "agency": "USDA/AMS",
+      "title": "National Bioengineered Food Disclosure Standard--Court Remand",
+      "received_date": "2026-10-05",
+      "rrid": "1556012",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1556012"
+    },
+    {
+      "rin": "2140-AB63",
+      "agency_code": "2140",
+      "agency": "STB",
+      "title": "Petition for Rulemaking to Consider Amendments to Regulations Governing Interim Use of Rights-Of-Way As Trails (49 CFR Part 1152), EP 777",
+      "received_date": "2026-10-05",
+      "rrid": "1553465",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1553465"
+    },
     {
       "rin": "0925-ZA27",
       "agency_code": "0925",
@@ -885,15 +921,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1510512"
     },
     {
-      "rin": "3060-AM03",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Spectrum Rules and Policies for the Operation of Unmanned Aircraft Systems, WT Docket No. 22-323",
-      "received_date": "2026-08-24",
-      "rrid": "1507963",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1507963"
-    },
-    {
       "rin": "1105-AB71",
       "agency_code": "1105",
       "agency": "DOJ/LA",
@@ -1009,15 +1036,6 @@
       "received_date": "2026-08-13",
       "rrid": "1501163",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1501163"
-    },
-    {
-      "rin": "1205-AC21",
-      "agency_code": "1205",
-      "agency": "DOL/ETA",
-      "title": "Prohibiting Illegal Discrimination in Registered Apprenticeship Programs",
-      "received_date": "2026-08-12",
-      "rrid": "1500914",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1500914"
     },
     {
       "rin": "2090-AA42",
