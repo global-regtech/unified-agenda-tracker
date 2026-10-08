@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-10-07T19:00:49Z",
-  "count": 183,
+  "generated_at": "2026-10-08T18:56:12Z",
+  "count": 179,
   "reviews": [
+    {
+      "rin": "1024-AF11",
+      "agency_code": "1024",
+      "agency": "DOI/NPS",
+      "title": "Denali National Park and Preserve; Vehicle Use",
+      "received_date": "2026-10-07",
+      "rrid": "1558466",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1558466"
+    },
+    {
+      "rin": "0648-BO21",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Revisions to Economic Data Reporting Requirements for Catch Share Programs off Alaska",
+      "received_date": "2026-10-07",
+      "rrid": "1545970",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1545970"
+    },
+    {
+      "rin": "2700-AE91",
+      "agency_code": "2700",
+      "agency": "NASA",
+      "title": "Procedures for Implementing the Freedom of Information Act (FOIA)",
+      "received_date": "2026-10-07",
+      "rrid": "1535363",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1535363"
+    },
     {
       "rin": "1290-AA54",
       "agency_code": "1290",
@@ -154,15 +181,6 @@
       "received_date": "2026-10-01",
       "rrid": "1550965",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1550965"
-    },
-    {
-      "rin": "2070-AL45",
-      "agency_code": "2070",
-      "agency": "EPA/OCSPP",
-      "title": "Trichloroethylene (TCE); Regulation under the Toxic Substances Control Act (TSCA); Additional Compliance Date Extensions",
-      "received_date": "2026-09-30",
-      "rrid": "1548465",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1548465"
     },
     {
       "rin": "3209-AA74",
@@ -426,15 +444,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1540964"
     },
     {
-      "rin": "3206-AP05",
-      "agency_code": "3206",
-      "agency": "OPM",
-      "title": "Elimination of Time in Grade",
-      "received_date": "2026-09-18",
-      "rrid": "1538568",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1538568"
-    },
-    {
       "rin": "3060-AL95",
       "agency_code": "3060",
       "agency": "FCC",
@@ -640,15 +649,6 @@
       "received_date": "2026-09-11",
       "rrid": "1530363",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1530363"
-    },
-    {
-      "rin": "3206-AP07",
-      "agency_code": "3206",
-      "agency": "OPM",
-      "title": "Administrative Leave for Workforce Realignment and Other Purposes",
-      "received_date": "2026-09-11",
-      "rrid": "1525513",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1525513"
     },
     {
       "rin": "2900-AS98",
@@ -858,24 +858,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1517862"
     },
     {
-      "rin": "3060-AL85",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Promoting the Integrity and Security of Telecommunications Certification Bodies, Measurement Facilities, and the Equipment Authorization Program, ET Docket No. 24-136",
-      "received_date": "2026-08-28",
-      "rrid": "1515367",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1515367"
-    },
-    {
-      "rin": "3060-AL76",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Review of International Section 214 Authorizations to Assess Evolving National Security, Law Enforcement, Foreign Policy, and Trade Policy Risks, IB Docket No 23-119, MD Docket No 23-134",
-      "received_date": "2026-08-28",
-      "rrid": "1515366",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1515366"
-    },
-    {
       "rin": "0648-BN63",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -910,24 +892,6 @@
       "received_date": "2026-08-27",
       "rrid": "1512915",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1512915"
-    },
-    {
-      "rin": "3060-AL94",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Allocation and Service Rules for the 1675-1680 MHz Band, WT Docket No. 19-116",
-      "received_date": "2026-08-27",
-      "rrid": "1512914",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1512914"
-    },
-    {
-      "rin": "3060-AM28",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Unleashing Unlicensed Spectrum for Direct-to-Device",
-      "received_date": "2026-08-27",
-      "rrid": "1512913",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1512913"
     },
     {
       "rin": "3235-AN60",
@@ -1218,15 +1182,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475164"
     },
     {
-      "rin": "0648-BN79",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
-      "received_date": "2026-07-22",
-      "rrid": "1475166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
-    },
-    {
       "rin": "1018-BI75",
       "agency_code": "1018",
       "agency": "DOI/FWS",
@@ -1234,6 +1189,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
+    },
+    {
+      "rin": "0648-BN79",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
+      "received_date": "2026-07-22",
+      "rrid": "1475166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
     },
     {
       "rin": "1210-ZA37",
