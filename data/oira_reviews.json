@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-10-08T18:56:12Z",
-  "count": 179,
+  "generated_at": "2026-10-09T18:26:39Z",
+  "count": 172,
   "reviews": [
+    {
+      "rin": "1018-BH36",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Endangered and Threatened Wildlife and Plants; Listing Determination and Critical Habitat Designation for Blanding's Turtle",
+      "received_date": "2026-10-08",
+      "rrid": "1563463",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1563463"
+    },
+    {
+      "rin": "1018-BH95",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Endangered and Threatened Wildlife and Plants; Listing Determination and Critical Habitat Designation for Ferris' Copper Butterfly",
+      "received_date": "2026-10-08",
+      "rrid": "1563464",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1563464"
+    },
+    {
+      "rin": "1024-AF12",
+      "agency_code": "1024",
+      "agency": "DOI/NPS",
+      "title": "Gates of the Arctic National Park and Preserve; Use of Off-Road Vehicles for Subsistence Purposes by Residents of Anaktuvuk Pass",
+      "received_date": "2026-10-07",
+      "rrid": "1558465",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1558465"
+    },
     {
       "rin": "1024-AF11",
       "agency_code": "1024",
@@ -228,15 +255,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1548467"
     },
     {
-      "rin": "0925-ZA24",
-      "agency_code": "0925",
-      "agency": "HHS/NIH",
-      "title": "Opportunities to Reduce Administrative Burden in NIH Extramural Research Request for Information",
-      "received_date": "2026-09-29",
-      "rrid": "1548466",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1548466"
-    },
-    {
       "rin": "0938-AV82",
       "agency_code": "0938",
       "agency": "HHS/CMS",
@@ -271,15 +289,6 @@
       "received_date": "2026-09-28",
       "rrid": "1545968",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1545968"
-    },
-    {
-      "rin": "0925-ZA23",
-      "agency_code": "0925",
-      "agency": "HHS/NIH",
-      "title": "Request for Information (RFI): Strategies to Advance RAPIDs and Real-World Evidence for Serious Mental Illnesses",
-      "received_date": "2026-09-28",
-      "rrid": "1545964",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1545964"
     },
     {
       "rin": "0925-ZA22",
@@ -399,15 +408,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1540968"
     },
     {
-      "rin": "1190-ZA12",
-      "agency_code": "1190",
-      "agency": "DOJ/CRT",
-      "title": "Clarification on Department of Justice and Department of Education Guidance Documents Regarding Federal Nondiscrimination Laws",
-      "received_date": "2026-09-21",
-      "rrid": "1540967",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1540967"
-    },
-    {
       "rin": "2105-ZA51",
       "agency_code": "2105",
       "agency": "DOT/OST",
@@ -426,15 +426,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1538567"
     },
     {
-      "rin": "0938-ZC08",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "Draft Program Instructions for Identifying Essential Pharmacies and Affiliated Retail Pharmacy Data Collection: Section 6223(b) of the Consolidated Appropriations Act, 2026 \u2013 30-Day Comment Period",
-      "received_date": "2026-09-21",
-      "rrid": "1540965",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1540965"
-    },
-    {
       "rin": "1902-ZA05",
       "agency_code": "1902",
       "agency": "FERC",
@@ -451,15 +442,6 @@
       "received_date": "2026-09-18",
       "rrid": "1538566",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1538566"
-    },
-    {
-      "rin": "3235-AN45",
-      "agency_code": "3235",
-      "agency": "SEC",
-      "title": "Amendments to Rule 17a-7 Under the Investment Company Act",
-      "received_date": "2026-09-18",
-      "rrid": "1506512",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506512"
     },
     {
       "rin": "3060-AK84",
@@ -802,15 +784,6 @@
       "received_date": "2026-09-02",
       "rrid": "1515364",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1515364"
-    },
-    {
-      "rin": "1090-AB29",
-      "agency_code": "1090",
-      "agency": "DOI/ASPMB",
-      "title": "Subsistence Management Regulations for Public Lands in Alaska, 2026\u201327 and 2027\u201328; Subsistence Taking of Wildlife Regulations",
-      "received_date": "2026-09-01",
-      "rrid": "1520362",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1520362"
     },
     {
       "rin": "2006-ZA03",
@@ -1236,15 +1209,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1462664"
     },
     {
-      "rin": "1004-AF53",
-      "agency_code": "1004",
-      "agency": "DOI/BLM",
-      "title": "Planning and Designation of Areas of Critical Environmental Concern",
-      "received_date": "2026-07-13",
-      "rrid": "1462662",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1462662"
-    },
-    {
       "rin": "0910-ZD48",
       "agency_code": "0910",
       "agency": "HHS/FDA",
@@ -1407,24 +1371,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1367213"
     },
     {
-      "rin": "0910-AI91",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Rulemaking to Provide by Regulation that an Ingredient Is Not Excluded From the Dietary Supplement Definition",
-      "received_date": "2026-06-05",
-      "rrid": "1409666",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1409666"
-    },
-    {
-      "rin": "1110-AA35",
-      "agency_code": "1110",
-      "agency": "DOJ/FBI",
-      "title": "Bipartisan Safer Communities Act of 2022 -- Criteria for National Instant Criminal Background Check System (NICS) Background Checks of Firearms Handlers",
-      "received_date": "2026-06-03",
-      "rrid": "1412167",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1412167"
-    },
-    {
       "rin": "0910-AJ03",
       "agency_code": "0910",
       "agency": "HHS/FDA",
@@ -1432,15 +1378,6 @@
       "received_date": "2026-06-03",
       "rrid": "1412163",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1412163"
-    },
-    {
-      "rin": "0910-ZD23",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "New Dietary Ingredient (NDI) Notifications and Related Issues; Identity and Safety Information About the NDI: Guidance for Industry",
-      "received_date": "2026-06-02",
-      "rrid": "1409663",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1409663"
     },
     {
       "rin": "0938-AV92",
