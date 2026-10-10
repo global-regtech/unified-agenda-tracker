@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-10-09T18:26:39Z",
-  "count": 172,
+  "generated_at": "2026-10-10T17:24:30Z",
+  "count": 169,
   "reviews": [
+    {
+      "rin": "0910-ZD93",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Fit-for-Purpose Rare Disease Framework Initiative; Public Meeting; Request for Information and Comments",
+      "received_date": "2026-10-09",
+      "rrid": "1566015",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1566015"
+    },
+    {
+      "rin": "3060-AM16",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "2022 Quadrennial Regulatory Review \u2013 Review of the Commission's Broadcast Ownership Rules and Other Rules Adopted Pursuant to Section 202 of the Telecommunications Act of 1996",
+      "received_date": "2026-10-09",
+      "rrid": "1566012",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1566012"
+    },
+    {
+      "rin": "1505-AC94",
+      "agency_code": "1505",
+      "agency": "TREAS/DO",
+      "title": "Provisions Pertaining to U.S. Investments in Certain National Security Technologies and Products in Countries of Concern",
+      "received_date": "2026-10-09",
+      "rrid": "1558464",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1558464"
+    },
     {
       "rin": "1018-BH36",
       "agency_code": "1018",
@@ -156,24 +183,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1553464"
     },
     {
-      "rin": "2060-AX09",
-      "agency_code": "2060",
-      "agency": "EPA/OAR",
-      "title": "Renewable Fuel Standard (RFS) Program: Reallocation of Additional 2025 Small Refinery Exemptions",
-      "received_date": "2026-10-02",
-      "rrid": "1550964",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1550964"
-    },
-    {
-      "rin": "1505-AC96",
-      "agency_code": "1505",
-      "agency": "TREAS/DO",
-      "title": "Implementing the 21st Century Road to Housing Act's Ban on Large Institutional Investor Purchases of Single-Family Homes; Part 1",
-      "received_date": "2026-10-02",
-      "rrid": "1550963",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1550963"
-    },
-    {
       "rin": "2050-AH51",
       "agency_code": "2050",
       "agency": "EPA/OLEM",
@@ -217,15 +226,6 @@
       "received_date": "2026-09-30",
       "rrid": "1548813",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1548813"
-    },
-    {
-      "rin": "0970-AD50",
-      "agency_code": "0970",
-      "agency": "HHS/ACF",
-      "title": "Further Reducing Bureaucracy and Burden from the Administration for Native Americans",
-      "received_date": "2026-09-30",
-      "rrid": "1548812",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1548812"
     },
     {
       "rin": "0945-AA27",
@@ -325,24 +325,6 @@
       "received_date": "2026-09-28",
       "rrid": "1545965",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1545965"
-    },
-    {
-      "rin": "3038-AF82",
-      "agency_code": "3038",
-      "agency": "CFTC",
-      "title": "Further Definition of \"Swap\" to Include Event Contracts",
-      "received_date": "2026-09-28",
-      "rrid": "1538563",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1538563"
-    },
-    {
-      "rin": "3038-AF81",
-      "agency_code": "3038",
-      "agency": "CFTC",
-      "title": "Further Definition of \"Swap\" to Exclude Casino-Style Gambling Products",
-      "received_date": "2026-09-28",
-      "rrid": "1538562",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1538562"
     },
     {
       "rin": "2130-AD62",
@@ -946,15 +928,6 @@
       "received_date": "2026-08-20",
       "rrid": "1506162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506162"
-    },
-    {
-      "rin": "2060-AW73",
-      "agency_code": "2060",
-      "agency": "EPA/OAR",
-      "title": "Additional Reconsideration of Standards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review",
-      "received_date": "2026-08-18",
-      "rrid": "1502863",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1502863"
     },
     {
       "rin": "2140-ZA02",
