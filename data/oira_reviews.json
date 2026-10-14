@@ -1,15 +1,42 @@
 {
-  "generated_at": "2026-10-13T19:24:37Z",
-  "count": 169,
+  "generated_at": "2026-10-14T17:24:36Z",
+  "count": 170,
   "reviews": [
     {
-      "rin": "0910-ZD93",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Fit-for-Purpose Rare Disease Framework Initiative; Public Meeting; Request for Information and Comments",
-      "received_date": "2026-10-09",
-      "rrid": "1566015",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1566015"
+      "rin": "0648-BO41",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "NEFMC Essential Fish Habitat 2025 Designations Framework Adjustment",
+      "received_date": "2026-10-13",
+      "rrid": "1541662",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1541662"
+    },
+    {
+      "rin": "1615-AD25",
+      "agency_code": "1615",
+      "agency": "DHS/USCIS",
+      "title": "Amending the Premium Processing Timeframe",
+      "received_date": "2026-10-13",
+      "rrid": "1563462",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1563462"
+    },
+    {
+      "rin": "0720-AB85",
+      "agency_code": "0720",
+      "agency": "DOW/DODOASHA",
+      "title": "TRICARE Removal of Temporary Regulation Change and Freestanding End-Stage Renal Disease (ESRD) Facilities as TRICARE-Authorized Institutional Providers and Reimbursement Methods for ESRD facilities",
+      "received_date": "2026-10-13",
+      "rrid": "1566014",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1566014"
+    },
+    {
+      "rin": "0625-AB33",
+      "agency_code": "0625",
+      "agency": "DOC/ITA",
+      "title": "Modification of Regulations Regarding the Steel Import Monitoring and Analysis System and the Aluminum Import Analysis System and the Copper Import Monitoring and Analysis Tool",
+      "received_date": "2026-10-13",
+      "rrid": "1561063",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1561063"
     },
     {
       "rin": "3060-AM16",
@@ -759,15 +786,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1520512"
     },
     {
-      "rin": "3150-AL60",
-      "agency_code": "3150",
-      "agency": "NRC",
-      "title": "NRC Reviews of Reactor Designs Previously Authorized by U.S. Department of Energy or Department of War [NRC-2025-1503]",
-      "received_date": "2026-09-02",
-      "rrid": "1515364",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1515364"
-    },
-    {
       "rin": "2006-ZA03",
       "agency_code": "2006",
       "agency": "EPA/RODALLAS",
@@ -1128,15 +1146,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475164"
     },
     {
-      "rin": "1018-BI75",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
-      "received_date": "2026-07-22",
-      "rrid": "1475162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
-    },
-    {
       "rin": "0648-BN79",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -1144,6 +1153,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475166",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
+    },
+    {
+      "rin": "1018-BI75",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
+      "received_date": "2026-07-22",
+      "rrid": "1475162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
     },
     {
       "rin": "1210-ZA37",
@@ -1504,15 +1522,6 @@
       "received_date": "2025-09-16",
       "rrid": "1107062",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1107062"
-    },
-    {
-      "rin": "3150-AJ92",
-      "agency_code": "3150",
-      "agency": "NRC",
-      "title": "Alternatives to the Use of Credit Ratings [NRC-2017-0021]",
-      "received_date": "2025-09-08",
-      "rrid": "1004516",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1004516"
     },
     {
       "rin": "0960-AI94",
