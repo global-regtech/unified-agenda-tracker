@@ -1,7 +1,79 @@
 {
-  "generated_at": "2026-10-14T17:24:36Z",
-  "count": 170,
+  "generated_at": "2026-10-15T17:13:17Z",
+  "count": 174,
   "reviews": [
+    {
+      "rin": "1117-ZA12",
+      "agency_code": "1117",
+      "agency": "DOJ/DEA",
+      "title": "Proposed Aggregate Production Quotas for Schedule I and II Controlled Substances and Assessment of Annual Needs for the List I Chemicals Ephedrine, Pseudoephedrine, and Phenylpropanolamine for 2027",
+      "received_date": "2026-10-14",
+      "rrid": "1568514",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1568514"
+    },
+    {
+      "rin": "1117-ZA13",
+      "agency_code": "1117",
+      "agency": "DOJ/DEA",
+      "title": "Adjustment to the 2026 Aggregate Production Quota for d,l-Amphetamine, d-Amphetamine (for sale), Hydromorphone and Methylphenidate (for sale) Pursuant to 21 U.S.C. 826(h)",
+      "received_date": "2026-10-14",
+      "rrid": "1568515",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1568515"
+    },
+    {
+      "rin": "1117-ZA11",
+      "agency_code": "1117",
+      "agency": "DOJ/DEA",
+      "title": "Schedules of Controlled Substances: Placement of Centanafadine in Schedule III",
+      "received_date": "2026-10-14",
+      "rrid": "1558469",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1558469"
+    },
+    {
+      "rin": "0910-ZD94",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Interim Access Policy for Compounding Using Certain Peptides",
+      "received_date": "2026-10-14",
+      "rrid": "1568964",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1568964"
+    },
+    {
+      "rin": "0910-AJ34",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Infant Formula Nutrient Requirements",
+      "received_date": "2026-10-14",
+      "rrid": "1568963",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1568963"
+    },
+    {
+      "rin": "2060-AX04",
+      "agency_code": "2060",
+      "agency": "EPA/OAR",
+      "title": "Phasedown of Hydrofluorocarbons: Excluding Road and Intermodal Transport Refrigeration Units from the Hydrofluorocarbon Leak Repair Requirements",
+      "received_date": "2026-10-14",
+      "rrid": "1566013",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1566013"
+    },
+    {
+      "rin": "1010-AE27",
+      "agency_code": "1010",
+      "agency": "DOI/BOEM",
+      "title": "Consumer Price Index Adjustments of the Oil Pollution Act of 1990 Limit of Liability for Offshore Facilities",
+      "received_date": "2026-10-14",
+      "rrid": "1558462",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1558462"
+    },
+    {
+      "rin": "1004-ZB07",
+      "agency_code": "1004",
+      "agency": "DOI/BLM",
+      "title": "Notice of Realty Action: Direct Sale of Public Land for Affordable Housing Purposes in Clark County, Nevada",
+      "received_date": "2026-10-14",
+      "rrid": "1543563",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1543563"
+    },
     {
       "rin": "0648-BO41",
       "agency_code": "0648",
@@ -75,24 +147,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1563464"
     },
     {
-      "rin": "1024-AF12",
-      "agency_code": "1024",
-      "agency": "DOI/NPS",
-      "title": "Gates of the Arctic National Park and Preserve; Use of Off-Road Vehicles for Subsistence Purposes by Residents of Anaktuvuk Pass",
-      "received_date": "2026-10-07",
-      "rrid": "1558465",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1558465"
-    },
-    {
-      "rin": "1024-AF11",
-      "agency_code": "1024",
-      "agency": "DOI/NPS",
-      "title": "Denali National Park and Preserve; Vehicle Use",
-      "received_date": "2026-10-07",
-      "rrid": "1558466",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1558466"
-    },
-    {
       "rin": "0648-BO21",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -163,15 +217,6 @@
       "received_date": "2026-10-05",
       "rrid": "1556014",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1556014"
-    },
-    {
-      "rin": "1902-AG43",
-      "agency_code": "1902",
-      "agency": "FERC",
-      "title": "Authorizations for Certain Activities at Liquefied Natural Gas Plants",
-      "received_date": "2026-10-05",
-      "rrid": "1541416",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1541416"
     },
     {
       "rin": "0938-AW00",
@@ -433,15 +478,6 @@
       "received_date": "2026-09-21",
       "rrid": "1538567",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1538567"
-    },
-    {
-      "rin": "1902-ZA05",
-      "agency_code": "1902",
-      "agency": "FERC",
-      "title": "Draft Policy Statement on Efficient Environmental Reviews of Natural Gas Project Applications",
-      "received_date": "2026-09-21",
-      "rrid": "1540964",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1540964"
     },
     {
       "rin": "3060-AL95",
@@ -1146,15 +1182,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475164"
     },
     {
-      "rin": "0648-BN79",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
-      "received_date": "2026-07-22",
-      "rrid": "1475166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
-    },
-    {
       "rin": "1018-BI75",
       "agency_code": "1018",
       "agency": "DOI/FWS",
@@ -1162,6 +1189,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
+    },
+    {
+      "rin": "0648-BN79",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
+      "received_date": "2026-07-22",
+      "rrid": "1475166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
     },
     {
       "rin": "1210-ZA37",
