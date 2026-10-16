@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-10-15T17:13:17Z",
-  "count": 174,
+  "generated_at": "2026-10-16T16:49:45Z",
+  "count": 175,
   "reviews": [
+    {
+      "rin": "1902-AG51",
+      "agency_code": "1902",
+      "agency": "FERC",
+      "title": "Revisions to Commission Rule of Practice and Procedure 713(f)",
+      "received_date": "2026-10-15",
+      "rrid": "1548815",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1548815"
+    },
+    {
+      "rin": "2060-AX08",
+      "agency_code": "2060",
+      "agency": "EPA/OAR",
+      "title": "Nonroad Combustion Turbines Rule",
+      "received_date": "2026-10-15",
+      "rrid": "1540963",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1540963"
+    },
+    {
+      "rin": "1018-BH87",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Endangered and Threatened Wildlife and Plants; Listing Determination and Critical Habitat Designation for White Sands Pupfish",
+      "received_date": "2026-10-15",
+      "rrid": "1568966",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1568966"
+    },
+    {
+      "rin": "0910-ZD95",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Patient-level data for drugs and biological products submissions containing real-world data and real-world evidence; Request for Information",
+      "received_date": "2026-10-15",
+      "rrid": "1570962",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1570962"
+    },
+    {
+      "rin": "0925-ZA29",
+      "agency_code": "0925",
+      "agency": "HHS/NIH",
+      "title": "Notice of Change: Updates to SBIR and STTR Foreign Risk Notification and Mitigation Process",
+      "received_date": "2026-10-15",
+      "rrid": "1570963",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1570963"
+    },
     {
       "rin": "1117-ZA12",
       "agency_code": "1117",
@@ -442,15 +487,6 @@
       "received_date": "2026-09-22",
       "rrid": "1540966",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1540966"
-    },
-    {
-      "rin": "3150-AL06",
-      "agency_code": "3150",
-      "agency": "NRC",
-      "title": "Incorporation by Reference of Institute of Electrical and Electronics Engineers Standard-603-2018 [NRC-2024-0045]",
-      "received_date": "2026-09-22",
-      "rrid": "1523065",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1523065"
     },
     {
       "rin": "0938-AV80",
@@ -1002,15 +1038,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1500365"
     },
     {
-      "rin": "1018-BI93",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Marine Mammals; Incidental Take During Specified Activities; North Slope, Alaska",
-      "received_date": "2026-08-14",
-      "rrid": "1502864",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1502864"
-    },
-    {
       "rin": "0720-AB84",
       "agency_code": "0720",
       "agency": "DOW/DODOASHA",
@@ -1119,15 +1146,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1495413"
     },
     {
-      "rin": "3041-AE27",
-      "agency_code": "3041",
-      "agency": "CPSC",
-      "title": "Interpretation of \"Flammable Liquid Fuels\" with Respect to Fuel Additives",
-      "received_date": "2026-07-29",
-      "rrid": "1475167",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475167"
-    },
-    {
       "rin": "1105-AB70",
       "agency_code": "1105",
       "agency": "DOJ/LA",
@@ -1207,15 +1225,6 @@
       "received_date": "2026-07-20",
       "rrid": "1472665",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1472665"
-    },
-    {
-      "rin": "0938-AV88",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "Contract Year 2028 Policy and Technical Changes to the Medicare Advantage Program, Medicare Prescription Drug Benefit Program, Medicare Cost Plan Program, and PACE (CMS-4214)",
-      "received_date": "2026-07-20",
-      "rrid": "1472662",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1472662"
     },
     {
       "rin": "0584-AF17",
