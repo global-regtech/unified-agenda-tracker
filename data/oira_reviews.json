@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-10-19T18:46:19Z",
-  "count": 173,
+  "generated_at": "2026-10-20T17:24:05Z",
+  "count": 175,
   "reviews": [
+    {
+      "rin": "0938-AW10",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "HHS Notice of Benefit and Payment Parameters for 2028 (CMS-9875)",
+      "received_date": "2026-10-19",
+      "rrid": "1573563",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1573563"
+    },
+    {
+      "rin": "3060-AM52",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "7 GHz Band (7125-7400 MHz), GN Docket No. 26-XXX",
+      "received_date": "2026-10-19",
+      "rrid": "1573562",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1573562"
+    },
+    {
+      "rin": "0648-BN90",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Framework Action under the Fishery Management Plan for the Reef Fish Resources of the Gulf: Modification to the Recreational For-Hire Red Snapper Fishing Season",
+      "received_date": "2026-10-19",
+      "rrid": "1568962",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1568962"
+    },
+    {
+      "rin": "3150-ZA34",
+      "agency_code": "3150",
+      "agency": "NRC",
+      "title": "DANU-ISG-2026-XX: NRC Application Pathway for Reactor Designs Previously Authorized by U.S. Department of Energy or Department of War",
+      "received_date": "2026-10-19",
+      "rrid": "1571316",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1571316"
+    },
     {
       "rin": "1190-AA85",
       "agency_code": "1190",
@@ -1164,15 +1200,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1487665"
     },
     {
-      "rin": "0955-AA09",
-      "agency_code": "0955",
-      "agency": "HHS/ONC",
-      "title": "Health Data, Technology, and Interoperability: ASTP/ONC Deregulatory Actions to Unleash Prosperity",
-      "received_date": "2026-07-28",
-      "rrid": "1485172",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1485172"
-    },
-    {
       "rin": "1210-AB37",
       "agency_code": "1210",
       "agency": "DOL/EBSA",
@@ -1387,15 +1414,6 @@
       "received_date": "2026-06-08",
       "rrid": "1367213",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1367213"
-    },
-    {
-      "rin": "0910-AJ03",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Requirements For Additional Traceability Records For Certain Foods: Compliance Date Extension",
-      "received_date": "2026-06-03",
-      "rrid": "1412163",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1412163"
     },
     {
       "rin": "0938-AV92",
