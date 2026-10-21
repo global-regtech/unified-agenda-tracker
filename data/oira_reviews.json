@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-10-20T17:24:05Z",
-  "count": 175,
+  "generated_at": "2026-10-21T17:28:20Z",
+  "count": 173,
   "reviews": [
+    {
+      "rin": "3038-AF73",
+      "agency_code": "3038",
+      "agency": "CFTC",
+      "title": "Data Reporting Requirements for Certain Event Contracts",
+      "received_date": "2026-10-20",
+      "rrid": "1543564",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1543564"
+    },
+    {
+      "rin": "3046-AB46",
+      "agency_code": "3046",
+      "agency": "EEOC",
+      "title": "Revision and Update to 29 CFR Part 1614",
+      "received_date": "2026-10-20",
+      "rrid": "1573566",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1573566"
+    },
+    {
+      "rin": "2900-AS02",
+      "agency_code": "2900",
+      "agency": "VA",
+      "title": "Loan Guaranty: Updating Minimum Property Requirements for VA-Guaranteed and Direct Loans",
+      "received_date": "2026-10-20",
+      "rrid": "1571314",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1571314"
+    },
+    {
+      "rin": "1840-AD82",
+      "agency_code": "1840",
+      "agency": "ED/OPE",
+      "title": "Accreditation Issues",
+      "received_date": "2026-10-19",
+      "rrid": "1573564",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1573564"
+    },
     {
       "rin": "0938-AW10",
       "agency_code": "0938",
@@ -381,15 +417,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1550965"
     },
     {
-      "rin": "3209-AA74",
-      "agency_code": "3209",
-      "agency": "OGE",
-      "title": "2026 Increase of Gifts and Travel Reimbursements Reporting Thresholds for Financial Disclosure Reports and Nonsponsor Widely Attended Gatherings Gift Exception Ceiling",
-      "received_date": "2026-09-30",
-      "rrid": "1548813",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1548813"
-    },
-    {
       "rin": "0945-AA27",
       "agency_code": "0945",
       "agency": "HHS/OCR",
@@ -750,15 +777,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1530363"
     },
     {
-      "rin": "2900-AS98",
-      "agency_code": "2900",
-      "agency": "VA",
-      "title": "Discontinuing Premium Collection from Policyholders on Certain National Service Life Insurance Policies",
-      "received_date": "2026-09-10",
-      "rrid": "1520513",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1520513"
-    },
-    {
       "rin": "0970-AD21",
       "agency_code": "0970",
       "agency": "HHS/ACF",
@@ -964,15 +982,6 @@
       "received_date": "2026-08-27",
       "rrid": "1357163",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1357163"
-    },
-    {
-      "rin": "1557-AF41",
-      "agency_code": "1557",
-      "agency": "TREAS/OCC",
-      "title": "Regulations on Implementing the GENIUS Act for Entities Subject to OCC Jurisdiction",
-      "received_date": "2026-08-27",
-      "rrid": "1512915",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1512915"
     },
     {
       "rin": "3235-AN60",
@@ -1200,15 +1209,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1487665"
     },
     {
-      "rin": "1210-AB37",
-      "agency_code": "1210",
-      "agency": "DOL/EBSA",
-      "title": "Improving Transparency into Pharmacy Benefit Manager Fee Disclosure",
-      "received_date": "2026-07-23",
-      "rrid": "1480167",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1480167"
-    },
-    {
       "rin": "0651-AD89",
       "agency_code": "0651",
       "agency": "DOC/PTO",
@@ -1218,15 +1218,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475164"
     },
     {
-      "rin": "0648-BN79",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
-      "received_date": "2026-07-22",
-      "rrid": "1475166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
-    },
-    {
       "rin": "1018-BI75",
       "agency_code": "1018",
       "agency": "DOI/FWS",
@@ -1234,6 +1225,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
+    },
+    {
+      "rin": "0648-BN79",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
+      "received_date": "2026-07-22",
+      "rrid": "1475166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
     },
     {
       "rin": "1210-ZA37",
@@ -1387,24 +1387,6 @@
       "received_date": "2026-06-15",
       "rrid": "1427212",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1427212"
-    },
-    {
-      "rin": "0930-AA40",
-      "agency_code": "0930",
-      "agency": "HHS/SAMHSA",
-      "title": "Mandatory Guidelines for Federal Workplace Drug Testing Programs using Urine (UrMG)",
-      "received_date": "2026-06-11",
-      "rrid": "1424713",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1424713"
-    },
-    {
-      "rin": "0930-AA41",
-      "agency_code": "0930",
-      "agency": "HHS/SAMHSA",
-      "title": "Mandatory Guidelines for Federal Workplace Drug Testing Programs using Oral Fluid (OFMG)",
-      "received_date": "2026-06-11",
-      "rrid": "1424714",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1424714"
     },
     {
       "rin": "0579-AE84",
