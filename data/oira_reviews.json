@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-10-21T17:28:20Z",
+  "generated_at": "2026-10-22T17:25:32Z",
   "count": 173,
   "reviews": [
+    {
+      "rin": "0910-ZD97",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Individualized Human Genome Editing Products:  Considerations for BLA Submission and Postapproval Management; Draft Guidance for Industry",
+      "received_date": "2026-10-21",
+      "rrid": "1578463",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1578463"
+    },
+    {
+      "rin": "1018-ZA18",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Notice of Availability; Restoration of the Grizzly Bear in the Bitterroot Ecosystem of the States of Idaho and Montana; Draft Environmental Impact Statement",
+      "received_date": "2026-10-21",
+      "rrid": "1545966",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1545966"
+    },
+    {
+      "rin": "3072-AD06",
+      "agency_code": "3072",
+      "agency": "FMC",
+      "title": "Rulemaking Procedures",
+      "received_date": "2026-10-21",
+      "rrid": "1578462",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1578462"
+    },
     {
       "rin": "3038-AF73",
       "agency_code": "3038",
@@ -615,15 +642,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1537869"
     },
     {
-      "rin": "2127-AM70",
-      "agency_code": "2127",
-      "agency": "DOT/NHTSA",
-      "title": "Modernization of FMVSS 108 to Accommodate ADS",
-      "received_date": "2026-09-17",
-      "rrid": "1537868",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1537868"
-    },
-    {
       "rin": "1506-AB78",
       "agency_code": "1506",
       "agency": "TREAS/FINCEN",
@@ -667,15 +685,6 @@
       "received_date": "2026-09-17",
       "rrid": "1535565",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1535565"
-    },
-    {
-      "rin": "2133-ZA07",
-      "agency_code": "2133",
-      "agency": "DOT/MARAD",
-      "title": "Voluntary Tanker Agreement: Proposed Changes Regarding Chinese-Built Vessels and Vessel Repairs",
-      "received_date": "2026-09-16",
-      "rrid": "1535562",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1535562"
     },
     {
       "rin": "0970-AD45",
@@ -1072,15 +1081,6 @@
       "received_date": "2026-08-14",
       "rrid": "1500365",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1500365"
-    },
-    {
-      "rin": "0720-AB84",
-      "agency_code": "0720",
-      "agency": "DOW/DODOASHA",
-      "title": "Enrollment Fee and Cost Sharing Under TRICARE Prime and Select for Retirees and Their Dependents",
-      "received_date": "2026-08-13",
-      "rrid": "1501163",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1501163"
     },
     {
       "rin": "2090-AA42",
