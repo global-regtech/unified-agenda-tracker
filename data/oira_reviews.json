@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T17:25:32Z",
-  "count": 173,
+  "generated_at": "2026-10-23T17:19:42Z",
+  "count": 168,
   "reviews": [
     {
       "rin": "0910-ZD97",
@@ -183,15 +183,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1568515"
     },
     {
-      "rin": "1117-ZA11",
-      "agency_code": "1117",
-      "agency": "DOJ/DEA",
-      "title": "Schedules of Controlled Substances: Placement of Centanafadine in Schedule III",
-      "received_date": "2026-10-14",
-      "rrid": "1558469",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1558469"
-    },
-    {
       "rin": "0910-ZD94",
       "agency_code": "0910",
       "agency": "HHS/FDA",
@@ -334,15 +325,6 @@
       "received_date": "2026-10-06",
       "rrid": "1558468",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1558468"
-    },
-    {
-      "rin": "3046-ZA04",
-      "agency_code": "3046",
-      "agency": "EEOC",
-      "title": "RESCISSION OF ENFORCEMENT GUIDANCE ON THE CONSIDERATION OF ARREST AND CONVICTION RECORDS IN EMPLOYMENT DECISIONS UNDER TITLE VII OF THE CIVIL RIGHTS ACT",
-      "received_date": "2026-10-06",
-      "rrid": "1556016",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1556016"
     },
     {
       "rin": "0925-ZA28",
@@ -921,15 +903,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1520512"
     },
     {
-      "rin": "2006-ZA03",
-      "agency_code": "2006",
-      "agency": "EPA/RODALLAS",
-      "title": "NPDES General Permit for New and Existing Sources in the Offshore Subcategory of the Oil and Gas Extraction Point Source Category for the Western Portion of the OCS",
-      "received_date": "2026-09-01",
-      "rrid": "1520363",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1520363"
-    },
-    {
       "rin": "0910-AI42",
       "agency_code": "0910",
       "agency": "HHS/FDA",
@@ -1000,15 +973,6 @@
       "received_date": "2026-08-26",
       "rrid": "1492663",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492663"
-    },
-    {
-      "rin": "1810-AB71",
-      "agency_code": "1810",
-      "agency": "ED/OESE",
-      "title": "Charter School Programs",
-      "received_date": "2026-08-25",
-      "rrid": "1510514",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1510514"
     },
     {
       "rin": "1117-AB40",
@@ -1218,15 +1182,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475164"
     },
     {
-      "rin": "1018-BI75",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
-      "received_date": "2026-07-22",
-      "rrid": "1475162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
-    },
-    {
       "rin": "0648-BN79",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -1234,6 +1189,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475166",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
+    },
+    {
+      "rin": "1018-BI75",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
+      "received_date": "2026-07-22",
+      "rrid": "1475162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
     },
     {
       "rin": "1210-ZA37",
@@ -1414,15 +1378,6 @@
       "received_date": "2026-05-12",
       "rrid": "1379863",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1379863"
-    },
-    {
-      "rin": "0938-AW03",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "Exchange Pre-Enrollment Eligibility Verification (CMS-9873)",
-      "received_date": "2026-04-22",
-      "rrid": "1357165",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1357165"
     },
     {
       "rin": "2502-AJ81",
