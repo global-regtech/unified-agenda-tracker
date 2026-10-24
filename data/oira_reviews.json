@@ -1,15 +1,24 @@
 {
-  "generated_at": "2026-10-23T17:19:42Z",
-  "count": 168,
+  "generated_at": "2026-10-24T16:08:12Z",
+  "count": 163,
   "reviews": [
     {
-      "rin": "0910-ZD97",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Individualized Human Genome Editing Products:  Considerations for BLA Submission and Postapproval Management; Draft Guidance for Industry",
-      "received_date": "2026-10-21",
-      "rrid": "1578463",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1578463"
+      "rin": "0648-BO60",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Taking Marine Mammals Incidental to Military Readiness Activities in the Mariana Islands Training and Testing Study Area",
+      "received_date": "2026-10-23",
+      "rrid": "1580962",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1580962"
+    },
+    {
+      "rin": "3070-AA01",
+      "agency_code": "3070",
+      "agency": "FLRA",
+      "title": "Revisions to Federal Labor Relations Authority, General Counsel of the Federal Labor Relations Authority and Federal Service Impasses Panel Regulations",
+      "received_date": "2026-10-23",
+      "rrid": "1581018",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1581018"
     },
     {
       "rin": "1018-ZA18",
@@ -444,15 +453,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1548463"
     },
     {
-      "rin": "0925-ZA25",
-      "agency_code": "0925",
-      "agency": "HHS/NIH",
-      "title": "Draft Policy Update to the NIH Policy for Data and Safety Monitoring Request for Information",
-      "received_date": "2026-09-29",
-      "rrid": "1548467",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1548467"
-    },
-    {
       "rin": "0938-AV82",
       "agency_code": "0938",
       "agency": "HHS/CMS",
@@ -606,15 +606,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1538566"
     },
     {
-      "rin": "3060-AK84",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Amendment of Parts 2 and 25 of the FCC Rules to Facilitate the Use of Earth Stations in Motion Communicating With Geostationary Orbit Space Stations in FSS Bands: IB Docket No. 17-95",
-      "received_date": "2026-09-18",
-      "rrid": "1507964",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1507964"
-    },
-    {
       "rin": "0938-AV81",
       "agency_code": "0938",
       "agency": "HHS/CMS",
@@ -721,24 +712,6 @@
       "received_date": "2026-09-14",
       "rrid": "1527866",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1527866"
-    },
-    {
-      "rin": "1205-AC29",
-      "agency_code": "1205",
-      "agency": "DOL/ETA",
-      "title": "Modernizing the Labor Market Test and Improving Protections for U.S. Workers in the PERM Immigrant Visa Program (NPRM)",
-      "received_date": "2026-09-14",
-      "rrid": "1532863",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1532863"
-    },
-    {
-      "rin": "3206-AO77",
-      "agency_code": "3206",
-      "agency": "OPM",
-      "title": "Personnel Management in Agencies: Strategic Human Capital Management",
-      "received_date": "2026-09-11",
-      "rrid": "1527864",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1527864"
     },
     {
       "rin": "0648-BL51",
@@ -1200,15 +1173,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
     },
     {
-      "rin": "1210-ZA37",
-      "agency_code": "1210",
-      "agency": "DOL/EBSA",
-      "title": "QPAM Re-eligibility Options After Disqualification (QROAD) Class Exemption",
-      "received_date": "2026-07-20",
-      "rrid": "1472665",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1472665"
-    },
-    {
       "rin": "0584-AF17",
       "agency_code": "0584",
       "agency": "USDA/FNA",
@@ -1225,15 +1189,6 @@
       "received_date": "2026-07-13",
       "rrid": "1462664",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1462664"
-    },
-    {
-      "rin": "0910-ZD48",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "U.S.-Origin Statements on Seafood; Draft Guidance for Industry",
-      "received_date": "2026-07-10",
-      "rrid": "1459915",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1459915"
     },
     {
       "rin": "2120-AL82",
