@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-10-26T18:44:49Z",
-  "count": 163,
+  "generated_at": "2026-10-27T18:07:42Z",
+  "count": 168,
   "reviews": [
+    {
+      "rin": "3206-AO91",
+      "agency_code": "3206",
+      "agency": "OPM",
+      "title": "Promoting Employee Accountability",
+      "received_date": "2026-10-26",
+      "rrid": "1583565",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1583565"
+    },
+    {
+      "rin": "3060-AM53",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "4.9 GHz (4940-4990 MHz) Band",
+      "received_date": "2026-10-26",
+      "rrid": "1583563",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1583563"
+    },
+    {
+      "rin": "0938-AV88",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "Contract Year 2028 Policy and Technical Changes to the Medicare Advantage Program, Medicare Prescription Drug Benefit Program, Medicare Cost Plan Program, and PACE (CMS-4214)",
+      "received_date": "2026-10-26",
+      "rrid": "1581013",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1581013"
+    },
+    {
+      "rin": "3235-AN54",
+      "agency_code": "3235",
+      "agency": "SEC",
+      "title": "Evaluating the Consolidated Audit Trail",
+      "received_date": "2026-10-26",
+      "rrid": "1571317",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1571317"
+    },
+    {
+      "rin": "2127-AM35",
+      "agency_code": "2127",
+      "agency": "DOT/NHTSA",
+      "title": "Procedures for Considering Environmental Impacts",
+      "received_date": "2026-10-26",
+      "rrid": "1580964",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1580964"
+    },
     {
       "rin": "0648-BO60",
       "agency_code": "0648",
@@ -1155,15 +1200,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475164"
     },
     {
-      "rin": "0648-BN79",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
-      "received_date": "2026-07-22",
-      "rrid": "1475166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
-    },
-    {
       "rin": "1018-BI75",
       "agency_code": "1018",
       "agency": "DOI/FWS",
@@ -1171,6 +1207,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
+    },
+    {
+      "rin": "0648-BN79",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
+      "received_date": "2026-07-22",
+      "rrid": "1475166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
     },
     {
       "rin": "0584-AF17",
