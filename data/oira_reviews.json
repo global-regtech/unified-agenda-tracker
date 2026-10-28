@@ -1,7 +1,61 @@
 {
-  "generated_at": "2026-10-27T18:07:42Z",
-  "count": 168,
+  "generated_at": "2026-10-28T18:24:27Z",
+  "count": 167,
   "reviews": [
+    {
+      "rin": "3052-ZA06",
+      "agency_code": "3052",
+      "agency": "FCA",
+      "title": "Unconditionally cancelable contract clauses in commitments subject to borrower rights",
+      "received_date": "2026-10-27",
+      "rrid": "1580963",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1580963"
+    },
+    {
+      "rin": "1004-AF32",
+      "agency_code": "1004",
+      "agency": "DOI/BLM",
+      "title": "Broadband and Rights-of-Way Under 43 CFR 2800",
+      "received_date": "2026-10-27",
+      "rrid": "1581015",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1581015"
+    },
+    {
+      "rin": "3060-AM54",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Light Licensing Framework to Modernize Spectrum Sharing, GN Docket No. 26-XXX",
+      "received_date": "2026-10-27",
+      "rrid": "1583564",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1583564"
+    },
+    {
+      "rin": "3060-AK62",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Advanced Methods to Target and Eliminate Unlawful Robocalls (CG Docket No. 17-59)",
+      "received_date": "2026-10-27",
+      "rrid": "1583912",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1583912"
+    },
+    {
+      "rin": "3060-AM55",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Satellite Market Access Reciprocity, GN Docket No. 26-48",
+      "received_date": "2026-10-27",
+      "rrid": "1583913",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1583913"
+    },
+    {
+      "rin": "1093-ZA01",
+      "agency_code": "1093",
+      "agency": "DOI/OS",
+      "title": "Federal Interagency Council on Outdoor Recreation (FICOR) Memorandum of Understanding (MoU)",
+      "received_date": "2026-10-26",
+      "rrid": "1581017",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1581017"
+    },
     {
       "rin": "3206-AO91",
       "agency_code": "3206",
@@ -237,15 +291,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1568515"
     },
     {
-      "rin": "0910-ZD94",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Interim Access Policy for Compounding Using Certain Peptides",
-      "received_date": "2026-10-14",
-      "rrid": "1568964",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1568964"
-    },
-    {
       "rin": "0910-AJ34",
       "agency_code": "0910",
       "agency": "HHS/FDA",
@@ -370,15 +415,6 @@
       "received_date": "2026-10-06",
       "rrid": "1558467",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1558467"
-    },
-    {
-      "rin": "3245-AI77",
-      "agency_code": "3245",
-      "agency": "SBA",
-      "title": "Small Business Investment Company (SBIC) Leverage Availability Amendments",
-      "received_date": "2026-10-06",
-      "rrid": "1558468",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1558468"
     },
     {
       "rin": "0925-ZA28",
@@ -525,15 +561,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1530365"
     },
     {
-      "rin": "0970-AD39",
-      "agency_code": "0970",
-      "agency": "HHS/ACF",
-      "title": "Reducing Bureaucracy and Burden for Child Support Enforcement",
-      "received_date": "2026-09-28",
-      "rrid": "1545968",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1545968"
-    },
-    {
       "rin": "0925-ZA22",
       "agency_code": "0925",
       "agency": "HHS/NIH",
@@ -550,15 +577,6 @@
       "received_date": "2026-09-28",
       "rrid": "1543562",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1543562"
-    },
-    {
-      "rin": "2105-AF15",
-      "agency_code": "2105",
-      "agency": "DOT/OST",
-      "title": "Family Seating in Air Transportation",
-      "received_date": "2026-09-28",
-      "rrid": "1543567",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1543567"
     },
     {
       "rin": "1235-AA46",
@@ -649,15 +667,6 @@
       "received_date": "2026-09-18",
       "rrid": "1538566",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1538566"
-    },
-    {
-      "rin": "0938-AV81",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "CY 2027 Changes to the End-Stage Renal Disease (ESRD) Prospective Payment System and Quality Incentive Program (CMS-1846)",
-      "received_date": "2026-09-17",
-      "rrid": "1537869",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1537869"
     },
     {
       "rin": "1506-AB78",
@@ -894,15 +903,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1523068"
     },
     {
-      "rin": "0970-AD49",
-      "agency_code": "0970",
-      "agency": "HHS/ACF",
-      "title": "Reducing Bureaucracy and Burden for Block Grants",
-      "received_date": "2026-09-03",
-      "rrid": "1523066",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1523066"
-    },
-    {
       "rin": "3076-AA32",
       "agency_code": "3076",
       "agency": "FMCS",
@@ -1027,15 +1027,6 @@
       "received_date": "2026-08-21",
       "rrid": "1506514",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506514"
-    },
-    {
-      "rin": "0938-AU54",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "Amendments to Rules Governing Organ Procurement Organizations (CMS-3409)",
-      "received_date": "2026-08-20",
-      "rrid": "1505512",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505512"
     },
     {
       "rin": "3041-ZA01",
@@ -1200,15 +1191,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475164"
     },
     {
-      "rin": "1018-BI75",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
-      "received_date": "2026-07-22",
-      "rrid": "1475162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
-    },
-    {
       "rin": "0648-BN79",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -1216,6 +1198,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475166",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
+    },
+    {
+      "rin": "1018-BI75",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
+      "received_date": "2026-07-22",
+      "rrid": "1475162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
     },
     {
       "rin": "0584-AF17",
