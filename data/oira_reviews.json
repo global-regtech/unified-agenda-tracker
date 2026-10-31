@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-10-30T18:06:52Z",
-  "count": 166,
+  "generated_at": "2026-10-31T17:17:55Z",
+  "count": 164,
   "reviews": [
+    {
+      "rin": "1117-ZA14",
+      "agency_code": "1117",
+      "agency": "DOJ/DEA",
+      "title": "Schedules of Controlled Substances: Placement of Oveporexton in Schedule IV",
+      "received_date": "2026-10-30",
+      "rrid": "1586367",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1586367"
+    },
+    {
+      "rin": "0572-AC72",
+      "agency_code": "0572",
+      "agency": "USDA/RUS",
+      "title": "Rescission of 7 CFR 1901-E, Civil Rights Compliance Requirements",
+      "received_date": "2026-10-30",
+      "rrid": "1501164",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1501164"
+    },
+    {
+      "rin": "0790-AL85",
+      "agency_code": "0790",
+      "agency": "DOW/OS",
+      "title": "Identification (ID) Cards for Members of the Uniformed Services, Their Dependents, and Other Eligible Individuals; Amendment",
+      "received_date": "2026-10-30",
+      "rrid": "1586012",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1586012"
+    },
+    {
+      "rin": "3060-AM26",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Reforming Legacy Rules for an All-IP Future and Accelerating Network Modernization (WC 25-208)",
+      "received_date": "2026-10-30",
+      "rrid": "1586512",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1586512"
+    },
     {
       "rin": "0960-AJ01",
       "agency_code": "0960",
@@ -327,24 +363,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1570963"
     },
     {
-      "rin": "1117-ZA12",
-      "agency_code": "1117",
-      "agency": "DOJ/DEA",
-      "title": "Proposed Aggregate Production Quotas for Schedule I and II Controlled Substances and Assessment of Annual Needs for the List I Chemicals Ephedrine, Pseudoephedrine, and Phenylpropanolamine for 2027",
-      "received_date": "2026-10-14",
-      "rrid": "1568514",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1568514"
-    },
-    {
-      "rin": "1117-ZA13",
-      "agency_code": "1117",
-      "agency": "DOJ/DEA",
-      "title": "Adjustment to the 2026 Aggregate Production Quota for d,l-Amphetamine, d-Amphetamine (for sale), Hydromorphone and Methylphenidate (for sale) Pursuant to 21 U.S.C. 826(h)",
-      "received_date": "2026-10-14",
-      "rrid": "1568515",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1568515"
-    },
-    {
       "rin": "2060-AX04",
       "agency_code": "2060",
       "agency": "EPA/OAR",
@@ -615,15 +633,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1541664"
     },
     {
-      "rin": "1601-AB12",
-      "agency_code": "1601",
-      "agency": "DHS/OS",
-      "title": "Implementation of HAVANA Act of 2021",
-      "received_date": "2026-09-24",
-      "rrid": "1541417",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1541417"
-    },
-    {
       "rin": "1018-BH42",
       "agency_code": "1018",
       "agency": "DOI/FWS",
@@ -703,15 +712,6 @@
       "received_date": "2026-09-17",
       "rrid": "1535564",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1535564"
-    },
-    {
-      "rin": "2501-AE16",
-      "agency_code": "2501",
-      "agency": "HUD/HUDSEC",
-      "title": "Housing and Community Development Act of 1980: Verification of Eligible Status (FR-6524)",
-      "received_date": "2026-09-17",
-      "rrid": "1535565",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1535565"
     },
     {
       "rin": "0970-AD45",
@@ -856,15 +856,6 @@
       "received_date": "2026-09-08",
       "rrid": "1522864",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1522864"
-    },
-    {
-      "rin": "0648-BN99",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Pacific Island Fisheries; Commercial Fishing in the Pacific Remote Islands Marine National Monument",
-      "received_date": "2026-09-08",
-      "rrid": "1523313",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1523313"
     },
     {
       "rin": "0648-BO04",
@@ -1182,15 +1173,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475164"
     },
     {
-      "rin": "1018-BI75",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
-      "received_date": "2026-07-22",
-      "rrid": "1475162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
-    },
-    {
       "rin": "0648-BN79",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -1198,6 +1180,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475166",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
+    },
+    {
+      "rin": "1018-BI75",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
+      "received_date": "2026-07-22",
+      "rrid": "1475162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
     },
     {
       "rin": "0584-AF17",
@@ -1477,15 +1468,6 @@
       "received_date": "2025-10-24",
       "rrid": "1142013",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1142013"
-    },
-    {
-      "rin": "1120-AB82",
-      "agency_code": "1120",
-      "agency": "DOJ/BOP",
-      "title": "Clarification of National Standards to Prevent, Detect, and Respond to Prison Rape",
-      "received_date": "2025-09-16",
-      "rrid": "1107062",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1107062"
     },
     {
       "rin": "0960-AI94",
