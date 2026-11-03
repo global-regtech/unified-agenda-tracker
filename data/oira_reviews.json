@@ -1,7 +1,61 @@
 {
-  "generated_at": "2026-11-02T21:50:28Z",
-  "count": 164,
+  "generated_at": "2026-11-03T19:40:46Z",
+  "count": 166,
   "reviews": [
+    {
+      "rin": "0970-AD51",
+      "agency_code": "0970",
+      "agency": "HHS/ACF",
+      "title": "Increasing the Limit for Nonrecurring Adoption Expenses",
+      "received_date": "2026-11-02",
+      "rrid": "1589017",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1589017"
+    },
+    {
+      "rin": "1120-AB71",
+      "agency_code": "1120",
+      "agency": "DOJ/BOP",
+      "title": "Inmate Discipline Program: Disciplinary Segregation and Prohibited Act Code Changes",
+      "received_date": "2026-11-02",
+      "rrid": "1589013",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1589013"
+    },
+    {
+      "rin": "1190-ZA13",
+      "agency_code": "1190",
+      "agency": "DOJ/CRT",
+      "title": "DOJ Civil Rights Division \"Dear Colleague\" letter concerning the anti-discrimination provision of the Immigration and Nationality Act (INA; 8 U.S.C. 1324b).",
+      "received_date": "2026-11-02",
+      "rrid": "1586368",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1586368"
+    },
+    {
+      "rin": "1904-AF36",
+      "agency_code": "1904",
+      "agency": "DOE/EE",
+      "title": "Energy Conservation Standards for Portable Electric Spas",
+      "received_date": "2026-11-02",
+      "rrid": "1583562",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1583562"
+    },
+    {
+      "rin": "3038-AF84",
+      "agency_code": "3038",
+      "agency": "CFTC",
+      "title": "Regulation Customer Protection and Identification",
+      "received_date": "2026-11-02",
+      "rrid": "1586013",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1586013"
+    },
+    {
+      "rin": "1902-AG31",
+      "agency_code": "1902",
+      "agency": "FERC",
+      "title": "Implementation of the Executive Order Entitled \"Zero-Based Regulatory Budgeting to Unleash American Energy\"",
+      "received_date": "2026-11-02",
+      "rrid": "1589015",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1589015"
+    },
     {
       "rin": "1117-ZA14",
       "agency_code": "1117",
@@ -678,24 +732,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1538567"
     },
     {
-      "rin": "3060-AL95",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Facilitating Opportunities for Advanced Air Mobility, WT Docket No. 24-629",
-      "received_date": "2026-09-18",
-      "rrid": "1538566",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1538566"
-    },
-    {
-      "rin": "1506-AB78",
-      "agency_code": "1506",
-      "agency": "TREAS/FINCEN",
-      "title": "Customer Due Diligence Requirements for Covered Financial Institutions",
-      "received_date": "2026-09-17",
-      "rrid": "1537867",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1537867"
-    },
-    {
       "rin": "0970-AD29",
       "agency_code": "0970",
       "agency": "HHS/ACF",
@@ -928,24 +964,6 @@
       "received_date": "2026-08-28",
       "rrid": "1517863",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1517863"
-    },
-    {
-      "rin": "3150-AL43",
-      "agency_code": "3150",
-      "agency": "NRC",
-      "title": "Rescission of Advisory Committee on Reactor Safeguards Requirements [NRC-2025-0479]",
-      "received_date": "2026-08-28",
-      "rrid": "1515363",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1515363"
-    },
-    {
-      "rin": "2133-AC01",
-      "agency_code": "2133",
-      "agency": "DOT/MARAD",
-      "title": "Processing Applications and Licensing Deepwater Ports",
-      "received_date": "2026-08-28",
-      "rrid": "1517862",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1517862"
     },
     {
       "rin": "0648-BN63",
