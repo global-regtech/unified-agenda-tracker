@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-11-03T19:40:46Z",
+  "generated_at": "2026-11-04T19:56:26Z",
   "count": 166,
   "reviews": [
+    {
+      "rin": "2040-AG31",
+      "agency_code": "2040",
+      "agency": "EPA/OW",
+      "title": "Water Quality Standards to Protect Human Health in Florida",
+      "received_date": "2026-11-03",
+      "rrid": "1589012",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1589012"
+    },
+    {
+      "rin": "3235-AN48",
+      "agency_code": "3235",
+      "agency": "SEC",
+      "title": "Amendments to Broker-Dealer Financial Responsibility and Recordkeeping and Reporting Rules Regarding Crypto Assets",
+      "received_date": "2026-11-03",
+      "rrid": "1571318",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1571318"
+    },
+    {
+      "rin": "0648-BO68",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Fisheries of the Northeastern United States; Framework Adjustment 20 to the Summer Flounder, Scup, and Black Sea Bass Fishery Management Plan",
+      "received_date": "2026-11-03",
+      "rrid": "1589014",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1589014"
+    },
+    {
+      "rin": "0920-AA88",
+      "agency_code": "0920",
+      "agency": "HHS/CDC",
+      "title": "Control of Communicable Diseases; Foreign Quarantine",
+      "received_date": "2026-11-03",
+      "rrid": "1586366",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1586366"
+    },
+    {
+      "rin": "2506-AC72",
+      "agency_code": "2506",
+      "agency": "HUD/CPD",
+      "title": "Build Now Act Notice of Proposed Rulemaking: Eligibility, Housing Growth Improvement Rates, and Guidance on Increasing Housing Supply",
+      "received_date": "2026-11-03",
+      "rrid": "1586513",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1586513"
+    },
     {
       "rin": "0970-AD51",
       "agency_code": "0970",
@@ -55,15 +100,6 @@
       "received_date": "2026-11-02",
       "rrid": "1589015",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1589015"
-    },
-    {
-      "rin": "1117-ZA14",
-      "agency_code": "1117",
-      "agency": "DOJ/DEA",
-      "title": "Schedules of Controlled Substances: Placement of Oveporexton in Schedule IV",
-      "received_date": "2026-10-30",
-      "rrid": "1586367",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1586367"
     },
     {
       "rin": "0572-AC72",
@@ -145,15 +181,6 @@
       "received_date": "2026-10-28",
       "rrid": "1573565",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1573565"
-    },
-    {
-      "rin": "1024-AF13",
-      "agency_code": "1024",
-      "agency": "DOI/NPS",
-      "title": "Castle Mountains National Monument and Craters of the Moon National Monument; Hunting",
-      "received_date": "2026-10-28",
-      "rrid": "1583566",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1583566"
     },
     {
       "rin": "3052-ZA06",
@@ -345,15 +372,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1568962"
     },
     {
-      "rin": "3150-ZA34",
-      "agency_code": "3150",
-      "agency": "NRC",
-      "title": "DANU-ISG-2026-XX: NRC Application Pathway for Reactor Designs Previously Authorized by U.S. Department of Energy or Department of War",
-      "received_date": "2026-10-19",
-      "rrid": "1571316",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1571316"
-    },
-    {
       "rin": "1190-AA85",
       "agency_code": "1190",
       "agency": "DOJ/CRT",
@@ -379,15 +397,6 @@
       "received_date": "2026-10-16",
       "rrid": "1545969",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1545969"
-    },
-    {
-      "rin": "1902-AG51",
-      "agency_code": "1902",
-      "agency": "FERC",
-      "title": "Revisions to Commission Rule of Practice and Procedure 713(f)",
-      "received_date": "2026-10-15",
-      "rrid": "1548815",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1548815"
     },
     {
       "rin": "2060-AX08",
@@ -613,15 +622,6 @@
       "received_date": "2026-10-01",
       "rrid": "1550965",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1550965"
-    },
-    {
-      "rin": "1117-ZA10",
-      "agency_code": "1117",
-      "agency": "DOJ/DEA",
-      "title": "Proposed Adjustments to the Aggregate Production Quotas for Schedule I and II Controlled Substances and Assessment of Annual Needs for the List I Chemicals Ephedrine, Pseudoephedrine, and Phenylpropan",
-      "received_date": "2026-09-29",
-      "rrid": "1548463",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1548463"
     },
     {
       "rin": "0938-AV82",
