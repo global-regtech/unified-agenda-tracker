@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-11-04T19:56:26Z",
-  "count": 166,
+  "generated_at": "2026-11-05T20:09:36Z",
+  "count": 164,
   "reviews": [
+    {
+      "rin": "2070-AL27",
+      "agency_code": "2070",
+      "agency": "EPA/OCSPP",
+      "title": "Procedures for Chemical Risk Evaluation Under the Toxic Substances Control Act (TSCA)",
+      "received_date": "2026-11-04",
+      "rrid": "1591862",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1591862"
+    },
+    {
+      "rin": "0790-AK98",
+      "agency_code": "0790",
+      "agency": "DOW/OS",
+      "title": "Transactions Other Than Contracts, Grants, or Cooperative Agreements for Prototype Projects",
+      "received_date": "2026-11-04",
+      "rrid": "1591867",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1591867"
+    },
+    {
+      "rin": "0938-AV84",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "CY 2027 Inpatient Hospital Deductible and Hospital and Extended Care Services Coinsurance Amounts (CMS-8092)",
+      "received_date": "2026-11-04",
+      "rrid": "1591863",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1591863"
+    },
+    {
+      "rin": "0938-AV86",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "Medicare Part B Monthly Actuarial Rates, Premium Rates, and Annual Deductible Beginning January 1, 2027 (CMS-8094)",
+      "received_date": "2026-11-04",
+      "rrid": "1591866",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1591866"
+    },
+    {
+      "rin": "0938-AV85",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "CY 2027 Part A Premiums for the Uninsured Aged and for Certain Disabled Individuals Who Have Exhausted Other Entitlement (CMS-8093)",
+      "received_date": "2026-11-04",
+      "rrid": "1591864",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1591864"
+    },
     {
       "rin": "2040-AG31",
       "agency_code": "2040",
@@ -462,15 +507,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1563462"
     },
     {
-      "rin": "0720-AB85",
-      "agency_code": "0720",
-      "agency": "DOW/DODOASHA",
-      "title": "TRICARE Removal of Temporary Regulation Change and Freestanding End-Stage Renal Disease (ESRD) Facilities as TRICARE-Authorized Institutional Providers and Reimbursement Methods for ESRD facilities",
-      "received_date": "2026-10-13",
-      "rrid": "1566014",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1566014"
-    },
-    {
       "rin": "0625-AB33",
       "agency_code": "0625",
       "agency": "DOC/ITA",
@@ -624,15 +660,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1550965"
     },
     {
-      "rin": "0938-AV82",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "CY 2027 Revisions to Payment Policies under the Physician Fee Schedule and Other Revisions to Medicare Part B (CMS-1848)",
-      "received_date": "2026-09-29",
-      "rrid": "1548464",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1548464"
-    },
-    {
       "rin": "1105-AB80",
       "agency_code": "1105",
       "agency": "DOJ/LA",
@@ -678,15 +705,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1545962"
     },
     {
-      "rin": "1685-AA48",
-      "agency_code": "1685",
-      "agency": "DHS/CUSTREV",
-      "title": "Heightened Requirements for Foreign Importers of Record",
-      "received_date": "2026-09-24",
-      "rrid": "1541664",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1541664"
-    },
-    {
       "rin": "1018-BH42",
       "agency_code": "1018",
       "agency": "DOI/FWS",
@@ -703,15 +721,6 @@
       "received_date": "2026-09-22",
       "rrid": "1540966",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1540966"
-    },
-    {
-      "rin": "0938-AV80",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "CY 2027 Home Health Prospective Payment System Rate Update and Home Infusion Therapy Services Payment Update (CMS-1844)",
-      "received_date": "2026-09-21",
-      "rrid": "1540968",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1540968"
     },
     {
       "rin": "2105-ZA51",
@@ -739,15 +748,6 @@
       "received_date": "2026-09-17",
       "rrid": "1537866",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1537866"
-    },
-    {
-      "rin": "0938-AV83",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "CY 2027 Hospital Outpatient PPS Policy Changes and Payment Rates and Ambulatory Surgical Center Payment System Policy Changes and Payment Rates (CMS-1850)",
-      "received_date": "2026-09-17",
-      "rrid": "1535564",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1535564"
     },
     {
       "rin": "0970-AD45",
@@ -856,15 +856,6 @@
       "received_date": "2026-09-10",
       "rrid": "1527862",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1527862"
-    },
-    {
-      "rin": "0938-AV90",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "Medicare Drug Price Negotiation Program (CMS-4215)",
-      "received_date": "2026-09-09",
-      "rrid": "1525514",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1525514"
     },
     {
       "rin": "0910-AG30",
@@ -1036,15 +1027,6 @@
       "received_date": "2026-08-20",
       "rrid": "1506162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506162"
-    },
-    {
-      "rin": "2140-ZA02",
-      "agency_code": "2140",
-      "agency": "STB",
-      "title": "Policy Statement on Jurisdiction and Preemption Under The ICC Termination Act, EP 791",
-      "received_date": "2026-08-17",
-      "rrid": "1502865",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1502865"
     },
     {
       "rin": "1004-AE83",
