@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-11-05T20:09:36Z",
-  "count": 164,
+  "generated_at": "2026-11-06T19:36:09Z",
+  "count": 162,
   "reviews": [
+    {
+      "rin": "1210-AC38",
+      "agency_code": "1210",
+      "agency": "DOL/EBSA",
+      "title": "Fiduciary Duties In Selecting Designated Investment Alternatives",
+      "received_date": "2026-11-05",
+      "rrid": "1591871",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1591871"
+    },
+    {
+      "rin": "0584-AF21",
+      "agency_code": "0584",
+      "agency": "USDA/FNA",
+      "title": "Supplemental Nutrition Assistance Program: Benefit Matching Requirements for State Governments",
+      "received_date": "2026-11-05",
+      "rrid": "1591865",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1591865"
+    },
+    {
+      "rin": "3060-AL76",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Review of International Section 214 Authorizations to Assess Evolving National Security, Law Enforcement, Foreign Policy, and Trade Policy Risks, IB Docket No 23-119, MD Docket No 23-134",
+      "received_date": "2026-11-05",
+      "rrid": "1591870",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1591870"
+    },
+    {
+      "rin": "3060-AL85",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Promoting the Integrity and Security of Telecommunications Certification Bodies, Measurement Facilities, and the Equipment Authorization Program, ET Docket No. 24-136",
+      "received_date": "2026-11-05",
+      "rrid": "1591869",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1591869"
+    },
     {
       "rin": "2070-AL27",
       "agency_code": "2070",
@@ -453,15 +489,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1540963"
     },
     {
-      "rin": "0910-ZD95",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Patient-level data for drugs and biological products submissions containing real-world data and real-world evidence; Request for Information",
-      "received_date": "2026-10-15",
-      "rrid": "1570962",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1570962"
-    },
-    {
       "rin": "0925-ZA29",
       "agency_code": "0925",
       "agency": "HHS/NIH",
@@ -642,15 +669,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1550967"
     },
     {
-      "rin": "0925-ZA26",
-      "agency_code": "0925",
-      "agency": "HHS/NIH",
-      "title": "Request for Information: Seeking New and Emerging Areas of Science Relevant to the NIDCD Mission, To Inform an Update of the NIDCD Strategic Plan for 2028-2032",
-      "received_date": "2026-10-01",
-      "rrid": "1550966",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1550966"
-    },
-    {
       "rin": "3090-AL18",
       "agency_code": "3090",
       "agency": "GSA",
@@ -676,15 +694,6 @@
       "received_date": "2026-09-28",
       "rrid": "1530365",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1530365"
-    },
-    {
-      "rin": "0925-ZA22",
-      "agency_code": "0925",
-      "agency": "HHS/NIH",
-      "title": "Request for Information: Developing Menopause Common Data Elements",
-      "received_date": "2026-09-28",
-      "rrid": "1545963",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1545963"
     },
     {
       "rin": "1210-ZA38",
@@ -838,15 +847,6 @@
       "received_date": "2026-09-10",
       "rrid": "1527865",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1527865"
-    },
-    {
-      "rin": "0910-ZD68",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Validation of Certain In Vitro Diagnostic Devices for Emerging Pathogens During a Section 564 Declared Emergency; Guidance for Industry and Food and Drug Administration Staff; Availability",
-      "received_date": "2026-09-10",
-      "rrid": "1527863",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1527863"
     },
     {
       "rin": "2127-AM69",
@@ -1236,15 +1236,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1454912"
     },
     {
-      "rin": "0938-AW04",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "Cutting Administrative Requirements for Excellence in Patient Care (CMS-3484)",
-      "received_date": "2026-07-02",
-      "rrid": "1452362",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1452362"
-    },
-    {
       "rin": "1210-AC37",
       "agency_code": "1210",
       "agency": "DOL/EBSA",
@@ -1261,15 +1252,6 @@
       "received_date": "2026-06-24",
       "rrid": "1059562",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1059562"
-    },
-    {
-      "rin": "0579-AE93",
-      "agency_code": "0579",
-      "agency": "USDA/APHIS",
-      "title": "Horse Protection Act Revisions",
-      "received_date": "2026-06-23",
-      "rrid": "1437169",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1437169"
     },
     {
       "rin": "1018-BI73",
