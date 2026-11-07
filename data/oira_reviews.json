@@ -1,7 +1,70 @@
 {
-  "generated_at": "2026-11-06T19:36:09Z",
-  "count": 162,
+  "generated_at": "2026-11-07T17:47:57Z",
+  "count": 165,
   "reviews": [
+    {
+      "rin": "2700-AE79",
+      "agency_code": "2700",
+      "agency": "NASA",
+      "title": "Implementation of the Administrative False Claims Act",
+      "received_date": "2026-11-06",
+      "rrid": "1596568",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1596568"
+    },
+    {
+      "rin": "3170-AB04",
+      "agency_code": "3170",
+      "agency": "CFPB",
+      "title": "Streamlining Mortgage Servicing for Borrowers Experiencing Payment Difficulties (Regulation X)",
+      "received_date": "2026-11-06",
+      "rrid": "1596564",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1596564"
+    },
+    {
+      "rin": "1400-ZA28",
+      "agency_code": "1400",
+      "agency": "STATE",
+      "title": "Pilot for Online Version of Application for a U.S. Passport (Form DS-11)",
+      "received_date": "2026-11-06",
+      "rrid": "1594166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1594166"
+    },
+    {
+      "rin": "0910-ZE07",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Section 505(b)(2) Applications Proposing Nonprescription Use; Request for Information",
+      "received_date": "2026-11-06",
+      "rrid": "1596565",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1596565"
+    },
+    {
+      "rin": "0910-ZE05",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Labeling Caffeine Content in Foods and Beverages; Draft Guidance for Industry",
+      "received_date": "2026-11-06",
+      "rrid": "1594164",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1594164"
+    },
+    {
+      "rin": "1205-AC30",
+      "agency_code": "1205",
+      "agency": "DOL/ETA",
+      "title": "Improving Wage Protections for the Temporary and Permanent Employment of Certain Foreign Nations in the United States",
+      "received_date": "2026-11-06",
+      "rrid": "1596562",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1596562"
+    },
+    {
+      "rin": "1117-ZA15",
+      "agency_code": "1117",
+      "agency": "DOJ/DEA",
+      "title": "Designation of 4-Hydroxypiperidine and 1-Phenethyl-4-hydroxypiperidine, Precursor Chemicals Used in the Illicit Manufacture of Fentanyl, as List I Chemicals",
+      "received_date": "2026-11-06",
+      "rrid": "1591562",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1591562"
+    },
     {
       "rin": "1210-AC38",
       "agency_code": "1210",
@@ -19,24 +82,6 @@
       "received_date": "2026-11-05",
       "rrid": "1591865",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1591865"
-    },
-    {
-      "rin": "3060-AL76",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Review of International Section 214 Authorizations to Assess Evolving National Security, Law Enforcement, Foreign Policy, and Trade Policy Risks, IB Docket No 23-119, MD Docket No 23-134",
-      "received_date": "2026-11-05",
-      "rrid": "1591870",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1591870"
-    },
-    {
-      "rin": "3060-AL85",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Promoting the Integrity and Security of Telecommunications Certification Bodies, Measurement Facilities, and the Equipment Authorization Program, ET Docket No. 24-136",
-      "received_date": "2026-11-05",
-      "rrid": "1591869",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1591869"
     },
     {
       "rin": "2070-AL27",
@@ -703,15 +748,6 @@
       "received_date": "2026-09-28",
       "rrid": "1543562",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1543562"
-    },
-    {
-      "rin": "2130-AD62",
-      "agency_code": "2130",
-      "agency": "DOT/FRA",
-      "title": "Litigation Protections for System Safety Program and Risk Reduction Program Information",
-      "received_date": "2026-09-28",
-      "rrid": "1545962",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1545962"
     },
     {
       "rin": "1018-BH42",
@@ -1441,15 +1477,6 @@
       "received_date": "2025-11-14",
       "rrid": "1169515",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1169515"
-    },
-    {
-      "rin": "0584-AF10",
-      "agency_code": "0584",
-      "agency": "USDA/FNS",
-      "title": "Supplemental Nutrition Assistance Program: Reforming Categorical Eligibility",
-      "received_date": "2025-10-24",
-      "rrid": "1142013",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1142013"
     },
     {
       "rin": "0960-AI94",
