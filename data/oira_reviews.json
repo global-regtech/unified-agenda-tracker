@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-11-09T22:35:13Z",
-  "count": 165,
+  "generated_at": "2026-11-10T19:53:47Z",
+  "count": 166,
   "reviews": [
+    {
+      "rin": "1018-BI86",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Endangered and Threatened Wildlife and Plants; Listing Determination for Rio Grande Shiner",
+      "received_date": "2026-11-09",
+      "rrid": "1541412",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1541412"
+    },
+    {
+      "rin": "3046-AB37",
+      "agency_code": "3046",
+      "agency": "EEOC",
+      "title": "Rescission of EEO-1, EEO-2, EEO-3, EEO-4. EEO-5, And Reporting Requirement Under Title VII, the ADA, GINA, and the PWFA  [TCJA]",
+      "received_date": "2026-11-09",
+      "rrid": "1596570",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1596570"
+    },
+    {
+      "rin": "1004-ZB10",
+      "agency_code": "1004",
+      "agency": "DOI/BLM",
+      "title": "Notice of Intent to Prepare Resource Management Plans in Southern Utah and an Associated Environmental Impact Statement",
+      "received_date": "2026-11-09",
+      "rrid": "1596566",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1596566"
+    },
     {
       "rin": "2130-AD65",
       "agency_code": "2130",
@@ -406,15 +433,6 @@
       "received_date": "2026-10-26",
       "rrid": "1571317",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1571317"
-    },
-    {
-      "rin": "2127-AM35",
-      "agency_code": "2127",
-      "agency": "DOT/NHTSA",
-      "title": "Procedures for Considering Environmental Impacts",
-      "received_date": "2026-10-26",
-      "rrid": "1580964",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1580964"
     },
     {
       "rin": "0648-BO60",
@@ -928,15 +946,6 @@
       "received_date": "2026-09-08",
       "rrid": "1522864",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1522864"
-    },
-    {
-      "rin": "0648-BO04",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Fisheries of the Exclusive Economic Zone off Alaska; Pelagic Trawl Gear Definition",
-      "received_date": "2026-09-04",
-      "rrid": "1523063",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1523063"
     },
     {
       "rin": "1018-BJ06",
