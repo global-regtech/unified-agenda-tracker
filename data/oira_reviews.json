@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-11-11T19:45:42Z",
-  "count": 169,
+  "generated_at": "2026-11-12T20:13:03Z",
+  "count": 170,
   "reviews": [
+    {
+      "rin": "1615-ZC12",
+      "agency_code": "1615",
+      "agency": "DHS/USCIS",
+      "title": "Termination of Family Reunification Parole Processes for Colombians, Cubans, Ecuadorians, Guatemalans, Haitians, Hondurans, and Salvadorans",
+      "received_date": "2026-11-11",
+      "rrid": "1541663",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1541663"
+    },
     {
       "rin": "1093-AA31",
       "agency_code": "1093",
