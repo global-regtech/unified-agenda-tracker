@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-11-12T20:13:03Z",
-  "count": 170,
+  "generated_at": "2026-11-13T19:55:05Z",
+  "count": 169,
   "reviews": [
+    {
+      "rin": "1557-ZA19",
+      "agency_code": "1557",
+      "agency": "TREAS/OCC",
+      "title": "Interagency Guidance on Concentrations in Commercial Real Estate Lending",
+      "received_date": "2026-11-12",
+      "rrid": "1599616",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1599616"
+    },
+    {
+      "rin": "1024-ZA05",
+      "agency_code": "1024",
+      "agency": "DOI/NPS",
+      "title": "Notice of Intent to Prepare a Fire Management Plan for Sequoia and Kings Canyon National Parks, California",
+      "received_date": "2026-11-12",
+      "rrid": "1599262",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1599262"
+    },
     {
       "rin": "1615-ZC12",
       "agency_code": "1615",
@@ -109,15 +127,6 @@
       "received_date": "2026-11-06",
       "rrid": "1596564",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1596564"
-    },
-    {
-      "rin": "1400-ZA28",
-      "agency_code": "1400",
-      "agency": "STATE",
-      "title": "Pilot for Online Version of Application for a U.S. Passport (Form DS-11)",
-      "received_date": "2026-11-06",
-      "rrid": "1594166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1594166"
     },
     {
       "rin": "0910-ZE07",
@@ -570,15 +579,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1571315"
     },
     {
-      "rin": "1125-AB37",
-      "agency_code": "1125",
-      "agency": "DOJ/EOIR",
-      "title": "Appellate Procedures for the Board of Immigration Appeals",
-      "received_date": "2026-10-16",
-      "rrid": "1568967",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1568967"
-    },
-    {
       "rin": "3046-AB43",
       "agency_code": "3046",
       "agency": "EEOC",
@@ -939,15 +939,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1530363"
     },
     {
-      "rin": "0970-AD21",
-      "agency_code": "0970",
-      "agency": "HHS/ACF",
-      "title": "Restoring Flexibility to Support Head Start Program Access",
-      "received_date": "2026-09-10",
-      "rrid": "1527865",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1527865"
-    },
-    {
       "rin": "2127-AM69",
       "agency_code": "2127",
       "agency": "DOT/NHTSA",
@@ -1254,15 +1245,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475164"
     },
     {
-      "rin": "1018-BI75",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
-      "received_date": "2026-07-22",
-      "rrid": "1475162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
-    },
-    {
       "rin": "0648-BN79",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -1270,6 +1252,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475166",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
+    },
+    {
+      "rin": "1018-BI75",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
+      "received_date": "2026-07-22",
+      "rrid": "1475162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
     },
     {
       "rin": "0584-AF17",
@@ -1383,7 +1374,7 @@
       "rin": "0694-AJ87",
       "agency_code": "0694",
       "agency": "DOC/BIS",
-      "title": "Export Administration Regulations: Revisions to Space-Related Export Controls",
+      "title": "Export Administration Regulations: Combined Space Reform (CSR)",
       "received_date": "2026-06-15",
       "rrid": "1427212",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1427212"
