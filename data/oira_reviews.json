@@ -1,7 +1,97 @@
 {
-  "generated_at": "2026-11-13T19:55:05Z",
-  "count": 169,
+  "generated_at": "2026-11-14T18:22:09Z",
+  "count": 170,
   "reviews": [
+    {
+      "rin": "1625-AD02",
+      "agency_code": "1625",
+      "agency": "DHS/USCG",
+      "title": "Coast Guard-National Transportation Safety Board Marine Casualty Investigations: Major Marine Casualty Property Value Threshold",
+      "received_date": "2026-11-13",
+      "rrid": "1599768",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1599768"
+    },
+    {
+      "rin": "1235-AA48",
+      "agency_code": "1235",
+      "agency": "DOL/WHD",
+      "title": "Joint Employer Status Under the Fair Labor Standards Act, Family and Medical Leave Act, and Migrant and Seasonal Agricultural Worker Protection Act",
+      "received_date": "2026-11-13",
+      "rrid": "1599766",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1599766"
+    },
+    {
+      "rin": "3206-AO87",
+      "agency_code": "3206",
+      "agency": "OPM",
+      "title": "Attorney Fees and Personnel Action Coverage under the Back Pay Act",
+      "received_date": "2026-11-13",
+      "rrid": "1599767",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1599767"
+    },
+    {
+      "rin": "1010-ZA04",
+      "agency_code": "1010",
+      "agency": "DOI/BOEM (MMA)",
+      "title": "Request for Information Regarding the Department of Interior's Federal Outer Continental Shelf Reef-in-Place Program",
+      "received_date": "2026-11-13",
+      "rrid": "1599612",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1599612"
+    },
+    {
+      "rin": "1557-AF52",
+      "agency_code": "1557",
+      "agency": "TREAS/OCC",
+      "title": "Regulatory Capital Rule: Category I and II Banking Organizations, Banking Organizations with Significant Trading Activity, and Optional Adoption for Other Banking Organizations",
+      "received_date": "2026-11-13",
+      "rrid": "1599615",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1599615"
+    },
+    {
+      "rin": "1557-AF49",
+      "agency_code": "1557",
+      "agency": "TREAS/OCC",
+      "title": "Regulatory Capital Rules: Regulatory Capital and Standardized Approach for Risk-weighted Assets",
+      "received_date": "2026-11-13",
+      "rrid": "1599614",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1599614"
+    },
+    {
+      "rin": "3064-AG23",
+      "agency_code": "3064",
+      "agency": "FDIC",
+      "title": "Regulatory Capital Rule: Regulatory Capital and Standardized Approach for Risk-weighted Assets",
+      "received_date": "2026-11-13",
+      "rrid": "1599617",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1599617"
+    },
+    {
+      "rin": "0970-AD30",
+      "agency_code": "0970",
+      "agency": "HHS/ACF",
+      "title": "Modernize the Head Start Program by Reducing Requirements and Enhancing Alignment with State and Local Systems",
+      "received_date": "2026-11-13",
+      "rrid": "1599764",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1599764"
+    },
+    {
+      "rin": "1014-AA44",
+      "agency_code": "1014",
+      "agency": "DOI/BSEE",
+      "title": "Oil-Spill Response Requirements for Facilities Located Seaward of the Coast Line",
+      "received_date": "2026-11-13",
+      "rrid": "1599762",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1599762"
+    },
+    {
+      "rin": "1004-AF38",
+      "agency_code": "1004",
+      "agency": "DOI/BLM",
+      "title": "Requirements for Site Security and Production Handling; Applying for Commingling and Allocation Approval",
+      "received_date": "2026-11-13",
+      "rrid": "1599613",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1599613"
+    },
     {
       "rin": "1557-ZA19",
       "agency_code": "1557",
@@ -489,15 +579,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1571317"
     },
     {
-      "rin": "0648-BO60",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Taking Marine Mammals Incidental to Military Readiness Activities in the Mariana Islands Training and Testing Study Area",
-      "received_date": "2026-10-23",
-      "rrid": "1580962",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1580962"
-    },
-    {
       "rin": "3070-AA01",
       "agency_code": "3070",
       "agency": "FLRA",
@@ -849,15 +930,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1538567"
     },
     {
-      "rin": "0970-AD29",
-      "agency_code": "0970",
-      "agency": "HHS/ACF",
-      "title": "Reducing Bureaucracy and Burden in the Child Care and Development Fund (CCDF)",
-      "received_date": "2026-09-17",
-      "rrid": "1537866",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1537866"
-    },
-    {
       "rin": "0970-AD45",
       "agency_code": "0970",
       "agency": "HHS/ACF",
@@ -937,15 +1009,6 @@
       "received_date": "2026-09-11",
       "rrid": "1530363",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1530363"
-    },
-    {
-      "rin": "2127-AM69",
-      "agency_code": "2127",
-      "agency": "DOT/NHTSA",
-      "title": "Amendments to FMVSS No. 127; Light Vehicle Automatic Emergency Braking",
-      "received_date": "2026-09-10",
-      "rrid": "1527862",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1527862"
     },
     {
       "rin": "0910-AG30",
@@ -1056,15 +1119,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1357163"
     },
     {
-      "rin": "3235-AN60",
-      "agency_code": "3235",
-      "agency": "SEC",
-      "title": "Executive Compensation Disclosure Reform",
-      "received_date": "2026-08-26",
-      "rrid": "1492663",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1492663"
-    },
-    {
       "rin": "1117-AB40",
       "agency_code": "1117",
       "agency": "DOJ/DEA",
@@ -1135,15 +1189,6 @@
       "received_date": "2026-08-11",
       "rrid": "1475165",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475165"
-    },
-    {
-      "rin": "0938-AV97",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "Comprehensive Regulations to Uncover Suspicious Healthcare (CRUSH) (CMS-6098)",
-      "received_date": "2026-08-07",
-      "rrid": "1497865",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1497865"
     },
     {
       "rin": "0970-AD43",
@@ -1317,15 +1362,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1449664"
     },
     {
-      "rin": "1400-AE73",
-      "agency_code": "1400",
-      "agency": "STATE",
-      "title": "International Traffic in Arms Regulations: USML Categories IV and XV",
-      "received_date": "2026-06-24",
-      "rrid": "1059562",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1059562"
-    },
-    {
       "rin": "1018-BI73",
       "agency_code": "1018",
       "agency": "DOI/FWS",
@@ -1371,15 +1407,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1429713"
     },
     {
-      "rin": "0694-AJ87",
-      "agency_code": "0694",
-      "agency": "DOC/BIS",
-      "title": "Export Administration Regulations: Combined Space Reform (CSR)",
-      "received_date": "2026-06-15",
-      "rrid": "1427212",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1427212"
-    },
-    {
       "rin": "0579-AE84",
       "agency_code": "0579",
       "agency": "USDA/APHIS",
@@ -1407,15 +1434,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1379863"
     },
     {
-      "rin": "2502-AJ81",
-      "agency_code": "2502",
-      "agency": "HUD/OH",
-      "title": "Eliminating Unnecessary Regulatory Constraints in Financing Assisted Living and Board and Care Facilities (FR-6554)",
-      "received_date": "2026-04-08",
-      "rrid": "1342013",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1342013"
-    },
-    {
       "rin": "2900-AR75",
       "agency_code": "2900",
       "agency": "VA",
@@ -1423,15 +1441,6 @@
       "received_date": "2026-04-03",
       "rrid": "1337012",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1337012"
-    },
-    {
-      "rin": "0945-AA00",
-      "agency_code": "0945",
-      "agency": "HHS/OCR",
-      "title": "HIPAA Privacy Rule: Changes to Support Coordinated Care and Individual Engagement and Reduce Regulatory Burdens",
-      "received_date": "2026-04-02",
-      "rrid": "1334515",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1334515"
     },
     {
       "rin": "1651-AB63",
