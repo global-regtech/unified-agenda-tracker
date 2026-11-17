@@ -1,7 +1,61 @@
 {
-  "generated_at": "2026-11-16T22:23:52Z",
-  "count": 170,
+  "generated_at": "2026-11-17T21:09:31Z",
+  "count": 175,
   "reviews": [
+    {
+      "rin": "1810-AB71",
+      "agency_code": "1810",
+      "agency": "ED/OESE",
+      "title": "Charter School Programs",
+      "received_date": "2026-11-16",
+      "rrid": "1602265",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1602265"
+    },
+    {
+      "rin": "2120-AM45",
+      "agency_code": "2120",
+      "agency": "DOT/FAA",
+      "title": "Population Exposure Analysis Burden Reducing Clarification",
+      "received_date": "2026-11-16",
+      "rrid": "1594163",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1594163"
+    },
+    {
+      "rin": "2120-AM44",
+      "agency_code": "2120",
+      "agency": "DOT/FAA",
+      "title": "Ground Safety Requirements Exception for Commercial Sites Located on Federal Launch or Reentry Sites",
+      "received_date": "2026-11-16",
+      "rrid": "1594162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1594162"
+    },
+    {
+      "rin": "0970-AD07",
+      "agency_code": "0970",
+      "agency": "HHS/ACF",
+      "title": "Temporary Assistance for Needy Families Work Participation Rate Calculation Changes",
+      "received_date": "2026-11-16",
+      "rrid": "1602268",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1602268"
+    },
+    {
+      "rin": "0910-ZE08",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Recommendations for Validation and Implementation of Alternative Microbial Methods for Testing of Biologics; Draft Guidance for Industry; Availability",
+      "received_date": "2026-11-16",
+      "rrid": "1602267",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1602267"
+    },
+    {
+      "rin": "3064-ZA57",
+      "agency_code": "3064",
+      "agency": "FDIC",
+      "title": "Proposed Interagency Guidance on Concentrations in Commercial Real Estate Lending",
+      "received_date": "2026-11-16",
+      "rrid": "1602262",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1602262"
+    },
     {
       "rin": "1625-AD02",
       "agency_code": "1625",
@@ -451,15 +505,6 @@
       "received_date": "2026-10-29",
       "rrid": "1583915",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1583915"
-    },
-    {
-      "rin": "1904-AG21",
-      "agency_code": "1904",
-      "agency": "DOE/EE",
-      "title": "Energy Conservation Program: Energy Conservation Standards for Consumer Conventional Cooking Products",
-      "received_date": "2026-10-28",
-      "rrid": "1583914",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1583914"
     },
     {
       "rin": "1006-ZA03",
