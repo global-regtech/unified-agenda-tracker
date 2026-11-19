@@ -1,7 +1,88 @@
 {
-  "generated_at": "2026-11-18T20:46:15Z",
-  "count": 173,
+  "generated_at": "2026-11-19T20:51:50Z",
+  "count": 182,
   "reviews": [
+    {
+      "rin": "2050-AH52",
+      "agency_code": "2050",
+      "agency": "EPA/OLEM",
+      "title": "Rulemaking for a variance from a treatment standard for Department of Energy Hanford Mixed Radioactive Wastes under the Land Disposal Restrictions of 40 CFR Part 268",
+      "received_date": "2026-11-18",
+      "rrid": "1571312",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1571312"
+    },
+    {
+      "rin": "0910-ZE10",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Informative Bayesian Methods in Pediatric Clinical Trials; Draft Guidance for Industry; Availability",
+      "received_date": "2026-11-18",
+      "rrid": "1604763",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1604763"
+    },
+    {
+      "rin": "2060-AW91",
+      "agency_code": "2060",
+      "agency": "EPA/OAR",
+      "title": "National Emission Standards for Hazardous Air Pollutants for Major Sources: Industrial, Commercial, and Institutional Boilers and Process Heaters; Amendments to New Source Dates.",
+      "received_date": "2026-11-18",
+      "rrid": "1594165",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1594165"
+    },
+    {
+      "rin": "0648-BN38",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Taking Marine Mammals Incidental to Ice Road and Ice Trail Construction, Operation, and Maintenance Activities on Alaska's North Slope",
+      "received_date": "2026-11-18",
+      "rrid": "1596563",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1596563"
+    },
+    {
+      "rin": "3064-AG19",
+      "agency_code": "3064",
+      "agency": "FDIC",
+      "title": "GENIUS Act Requirements for FDIC-Supervised Permitted Payment Stablecoin Issuers",
+      "received_date": "2026-11-18",
+      "rrid": "1599618",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1599618"
+    },
+    {
+      "rin": "1004-ZB08",
+      "agency_code": "1004",
+      "agency": "DOI/BLM",
+      "title": "Intent to Prepare an EIS and to Amend the RMPs for the Yuma F.O., Calif. Desert Conservation Area (including the Imperial Sand Dunes Rec. Area) for the Proposed Ironwood Transmission Line, AZ and CA",
+      "received_date": "2026-11-18",
+      "rrid": "1602264",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1602264"
+    },
+    {
+      "rin": "4030-ZA02",
+      "agency_code": "4030",
+      "agency": "FSOC",
+      "title": "Authority to Require Supervision and Regulation of Certain Nonbank Financial Companies",
+      "received_date": "2026-11-18",
+      "rrid": "1602666",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1602666"
+    },
+    {
+      "rin": "1506-AB73",
+      "agency_code": "1506",
+      "agency": "TREAS/FINCEN",
+      "title": "Permitted Payment Stablecoin Issuer Anti-Money Laundering/Countering the Financing of Terrorism Program and Sanctions Compliance Program Requirements",
+      "received_date": "2026-11-18",
+      "rrid": "1602665",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1602665"
+    },
+    {
+      "rin": "1506-AB72",
+      "agency_code": "1506",
+      "agency": "TREAS/FINCEN",
+      "title": "Anti-Money Laundering and Countering the Financing of Terrorism Programs",
+      "received_date": "2026-11-18",
+      "rrid": "1602663",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1602663"
+    },
     {
       "rin": "0906-AB34",
       "agency_code": "0906",
