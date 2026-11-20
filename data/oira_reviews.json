@@ -1,7 +1,70 @@
 {
-  "generated_at": "2026-11-19T20:51:50Z",
-  "count": 182,
+  "generated_at": "2026-11-20T20:36:24Z",
+  "count": 185,
   "reviews": [
+    {
+      "rin": "1235-AA51",
+      "agency_code": "1235",
+      "agency": "DOL/WHD",
+      "title": "Application of the Fair Labor Standards Act to Domestic Service",
+      "received_date": "2026-11-19",
+      "rrid": "1607268",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1607268"
+    },
+    {
+      "rin": "1845-ZA00",
+      "agency_code": "1845",
+      "agency": "ED/FSA",
+      "title": "RFI on Transparency in Student Lending and Disclosures",
+      "received_date": "2026-11-19",
+      "rrid": "1607267",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1607267"
+    },
+    {
+      "rin": "2060-AW83",
+      "agency_code": "2060",
+      "agency": "EPA/OAR",
+      "title": "Amendments to the Model Year 2027 and Later Heavy-Duty Highway Engine Criteria Pollutant Program",
+      "received_date": "2026-11-19",
+      "rrid": "1604764",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1604764"
+    },
+    {
+      "rin": "3235-AN73",
+      "agency_code": "3235",
+      "agency": "SEC",
+      "title": "Amendments to Rule 10c-1a",
+      "received_date": "2026-11-19",
+      "rrid": "1586362",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1586362"
+    },
+    {
+      "rin": "3235-AN72",
+      "agency_code": "3235",
+      "agency": "SEC",
+      "title": "Amendments to Rule 13f-2, Related Form SHO, and Regulation SHO",
+      "received_date": "2026-11-19",
+      "rrid": "1586363",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1586363"
+    },
+    {
+      "rin": "3150-ZA35",
+      "agency_code": "3150",
+      "agency": "NRC",
+      "title": "Civilian Maritime Nuclear Licensing Considerations",
+      "received_date": "2026-11-19",
+      "rrid": "1607265",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1607265"
+    },
+    {
+      "rin": "1117-ZA16",
+      "agency_code": "1117",
+      "agency": "DOJ/DEA",
+      "title": "Guidance Regarding Applications to Conduct Research Under the Provisions of the Halt All Lethal Trafficking of Fentanyl Act",
+      "received_date": "2026-11-19",
+      "rrid": "1602269",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1602269"
+    },
     {
       "rin": "2050-AH52",
       "agency_code": "2050",
@@ -325,15 +388,6 @@
       "received_date": "2026-11-10",
       "rrid": "1599163",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1599163"
-    },
-    {
-      "rin": "1018-BI86",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Endangered and Threatened Wildlife and Plants; Listing Determination for Rio Grande Shiner",
-      "received_date": "2026-11-09",
-      "rrid": "1541412",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1541412"
     },
     {
       "rin": "3046-AB37",
@@ -696,15 +750,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1581013"
     },
     {
-      "rin": "3235-AN54",
-      "agency_code": "3235",
-      "agency": "SEC",
-      "title": "Evaluating the Consolidated Audit Trail",
-      "received_date": "2026-10-26",
-      "rrid": "1571317",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1571317"
-    },
-    {
       "rin": "3070-AA01",
       "agency_code": "3070",
       "agency": "FLRA",
@@ -894,15 +939,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1545970"
     },
     {
-      "rin": "2700-AE91",
-      "agency_code": "2700",
-      "agency": "NASA",
-      "title": "Procedures for Implementing the Freedom of Information Act (FOIA)",
-      "received_date": "2026-10-07",
-      "rrid": "1535363",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1535363"
-    },
-    {
       "rin": "1290-AA54",
       "agency_code": "1290",
       "agency": "DOL/OS",
@@ -1018,15 +1054,6 @@
       "received_date": "2026-09-28",
       "rrid": "1543562",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1543562"
-    },
-    {
-      "rin": "1018-BH42",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Endangered and Threatened Wildlife and Plants; Listing Determination and Critical Habitat Designation for Peppered (Colorless) Shiner",
-      "received_date": "2026-09-22",
-      "rrid": "1541413",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1541413"
     },
     {
       "rin": "1004-AF55",
