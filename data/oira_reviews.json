@@ -1,7 +1,88 @@
 {
-  "generated_at": "2026-11-20T20:36:24Z",
-  "count": 185,
+  "generated_at": "2026-11-21T19:35:29Z",
+  "count": 186,
   "reviews": [
+    {
+      "rin": "1140-ZA02",
+      "agency_code": "1140",
+      "agency": "DOJ/ATF",
+      "title": "Taser T10 under the Gun Control Act",
+      "received_date": "2026-11-20",
+      "rrid": "1607667",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1607667"
+    },
+    {
+      "rin": "1205-AC33",
+      "agency_code": "1205",
+      "agency": "DOL/ETA",
+      "title": "Personal Responsibility and Work Opportunity Reconciliation Act of 1996 (PRWORA); Interpretation of \"Federal Public Benefit\"",
+      "received_date": "2026-11-20",
+      "rrid": "1607669",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1607669"
+    },
+    {
+      "rin": "3038-AF65",
+      "agency_code": "3038",
+      "agency": "CFTC",
+      "title": "Prediction Markets; Public Interest Determinations",
+      "received_date": "2026-11-20",
+      "rrid": "1607266",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1607266"
+    },
+    {
+      "rin": "3084-ZA04",
+      "agency_code": "3084",
+      "agency": "FTC",
+      "title": "Joint Policy Statement of the Federal Trade Commission and the Department of Justice on the Reportability of Reverse Acquihire Transactions",
+      "received_date": "2026-11-20",
+      "rrid": "1607666",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1607666"
+    },
+    {
+      "rin": "1018-BH31",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Endangered and Threatened Wildlife and Plants; Listing Determination and Critical Habitat Designation for Columbia Torrent Salamander and Cascade Torrent Salamander",
+      "received_date": "2026-11-20",
+      "rrid": "1607665",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1607665"
+    },
+    {
+      "rin": "3060-AL12",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Process Reform for Executive Branch Review of Certain FCC Applications and Petitions Involving Foreign Ownership, IB Docket No. 16-155",
+      "received_date": "2026-11-20",
+      "rrid": "1607262",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1607262"
+    },
+    {
+      "rin": "0938-ZC09",
+      "agency_code": "0938",
+      "agency": "HHS/CMS",
+      "title": "Independent Dispute Resolution Public Use File Disclosures (CMS-9871)",
+      "received_date": "2026-11-20",
+      "rrid": "1607664",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1607664"
+    },
+    {
+      "rin": "0648-BO38",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Omnibus Management Flexibility Amendment to New England Fishery Management Council Fishery Management Plans",
+      "received_date": "2026-11-20",
+      "rrid": "1599265",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1599265"
+    },
+    {
+      "rin": "3060-AM36",
+      "agency_code": "3060",
+      "agency": "FCC",
+      "title": "Protecting Against National Security Threats in Domestic Telecommunications Service",
+      "received_date": "2026-11-20",
+      "rrid": "1602270",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1602270"
+    },
     {
       "rin": "1235-AA51",
       "agency_code": "1235",
@@ -318,15 +399,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1599613"
     },
     {
-      "rin": "1557-ZA19",
-      "agency_code": "1557",
-      "agency": "TREAS/OCC",
-      "title": "Interagency Guidance on Concentrations in Commercial Real Estate Lending",
-      "received_date": "2026-11-12",
-      "rrid": "1599616",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1599616"
-    },
-    {
       "rin": "1024-ZA05",
       "agency_code": "1024",
       "agency": "DOI/NPS",
@@ -361,15 +433,6 @@
       "received_date": "2026-11-10",
       "rrid": "1599266",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1599266"
-    },
-    {
-      "rin": "1018-BH07",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Endangered and Threatened Wildlife and Plants; Listing Determination and Critical Habitat Designation for Tharp's Blue Star",
-      "received_date": "2026-11-10",
-      "rrid": "1599263",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1599263"
     },
     {
       "rin": "2590-AB65",
@@ -696,15 +759,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1583564"
     },
     {
-      "rin": "3060-AK62",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Advanced Methods to Target and Eliminate Unlawful Robocalls (CG Docket No. 17-59)",
-      "received_date": "2026-10-27",
-      "rrid": "1583912",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1583912"
-    },
-    {
       "rin": "3060-AM55",
       "agency_code": "3060",
       "agency": "FCC",
@@ -739,15 +793,6 @@
       "received_date": "2026-10-26",
       "rrid": "1583563",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1583563"
-    },
-    {
-      "rin": "0938-AV88",
-      "agency_code": "0938",
-      "agency": "HHS/CMS",
-      "title": "Contract Year 2028 Policy and Technical Changes to the Medicare Advantage Program, Medicare Prescription Drug Benefit Program, Medicare Cost Plan Program, and PACE (CMS-4214)",
-      "received_date": "2026-10-26",
-      "rrid": "1581013",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1581013"
     },
     {
       "rin": "3070-AA01",
@@ -849,15 +894,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1540963"
     },
     {
-      "rin": "0925-ZA29",
-      "agency_code": "0925",
-      "agency": "HHS/NIH",
-      "title": "Notice of Change: Updates to SBIR and STTR Foreign Risk Notification and Mitigation Process",
-      "received_date": "2026-10-15",
-      "rrid": "1570963",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1570963"
-    },
-    {
       "rin": "2060-AX04",
       "agency_code": "2060",
       "agency": "EPA/OAR",
@@ -955,15 +991,6 @@
       "received_date": "2026-10-06",
       "rrid": "1558463",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1558463"
-    },
-    {
-      "rin": "0910-ZD84",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Clinical Trial Enrollment Action Plans to Improve Representation of the U.S. Intended Use Population in Clinical Studies",
-      "received_date": "2026-10-06",
-      "rrid": "1556013",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1556013"
     },
     {
       "rin": "3124-AA36",
@@ -1171,15 +1198,6 @@
       "received_date": "2026-09-09",
       "rrid": "1525562",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1525562"
-    },
-    {
-      "rin": "1660-ZA37",
-      "agency_code": "1660",
-      "agency": "DHS/FEMA",
-      "title": "Public Assistance Snow Assistance Policy",
-      "received_date": "2026-09-08",
-      "rrid": "1522864",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1522864"
     },
     {
       "rin": "1018-BJ06",
@@ -1425,15 +1443,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475164"
     },
     {
-      "rin": "1018-BI75",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
-      "received_date": "2026-07-22",
-      "rrid": "1475162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
-    },
-    {
       "rin": "0648-BN79",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -1441,6 +1450,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475166",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
+    },
+    {
+      "rin": "1018-BI75",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
+      "received_date": "2026-07-22",
+      "rrid": "1475162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
     },
     {
       "rin": "0584-AF17",
@@ -1486,15 +1504,6 @@
       "received_date": "2026-07-06",
       "rrid": "1454912",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1454912"
-    },
-    {
-      "rin": "1210-AC37",
-      "agency_code": "1210",
-      "agency": "DOL/EBSA",
-      "title": "Loyalty and the Exclusive Purpose Rule in Selecting Plan Investments and Exercising Shareholder Rights",
-      "received_date": "2026-06-30",
-      "rrid": "1449664",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1449664"
     },
     {
       "rin": "1018-BI73",
