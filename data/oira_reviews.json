@@ -1,7 +1,106 @@
 {
-  "generated_at": "2026-11-24T00:08:55Z",
-  "count": 186,
+  "generated_at": "2026-11-24T22:39:20Z",
+  "count": 187,
   "reviews": [
+    {
+      "rin": "0584-AF31",
+      "agency_code": "0584",
+      "agency": "USDA/FNA",
+      "title": "Supplemental Nutrition Assistance Program: Integrity Enhancement",
+      "received_date": "2026-11-23",
+      "rrid": "1607672",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1607672"
+    },
+    {
+      "rin": "2050-ZA20",
+      "agency_code": "2050",
+      "agency": "EPA/OLEM",
+      "title": "Guidance Development for the Good Samaritan Remediation of Abandoned Hardrock Mines Act of 2024",
+      "received_date": "2026-11-23",
+      "rrid": "1607264",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1607264"
+    },
+    {
+      "rin": "1090-ZA03",
+      "agency_code": "1090",
+      "agency": "DOI/ASPMB",
+      "title": "Notice of Request for Public Comment on the Draft National Strategy for Military and Veteran Recreation on Federal Lands and Waters",
+      "received_date": "2026-11-23",
+      "rrid": "1607671",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1607671"
+    },
+    {
+      "rin": "9000-AO82",
+      "agency_code": "9000",
+      "agency": "FAR",
+      "title": "Federal Acquisition Regulation (FAR); FAR Case 2026-009, Revolutionary Federal Acquisition Regulation Overhaul parts 30, 31, and 32.",
+      "received_date": "2026-11-23",
+      "rrid": "1610116",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1610116"
+    },
+    {
+      "rin": "9000-AO81",
+      "agency_code": "9000",
+      "agency": "FAR",
+      "title": "Federal Acquisition Regulation (FAR); FAR Case 2026-008, Revolutionary Federal Acquisition Regulation Overhaul Parts 11, 43, 45, 46 and 50.",
+      "received_date": "2026-11-23",
+      "rrid": "1610115",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1610115"
+    },
+    {
+      "rin": "9000-AO85",
+      "agency_code": "9000",
+      "agency": "FAR",
+      "title": "Federal Acquisition Regulation (FAR); FAR Case 2026-012, Revolutionary Federal Acquisition Regulation Overhaul Parts 34, 42, and 48.",
+      "received_date": "2026-11-23",
+      "rrid": "1610117",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1610117"
+    },
+    {
+      "rin": "9000-AO89",
+      "agency_code": "9000",
+      "agency": "FAR",
+      "title": "Federal Acquisition Regulation (FAR); FAR Case 2026-004, Revolutionary Federal Acquisition Regulation Overhaul parts 19, 22, 23, and 25.",
+      "received_date": "2026-11-23",
+      "rrid": "1610114",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1610114"
+    },
+    {
+      "rin": "1018-ZA20",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Notice of Intent to Prepare a Draft Environmental Impact Statement for the California Forest Conservation Plan and request for comments on the draft California Forest Conservation Plan: Sierra Region",
+      "received_date": "2026-11-23",
+      "rrid": "1602263",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1602263"
+    },
+    {
+      "rin": "0583-AE02",
+      "agency_code": "0583",
+      "agency": "USDA/FSIS",
+      "title": "Maximum Line Speed under the New Swine Slaughter Inspection System (NSIS)",
+      "received_date": "2026-11-23",
+      "rrid": "1553463",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1553463"
+    },
+    {
+      "rin": "3147-AA30",
+      "agency_code": "3147",
+      "agency": "NTSB",
+      "title": "Coast Guard-National Transportation Safety Board Marine Casualty Investigations: Major Marine Casualty Property Damage Threshold",
+      "received_date": "2026-11-23",
+      "rrid": "1607668",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1607668"
+    },
+    {
+      "rin": "2060-AW63",
+      "agency_code": "2060",
+      "agency": "EPA/OAR",
+      "title": "Interstate Transport Plan Review for the 2015 Ozone NAAQS - Phase 1",
+      "received_date": "2026-11-23",
+      "rrid": "1607263",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1607263"
+    },
     {
       "rin": "1140-ZA02",
       "agency_code": "1140",
@@ -240,7 +339,7 @@
       "rin": "1400-AG29",
       "agency_code": "1400",
       "agency": "STATE",
-      "title": "International Traffic in Arms Regulations: Proposed Revisions to ITAR Parts 120, 121, and 126",
+      "title": "International Traffic in Arms Regulations: Clarifications and U.S. Munitions List Restructuring",
       "received_date": "2026-11-17",
       "rrid": "1599012",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1599012"
@@ -298,15 +397,6 @@
       "received_date": "2026-11-16",
       "rrid": "1602267",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1602267"
-    },
-    {
-      "rin": "3064-ZA57",
-      "agency_code": "3064",
-      "agency": "FDIC",
-      "title": "Proposed Interagency Guidance on Concentrations in Commercial Real Estate Lending",
-      "received_date": "2026-11-16",
-      "rrid": "1602262",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1602262"
     },
     {
       "rin": "1625-AD02",
@@ -597,15 +687,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1589014"
     },
     {
-      "rin": "0920-AA88",
-      "agency_code": "0920",
-      "agency": "HHS/CDC",
-      "title": "Control of Communicable Diseases; Foreign Quarantine",
-      "received_date": "2026-11-03",
-      "rrid": "1586366",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1586366"
-    },
-    {
       "rin": "0970-AD51",
       "agency_code": "0970",
       "agency": "HHS/ACF",
@@ -678,15 +759,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1586012"
     },
     {
-      "rin": "3060-AM26",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Reforming Legacy Rules for an All-IP Future and Accelerating Network Modernization (WC 25-208)",
-      "received_date": "2026-10-30",
-      "rrid": "1586512",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1586512"
-    },
-    {
       "rin": "0960-AJ01",
       "agency_code": "0960",
       "agency": "SSA",
@@ -750,24 +822,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1581015"
     },
     {
-      "rin": "3060-AM54",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Light Licensing Framework to Modernize Spectrum Sharing, GN Docket No. 26-XXX",
-      "received_date": "2026-10-27",
-      "rrid": "1583564",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1583564"
-    },
-    {
-      "rin": "3060-AM55",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "Satellite Market Access Reciprocity, GN Docket No. 26-48",
-      "received_date": "2026-10-27",
-      "rrid": "1583913",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1583913"
-    },
-    {
       "rin": "1093-ZA01",
       "agency_code": "1093",
       "agency": "DOI/OS",
@@ -820,15 +874,6 @@
       "received_date": "2026-10-21",
       "rrid": "1578462",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1578462"
-    },
-    {
-      "rin": "3038-AF73",
-      "agency_code": "3038",
-      "agency": "CFTC",
-      "title": "Data Reporting Requirements for Certain Event Contracts",
-      "received_date": "2026-10-20",
-      "rrid": "1543564",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1543564"
     },
     {
       "rin": "2900-AS02",
@@ -894,15 +939,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1540963"
     },
     {
-      "rin": "2060-AX04",
-      "agency_code": "2060",
-      "agency": "EPA/OAR",
-      "title": "Phasedown of Hydrofluorocarbons: Excluding Road and Intermodal Transport Refrigeration Units from the Hydrofluorocarbon Leak Repair Requirements",
-      "received_date": "2026-10-14",
-      "rrid": "1566013",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1566013"
-    },
-    {
       "rin": "1010-AE27",
       "agency_code": "1010",
       "agency": "DOI/BOEM",
@@ -937,15 +973,6 @@
       "received_date": "2026-10-13",
       "rrid": "1561063",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1561063"
-    },
-    {
-      "rin": "3060-AM16",
-      "agency_code": "3060",
-      "agency": "FCC",
-      "title": "2022 Quadrennial Regulatory Review \u2013 Review of the Commission's Broadcast Ownership Rules and Other Rules Adopted Pursuant to Section 202 of the Telecommunications Act of 1996",
-      "received_date": "2026-10-09",
-      "rrid": "1566012",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1566012"
     },
     {
       "rin": "1018-BH36",
@@ -1018,15 +1045,6 @@
       "received_date": "2026-10-05",
       "rrid": "1556012",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1556012"
-    },
-    {
-      "rin": "2140-AB63",
-      "agency_code": "2140",
-      "agency": "STB",
-      "title": "Petition for Rulemaking to Consider Amendments to Regulations Governing Interim Use of Rights-Of-Way As Trails (49 CFR Part 1152), EP 777",
-      "received_date": "2026-10-05",
-      "rrid": "1553465",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1553465"
     },
     {
       "rin": "0925-ZA27",
@@ -1299,15 +1317,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1505714"
     },
     {
-      "rin": "3041-ZA01",
-      "agency_code": "3041",
-      "agency": "CPSC",
-      "title": "Guidance Document Concerning Modernization of National Electronic Injury Surveillance System (NEISS)",
-      "received_date": "2026-08-20",
-      "rrid": "1506162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506162"
-    },
-    {
       "rin": "1004-AE83",
       "agency_code": "1004",
       "agency": "DOI/BLM",
@@ -1443,15 +1452,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475164"
     },
     {
-      "rin": "0648-BN79",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
-      "received_date": "2026-07-22",
-      "rrid": "1475166",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
-    },
-    {
       "rin": "1018-BI75",
       "agency_code": "1018",
       "agency": "DOI/FWS",
@@ -1459,6 +1459,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475162",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
+    },
+    {
+      "rin": "0648-BN79",
+      "agency_code": "0648",
+      "agency": "DOC/NOAA",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation Regulations",
+      "received_date": "2026-07-22",
+      "rrid": "1475166",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
     },
     {
       "rin": "0584-AF17",
