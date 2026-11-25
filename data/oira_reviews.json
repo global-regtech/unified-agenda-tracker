@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-11-24T22:39:20Z",
-  "count": 187,
+  "generated_at": "2026-11-25T21:52:26Z",
+  "count": 180,
   "reviews": [
+    {
+      "rin": "0910-ZE11",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Radiation Dosimetry for First-in-Human Studies of Positron Emission Tomography Drugs; Draft Guidance for Industry; Availability",
+      "received_date": "2026-11-24",
+      "rrid": "1612618",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1612618"
+    },
+    {
+      "rin": "0910-ZE09",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Use of Zootechnical Substances in Animal Food; Draft Guidance for Industry",
+      "received_date": "2026-11-24",
+      "rrid": "1602664",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1602664"
+    },
+    {
+      "rin": "0581-ZA35",
+      "agency_code": "0581",
+      "agency": "USDA/AMS",
+      "title": "National Bioengineered Food Disclosure Standard; Annual Review of the List of Bioengineered Foods",
+      "received_date": "2026-11-24",
+      "rrid": "1612613",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1612613"
+    },
     {
       "rin": "0584-AF31",
       "agency_code": "0584",
@@ -136,15 +163,6 @@
       "received_date": "2026-11-20",
       "rrid": "1607666",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1607666"
-    },
-    {
-      "rin": "1018-BH31",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Endangered and Threatened Wildlife and Plants; Listing Determination and Critical Habitat Designation for Columbia Torrent Salamander and Cascade Torrent Salamander",
-      "received_date": "2026-11-20",
-      "rrid": "1607665",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1607665"
     },
     {
       "rin": "3060-AL12",
@@ -507,15 +525,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1541663"
     },
     {
-      "rin": "1093-AA31",
-      "agency_code": "1093",
-      "agency": "DOI/OS",
-      "title": "Defense Production Act Implementing Regulations",
-      "received_date": "2026-11-10",
-      "rrid": "1596569",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1596569"
-    },
-    {
       "rin": "1205-ZA02",
       "agency_code": "1205",
       "agency": "DOL/ETA",
@@ -586,15 +595,6 @@
       "received_date": "2026-11-06",
       "rrid": "1596564",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1596564"
-    },
-    {
-      "rin": "0910-ZE07",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Section 505(b)(2) Applications Proposing Nonprescription Use; Request for Information",
-      "received_date": "2026-11-06",
-      "rrid": "1596565",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1596565"
     },
     {
       "rin": "0910-ZE05",
@@ -795,15 +795,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1553462"
     },
     {
-      "rin": "1018-BH43",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Endangered and Threatened Wildlife and Plants; Listing Determination and Critical Habitat Designation for Piebald Madtom",
-      "received_date": "2026-10-28",
-      "rrid": "1573565",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1573565"
-    },
-    {
       "rin": "3052-ZA06",
       "agency_code": "3052",
       "agency": "FCA",
@@ -975,24 +966,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1561063"
     },
     {
-      "rin": "1018-BH36",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Endangered and Threatened Wildlife and Plants; Listing Determination and Critical Habitat Designation for Blanding's Turtle",
-      "received_date": "2026-10-08",
-      "rrid": "1563463",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1563463"
-    },
-    {
-      "rin": "1018-BH95",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Endangered and Threatened Wildlife and Plants; Listing Determination and Critical Habitat Designation for Ferris' Copper Butterfly",
-      "received_date": "2026-10-08",
-      "rrid": "1563464",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1563464"
-    },
-    {
       "rin": "0648-BO21",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -1020,15 +993,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1558463"
     },
     {
-      "rin": "3124-AA36",
-      "agency_code": "3124",
-      "agency": "MSPB",
-      "title": "Revising Requirements for Attorney Fee Awards",
-      "received_date": "2026-10-05",
-      "rrid": "1556014",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1556014"
-    },
-    {
       "rin": "0938-AW00",
       "agency_code": "0938",
       "agency": "HHS/CMS",
@@ -1045,15 +1009,6 @@
       "received_date": "2026-10-05",
       "rrid": "1556012",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1556012"
-    },
-    {
-      "rin": "0925-ZA27",
-      "agency_code": "0925",
-      "agency": "HHS/NIH",
-      "title": "National Institute on Aging Strategic Directions 2026-2030",
-      "received_date": "2026-10-02",
-      "rrid": "1553464",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1553464"
     },
     {
       "rin": "1670-AA04",
@@ -1117,15 +1072,6 @@
       "received_date": "2026-09-21",
       "rrid": "1538567",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1538567"
-    },
-    {
-      "rin": "0970-AD45",
-      "agency_code": "0970",
-      "agency": "HHS/ACF",
-      "title": "Reducing Bureaucracy and Burden in Part 1370",
-      "received_date": "2026-09-15",
-      "rrid": "1535362",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1535362"
     },
     {
       "rin": "1210-AC21",
@@ -1198,15 +1144,6 @@
       "received_date": "2026-09-11",
       "rrid": "1530363",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1530363"
-    },
-    {
-      "rin": "0910-AG30",
-      "agency_code": "0910",
-      "agency": "HHS/FDA",
-      "title": "Sunlamp Products; Amendment to the Performance Standard",
-      "received_date": "2026-09-09",
-      "rrid": "1297064",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1297064"
     },
     {
       "rin": "0720-AB94",
@@ -1482,7 +1419,7 @@
       "rin": "0938-AV99",
       "agency_code": "0938",
       "agency": "HHS/CMS",
-      "title": "Patient Protection and Affordable Care Act; State Innovation Waivers and Health Care Choice Compacts (CMS-9877)",
+      "title": "Patient Protection and Affordable Care Act; State Innovation Waivers",
       "received_date": "2026-07-13",
       "rrid": "1462664",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1462664"
