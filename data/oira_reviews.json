@@ -1,7 +1,88 @@
 {
-  "generated_at": "2026-11-25T21:52:26Z",
-  "count": 180,
+  "generated_at": "2026-11-26T21:46:58Z",
+  "count": 182,
   "reviews": [
+    {
+      "rin": "3150-AL53",
+      "agency_code": "3150",
+      "agency": "NRC",
+      "title": "Modernizing Security Requirements [NRC-2025-1303]",
+      "received_date": "2026-11-25",
+      "rrid": "1602667",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1602667"
+    },
+    {
+      "rin": "0910-AJ13",
+      "agency_code": "0910",
+      "agency": "HHS/FDA",
+      "title": "Responsibilities of Sponsors and Investigators for Clinical Investigations of Human Drugs and Biological Products",
+      "received_date": "2026-11-25",
+      "rrid": "1612815",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1612815"
+    },
+    {
+      "rin": "1545-BS21",
+      "agency_code": "1545",
+      "agency": "TREAS/IRS",
+      "title": "Form 990 Fiscal Sponsorship Reporting",
+      "received_date": "2026-11-25",
+      "rrid": "1612814",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1612814"
+    },
+    {
+      "rin": "1901-AB79",
+      "agency_code": "1901",
+      "agency": "DOE/ENDEP",
+      "title": "Securing the United States Bulk-Power System; Implementation of Executive Order 14421",
+      "received_date": "2026-11-25",
+      "rrid": "1612615",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1612615"
+    },
+    {
+      "rin": "1557-AF14",
+      "agency_code": "1557",
+      "agency": "TREAS/OCC",
+      "title": "Anti-Money Laundering and Countering the Financing of Terrorism Program Requirements",
+      "received_date": "2026-11-25",
+      "rrid": "1610113",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1610113"
+    },
+    {
+      "rin": "3133-AG08",
+      "agency_code": "3133",
+      "agency": "NCUA",
+      "title": "Anti-Money Laundering and Countering the Financing of Terrorism Programs",
+      "received_date": "2026-11-25",
+      "rrid": "1612614",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1612614"
+    },
+    {
+      "rin": "3064-AF34",
+      "agency_code": "3064",
+      "agency": "FDIC",
+      "title": "Anti-Money Laundering and Countering the Financing of Terrorism Program Requirements",
+      "received_date": "2026-11-25",
+      "rrid": "1607673",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1607673"
+    },
+    {
+      "rin": "3235-AN66",
+      "agency_code": "3235",
+      "agency": "SEC",
+      "title": "Amendments to Investment Adviser Recordkeeping Rule",
+      "received_date": "2026-11-25",
+      "rrid": "1610112",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1610112"
+    },
+    {
+      "rin": "3064-ZA55",
+      "agency_code": "3064",
+      "agency": "FDIC",
+      "title": "Uniform Financial Institutions Rating System",
+      "received_date": "2026-11-25",
+      "rrid": "1599765",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1599765"
+    },
     {
       "rin": "0910-ZE11",
       "agency_code": "0910",
@@ -453,33 +534,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1599612"
     },
     {
-      "rin": "1557-AF52",
-      "agency_code": "1557",
-      "agency": "TREAS/OCC",
-      "title": "Regulatory Capital Rule: Category I and II Banking Organizations, Banking Organizations with Significant Trading Activity, and Optional Adoption for Other Banking Organizations",
-      "received_date": "2026-11-13",
-      "rrid": "1599615",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1599615"
-    },
-    {
-      "rin": "1557-AF49",
-      "agency_code": "1557",
-      "agency": "TREAS/OCC",
-      "title": "Regulatory Capital Rules: Regulatory Capital and Standardized Approach for Risk-weighted Assets",
-      "received_date": "2026-11-13",
-      "rrid": "1599614",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1599614"
-    },
-    {
-      "rin": "3064-AG23",
-      "agency_code": "3064",
-      "agency": "FDIC",
-      "title": "Regulatory Capital Rule: Regulatory Capital and Standardized Approach for Risk-weighted Assets",
-      "received_date": "2026-11-13",
-      "rrid": "1599617",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1599617"
-    },
-    {
       "rin": "0970-AD30",
       "agency_code": "0970",
       "agency": "HHS/ACF",
@@ -660,15 +714,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1591867"
     },
     {
-      "rin": "2040-AG31",
-      "agency_code": "2040",
-      "agency": "EPA/OW",
-      "title": "Water Quality Standards to Protect Human Health in Florida",
-      "received_date": "2026-11-03",
-      "rrid": "1589012",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1589012"
-    },
-    {
       "rin": "3235-AN48",
       "agency_code": "3235",
       "agency": "SEC",
@@ -730,15 +775,6 @@
       "received_date": "2026-11-02",
       "rrid": "1586013",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1586013"
-    },
-    {
-      "rin": "1902-AG31",
-      "agency_code": "1902",
-      "agency": "FERC",
-      "title": "Implementation of the Executive Order Entitled \"Zero-Based Regulatory Budgeting to Unleash American Energy\"",
-      "received_date": "2026-11-02",
-      "rrid": "1589015",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1589015"
     },
     {
       "rin": "0572-AC72",
@@ -1083,15 +1119,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1532865"
     },
     {
-      "rin": "1400-AG37",
-      "agency_code": "1400",
-      "agency": "STATE",
-      "title": "Reexport Retransfer Exemption and General Licenses",
-      "received_date": "2026-09-14",
-      "rrid": "1532867",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1532867"
-    },
-    {
       "rin": "2060-AW72",
       "agency_code": "2060",
       "agency": "EPA/OAR",
@@ -1281,15 +1308,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1500362"
     },
     {
-      "rin": "0648-BO54",
-      "agency_code": "0648",
-      "agency": "DOC/NOAA",
-      "title": "Streamlining the Regulations Governing the Review of Coastal Zone Management Programs",
-      "received_date": "2026-08-11",
-      "rrid": "1475165",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475165"
-    },
-    {
       "rin": "0970-AD43",
       "agency_code": "0970",
       "agency": "HHS/ACF",
@@ -1389,15 +1407,6 @@
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475164"
     },
     {
-      "rin": "1018-BI75",
-      "agency_code": "1018",
-      "agency": "DOI/FWS",
-      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
-      "received_date": "2026-07-22",
-      "rrid": "1475162",
-      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
-    },
-    {
       "rin": "0648-BN79",
       "agency_code": "0648",
       "agency": "DOC/NOAA",
@@ -1405,6 +1414,15 @@
       "received_date": "2026-07-22",
       "rrid": "1475166",
       "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475166"
+    },
+    {
+      "rin": "1018-BI75",
+      "agency_code": "1018",
+      "agency": "DOI/FWS",
+      "title": "Endangered and Threatened Wildlife and Plants; Interagency Cooperation",
+      "received_date": "2026-07-22",
+      "rrid": "1475162",
+      "detail_url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1475162"
     },
     {
       "rin": "0584-AF17",
